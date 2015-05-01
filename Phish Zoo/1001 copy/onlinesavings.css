@@ -1,0 +1,568 @@
+#primary {
+	float:left;
+	width:480px;
+	}
+#primary a.blue{
+	color: #36c;
+}
+#primary h2 {
+	margin: 0 0 10px 10px;
+	padding: 5px 0;
+}
+
+
+/*~~~~ Online Saver More Info only */
+#online_saver_more_info #main #content #primary {margin-top:17px;}
+
+#online_saver_more_info #main #content #primary h2.top {margin-bottom:10px; padding-bottom:0;} 
+
+#online_saver_more_info #main #content #primary p.top {margin-top:0; padding-top:0;}
+
+#online_saver_more_info #main #content #secondary {margin-top:10px; padding-top:0;}
+/*~~~~ end of Online Saver More Info only */
+
+
+
+/*~~~~ Online Saver Apply only */
+#online_saver_apply #main #content #primary {margin-top:17px;}
+
+#online_saver_apply #main #content #secondary {margin-top:10px; padding-top:0;}
+/*~~~~ end of Online Saver Apply only */
+
+
+/*~~~~ Online Saver Overview only */
+#online_saver_overview #main #content #secondary {margin-top:10px; padding-top:0;}
+/*~~~~ end of Online Saver Overview only */
+
+
+#primary p {
+	font-size: 85%;
+	padding: 5px 0;
+}
+#primary li {
+	font-size: 85%;
+}
+/*--SA OS1 LEFT CONTENT SECTION--*/
+#main #primary .column1, 
+#main #primary .column2 {
+	float:left;
+	margin:0;
+	margin-left: 10px;
+	padding:0;
+	width:240px;}
+/*#main #primary .column1 { background:transparent url(../images/content/sav_os_l3m_dline_w230.gif) no-repeat 11px 0px;}*/
+#main #primary .column1 h2,
+#main #primary .column2 h2 {
+	background:transparent url(../images/content/sav_os_l3m_dline_w230.gif) no-repeat;
+	margin:0;
+	padding:8px 0 0 0;
+	color:#f00;}
+
+#main #primary .overColumn1 {
+	float:left;
+	margin:0 0 0 0px;
+	padding:0;
+	width:220px;}
+
+#main #primary .overColumn2 {
+	float:left;
+	margin:0 0 0 20px;
+	padding:0;
+	width:220px;}
+
+/* START IE6 margin double-render hack */
+* html #main #primary .overColumn2 {margin:0 0 0 10px;}
+/* END IE6 margin double-render hack */
+#main #primary .overColumn1 h3, 
+#main #primary .overColumn2 h3{
+	color: #f00;
+	font-size: 120%;
+	margin: 0;
+	padding: 5px 10px 0 10px;
+}
+
+#main #primary .column1 h2, #main #primary .column2 h2,
+#main #primary .column1 p, #main #primary .column2 p {padding-right:20px; margin-top:0;}
+
+#main #primary .column1 p, #main #primary .column2 p { margin-left: 0; padding-left:2px;}
+
+#main #primary .column1 h2, #main #primary .column2 h2 {padding-bottom:0; margin-bottom:0; /*line-height:50%;*/}
+
+
+#main #primary .lineBoxTopHeader {
+	background: url(../images/homepage/box_line_double_top.gif) no-repeat top left !important;
+	height: 1px;
+	margin: 0 0 0 10px;
+	padding: 0;
+	width: 470px;}
+
+#main #primary .lineBoxTop {
+	background: url(../images/homepage/box_line_double_body.gif) repeat-y top left !important;
+	margin: 0 0 0 10px;
+	padding: 5px 0 0 0;
+	width: 470px;}
+	
+#main #primary .lineBoxBody {
+	width: 230px;
+	background:none !important;}
+
+#main #primary .lineBoxBody h3,
+#main #primary .lineBoxBody p {
+	border:none !important;
+	background:none ! important;}
+
+#main #primary .lineBoxBody p { margin: 0 10px; background:none !important;}
+#main #primary .lineBoxBottom {
+	background: url(../images/homepage/box_line_double_bottom.gif) no-repeat top left;
+	height: 5px;
+	margin: 0 0 0 10px;
+	width: 470px;}
+
+
+#main #primary .lineBoxBody ul {
+	list-style: none;
+	margin: 0 !important;
+	padding:0 0 0 12px !important;
+	font-size:85%;}
+
+#main #primary .lineBoxBody ul li {
+	list-style: none;
+	margin: 0 !important;
+	padding:0 !important;}
+
+
+#main #primary .underColumn {
+	margin: 0;
+	padding: 0;}
+#main #primary .underColumn p {
+	margin: 0 0 0 10px;
+	padding: 10px 0;}
+#main #primary .underColumn ul {
+	margin: 0 0 0 10px;
+	padding: 0;}
+#main #primary .underColumn li {
+	margin: 0 0 0 15px;
+	padding: 0;}
+/*-----------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------*/
+/*--SA OS RIGHT CONTENT SECTION--*/
+#content #secondary .sa_os_crw_contactOuterWrap,
+#content #secondary .sa_os_crw_find,
+#content #secondary .sa_os_crw_savingsCalcWrap,
+#content #secondary .sa_os_crw_savingsCalcForm,
+#content #secondary .sa_os_crw_pdfDownloadWrap,
+#content #secondary .sa_os_crw_furtherInfo,
+#content #secondary .sa_os_crw_ContentOutWrap {
+	width:240px;
+	margin:0;
+	padding:0;
+	float:left;}
+
+
+/*--CRW CONTACT--*/
+
+#content #secondary .sa_os_crw_contactOuterWrap {
+	
+	margin-bottom: 15px;}
+
+#content #secondary .sa_os_crw_contactWrap {
+	background: transparent url(../images/content/Button-arrow.gif) no-repeat;
+	padding:5px 0 15px 0;
+	position : relative;
+}
+
+#content #secondary .sa_os_crw_contactOuterWrap p {
+	margin:0;
+	padding: 0 12px 0 25px;
+	font-weight:bold;}
+	
+#content #secondary .sa_os_crw_contactOuterWrap p.sa_os_crw_contactLinks {
+	margin:0;
+	padding: 0px 12px 0 10px;
+	font-weight:bold;
+}
+
+#content #secondary .sa_os_crw_contactOuterWrap p.sa_os_crw_contactAltStyle {
+	padding: 10px 12px 10px 25px;
+	color:#ff0000;
+	font-size: 120%;}
+
+#content #secondary .sa_os_crw_contactOuterWrap p.sa_os_crw_contactLinks a {
+		
+	color:#ffffff;
+	font-size: 120%;}
+
+#content #secondary .sa_os_crw_contactOuterWrap p.sa_os_crw_contactLinks a:hover {
+	color: #000;
+}
+
+#content #secondary .sa_os_crw_contactOuterWrap .sa_on_CRW_ApplyDivLeft p {font-size: 120%; margin-bottom:5px;}
+	
+#content #secondary .sa_os_crw_contactOuterWrap .sa_on_CRW_ApplyDivLeft p span {font-size:65%;}
+
+#content #secondary .sa_os_crw_contactOuterWrap .sa_on_CRW_ApplyDivRight {
+	float:left;
+	width:60px;
+}
+
+#content #secondary .sa_os_crw_contactOuterWrap .sa_on_CRW_ApplyDivRight p{
+	margin:0 !important;
+	padding:0 !important;
+}
+
+/*--CRW FIND BRANCH --*/
+#content #secondary .sa_os_crw_find .boxOutlineTop
+{
+	background: url(../images/homepage/box_outline_top.gif) top left no-repeat #fff;
+	height: 4px;
+	width: 240px;
+}
+#content #secondary .sa_os_crw_find .boxOutlineBody
+{
+	background: url(../images/homepage/box_outline_body.gif) top left repeat-y #fff;
+	padding: 3px 0;
+	width: 240px;
+}
+#content #secondary .sa_os_crw_find .boxOutlineBottom
+{
+	background: url(../images/homepage/box_outline_bottom.gif) top left no-repeat #fff;
+	height: 4px;
+	width: 240px;
+}
+#content #secondary .sa_os_crw_find p.findLink
+{
+	margin:0;
+	padding: 0 12px 0 10px;
+	font-weight:bold;
+}
+#content #secondary .sa_os_crw_find p.findLink a
+{
+	background: transparent url(../images/homepage/arrow_grey.gif) no-repeat 0 3px;
+	padding-left:15px;
+}
+#content #secondary .sa_os_crw_contactOuterWrap p.findLink a:hover
+{
+	color: #000;
+}
+
+
+
+/*--CRW SAVING CALC--*/
+#content #secondary .sa_os_crw_savingsCalcWrap {
+	background:#999999 url(../images/content/btn_corn_tl_999999.gif) no-repeat top left;
+	margin:15px 0 33px 0;}
+
+#content #secondary .sa_os_crw_savingsCalcWrap h4 {
+	background:transparent url(../images/content/btn_corn_br_999999.gif) no-repeat bottom right;
+	margin:0 0 0 0;
+	font-size: 100%;
+	padding:5px 0 5px 11px;
+	color:#ffffff;}
+
+#content #secondary .sa_os_crw_savingsCalcForm {
+	background:#ffffff;
+	padding:10px 0 0 0;}
+
+#content #secondary .sa_os_crw_savingsCalcForm label {
+	float:left;	
+	width:99px;
+	padding:0 0 0 11px;
+	font-size:80%;
+	font-weight:bold;
+	margin-bottom:10px;}
+
+* html #content #secondary .sa_os_crw_savingsCalcForm label {
+	width:110px;}
+
+
+#content #secondary .sa_os_crw_savingsCalcForm input {
+	float:left;
+	width:89px;
+	margin-bottom:10px;}
+
+#content #secondary .sa_os_crw_savingsCalcForm .suppQs input {
+	width:64px;}
+#content #secondary .sa_os_crw_savingsCalcForm .symbol {
+	float: left;
+	margin: 2px 5px 0 5px;
+	width: 15px;}
+/* cross browser baseline alignment correction for IE6 and IE7 */
+* html #content #secondary .sa_os_crw_savingsCalcForm .symbol,
+*:first-child+html #content #secondary .sa_os_crw_savingsCalcForm .symbol {
+		margin: 4px 5px 0 5px;
+}
+#content #secondary .sa_os_crw_savingsCalcForm p {
+	float:left;
+	font-weight:bold;
+	font-size:95%;
+	margin:0;
+	padding:5px 0 5px 11px;}
+
+#content #secondary .sa_os_crw_savingsCalcForm .sa_osg_crw_scalc {
+	float:right;
+	/*margin:0 15px 0 0;*/
+	padding:0px;
+	background: url(../images/btn_cal_w_dgrey.gif);
+	width:75px;
+	height:22px;
+	border:none; 
+	cursor:pointer;}
+
+
+/*--CRW PDF DOWNLOAD--*/
+/*--CRW FURTHER INFORMATION--*/
+#content #secondary .sa_os_crw_ContentOutWrap {
+	background:#E9E7E8 url(../images/content/btn_corn_tr_cccccc.gif) no-repeat top right;
+	margin: 0 0 15px 0;
+	padding:5px 0 0 0;}
+
+#content #secondary .sa_os_crw_pdfDownloadWrap, 
+#content #secondary .sa_os_crw_furtherInfo {
+	background:transparent url(../images/content/btn_corn_br_e9e7e8.gif) no-repeat bottom right;}
+
+#content #secondary .sa_os_crw_pdfDownloadWrap, 
+#content #secondary .sa_os_crw_furtherInfo {
+	padding:0 0 10px 0;}
+
+#content #secondary .sa_os_crw_furtherInfo h4 {
+	font-size: 100%;
+	margin:0;
+	padding:5px 11px 5px 11px;
+	}
+
+#content #secondary .sa_os_crw_furtherInfo ul,
+#content #secondary .sa_os_crw_furtherInfo li {
+	list-style-type:none;
+	padding:0;
+	margin:0;}
+
+#content #secondary .sa_os_crw_furtherInfo li {
+	padding:0 0 3px 22px;
+	background:transparent url(../images/content/arrow_dgrey.gif) no-repeat 11px 3px;
+	font-size:90%;
+	}
+
+
+#content #secondary .sa_os_crw_pdfDownloadWrap p {
+	background:transparent url(../images/content/sav_os_l3o_icon_pdf.gif) no-repeat 11px 3px;
+	padding:0 0 0 60px;
+	font-size:110%;
+	}
+
+#content #secondary .sa_os_crw_pdfDownloadWrap p span{
+	font-size:80%;
+	}
+
+
+.normal {
+margin-top : -10px !important;
+font-weight : normal !important;
+}
+
+
+
+
+/*-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------*/
+/*--LEVEL ONE SAVINGS--*/
+#primaryCat {
+	width:470px;
+	float: left;}
+
+/*-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------*/
+/*--LEFT CONTENT TOP--*/
+#main #primaryCat p{
+	margin:0;
+	padding:0px 5px 2px 2px;
+	border: 0px solid red;}
+
+#main #primaryCat p.top {
+	margin:0;
+	padding:0px 0px 10px 10px;}
+	
+#primaryCat .featureitem {
+	clear: left;
+	width:490px;
+	margin:0 0 0 8px;
+	padding:5px 0px 0px 0px;
+	}	
+
+#content #primaryCat .featureitem h2{
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	font-weight:bold;
+	font-size:130%;}
+
+#content #primaryCat .featureitem h2 a{
+	color: #f00;
+	text-decoration: none;}
+
+#content #primaryCat .featureitem.withimage h2{
+	margin-left: 80px;
+	padding-left: 10px;}
+
+#main #primaryCat .featureitem p {	
+	width:310px;
+	float:left;}
+
+#main #primaryCat h2 {
+	font-size:110%;
+	padding:10px 0 1px 0;
+	margin:0;
+	color: #ff0000;
+	background: transparent url(../images/content/sav_l2_dline_w460.gif) left top no-repeat;}
+
+#main #primaryCat .contentPaddingAlt h2 {
+	background: none;}
+
+#main #primaryCat ul.buttons {
+	margin:0;
+	position: relative;	
+	float:right;
+	top: -15px;	
+	}
+	
+div.featureitem p {
+	width: auto !important;
+	padding: 0 180px 0 0 !important;
+	
+}
+
+#main #primaryCat .buttons li {
+	margin:0;
+	padding:0;
+	display: inline;
+	list-style-type: none;}
+
+/*-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------*/
+/*--LEFT CONTENT BOTTOM--*/
+#main #primaryCat .withimage img {
+	margin:0 5px 0 0; padding:0;
+	display: block;
+	float:left;}
+	
+#main #primaryCat .withimage div {
+	margin:0;
+	padding:0 0 0 0px;}
+
+#main #primaryCat .withimage div ul.buttons {
+	width: 104px;}
+
+#main #primaryCat .withimage ul.buttons a img {
+	margin: 0;
+	float: none;}
+
+#main #primaryCat .withimage div p {
+	margin:0;
+	width:240px;
+	text-align:left;
+	float:left;
+	padding-left: 10px;}
+
+/*-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------*/
+/*--RIGHT CONTENT--*/
+#secondary .sa_l1_crw_contact2Wrap,
+#secondary .sa_l1_crw_contact2OuterWrap,
+#secondary .sa_l1_crw_contact1Wrap,
+#secondary .sa_l1_crw_contact1OuterWrap,
+#secondary .sa_l1_crw_sectionRightImage,
+#secondary .sa_l1_crw_contactOuterWrap, 
+#secondary .sa_l1_crw_contactWrap {
+	width:240px;
+	margin:0;
+	padding:0;}
+
+#secondary .sa_l1_crw_contactOuterWrap {
+	background: #e8e8e8 url(../images/content/sav_os_l3_corn_tr_e9e8e8.gif) no-repeat top right;}
+
+#secondary .sa_l1_crw_contactWrap {
+	background: transparent url(../images/content/sav_l2_corn_br_e9e8e8.gif) no-repeat bottom right;}
+
+#secondary .sa_l1_crw_contactWrap h3{
+	font-size:125%;
+	line-height:90%; 
+	padding:9px 0 0px 10px;
+	color: #ff0000;
+	margin:0;}
+
+#secondary .sa_l1_crw_contactWrap p{
+	font-size:90%;
+	padding: 1px 0px 6px 10px;
+	margin:0;}
+
+#secondary .sa_l1_crw_sectionRightImage {
+	width:240px;}
+
+#secondary .sa_l1_crw_sectionRightImage p {
+	text-align:right;
+	margin: 20px -10px 0 0;}
+
+#secondary .sa_l1_crw_contact1OuterWrap {
+	background: #666666 url(../images/content/sav_l2_corn_tr_666666.gif) no-repeat top right;
+	margin-top: 5px;}
+
+#secondary .sa_l1_crw_contact1Wrap {
+	background: transparent url(../images/content/sav_l2_corn_br_666666.gif) no-repeat bottom right;}
+
+#secondary .sa_l1_crw_contact1Wrap a {
+	background:transparent url(../images/content/arrow_white.gif) no-repeat bottom right;
+	display:block;
+	margin-right:10px;
+	text-decoration: none;
+	color: #fff;
+	font-size:110%;}
+	
+#secondary .sa_l1_crw_contact1Wrap a:hover,
+#secondary .sa_l1_crw_contact1Wrap a:active {
+	color: #e9e9e9;}
+
+#secondary .sa_l1_crw_contact1Wrap p {
+	background: transparent url(../images/content/sav_l2_icon_01.gif) 8px 8px no-repeat;
+	padding:7px 0 10px 45px;}
+
+/*-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------*/
+/*--RIGHT CONTENT BOTTOM--*/
+#secondary .sa_l1_crw_contact2OuterWrap {
+	background-color: #f4f3f3;}
+
+#secondary .sa_l1_crw_contact2Wrap {
+	background-color: #f4f3f3;}
+	
+#secondary .sa_l1_crw_contact2Wrap h3 {
+	background: #adacac url(../images/grey_header_bottomright.gif) bottom right no-repeat;
+	font-size:100%;
+	padding: 0;
+	margin:0;
+	color: #ffffff;}
+	
+#secondary .sa_l1_crw_contact2Wrap h3 span {
+	display: block;
+	padding:5px;
+	background: transparent url(../images/grey_header_topleft.gif) left top no-repeat;}
+	
+#secondary .sa_l1_crw_contact2Wrap p {
+	margin:0;
+	padding:2px 11px 5px 11px;}
+	
+#secondary .sa_l1_crw_contact2Wrap h4 {
+	font-size: 100%;
+	margin:0;
+	padding:7px 11px 2px 11px;}
+
+#secondary .sa_l1_crw_contact2Wrap p.rightcontbottomimg_line, 
+#secondary .sa_l1_crw_contact2Wrap p.rightcontbottomimg {
+	padding-bottom:10px;
+	text-align:right;
+	background: transparent url(../images/content/sav_l2_dline_w226.gif) no-repeat bottom right;}
+
+#secondary .sa_l1_crw_contact2Wrap p.rightcontbottomimg {
+	background:none;}
+
+
+

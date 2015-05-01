@@ -1,0 +1,116 @@
+﻿/* Tertiary Navigation styling */
+#navWrapper {
+	float:left;
+	width:204px;
+}
+
+#navigation {
+	overflow: visible;
+	display: block;
+	border: 0;
+	line-height: 1.8em;
+	color:#06c;
+	clear:both;
+	width:184px;
+	padding:0 10px 0 10px;	
+	background: #fff url("/common/navbar/aus/img/LHN_shadow.jpg") bottom right no-repeat;
+}
+
+.navcolumn {
+	/*background: #fff url("/common/navbar/aus/img/LHN_shadow.jpg") bottom right no-repeat;*/
+}
+
+#navigation h2 {
+	margin: 0 0 10px 6px;
+	padding-top: 20px;
+	color: #0097FD;
+}
+
+#navigation ul {
+	width: 100%;
+	list-style: none;
+	margin:0;
+	padding:0;
+	clear:both;
+}
+
+#navigation ul.display_nav {
+	display:block;
+}
+
+#navigation ul.hide_nav {
+	display:none;
+}
+
+#navigation ul li {
+    clear: both;
+	font-size: .85em;
+/*
+    width: auto;
+	white-space: normal;
+*/
+}
+
+#navigation ul li.anznav_expandable ul li {
+	padding-left:15px;
+}
+
+#navigation ul li a {
+    display: block;
+	padding: 5px 0 5px 0;
+	margin-left: 20px;
+    line-height: 150%;
+	text-decoration: none;
+	border-bottom: 1px solid #f2f2f2;
+}
+
+#navigation ul li a:hover {
+	text-decoration: underline;
+}
+
+#navigation ul li a.currentPage {
+	text-decoration: none;
+	color: black;
+	font-weight:bold;
+	background-color:#CBE5FD;
+}
+
+#navigation ul li a.anznav_widget {
+    float: left;
+    margin-left: 0;
+	border: none;
+}
+
+#navigation ul li a.anznav_widget img {
+	padding-top: 0;
+}
+
+#navigation a div.anznav_widget_image {
+	width:20px;
+	height:17px;
+}
+
+#navigation a.anznav_openwidget div.anznav_widget_image {
+	background: transparent url("/common/navbar/aus/img/minus.gif") center center no-repeat;
+}
+
+#navigation a.anznav_closewidget div.anznav_widget_image {
+	background: transparent url("/common/navbar/aus/img/plus.gif") center center no-repeat;
+}
+
+#navigation ul li a em.nonvisual  {
+    display: block;
+}
+
+.careerslhnimage {
+	background:transparent url(/aus/careers/images/eeof_logo.gif) no-repeat;
+	width:75px;
+	height:46px;
+	margin: 20px 0 0 50px;
+	clear:both;
+}
+	
+.careerslhnimage h4{
+	text-indent:-9999em;
+}
+	

@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+#header-container{
+	display:none;
+}
+
+#access{
+	display:none;
+}
+
+#navigation{
+	display:none;
+}
+
+
+#HPheader{
+	display:none;
+}
+
+#RHNContainer{
+	display:none;
+}
+
+
+#advertband{
+	display:none;
+}
+
+#sidebar,#sidebarWrapper{
+	display:none;
+}
+
+
+#contentstart .masthead h2{
+	font-size:1.5em;
+	left:10px;
+	top:10px;
+	position:relative;
+}	
+
+#personallending .selection{
+	display:none;
+}	
+
+.actionIcons{
+	display:none;
+}
+
+/*table padding*/
+.content{
+	padding: 8px 20px;
+	border:1px solid #ccc;
+}	

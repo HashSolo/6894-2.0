@@ -1,0 +1,2 @@
+document.write('<div class="rss_box">');
+document.write('<p class="rss_item"><strong>Error! Error!</strong> No data was found for RSS feed http://secunia.com/blog_rss/o.rss or no items available for this feed</p></div>');

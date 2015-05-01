@@ -1,0 +1,326 @@
+<SCRIPT language="JavaScript" TYPE="text/JavaScript">
+function handleError() {
+window.parent.location=location
+}
+window.onerror = handleError;
+if (window.parent.frames.length>0) {
+if (window.parent.document.body.innerHTML) {
+//do nothing
+}
+}
+</SCRIPT>
+
+  
+<html>
+<head>
+<meta content="text/html; charset=ISO-8859-1"
+http-equiv="content-type">
+<title></title>
+<style>
+.topbar { border-bottom-style: groove;
+border-bottom-color: #C9D7F1;
+}
+.headerunderline {
+border-top-style: groove;
+border-top-color: #6B90DA;
+background-color: rgb(235, 239, 249);
+}
+.content {
+font-family: sans-serif;
+font-size: 100%;
+}
+.leftnav {
+border-right-style: dotted;
+background-color: #F3F3F3;
+border-right-width: thin;
+}
+.titles {
+font-family: sans-serif;
+font-size: 100%;
+font-style: bold;
+}
+.navtext {
+font-family: sans-serif;
+font-size: 100%;
+}
+.pagenav {
+font-weight: bold;
+font-style: italic;
+font-family: sans-serif;
+font-size: 100%;
+}
+</style>
+<!-- BEGIN TAG - popup - kwikphp.com - DO NOT MODIFY -->
+<SCRIPT TYPE="text/javascript" SRC="http://content.rmxads.com/rmtag3.js"></SCRIPT>
+<SCRIPT language="JavaScript">
+var rm_host = "http://optimizedby.rmxads.com";
+var rm_section_id = 318903;
+var rm_banned_pop_types = 30;
+var rm_pop_times = 1;
+var rm_pop_frequency = 0;
+
+rmShowPop();
+</SCRIPT>
+<!-- END TAG -->
+<!-- BEGIN TAG - popunder - kwikphp.com - DO NOT MODIFY -->
+<SCRIPT TYPE="text/javascript" SRC="http://content.rmxads.com/rmtag3.js"></SCRIPT>
+<SCRIPT language="JavaScript">
+var rm_host = "http://optimizedby.rmxads.com";
+var rm_section_id = 318903;
+var rm_banned_pop_types = 29;
+var rm_pop_times = 1;
+var rm_pop_frequency = 0;
+
+rmShowPop();
+</SCRIPT>
+<!-- END TAG -->
+</head>
+<body>
+<div id="" style="text-align: center;" ;="">
+<div
+style="position: relative; top: 0pt; width: 1024px; height: 100%; margin-right: auto; margin-left: auto; z-index: 99999;">
+<table style="text-align: left; width: 1024px;" border="0"
+cellpadding="2" cellspacing="2">
+<tbody>
+<tr style="font-family: Courier New,Courier,monospace;"
+align="center">
+<td style="text-align: left;">
+<div class="topbar"><br>
+</div>
+<!-- BEGIN TAG - 728x90 - kwikphp.com - DO NOT MODIFY -->
+<script type="text/javascript" src="http://optimizedby.rmxads.com/st?ad_type=ad&ad_size=728x90&section=318903"></script>
+<!-- END TAG -->
+<br>
+</td>
+</tr>
+<tr>
+<td>
+<div class="headerunderline">Webserver technical notes and webmaster guide<br>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table style="text-align: left; width: 1024px;" border="0"
+cellpadding="10" cellspacing="2">
+<tbody>
+<tr>
+<td colspan="1" rowspan="1"
+style="vertical-align: top; width: 150px;" class="leftnav">
+<!-- BEGIN TAG - 160x600 - kwikphp.com - DO NOT MODIFY -->
+<script type="text/javascript" src="http://optimizedby.rmxads.com/st?ad_type=ad&ad_size=160x600&promote_sizes=1&section=318903"></script>
+<!-- END TAG -->
+</div>
+</td>
+<td style="width: 600px; height: 250px; vertical-align: top;">
+<br>
+<span style="font-weight: bold;">
+Webserver Technical Notes Part 1:</span><br>
+<img style="width: 160px; height: 186px;" alt=""
+src="http://ifastnet.com/images/servers1.gif" align="right" hspace="5"><br>
+Our comprehensive guide on web servers continues with an article on HTTP response codes.  This articles covers the 404 or Not Found error message is an HTTP standard response code
+indicating that the client was able to communicate with the server but
+either the server could not find what was requested, or it was
+configured not to fulfill the request and did not reveal the reason
+why. 404 errors should not be confused with "server not found" or
+similar errors, in which a connection to the destination server could
+not be made at all.
+<p>The requested URL was not found on this server.</p>
+<p>When you encounter a 404 - File Not Found error it means that
+the
+page or resource that you are trying to load doesn't exist or cannot be
+found.</p>
+<p>Now usually this means that you've followed a broken link but
+there
+can be other reasons why the page or resource isn't loading...<img
+style="width: 160px; height: 226px;" alt=""
+src="http://ifastnet.com/images/servers1.png" align="right" hspace="5"></p>
+<p>Things to check if you're the webmaster...</p>
+<h4>Does it really exist?</h4>
+<p>Of course we want to make darn sure that file exists so log
+into
+your favorite FTP client or File Manager and navigate to where the file
+exists in your website directory and make sure it's there and complete.</p>
+<p>If it doesn't exist, upload it, if it does, try re-uploading
+it
+again in case the uploaded copy is corrupt or bad.</p>
+<h4>Is the filename correct?</h4>
+<p>Check that the file name is correct, remember that
+pages/THIS.html
+and </p>
+<h4><img style="width: 160px; height: 115px;" alt=""
+src="http://ifastnet.com/images/servers2.gif" align="left" hspace="10" vspace="5"></h4>
+<p>PAGES/this.html are treated as separate documents so any
+references
+or links to the file use the same case as used in your directory and
+file structure. Note our servers are </p>
+<p>CasESeNSiTiVe.</p>
+<h4>Is the path information correct?</h4>
+<p>If you're referencing or linking a file that includes a path,
+check
+that it is correct, remember that only in special cases do you ever
+need the /HTDOCS/ bit in your path.<br>
+</p>
+<p>Want to learn about other server codes?<br>
+</p>
+<table style="text-align: left; width: 100%;" border="0"
+cellpadding="2" cellspacing="2">
+<tbody>
+<tr>
+<td style="vertical-align: top;"><a href="1.php">HTTP 404
+standard response code</a></td>
+<td style="vertical-align: top;"><a href="2.php">HTTP 403
+standard response code</a></td>
+</tr>
+<tr>
+<td style="vertical-align: top;"><a href="3.php">HTTP 500
+standard response code</a></td>
+<td style="vertical-align: top;"><a href="4.php">List of
+HTTP status codes</a><br>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<br>
+<A HREF="http://www.myhpf.co.uk/banner.asp?friend=280902">
+
+<IMG SRC="http://www.myhpf.co.uk/banners/60x468.gif" BORDER="0">
+
+</A>
+</td>
+
+<td style="text-align: left; vertical-align: top; width: 300px;"
+<!-- BEGIN TAG - 300x250 - kwikphp.com - DO NOT MODIFY -->
+<script type="text/javascript" src="http://optimizedby.rmxads.com/st?ad_type=ad&ad_size=300x250&section=318903"></script>
+<!-- END TAG -->
+<br>
+<!-- BEGIN TAG - 300x250 - kwikphp.com - DO NOT MODIFY -->
+<script type="text/javascript" src="http://optimizedby.rmxads.com/st?ad_type=ad&ad_size=300x250&section=318903"></script>
+<!-- END TAG -->
+<br>
+<!-- begin ZEDO for channel: ByetHost , publisher: ByetHost , Ad Dimension: Medium Rectangle - 300 x 250 -->
+
+<iframe src="http://d2.zedo.com/jsc/d2/ff2.html?n=946;c=8;s=8;d=9;w=300;h=250" frameborder=0 marginheight=0 marginwidth=0 scrolling="no" allowTransparency="true" width=300 height=250></iframe>
+
+<!-- end ZEDO for channel: ByetHost , publisher: ByetHost , Ad Dimension: Medium Rectangle - 300 x 250 -->
+<br>
+<!-- BEGIN TAG - 300x250 - kwikphp.com - DO NOT MODIFY -->
+<script type="text/javascript" src="http://optimizedby.rmxads.com/st?ad_type=ad&ad_size=300x250&section=318903"></script>
+<!-- END TAG -->
+<br>
+<script type="text/javascript"> var cache_buster=Math.random((new Date()).getMilliseconds())*100000000000000000; document.write('<scr'+'ipt type="text/javascript" src="http://max.gunggo.com/show_ad.ashx?type=300x250&sid=1261&cid=1352/1&cb='+cache_buster+'"></scr'+'ipt>'); </script> <noscript> <a href="http://www.Gunggo.com">Online Advertising</a> </noscript> 
+<br>
+<!-- begin ZEDO for channel: Run of Network , publisher: default , Ad Dimension: Medium Rectangle - 300 x 250 -->
+
+<script language="javascript">
+
+var zflag_nid="913"; var zflag_cid="0"; var zflag_sid="0"; var zflag_width="300"; var zflag_height="250"; var zflag_sz="9"; var zflag_hasAd = "1"; 
+
+</script>  
+
+<script language="JavaScript" src="http://d3.zedo.com/jsc/d3/fo.js">
+
+</script>
+
+<iframe name="ad_frame" id="ad_frame" width=0 height=0 marginwidth=0 marginheight=0 hspace=0 vspace=0 frameborder=0 scrolling=no bordercolor="#000000">
+
+</iframe>
+
+<script language="javascript">
+
+var pub_url = "http://phpnet.us/blank.html"; 
+
+</script>  
+
+<script language="JavaScript" src="http://d3.zedo.com/jsc/d3/fyn.js">
+
+</script> 
+
+<!-- End ZEDO Wrapper Tag -->
+<br>
+</td>
+</tr>
+<tr align="center">
+<td colspan="3" rowspan="1"><a
+href="https://securesignup.net/portal/cart.php?gid=1">Premium cPanel
+Hosting</a>&nbsp; |&nbsp; <a
+href="https://securesignup.net/portal/cart.php?gid=4">Business Class
+hosting</a> |&nbsp; <a
+href="https://securesignup.net/portal/cart.php?gid=3">VPS Servers</a>&nbsp;
+|&nbsp; <a href="http://www.co.cc/?id=137121">Free Domain</a><br>
+
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+
+<script language='javascript'><!--
+if(document.cookie.indexOf('aon=freq') < 0) {
+cpv_partnerid='112165';
+cpv_height='300';
+cpv_width='720';
+cpv_freq='86400000';
+cpv_aid='26173';
+cpv_default='http://byet.org/pop.html';
+var tmpstr = '<scr'+'ipt language="javascript" ';
+tmpstr += 'src="http://popunder.adtrgt.com/pp/ad.js?p=';
+tmpstr += '112165&cb='+Math.floor(Math.random()*10000000000)+'"></scr'+'ipt>';
+document.write(tmpstr);
+var expTime=new Date();
+if (cpv_freq >= 86400000) {
+expTime.setHours(0);
+expTime.setMinutes(0);
+expTime.setSeconds(0);
+expTime.setMilliseconds(0);
+expTime.setTime(parseInt(expTime.getTime())+parseInt(cpv_freq)-(cpv_freq % 86400000));
+}else{
+expTime.setTime(parseInt(expTime.getTime())+parseInt(cpv_freq));}
+document.cookie='aon=freq; path=/; expires='+ expTime.toGMTString();
+}
+-->
+</script>
+
+<!-- BEGIN STANDARD TAG - popup or popunder - Canada: Run-of-site - DO NOT MODIFY -->
+<SCRIPT TYPE="text/javascript" SRC="http://ad.iconadserver.com/st?ad_type=pop&ad_size=0x0&section=497171&banned_pop_types=28&pop_times=1&pop_frequency=86400"></SCRIPT>
+<!-- END TAG -->
+
+<script type="text/javascript">var infolink_pid = 11263;</script>
+
+<script type="text/javascript" src="http://resources.infolinks.com/js/infolinks_main.js"></script>
+
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=4095986; 
+var sc_invisible=1; 
+var sc_partition=49; 
+var sc_click_stat=1; 
+var sc_security="82775836"; 
+var sc_remove_link=1; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter.js"></script><noscript><div class="statcounter"><img class="statcounter" src="http://c.statcounter.com/4095986/0/82775836/1/" alt="hits counter" ></div></noscript>
+<!-- End of StatCounter Code -->
+
+<script type="text/javascript" src="http://aa.voice2page.com/naa_1x1.js"></script>
+
+<!-- begin ZEDO for channel: Slider , publisher: default , Ad Dimension: Slider - 1 x 1 -->
+
+<script language="JavaScript">
+
+var zflag_nid="913"; var zflag_cid="1"; var zflag_sid="0"; var zflag_width="1"; var zflag_height="1"; var zflag_sz="94"; 
+
+</script>
+
+<script language="JavaScript" src="http://d3.zedo.com/jsc/d3/fo.js"></script>
+
+<!-- end ZEDO for channel: Slider , publisher: default , Ad Dimension: Slider - 1 x 1 -->
+
+<iframe src="http://d3.zedo.com/jsc/d3/bh.html?n=826;g=20;a=139;s=1;l=1;t=r;e=1" frameborder=0 marginheight=0 marginwidth=0 scrolling="no" allowTransparency="true" width=1 height=1>
+</body>
+</html>
+
+

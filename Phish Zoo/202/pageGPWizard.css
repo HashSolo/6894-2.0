@@ -1,0 +1,440 @@
+.wizard
+{
+	margin: 10px;
+	overflow: auto;
+	width: 760px;
+}
+.wizard input.button
+{
+	font: bold 12px arial;
+	height: 22px;
+	margin-top: 30px;
+	text-align: center;
+	text-decoration: none;
+	width: auto;
+}
+.wizard input.submit, .wizard a.submit
+{
+	background: #fcbb49 url(/WEBSCR-640-20100907-1/en_US/i/btn/btn_main_1x50.gif) repeat-x left top;
+	border: 1px solid #ff9900;
+	color: #fff;
+	margin-right: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.wizard input.alternative, .wizard a.alternative
+{
+	background: #bcbcbb url(/WEBSCR-640-20100907-1/en_US/i/btn/btn_cancel_1x50.gif) repeat-x left top;
+	border: 1px solid #acadaf;
+	color: #777;
+	margin-right: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.wizard .shadow-light
+{
+	background-color: #eaeaea;
+	border-right: 1px solid #f5f5f5;
+	border-bottom: 1px solid #f5f5f5;
+	float: left;
+	width: 599px;
+}
+.wizard .shadow-dark
+{
+	background-color: #c9c9c9;
+	border-right: 1px solid #dbdbdb;
+	border-bottom: 1px solid #dbdbdb;
+	position: relative;
+	left: -1px;
+	top: -1px;
+}
+.wizard .general
+{
+	background: #f3f3f3 url(/WEBSCR-640-20100907-1/en_US/i/scr/scr_wiz_tile_bg_1x70.gif) repeat-x;
+	border: 1px solid #e1e1e1;
+	border-right: 1px solid #b9b9b9;
+	border-bottom: 1px solid #b9b9b9;
+	padding: 20px 15px;
+	position: relative;
+	left: -1px;
+	top: -1px;
+}
+.wizard .general-standard
+{
+	background: #fff;
+	border: 1px solid #e1e1e1;
+	padding: 20px 15px;
+	float: left;
+	width: 568px;
+}
+.wizard .general-standard .shadow-light
+{
+	width: 566px;
+}
+.wizard .content
+{
+	background-color: #fff;
+	margin-top: 20px;
+	padding: 20px 15px;
+}
+.wizard .general-standard .content
+{
+	padding: 0;
+	margin-top: 0;
+}
+.wizard .content h3
+{
+	font: bold 14px Arial, Helvetica, sans-serif;
+	margin: 0 0 15px 0;
+}
+.wizard .general-standard .content h3
+{
+	font: bold 14px Arial, Helvetica, sans-serif;
+	margin: 0 0 15px 0;
+}
+.wizard .content ul
+{
+	margin-left: 25px;
+	padding: 0;
+}
+.wizard .content ul li
+{
+	padding-left: 5px;
+}
+.wizard .content ol
+{
+	margin-left: 30px;
+	padding: 0;
+}
+.wizard .content dl
+{
+	margin: 0;
+	overflow: auto;
+	width: 500px;
+}
+.wizard .content dt
+{
+	font-weight: bold;
+	float: left;
+	width: 150px;
+}
+.wizard .content dt span
+{
+	color: #777;
+	clear: left;
+	float: left;
+}
+.wizard .content dd
+{
+	float: left;
+	height: 100%;
+	padding-bottom: 20px;
+	width: 300px;
+}
+.wizard .content dd input
+{
+	clear: left;
+	float: left;
+}
+.wizard .content dd label
+{
+	float: left;
+	display: block;
+	margin-bottom: 10px;
+	margin-left: 8px;
+	width: 250px;
+}
+.wizard .faq
+{
+	background: #f3f3f3 url(/WEBSCR-640-20100907-1/en_US/i/scr/scr_wiz_faq_gr_1x145.gif) repeat-x;
+	border: 1px solid #e1e1e1;
+	border-left: 0;
+	float: right;
+	margin-top: 20px;
+	padding: 20px 10px 0 10px;
+	width: 139px;
+}
+
+.wizard .scrollfaqbox .faq
+{
+   height: 275px;
+   overflow: auto;
+
+}
+.wizard .faq h3
+{
+	font: bold 14px Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+.wizard .faq a
+{
+	color: #777;
+}
+.wizard .faq ul
+{
+	margin: 0;
+	padding: 0;
+}
+.wizard .faq li
+{
+	list-style-type: none;
+	margin: 20px 0 20px 0;
+}
+#progressMeter
+{
+	width: 100%;
+	overflow: auto;
+}
+#xptTitle
+{
+	margin-bottom: 20px;
+}
+#settings-detail
+{
+	display: block;
+	margin-top: 20px;
+}
+#settings-change
+{
+	display: none;
+	margin-top: 20px;
+}
+.wizard .content dl.view-settings
+{
+	margin: 0;
+	overflow: auto;
+	width: 566px;
+}
+.wizard .content dl.view-settings dt
+{
+	color: #777;
+	font-weight: normal;
+	float: left;
+	text-align: right;
+	width: 180px;
+}
+.wizard .content dl.view-settings dd
+{
+	float: left;
+	height: 100%;
+	padding-bottom: 20px;
+	margin-left: 10px;
+	width: 320px;
+}
+.wizard .content dl.question-settings
+{
+	margin: 0;
+	overflow: auto;
+	width: 534px;
+}
+.wizard .content dl.question-settings dt
+{
+	color: #000;
+	font-weight: normal;
+	float: left;
+	text-align: right;
+	width: 235px;
+}
+.wizard .content dl.question-settings dt span
+{
+	color: #777;
+	clear: left;
+	float: right;
+}
+.wizard .content dl.question-settings dd
+{
+	float: left;
+	height: 100%;
+	padding-bottom: 20px;
+	margin-left: 10px;
+	width: 235px;
+}
+.wizard .content dl.question-settings dd input
+{
+	clear: left;
+	float: left;
+}
+.wizard .content dl.question-settings dd label
+{
+	float: left;
+	display: block;
+	margin-bottom: 10px;
+	margin-left: 8px;
+	width: 200px;
+}
+.wizard .content dl.view-settings dd input.button
+{
+	font: bold 12px arial;
+	height: 22px;
+	margin: 5px 0 0 -10px;
+	text-align: center;
+	width: auto;
+}
+.wizard .content dl.view-settings dd a.button
+{
+	font: bold 12px arial;
+	margin: 0;
+	padding: 2px 15px;
+	text-align: center;
+	text-decoration: none;
+	width: auto;
+}
+.wizard #settings-change input.submit
+{
+	margin-left: 250px;
+}
+.wizard #settings-detail a.change-link
+{
+	margin-left: 260px;
+}
+.wizard .content dl.view-settings dd table thead td
+{
+	font-weight: bold;
+}
+.wizard .content dl.view-settings dd table {
+border-bottom: 1px solid #aaa;
+}
+.wizard .content dl.view-settings dd table td
+{
+	border-top: 1px solid #aaa;
+	padding: 3px;
+	font-size:11px;
+}
+.wizard .content dl.view-settings dd table tr.table-footer td
+{
+	color: #777;
+	white-space: nowrap;
+}
+.wizard .content, .wizard .faq
+{
+/*	font: normal 11px Arial, Helvetica, sans-serif;*/
+	font: normal 11px verdana,arial,helvetica,sans-serif;
+}
+/*Transaction Details Begin*/
+div#xptContentMain div#transGPPPToShip {
+border:1px solid #8bc558;
+font-family:verdana;
+margin:10px 0;
+padding-bottom:5px; 
+}
+
+div#transGPPPNotToShip, div#transGPPPHold {
+border:1px solid #c3cb37;
+font-family:verdana;
+margin:10px 0;
+padding-bottom:5px;
+}
+div#transGPPPHold {
+padding-bottom:0;
+background-color:#f9f9cf;
+}
+
+div#transGPPPToShip h3, div#transGPPPNotToShip h3{
+display:inline;
+padding-left:5px;
+position:relative;
+top:-8px;
+}
+div#transGPPPHold h3 {
+padding:5px 0 0 5px;
+}
+
+div.innerShippingAdd {
+background-color:#fff;
+}
+
+div#transGPPPToShip table, div#transGPPPNotToShip table{
+border-collapse:collapse;
+font-size:11px;
+width:100%;
+text-align:left;
+}
+
+div#xptContentMain div#transGPPPToShip table thead tr td{ 
+background-color:#e9f3df; color:#000;
+}
+div#xptContentMain div#transGPPPNotToShip table thead tr td{
+background-color:#f9f9cf; color:#000;
+}
+div#xptContentMain div#transGPPPHold table thead tr td {
+background-color:#f9f9cf; color:#000;
+width:600px;_padding-top:5px;
+}
+div#transGPPPToShip table tbody tr td , div#transGPPPNotToShip table tbody tr td {
+background-color:#fff; color:#000;
+}
+
+div#transGPPPToShip table thead td {
+height:30px;
+padding:5px;
+}
+div#transGPPPToShip table td.firstCol, div#transGPPPNotToShip table td.firstCol{
+/*  width:299px; */width:60%;font-weight:normal;padding:5px;vertical-align:top;
+}
+div#transGPPPToShip table thead td.firstCol, div#transGPPPNotToShip table thead td.firstCol  {
+padding-left:10px;
+}
+div#transGPPPToShip table thead td.secondCol {
+text-align:right;
+}
+div#transGPPPToShip table td.secondCol, div#transGPPPNotToShip table td.secondCol{
+/*width:299px;*/ width:40%;font-weight:normal;padding:5px;
+text-align:right; 
+}
+div#transGPPPToShip table td.secondColDesc, div#transGPPPNotToShip table td.secondColDesc  {
+padding:10px;
+text-align:left; 
+vertical-align:top;
+}
+div#transGPPPToShip table tbody td.firstCol, div#transGPPPNotToShip table tbody td.firstCol{
+padding:10px;
+padding-left:10px;
+}
+div#transGPPPToShip table td  ul, div#transGPPPNotToShip table td  ul {
+padding:3px 14px;
+_padding:3px 14px;
+margin:0;
+}
+table td.transReason {
+padding:0 3px 3px 5px;
+font-size:12px;
+}
+table td.transDescr,table td.transShipAdd {
+padding-left:5px;
+padding-right:3px;
+padding-top:10px;
+font-size:11px;
+}
+table td.transShipAdd, table td p.transShipAdd {
+padding-left:20px;
+}
+
+p#commonFnote {
+padding-left:10px;
+}
+/*Transaction Details End*/
+
+
+
+/* Non - Modal Dialog box for esp eligiblity */
+
+.yui-panel-container {position:absolute; z-index:15; visibility:hidden; overflow:visible; width:440px; background-color:transparent;}
+.dialog .yui-panel .header, .dialog .yui-panel .header * {margin:0; padding:0; background-color:#fff; font-size:1.1em; font-weight:bold;}
+.dialog .yui-panel .header * {padding-bottom:.3em; background:url(/WEBSCR-640-20100907-1/en_US/i/pui/lightbox/hdr_bg.gif) bottom left repeat-x; color:#c88039; font-size:1.2em;}
+.dialog .yui-panel .body {overflow:hidden; margin-bottom:20px;font-size: 12px;color:#333333;}
+.dialog .yui-panel .body p {margin:1em 0;}
+.dialog .yui-panel .body .buttons {text-align:right;}
+.dialog .yui-panel .footer {border-top:1px solid #dedede; padding:8px 0 12px 0; color:#757575; font-size:11px;}
+.dialog .yui-panel .footer .paypal {display:block; float:left; width:49px; height:15px; margin-right:.5em; background:url(/WEBSCR-640-20100907-1/en_US/i/pui/lightbox/logo.gif) 0 0 no-repeat;}
+.dialog .yui-panel .footer .paypal span {display:block; position:absolute; top:0; left:-500em; width:1px; height:1px; overflow:hidden; text-indent:-9999em; line-height:0;}
+.dialog .yui-panel .footer .secure {margin-bottom:4px; padding-left:15px; background:url(/WEBSCR-640-20100907-1/en_US/i/pui/lightbox/icon_lock.gif) 2px 50% no-repeat;}
+.dialog .yui-panel .close {position:absolute; top:5px; right:5px; z-index:6; visibility:inherit; width:15px; height:15px; margin:0; padding:0; background-repeat:no-repeat; cursor:pointer;}
+.dialog .yui-panel .close.nonsecure {background-image:url(/WEBSCR-640-20100907-1/en_US/i/pui/lightbox/close.gif);}
+.dialog .yui-panel .close.secure {background-image:url(/WEBSCR-640-20100907-1/en_US/i/pui/lightbox/close.gif);}
+.dialog .yui-panel .body .nonmodalHeader{padding-bottom: 10px;}
+.nonmodaldialog {text-decoration:none;border-bottom:1px dashed;}
+
+/* style is added to hide the "Close" anchor link placed in non modal dailog */
+a.container-close {visibility:hidden;}
+
+/* Non - Modal Dialog box for esp eligiblity */

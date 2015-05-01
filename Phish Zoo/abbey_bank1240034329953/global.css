@@ -1,0 +1,222 @@
+.hidden {
+	LEFT: 0px; OVERFLOW: hidden; WIDTH: 1px; POSITION: absolute; TOP: -500px; HEIGHT: 1px
+}
+.navigation {
+	BACKGROUND-COLOR: #ececec
+}
+.mainbody {
+	BACKGROUND-COLOR: #ffffff
+}
+.pagebackground {
+	BACKGROUND-COLOR: #dbdbdb
+}
+.whitebg {
+	FONT-WEIGHT: bold; COLOR: black; BACKGROUND-COLOR: white; TEXT-DECORATION: none
+}
+.navigationpanelbackground {
+	BACKGROUND-COLOR: #f2f1ef
+}
+.abbeycolor {
+	BACKGROUND-COLOR: #ff0000
+}
+.logongreycolor {
+	BACKGROUND-COLOR: #969696
+}
+.leftmenucell {
+	FONT-WEIGHT: bold; COLOR: black; FONT-FAMILY: arial; TEXT-DECORATION: none
+}
+.pagetitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 102%; COLOR: black; FONT-FAMILY: arial; TEXT-DECORATION: none
+}
+.largepagetitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 132%; COLOR: black; FONT-FAMILY: arial; TEXT-DECORATION: none
+}
+.standardboldpagefont {
+	FONT-WEIGHT: bold
+}
+.standardpagefont {
+	FONT-SIZE: 72%; COLOR: black; FONT-FAMILY: arial; TEXT-DECORATION: none
+}
+.redpagefont {
+	FONT-WEIGHT: normal; FONT-SIZE: 72%; COLOR: red; FONT-FAMILY: arial; TEXT-DECORATION: none
+}
+.boldpagefont13 {
+	FONT-WEIGHT: bold; FONT-SIZE: 75%; COLOR: black; FONT-FAMILY: arial; TEXT-DECORATION: none
+}
+.pagefont13 {
+	FONT-SIZE: 75%; COLOR: black; FONT-FAMILY: arial; TEXT-DECORATION: none
+}
+.redboldpagefont {
+	FONT-WEIGHT: bold; COLOR: red; FONT-FAMILY: arial; TEXT-DECORATION: none
+}
+.largeboldredpagefont {
+	FONT-WEIGHT: bold; FONT-SIZE: 92%; COLOR: red; FONT-FAMILY: arial; TEXT-DECORATION: none
+}
+.solidlinebottom {
+	BORDER-TOP: black 1px solid; FONT-SIZE: 3px; HEIGHT: 1px
+}
+.solidlinetop {
+	BORDER-TOP: black 1px solid; FONT-SIZE: 3px; HEIGHT: 1px
+}
+.greentextlink {
+	FONT-WEIGHT: bold; COLOR: #6285ad; FONT-FAMILY: arial; TEXT-DECORATION: underline
+}
+.embeddedgreentextlink {
+	FONT-WEIGHT: bold; FONT-SIZE: 100%; COLOR: #6285ad; FONT-FAMILY: arial; TEXT-DECORATION: underline
+}
+.redpagefontunderlined {
+	FONT-SIZE: 72%; COLOR: red; FONT-FAMILY: arial; TEXT-DECORATION: underline
+}
+.formnomargin {
+	MARGIN: 0px
+}
+.menulink {
+	FONT-WEIGHT: normal; FONT-SIZE: 72%; COLOR: black; TEXT-DECORATION: none
+}
+.menulinkunderline {
+	FONT-WEIGHT: normal; FONT-SIZE: 72%; COLOR: black; TEXT-DECORATION: underline
+}
+A.menulink:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 72%; COLOR: black; TEXT-DECORATION: underline
+}
+.menulinkClicked {
+	FONT-WEIGHT: bold; FONT-SIZE: 72%; COLOR: #ff0000; TEXT-DECORATION: none
+}
+.hmenulink {
+	FONT-WEIGHT: bold; FONT-SIZE: 72%; COLOR: black; TEXT-DECORATION: none
+}
+A.hmenulink:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 72%; COLOR: black; TEXT-DECORATION: underline
+}
+.hmenulinkClicked {
+	FONT-WEIGHT: bold; FONT-SIZE: 72%; COLOR: #ff0000; TEXT-DECORATION: none
+}
+.privlink {
+	FONT-WEIGHT: bold; FONT-SIZE: 100%; COLOR: black; TEXT-DECORATION: none
+}
+.redlinebottom {
+	BORDER-BOTTOM: red 2px solid
+}
+.redlinetop {
+	BORDER-TOP: red 2px solid
+}
+.redlineleft {
+	BORDER-LEFT: red 2px solid
+}
+.redlineright {
+	BORDER-RIGHT: red 2px solid
+}
+.redlinetoprightcorner {
+	BORDER-RIGHT: red 2px solid; BORDER-TOP: red 2px solid
+}
+.redlinetopleftcorner {
+	BORDER-TOP: red 2px solid; BORDER-LEFT: red 2px solid
+}
+.redlinebottomrightcorner {
+	BORDER-RIGHT: red 2px solid; BORDER-BOTTOM: red 2px solid
+}
+.redlinebottomleftcorner {
+	BORDER-LEFT: red 2px solid; BORDER-BOTTOM: red 2px solid
+}
+.bottommenulink {
+	FONT-SIZE: 70%; COLOR: black; TEXT-DECORATION: none
+}
+A.bottommenulink:hover {
+	FONT-SIZE: 70%; TEXT-DECORATION: underline
+}
+.bottommenulinkClicked {
+	FONT-SIZE: 70%; TEXT-DECORATION: none
+}
+.whitetext {
+	FONT-SIZE: 92%; COLOR: white; FONT-FAMILY: arial; TEXT-DECORATION: none
+}
+.white_menu_link {
+	FONT-SIZE: 72%; COLOR: white; FONT-FAMILY: arial; TEXT-DECORATION: none
+}
+A.white_menu_link:hover {
+	FONT-SIZE: 72%; COLOR: white; TEXT-DECORATION: underline
+}
+.logofont {
+	FONT-WEIGHT: bold; FONT-SIZE: 20px; COLOR: black; FONT-FAMILY: arial
+}
+.topborder {
+	BORDER-TOP: #6599ff thin dotted
+}
+.contenttitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 102%; COLOR: black; TEXT-DECORATION: none
+}
+.subcontenttitle {
+	FONT-WEIGHT: bolder; FONT-SIZE: 82%; TEXT-DECORATION: none
+}
+.contenttitlenonbold {
+	FONT-WEIGHT: bold; FONT-SIZE: 102%; COLOR: black; TEXT-DECORATION: none
+}
+.largercontenttitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 142%; COLOR: black; TEXT-DECORATION: none
+}
+.emptyline {
+	FONT-SIZE: 1px; HEIGHT: 15px
+}
+.blackrow {
+	BORDER-TOP: black 1px solid; FONT-SIZE: 3px; HEIGHT: 1px
+}
+.blackrowbottom {
+	FONT-SIZE: 3px; BORDER-BOTTOM: black 1px solid; HEIGHT: 1px
+}
+.blackbottomrowcontent {
+	FONT-WEIGHT: normal; BORDER-BOTTOM: black 1px solid
+}
+.redstar {
+	FONT-WEIGHT: bold; FONT-SIZE: 19px; COLOR: #ff0000
+}
+.error {
+	FONT-WEIGHT: bold; COLOR: #ff0000
+}
+.navlinkunderlined {
+	FONT-WEIGHT: bold; COLOR: #000; TEXT-DECORATION: none
+}
+.navlinkunderlinednonboldhover {
+	FONT-WEIGHT: normal; COLOR: #000; TEXT-DECORATION: underline
+}
+.navlinkunderlinednonbold {
+	FONT-WEIGHT: normal; COLOR: #000; TEXT-DECORATION: none
+}
+A.navlinkunderlined:hover {
+	COLOR: #000; TEXT-DECORATION: underline
+}
+A.navlinkunderlinednonbold:hover {
+	FONT-WEIGHT: normal; COLOR: #000; TEXT-DECORATION: underline
+}
+BODY {
+	FONT-FAMILY: arial; BACKGROUND-COLOR: #ffffff
+}
+.blackbottomline {
+	FONT-WEIGHT: normal; BORDER-BOTTOM: #000000 1px solid
+}
+.boldblackbottomline {
+	FONT-WEIGHT: bold; BORDER-BOTTOM: #000000 1px solid
+}
+.greyboldbottomrow {
+	FONT-WEIGHT: bold; BORDER-BOTTOM: #cccccc 1px solid
+}
+.greyboldtoprow {
+	BORDER-TOP: #cccccc 1px solid; FONT-WEIGHT: bold
+}
+.greybottomrow {
+	FONT-WEIGHT: normal; BORDER-BOTTOM: #cccccc 1px solid
+}
+.greytoprow {
+	BORDER-TOP: #cccccc 1px solid; FONT-WEIGHT: normal
+}
+.greypagecopy {
+	FONT-WEIGHT: normal; COLOR: #777777; TEXT-DECORATION: none
+}
+.greycopytoprow {
+	BORDER-TOP: #cccccc 1px solid; FONT-WEIGHT: normal; COLOR: #777777; TEXT-DECORATION: none
+}
+.skiplink {
+	FONT-SIZE: 1px; COLOR: #dedfde
+}
+.hyperlinks {
+	FONT-WEIGHT: bold; COLOR: #6285ad; TEXT-DECORATION: underline
+}

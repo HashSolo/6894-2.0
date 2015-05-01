@@ -1,0 +1,1 @@
+document.write('<a target="_top" href="http://ad.doubleclick.net/click;h=v8/379d/0/0/%2a/y;209735432;0-0;2;17564804;19008-520/70;29567912/29585791/1;;~sscs=%3fhttp://altfarm.mediaplex.com/ad/ck/3484-66832-8030-235"><img src="https://securepics.ebaystatic.com/paypal/site/us/imgHoliday08GreatDealsV4_520x70.gif" border=0 alt="Click here to learn more"></a>');

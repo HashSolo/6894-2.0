@@ -1,0 +1,111 @@
+body, td {
+  font-family: "Trebuchet MS", Verdana, Arial, Sans-serif;
+  font-size: 12pt;
+  color: #000000;
+}
+
+.indent {
+  text-indent: 20px;
+}
+
+.outdent {
+  margin-left: 20px;
+  text-indent: -20px;
+}
+
+h1 {
+  font-size: 14pt;
+  color: #000000;
+}
+
+h2 {
+  font-size: 12pt;
+  color: #555555;
+  font-style: italic;
+}
+
+.nobottommargin {
+  margin-bottom: 0;
+}
+
+a:link {
+  text-decoration: underline;
+  color: #00618e;
+}
+
+a:visited {
+  text-decoration: underline;
+  color: #603573;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+  color: red;
+}
+
+.fine_print {
+  font-size: 8pt;
+  color: #000000;
+}
+
+.linktable:link, .linktable:visited {
+  text-decoration: none;
+}
+
+.linktable A {
+  text-decoration: none;
+}
+.linktable TD {
+  font: 9pt Arial, Helvetica, sans-serif;
+}
+
+.topbar, .topbar:link, .topbar:visited {
+  font-weight: bold;
+  text-decoration: none;
+  color: #D8EECC;
+  background: #AF210D;
+}
+
+.topbar:hover, topbar:active {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  background: #AF210D;
+}
+
+.formfield {
+  text-decoration: none;
+  background: #ffffff;
+  color: #AF210D;
+}
+
+.green_on_red {
+  color: #D8EECC;
+  background: #AF210D;
+}
+
+.black_on_green {
+  color: #000000;
+  background: #D8EECC;
+}
+
+.blue_on_green {
+  color: #0F77AA;
+  background: #D8EECC;
+}
+
+.red {
+  color: #AF210D;
+}
+
+.green {
+  color: #D8EECC;
+}
+
+.blue {
+  color: #0F77AA;
+}
+
+.dash-vertical { 
+  background-image: url("/img/dash-vertical.gif");
+}

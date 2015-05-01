@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<style type="text/css">
+          .topShadow {
+            background-image: url(http://www.gstatic.com/sites/p/598433/system/app/pages/meta/domainWelcome/tShad.gif);
+            background-repeat: repeat-x;
+            width: 80%;
+          }
+          .welcome {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            color: #666666;
+            text-align: center;
+            padding-top: 0px;
+            padding-: 10px;
+            padding-bottom: 0px;
+            padding-: 95px;
+          }
+          .siteName {
+            font-size: 36px;
+            font-weight: bold;
+            color: #2461aa;
+          }
+          a {
+            color: 0000ee;
+          }
+          .topPadding {
+            padding-top: 75px;
+          }
+          .footerText {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            color: #666666;
+            background-position: center;
+            text-align: center;
+            padding-top: 5px;
+            padding-: 10px;
+            padding-: 10px;
+          }
+          .rightShadow {
+            background-image: url(http://www.gstatic.com/sites/p/598433/system/app/pages/meta/domainWelcome/rShad.gif);
+            background-repeat: repeat-y;
+          }
+          .bottomShadow {
+            background-image: url(http://www.gstatic.com/sites/p/598433/system/app/pages/meta/domainWelcome/bShad.gif);
+            background-repeat: repeat-x;
+          }
+          .leftShadow {
+            background-image: url(http://www.gstatic.com/sites/p/598433/system/app/pages/meta/domainWelcome/lShad.gif);
+            background-repeat: repeat-y;
+          }
+          .lTopCorner {
+            background-image: url(http://www.gstatic.com/sites/p/598433/system/app/pages/meta/domainWelcome/lTopCorner.gif);
+            background-repeat: no-repeat;
+          }
+          .rTopCorner {
+            background-image: url(http://www.gstatic.com/sites/p/598433/system/app/pages/meta/domainWelcome/rTopCorner.gif);
+            background-repeat: no-repeat;
+          }
+          .lBotCorner {
+            background-image: url(http://www.gstatic.com/sites/p/598433/system/app/pages/meta/domainWelcome/lBotCorner.gif);
+            background-repeat: no-repeat;
+          }
+          .rBotCorner {
+            background-image: url(http://www.gstatic.com/sites/p/598433/system/app/pages/meta/domainWelcome/rBotCorner.gif);
+            background-repeat: no-repeat;
+          }
+        </style>
+<title>Welcome to paypal-financial.com</title>
+</head>
+<body>
+<table width="70%" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr>
+<td colspan="5"><img src="domainWelcome/googApps.png" height="52" width="152" class="topPadding" /></td>
+</tr>
+<tr>
+<td class="lTopCorner"><img src="domainWelcome/s.gif" height="11" width="13" /></td>
+<td width="90%" class="topShadow"><img src="domainWelcome/s.gif" height="1" width="1" /></td>
+<td class="topShadow"><img src="domainWelcome/s.gif" height="1" width="77" /></td>
+<td width="14" class="rTopCorner"><img src="domainWelcome/s.gif" height="11" width="14" /></td>
+<td width="65"><img src="domainWelcome/s.gif" height="1" width="65" /></td>
+</tr>
+<tr>
+<td width="13" class="leftShadow"><img src="domainWelcome/s.gif" height="1" width="1" /></td>
+<td><p align="center" class="welcome">Welcome to<br />
+<span class="siteName">paypal-financial.com</span></p></td>
+<td colspan="3" align="right"><img src="domainWelcome/siteLogo.png" height="162" width="156" /></td>
+</tr>
+<tr>
+<td class="leftShadow"><img src="domainWelcome/s.gif" height="1" width="1" /></td>
+<td><img src="domainWelcome/s.gif" height="1" width="1" /></td>
+<td width="77"><img src="domainWelcome/s.gif" height="1" width="1" /></td>
+<td class="rightShadow"><img src="domainWelcome/s.gif" height="1" width="1" /></td>
+<td><img src="domainWelcome/s.gif" height="1" width="1" /></td>
+</tr>
+<tr>
+<td width="13" class="lBotCorner"><img src="domainWelcome/s.gif" height="12" width="1" /></td>
+<td colspan="2" class="bottomShadow"><img src="domainWelcome/s.gif" height="1" width="1" /></td>
+<td class="rBotCorner"><img src="domainWelcome/s.gif" height="12" width="14" /></td>
+<td><img src="domainWelcome/s.gif" height="1" width="1" /></td>
+</tr>
+<tr>
+<td colspan="4" class="footerText">If you are the domain administrator <a href="/a/paypal-financial.com/sites/system/app/pages/meta/dashboard/create-new-site?provision=1">get started creating your home page with Google Sites</a></td>
+<td></td>
+</tr>
+</table>
+</body>
+</html>

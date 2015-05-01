@@ -1,0 +1,460 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>QIP.RU: почта, поиск, новости, знакомства, работа, игры и развлечения</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="скачать qip почта поиск работа звонки знакомства анекдоты открытки игры рефераты блоги" />
+<meta name="description" content="QIP.RU - новости и развлечения. Сайт объединяет в себе все необходимые пользователям сервисы: почту, поиск, знакомства, хранение данных: фото, видео, файлов, а так же широкий спектр различных онлайн игр." />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" title="QIP Search" href="/opensearch.xml" />
+<link rel="stylesheet" href="/skin/common.css?202" type="text/css" />
+<link rel="stylesheet" href="/skin/style_new_main.css?202" type="text/css" />
+<script src="/js/main.js?202" type="text/javascript"></script>
+<script src="/js/JsHttpRequest.js" type="text/javascript"></script>
+<script src="/js/suggest.min2.js" type="text/javascript"></script>
+<script type="text/javascript"><!--
+window.weather_url = '/blocks/weather';
+window.weather_code = '27612';
+window.login_url = 'http://api.qip.ru/api/test';
+window.base_url = '/';
+window.reload_personal_url = 'http://qip.ru/blocks/reloadPersonal';
+window.menu_data = {internet:{url:'http://search.qip.ru/search', qname:'query', redir:0, callback: su},photo:{url:'http://search.photo.qip.ru/', qname:'query', redir:0, callback: ds},video:{url:'http://search.video.qip.ru/', qname:'query', redir:0, callback: ds},maps:{url:'http://maps.qip.ru/', qname:'query', redir:1, callback: ds},file:{url:'http://search.file.qip.ru/', qname:'query', redir:0, callback: ds},blogs:{url:'http://blogs.search.qip.ru/', qname:'query', redir:1, callback: ds},job:{url:'http://job.qip.ru/vac.shtml', qname:'words', redir:1, callback: ds},refer:{url:'http://referats.qip.ru/referats/search/', qname:'query', redir:1, callback: ds},magna:{url:'http://magna.qip.ru/', qname:'q', redir:1, callback: ds},kards:{url:'http://post.kards.qip.ru/search/index/?search_type=all', qname:'search_text', redir:1, callback: ds},memori:{url:'http://memori.qip.ru/searchall/?searchwhere=searchall', qname:'search', redir:1, callback: ds},games:{url:'http://games.qip.ru/search/?section=section_games', qname:'s', redir:1, callback: ds},humor:{url:'http://ziza.qip.ru/index.php?do=search&subaction=search', qname:'story', redir:1, callback: ds}};
+window.active_name = 'internet';
+function def_params()
+{
+	var form = document.forms['search_form'];
+	window.active = {name: window.active_name, qfield: form[window.menu_data[window.active_name].qname] || null};
+	return form;
+}
+window.onabort = window.onload = function()
+{
+	def_params();
+
+	if(typeof(suggest) == 'undefined')
+		return;
+	suggest.init('qip_suggest', 'search_form_text_internet', 'search_form_internet', 'search_btn_internet', 'http://search.qip.ru/suggest?q=');
+	suggest.goSearch = goSearch2;
+}
+
+--></script>
+</head>
+
+<body>
+<div id="qip_suggest"></div>
+<div style="position: absolute">
+<script type="text/javascript"><!--
+new Image().src="//counter.yadro.ru/hit;start-qip-ru?r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random();
+--></script>
+</div>
+<div style="position: absolute">
+<script type="text/javascript"><!--
+var QipLoadCounter={};
+(function(){
+var start = new Date();
+var first = false;
+QipLoadCounter.simpleLoad = function(el) {
+if(first) return false;
+first = true;
+if(location.host.search('qip.ru') == -1) return false;
+var img = document.createElement('img');
+img.src = 'http://lstats.qip.ru/external/log_time_download.php?id=qip.ru&url='+escape(location.host.replace(/^www\./, ''))+escape(location.pathname)+'&time='+((new Date).getTime() - start)+'&serverTime='+escape((QipLoadCounter.fromServer ? QipLoadCounter.fromServer: ''));
+img.style.position = 'absolute';img.style.left = '-5px';img.style.top = '-5px';img.style.width = '1px';img.style.height = '1px';
+document.body.insertBefore(img, document.body.firstChild);
+}
+})()
+--></script>
+<script type="text/javascript"><!--
+u="count.rbc.ru/p787.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+n=(na.substring(0,2)=="Mi")?0:1;y="";
+new Image().src = "http://"+u+"?r="+escape(d.referrer)+"&width="+screen.width+
+"&height="+screen.height+"&hash="+escape(d.location.hash.substr(1))+
+"&rf="+escape(parent.document.referrer)+"&rn="+Math.random();
+if(!n){d.write("<!-"+"-");}
+//--></script>
+<noscript><img src="http://count.rbc.ru/p787.gif" alt='count' border='0' width='1' height='1' /></noscript>
+<script type="text/javascript" language="javascript1.2"><!--
+if(!n){d.write("-"+"-"+">");}
+//--></script>
+<script type="text/javascript"><!--
+var img = new Image();
+img.src = 'http://www.tns-counter.ru/V13a***R>' + document.referrer.replace(/\*/g,'%2a') + '*rbc_ru/ru/CP1251/tmsec=rbc_qip-online/';
+--></script>
+<noscript><img src="http://www.tns-counter.ru/V13a****rbc_ru/ru/CP1251/tmsec=rbc_qip-online/" width="1" height="1" alt="" /></noscript>
+<img src="http://medialand.relax.ru/code?pid=1823&amp;gid=332&amp;gbo=on&amp;rid=1250848640" height="1" width="1" alt="" />
+</div>
+<div class="index_main_wrapper" id="index_main_wrapper">
+	<div class="qip_top">
+		<div class="q_fr">
+			<div id="qip_auth_menu" class="qt_login q_hidden">
+				<span><b id="qip_username" title=""></b> <b class="qtl_delimiter">&nbsp;</b>
+				<a id="q_settings" href="/settings">Настройки</a> <b class="qtl_delimiter">·</b>
+				<a id="q_mail" href="//mail.qip.ru/">Почта</a><span class="q_hidden">: <a id="q_mail_top" class="q_mail_top" href="//mail.qip.ru/"></a></span> <b class="qtl_delimiter">·</b>
+				<a id="head_logout" href="/reg/logout">Выйти</a>
+			</div>
+			<div id="qip_unauth_menu" class="qt_login">
+				<a id="q_help" href="http://help.qip.ru/">Помощь</a> <b class="qtl_delimiter">·</b>
+				<a id="q_login" class="qtl_login" href="/login" onclick="return showLoginForm()">Войти на QIP.ru</a>
+			</div>
+			<form id="qip_login_form" class="qh_login q_abs q_hidden" action="http://qip.ru/login" onsubmit="test(this);return false;">
+				<div id="qip_login_error" class="qh_error q_hidden">Логин/пароль введены неправильно. Попробуйте еще раз.</div>
+				<input id="qip_login_redirect" type="hidden" value="" />
+				<input class="qh_field qh_field_inact" type="text" name="user" value="Логин" onfocus="focusField(this, 'Логин')" onblur="blurField(this, 'Логин')" maxlength="60" />&nbsp;
+				<input class="qh_field qh_field_inact" type="password" name="pass" value="Пароль" onfocus="focusField(this, 'Пароль')" onblur="blurField(this, 'Пароль')" maxlength="128" />&nbsp;
+				<input class="qh_button" type="submit" value="Войти" />
+				<div class="qh_splitter"></div>
+				<div class="qh_extra">
+					<a class="q_fl" href="http://qip.ru/reg/recover">Забыли пароль?</a>
+					<label class="qh_alien q_fr" for="qip_alien">Чужой компьютер <input id="qip_alien" type="checkbox" name="alien" value="1" /></label>
+					<a class="q_bold" href="http://qip.ru/reg/register">Регистрация</a>
+				</div>
+			</form>
+		</div>
+		<div>
+			<a id="qt_set_homepage" href="/homepage" onclick="this.style.behavior='url(#default#homepage)';try{this.setHomePage('http://qip.ru/');return false;}catch(e){}">Сделать стартовой</a>
+			<b class="qtl_delimiter">·</b> <a id="qt_download" href="/download_qip_2010">Скачать QIP</a>
+			<b class="qtl_delimiter">&nbsp;&nbsp;&nbsp;&nbsp;</b>
+			<span id="q_city" class="q_small qt_city qt_city_normal">
+				<span class="qt_city_link q_bold" onclick="switchTownSelect(true, 'RU_90_095_27612', 'geo.js');return false;" title="смена города">
+					<a id="qt_city_name" href="#" onclick="return false;">Москва</a>&nbsp;&nbsp;&#9660;
+				</span>
+				<span class="qt_city_loading">Загружается список...</span>
+				<select id="qt_city_list" class="qt_city_list" onchange="infoReload(this.options[this.selectedIndex].value);" onblur="hide_n_show()" disabled="disabled"><option value="3159-4312-4400">Москва</option></select>
+			</span>
+		</div>
+	</div>
+	<div class="qip_messages"><div class="e404"><h3>Ошибка 403. Доступ запрещен.</h3><p>Error 403. Forbidden.<br />К данному документу сервера доступ запрещен.</p></div></div>
+	<div class="main_content" style="z-index: 100;">
+		<div class="qip_left_new">
+			<div class="qip_logo"><a id="q_logo" href="/"><img src="/i/logo_new.gif" alt="qip.ru" border="0" width="78" height="70" /></a></div>
+		</div>
+				<div class="qip_center_new qip_main_block_new"><div class="search_menu">
+	<table cellspacing="0" cellpadding="0" border="0"><tr><td><div id="menu_item_internet" class="aktiv"><p><a href="http://search.qip.ru/" onclick="return openMenu('internet');">Интернет</a></p></div></td><td><div id="menu_item_photo"><p><a href="http://search.photo.qip.ru/" onclick="return openMenu('photo');">Картинки</a></p></div></td><td><div id="menu_item_video"><p><a href="http://search.video.qip.ru/" onclick="return openMenu('video');">Видео</a></p></div></td><td><div id="menu_item_maps"><p><a href="http://maps.qip.ru/" onclick="return openMenu('maps');">Карты</a></p></div></td><td><div id="menu_item_file"><p><a href="http://search.file.qip.ru/" onclick="return openMenu('file');">Файлы</a></p></div></td><td><div id="menu_item_blogs"><p><a href="http://blogs.search.qip.ru/" onclick="return openMenu('blogs');">Блоги</a></p></div></td><td class="q_search_more qm_inactive">
+		<div class="qs_more" onmouseout="var t = +new Date; show_more[t] = this; this.timeout = setTimeout('show_more(null, '+t+')', 1000)" onmouseover="clearTimeout(this.timeout)">
+			<div class="qs_more_body">
+				<div class="qsm_head"><div><div></div></div></div>
+				<ol><li><a id="q_search_more_job" href="http://job.qip.ru/" onclick="return openMenu('job', true);">Работа</a></li><li><a id="q_search_more_refer" href="http://referats.qip.ru/" onclick="return openMenu('refer', true);">Рефераты</a></li><li><a id="q_search_more_magna" href="http://magna.qip.ru/" onclick="return openMenu('magna', true);">Magna</a></li><li><a id="q_search_more_kards" href="http://kards.qip.ru/" onclick="return openMenu('kards', true);">Открытки</a></li><li><a id="q_search_more_memori" href="http://memori.qip.ru/" onclick="return openMenu('memori', true);">Закладки</a></li><li><a id="q_search_more_games" href="http://games.qip.ru/" onclick="return openMenu('games', true);">Игры</a></li><li><a id="q_search_more_humor" href="http://ziza.qip.ru/" onclick="return openMenu('humor', true);">Юмор</a></li><li class="qsm_services"><a href="/services">Все сервисы</a></li>
+				</ol>
+				<div class="qsm_legs"><div><div></div></div></div>
+				<div class="q_ie_fixer"></div>
+			</div>
+		</div>
+		<a class="qsm_link" href="http://qip.ru/services" onclick="show_more(this.parentNode);return false;"><span>ещё</span> &#9660;</a>
+	</td>
+	</tr></table>
+</div>
+
+
+<div class="search_block"><div class="search_bg"><div class="search_bg">
+	<form id="search_form_internet" name="search_form" action="http://search.qip.ru/search" onsubmit="goSearch2(this);return false;" method="get">
+		<input type="text" name="query" value="" class="text_field" maxlength="200" id="search_form_text_internet" autocomplete="off" />
+		<script type="text/javascript"><!--
+		trytofocus(document.forms['search_form'].query);
+		--></script>
+		<input id="search_btn_internet" type="submit" value="Найти" class="qip_button" />
+		<p class="example">&nbsp;&nbsp;&nbsp;<b>Пример</b>: <span onclick="sample(this,'http://rb.qip.ru/?g=1&m=c352f9b5e44c760d1b40bbf5b50d1e0a&bid=MTA1NDoxMTI2');">gps приемник</span><script type="text/javascript"><!--
+document.cookie="rb_shows=448%5f5; expires=Thu, 30 Jul 2020 20:00:00 GMT; path=/; domain=.qip.ru";
+document.cookie="rb_shows_day=448-1%5f5-1; expires=Wed, 22 Sep 2010 20:00:00 GMT; path=/; domain=.qip.ru";
+--></script>
+</p>
+	</form>
+</div></div></div>
+</div>
+		<div class="qip_right_new">
+		<div class="qip_dload_btn"><a id="q_dload_btn" href="/download_qip_2010" title="Скачать QIP"><img src="/i/qip_dload_wide2.png" alt="Скачать QIP" /></a></div></div>
+	</div>
+	<div class="main_content">
+		<div class="qip_left_new">
+			<div class="qip_mail"><div class="qip_mail">
+
+	<div id="qip_user_info" class="qm_auth q_hidden">
+		<div class="qm_login_t"><h2>Личный кабинет</h2></div>
+		<div id="qip_greeting" class="qm_login_m q_bold">Доброй ночи</div>
+		<div class="qm_login_b">
+			<a id="q_login_sms" class="q_icon q_sms q_bold" href="http://smsjabber.qip.ru/sms" onclick="window.open(this.href, 'free_sms_'+(+new Date), 'width=488,height=301,resizable=no,left='+((screen.width-490)/2)+',top='+((screen.height-310)/3));return false;">Бесплатные SMS</a>
+			<a id="q_login_mail_new" class="q_icon q_mail_wb" href="//mail.qip.ru/">новых писем нет</a>
+			<a id="q_login_love_new" class="q_icon q_love_wb q_hidden" href="http://love.qip.ru/a-folders">новых сообщений нет</a>
+			<a id="q_login_friends_new" class="q_icon q_friends_wb q_hidden" href="http://friends.qip.ru/messages/users/">новых сообщений нет</a>
+			<div class="qm_splitter"></div>
+			<form class="q_fr" action="http://qip.ru/reg/logout" method="get">
+				<input type="hidden" name="retpath" value="" />
+				<input type="submit" class="q_button" value="Выйти" />
+			</form>
+			<a id="q_login_history" class="q_icon q_history_wb q_bold" href="//history.qip.ru/">История</a>
+		</div>
+	</div>
+
+	<div id="qip_mail_login_form" class="qm_unauth">
+		<form action="http://qip.ru/login?retpath=%2F%2Fmail.qip.ru%2F" method="post">
+			<h2><a id="q_login_mail" href="//mail.qip.ru">Почта@qip.ru</a></h2>
+			<input type="text" name="login" class="qm_field" value="Логин" onfocus="focusField(this, 'Логин')" onblur="blurField(this, 'Логин')" />
+			<input type="password" name="password" class="qm_field" value="Пароль" onfocus="focusField(this, 'Пароль')" onblur="blurField(this, 'Пароль')" />
+			<div class="q_nobr">
+				<label class="q_fr" for="q_remember"><input id="q_remember" name="alien" type="checkbox" value="1" />&nbsp;Не сохранять</label>
+				<input class="q_button" type="submit" value="Войти" />
+			</div>
+		</form>
+
+		<div class="qm_links q_small"><a id="q_login_register" href="http://qip.ru/reg/register">Регистрация</a></div>
+		<div class="qm_links q_small"><a id="q_login_forgotten" href="http://qip.ru/reg/recover">Не получается войти?</a></div>
+	</div>
+
+</div>
+</div>
+			<div class="left_menu"><div class="qip_left_menu"><div class="qlm_small"><a class="q_icon q_video" id="q_menu_video" href="http://video.qip.ru/?from=qipmenu">Видео</a></div><div class="qlm_small"><a class="q_icon q_love" id="q_menu_love" href="http://love.qip.ru/?from=qipmenu">Знакомства</a></div><div class="qlm_small"><a class="q_icon q_photo" id="q_menu_photo" href="http://photo.qip.ru/?from=qipmenu">Фото</a></div><div class="qlm_small"><a class="q_icon q_mblogi" id="q_menu_mblogi" href="http://mblogi.qip.ru/?from=qipmenu">Микроблоги</a></div><div class="qlm_small"><a class="q_icon q_file" id="q_menu_file" href="http://file.qip.ru/?from=qipmenu">Файлы</a></div><div class="qlm_small"><a class="q_icon q_history" id="q_menu_history" href="http://history.qip.ru/?from=qipmenu">История</a></div><div class="qlm_small"><a class="q_icon q_maps" id="q_menu_maps" href="http://maps.qip.ru/?from=qipmenu">Карты</a></div><div class="qlm_small"><a class="q_icon q_job" id="q_menu_job" href="http://job.qip.ru/?from=qipmenu">Работа</a></div><div class="qlm_small"><a class="q_icon q_memori" id="q_menu_memori" href="http://memori.qip.ru/?from=qipmenu">Закладки</a></div><div class="qlm_small"><a class="q_icon q_sport" id="q_menu_sport" href="http://sport.qip.ru/?from=qipmenu">Спорт</a></div><div class="qlm_small"><a class="q_icon q_referats" id="q_menu_referats" href="http://referats.qip.ru/?from=qipmenu">Рефераты</a></div><div class="qlm_small"><a class="q_icon q_auto" id="q_menu_auto" href="http://auto.qip.ru/?from=qipmenu">Авто</a></div><div class="qlm_small"><a class="q_icon q_humor" id="q_menu_humor" href="http://ziza.qip.ru/?from=qipmenu">Юмор</a></div><div class="qlm_small"><a class="q_icon q_horo" id="q_menu_horo" href="http://horo.qip.ru/?from=qipmenu">Гороскопы</a></div><div class="qlm_small"><a class="q_icon q_tests" id="q_menu_tests" href="http://tests.qip.ru/?from=qipmenu">Тесты</a></div><div class="qlm_small"><a class="q_icon q_kards" id="q_menu_kards" href="http://kards.qip.ru/?from=qipmenu">Открытки</a></div><div class="qlm_small"><a class="q_icon q_games" id="q_menu_games" href="http://games.qip.ru/?from=qipmenu">Игры</a></div><div class="qlm_small"><a class="q_icon q_friends" id="q_menu_friends" href="http://friends.qip.ru/?from=qipmenu">Друзья</a></div><div class="qlm_small"><a class="q_icon q_tvidi" id="q_menu_tvidi" href="http://www.tvidi.ru/?from=qipmenu">Детям</a></div><div class="qlm_small"><a class="q_icon q_voip" id="q_menu_voip" href="http://voip.qip.ru/?from=qipmenu">Звонки</a></div><div class="qlm_small"><a class="q_icon q_photolink" id="q_menu_photolink" href="http://pics.qip.ru/?from=qipmenu">Фото Link</a></div><div class="qlm_small"><a class="q_icon q_services" id="q_menu_services" href="//qip.ru/services">Все сервисы</a></div>
+</div>
+</div>
+			<div class="qip_download">
+				<h2>Скачать</h2>
+				<div><span class="arrow">(Build 4107)<a id="q_dl_2010_direct" href="http://download.qip.ru/2010/qip2010.exe"><img src="/skin/img/dl_arrow.gif" alt="Скачать QIP 2010" /></a></span><a class="q_icon q_infium bold" id="q_dl_2010" href="/download_qip_2010">QIP 2010</a></div>
+				<div><span class="arrow">(Build 9040)<a id="q_dl_infium_direct" href="http://download.qip.ru/infium/qipinfium9040.exe"><img src="/skin/img/dl_arrow.gif" alt="Скачать QIP Infium" /></a></span><a class="q_icon q_infium bold" id="q_dl_infium" href="/download_infium_ru">QIP Infium</a></div>
+				<div><span class="arrow">(v.0.0.158)<a id="q_dl_online_direct" href="http://download.qip.ru/production/qiponline_setup.exe"><img src="/skin/img/dl_arrow.gif" alt="Скачать QIP Online" /></a></span><a class="q_icon q_online bold" id="q_dl_online" href="/qip_online">QIP Online</a></div>
+				<div><span><a id="q_dl_mobile_symbian" href="/download_pda_symbian_ru">Symbian</a> / <a id="q_dl_mobile_win" href="/qip_pda_windows_ru">Win</a></span><a class="q_icon q_mobile" id="q_dl_mobile" href="/download_pda_ru">QIP Mobile</a></div>
+				<div><span><a id="q_dl_bar_firefox" href="http://addons.qip.ru/about/Firefox/">Firefox</a> / <a id="q_dl_bar_ie" href="http://addons.qip.ru/about/ie/">IE</a></span><a class="q_icon q_bar" id="q_dl_bar" href="http://addons.qip.ru/">QIP Bar</a></div>
+				<div><span><a id="q_dl_skins_infium" href="/skins/">Infium</a> / <a id="q_dl_skins_2005" href="/skins/2">2005</a></span><a class="q_icon q_skins" id="q_dl_skins" href="/skins/">Скины</a></div>
+				<div><span><a id="q_dl_smiles_infium" href="/smiles_ru">Infium</a> / <a id="q_dl_smiles_2005" href="/smiles_ru">2005</a></span><a class="q_icon q_smiles" id="q_dl_smiles" href="/smiles_ru">Смайлы</a></div>
+			</div><div class="inf_blocks_memori"><h2><a id="q_memori_caption" href="http://memori.qip.ru/?from=qip">Закладки</a></h2>
+<ol class="memori"><li><a id="q_memori_0" href="http://memori.qip.ru/linksavehistory/7347725/?from=qip" title="internetno.net — Интернетные штучки" style="background-image: url('http://memori.qip.ru/img/favicons/in/internetno.net.png')">Интернетные штучки</a></li><li><a id="q_memori_1" href="http://memori.qip.ru/bookmarks/172891/?from=qip" title="popmech.ru — Журнал Популярная механика" style="background-image: url('http://memori.qip.ru/img/favicons/po/popmech.ru.png')">Журнал Популярная механика</a></li><li><a id="q_memori_2" href="http://memori.qip.ru/linksavehistory/7347670/?from=qip" title="fishki.net — Сайт хорошего настроения" style="background-image: url('http://memori.qip.ru/img/favicons/fi/fishki.net.png')">Сайт хорошего настроения</a></li><li class="additem"><a class="icon q_memori" id="q_memori_additem" href="http://memori.qip.ru/linkadd/?from=qip" title="добавить закладку">Добавь свою закладку!</a></li>
+</ol>
+</div></div>
+		<div class="qip_center_new qip_main_block_new"><div><div class="advert_news_medialand">
+<script type="text/javascript">
+<!--
+function ml_ph(p){document.write('<div id="mlph'+p+'" style="display:none"><\/div>');}
+function ml_c(p){document.write('<div style="visibility:hidden;position:absolute"><iframe id="ml_c'+p+'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0><\/iframe><\/div>');}
+function ml_getCode(n,p,s){
+var d;
+if(n<10){try{if(document.all && !window.opera){d = window.frames['ml_c'+p].document;}
+else if(document.getElementById){d=document.getElementById('ml_c'+p).contentDocument;}}catch(e){}
+if(d){d.write('<scr'+'ipt src="'+s+'"><\/scr'+'ipt>');}
+else {setTimeout('ml_getCode('+(++n)+','+p+',"'+s+'")', 100);}
+}}
+var place_id = '1733';
+ml_ph(place_id); ml_c(place_id);
+ml_getCode(1,place_id,'http://medialand.relax.ru/code?pid='+place_id+'&gid=352&oin=0&rid=' + Math.round(Math.random()*100000));
+//-->
+</script>
+</div><script type="text/javascript"><!--
+document.cookie="rb_shows=f73%f74; expires=Thu, 30 Jul 2020 20:00:00 GMT; path=/; domain=.qip.ru";
+document.cookie="rb_shows_day=f73-1%f74-1; expires=Wed, 22 Sep 2010 20:00:00 GMT; path=/; domain=.qip.ru";
+--></script>
+</div><div class="second_menu"><table cellspacing="0" cellpadding="0" border="0"><tr><td><div class="aktiv"><a href="#" onclick="switchBlock(this, 0);return false;">Новости</a></div></td><td><div><a href="#" onclick="switchBlock(this, 1);return false;">Спорт</a></div></td><td><div><a href="#" onclick="switchBlock(this, 2);return false;">Скандалы</a></div></td><td><div><a href="#" onclick="switchBlock(this, 3);return false;">Авто</a></div></td><td><div><a href="#" onclick="switchBlock(this, 4);return false;">Hi-Tech</a></div></td><td><div><a href="#" onclick="switchBlock(this, 5);return false;">Образование</a></div></td></tr></table></div><div class="content_blocks RU" id="news_content_container"><div id="content_0" class="hslice cont_block"><span class="entry-title">qip.ru &mdash; Новости</span><a class="entry-href" rel="feedurl" href="/slices/news/news.html"></a><div class="country RU"><table width="98%" cellpadding="0" cellspacing="0" border="0" class=""><tr><td valign="top" class="news_pic_td"><div class="news_pic"><a id="q_news_rbc_img" href="http://top.rbc.ru/politics/22/09/2010/469757.shtml?from=qip" target="_blank"><img src="/i/photo/RUrbc.jpg?t=1285108141" alt="Франция призывает ЕС окончательно решить &quot;цыганский вопрос&quot;" title="Франция призывает ЕС окончательно решить &quot;цыганский вопрос&quot;" width="60" /></a></div></td><td valign="top"><div class="news_text"><div><a id="q_news_rbc_first" href="http://top.rbc.ru/politics/22/09/2010/469757.shtml?from=qip" target="_blank">Франция призывает ЕС окончательно решить &quot;цыганский вопрос&quot;</a></div>Премьер-министр Франции Франсуа Фийон призвал Евросоюз выработать общий план решения проблемы нелегальных цыганских...</div></td></tr></table><ul class="news_list"><li><a id="q_news_rbc_1" href="http://top.rbc.ru/politics/21/09/2010/469737.shtml?from=qip" target="_blank">Дело о военной кампании Израиля могут передать в уголовный суд</a></li><li><a id="q_news_rbc_2" href="http://top.rbc.ru/politics/22/09/2010/469797.shtml?from=qip" target="_blank">Президент Ирана предрек скорый крах капитализма</a></li><div id="rdminfrm_30100"></div><li><a id="q_news_rbc_4" href="http://news.qip.ru/view/43332?from=qip" target="_blank">Израиль назвали колыбелью цивилизации</a></li><li><a id="q_news_rbc_5" href="http://news.qip.ru/view/43294?from=qip" target="_blank">Эмоциональных роботов снабдят человеческим &quot;мозгом&quot;</a></li><li><a id="q_news_rbc_6" href="http://news.qip.ru/view/43261?from=qip" target="_blank">Памела Андерсон откроет на Украине модельное агентство</a></li></ul><div id="rdminfrm_29609"></div></div></div><div id="content_1" class="hslice cont_block hidden"><span class="entry-title">qip.ru &mdash; Спорт</span><a class="entry-href" rel="feedurl" href="/slices/news/sport.html"></a><div class="country RU"><table width="98%" cellpadding="0" cellspacing="0" border="0" class=""><tr><td valign="top" class="news_pic_td"><div class="news_pic"><a id="q_news_sport_img" href="http://sport.qip.ru/basketball/newsline/22/09/2010/297186.shtml?from=qip" target="_blank"><img src="/i/photo/RUsport.jpg?t=1285107303" alt="&quot;Химки&quot; и УНИКС открыли сезон победами" title="&quot;Химки&quot; и УНИКС открыли сезон победами" width="60" /></a></div></td><td valign="top"><div class="news_text"><div><a id="q_news_sport_first" href="http://sport.qip.ru/basketball/newsline/22/09/2010/297186.shtml?from=qip" target="_blank">&quot;Химки&quot; и УНИКС открыли сезон победами</a></div>"Химки" и УНИКС открыли баскетбольный клубный сезон победами в первом раунде квалификационного турнира Евролиги. Российские команды переиграли соперников из Италии и Голландии.</div></td></tr></table><ul class="news_list"><li><a id="q_news_sport_1" href="http://sport.qip.ru/other/newsline/22/09/2010/297185.shtml?from=qip" target="_blank">Российские шахматисты удачно стартовали на Олимпиаде в Югре</a></li><li><a id="q_news_sport_2" href="http://sport.qip.ru/other/newsline/21/09/2010/297165.shtml?from=qip" target="_blank">Канаева отстояла титул чемпионки в упражнении с обручем</a></li><li><a id="q_news_sport_3" href="http://sport.qip.ru/hockey/newsline/21/09/2010/297146.shtml?from=qip" target="_blank">&quot;Спартак&quot; одолел ярославский &quot;Локомотив&quot;</a></li><li><a id="q_news_sport_4" href="http://sport.qip.ru/other/newsline/21/09/2010/297145.shtml?from=qip" target="_blank">Все результаты дня: Кудрявцева и Чакветадзе начали с побед в Ташкенте</a></li><li><a id="q_news_sport_5" href="http://sport.qip.ru/formula/newsline/21/09/2010/297125.shtml?from=qip" target="_blank">Отец В.Петрова стал спонсором Renault</a></li><li><a id="q_news_sport_6" href="http://sport.qip.ru/football/newsline/21/09/2010/297106.shtml?from=qip" target="_blank">С.Фурсенко: &quot;При Адвокате игра сборной стала заметно прогрессировать&quot;</a></li><li><a id="q_news_sport_7" href="http://sport.qip.ru/other/newsline/21/09/2010/297086.shtml?from=qip" target="_blank">Владимиру Кличко бросил вызов 36-летний немец</a></li></ul></div></div><div id="content_2" class="hslice cont_block hidden"><span class="entry-title">qip.ru &mdash; Скандалы</span><a class="entry-href" rel="feedurl" href="/slices/news/film.html"></a><div class="country RU"><table width="98%" cellpadding="0" cellspacing="0" border="0" class=""><tr><td valign="top" class="news_pic_td"><div class="news_pic"><a id="q_news_film_img" href="http://readme.ru/?id=8984403&amp;from=qip" target="_blank"><img src="/i/photo/RUfilm.jpg?t=1285106821" alt="Таджикистан: угроза новой гражданской войны" title="Таджикистан: угроза новой гражданской войны" width="60" /></a></div></td><td valign="top"><div class="news_text"><div><a id="q_news_film_first" href="http://readme.ru/?id=8984403&amp;from=qip" target="_blank">Таджикистан: угроза новой гражданской войны</a></div>Активизация бывших боевиков представляет реальную угрозу безопасности Таджикистана далее</div></td></tr></table><ul class="news_list"><li><a id="q_news_film_1" href="http://readme.ru/art/miliciyu_oprokinuli_na_krishu.html?rss&amp;from=qip" target="_blank">Милицию опрокинули на крышу</a></li><li><a id="q_news_film_2" href="http://readme.ru/art/v_permi_dlya_propagandi_patriotizma_privlekli_gitlera.html?rss&amp;from=qip" target="_blank">В Перми для пропаганды патриотизма привлекли Гитлера</a></li><li><a id="q_news_film_3" href="http://readme.ru/humor/na_miliciyu_napali_sobaki.html?rss&amp;from=qip" target="_blank">На милицию напали собаки</a></li><li><a id="q_news_film_4" href="http://readme.ru/asccident/uchitel_fiziki_popal_v_tyurmu.html?rss&amp;from=qip" target="_blank">Учитель физики попал в тюрьму</a></li><li><a id="q_news_film_5" href="http://readme.ru/art/perebegchik_umer_podavivshis_kuskom_myasa.html?rss&amp;from=qip" target="_blank">Перебежчик умер, подавившись куском мяса</a></li><li><a id="q_news_film_6" href="http://readme.ru/art/rabstvo_tranzitom.html?rss&amp;from=qip" target="_blank">Рабство транзитом</a></li><li><a id="q_news_film_7" href="http://readme.ru/politics/merkel_i_sarkozi_possorilo_nedorazumenie.html?rss&amp;from=qip" target="_blank">Меркель и Саркози поссорило &quot;недоразумение&quot;</a></li></ul></div></div><div id="content_3" class="hslice cont_block hidden"><span class="entry-title">qip.ru &mdash; Авто</span><a class="entry-href" rel="feedurl" href="/slices/news/auto.html"></a><div class="country RU"><table width="98%" cellpadding="0" cellspacing="0" border="0" class=""><tr><td valign="top" class="news_pic_td"><div class="news_pic"><a id="q_news_auto_img" href="http://auto.qip.ru/news/1590274/?from=qip" target="_blank"><img src="/i/photo/RUauto.jpg?t=1285107303" alt="Hyundai открыл в Петербурге завод мощностью 100 тыс. авто в год" title="Hyundai открыл в Петербурге завод мощностью 100 тыс. авто в год" width="60" /></a></div></td><td valign="top"><div class="news_text"><div><a id="q_news_auto_first" href="http://auto.qip.ru/news/1590274/?from=qip" target="_blank">Hyundai открыл в Петербурге завод мощностью 100 тыс. авто в год</a></div>Южнокорейская компания Hyundai Motor открыла сегодня автомобильный завод в Санкт-Петербурге, объем инвестиций в который...</div></td></tr></table><ul class="news_list"><li><a id="q_news_auto_1" href="http://auto.qip.ru/news/1590255/?from=qip" target="_blank">В Москве изменят организацию дорожного движения на перекрестках</a></li><li><a id="q_news_auto_2" href="http://auto.qip.ru/news/1590254/?from=qip" target="_blank">Налог на авто для воспользовавшихся утилизацией россиян вырастет на 20%</a></li><li><a id="q_news_auto_3" href="http://auto.qip.ru/news/1590215/?from=qip" target="_blank">Автомобиль Hyundai, разработанный для РФ, получил название Solaris</a></li><li><a id="q_news_auto_4" href="http://auto.qip.ru/news/1590197/?from=qip" target="_blank">На заводе PSA в Калуге стартовало производство трех внедорожников</a></li><li><a id="q_news_auto_5" href="http://auto.qip.ru/news/1590194/?from=qip" target="_blank">Глава Мосгорсуда уверяет, что суды лишают прав только тех, кто это заслужил</a></li><li><a id="q_news_auto_6" href="http://auto.qip.ru/news/1590017/?from=qip" target="_blank">Минтранс США просит водителей не есть за рулем</a></li><li><a id="q_news_auto_7" href="http://auto.qip.ru/news/1590123/?from=qip" target="_blank">В Иране началось производство люксовой версии Samand</a></li></ul></div></div><div id="content_4" class="hslice cont_block hidden"><span class="entry-title">qip.ru &mdash; Hi-Tech</span><a class="entry-href" rel="feedurl" href="/slices/news/creep.html"></a><div class="country RU"><table width="98%" cellpadding="0" cellspacing="0" border="0" class=""><tr><td valign="top" class="news_pic_td"><div class="news_pic"><a id="q_news_creep_img" href="http://creep.ru/foto/1161041859-fujifilm-finefix-x100-fotokamera-v-klassicheskom-korpuse-9-foto-video.html?from=qip" target="_blank"><img src="/i/photo/creep_0.jpg" alt="Fujifilm FineFix X100 - фотокамера в стильном классическом корпусе (9 фото + видео)" title="Fujifilm FineFix X100 - фотокамера в стильном классическом корпусе (9 фото + видео)" width="60" /></a></div></td><td valign="top"><div class="news_text"><div><a id="q_news_creep_first" href="http://creep.ru/foto/1161041859-fujifilm-finefix-x100-fotokamera-v-klassicheskom-korpuse-9-foto-video.html?from=qip" target="_blank">Fujifilm FineFix X100 - фотокамера в стильном классическом корпусе (9 фото + видео)</a></div>Внешний вид камеры можно назвать классическим — он вызывает в памяти пленочные дальномерные камеры середины прошлого...</div></td></tr></table><ul class="news_list"><li><a id="q_news_creep_1" href="http://creep.ru/gadget/1161041858-demonstraciya-monitora-na-ochkax-airscouter-video.html?from=qip" target="_blank">Демонстрация монитора на очках - AiRScouter (видео)</a></li><li><a id="q_news_creep_2" href="http://creep.ru/gadget/1161041857-hrp-4-robot-balansiruyushhij-na-odnoj-noge-video.html?from=qip" target="_blank">HRP-4 - робот балансирующий на одной ноге (видео)</a></li><li><a id="q_news_creep_3" href="http://creep.ru/interesnoe/1161041856-vklyuchenie-telefona-za-sekundy-s-novoj-htc-sense-android-video.html?from=qip" target="_blank">Включение телефона за секунды с новой HTC Sense Android (видео)</a></li><li><a id="q_news_creep_4" href="http://creep.ru/interesnoe/1161041855-istoriya-zx-spectrum-mify-i-realnost.html?from=qip" target="_blank">История ZX Spectrum - мифы и реальность</a></li><li><a id="q_news_creep_5" href="http://creep.ru/apple/1161041854-novaya-dyra-v-apple-ios-video.html?from=qip" target="_blank">Новая &quot;дыра&quot; в Apple iOS (видео)</a></li><li><a id="q_news_creep_6" href="http://creep.ru/phones/1161041853-samsung-i917-cetus-goditsya-na-rol-pulta-ot-garazha-video.html?from=qip" target="_blank">Samsung i917 Cetus годится на роль пульта от гаража (видео)</a></li><li><a id="q_news_creep_7" href="http://creep.ru/pc/1161041852-hp-touchsmart-310-i-omni100-pk-klassa-vsyo-v-odnom-11-foto.html?from=qip" target="_blank">HP TouchSmart 310 и Omni100 - ПК класса всё-в-одном (11 фото)</a></li></ul></div></div><div id="content_5" class="hslice cont_block hidden"><span class="entry-title">qip.ru &mdash; Образование</span><a class="entry-href" rel="feedurl" href="/slices/news/edu.html"></a><div class="country RU"><table width="98%" cellpadding="0" cellspacing="0" border="0" class=""><tr><td valign="top" class="news_pic_td"><div class="news_pic"><a id="q_news_edu_img" href="http://www.5ballov.ru/news/events/2010/09/21/65391?from=qip" target="_blank"><img src="/i/photo/RUedu.jpg?t=1285106821" alt="5 октября 2010 станет известно имя лучшего учителя России" title="5 октября 2010 станет известно имя лучшего учителя России" width="60" /></a></div></td><td valign="top"><div class="news_text"><div><a id="q_news_edu_first" href="http://www.5ballov.ru/news/events/2010/09/21/65391?from=qip" target="_blank">5 октября 2010 станет известно имя лучшего учителя России</a></div>Имя абсолютного победителя Всероссийского конкурса «Учитель года России - 2010» назовут на торжественной церемонии в...</div></td></tr></table><ul class="news_list"><li><a id="q_news_edu_1" href="http://www.5ballov.ru/news/events/2010/09/16/65366?from=qip" target="_blank">13-летний подросток повесился после вызова родителей в школу  </a></li><li><a id="q_news_edu_2" href="http://www.5ballov.ru/news/events/2010/09/14/65348?from=qip" target="_blank">День карьеры Госкорпорации «Росатом» в МИФИ</a></li><li><a id="q_news_edu_3" href="http://www.5ballov.ru/news/events/2010/09/10/65333?from=qip" target="_blank">Студенческая организация ISIC запустила весьма солидную Акцию для первокурсников</a></li><li><a id="q_news_edu_4" href="http://www.5ballov.ru/news/events/2010/09/09/65319?from=qip" target="_blank">Социальные сети негативно влияют на успеваемость учащихся</a></li><li><a id="q_news_edu_5" href="http://www.5ballov.ru/news/events/2010/09/09/65316?from=qip" target="_blank">День открытых дверей в ГУ-ВШЭ </a></li><li><a id="q_news_edu_6" href="http://www.5ballov.ru/news/events/2010/09/07/65305?from=qip" target="_blank">Стратегия будущего – задача для старших классов</a></li><li><a id="q_news_edu_7" href="http://www.5ballov.ru/news/events/2010/09/06/65288?from=qip" target="_blank">ЕГЭ – это показатель нашего высшего образования</a></li></ul></div></div></div>
+<div class="center_splitter"></div><div class="advert_news"><script type="text/javascript">
+<!--
+function ml_ph(p){document.write('<div id="mlph'+p+'" style="display:none"><\/div>');}
+function ml_c(p){document.write('<div style="visibility:hidden;position:absolute"><iframe id="ml_c'+p+'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0><\/iframe><\/div>');}
+function ml_getCode(n,p,s){
+var d;
+if(n<10){try{if(document.all && !window.opera){d = window.frames['ml_c'+p].document;}
+else if(document.getElementById){d=document.getElementById('ml_c'+p).contentDocument;}}catch(e){}
+if(d){d.write('<scr'+'ipt src="'+s+'"><\/scr'+'ipt>');}
+else {setTimeout('ml_getCode('+(++n)+','+p+',"'+s+'")', 100);}
+}}
+var place_id = '2103';
+ml_ph(place_id); ml_c(place_id);
+ml_getCode(1,place_id,'http://medialand.relax.ru/code?pid='+place_id+'&gid=352&oin=0&rid=' + Math.round(Math.random()*100000));
+//-->
+</script><script type="text/javascript"><!--
+document.cookie="rb_shows=f9c%fa7; expires=Thu, 30 Jul 2020 20:00:00 GMT; path=/; domain=.qip.ru";
+document.cookie="rb_shows_day=f9c-1%fa7-1; expires=Wed, 22 Sep 2010 20:00:00 GMT; path=/; domain=.qip.ru";
+--></script>
+</div><div class="informer">
+	<div class="i-date">22 сентября, среда, <b>02:29</b></div>
+	<h2 id="a_weather_cap">Москва</h2>
+	<div class="i-content">
+		<div class="i-weather hslice" id="weather_content">
+			<span class="entry-title">qip.ru &mdash; Погода</span>
+			<a class="entry-href" rel="feedurl" href="/service/weatherslice"></a>
+			<div class="i-tl"></div><div class="i-bl"></div>
+			<div id="weather"><div class="w-prime w-cloud"></div><div class="w-second w-none"></div>
+<h1>+8&deg;</h1>
+<div class="w-next">
+	<p class="w-ico-none"> утром: +9&deg; +11&deg;</p>
+	<p class="w-ico-none">завтра: +13&deg; +15&deg;</p>
+</div>
+</div>
+		</div>
+		<div class="i-quot hslice" id="indices">
+			<span class="entry-title">qip.ru &mdash; Индексы</span>
+			<a class="entry-href" rel="feedurl" href="/slices/indices_RU.html"></a>
+			<div id="i-quot"><a id="q_combo_euro" class="" href="http://stock.rbc.ru/demo/cb.0/daily/EUR.rus.shtml?show=3M" onmouseover="activateTab(this)" target="_blank">
+					<span class="iname">EUR</span>
+					<span class="ivalue">40.6483</span>
+					<span class="iup"><span>+</span>0.11</span>
+				</a><a id="q_combo_usd" class=" i-active" href="http://stock.rbc.ru/demo/cb.0/daily/USD.rus.shtml?show=3M" onmouseover="activateTab(this)" target="_blank">
+					<span class="iname">USD</span>
+					<span class="ivalue">31.0814</span>
+					<span class="iup"><span>+</span>0.10</span>
+				</a><a id="q_combo_mmvb" class="" href="http://stock.rbc.ru/demo/micex.0/daily/MICEXINDEXCF.rus.shtml?show=3M" onmouseover="activateTab(this)" target="_blank">
+					<span class="iname">ММВБ</span>
+					<span class="ivalue">1433.9</span>
+					<span class="iup"><span>+</span>0.49%</span>
+				</a><a id="q_combo_rts" class="" href="http://stock.rbc.ru/demo/rts.1/daily/RTSI.rus.shtml?show=3M" onmouseover="activateTab(this)" target="_blank">
+					<span class="iname">РТС</span>
+					<span class="ivalue">1478.21</span>
+					<span class="iup"><span>+</span>0.76%</span>
+				</a></div>
+		</div>
+		<div class="i-graph" id="i-graph"><div class="i-graph-in">
+				<p><a id="q_combo_euro_graph" href="http://stock.rbc.ru/demo/cb.0/daily/EUR.rus.shtml?show=3M" target="_blank"><img src="/i/photo/graph0.gif" alt="" width="57" height="57" /></a></p>
+				<p class="i-delim"></p>
+				<p class="ir">сен</p>
+				<p class="il">авг</p>
+			</div><div class="i-graph-in i-active">
+				<p><a id="q_combo_usd_graph" href="http://stock.rbc.ru/demo/cb.0/daily/USD.rus.shtml?show=3M" target="_blank"><img src="/i/photo/graph1.gif" alt="" width="57" height="57" /></a></p>
+				<p class="i-delim"></p>
+				<p class="ir">сен</p>
+				<p class="il">авг</p>
+			</div><div class="i-graph-in">
+				<p><a id="q_combo_mmvb_graph" href="http://stock.rbc.ru/demo/micex.0/daily/MICEXINDEXCF.rus.shtml?show=3M" target="_blank"><img src="/i/photo/graph2.gif" alt="" width="57" height="57" /></a></p>
+				<p class="i-delim"></p>
+				<p class="ir">сен</p>
+				<p class="il">авг</p>
+			</div><div class="i-graph-in">
+				<p><a id="q_combo_rts_graph" href="http://stock.rbc.ru/demo/rts.1/daily/RTSI.rus.shtml?show=3M" target="_blank"><img src="/i/photo/graph3.gif" alt="" width="57" height="57" /></a></p>
+				<p class="i-delim"></p>
+				<p class="ir">сен</p>
+				<p class="il">авг</p>
+			</div></div>
+		<div class="i-tvprogram" id="i-tvprogram">
+			<div class="i-tr"></div><div class="i-br"></div><p>Сегодня: <a id="q_cards_caption" href="http://post.kards.qip.ru/celebration/view/215/den_bolgarii.htm?from=qip">День Болгарии</a></p>
+				<div>
+					<a id="q_cards_month_icon" href="http://post.kards.qip.ru/novelty/view/2/0/index.htm?from=qip"><img src="/skin/img/calendar.gif" alt="В этом месяце" /></a>
+					<a id="q_cards_month_link" href="http://post.kards.qip.ru/novelty/view/2/0/index.htm?from=qip">В этом месяце</a>
+				</div>
+				<div>
+					<a id="q_cards_all_icon" href="http://kards.qip.ru/?from=qip"><img src="/skin/img/menu/menu_cards_small.gif" alt="Все открытки" /></a>
+					<a id="q_cards_all_link" href="http://kards.qip.ru/?from=qip">Все открытки</a>
+				</div></div>
+	</div>
+</div>
+<div style="float:left; width:510px"><div class="inf_blocks h_fixed1"><h2><a id="q_video_caption" href="http://video.qip.ru/broadcast/list/?from=qip">Онлайн трансляции</a></h2>
+<div class="smotri">
+<table cellpadding="0" cellspacing="0" border="0"><tr><td><a id="q_video_1" href="http://video.qip.ru/broadcast/view/?id=4721133&amp;from=qip"><img src="http://frame5.loadup.ru/50/6e/4721133.55.2.jpg" alt="Лиза" title="Лиза" border="0" /></a>
+<p>Лиза <span class="video_len">(32 мин.)</span>
+</p></td><td><a id="q_video_2" href="http://video.qip.ru/broadcast/view/?id=4657332&amp;from=qip"><img src="http://frame2.loadup.ru/69/90/4657332.279.2.jpg" alt="be_bejka" title="be_bejka" border="0" /></a>
+<p>be_bejka <span class="video_len">(37 мин.)</span>
+</p></td></tr></table>
+</div></div><div class="inf_blocks h_fixed1 w_col_left"><h2><a id="q_games_caption" href="http://games.qip.ru/?from=qip">Игры Онлайн</a></h2>
+<div class="vspomni games">
+<div class="group_pic"><a id="q_games_img" href="http://games.qip.ru/games/online/30095?from=qip"><img src="http://ru.i.alawar.ru/images/games/jewel-of-atlantis/jewel-of-atlantis-picbg.gif" alt="Алмаз Атлантиды" width="100" height="100" /></a></div>
+<div class="group_info">
+<p><a id="q_games_title" href="http://games.qip.ru/games/online/30095?from=qip">Алмаз Атлантиды</a></p>
+<form name="games_form" action="http://games.qip.ru/games/online/30095/" method="get">
+<input type="hidden" name="from" value="startqip" />
+<input type="submit" value="Играть &#9658;" />
+</form>
+</div>
+</div>
+</div></div><div style="float:left; width:510px"><div class="inf_blocks h_fixed0 loveplanet"><h2><a id="q_love_caption" href="http://love.qip.ru/?from=qip">Знакомства</a></h2>
+<div class="love_info">
+	<div class="love_photo_full" id="_love_photo_full" onmouseout="window.setTimeout('_$(\'_love_photo_full\').style.display = \'none\'', 500);"><a id="q_love_photo" href="http://love.qip.ru/page/vierva/"><img src="http://195.68.160.40/4/foto/3d/0b/3d0b0421/m_img30.jpg?0" alt="загрузка" /></a></div>
+	<div class="love_photo" onmouseover="_$('_love_photo_full').style.display = 'block';"><a id="q_love_preview" href="http://love.qip.ru/page/vierva/"><img src="http://195.68.160.40/4/foto/3d/0b/3d0b0421/s_img30.jpg?0" alt="фото" /></a></div>
+	<div class="love_info_text">
+		<b><a id="q_love_userpage" href="http://love.qip.ru/page/vierva/">Виктория</a></b> <img src="http://195.68.160.173/3/img/qip/findw.gif" alt="" /><br />
+		Возраст: 18 лет<br />Москва	</div>
+</div>
+<form name="love_form" action="http://love.qip.ru/a-search/?from=qip" method="post" onsubmit="lovesave(this)">
+<input type="hidden" name="a" value="search" />
+<input type="hidden" name="s" value="" />
+<input type="hidden" name="p" value="0" />
+<input type="hidden" name="d" value="1" />
+<input type="hidden" name="affiliate_id" value="49789" />
+<div class="find_more"><b>Найти еще</b></div>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td><select name="pol">
+<option value="1" selected="selected">Парень</option>
+<option value="2">Девушка</option></select></td>
+<td align="right"><select name="spol">
+<option value="1">Ищет парня</option>
+<option value="2" selected="selected">Ищет девушку</option></select></td>
+</tr>
+<tr>
+<td><input type="text" name="bage" value="" class="text_field" maxlength="2" /> - <input type="text" class="text_field" value="" name="tage" maxlength="2" /> лет</td>
+<td align="right">
+<div>
+в <a class="script" id="sp_love_town" href="#" title="Сменить город можно вверху страницы" onclick="return false;">Москве</a>&nbsp;&nbsp;&nbsp;<input type="image" class="save_btn" src="/skin/img/love_info_btn.gif" title="Искать" />
+<input id="hd_love_geo" type="hidden" name="geo" value="3159-4312-4400" />
+</div>
+</td>
+</tr>
+</table>
+</form>
+</div><div class="inf_blocks h_fixed3 w_col_left"><h2><a id="q_ziza_caption" href="http://ziza.qip.ru/?from=qip">Лучшее от ZizA.Qip.rU</a></h2>
+<div class="smotri">
+<table cellpadding="0" cellspacing="0" border="0"><tr><td><a target="_blank" id="q_ziza_1" href="http://ziza.qip.ru/others/1285039429-morozhennoe_iz_piva_13_foto.html?from=qip"><img src="/i/photo/ziza/2150627976e16f2b87bc632215c53b70.jpg" alt="Мороженное из пива" title="Мороженное из пива" width="100" /></a>
+<p>&nbsp;Мороженное из пива&nbsp;</p>
+</td>
+<td><a target="_blank" id="q_ziza_2" href="http://ziza.qip.ru/2010/09/20/indijjskie_gimnasty__8_foto.html?from=qip"><img src="/i/photo/ziza/fab3718e9a5a3820179aeb61c9f7cab6.jpg" alt="Индийские гимнасты" title="Индийские гимнасты" width="100" /></a>
+<p>&nbsp;Индийские гимнасты&nbsp;</p>
+</td>
+</tr></table>
+</div></div></div></div>
+		<div class="qip_right_new"><div class="right_banner">
+<div id="medialand_adland_div_1953" name="medialand_adland_div" style="display:none;"><iframe id="medialand_adland_frm_1953" frameborder="0" vspace="0" hspace="0" width="0" height="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></div>
+<script type="text/javascript"><!--
+var random = Math.floor(Math.random() * 1000000000);
+document.write('<scr' + 'ipt type="text/javascript" src="http://medialand.relax.ru/code?pid=1953&gid=329&oin=1&rid=&sall=1' + random +'"></scr' + 'ipt>');
+//--></script>
+<div class="photo right_block"><h2><a id="q_fishki_caption" href="http://fishki.net/?from=qip" target="_blank">Лучшее от Fishki.net</a></h2>
+<div class="photo">
+<table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td align="center"><a id="q_fishki_1" href="http://fishki.net/comment.php?id=75912&amp;from=qip" target="_blank"><img src="/i/photo/fishki/092010_16_post_poddelki_tn.jpg" alt="Китайские подделки" title="Китайские подделки" border="0" width="100" /></a>
+<p>&nbsp;Китайские подделки&nbsp;</p>
+</td>
+<td align="center"><a id="q_fishki_2" href="http://fishki.net/comment.php?id=76130&amp;from=qip" target="_blank"><img src="/i/photo/fishki/092010_21_post_timon_tn.jpg" alt="Тимон и Симба" title="Тимон и Симба" border="0" width="100" /></a>
+<p>&nbsp;Тимон и Симба&nbsp;</p>
+</td>
+</tr></table>
+</div>
+</div><script type="text/javascript"><!--
+QipLoadCounter.fromServer=8;
+document.write('<img src="http://lstats.qip.ru/images/1px.gif?r='+Math.random()+'" onload="QipLoadCounter.simpleLoad(this);" />');
+--></script><div class="horo" style="margin-top:15px"><h2><a id="q_horo_caption" href="http://horo.qip.ru/?from=qip">Гороскопы</a></h2>
+<div style="background: transparent url(/i/horo/2.gif) no-repeat 2pt center;">
+<p><b>Телец</b>, <span>20.04 &minus; 20.05</span></p>
+<b><a id="q_horo_detailed" href="http://horo.qip.ru/sign/daily/2/?from=qip">Подробный гороскоп</a></b>
+<br /><br />
+<p><b>Выберите знак зодиака:</b></p>
+<form name="horo_form" action="http://horo.qip.ru/sign/daily/" method="post" onsubmit="var horo=this.horo.options[this.horo.selectedIndex].value;this.action='http://horo.qip.ru/sign/daily/'+horo+'/?from=qip';if(this.oldhoro.value*1 !== horo*1){set_startqip_settings('horo', horo);};">
+<input type="hidden" name="oldhoro" value="2" />
+<select name="horo"><option value="1">Овен</option><option value="2" selected="selected">Телец</option><option value="3">Близнецы</option><option value="4">Рак</option><option value="5">Лев</option><option value="6">Дева</option><option value="7">Весы</option><option value="8">Скорпион</option><option value="9">Стрелец</option><option value="10">Козерог</option><option value="11">Водолей</option><option value="12">Рыбы</option></select>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="image" src="/skin/img/love_info_btn.gif" />
+</form>
+</div>
+</div><div class="advert_news advert_news_top right_block"><object width="240" height="115" codebase="http://active.macromedia.com/flash2/cabs/swflash.cab#version=4,0,0,0" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000">
+<param value="http://rbqip.pochta.ru//swf/07f541ef/28c1350c/a4b11313/7609d69e.swf?link1=http%3A%2F%2Frb.qip.ru%2F%3Fg%3D1%26m%3Dc2dcf346fc8e2ea01ee7e48c55144c42%26bid%3DMjA0NzoyODcy&clickTAG=http%3A%2F%2Frb.qip.ru%2F%3Fg%3D1%26m%3Dc2dcf346fc8e2ea01ee7e48c55144c42%26bid%3DMjA0NzoyODcy&target=_blank" name="movie"/>
+<param value="high" name="quality"/>
+<param value="always" name="allowscriptaccess"/>
+<param value="link1=http%3A%2F%2Frb.qip.ru%2F%3Fg%3D1%26m%3Dc2dcf346fc8e2ea01ee7e48c55144c42%26bid%3DMjA0NzoyODcy&clickTAG=http%3A%2F%2Frb.qip.ru%2F%3Fg%3D1%26m%3Dc2dcf346fc8e2ea01ee7e48c55144c42%26bid%3DMjA0NzoyODcy&target=_blank" name="flashvars"/>
+<param value="opaque" name="wmode"/>
+<embed width="240" height="115" wmode="opaque" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" flashvars="link1=http%3A%2F%2Frb.qip.ru%2F%3Fg%3D1%26m%3Dc2dcf346fc8e2ea01ee7e48c55144c42%26bid%3DMjA0NzoyODcy&clickTAG=http%3A%2F%2Frb.qip.ru%2F%3Fg%3D1%26m%3Dc2dcf346fc8e2ea01ee7e48c55144c42%26bid%3DMjA0NzoyODcy&target=_blank" allowscriptaccess="always" quality="high" src="http://rbqip.pochta.ru//swf/07f541ef/28c1350c/a4b11313/7609d69e.swf?link1=http%3A%2F%2Frb.qip.ru%2F%3Fg%3D1%26m%3Dc2dcf346fc8e2ea01ee7e48c55144c42%26bid%3DMjA0NzoyODcy&clickTAG=http%3A%2F%2Frb.qip.ru%2F%3Fg%3D1%26m%3Dc2dcf346fc8e2ea01ee7e48c55144c42%26bid%3DMjA0NzoyODcy&target=_blank"/>
+</object>
+<script type="text/javascript"><!--
+document.cookie="rb_shows=ad8%b41; expires=Thu, 30 Jul 2020 20:00:00 GMT; path=/; domain=.qip.ru";
+document.cookie="rb_shows_day=ad8-1%b41-1; expires=Wed, 22 Sep 2010 20:00:00 GMT; path=/; domain=.qip.ru";
+--></script>
+</div></div>
+	</div>
+	<div class="footWrap"></div>
+</div><div class="qip_footer qf_stretch">
+	<div class="qf_left"><a id="q_footer_pda" href="//pda.qip.ru/">Мобильная версия</a></div>
+	<div class="qf_right">
+		<table cellpadding="0" cellspacing="0" border="0" align="right"><tr>
+			<td class="qf_counter" id="qf_bm_counter"><a id="q_footer_li_counter" href="http://www.liveinternet.ru/click" target="_blank"><img class="qf_c31x31" src="//counter.yadro.ru/logo?44.3" title="LiveInternet" alt="" /></a></td><td class="qf_counter">
+					<a id="q_rambler_pixel" class="q_abs" href="http://top100.rambler.ru/top100/"><img src="http://counter.rambler.ru/top100.cnt?1185528" alt="" width="1" height="1" /></a>
+					<a id="q_rambler_counter" href="http://top100.rambler.ru/home?id=1185528"><img class="qf_c88x31" src="http://top100-images.rambler.ru/top100/banner-88x31-rambler-gray2.gif" alt="Rambler's Top100" /></a>
+				</td><td>&copy; QIP.ru. Все права защищены.</td>
+		</tr></table>
+	</div>
+	<div class="qf_center"><a id="q_footer_help" href="http://help.qip.ru/">Помощь</a> <b>·</b> <a id="q_footer_advertise" href="//qip.ru/advertise">Реклама</a> <b>·</b> <a id="q_footer_traffic" href="//qip.ru/traffic">Обмен трафиком</a> <b>·</b> <a id="q_footer_partner" href="http://partner.qip.ru/">Партнерская программа</a> <b>·</b> <a id="q_footer_download_qip" href="//qip.ru/download_qip_2010">Скачать QIP</a> <b>·</b> <a id="q_footer_services" href="//qip.ru/services">Все сервисы</a></div>
+</div><div style="position: absolute">
+<script type="text/javascript"><!--
+var pp_gemius_identifier = new String('AjtLm6urvIF2uTw7.v8m36Pe33MGxnsw3wib9RJAMRP.R7'), pp_gemius_hitcollector = 'rbcgaru.hit.gemius.pl';
+--></script>
+<script type="text/javascript" src="/js/xgemius.js"></script><!-- kunugi --></div></body>
+</html>

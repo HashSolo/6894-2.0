@@ -1,0 +1,54 @@
+/**
+ * Generated Code page styles
+ * Created: 02.22.2008 - tbroussard
+ */
+
+h1 {color:#C68038 !important; font-size:1.33em !important}
+
+/* fixes lightbox overlay in IE */
+#page {position:static;}
+
+.group {margin:0 0 20px 0 !important}
+.group ol {_margin-left:2px; *margin-left:2px}
+.selectCodeContainer {margin:0 !important; padding-top:10px; _margin-top:18px !important}
+.previewSection {margin:0 auto; padding-top:15px; text-align:center; vertical-align:middle; width:209px}
+.previewSection p {margin:0 0 1em}
+.previewSection input, .previewSection select, .previewSection p {width:209px}
+.previewSection label {text-align:left; width:209px; overflow:hidden;}
+.previewImage {padding-top:20px}
+.optionImagesContainer {float:left; width:197px; margin:10px 15px 25px 0}
+.optionLinksContainer {float:right; width:535px; padding-top:1.3em}
+.optionLinksContainer p.createSimilarButton, .optionLinksContainer p.createUnsubscribeButton {margin-bottom:1.5em}
+.optionLinksContainer p.createViewCartButton {margin-bottom:1.6em}
+.imgBorderFull {border:1px #ccc solid}
+.imgBorder {border:1px #ccc solid; border-top:0}
+.protectCodeContainer {background:#f4f4f4; border:1px solid #999; border-bottom:0; padding:5px; text-align:right; width:436px}
+.codeProtectionLink {font-size:1em}
+.editButtonLink {font-size:95%; margin: 0 0 10px 10px; width:auto}
+
+.clearfix:after {content:'.'; display:block; height:0px; clear:both; visibility:hidden}
+.heightfix:before {content:'.'; display:block; visibility:hidden; height:0}
+
+/* TabView */
+div.yui-navset ul.yui-nav {z-index:1; position:relative; overflow:auto; margin:0 0 -1px 0; list-style-type:none}
+div.yui-navset ul.yui-nav li {float:left; background:url(/WEBSCR-570-20090406-1/en_US/i/scr/scr_tabgradient.jpg) repeat-x; border:1px solid #ccc; border-bottom:0; margin:0.4em 0 0 5px; padding:.3em .9em}
+div.yui-navset ul.yui-nav li a, div.yui-navset ul.yui-nav li a:visited {color:#084482; text-decoration:none}
+div.yui-navset ul.yui-nav li a:hover, div.yui-navset ul.yui-nav li a:active {color:#084482; text-decoration:underline}
+div.yui-navset ul.yui-nav li a em {font:100%/normal Arial, Helvetica, sans-serif}
+div.yui-navset ul.yui-nav li.selected {border-bottom:1px solid #fff; background:#fff; color:#333; margin-top:0; padding:.5em .9em .5em}
+div.yui-navset ul.yui-nav li.selected a {color:#333; text-decoration:none !important; cursor:default}
+div.yui-navset ul.yui-nav li.selected a em {color:#333; font-weight:bold}
+div.yui-navset ul.yui-nav li.disabled {background:url(/WEBSCR-570-20090406-1/en_US/i/scr/scr_disabledtab_gray.gif) repeat-x; cursor:default; padding:.35em .9em}
+div.yui-navset ul.yui-nav li.disabled em {color:#b3b3b3; font-weight:normal; text-decoration:none !important; cursor:default}
+
+/* TabView Content */
+div.yui-content {border:1px solid #ccc; margin:0 0 25px 0; width:750px}
+div.yui-content .content {overflow:hidden; position:relative; padding:10px; width:730px}
+div.yui-content .content .rightBox {background:#f4f4f4; left:453px; position:relative; width:279px}
+div.yui-content .content .rightBox .contentBox {background:transparent; position:relative; width:100%; left:-453px}
+div.yui-content .content .rightBox .contentBox .leftModule {width:436px; float:left; background:transparent}
+div.yui-content .content .rightBox .contentBox .rightModule {position:relative; width:278px; margin-left:453px; background:transparent}
+div.yui-content .content .rightBox .contentBox .leftModule textarea {height:123px; width:442px; border-top:1px solid #ccc}
+div.yui-content .content .rightBox .contentBox .rightModule p.heading {background:url(/WEBSCR-570-20090406-1/en_US/i/scr/scr_headergradient.jpg) repeat-x; height:15px; margin:0; padding:6px 8px 4px}
+
+#generatedEmailCode {white-space:nowrap}

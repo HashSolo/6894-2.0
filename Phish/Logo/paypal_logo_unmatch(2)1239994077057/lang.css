@@ -1,0 +1,13 @@
+/* 
+	Title: en_GB/lang.css
+	Author Name: Steve Ganz
+	Author Date: 2005-10-28
+	Description: Exclusive and redefined rules for en_GB.
+*/
+
+div.content div.marks {
+	float: right;
+	width: 295px;
+	padding: 0 5px 5px;
+	
+}

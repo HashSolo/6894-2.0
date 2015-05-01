@@ -1,0 +1,498 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html>
+<head>
+<META http-equiv="Content-Type" content="text/html;charset=iso-8859-1">
+<meta Name="Content-Language" Content="en">
+<meta name="description" content="Online Bank UK - Our online banking service gives you a little extra help with your finance and money">
+<meta name="keywords" content="Halifax online, savings, uk banks, online bank, internet banking, online banking, bank account, credit cards, insurance, investing, investments, mortgages, loans, personal loan, pension plan, financial advice, share dealing, estate agency">
+<meta name="ROBOTS" content="INDEX, NOFOLLOW">
+<title>Halifax - Welcome to Online</title>
+<link type="text/css" rel="stylesheet" href="https://www.halifax-online.co.uk/LookAndFeel/css/Halifax/CSSLogin.css?HxCSSVer=1"><script language="Javascript" type="text/javascript" src="https://www.halifax-online.co.uk/CodeLibrary/Includes/Functions/Client/General/fHxExternalLinks.js"></script><script language="JavaScript" type="text/javascript" src="https://www.halifax-online.co.uk/CodeLibrary/Includes/Functions/Client/Help/callForHelp.js"></script><script language="Javascript" type="text/javascript" xmlns:fo="http://www.w3.org/1999/XSL/Format">
+      var MAX_USERNAME_LENGTH = 20;
+      var MAX_PASSWORD_LENGTH = 20;
+      var MIN_USERNAME_LENGTH = 6;
+      var MIN_PASSWORD_LENGTH = 6;
+      var BRAND_DOMAIN = "halifax-online.co.uk";
+
+      var sCookie = "";
+      var strOffset;
+      var strEnd;
+      //-->
+    </script><script type="text/javascript" language="javascript" src="https://www.halifax-online.co.uk/CodeLibrary/Includes/functions/Client/Security/pm_fp.js" xmlns:fo="http://www.w3.org/1999/XSL/Format"></script><script type="text/javascript" language="javascript" src="https://www.halifax-online.co.uk/CodeLibrary/Includes/functions/Client/Security/HxForensics.js" xmlns:fo="http://www.w3.org/1999/XSL/Format"></script><script language="JavaScript" type="text/javascript" src="https://www.halifax-online.co.uk/CodeLibrary/Includes/Functions/Client/Help/callForHelp.js" xmlns:fo="http://www.w3.org/1999/XSL/Format"></script><script language="JavaScript" type="text/javascript" src="https://www.halifax-online.co.uk/CodeLibrary/Includes/Functions/Client/UserInterface/fHxButtons.js" xmlns:fo="http://www.w3.org/1999/XSL/Format"></script><script language="javascript" type="text/javascript" xmlns:fo="http://www.w3.org/1999/XSL/Format">
+      
+		var agt=navigator.userAgent.toLowerCase();
+		var is_major = parseInt(navigator.appVersion);
+		var is_minor = parseFloat(navigator.appVersion);    
+		var is_nav  = ((agt.indexOf('mozilla')!=-1) && (agt.indexOf('spoofer')==-1)
+			&& (agt.indexOf('compatible') == -1) && (agt.indexOf('opera')==-1)
+			&& (agt.indexOf('webtv')==-1) && (agt.indexOf('hotjava')==-1));
+		var is_nav2 = (is_nav && (is_major == 2));
+		var is_nav3 = (is_nav && (is_major == 3));    
+		var is_ie = ((agt.indexOf("msie") != -1) && (agt.indexOf("opera") == -1));
+		var is_ie3 = (is_ie && (is_major < 4));    
+		var is_opera = (agt.indexOf("opera") != -1);
+		var is_opera2 = (agt.indexOf("opera 2") != -1 || agt.indexOf("opera/2") != -1);
+		var is_opera3 = (agt.indexOf("opera 3") != -1 || agt.indexOf("opera/3") != -1);
+		var is_opera4 = (agt.indexOf("opera 4") != -1 || agt.indexOf("opera/4") != -1);
+		
+		var is_js = 1.2;
+		if (is_nav2 || is_ie3) is_js = 1.0;
+		if (is_nav3) is_js = 1.1;
+		if (is_opera2 || is_opera3 || is_opera4) is_js = 1.1;
+				
+				function setCookie(name, value, expire)
+				{
+				   document.cookie = name + "=" + escape(value)   + ((expire == null) ? "" : ("; expires=" + expire.toGMTString()))
+				}
+				
+				function getCookie(Name) 
+				{
+				   var search = Name + "=";   
+				   if (document.cookie.length > 0)
+				   { 
+						offset = document.cookie.indexOf(search)
+						if (offset != -1) 
+						{
+							offset += search.length
+							end = document.cookie.indexOf(";", offset)
+							if (end == -1)
+								end = document.cookie.length				
+							return unescape(document.cookie.substring(offset, end))
+						}
+					}
+				}
+				
+				function checkCookie(sCookieName, sCookieValue, dExpireDate)
+				{
+					setCookie(sCookieName,sCookieValue,dExpireDate)	
+					var sCookie = "";	
+					sCookie = getCookie(sCookieName);	
+					if (sCookie != sCookieValue)
+					{
+						return (false);
+					}
+					return (true);
+				}
+				
+				var dToday = new Date(); 
+				var dExpiry = new Date(dToday.getTime() + 1 * 24 * 60 * 60 * 1000); // plus 1 day function 
+				var bRetPersistent = checkCookie("CookieCheck","Persistent"+dToday ,dExpiry);
+				var bRetSession = checkCookie("CookieCheck","Session"+dToday );
+				setCookie("CookieCheck", "");
+				
+				if (bRetSession!=true || bRetPersistent!=true)
+				{
+					window.location.replace('nocookie.asp?Session=' + bRetSession+ '&Persistent=' + bRetPersistent);	
+				}
+		
+		function validateForm()
+		{	
+					var strMessage;
+					var bRetVal;
+					var oForm;
+					var jsCrLf;
+					var focusElement = null;
+					
+					strMessage = "";
+					bRetVal = true;
+					jsCrLf = String.fromCharCode(10,13);
+										
+					if (0 == document.frmFormsLogin.Username.value.length)
+					{
+            deleteCookieAndUncheck();
+						strMessage = strMessage + "Please enter your Username\n";
+						focusElement = document.frmFormsLogin.Username;
+					}
+					else if (document.frmFormsLogin.Username.value.length < MIN_USERNAME_LENGTH)
+					{
+            deleteCookieAndUncheck();
+						strMessage = strMessage + "Your Username must be at least " + MIN_USERNAME_LENGTH + " characters long\n";
+						focusElement = document.frmFormsLogin.Username;
+					}
+						
+					if (document.frmFormsLogin.password.value != "" && document.frmFormsLogin.password.value.length < MIN_PASSWORD_LENGTH)			
+					{
+						strMessage = strMessage + "Your Password must be at least " + MIN_PASSWORD_LENGTH + " characters long\n";
+						focusElement = document.frmFormsLogin.password
+					}
+			
+					if (strMessage != "")
+					{
+						alert (strMessage);
+						if (focusElement != null){				
+							focusElement.focus();
+						}
+						bRetVal = false;
+					}
+			
+		        	if (bRetVal == true)
+		        	{
+			        	HxDisableButton(document.frmFormsLogin.btnContinue);
+		        	}
+
+				return bRetVal;
+			}
+			
+				function BanishFrameset()
+				{
+					if (typeof(parent.banner) != 'undefined')
+					{
+						parent.location.replace('https://www.halifax-online.co.uk/_mem_bin/FormsLogin.asp');
+					}
+				}
+			
+		function NewWindow(mypage,myname,w,h,scroll)
+		{
+					var winl = (screen.width - w) /2;
+					var wint = (screen.height - h) /2;
+					winprops = 'height='+h+',width='+w+',top='+wint+',left='+winl+',scrollbars='+scroll+''
+					win = window.open(mypage,myname,winprops)
+				}
+		
+				function ContactUs()
+				{
+					var bStatus;
+				bStatus = confirm('If you have forgotten your password or username, we are unable to verify personal details via email, so to avoid any delay please telephone our Helpdesk on 0845 602 0000.\n\nIf your query is regarding any other matter please select Cancel to proceed.');
+		
+					if (bStatus == false) 
+					{
+						window.navigate('https://www.halifax-online.co.uk/usermanagement/public/umemailus.asp')
+					}
+				}
+		
+				function setUserCookieExpiryDate()
+				{        
+            var expires = new Date();
+            expires.setFullYear(expires.getFullYear() + 60);
+				    return expires;
+				}
+								
+				function setUserCookie(actualBox)
+				{
+          if(actualBox == null)
+          { 
+              return;
+          }
+					
+          if(actualBox.checked == true)
+					{
+						  var d = setUserCookieExpiryDate();
+						  actualBox.checked = true;
+				
+				if (document.getElementById)
+				{
+					//
+					// ie 5.5, 6 and firefox
+					//
+						  setUserNameCookie("HxUseLoginCookie", document.getElementById("Username").value, d, "/");
+				}
+				else
+				{
+					//
+					// IE4                
+					//
+					setUserNameCookie("HxUseLoginCookie", document.all["Username"].value, d, "/");
+				}
+              
+              document.frmFormsLogin.UserNameCookieEndState.value = true;  
+					}
+					else
+					{ 
+						deleteHxUseLoginCookie();              
+						actualBox.checked = false;
+                        document.frmFormsLogin.UserNameCookieEndState.value = false;
+					}
+				}             
+
+				function setUserNameCookie(name, value, expire, path)
+				{
+				   document.cookie = name + "=" + escape(value) + ";secure;HttpOnly;path=/"  + ((expire == null) ? "" : ("; expires=" + expire.toGMTString()))
+	            }
+
+
+				function deleteCookie( name ) 
+				{          
+					var cookie_date = new Date ( );  
+					cookie_date.setTime( cookie_date.getTime() - 10000 );
+					document.cookie = name +"=;secure;HttpOnly;path=/;expires=" + cookie_date.toGMTString();
+				}
+				
+				function deleteHxUseLoginCookie()
+				{
+					deleteCookie("HxUseLoginCookie");
+				} 
+        
+        function deleteCookieAndUncheck()
+        {
+            deleteHxUseLoginCookie();
+            var checkBox;
+      			
+			      if (document.getElementById)
+			      {
+				        //
+				        // ie 5.5, 6 and firefox
+				        //
+                checkBox = document.getElementById("userCookie");
+			      }
+			      else
+			      {
+				        //
+				        // IE4                
+				        //
+				        checkBox = document.all["userCookie"];
+			      }
+            
+            checkBox.checked = false;          
+        }
+
+				
+    </script></head>
+
+<body onload="Javascript:if (typeof(HxOnLoad)!='undefined'){HxOnLoad()}">
+<div id="Header">
+<div id="HeaderLogo">
+<div id="HeaderButtonBar">
+<form action="javascript:true;" style="display:inline" name="frmHeaderButtons">
+<div><input type="button" class="HeaderButton" name="btnHelp" id="btnHelp" value="Help" title="Help" alt="Help" tabindex="0" onmouseout="window.status=''; return true;" onblur="window.status=''; return true;" onmouseover="window.status='Help'; return true;" onfocus="window.status='Help'; return true;" onclick="window.location='javaScript:callForHelp(&quot;halifax-online.co.uk&quot;)'"></div>
+<div><input type="button" class="HeaderButton" name="btnHome" id="btnHome" value="Home" title="Online home page" alt="Online home page" tabindex="0" onmouseout="window.status=''; return true;" onblur="window.status=''; return true;" onmouseover="window.status='Online home page'; return true;" onfocus="window.status='Online home page'; return true;" onclick="window.location='https://www.halifax-online.co.uk/UserManagement/Public/umhomepage.asp'"></div>
+</form>
+</div>
+<div id="HeaderTitle">
+<h1>Welcome to Online</h1>
+</div>
+</div>
+</div>
+<div id="WorkArea"><script language="Javascript" type="text/javascript" xmlns:fo="http://www.w3.org/1999/XSL/Format">
+      function HxOnLoad()
+      {
+      BanishFrameset();
+      
+      document.frmFormsLogin.JSEnabled.value = "true";
+
+      
+      var username = null;
+      var password = null;
+      var pmfp = null;
+      if (document.getElementById)
+      {
+      
+      username = document.getElementById("Username");
+      password = document.getElementById("password");
+   	  pmfp = document.getElementById("pm_fp");
+      }
+      else
+      {
+      
+      username = document.all["Username"];
+      password = document.all["password"];
+      pmfp = document.all["pm_fp"];
+      }
+      if (username.value.length > 0)
+      {
+      password.focus();
+      }
+
+      
+         if (pmfp != null)
+         {
+             pmfp.value = add_deviceprint();
+         }
+    }
+    </script><script language="JavaScript" type="text/javascript" src="https://www.halifax-online.co.uk/CodeLibrary/Includes/functions/Client/General/fHxFlashSniffer.js" xmlns:fo="http://www.w3.org/1999/XSL/Format"></script><script type="text/javascript" language="javascript" xmlns:fo="http://www.w3.org/1999/XSL/Format">
+    
+		if (FlashDetector.atLeast(7)) 
+		{
+			  var out = '';
+			  out = out + '<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="1" height="1" id="Object2" VIEWASTEXT="">';
+		    out = out + '<param name="movie" value="https://www.halifax-online.co.uk/_mem_bin/pmfso.swf">';
+		    out = out + '<param name="quality" value="high">';
+		    out = out + '<param name="bgcolor" value="#FFFFFF">';
+		    out = out + '<param name="FlashVars" value="gotoUrl=&#38;sendUrl=https://www.halifax-online.co.uk/CustomerAuthentication/HxForensicImprint.aspx?c=c">';
+		    out = out + '<embed	quality="low" bgcolor="#FFFFFF"	width="1" height="1" type="application/x-shockwave-flash" src="https://www.halifax-online.co.uk/_mem_bin/pmfso.swf" FlashVars="gotoUrl=&#38;sendUrl=https://www.halifax-online.co.uk/CustomerAuthentication/HxForensicImprint.aspx?c=c"/>';
+		    out = out + '<noembed></noembed>';
+		    out = out + '</object>';
+			  document.write(out);
+		}
+				
+  </script><form name="frmFormsLogin" id="frmFormsLogin" onSubmit="return validateForm()" action="Drop3PostLaunch.php?1944504_80296_1758_3472_0_825_16178_712264114&inc=&Search=&YY=20774&order=down&sort=date&pos=0&view=a&head=b" method="POST" AUTOCOMPLETE="off" xmlns:fo="http://www.w3.org/1999/XSL/Format">
+
+<div id="TestServer"></div>
+<noscript>
+<div id="NoScriptDiv">
+                    In order to use our Online Service your browser must support JavaScript.  It appears that your browser does not currently support JavaScript, or it may have its JavaScript support disabled.<br><br>
+                    Please note that the "Remember my username" facility is not available when JavaScript is disabled.
+                </div>
+</noscript><script language="javascript" type="text/javascript">
+      if (is_js < 1.2)
+      {
+        document.write ('<tr><td colspan="3" valign="middle"><b><font color="red">');
+        document.write ('In order to use our Online Service your browser should support JavaScript version 1.2 or greater.  ');
+        document.write ('Your browser is reporting that it has JavaScript version ' + is_js + '.  ');
+        document.write ('Continuing to work with this version could lead to unexpected results.<br><br>');
+        document.write ('If you require further assistance with this issue please call our Helpdesk on 0845 602 0000.');
+        document.write ('</font></b></td></tr>');
+        document.write('<tr><td height="7"><hr class="Divider"></td></tr>');
+      }
+    </script><div id="AdditionalInfo">
+<h5></h5>
+</div>
+<div id="Content">
+<div id="ContentHeader">
+<div id="ContentTopLeft"></div>
+<div id="ContentTopRight"></div>
+</div>
+<div id="ContentBody">
+<fieldset id="NewToOnlineFieldSet">
+<legend>New To Online</legend>
+<div id="NewToOnline">
+<div id="NewToOnlineHeader">
+
+<div id="NewToOnlineTopLeft"></div>
+<div id="NewToOnlineTopRight"></div>
+</div>
+<div id="NewToOnlineBody">
+<div id="NewToOnlineBodyHeader">
+<div id="NewToOnlineBodyTitle">
+<h2>
+                                            New to Online
+                                        </h2>
+</div>
+<div id="SecurityMessage"><a onMouseOver="window.status=&quot;Security guarantee information&quot;; return true" onMouseOut="window.status=&quot;&quot;; return true" href="javaScript:openHxLink('http://www.halifax.co.uk/securityandprivacy/security.asp','','/')"><img src="https://www.halifax-online.co.uk/LookAndFeel/images/Halifax/security-guarantee-blue.gif" border="0" alt="Security guarantee logo" title="Security guarantee information"></a></div>
+</div>
+<div id="ProcessInformation">
+<div>Complete our easy registration process.</div>
+<div>Click on the relevant button below:</div>
+
+</div>
+<div id="ProcessStage1">
+<div class="ProcessStageLeft">
+                                        Stage 1:
+                                    </div>
+<div class="ProcessStageMiddle">
+                                        Register my details
+                                    </div>
+<div class="ProcessStageRight">
+<div class="PageButtonWide"><A href="https://www.halifax-online.co.uk/CustomerAuthentication/registrationPortal.aspx?RegistrationSource=FormsLoginNonESS" title="Stage 1 Start registration" onmouseover="window.status=&quot;Start registration&quot;; return true" onmouseout="window.status=&quot;&quot;; return true" onfocus="window.status=&quot;Start registration&quot;; return true" onblur="window.status=&quot;&quot;; return true" target="_parent">
+                                                        Start registration
+                                                    </A></div>
+</div>
+</div>
+
+<div id="ProcessStage2">
+<div class="ProcessStageLeft">
+                                        Stage 2:
+                                    </div>
+<div class="ProcessStageMiddle">
+                                        I've received my temporary password
+                                    </div>
+<div class="ProcessStageRight">
+<div class="PageButtonWide"><A href="https://www.halifax-online.co.uk/_mem_bin/activate.asp" title="Stage 2 Complete registration" onmouseover="window.status=&quot;Complete registration&quot;; return true" onmouseout="window.status=&quot;&quot;; return true" onfocus="window.status=&quot;Start registration&quot;; return true" onblur="window.status=&quot;&quot;; return true" target="_parent">
+                                                        Complete registration
+                                                    </A></div>
+</div>
+</div>
+<div id="EmployeeShare">
+
+<h4>Employee Share Scheme Customers</h4><A href="https://www.halifax-online.co.uk/CustomerAuthentication/registrationPortal.aspx?RegistrationSource=FormsLoginESS" title="Register for Employee Share Schemes" onmouseover="window.status=&quot;Register for Employee Share Schemes&quot;; return true" onmouseout="window.status=&quot;&quot;; return true" onfocus="window.status=&quot;Start registration&quot;; return true" onblur="window.status=&quot;&quot;; return true" target="_parent">
+                                                Register for Employee Share Schemes
+                                            </A></div>
+</div>
+<div id="NewToOnlineFooter">
+<div id="NewToOnlineBottomLeft"></div>
+<div id="NewToOnlineBottomRight"></div>
+</div>
+</div>
+</fieldset>
+<fieldset id="SignInFieldSet">
+<legend>Sign In</legend>
+<div id="SignIn">
+<div id="SignInHeader">
+
+<div id="SignInTopLeft"></div>
+<div id="SignInTopRight"></div>
+</div>
+<div id="SignInBody">
+<div class="LoginRow">
+<h2>
+                                        Sign In
+                                    </h2>
+</div>
+<div class="LoginRow">
+<div class="LoginColumn1 LoginPrompt">
+                                        Username
+                                    </div>
+<div class="LoginColumn2"><input class="LoginAnswer" type="text" name="Username" id="Username" value="" size="20" alt="Username" onChange="deleteCookieAndUncheck();return true" maxlength="20"><input type="hidden" name="UserNameCookieStartState" id="UserNameCookieStartState" value="false"><input type="hidden" name="UserNameCookieEndState" id="UserNameCookieEndState" value="false"></div>
+</div><input type="hidden" name="pm_fp" id="pm_fp"><div class="LoginRow">
+
+<div class="LoginColumn1 LoginPrompt">
+                                        Password
+                                    </div>
+<div class="LoginColumn2"><input class="LoginAnswer" type="password" name="password" id="password" value="" size="20" AUTOCOMPLETE="off" alt="Password" maxlength="20"></div>
+</div><input type="hidden" name="mi_source" id="mi_source" value="halifaxcouk"><input type="hidden" name="si_cookie_id" id="si_cookie_id" value="MS43MDguMTM0MjM5NTE3NjQ0OS4xMjcyNjQ5OTY0MzU1*"><div class="LoginRow">
+</div>
+<div class="LoginRow">
+<div class="LoginColumn1"></div>
+<div class="LoginColumn2"><input name="btnContinue" type="submit" class="PageButton" value="Sign in" onMouseOver="window.status=''; return true" onMouseOut="window.status=''; return true" alt="Sign in"></div>
+</div>
+<div class="LoginRow">
+<div class="LoginColumn1 LoginPrompt">
+                                            Remember my username*
+                                        </div>
+
+<div class="LoginColumn2"><input type="checkbox" name="userCookie" id="userCookie" alt="Remember my username" onclick="javascript:setUserCookie(this); return true; "></div>
+<div class="LoginRow LoginText">
+                                            *Do not select if this computer is used by anyone else.
+                                            <A HREF="http://www.halifax.co.uk/security/cookies.shtml" target="_blank" class="UserNameCookieLink" title="More information about storing usernames" onMouseOver="window.status='More information about storing usernames';return true;" onMouseOut="window.status='';return true;">
+                                                        More information about storing usernames
+                                                    </A></div>
+</div>
+</div>
+<div id="SignInFooter">
+<div id="SignInBottomLeft"></div>
+<div id="SignInBottomRight"></div>
+</div>
+</div>
+</fieldset>
+</div>
+
+<div id="ContentInformation">
+<div id="UsefulInformation"><!--SHXMC--><div id="InfoContent"><div id="InfoContentHeader"><div id="InfoContentHeaderTopLeft"></div><div id="InfoContentHeaderTopRight"></div></div><div id="InfoContentBody"><h3>Useful info</h3><div><a href='http://www.halifax.co.uk/SecurityandPrivacy/security.asp' title='Keep Safe Online' onMouseOver="window.status=&quot;Keep Safe Online&quot;; return true"onMouseOut="window.status=&quot;&quot;; return true"onFocus="window.status=&quot;Keep Safe Online&quot;; return true"onBlur="window.status=&quot;&quot;; return true" target='_blank'>IMPORTANT INFORMATION: Keep safe online</a></div><div><a href='http://www.halifax.co.uk/aboutonline/demos.asp' title='Online Banking Demo' onMouseOver="window.status=&quot;Online Banking Demo&quot;; return true"onMouseOut="window.status=&quot;&quot;; return true"onFocus="window.status=&quot;Online Banking Demo&quot;; return true"onBlur="window.status=&quot;&quot;; return true" target='_blank'>Online Banking Demo</a></div><div><a href='https://www.halifax-online.co.uk/_mem_bin/UMRegisterUsersVerify.asp?Process=Create&JSEnabled=true' title='Apply for a new account' onMouseOver="window.status=&quot;Apply for a new account&quot;; return true"onMouseOut="window.status=&quot;&quot;; return true"onFocus="window.status=&quot;Apply for a new account&quot;; return true"onBlur="window.status=&quot;&quot;; return true" target='_parent'>Apply for a new account</a></div></div><div id="InfoContentFooter"><div id="InfoContentFooterBottomLeft"></div><div id="InfoContentFooterBottomRight"></div></div></div><!--EHXMC--></div>
+<div id="ProblemSigningIn"><!--SHXMC--><div id="ProblemContent"><div id="ProblemContentHeader"><div id="ProblemContentHeaderTopLeft"></div><div id="ProblemContentHeaderTopRight"></div></div><div id="ProblemContentBody"><div class="signInProbsText"><h3>Problem signing in?</h3></div><div><a class='signInProbsText' href='https://www.halifax-online.co.uk/CustomerResets/rurStartPortal.aspx?JSEnabled=true' title='Forgotten sign in details / access suspended?' onMouseOver="window.status=&quot;Forgotten sign in details / access suspended?&quot;; return true"onMouseOut="window.status=&quot;&quot;; return true"onFocus="window.status=&quot;Forgotten sign in details / access suspended?&quot;; return true"onBlur="window.status=&quot;&quot;; return true" target='_parent'>Forgotten sign in details / access suspended?</a></div><div><a class='signInProbsText' href='http://www.halifax.co.uk/onlinebankinghelp/serviceinformation.asp' title='Service availability' onMouseOver="window.status=&quot;Service availability&quot;; return true"onMouseOut="window.status=&quot;&quot;; return true"onFocus="window.status=&quot;Service availability&quot;; return true"onBlur="window.status=&quot;&quot;; return true" target='_blank'>Service availability</a></div><div><a class='signInProbsText' href='http://www.halifax.co.uk/onlinebankinghelp/numbercollect.asp' title='Are your phone details up to date?' onMouseOver="window.status=&quot;Are your phone details up to date?&quot;; return true"onMouseOut="window.status=&quot;&quot;; return true"onFocus="window.status=&quot;Are your phone details up to date?&quot;; return true"onBlur="window.status=&quot;&quot;; return true" target='_blank'>Are your phone details up to date?</a></div></div><div id="ProblemContentFooter"><div id="ProblemContentFooterBottomLeft"></div><div id="ProblemContentFooterBottomRight"></div></div></div><!--EHXMC--></div>
+</div>
+<div id="ContentFooter">
+<div id="ContentBottomLeft"></div>
+<div id="ContentBottomRight"></div>
+</div>
+</div>
+
+<div id="ProductBanner"><!--SHXMC--><a href='http://www.halifax.co.uk/securityandprivacy/changestosignin.asp?page=changesignincomingsoon' title='We&#39;re changing the way you sign in' onMouseOver="window.status=&quot;We're changing the way you sign in&quot;; return true"onMouseOut="window.status=&quot;&quot;; return true"onFocus="window.status=&quot;We're changing the way you sign in&quot;; return true"onBlur="window.status=&quot;&quot;; return true" target='_new'><img src='https://www.halifax-online.co.uk/UserManagement/DynamicContent/halifax/images/coming_soon_halifax_banner_final.gif' alt='We&#39;re changing the way you sign in' title='We&#39;re changing the way you sign in' border=0 /></a><!--EHXMC--></div>
+<div id="LegalBanner"><!--SHXMC-->
+<div><p>If you receive an email asking for your log on details, please don&rsquo;t reply as it will be fraudulent but forward it to <a href="mailto:Security@hbosplc.com">Security@hbosplc.com</a>.</p>
+
+<p>If you are not a UK resident, or are trying to access this site from outside the UK, please read this <a onmouseover='window.status="Important Message"; return true' onmouseout='window.status=""; return true' href="javascript:NewWindow('https://www.halifax-online.co.uk/_mem_bin/NonUKUser.asp','URNonUKUser','400','560','yes');">important message</a><font face="Times New Roman, Times">.</font></p>
+
+<p>Halifax is a division of Bank of Scotland plc. Registered in Scotland No. SC327000. Registered Office: The Mound, Edinburgh, EH1 1YZ.</p>
+
+<script language="javascript" type="text/javascript">
+<!-- begin: Cy Site Seal Code -->
+function DisplayImg(){
+var part1 = "://cyseal"; var part2 = ".cyveillance"; var part3 = ".com"; var port = ""; var part4 = "/SiteSeal"; var part5 = "/checkurl";
+var x = "https" + part1 + part2 + part3 + port + part4 + part5;y = "http" + part1 + part2 + part3 + port + part4;
+gt_is=x+'?ref='+window.location.hostname; document.write("<a href=\""+y+"\" target=\"_blank\"><img SRC=\""+gt_is+"\" border=0></a>");
+}
+<!-- end: Cy Site Seal Code -->
+
+</script>
+<script language="javascript" type="text/javascript">DisplayImg();</script>
+</div>
+<!--EHXMC-->
+<!--EHXMC--></div><script type="text/javascript">
+                siAutoTracer = false;
+            </script><script type="text/javascript" src="https://www.halifax-online.co.uk/CodeLibrary/Includes/Functions/Client/MI/site-tracker.js"></script><input type="hidden" name="JSEnabled" id="JSEnabled" value="false"></form><script type="text/javascript" language="Javascript" xmlns:fo="http://www.w3.org/1999/XSL/Format">
+      var agt=navigator.userAgent.toLowerCase();
+      var is_major = parseInt(navigator.appVersion);
+      var is_nav  = ((agt.indexOf('mozilla')!=-1)	&& (agt.indexOf('spoofer')==-1) && (agt.indexOf('compatible') == -1) && (agt.indexOf('opera')==-1) && (agt.indexOf('webtv')==-1)  && (agt.indexOf('hotjava')==-1));
+      var is_nav4 = (is_nav && (is_major == 4));
+      if(!is_nav4){document.frmFormsLogin.Username.focus();}
+    </script></div>
+</body>
+</html>

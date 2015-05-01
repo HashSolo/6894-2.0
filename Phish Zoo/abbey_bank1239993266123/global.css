@@ -1,0 +1,94 @@
+/* new classes for redesign 2004 */
+.hidden {position:absolute; left:0px;top:-500px;width:1px;height:1px;overflow:hidden;} 
+.navigation {background-color:#ECECEC;}
+.mainbody {background-color:#FFFFFF;}
+.pagebackground {background-color:#DBDBDB}
+.whitebg {text-decoration:none; color:black; background-color:white;font-weight:bold;}
+.navigationpanelbackground {background-color:#F2F1EF}
+.abbeycolor {background-color:#FF0000}
+.logongreycolor {background-color:#969696}
+.leftmenucell {text-decoration:none;color:black;font-weight:bold;font-family:arial;}
+.pagetitle {font-size:102%;text-decoration:none;color:black;font-weight:bold;font-family:arial;}
+.largepagetitle {font-size:132%;text-decoration:none;color:black;font-weight:bold;font-family:arial;}
+.standardboldpagefont {font-weight:bold;}
+.standardpagefont {font-size:72%;text-decoration:none;color:black;font-family:arial;}
+.redpagefont {font-size:72%;text-decoration:none;color:red;font-family:arial;font-weight:normal;}
+.boldpagefont13 {font-size:75%;text-decoration:none;color:black;font-weight:bold;font-family:arial;}
+.pagefont13 {font-size:75%;text-decoration:none;color:black;font-family:arial;}
+.redboldpagefont {text-decoration:none;color:red;font-family:arial;font-weight:bold;}
+.largeboldredpagefont {font-size:92%;text-decoration:none;font-weight:bold;color:red;font-family:arial;}
+.solidlinebottom {border-top-width: 1px; border-top-style: solid; border-top-color: black; font-size:3px; height: 1px;}
+.solidlinetop {border-top-width: 1px; border-top-style: solid; border-top-color: black; font-size:3px; height: 1px;}
+.greentextlink {text-decoration:underline;color:#6285AD;font-family:arial;font-weight:bold;}
+/* Link used for the navigation where an <a> has a class that is embedded within another class ie <td> this then
+forces the font size to be % size of the first class so have made this on 100% so font stays same size as first class*/
+.embeddedgreentextlink {font-size:100%;text-decoration:underline;color:#6285AD;font-family:arial;font-weight:bold;}
+.redpagefontunderlined {font-size:72%;text-decoration:underline;color:red;font-family:arial;}
+.formnomargin{margin: 0;}
+
+/* Link used for the vertical navigation menu*/
+.menulink {font-size:72%;color:black;font-weight:normal;text-decoration: none;}
+.menulinkunderline {font-size:72%;color:black;font-weight:normal;text-decoration: underline;}
+a:hover.menulink {font-size:72%;color:black;font-weight:normal;text-decoration: underline;}
+.menulinkClicked {font-size:72%;color:#FF0000;font-weight:bold;text-decoration: none;}
+
+/* Link used for the horizontal navigation menu*/
+.hmenulink {font-size:72%;color:black;font-weight:bold;text-decoration: none;}
+a:hover.hmenulink {font-size:72%;color:black;font-weight:bold;text-decoration: underline;}
+.hmenulinkClicked {font-size:72%;color:#FF0000;font-weight:bold;text-decoration: none;}
+
+/* Styles used for Logon Online Security Msg box */
+.privlink {font-size:100%;color:black;font-weight:bold;text-decoration: none;}
+.redlinebottom {border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: red;}
+.redlinetop {border-top-width: 2px; border-top-style: solid; border-top-color: red;}
+.redlineleft {border-left-width: 2px; border-left-style: solid; border-left-color: red;}
+.redlineright {border-right-width: 2px; border-right-style: solid; border-right-color: red;}
+.redlinetoprightcorner{border-right-width: 2px; border-right-style: solid; border-right-color: red; border-top-width: 2px; border-top-style: solid; border-top-color: red;}
+.redlinetopleftcorner{border-left-width: 2px; border-left-style: solid; border-left-color: red; border-top-width: 2px; border-top-style: solid; border-top-color: red;}
+.redlinebottomrightcorner {border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: red; border-right-width: 2px; border-right-style: solid; border-right-color: red;}
+.redlinebottomleftcorner {border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: red; border-left-width: 2px; border-left-style: solid; border-left-color: red;}
+
+
+/* Link used for the bottom of the page */ 
+.bottommenulink {font-size:70%;color:black;text-decoration: none;}
+a:hover.bottommenulink {font-size:70%;text-decoration: underline;}
+.bottommenulinkClicked {font-size:70%;text-decoration: none;}
+
+.whitetext {font-size:92%;text-decoration:none;color:white;font-family:arial;}
+.white_menu_link {font-size:72%;text-decoration:none;color:white;font-family:arial;}
+a:hover.white_menu_link {font-size:72%;color:white;text-decoration:underline;}
+
+.logofont {font-size:20px;color:black;font-family:arial;font-weight: bold;}
+.topborder {border-top:dotted thin #6599FF;}
+
+.contenttitle {font-size:102%; text-decoration:none; color:black; font-weight: bold;}
+.subcontenttitle {font-size:82%; text-decoration:none; color: #0; font-weight: bolder;}
+.contenttitlenonbold {font-size:102%; text-decoration:none; color:black; font-weight:bold}
+.largercontenttitle {font-size:142%; text-decoration:none; color:black; font-weight:bold}
+
+
+.emptyline {height:15px; font-size:1px;}
+/* end of new classes for redesign 2004 */
+
+.blackrow {border-top-width: 1px; border-top-style: solid; border-top-color: black; font-size:3px; height: 1px;}
+.blackrowbottom {border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: black; font-size:3px; height: 1px;}
+.blackbottomrowcontent {border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: black; font-weight:normal;}
+.redstar {font-size:19px; color:#FF0000; font-weight:bold}
+.error {color:#FF0000; font-weight:bold}
+.navlinkunderlined {color:#000;font-weight:bold;text-decoration:none;}
+.navlinkunderlinednonboldhover {color:#000;text-decoration:underline;font-weight:normal;}
+.navlinkunderlinednonbold {color:#000;font-weight:normal;text-decoration:none;}
+a:hover.navlinkunderlined {color:#000;text-decoration:underline;}
+a:hover.navlinkunderlinednonbold {color:#000;text-decoration:underline;font-weight:normal;}
+BODY {font-family:arial; background-color:#FFFFFF;}
+.blackbottomline {border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #000000;  font-weight: normal;}
+.boldblackbottomline {border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #000000; font-weight: bold;}
+.greyboldbottomrow {border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #cccccc; font-weight:bold;}
+.greyboldtoprow {border-top-width: 1px; border-top-style: solid; border-top-color: #cccccc; font-weight:bold;}
+.greybottomrow {border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #cccccc; font-weight:normal;}
+.greytoprow {border-top-width: 1px; border-top-style: solid; border-top-color: #cccccc; font-weight:normal;}
+.greypagecopy{ text-decoration:none; color:#777777; font-weight:normal;}
+.greycopytoprow{text-decoration:none; color:#777777; font-weight:normal; border-top-width: 1px; border-top-style: solid; border-top-color: #cccccc;}
+.skiplink {font-size:1px; color:#DEDFDE;}
+
+.hyperlinks {color:#6285AD; font-weight : bold; text-decoration:underline;}

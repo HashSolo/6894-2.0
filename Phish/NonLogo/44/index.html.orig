@@ -1,0 +1,493 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>JOYNIC - The Free Identity Company. Enjoy Free Domains! - Willkommen! (www.joynic.com)</TITLE>
+<META NAME="Title" CONTENT="JOYNIC - http://www.joynic.com">
+<META NAME="Author" CONTENT="JOYNIC - http://www.joynic.com">
+<META NAME="Publisher" CONTENT="JOYNIC - http://www.joynic.com">
+<META NAME="Copyright" CONTENT="JOYNIC - http://www.joynic.com">
+<META NAME="Keywords" CONTENT="Free Domains! Kostenlose Domains, billige Domains, Domains gratis, register, domain register, for-free, cheap, short-url, url, subdomain, homepageforwarding, Domains umsonst, Kostenlose URL, Kurz-URL, KurzURL, Subdomain, Homepageweiterleitung, joynic, Domainregistrierung, Behörde, NIC">
+<META NAME="Description" CONTENT="JOYNIC - Kostenlose Domains für alle!!! Hier bekommen Sie kostenlose Domains. So viele Sie wollen! ">
+<META NAME="Abstract" CONTENT="Free Domains! Kostenlose Domains, billige Domains, Domains gratis, register, domain register, for-free, cheap, short-url, url, subdomain, homepageforwarding, Domains umsonst, Kostenlose URL, Kurz-URL, KurzURL, Subdomain, Homepageweiterleitung, joynic, Domainregistrierung, Behörde, NIC">
+<META NAME="Language" CONTENT="US, eng, RU, DE, AT, CH">
+<META NAME="page-topic" CONTENT="Internet">
+<META NAME="page-topic" CONTENT="Internet">
+<META NAME="rating" CONTENT="General">
+<META NAME="Revisit-after" CONTENT="1 days">
+<META NAME="audience" CONTENT=" Alle ">
+<META NAME="Robots" CONTENT="INDEX,FOLLOW">
+<LINK HREF="../common/style1.css" REL="stylesheet" TYPE="text/css">
+<script src="../common/code.js"></script>
+<script language="JavaScript">
+<!--
+function Imgx_b(){var i,x,a=document.this_doc; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;}
+function Objf(n,d){var p,i,x; if(!d)d=document;if((p=n.indexOf("?"))>0&&parent.frames.length){d=parent.frames[n.substring(p+1)].document;n=n.substring(0,p);} if(!(x=d[n])&&d.all)x=d.all[n]; for(i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=Objf(n,d.layers[i].document);return x;}
+function Imgx(){var i,j=0,x,a=Imgx.arguments;document.this_doc=new Array;for(i=0;i<(a.length-2);i+=3)if((x=Objf(a[i]))!=null){document.this_doc[j++]=x;if(!x.oSrc) x.oSrc=x.src;x.src=a[i+2];};}
+//-->
+</script>
+<script language="JavaScript1.2">
+<!--
+var bookmarkurl="http://www.joynic.com";
+var bookmarktitle="JOYNIC. Enjoy Free Domains!";
+
+function b(){//(c)JOYNIC.
+var lang;var name=navigator.appName;var version = navigator.appVersion;
+ if (name=="Microsoft Internet Explorer" && version >= "4.0"){
+  lang=(navigator.browserLanguage);
+  if(document.all){window.external.AddFavorite(bookmarkurl,bookmarktitle)}
+ }else{
+  lang=(navigator.language);
+  var msg='Bookmark: Drücken Sie STRG-D!';
+  alert(msg);}
+}
+//-->
+</script>
+
+<BASE TARGET="_self">
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" VLINK="#000000" LINK="#000000" MARGINWIDTH="0" MARGINHEIGHT="0" ALINK="#FF0000" TOPMARGIN="0" LEFTMARGIN="0">
+
+<TABLE WIDTH="100%" CELLPADDING="0" CELLSPACING="0" BORDER="0">
+ <TR>
+  <TD WIDTH="30%" VALIGN="bottom"><P ALIGN="left"><BR>
+  <IMG SRC="../images/spacer.gif" WIDTH="69" HEIGHT="12"><A HREF="./?LANG=US"><IMG BORDER="0" SRC="../images/joynic_logo.gif" width="97" height="19"></A><BR>
+  <IMG SRC="../images/spacer.gif" WIDTH="137" HEIGHT="4"></P>
+  </TD>
+  <TD WIDTH="70%" VALIGN="top">
+  <TABLE WIDTH="100%" CELLPADDING="0" CELLSPACING="0" BORDER="0">
+   <TR>
+    <TD WIDTH="100%" VALIGN="top" BGCOLOR="#F8FAFA" COLSPAN="2"><FONT CLASS="small"><BR>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <A CLASS="nodeco" HREF="./?LANG=US">start</A>&nbsp; |&nbsp; <A CLASS="nodeco" HREF="../check/?LANG=US">name available?</A>&nbsp; |&nbsp; <A CLASS="nodeco" HREF="../register/?LANG=US">registration</A>&nbsp; |&nbsp; <A CLASS="nodeco" HREF="../user/?LANG=US">login</A>&nbsp;
+    |&nbsp; <A CLASS="nodeco" HREF="../faq/?LANG=US">help</A>&nbsp; |&nbsp; <A CLASS="nodeco" HREF="../support/?LANG=US">support</A>&nbsp; |&nbsp; <A CLASS="nodeco" HREF="../whois/?LANG=US">whois</A><BR>
+    <BR>
+    </FONT></TD>
+   </TR>
+   <TR>
+    <TD VALIGN="top"><P ALIGN="right"><IMG SRC="../images/spacer.gif" BORDER="0" ALT NAME="rollover_area" / WIDTH="5" HEIGHT="25" /></P>
+    </TD>
+    <TD VALIGN="top" ALIGN="right"><FONT CLASS="small"><script language="JavaScript">
+var dt=new Date();
+if (parseInt(dt.getDay())==0) var D='Sunday';
+if (parseInt(dt.getDay())==1) var D='Monday';
+if (parseInt(dt.getDay())==2) var D='Tuesday';
+if (parseInt(dt.getDay())==3) var D='Wednesday';
+if (parseInt(dt.getDay())==4) var D='Thursday';
+if (parseInt(dt.getDay())==5) var D='Friday';
+else if (parseInt(dt.getDay())==6) var D='Saturday';
+if (parseInt(dt.getDate())<10) var d='0'+dt.getDate();
+else var d=dt.getDate();
+if (parseInt(dt.getMonth()+1)<10) var m='0'+(dt.getMonth()+1);
+else var m=dt.getMonth()+1;
+if (parseInt(dt.getYear())>=2000) var y=dt.getYear();
+else var y=dt.getYear()+1900;
+document.write(""+D+",  "+d+"."+m+"."+y+"");
+//->
+</script>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT></TD>
+   </TR>
+  </TABLE>
+  </TD>
+ </TR>
+</TABLE>
+<TABLE WIDTH="100%" CELLPADDING="0" CELLSPACING="0" BORDER="0">
+ <TR>
+  <TD VALIGN="top">
+  <TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="100%">
+   <TR>
+    <TD WIDTH="100%" COLSPAN="2"><IMG SRC="../images/spacer.gif" WIDTH="10" HEIGHT="60"></TD>
+   </TR>
+   <TR>
+    <TD BGCOLOR="#DECE00"><IMG SRC="../images/spacer.gif" WIDTH="10" HEIGHT="20"></TD>
+    <TD WIDTH="100%" BGCOLOR="#E7AD00"><IMG SRC="../images/spacer.gif" WIDTH="19" HEIGHT="27"></TD>
+   </TR>
+  </TABLE>
+  <P>&nbsp;</TD>
+  <TD VALIGN="top" BGCOLOR="#C0CFE3">
+            <!--CHECKFORM -->
+  <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0" BGCOLOR="#C0CFE3">
+   <TR>
+    <TD VALIGN="top"><BR>
+    <IMG SRC="../images/spacer.gif" WIDTH="22" HEIGHT="14"></TD>
+    <TD VALIGN="top">
+    <FORM METHOD="POST" ACTION="../register/check.php" NAME="s">
+     <INPUT TYPE="hidden" NAME="funktion" VALUE="check"><INPUT TYPE="hidden" NAME="LANG" VALUE="US">
+     <TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="100%">
+      <TR>
+       <TD><FONT CLASS="small"><BR>
+       Name still available?</FONT></TD>
+       <TD></TD>
+      </TR>
+      <TR>
+       <TD NOWRAP>
+       <TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="100%">
+        <TR>
+         <TD VALIGN="top"><P ALIGN="right"><INPUT TYPE="text" NAME="domname" SIZE="2" CLASS="i10" STYLE="width: 54; font-style: normal; font-variant: normal; font-weight: normal; font-size: 8pt; height: 19; background-color: #C9D5DB"></TD>
+         <TD VALIGN="top" ALIGN="right" NOWRAP><P ALIGN="left"><FONT CLASS="small"><SELECT NAME="subcode" SIZE="1" STYLE="font-style: normal; font-variant: normal; font-weight: normal; font-size: 8pt; height: 23; background-color: #C9D5DB">
+          <OPTION VALUE=".us.tt" SELECTED>.us.tt</OPTION>
+          <OPTION VALUE=".uk.tt">.uk.tt</OPTION>
+          <OPTION VALUE=".co.uk.tt">.co.uk.tt</OPTION>
+          <OPTION VALUE=".ca.tt">.ca.tt</OPTION>
+          <OPTION VALUE=".au.tt">.au.tt</OPTION>
+          <OPTION VALUE=".com.au.tt">.com.au.tt</OPTION>
+          <OPTION VALUE=".eu.tt">.eu.tt</OPTION>
+          <OPTION VALUE=".fr.tt">.fr.tt</OPTION>
+          <OPTION VALUE=".es.tt">.es.tt</OPTION>
+          <OPTION VALUE=".nl.tt">.nl.tt</OPTION>
+          <OPTION VALUE=".it.tt">.it.tt</OPTION>
+          <OPTION VALUE=".be.tt">.be.tt</OPTION>
+          <OPTION VALUE=".de.tt">.de.tt</OPTION>
+          <OPTION VALUE=".at.tt">.at.tt</OPTION>
+          <OPTION VALUE=".co.at.tt">.co.at.tt</OPTION>
+          <OPTION VALUE=".ch.tt">.ch.tt</OPTION>
+         </SELECT>
+         <DIV ALIGN="right">
+          [ <FONT CLASS="pfeil">»</FONT> <A CLASS="small" HREF="javascript:document.s.submit();"><U>check</U></A> ]&nbsp;</FONT>
+         </DIV>
+         </TD>
+        </TR>
+       </TABLE>
+       </TD>
+       <TD><IMG SRC="../images/spacer.gif" WIDTH="22" HEIGHT="14"></TD>
+      </TR>
+     </TABLE>
+    </TD>
+      </FORM>
+    </TR>
+   </TABLE>
+  </TD>
+  <TD WIDTH="100%" VALIGN="top">
+  <TABLE WIDTH="100%" CELLPADDING="0" CELLSPACING="0" BORDER="0">
+   <TR>
+    <TD WIDTH="100%" VALIGN="top" ALIGN="left">
+    <DIV ALIGN="left">
+     <TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="100%">
+      <TR>
+       <TD WIDTH="100%" ALIGN="right">
+       <DIV ALIGN="left">
+        <TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="100%">
+         <TR>
+          <TD VALIGN="bottom"><IMG BORDER="0" SRC="../images/joyflower.gif" width="59" height="53"></TD>
+          <td align="right">
+<!-- B.CODE -->
+<!-- /B.CODE -->
+          <IMG BORDER="0" SRC="../images/an.gif" WIDTH="3" HEIGHT="35"><IMG SRC="../images/spacer.gif" WIDTH="10" HEIGHT="60"></td>
+         </TR>
+        </TABLE>
+       </DIV>
+       </TD>
+      </TR>
+      <TR>
+       <TD WIDTH="100%">
+       <DIV ALIGN="left">
+        <TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="100%">
+         <TR>
+          <TD BGCOLOR="#CCCC33" WIDTH="15%"><IMG SRC="../images/spacer.gif" WIDTH="14" HEIGHT="27"></TD>
+          <TD BGCOLOR="#C7C761" WIDTH="8%">&nbsp;</TD>
+          <TD BGCOLOR="#B6CF71" WIDTH="10%">&nbsp;</TD>
+          <TD BGCOLOR="#99C733" WIDTH="7%">&nbsp;</TD>
+          <TD BGCOLOR="#BCCAD2" WIDTH="18%">&nbsp;</TD>
+          <TD BGCOLOR="#C9D5DB" WIDTH="6%">&nbsp;</TD>
+          <TD BGCOLOR="#99CCFF" WIDTH="1%">&nbsp;</TD>
+          <TD BGCOLOR="#B6CF71" WIDTH="5%">&nbsp;</TD>
+          <TD BGCOLOR="#85AB2C" WIDTH="30%">&nbsp;</TD>
+         </TR>
+        </TABLE>
+       </DIV>
+       </TD>
+      </TR>
+     </TABLE>
+    </DIV>
+    </TD>
+   <TR>
+    <TD COLSPAN="2" VALIGN="top" WIDTH="100%">
+    <DIV ALIGN="left">
+     <TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="100%">
+      <TR>
+       <TD NOWRAP WIDTH="35%" VALIGN="top"><FONT CLASS="small">&nbsp;&nbsp; <A HREF="./?LANG=US">Start</A> » Welcome!</FONT></TD>
+       <TD NOWRAP WIDTH="65%"><FONT CLASS="headline2">http://www.Your-Name.us.tt</FONT></TD>
+      </TR>
+     </TABLE>
+    </DIV>
+    </TD>
+   </TR>
+  </TABLE>
+  </TD>
+  </TR>
+ </TABLE>
+ <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" ALIGN="left">
+  <TR>
+   <TD NOWRAP VALIGN="top" WIDTH="12"><IMG SRC="../images/spacer.gif" WIDTH="12" HEIGHT="55"></TD>
+   <TD VALIGN="top" ALIGN="left" NOWRAP>
+   <TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="99">
+    <TR>
+
+
+     <!--BEGINN NAVIGATION-->
+     <TD VALIGN="top" ALIGN="right">
+     <DIV ALIGN="right">
+      <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0">
+       <TR>
+        <TD ALIGN="left" NOWRAP><P ALIGN="right"><IMG SRC="../images/spacer.gif" WIDTH="96" HEIGHT="8"><B><BR>
+        <BR>
+        </B><IMG BORDER="0" SRC="../images/spacer.gif" WIDTH="6" HEIGHT="7" NAME="n0">&nbsp;&nbsp;<A CLASS="nav" HREF="./?LANG=US" ONMOUSEOUT="window.status='';Imgx_b(); return true" ONMOUSEOVER="window.status='Start';Imgx('n0','','../images/dot_y.gif',1); return true;">Start</A>&nbsp;<BR>
+        <IMG SRC="../images/spacer.gif" BORDER="0" HEIGHT="1" WIDTH="82"><BR>
+        <B>&nbsp; </B><IMG BORDER="0" SRC="../images/spacer.gif" WIDTH="6" HEIGHT="7" NAME="n1">&nbsp; <B><A CLASS="nav" ONMOUSEOUT="window.status='';Imgx_b(); return true" ONMOUSEOVER="window.status='Registration';Imgx('n1','','../images/dot_y.gif',1); return true;" HREF="../register/?LANG=US">Registration</A></B>&nbsp;<BR>
+        <IMG SRC="../images/spacer.gif" BORDER="0" HEIGHT="1" WIDTH="82"><BR>
+        <B>&nbsp; </B>&nbsp;<B><IMG BORDER="0" SRC="../images/spacer.gif" WIDTH="6" HEIGHT="7" NAME="n2">&nbsp; </B><A CLASS="nav" ONMOUSEOUT="window.status='';Imgx_b(); return true" ONMOUSEOVER="window.status='Features';Imgx('n2','','../images/dot_y.gif',1); return true;" HREF="../features/?LANG=US">Features</A>&nbsp;<BR>
+        <B>&nbsp; </B>&nbsp;<B><IMG BORDER="0" SRC="../images/spacer.gif" WIDTH="6" HEIGHT="7" NAME="n3">&nbsp; <A CLASS="nav" HREF="../user/?LANG=US" ONMOUSEOUT="window.status='';Imgx_b(); return true" ONMOUSEOVER="window.status='Login';Imgx('n3','','../images/dot_y.gif',1); return true;">Login</A></B>&nbsp;<BR>
+        <FONT CLASS="small"><A CLASS="nav" HREF="../user/pass_request.php?LANG=US"><FONT SIZE="1">... forgotten?</FONT></A></FONT>&nbsp;<B><BR>
+        </B><IMG SRC="../images/spacer.gif" BORDER="0" HEIGHT="1" WIDTH="82"><BR>
+        <B>&nbsp; </B>&nbsp;<B><IMG BORDER="0" SRC="../images/spacer.gif" WIDTH="6" HEIGHT="7" NAME="n5">&nbsp; <A CLASS="nav" ONMOUSEOUT="window.status='';Imgx_b(); return true" ONMOUSEOVER="window.status='FAQ/Help';Imgx('n5','','../images/dot_y.gif',1); return true;" HREF="../faq/?LANG=US">FAQ/Help</A></B>&nbsp;<B><BR>
+        &nbsp; </B>&nbsp;<B><IMG BORDER="0" SRC="../images/spacer.gif" WIDTH="6" HEIGHT="7" NAME="n6">&nbsp; </B><A CLASS="nav" HREF="../support/?LANG=US" ONMOUSEOUT="window.status='';Imgx_b(); return true" ONMOUSEOVER="window.status='Support';Imgx('n6','','../images/dot_y.gif',1); return true;">Support</A>&nbsp;<BR>
+        </B><IMG SRC="../images/spacer.gif" BORDER="0" HEIGHT="1" WIDTH="82"><BR>
+        <B>&nbsp; </B>&nbsp;<B><IMG BORDER="0" SRC="../images/spacer.gif" WIDTH="6" HEIGHT="7" NAME="n8">&nbsp; </B><A CLASS="nav" HREF="../whois/?LANG=US" ONMOUSEOUT="window.status='';Imgx_b(); return true" ONMOUSEOVER="window.status='Whois';Imgx('n8','','../images/dot_y.gif',1); return true;">Whois</A>&nbsp;<BR>
+        <IMG SRC="../images/spacer.gif" BORDER="0" HEIGHT="1" WIDTH="82"><BR>
+        <B>&nbsp; </B>&nbsp;<B><IMG BORDER="0" SRC="../images/spacer.gif" WIDTH="6" HEIGHT="7" NAME="n9">&nbsp; </B><A CLASS="nav" ONMOUSEOUT="window.status='';Imgx_b(); return true" ONMOUSEOVER="window.status='TOS';Imgx('n9','','../images/dot_y.gif',1); return true;" HREF="../tos/?LANG=US">TOS</A>&nbsp;<BR>
+        <BR>
+        <B><IMG BORDER="0" SRC="../images/spacer.gif" WIDTH="6" HEIGHT="7" NAME="n10"></B>&nbsp; <FONT CLASS="small"><A CLASS="nav" ONMOUSEOUT="window.status='';Imgx_b(); return true" ONMOUSEOVER="window.status='Tell a friend!';Imgx('n10','','../images/dot_y.gif',1); return true;" HREF="../recommend/?LANG=US"><FONT SIZE="1">Tell
+        A Friend!</FONT></A></FONT>&nbsp;<B><BR>
+        <IMG BORDER="0" SRC="../images/spacer.gif" WIDTH="6" HEIGHT="7" NAME="n11">&nbsp; <A CLASS="nav" HREF="javascript:onclick=b();" ONMOUSEOUT="window.status='';Imgx_b(); return true" ONMOUSEOVER="window.status='Bookmark';Imgx('n11','','../images/dot_y.gif',1); return true;"><FONT CLASS="small">Bookmark</FONT></A>&nbsp;<BR>
+        <IMG BORDER="0" SRC="../images/spacer.gif" WIDTH="6" HEIGHT="7" NAME="n12"></B>&nbsp; <A CLASS="nav" HREF="../banner/?LANG=US" ONMOUSEOUT="window.status='';Imgx_b(); return true" ONMOUSEOVER="window.status='Banner';Imgx('n12','','../images/dot_y.gif',1); return true;"><FONT CLASS="small">Banner</FONT></A>&nbsp;</P>
+        </TD>
+       </TR>
+       <TR>
+        <TD ALIGN="right"><IMG SRC="../images/spacer.gif" WIDTH="71" HEIGHT="1"></TD>
+       </TR>
+      </TABLE>
+     </DIV>
+   </TABLE>
+   <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" ALIGN="center" WIDTH="100%">
+    <TR>
+     <TD ALIGN="center" WIDTH="100%">
+     <TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="100%">
+      <TR>
+
+      </TR>
+     </TABLE>
+     </TD>
+    </TR>
+    <TR>
+     <!--END NAVIGATION-->
+
+
+    </TR>
+   </TABLE>
+   <P>
+   <FORM NAME="walang" ACTION="../vorlage/yxu" METHOD="GET">
+    <P ALIGN="center"><FONT CLASS="small"><SELECT NAME="walang" SIZE="1" ONCHANGE="window.open(this.form.walang.options[this.form.walang.selectedIndex].value, '_self');" STYLE="font-style: normal; background-color: #F5F5F4; font-variant: normal; font-weight: normal; font-size: 8pt; height: 23">
+     <OPTION VALUE="multilingual">multilingual</OPTION>
+     <OPTION VALUE="/start/index_US.shtml">english</OPTION>
+     <OPTION VALUE="/start/index_DE.shtml">deutsch</OPTION>
+     <OPTION VALUE="/start/index_RU.shtml">russian</OPTION>
+    </SELECT></FONT>
+   </FORM>
+   <br><br>
+      <!-- adv 120x240 -->
+
+<br><br>
+   <P>&nbsp;<P>&nbsp;<P ALIGN="right">&nbsp;</TD>
+  </TR>
+ </TABLE>
+ <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR>
+   <TD VALIGN="top"><IMG SRC="../images/spacer.gif" WIDTH="6" HEIGHT="387"></TD>
+   <TD VALIGN="top" BACKGROUND="../images/bg_dotsline.gif"><IMG SRC="../images/spacer.gif" WIDTH="1" HEIGHT="15"></TD>
+   <TD VALIGN="top"><IMG SRC="../images/spacer.gif" WIDTH="14" HEIGHT="387"></TD>
+   <TD VALIGN="top" WIDTH="100%"><BR>
+   <!--BEGINN INLET-->
+   <TABLE BORDER="0" CELLPADDING="5" CELLSPACING="0">
+    <TR>
+     <TD VALIGN="top"><FONT CLASS="headline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Domains. Worldwide. <U><FONT STYLE="color: #FF0000;">For Free!</FONT></U></FONT><P><B>Register your personal domain now - absolutely
+     free of charge!</B></P>
+     </TD>
+     <TD VALIGN="top"><FONT CLASS="subheader"><IMG BORDER="0" SRC="./gfx/sq_now_us.gif" ALIGN="right" width="116" height="48"></FONT></TD>
+    </TR>
+   </TABLE>
+   <P><B>JOYNIC™&nbsp; offers a variety of free domains - world-wide!<BR>
+   </B>Domains from JOYNIC™ works with each Webspace provider and offer beyond that still another number of professional, additional <A HREF="../features/?LANG=US">Features</A>.<BR>
+   <BR>
+   <TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0">
+    <TR>
+     <TD VALIGN="top" ALIGN="left">
+     <DIV ALIGN="left">
+      <DIV ALIGN="left">
+       <TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0">
+        <TR>
+         <TD VALIGN="top">
+         <DIV ALIGN="left">
+          <TABLE BORDER="0" CELLPADDING="4" CELLSPACING="0" WIDTH="90%" BGCOLOR="#EAF1D8">
+           <TR>
+            <TD WIDTH="100%" NOWRAP>
+            <DIV ALIGN="left">
+             <IMG SRC="../images/spacer.gif" WIDTH="96" HEIGHT="8"><B><BR>
+             Register now free of charge your domain<BR>
+             in the form:</B>
+            </DIV>
+            <DIV ALIGN="left">
+             &nbsp;
+            </DIV>
+            &nbsp; <IMG BORDER="0" SRC="ulpoint.gif" width="4" height="7"><FONT CLASS="numface"> http://www.your-name.us.tt</FONT><BR>
+            &nbsp; <IMG BORDER="0" SRC="ulpoint.gif" width="4" height="7"><FONT CLASS="numface"> http://www.</FONT><FONT CLASS="numface">your-</FONT><FONT CLASS="numface">name.uk.tt</FONT><BR>
+            &nbsp; <IMG BORDER="0" SRC="ulpoint.gif" width="4" height="7"><FONT CLASS="numface"> http://www.</FONT><FONT CLASS="numface">your-</FONT><FONT CLASS="numface">name.ca.tt</FONT><BR>
+            &nbsp; <IMG BORDER="0" SRC="ulpoint.gif" width="4" height="7"><FONT CLASS="numface"> http://www.</FONT><FONT CLASS="numface">your-</FONT><FONT CLASS="numface">name.eu.tt</FONT><BR>
+            &nbsp; <IMG BORDER="0" SRC="ulpoint.gif" width="4" height="7"><FONT CLASS="numface"> http://www.</FONT><FONT CLASS="numface">your-</FONT><FONT CLASS="numface">name.es.tt</FONT><BR>
+            &nbsp; <IMG BORDER="0" SRC="ulpoint.gif" width="4" height="7"><FONT CLASS="numface"> http://www.</FONT><FONT CLASS="numface">your-</FONT><FONT CLASS="numface">name.fr.tt</FONT><BR>
+            &nbsp; <IMG BORDER="0" SRC="ulpoint.gif" width="4" height="7"><FONT CLASS="numface"> http://www.</FONT><FONT CLASS="numface">your-</FONT><FONT CLASS="numface">name.it.tt</FONT><BR>
+            &nbsp; <IMG BORDER="0" SRC="ulpoint.gif" width="4" height="7"><FONT CLASS="numface"> http://www.</FONT><FONT CLASS="numface">your-</FONT><FONT CLASS="numface">name.dk.tt</FONT><BR>
+            &nbsp; <IMG BORDER="0" SRC="ulpoint.gif" width="4" height="7"><FONT CLASS="numface"> http://www.</FONT><FONT CLASS="numface">your-</FONT><FONT CLASS="numface">name.be.tt</FONT><BR>
+            &nbsp; <IMG BORDER="0" SRC="ulpoint.gif" width="4" height="7"><FONT CLASS="numface"> http://www.</FONT><FONT CLASS="numface">your-</FONT><FONT CLASS="numface">name.de.tt</FONT><BR>
+            &nbsp; <IMG BORDER="0" SRC="ulpoint.gif" width="4" height="7"><FONT CLASS="numface"> http://www.</FONT><FONT CLASS="numface">your-</FONT><FONT CLASS="numface">name.at.tt</FONT><BR>
+            &nbsp; <IMG BORDER="0" SRC="ulpoint.gif" width="4" height="7"><FONT CLASS="numface"> http://www.</FONT><FONT CLASS="numface">your-</FONT><FONT CLASS="numface">name.au.tt</FONT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+            <BLOCKQUOTE>
+             <P><I>... and much more!</I>
+            </BLOCKQUOTE>
+            <P ALIGN="left"><B><FONT STYLE="color: #000000; font-size: 16px;">&nbsp;&nbsp;&nbsp;&nbsp;</FONT></B><FONT STYLE="color: #FF0000; font-size: 16px;">»</FONT><B><FONT STYLE="color: #000000; font-size: 16px;"> <A STYLE="color: #000000; font-size: 16px;" HREF="../register/?LANG=US">register
+            now!</A><BR>
+            </FONT></B><IMG SRC="../images/spacer.gif" WIDTH="96" HEIGHT="8"></TD>
+           </TR>
+          </TABLE>
+         </DIV>
+         </TD>
+         <TD VALIGN="top">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+         <TD VALIGN="top">
+         <TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0">
+          <TR>
+           <TD><P ALIGN="center"><IMG BORDER="0" SRC="./gfx/mariaustt.gif" width="164" height="143"></TD>
+          </TR>
+          <TR>
+           <TD BGCOLOR="#C9D5DB" NOWRAP><IMG SRC="../images/spacer.gif" WIDTH="96" HEIGHT="8">
+           <UL>
+            <LI><P ALIGN="left">Absolutely <B>&nbsp;free of charge!</B></LI>
+            <LI><P ALIGN="left"><B>No</B> forced <B>advertisement</B>!<B>&nbsp;&nbsp;&nbsp;</B></LI>
+            <LI><P ALIGN="left"><B>Professional</B> features!</LI>
+            <LI><P ALIGN="left"><B>Easy-to-use.</B></LI>
+            <LI><P ALIGN="left">Forwarding is possible to <B>any</B> URL!&nbsp;&nbsp;&nbsp;<BR>
+             <BR>
+             ...and <A HREF="../features/?LANG=US"><B>more</B></A><B><A HREF="../features/?LANG=US">!</A><BR>
+             <BR>
+             </B></LI>
+           </UL>
+           </TD>
+          </TR>
+         </TABLE>
+         &nbsp;</TD>
+         <TD VALIGN="top" WIDTH="100%">&nbsp;&nbsp;&nbsp;</TD>
+        </TR>
+       </TABLE>
+      </DIV>
+     </DIV>
+     <P>Even if your Webspaceprovider changes: Your Domain always remains with you and can be forwarded completely simply to your new Webspace provider!<P>Even if you have still no homepage, protect still today your personal domain - for free!<BR>
+     &nbsp;<BLOCKQUOTE>
+      <P><FONT STYLE="color: #FF0000; font-size: 16px;">»</FONT><B><FONT STYLE="color: #000000; font-size: 16px;"> <A STYLE="color: #000000; font-size: 16px;" HREF="../register/?LANG=US"></A></FONT> <A STYLE="color: #000000; font-size: 16px;" HREF="../register/?LANG=US">register
+      now for free!</A></B></P>
+     </BLOCKQUOTE>
+     </TD>
+     <TD VALIGN="top"></TD>
+     <TD VALIGN="top" WIDTH="100%" BGCOLOR="#F7F7F7" style="padding:14px"><B><U><FONT CLASS="alert">News:<BR>
+     <BR>
+     </FONT></U></B><B>+ Statistics</B><FONT CLASS="small"><B><BR>
+     </B>Now you can activate detailed access statistics for your domain!<BR>
+     </FONT><FONT CLASS="alert"><B><FONT COLOR="#FF0000"><U><BR>
+     </U></FONT></B></FONT><B>+ AccessProtect</B><FONT CLASS="small"><B><BR>
+     </B>New Feature: AcessProtect - user administration included!<BR>
+     <BR>
+     </FONT><B>+ www.name.eu.tt</B><FONT CLASS="small"><B><BR>
+     </B>Now you can register the new EUROPEAN TLD in Form<BR>
+     &quot;http://www.name.eu.tt&quot; - register now!<B><BR>
+     <BR>
+     </B><BR>
+     With effect to 07.03.2002 </FONT><FONT CLASS="small">the world-wide licenses was taken over by JOYNIC. That means in the future for you:<BR>
+     <B><BR>
+     + No fees</B> - absolutely free of charge! No registration fees, no fees for changes, no fees for deactivations etc<BR>
+     <B>+ More Features</B> - enjoy more features, tools and extras for your Domain<BR>
+     <B>+ High performance</B> - Many years of developed systems guarantee performance purely<BR>
+     <B>+ Uptime</B> - your Domain 99,99% online!<B><BR>
+     + More Support </B>- We help you gladly!</FONT><P><FONT CLASS="small">World-wide partnerships guarantee you maximum performances. On the advancement and the enterprise a team of high-motivated specialists from the core industries of the Internet economy works.</FONT><P><FONT COLOR="#000000" SIZE="1">Enjoy
+     Free Domains!<BR>
+     </FONT></P>
+     <P><FONT SIZE="1">Best Regards.</FONT></P>
+     <P><FONT CLASS="small">JOYNIC™ Team</FONT></P>
+     </TD>
+	 <td valign="top">
+<!-- B.CODE -->
+<!-- /B.CODE -->
+	 </td>
+    </TR>
+   </TABLE>
+   <P>&nbsp;</P>
+   <B><P><FONT CLASS="small"><FONT CLASS="hiddencol">. . . . . . . .. . . . . . . . . . . . . . . . . .&nbsp; . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .&nbsp; . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .&nbsp;</FONT></FONT><P>
+   <!--END INLET-->
+
+   </B></TD>
+   <TD VALIGN="top" WIDTH="1"><IMG SRC="../images/spacer.gif" WIDTH="12" HEIGHT="187"></TD>
+   <!--RIGHTBAR-->
+
+
+   <!--/RIGHTBAR-->
+ </TABLE>
+  <!--BEGIN FOOTER-->
+ <P ALIGN="right">&nbsp;
+ <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR>
+   <TD ROWSPAN="3" VALIGN="top" WIDTH="100%">&nbsp;</TD>
+  </TR>
+  <TR>
+   <TD CLASS="itdtea" VALIGN="middle" NOWRAP ALIGN="right"><P ALIGN="right"><FONT CLASS="headline2">http://www.joynic.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT></P>
+   </TD>
+  </TR>
+  <TR>
+   <TD BGCOLOR="#BFBFBF"><IMG SRC="../images/spacer.gif" WIDTH="478" HEIGHT="1"></TD>
+  </TR>
+ </TABLE>
+ <TABLE BORDER="0" WIDTH="100%" CELLSPACING="0" CELLPADDING="0" ALIGN="center" BGCOLOR="#F8FAFA">
+  <TR>
+   <TD WIDTH="100%" COLSPAN="2">&nbsp;</TD>
+  </TR>
+  <TR>
+   <TD HEIGHT="1"><IMG BORDER="0" SRC="../images/spacer.gif" WIDTH="207" HEIGHT="1"></TD>
+   <TD WIDTH="100%" HEIGHT="1"><IMG BORDER="0" SRC="../images/spacer.gif" WIDTH="45" HEIGHT="1"></TD>
+  </TR>
+ </TABLE>
+ <TABLE BORDER="0" WIDTH="100%" CELLSPACING="0" CELLPADDING="0" ALIGN="center" BGCOLOR="#F8FAFA">
+  <TR>
+   <TD VALIGN="top" ALIGN="center"><P ALIGN="center"><BR>
+   &nbsp; <FONT CLASS="small">© <script language="JavaScript">var dt=new Date();if (parseInt(dt.getYear())>=2000) var y=dt.getYear();else var y=dt.getYear()+1900;document.write(""+y+"");</script>
+   </FONT><A CLASS="small" HREF="http://www.joynic.com" TARGET="_top"><FONT CLASS="textcol"><FONT CLASS="nodeco">JOYNIC</FONT></FONT></A><FONT CLASS="small">™&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><BR>
+   <FONT CLASS="small"><A CLASS="small" HREF="../tos/disclaimer.php?LANG=US"><FONT CLASS="nodeco">Disclaimer</FONT></A>&nbsp;&nbsp; |&nbsp;&nbsp; <A CLASS="small" HREF="../tos/privacypolicy.php?LANG=US"><FONT CLASS="nodeco">Privacy
+   Policy</FONT></A></FONT></P>
+   </TD>
+   <TD VALIGN="top" ALIGN="center"><FONT COLOR="#000000"><BR>
+   <A CLASS="nav" HREF="./?LANG=US">Start</A> · <A CLASS="nav" HREF="../register/?LANG=US">Registration</A> · <A CLASS="nav" HREF="../features/?LANG=US">Features</A> · <A CLASS="nav" HREF="../user/?LANG=US">Login</A> · <A CLASS="nav" HREF="../faq/?LANG=US">FAQ/Help</A>
+   · <A CLASS="nav" HREF="../support/?LANG=US">Support</A> · <A CLASS="nav" HREF="../whois/?LANG=US">Whois</A> · <A CLASS="nav" HREF="../contact/?LANG=US">Contact</A> · <A CLASS="nav" HREF="../tos/?LANG=US">TOS</A></FONT></TD>
+  </TR>
+ </TABLE>
+ <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0" BGCOLOR="#F8FAFA">
+  <TR>
+   <TD WIDTH="100%"><P ALIGN="right">&nbsp;</TD>
+   <TD VALIGN="bottom"><IMG SRC="../images/spacer.gif" WIDTH="1" HEIGHT="60"></TD>
+   <TD VALIGN="bottom" ALIGN="right"><P ALIGN="right"><BR>
+<!-- B.CODE -->
+<!-- /B.CODE -->
+   &nbsp;&nbsp;&nbsp;&nbsp;</TD>
+  </TR>
+ </TABLE>
+ <P ALIGN="center"><FONT CLASS="small"><A HREF="./?LANG=US">Australia</A>&nbsp; |&nbsp; <A HREF="./?LANG=DE">Austria</A>&nbsp; |&nbsp; <A HREF="./?LANG=US">Belgium</A>&nbsp; |&nbsp; <A HREF="./?LANG=US">Canada</A>&nbsp; |&nbsp; <A HREF="./?LANG=US">France</A>&nbsp;
+ |&nbsp; <A HREF="./?LANG=DE">Deutschland</A>&nbsp; |&nbsp; <A HREF="./?LANG=US">Italia</A><BR>
+ <A HREF="./?LANG=US">Netherlands</A>&nbsp; |&nbsp; <A HREF="./?LANG=US">Spain</A>&nbsp; |&nbsp; <A HREF="./?LANG=DE">Schweiz</A>&nbsp; |&nbsp; <A HREF="./?LANG=US">UK</A>&nbsp; |&nbsp; <A HREF="./?LANG=US">USA</A></FONT>
+<!-- Piwik -->
+<!-- not working ATM
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://88.198.56.226/_admindash/piwik/" : "http://88.198.56.226/_admindash/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 8);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://88.198.56.226/_admindash/piwik/piwik.php?idsite=8" style="border:0" alt="" /></p></noscript>
+-->
+<!-- End Piwik Tag -->
+</BODY>
+</HTML>

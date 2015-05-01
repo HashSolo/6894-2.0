@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<title>تم إيقاف حسابكم - Account Suspended</title>
+<div align="center">
+	<table dir="rtl" style="BORDER-COLLAPSE: collapse" borderColor="#efefef" height="291" width="747" border="1">
+	<tr>
+		<td style="FONT-SIZE: 8.5pt; COLOR: rgb(32,121,171); FONT-FAMILY: Tahoma" borderColor="#e4e4e4" align="right" width="743" background="http://www.bwabanoor.com/templates/whmcs/templates/scopestudio-whmcs/images/menu_02.jpg" bgColor="#f7f7f7" colSpan="2" height="14">
+		<font color="#b12a2a" size="2"><b>
+		<img src="http://www.bwabanoor.com/sa/templates/max-layer/images/f.gif" border="0"></b></font><b><font color="#929d5f" size="2"><span lang="ar-sa">
+		</span></font><span lang="ar-sa"><font size="2">تم إيقاف هذا الحساب ..</font></span></b></td>
+	</tr>
+	<tr>
+		<td style="FONT-SIZE: 8.5pt; COLOR: rgb(32,121,171); FONT-FAMILY: Tahoma" borderColor="#efefef" align="right" width="743" colSpan="2" height="13">
+		<p align="justify">&nbsp;</p>
+		<p align="center"><font size="2"><img src="http://www.bwabanoor.com/images/sp.gif"></p>
+		<ul>
+			<li>
+			<p align="justify"><span lang="ar-sa">&nbsp;<font color="#8d8d8d">نعتذر 
+			عن الإزعاج</font></span><font color="#8d8d8d"><span lang="ar-sa">. 
+			تم إيقاف هذا الموقع من قبل إدارة </span></font>
+			<span lang="ar-sa">بوابة النور<font color="#8d8d8d">&nbsp; لفترة 
+			مؤقتة , وذلك نتيجة سبب من الأسباب التالية:- .</font></span> </font>
+			</li>
+		</ul>
+		</td>
+	</tr>
+	<tr>
+		<td style="FONT-SIZE: 8.5pt; COLOR: rgb(32,121,171); FONT-FAMILY: Tahoma" borderColor="#efefef" align="middle" width="356" bgColor="#ffffff" height="25">
+		<ul style="COLOR: #fe5400" type="square">
+			<li>
+			<address align="right">
+				<span style="FONT-STYLE: normal"><font size="2">استهلاك مساحه 
+				موقعك بالكامل .</font></span></address>
+			</li>
+			<font size="2">
+			<li>
+			<address align="right">
+				<span style="FONT-STYLE: normal">استهلاك كمية الباندوث (نقل 
+				البيانات) الخاصة بموقعك بالكامل .</span></address>
+			</li>
+			<li>
+			<address align="right">
+				<span style="FONT-STYLE: normal">انتهاء فترة الاستضافة الخاصة بك 
+				ولم تتواصل معنا بخصوص التجديد .</span></address>
+			</li>
+			<li>
+			<address align="right">
+				<span style="FONT-STYLE: normal">استخدامك أي برامج غير مرخصة وتم 
+				التبليغ عنك للشركة المبرمجة للبرنامج .</span></address>
+			</li>
+			<li>
+			<address align="right">
+				<span style="FONT-STYLE: normal">إرسال الرسائل البريدية بكمية 
+				كبيرة ( الاسبام ) من على الخادم .</span></address>
+			</li>
+			<li>
+			<address align="right">
+				<span style="FONT-STYLE: normal">استخدامك لمساحه موقعك بأي شكل 
+				من الإشكال يضر بالخادم بأي طريقه .</span></address>
+			</li>
+			<li>
+			<address align="right">
+				<span style="FONT-STYLE: normal">استهلاكك لموارد السيرفر بكميه 
+				أكبر من المحددة لك والمعتادة لكل المواقع على الخادم .</span></address>
+			</li>
+			</font>
+			<li>
+			<address align="right">
+				<span style="FONT-STYLE: normal"><font size="2">وجود مستحقات 
+				مالية لم تسدد بعد . </font></span>
+			</address>
+			</li>
+			<li>
+			<address align="right">
+				<font size="2"><span style="font-style: normal">مراجعة وتشييك 
+				على الموقع لوجود ملفات ضارة .</span></font></address>
+			</li>
+		</ul>
+		<p>&nbsp;</td>
+		<td style="FONT-SIZE: 8.5pt; COLOR: rgb(32,121,171); FONT-FAMILY: Tahoma" borderColor="#efefef" align="middle" width="383" bgColor="#ffffff" height="25">
+		<font size="2">المعذرة, تم إيقاف الموقع من قبل إدارة <font color="#FE5400">
+		بوابة النور</font> لذا نرجو منك عزيزي العميل التواصل معنا للوصول لحل 
+		مرضى ومباشرة عمل الموقع .<br>
+		<br>
+		عميلنا العزيز / في حالة تم إيقاف موقعك فلن تتمكن من الدخول للوحة التحكم 
+		( Cpanel ) أو الحساب البريدي أو الـ FTP . <br>
+		<br>
+		ننوه أنة إذا لم يتم التواصل مع <font color="#FE5400">بوابة النور</font> 
+		من قبل العميل فإن الموقع سيبقى مغلق مدة أسبوع من تاريخ إيقافه وبعدها 
+		سيتم إزالة الموقع نهائياً من سيرفراتنا&nbsp; وليس للعميل حق في المطالبة 
+		بنسخة احتياطية لموقعة إلا بعد دفع غرامة مالية . </font>
+		<p><font size="2">يمكنك التواصل مع إدارة بوابة النور من خلال التالي :<br>
+		منطقة العملاء من خلال الموقع الرئيسي<br>
+		<a href="http://www.bwabanoor.com">http://www.bwabanoor.com</a><br>
+		أو من خلال الإيميل التالي إيميل + مسن<br>
+		support@bwabanoor.com</font></td>
+	</tr>
+	<tr>
+		<td style="FONT-SIZE: 8.5pt; COLOR: rgb(32,121,171); FONT-FAMILY: Tahoma" borderColor="#efefef" align="middle" width="356" bgColor="#ffffff" height="27">
+		<font size="2" color="#515151">في جميع الأحوال يرجى مراجعة إدارة بوابة 
+		النور لمعرفة سبب إيقاف موقعك </font></td>
+	</tr>
+</table></div>
+<p>&nbsp;</p>

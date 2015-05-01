@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>Pytal - Webpräsenz nicht registriert</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="content-language" content="de" />
+		<meta http-equiv="cache-control" content="no-cache" />
+		<meta http-equiv="expires" content="0" />
+
+		<meta name="author" content="Nenad Marjanovic" />
+	</head>
+	<body style="background: #cccccc url(http://www.pytal.de/images/backgrounds/body_grey.png) repeat-x; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #000000;">
+		<div style="position: absolute; left: 50%; top: 50%;">
+			<div style="position: relative; top: -100px; left: -365px; width: 730px; height: 200px;">
+				<span style="font-style: italic">anzeige / adveristment</span><br />
+                <a href="http://www.pytal.de" ><img alt="pytal" src="http://www.pytal.de/images/banner/728x90-1.png" style="width: 728px; height: 90px; border: 0px; margin: 0px; padding: 0px;" /></a>
+                <br />
+				<br />
+				<b>Fehler:</b> Subdomain ist nicht registriert.<br />
+		<b>Error:</b> Subdomain is not registered.<br /><br />
+				<br />
+				<a href="http://www.pytal.de">Kostenloses Webhosting</a> von <a href="http://www.pytal.de">pytal</a> - <a href="http://www.pytal.de/imprint">Impressum</a>
+			</div>
+		</div>
+		<script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-264608-1']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		</script>
+		<script type="text/javascript" src="http://view.binlayer.com/ad-12085.js"></script>
+	</body>
+</html>

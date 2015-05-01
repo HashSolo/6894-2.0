@@ -1,0 +1,120 @@
+.inputTextBox2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 1em; PADDING-BOTTOM: 2px; MARGIN: 2px 0px; VERTICAL-ALIGN: top; PADDING-TOP: 2px
+}
+.enrollSpacer {
+	MARGIN-TOP: 1px
+}
+.homeLogonBox {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 15px; PADDING-TOP: 15px; BACKGROUND-COLOR: #ebebeb; TEXT-ALIGN: center
+}
+.homeLogonBox2 {
+	PADDING-LEFT: 15px; MARGIN: 10px 10px 0px; TEXT-ALIGN: left
+}
+.logFormLabel {
+	FONT: 0.7em Arial, Helvetica, sans-serif; COLOR: #333333
+}
+.logonFormFieldBox {
+	MARGIN: -2px 0px 0px 20px
+}
+.logonCheckbox {
+	PADDING-LEFT: 0px; MARGIN-LEFT: -5px
+}
+.logonQs {
+	MARGIN: 2px 0px 15px 18px
+}
+.homeLogonbutton {
+	MARGIN-BOTTOM: 0px; MARGIN-LEFT: 40px
+}
+.homeAlert1Box {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; PADDING-TOP: 15px
+}
+.homeAlert1Title {
+	FONT-WEIGHT: bold; FONT-SIZE: 0.8em; MARGIN-LEFT: 5px; COLOR: #990000; FONT-FAMILY: arial
+}
+.homeAlert2Text {
+	FONT-SIZE: 0.7em; MARGIN: 3px 10px 0px; COLOR: #333333; FONT-FAMILY: arial
+}
+.homeLinkBoxB {
+	MARGIN: 10px 0px 0px 10px
+}
+.homeLinkBoxC {
+	MARGIN: 0px 0px 0px 10px
+}
+.homeLinkBox2B {
+	FONT-SIZE: 0.7em; MARGIN: 0px 10px 3px; FONT-FAMILY: arial
+}
+A.homeLinks:link {
+	COLOR: #095aa6; TEXT-DECORATION: none
+}
+A.homeLinks:visited {
+	COLOR: #095aa6; TEXT-DECORATION: none
+}
+A.homeLinks:active {
+	COLOR: #095aa6; TEXT-DECORATION: underline
+}
+A.homeLinks:hover {
+	COLOR: #095aa6; TEXT-DECORATION: underline
+}
+.topFooterLinkPadHome {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; COLOR: #666666; PADDING-TOP: 10px
+}
+A.footerLinkSiteNav:link {
+	COLOR: #095aa6; TEXT-DECORATION: none
+}
+A.footerLinkSiteNav:visited {
+	COLOR: #095aa6; TEXT-DECORATION: none
+}
+A.footerLinkSiteNav:active {
+	COLOR: #095aa6; TEXT-DECORATION: underline
+}
+A.footerLinkSiteNav:hover {
+	COLOR: #095aa6; TEXT-DECORATION: underline
+}
+A.footerLink:link {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+A.footerLink:visited {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+A.footerLink:active {
+	COLOR: #666666; TEXT-DECORATION: underline
+}
+A.footerLink:hover {
+	COLOR: #666666; TEXT-DECORATION: underline
+}
+.ehlFDICspacing {
+	MARGIN: 5px 10px 0px 0px
+}
+.ehlText {
+	VERTICAL-ALIGN: 3px; COLOR: #666666
+}
+.marqueeMiddle {
+	HEIGHT: 90px
+}
+.marqueeRight {
+	HEIGHT: 170px
+}
+.homeTileAd {
+	MARGIN: 20px 11px 0px
+}
+.homeAlert2Title {
+	FONT-WEIGHT: bold; FONT-SIZE: 0.8em; MARGIN-LEFT: 10px; COLOR: #990000; FONT-FAMILY: arial
+}
+.homeAlert1Text {
+	FONT-SIZE: 0.7em; MARGIN: 0px 10px; COLOR: #666666; FONT-FAMILY: arial
+}
+.searchButtonImg {
+	POSITION: relative; TOP: 3px
+}
+.pipe {
+	POSITION: relative; TOP: -1px
+}
+.logonFormFieldBoxDDL {
+	MARGIN: 0px 0px 2px 20px
+}
+.homeAlert2Box {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; BACKGROUND-IMAGE: url(emergency_gradient.gif); PADDING-BOTTOM: 0px; MARGIN: 10px 0px 0px; COLOR: #666666; PADDING-TOP: 8px; BACKGROUND-REPEAT: repeat-x
+}
+.inputTextBox2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 1em; PADDING-BOTTOM: 2px; MARGIN: 2px 0px; VERTICAL-ALIGN: top; PADDING-TOP: 2px
+}

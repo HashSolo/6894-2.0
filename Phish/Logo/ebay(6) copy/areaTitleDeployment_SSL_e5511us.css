@@ -1,0 +1,36 @@
+.bc { font-family:Verdana,Arial,sans-serif;font-size:xx-small; }
+
+#areaTitle { background:url(https://securepics.ebaystatic.com/aw/pics/globalAssets/rtCurve.gif) no-repeat right top;border-style:none none solid none;padding:0;clear:both; }
+#areaTitle h1 { padding-top:0px;padding-right:40px;padding-bottom:0px;padding-left:10px;line-height:41px;vertical-align:middle;font-family:Arial;font-weight:bold;font-size:14pt;margin:0;float:left; }
+#areaTitle div { background:0 0;height:41px; }
+#areaTitle div div { background:url(https://securepics.ebaystatic.com/aw/pics/globalAssets/rtCurve.gif) no-repeat right top; }
+#areaTitle div div div { background:url(https://securepics.ebaystatic.com/aw/pics/globalAssets/rtCurve.gif) no-repeat right top;width:10px;float:right; }
+#areaTitle img { float:left;margin:0;border:0; }
+.bold { font-weight:bold; }
+.titletext { font-family:Arial;font-weight:bold;font-size:22px;color:#193B67; }
+.linktext { font-family:Arial;font-size:16px; }
+.PPAStyle { font-family:Arial;font-size:12.5px; }
+.ens { display:inline; }
+.fontnormal { font-weight:normal; }
+.art { border-size:4px;border-style:none none solid none;padding:0;clear:both; }
+.highlightitViolet img { border:4px solid #c9c9fe; }
+.highlightitYellow img { border:4px solid yellow; }
+span.violetborder { border-style:solid;border-color:#c9c9fe;border-width:4px; }
+span.yellowborder { border-style:solid;border-color:yellow;border-width:4px; }
+#areaTitleNormal { background:url(https://securepics.ebaystatic.com/aw/pics/globalAssets/rtCurve.gif) no-repeat right top;border-style:none none solid none;padding:0;clear:both; }
+#areaTitleNormal h1 { padding-top:0px;padding-right:40px;padding-bottom:0px;padding-left:10px;line-height:41px;vertical-align:middle;font-family:Arial;font-weight:normal;font-size:18pt;margin:0;float:left; }
+#areaTitleNormal div { background:0 0;height:41px; }
+#areaTitleNormal div div { background:url(https://securepics.ebaystatic.com/aw/pics/globalAssets/rtCurve.gif) no-repeat right top; }
+#areaTitleNormal div div div { background:url(https://securepics.ebaystatic.com/aw/pics/globalAssets/rtCurve.gif) no-repeat right top;width:10px;float:right; }
+#areaTitleNormal img { float:left;margin:0;border:0; }
+.headingBorder { clear:both;border:1px solid #9999cc;border-width:1px 0 0 0;background-color:#EDEDF7;width:100%;height:100%; }
+.leftField { width:74%;float:left; }
+.rightField1 { width:24%;float:right; }
+.contentAlign { margin:0 0 0 0px;padding:0px; }
+.classAutoSugg1 { background-color:#000080;color:#FFFFFF; }
+.classAutoSugg2 { background-color:white; }
+.textboxAlign { font-family:Verdana;font-size:xx-small;voice-family:"\"}\"";voice-family:inherit;padding:2px 0px 2px 0px; }
+.headingBorderCS { clear:both;border-width:1px 0 0 0;background-color:#EDEDF7;width:100%;height:100%; }
+.liindent { margin:0 0 0 25px; }
+
+/* b=6038743 */

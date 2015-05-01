@@ -1,0 +1,423 @@
+#psDemoContent{padding:25px; background:#FFF;}
+
+/* USER */
+.featured{
+	
+	
+}
+.blurb{
+	font-size:1.1em;
+	
+}
+.featuredCaption{
+	font-weight:bold;
+	color:#CCC;
+	text-transform:uppercase;
+	
+}
+
+
+    #userCard {
+        margin: auto; margin-top: .1em;
+        padding: .2em;
+        width: 460px;
+	float:right;
+	font-size:.8em;
+	
+    }
+	 #userCard a{
+	 	font-size:.9em;
+	}
+    #userCard form{
+	 
+	margin:5px 0px 0px 0px;    
+    }	    
+    #userCard .formLabel {
+        float: left;
+    }
+
+    #userCard .formElement {
+        float: right;
+    }
+
+    #userCard .formBreak {
+        clear: both;
+    }
+    #account{
+	    width:125px;
+	    float:left;
+	    padding:5px;
+	    text-align:left;
+	    margin-left:10px;
+	    clear:right;
+    }
+    #accountOptions{
+	    width:100%;
+	    float:left;
+	    padding:5px;
+	    text-align:left;
+	    margin-left:10px;
+	    clear:right;
+    }
+    #account a{
+	    
+    }
+
+.note{
+	font-size:.7em;
+}
+
+
+.searchForm{
+	padding:0px;
+}
+#breadcrumb {
+	padding:0px;
+	background:#CCC;
+	font-size:.9em;
+	width:550px;
+}
+#breadcrumb ul{
+	margin:10px;
+	padding:0px;
+}
+#breadcrumb li{
+	display:inline;	
+}	
+.breadcrumbDelete{
+	font-size:.7em;
+}
+.codeForm{
+	text-transform:uppercase;
+}
+td.filters h3{
+		text-decoration: none;
+		font-weight: 100;
+		color: #000;
+		font-size: 1.2em;
+		letter-spacing: .1em;
+		font-stretch: ultra-condensed;
+	}
+
+	.tag {
+		float: left;
+		display: inline;
+		width: 150px;
+		height: 2em;
+	}
+
+	.filter {
+		text-transform:uppercase;
+		
+	}
+
+	.filter a {color: #000;
+		
+		text-decoration: underline;
+		
+	}
+	.filter a:hover {
+		color: #f00;
+		
+	}
+
+	.filters a, .portfolioActions a{
+		 color:#000;
+		 text-decoration:none;
+		 
+	}
+
+	.filters a:hover{
+		text-decoration:underline;
+		}
+
+	.filters a:visited{
+		color: #952e33;
+		text-decoration: underline;
+		}
+
+	.sclear {
+		clear: both;
+		height: 1em;
+	}
+
+	#results{
+		padding:5px;
+		overflow:auto;
+		width: 750px;
+	}
+
+	#imageViewer{
+		padding:5px;
+
+
+		overflow:auto;
+	}
+	#imageViewer a{
+		color:#fff;	
+	}
+	#imageViewer img{
+		border:10px solid #000;
+
+		background:#000;
+		overflow:auto;
+	}
+
+	#imageViewer img{
+		padding-bottom:2px;
+	}
+
+	.results #sortme #resultItem td a{
+		text-decoration: none;
+		font-weight: 100;
+		color: #000;
+		font-size: 1em;
+		letter-spacing: .1em;
+		font-stretch: ultra-condensed;
+	}
+	.results a{
+		font-size:.9em;
+		color:#952e33;
+	}
+
+	.description{
+		font-size:.7em !important;
+	}
+	.itemCard a{
+		font-size:1.2em;
+		color:#111;
+		text-decoration:underline;
+	}
+
+	.searchListItem {
+		height: 185px; 
+		display: inline; 
+		padding: 3px;
+		margin: 1px;
+		float: left;	
+		background-color: #ccc;
+		border-top: 1px solid #666;
+		border-left: 1px solid #666;
+		border-right: 3px solid #666;
+		border-bottom: 3px solid #666;
+		text-align: center;
+	}
+	
+	.asearchListItem img {
+		border-top: 0px solid #000;
+		border-left: 0px solid #000;
+		border-right: 1px solid #666;
+		border: 1px solid #666;
+	}
+
+	.searchListItem .caption {
+		margin: 0 auto;
+	}
+	
+	.cardThumb {
+		width: 95px; 
+		height: 100px;
+		padding: 1px; 
+		float: left; 
+		display: inline;	
+	}
+
+/** th is the lable**/
+	#talentViewer, #locationViewer, #vehicleViewer{
+		margin-bottom:15px;
+	}
+		#talentViewer th, #locationViewer th, #vehicleViewer th{
+			text-align:right;
+		}
+	
+	#vehicleViewer, #talentViewer, #locationViewer{
+		background:#333;
+	}
+	#vehicleCard{
+		background:#CCC;
+	}
+	#vehicleInfo, .talentInfo, .locationInfo{
+		background:#f8f6f7;
+	}
+	#vehicleCategory, .catLabel, #vehicleCategory a, .catLabel a{
+		background:#696868;
+		padding:5px;
+		margin:5px;
+		color:#f8f6f7;
+		font-weight:bold;
+		font-size:12pt;
+	}
+	.vehicleTags ul{
+		margin:0px;
+		padding:0px;
+		text-indent:0px;
+	}
+	.vehicleTags li{
+		display:inline;
+		padding-right:3px;
+	}
+	#vehicleData a{
+		padding-left:10px;
+	}
+	#talentViewer tr, #locationViewer tr, #vehicleViewer tr{
+		margin-bottom:3px;
+	}
+	#talentViewer th, #locationViewer th, #vehicleViewer th{
+		font-size: .8em;
+		text-decoration: none;
+		font-weight: bold;
+		color: #000;
+		letter-spacing: .1em;
+		line-height: 1em;
+		font-stretch: ultra-condensed;
+		text-align:right;
+		}
+	#talentViewer td a, #locationViewer td a, #vehicleViewer td a{
+		
+	}
+		
+
+/** th is the data*
+	#talentViewer td, #locationViewer td, #vehicleViewer td {
+		font-size: .9em;
+		text-decoration: none;
+		font-weight: 100;
+		color: #666666;
+		line-height: 1.8em;
+		font-stretch: ultra-condensed;
+	}
+*/
+	#searchHolder{
+		overflow:auto;
+	}
+	#searchWindow li{
+		display:inline;
+		list-style:none;
+	}
+	#vehicleSearch, #locationSearch, #talentSearch{
+	}
+	#accordion {
+		height: 600px;
+		overflow: auto;
+	}	
+	#vehicleSearch h3, #locationSearch h3, #talentSearch h3{
+		display:block;
+		padding:10px;
+		font-size:1em !important;
+		color:#FFF;  
+		padding:5px;
+		background:#696868;
+	}
+	#searchSlide{
+	
+	}
+	#searchToggle{
+		background:#666;
+		width:100%;
+		border:1px outset #000;
+		text-align:left;
+		padding:0px;
+		
+	}
+	#searchToggle a{
+		color:#FFF;
+		font-size: 1em;
+		font-weight:bold;
+	}
+
+                          
+	.imageWindow {
+		width: 150;
+		height: 150;
+		overflow: auto;
+	}
+	
+	.blurb{
+	font-size:1em;
+	padding-bottom:5px;
+	margin-bottom:5px;
+	
+}
+.featuredCaption{
+	font-weight:bold;
+	color:#CCC;
+	text-transform:uppercase;
+	
+}
+	
+
+	
+	
+	
+	
+	
+	
+	
+#psRegister{
+	margin-top:10px;
+	clear:both;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+
+.tool-tip {
+	color: #fff;
+	width: 139px;
+	z-index: 13000;
+}
+ 
+.tool-title {
+	font-weight: bold;
+	font-size: 11px;
+	margin: 0;
+	color: #9FD4FF;
+	padding: 8px 8px 4px;
+	background: url(bubble.png) top left;
+}
+ 
+.tool-text {
+	font-size: 11px;
+	padding: 4px 8px 8px;
+	background: url(bubble.png) bottom right;
+}
+ 
+.custom-tip {
+	color: #000;
+	width: 130px;
+	z-index: 13000;
+}
+ 
+.custom-title {
+	font-weight: bold;
+	font-size: 11px;
+	margin: 0;
+	color: #3E4F14;
+	padding: 8px 8px 4px;
+	background: #C3DF7D;
+	border-bottom: 1px solid #B5CF74;
+}
+ 
+.custom-text {
+	font-size: 11px;
+	padding: 4px 8px 8px;
+	background: #CFDFA7;
+}
+
+#thumbnails{
+	height:175px;
+	overflow:auto;
+}
+	
+.required{
+	color:#952e33;
+	font-weight:bold;
+}	
+	
+	
+	

@@ -1,0 +1,580 @@
+/*  Webs.com public interface styles */
+#logoReplace { width: 187px; float: left; }
+
+#logoReplace a, 
+#logoReplace a:visited { 
+    display: block;
+    text-indent: -9000px;
+    background: transparent url('../../../global/theme/images/theme_sprite.png') no-repeat top left; 
+    width: 184px;
+    height: 103px;
+}
+
+.advertisement {
+    float: right;
+    width: 300px;
+    height: 250px;
+}
+
+* html .login_extra {
+    margin-left: 5px;
+}
+
+#login_loadingText { 
+    /* This is changed to display: block; via JS -- Ryan */
+    padding: 3px 0 0 22px; 
+    margin: 3px 0 0 0;
+    display: none;    
+    float: right;
+    width: 68px;
+    background: transparent url('../../../global/icons/loading/login_loader.gif') no-repeat top left;
+}
+
+#blackbar_create_website {
+    display: block;
+    float: right;
+    width: 165px;
+    height: 23px;
+    background: transparent url('../images/navigation/create_a_website_small.png') no-repeat top left;
+    text-indent: -9000px;
+    margin: 1px 0 0 0;
+}
+
+.public_content {
+    width: 960px;
+    padding: 0 20px 20px 0;
+    margin: 0 0 10px 0;
+}
+
+.hasSection .public_content {
+    width: 740px;
+    float: left;
+    border-right: 1px solid #eaeaea;
+}
+
+.public_content h1,
+.public_content h2,
+.public_content h3, 
+.public_content h4 {
+    color: #555555;
+    font-weight: bold; 
+}
+
+.public_content h1 {
+    font-size: 1.8em;
+    line-height: 1.7em;
+    float: none;
+    width: auto;
+    height: auto;
+}
+
+.public_content h2 {
+    font-size: 1.4em;
+    line-height: 1.5em;
+}
+
+.webs_info h2 {
+    float: right;
+    width: 570px;
+    margin-bottom: 0px;
+    padding-right: 20px;
+}
+
+.campaign h2 {
+	float: right;
+	width: 289px;
+}
+
+.public_content h3 {
+    font-size: 1.8em;  
+    line-height: 1.7em;
+}
+
+.public_content ul {
+    list-style-type: disc;
+    list-style-position: inside;
+    padding-left: 20px;
+}
+
+.public_content li {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin-bottom: 2px;
+}
+
+.public_content ol {
+    list-style-type: decimal;
+    list-style-position: inside;
+    padding-left: 20px;
+}
+
+.public_content ol ul {
+    font-size: .8em;
+}
+
+.public_content h4 {
+    font-size: 1.4em;
+    line-height: 1.5em;
+}
+
+.public_content p {
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.public_content p, 
+.public_content ul, 
+.public_content ol {
+    margin: 0 0 20px 0;
+}
+
+.public_content input, 
+.public_content label, 
+.public_content select {
+    display: block;
+}
+
+.input {
+    margin-bottom: 18px;
+}
+
+.public_content .form_input {
+    width: 400px;
+    border: 1px solid #838383;
+    background-color: transparent;
+    padding: 2px;
+}
+
+.public_subpage_menu { display: none; }
+
+.hasSection .public_subpage_menu {
+    display: block;
+    width: 189px;
+    float: right;
+    text-align: right;
+}
+
+.hasSection .public_subpage_menu h3 {
+    font-size: 2.5em;
+    font-weight: normal;
+    padding: 0 0 15px 0;
+}
+
+.subpage_navigation { 
+    font-size: 1.4em;
+    line-height: 1.4em;
+}
+
+.error_left {
+    float: left;
+    width: 500px;
+}
+
+.error_right {
+    float: right;
+    width: 300px;
+}
+
+.large_link {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+/*  Homepage-specific styles below */
+#homepage .h1_and_top_text_container {
+    width: 822px;
+    margin: 0 auto 20px;
+    font-size: 1.3em;
+    color: #797979;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 0 20px;
+}
+
+#homepage .h1_and_top_text_container h1 {
+	color: #558ccc;
+	display: block;
+	margin: 0 auto 10px;
+	width: 822px;
+	font-size: 36px;
+	padding: 0px;
+	height: 36px;
+}
+
+#homepage .h1_and_top_text_container p {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	font-weight: normal;
+}
+
+#homepage .h1_and_top_text_container a {
+	color: #797979;
+	font-weight: bold;
+}
+
+#homepage .h1_and_top_text_container a:hover {
+	color: #307ace;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+#homepage .h2_being_replaced {
+    width: 822px;
+    margin: 0 auto 20px;
+    font-size: 1.3em;
+    line-height: 1.6em;
+    color: #797979;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 0 20px;
+}
+
+#homepage .attention {
+    background: transparent url('../images/homepage/create_a_website_for_free.png') no-repeat top center;
+    width: 800px;
+    margin: 0 auto 10px auto;
+    text-indent: -9000px;
+    height: 35px;
+}
+
+#homepage .splash {
+    padding: 0 0 0 35px;
+}
+
+#homepage #sample_sites {
+    width: 558px;
+    height: 271px;
+    background: transparent url('../images/homepage/sample_sites.png') no-repeat top left;
+    float: left;
+}
+
+#homepage #sign_up {
+    float: right;
+    width: 340px;
+    height: 231px;
+    padding: 50px 0 0 50px;
+}
+
+#learn_more {
+    width: 800px;
+    margin: 30px auto;
+    background: transparent url('../images/homepage/discover.png') no-repeat top center;
+    padding: 30px 0 10px 0;
+}
+
+#learn_more a, 
+#learn_more a:visited {
+    display: block;
+    width: 181px;
+    height: 30px;
+    margin: 0 auto;
+    background: transparent url('../images/homepage/learn_more.png') no-repeat top left;
+    text-indent: -9000px;
+}
+
+.returningAd {
+    font-size: 1.2em;
+    line-height: 1.4em;
+}
+
+.returningAd #learn_more {
+    float: left;
+    width: 317px;
+    padding: 25px 0 10px 0;
+    background: transparent url('../images/homepage/discover_small.png') no-repeat top center;
+    text-align: center;
+    margin: 50px 0 0 135px;
+}
+
+* html .returningAd #learn_more { /* IE6 has an issue with our ads, sadly... */
+    margin: 50px 0 0 70px;
+}
+
+.returningAd #learn_more a,
+.returningAd #learn_more a:visited { 
+    background: transparent url('../images/homepage/learn_more_small.png') no-repeat top left; 
+    width: 126px;
+    height: 23px; 
+}
+
+#learn_more p {
+	display: none;
+}
+
+.returningAd #learn_more p {
+    padding: 0 0 22px 0;
+    display: block;
+}
+
+#returningAdBox {
+    width: 300px;
+    height: 250px;
+    margin: 36px 5px 20px 0;
+    float: right;
+}
+
+* html #returningAdBox { /* IE6 has an issue with our ads, sadly... */
+    margin: 20px 65px 20px 0;
+}
+
+/* Signup classes below */
+
+.signup_header {
+    background-position: 0px 7px;
+    background-repeat: no-repeat;
+    padding-left: 23px;
+    clear: left; /* Don't ask... */
+}
+
+#throw_signup label {
+    display: block;
+    font-weight: bold;
+    font-size: 1.4em;
+    color: #fff;
+    padding: 0 0 2px 0;
+}
+
+#throw_signup span { 
+    color: #fff; 
+    font-size: 1.5em;
+}
+
+#throw_signup p {
+    margin: 0 0 17px 0;
+}
+
+.signup_input {
+    font-size: 2em;
+    padding: 2px;
+    color: #333;
+    border: 0px;
+    background: #fff;
+    margin: 1px 0 3px;
+    width: 281px;
+}
+
+#throw_signup .first {
+    width: 201px;
+}
+
+.account_creation_steps {
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+.account_creation_steps li { padding: 0 8px 0 0; }
+
+.account_creation_steps .active {
+    font-weight: bold;
+    background: transparent url('../images/signup_stages_bullet.gif') no-repeat 100% 57%;
+}
+
+
+/* --- Campaign Archives --- */
+
+.campaign,
+.management_team {
+    float: left;
+    width: 370px;
+ }
+
+.campaign {
+    height: 85px;
+}
+
+.management_team {
+    height: 105px;
+}
+
+.campaign img, 
+.management_team img{
+    float: left;
+}
+
+.campaign h4 {
+    float: right;
+    width: 289px;
+}
+
+.management_team h4,
+.management_team p {
+    width: 271px;
+    float: right;
+    line-height: 1.2em;
+}
+
+.campaign p {
+    float: right;
+    width: 288px;
+}
+
+.execSpan {
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* --- Logos --- */
+
+.logoBox {
+    width: 370px;
+    float: left;
+}
+
+.logoBox h4 {
+    margin-bottom: 5px;
+}
+
+.logoBox ul {
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+.logoBox li {
+    margin-bottom: 0px;
+}
+
+.contact_footnote {
+	padding-left: 30px;
+	margin-top: 20px;
+}
+
+.contact_footnote h3 {
+	
+}
+
+.contact_footnote p {
+	font-size: 11px;
+	line-height: 14px;
+}
+
+.contact_footnote p a{
+	
+}
+
+/* --- Partners Page --- */
+
+.partners {
+    float: left;
+    width: 240px;
+    height: 85px;
+}
+
+/* --- Sample Sites --- */
+
+.sample_left {
+    width: 333px;
+    float: left;
+}
+
+.sample_right {
+    float: right;
+    width: 350px;
+    margin-right: 10px;
+}
+
+.imgfeat {
+    float: left;
+    width: 152px;
+    height: 111px;
+    margin-right: 23px;
+    margin-bottom: 23px;
+    background: #ccc;
+}
+
+* html .imgfeat {
+    margin-right: 20px;
+}
+
+/* --- Packages Along Bottom of Home Page --- */
+
+.bottomBucketsWrapper {
+	height: 220px;
+	padding-top: 30px;
+}
+
+.bottomBucketsWrapper h4 {
+	text-align: center;
+	color: #333;
+	font-size: 22px;
+	font-weight: bold;
+	padding-bottom: 30px;
+}
+
+.bottomBucket {
+	float: left;
+	width: 302px;
+	padding-right: 20px;
+}
+
+.bottomBucket h5 {
+font-size: 15px;
+color: #558ccc;
+font-weight: bold;
+padding-bottom: 8px;
+}
+
+.bottomBucket p {
+	font-size: 13px;
+	height: 70px;
+	line-height: 18px;
+}
+
+.bottomBucket a {
+	text-indent: -9999px;
+	background-repeat: no-repeat;
+	display: block;
+	height: 26px;
+	margin-top: 15px;
+}
+
+.freeHostingBucket {
+	padding-left: 30px;
+	width: 272px;
+}
+
+#freeWebsiteLink {
+	background-image: url('../images/homepage/freewebsite_btn.png');
+	width: 174px;
+}
+
+#explorePremiumLink {
+	background-image: url('../images/homepage/explorepremium_btn.png');
+	width: 228px;
+}
+
+#freeHostingLink {
+	background-image: url('../images/homepage/getstarted_btn.png');
+	width: 255px;
+	margin-top: 33px;
+}
+
+.returningAd .bottomBucketsWrapper {
+	height: 500px !important;
+	width: 600px !important;
+	float: left;
+}
+
+.returningAd .bottomBucketsWrapper h4 {
+	text-align: left !important;
+}
+
+.returningAd .bottomBucketsWrapper .bottomBucket {
+	float: none;
+	width: 600px !important;
+	padding-left: 0px !important;
+	height: auto;
+}
+
+.returningAd .bottomBucketsWrapper .bottomBucket p {
+	height: 30px;
+	padding-bottom: 30px;
+	margin: 0px;
+}
+
+.returningAd .bottomBucketsWrapper .bottomBucket a {
+	display: inline;
+	background-image: none !important;
+	text-indent: 0px;
+}

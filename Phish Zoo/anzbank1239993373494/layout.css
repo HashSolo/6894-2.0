@@ -1,0 +1,386 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0 auto 1em;
+}
+
+#access {
+    position: relative;
+    margin: 0; 
+    padding: 0;
+    border: 0;
+	background-color: #00FFFF;
+	text-align: center;
+}
+
+#anzcontainer {
+	width: 972px;
+	margin-top: 8px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* set up defaults for new containers */
+#navbar, #sidebar {
+	color: black;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 79%;
+	line-height: 150%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	text-decoration: none;
+}
+
+#sidebar #accordion a img {
+	display: block;
+}
+
+#anzglobalheader {
+    margin: 0;
+    padding: 0;
+    border: 0;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 79%;
+	line-height: 150%;
+	width: 100%;
+}
+
+#anzglobalheader h1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+	width: 193px;
+	height: 91px;
+	float: left;
+}
+
+#anzglobalheader h1 a.ir {
+	margin: 33px 0px 0px 25px;
+    padding: 0;
+    border: 0;
+    display: block;
+}
+
+.horizontallist li {
+	display: inline !important;
+}
+
+.horizontallist li a {
+	color:#06c !important;
+}
+
+.pipedlist li, .nonpipedlist li {
+	border-right: 1px solid black !important;
+	padding-left: 1em !important;
+	padding-right:1em !important;
+}
+
+.nonpipedlist li {
+	padding-left: .5em;
+	padding-right: .5em;
+}
+
+.pipedlist li.lastlistitem {
+	border-right: 0 !important;
+}
+
+.nonpipedlist li, .nonpipedlist li {
+	border-right: 0 !important;
+}
+
+#header-container {
+    margin: 0;
+    padding: 0;
+    border: 0;
+	margin-left: 196px;
+	padding-left: 9px;
+	z-index: 1;
+}
+
+#globalsearch, #globalnav {
+    margin: 0; 
+    padding: 0 6px 0 0; 
+    border: 0;
+	position: relative;
+	top: 10px;
+	float: right;
+	height: 2em;
+	z-index: 100;
+	text-align: right;
+}
+
+#globalsearch { 
+	width: 13em;
+}
+
+#globalsearch form, #globalsearch p, #globalsearch label, #globalsearch input, #globalsearch button {
+    margin: 0; padding: 0; border: 0;
+}
+
+#globalsearch label {
+	position: absolute;
+	height: 0;
+	left: -999em;
+}
+
+#globalsearch input {
+	border: 1px solid #819FBA;
+	width: 8em;
+}
+
+#globalsearch button {
+    margin-left: 5px;
+}
+
+#globalnav ul {
+	font-size: .85em;
+}
+
+#globalnav h2, #globalnav ul, #globalnav li, #globalnav a {
+    margin: 0; padding: 0; border: 0;
+}
+
+#primary-nav {
+    margin: 0;
+    padding: 0;
+    border: 0;
+	float: left;
+	width: 100%;
+	margin-top: -2em;
+	padding-top: 7px;
+	z-index: 10;
+}
+
+#primary-nav h2, #primary-nav ul, #primary-nav li, #primary-nav a {
+    margin: 0; padding: 0; border: 0;
+}
+
+#tabs {
+	position: relative;
+	width: 100%;
+	list-style: none;
+}
+
+#tabs li {
+	float: left;
+	display: inline;
+}
+
+#tabs a {
+	display: block;
+	height: 37px;
+}
+
+#tabs a .nonvisual {
+	position: absolute;
+	left: -999em;
+}
+
+#tabs li.currentfirstlevel a {
+	cursor: default;
+}
+
+#tabs li.currentfirstlevel a:hover {
+	cursor: pointer;
+}
+
+#tabs li.currentfirstlevel.currentPage a:hover {
+	cursor: default;
+}
+
+#secondary-nav {
+    margin: 0;
+    padding: 0;
+    border: 0;
+	position: relative;
+	float: left;
+	width: 100%;
+	z-index: 10;
+}
+
+#secondary-nav h3, #secondary-nav ul, #secondary-nav li, #secondary-nav a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#tabs-subnav {
+	position: relative;
+	width: 100%;
+	list-style: none;
+    height: 47px;
+}
+
+#tabs-subnav li {
+	float: left;
+	display: inline;
+}
+
+#tabs-subnav li a {
+	display: block;
+    height: 40px;
+	text-align: center;
+	line-height: 1.5em;
+    padding: 7px 10px 0 10px;
+}
+
+#tabs-subnav a:hover {
+	cursor: pointer;
+}
+
+#tabs-subnav a .nonvisual {
+	position: absolute;
+	left: -999em;
+}
+
+#tabs-subnav li.currentsecondlevel a {
+	cursor: default;
+}
+
+
+#LHNtoppanel {
+	height: 36px;
+	width: 204px;
+	background: #06c url(/common/css/new/img/navbar-feature-bg.gif) top right no-repeat;
+}
+
+#sidebar {
+	float: right;
+	width: 243px;
+}
+
+#contentWrapper {
+    margin-left: 204px;
+    margin-right: 243px;
+}
+
+.lowerlevelnonav #contentWrapper {
+	margin-right: 0px;
+}
+
+#anzcontent {
+    margin-left: 204px;
+    margin-right: 243px;
+}
+
+#anzcontent h1 {
+	margin: 0;
+	padding: 0;
+}
+
+body.lowerlevel #anzcontent,
+body.lowerlevelnonav #anzcontent {
+	display: inline;  /* fix for double-margin float bug in ie*/
+}
+
+.nonvisual {
+	width: 0;
+	height: 0;
+	overflow: hidden;
+}
+
+.killfloat {
+	clear: both;
+}
+
+.boxes{
+	width: 525px;
+}
+
+.column1{
+	width:45%;
+	float:left;
+	padding:0 5px 0 5px;
+}
+
+.column2{
+	width:45%;
+	float:right;
+	padding:0 5px 0 5px;
+}
+
+.topbox {
+	margin: 15px 0 0 0;
+	padding:0 5px;
+}
+
+.bottombox {
+	margin: 15px 0 0 0;
+	padding:0 5px 10px;
+}
+
+.topbox h3, .bottombox h3{
+	margin: 0;
+	padding: 0;
+	text-indent: -9999px;
+}
+
+.topbox h4 a, .bottombox h4 a {
+	display: block;
+	height: 111px;
+	text-indent: -9999px;
+}
+
+#personallending #contentWrapper,
+#travel #contentWrapper,
+#aboutanzHP #contentWrapper,
+.lowerlevel #contentWrapper,
+.lowerlevelnonav #contentWrapper {
+    width: auto;
+}
+
+#contentText {
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:8px;
+}
+
+.boldText {
+	font-weight: bold;
+}
+
+.arrowlist6 {
+	margin-bottom:5px;
+	margin-top:5px;
+}
+
+ul.arrowlist6 li {
+	color:#000000;
+	font-family:Verdana,Arial,Helvetica,Sans-serif;
+	font-size:13px;
+	font-weight:normal;
+	margin-left:0px;
+	list-style-image:url(/common/img/arrows/arrow_1e.gif);
+}
+
+ul.arrowlist6 li a {
+	text-decoration:none;
+}
+
+ul.arrowlist6 li a:hover {
+	text-decoration:underline;
+}
+
+.faqlist {
+	list-style-image:none;
+	list-style-type:none;
+	margin-left:0;
+	padding-bottom:10px;
+	padding-left:0;
+}
+
+.faqlist li {
+	padding-bottom:3px;
+}
+
+.questionq {
+	float:left;
+}
+
+.questiontext {
+	float:left;
+	width:92%;
+}

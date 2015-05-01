@@ -1,0 +1,82 @@
+<html>
+<head>
+<title>Important Information About Phishing </title>
+<meta name="keywords" content="dimenoc, orlando, florida, anti, phishing, anti-phishing, antiphishing, scam, scammer, client, access, information, educate, identity, authorized, unauthorized, fraud" />
+<meta name="description" content="Our worldwide mission against spam and phishing." />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="antiphish.css" type="text/css" />
+</head>
+<table width="732" cellspacing="0" cellpadding="7" align="center" bgcolor="#FFFFFF">
+<center><a href="http://www.dimenoc.com"><img src="antiphish2.jpg" border="0"></a></center>
+<tr><td valign="top" colspan="2">
+<h2 align="center">You have reached this page because we disabled a fraudulent website that was on our network. We have removed the page and replaced it with this information about phishing.</h2>
+<blockquote>
+"<strong style="color:#FF9700">Phishing</strong> is an attempt to criminally and fraudulently acquire sensitive information, such as usernames, passwords and credit card details, by masquerading as a trustworthy entity in an electronic communication. eBay, PayPal and online banks are common targets. Phishing is typically carried out by email or instant messaging, and often directs users to enter details at a website, although phone contact has also been used. Phishing is an example of social engineering techniques used to fool users. Attempts to deal with the growing number of reported phishing incidents include legislation, user training, public awareness, and technical measures." <a href="http://en.wikipedia.org/wiki/Phishing">~Wikipedia</a>
+</blockquote>
+<h3 style="color: #FF9700">What is this? I clicked on a link in an email to access my account information and now I am lost.</h3>
+
+You have reached this page because the link you followed was associated with a "phishing" scam found on our network. This scam has been disabled and the company associated with the scam has been notified with all appropriate logs so they can pursue the matter further.
+
+<h3 style="color: #FF9700">Scam? Was my account information compromised? Should I contact my bank?</h3>
+
+If you submitted any private information to this page before it was disabled, you should contact your appropriate banks and account vendors as soon as possible and notify them of the incident. They can assist you with ensuring your account info can be secured to prevent it from being used maliciously.
+
+<h3 style="color: #FF9700">Wait a second! Why should I trust you? You could be the scammer!</h3>
+
+We sincerely apologize, but we are not the bad guys. We too, are a victim of the fraud trend known as "phishing". Malicious third parties will attempt to gain unauthorized access to computer systems to host scam/fraud sites in order to steal money, and to facilitate identify theft.
+
+<h3 style="color: #FF9700">Why are you telling me this? What does your company get out of this?</h3>
+
+Well, <strong>we are the victims too</strong>. Our system was abused in order for a third party to perform malicious actions. As a datacenter, we do not want such activities on our network. We wish harm to nobody, and we also want what a vast majority of the internet does; to bring the malicious parties to justice where they can bear the full penalty that their respective law system will enforce. We have redirected you to this page in order to help educate you to avoid falling for such tactics. If the scams did not work, there would be very little motivation for attackers to setup such scams in the first place!
+
+<h3 style="color: #FF9700">I am the owner of domain which was used to host this scam! What should I do?</h3>
+
+Please contact the Abuse and Security department of your service provider. They will be able to assist you with removing the security hole which caused the scam to present itself, and provide tips for keeping your site secure in the future.
+
+<h3 style="color: #FF9700">How do I avoid these types of scams as a consumer?</h3>
+
+Phishers employ many tactics to trick innocent parties into releasing private information. The most effective tactics employed by these scammers is a combination of HTML tricks within email messages, and social engineering. They often notify you that your account has been disabled, or there is a problem with your account, and you need to provide them with personal information in order to fix the problem. They also conveniently provide a link to click on which looks like the domain name of the account vendor which they are masquerading as. The first line of defense is skepticism. Consider it logically. No company will notify you of a billing issue via email, and request your social security number, credit card info, or PIN number. The vast majority of businesses understand the privacy concerns of giving out such information. Verification of your identity usually consists of multiple, less invasive personal identifiers, such as a certain set of your account numbers, or a secret password you setup with the company upon signup. Birthdays, and addresses may also be used. This is done so that consumers will feel more willing to provide such identifiers, without feeling like they are giving away their complete identity. And in the vast majority of these cases, it is done via a telephone call. 
+
+<h3 style="color: #FF9700">Where can I find further resources about "phishing" and how to avoid it?</h3>
+
+<a href="http://www.antiphishing.org/consumer_recs.html">Antiphishing.org</a><br /><br />
+<a href="http://www.microsoft.com/athome/security/email/phishing.mspx">Microsoft's Phishing Article</a><br /><br />
+<a href="http://www.fdic.gov/consumers/consumer/alerts/phishing.html"> FDIC Consumer Alerts</a><br /><br />
+<a href="http://toolbar.netcraft.com">Netcraft Toolbar</a><br /><br />
+<a href="http://www.google.com/tools/firefox/safebrowsing"> Firefox and Safe-Browsing Guide</a><br /><br />
+</td></tr>
+
+<tr>
+<td width="100%" bgcolor="#DAD7D7" valign="top">
+
+<h3>Latest Security News from <a href="http://secunia.com/">secunia.com:</a></h3>
+
+<script language="JavaScript" src="http://itde.vccs.edu/rss2js/feed2js.php?src=http%3A%2F%2Fsecunia.com%2Fblog_rss%2Fo.rss&chan=y&num=5&desc=500&date=y&targ=y" type="text/javascript"></script>
+
+<noscript>
+<a href="http://itde.vccs.edu/rss2js/feed2js.php?src=http%3A%2F%2Fsecunia.com%2Fblog_rss%2Fo.rss&chan=y&num=5&desc=500&date=y&targ=y&html=y">View RSS feed</a>
+</noscript>
+</td>
+</tr>
+<tr>
+<td width="50%" bgcolor="#DAD7D7">
+
+<script type="text/javascript"><!--
+google_ad_client = "pub-1689063828958282";
+/* 728x90, created 3/27/08 */
+google_ad_slot = "8965218293";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<!--
+<script type="text/javascript"src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+-->
+</td>
+</tr>
+
+<table>
+</body>
+</html>

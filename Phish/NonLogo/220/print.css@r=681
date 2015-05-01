@@ -1,0 +1,23 @@
+#psLogin, #psMainMenu, #portfolioManager, .portfolioActions, .searchForm, #psHeader, #displayAddress, #psEmail, #psSitemap, #pageHeader, #backToSearch, #pageLabel{
+	display:none;
+}
+#card{
+	margin:0px; padding:0px;
+	
+}
+#printableImages img{
+	display:inline;
+	padding:10px;
+}
+
+
+ div#locationHeader {
+
+ margin:0 auto;
+ font-weight:bold;
+ padding-bottom:10px;
+ padding-left:15px;
+ font-family:Arial;
+ font-size:1.2em;
+ margin-bottom:10px
+ }

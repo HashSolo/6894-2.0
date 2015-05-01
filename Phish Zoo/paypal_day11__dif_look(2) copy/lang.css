@@ -1,0 +1,22 @@
+/* 
+	Title: de_DE/lang.css
+	Author Name: Steve Ganz
+	Author Date: 2005-10-28
+	Description: Exclusive and redefined rules for de_DE.
+*/
+div#navPrimary { 
+	width: 622px;
+}
+div#navPrimary li#navMyAccount.expanded ul {
+	width: 740px;
+	left: -50px;	
+}
+
+/* kevin so put this here! */
+#dropDownCountrySelector {
+	width: 150px;
+}
+/* ------- have a nice day -------- */
+
+div#api div.credential { height:7.6em !important; }
+div.butMiddle { margin-left: 30px; _margin-left:0;}

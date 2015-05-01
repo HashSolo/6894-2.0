@@ -1,0 +1,940 @@
+@import url("../../reset.css");
+
+/* Common */
+body {
+	font: .75em/1.2 Arial, Helvetica, sans-serif !important;
+	padding: 10px 0;
+	color: #000;
+	background: #fff url(/WEBSCR-640-20100907-1/en_US/i/header/header_bg.gif) repeat-x 0 83px;	
+	border: 7px solid #fff;
+	overflow-y: visible;
+	_overflow-y: auto;
+}
+/*
+	Used for Message notification that appear within subflow pages that still
+	use a Table rather than a Div
+*/
+/* Added this to enable coloring of fields when the form validation fails for subflows */
+.error, div.messageBox.error {
+	color: #f00;
+}
+table.notificationBox td {
+	padding: 12px 40px 12px 12px;
+}
+table.notificationBox {
+	margin-bottom: 15px;
+}
+/* End of Message notification */
+
+/* Styles to overwrite width of nested tables in subflow pages:
+   PrintableReceipt, Cart
+*/
+table#xptContentContainer tbody tr h1,
+div#xptContentMain table#xptContentContainer div#actionButtons td.globalButtons,
+table#payment-details, table#details-wrapper {
+	width: 860px !important;
+}
+/*ConversionOptions*/
+div.modularContent div.contentArea {
+	margin-top:10px;
+}
+
+body#receipt div#xptContentMain table#xptContentContainer div#actionButtons td.globalButtons,
+body#receipt table#payment-details, table#details-wrapper {
+	width: 630px !important;
+	margin-left:27px;
+}
+
+body#receipt table#xptContentContainer tbody tr h1{ width: 640px !important; margin-left:27px; _margin-left:13px !important;}
+
+body#receipt table#customer-details, table#merchant-details {
+	width: 320px !important;
+	margin-left:0px !important;
+}
+table#xptContentContainer tbody tr h1 {
+	margin-left: auto;
+	margin-right: auto;
+	font: bold 17px Arial, Helvetica, sans-serif;
+	float: left;
+}
+table#xptContentContainer h1 {
+  height: 30px;
+}
+div#xptContentMain table#xptContentContainer div#actionButtons td.globalButtons {
+	text-align: right;
+}
+div#xptContentMain table#xptContentContainer td.globalButtons button#checkout {
+	background: none;
+	border: 0;
+	padding: 0;
+	
+}
+
+/* End of table width */
+strong {
+	font-weight: bold;
+}
+legend {
+	display: none;
+}
+.unavailable {
+	display: none;
+}
+
+/*
+	Used for Message notification that appear within subflow pages that still
+	use a Table rather than a Div
+*/
+table.notificationBox td {
+	padding: 12px 40px 12px 12px;
+}
+table.notificationBox {
+	margin-bottom: 15px;
+}
+div.actionList {
+	margin-bottom: 10px;
+	margin-top:5px;
+}
+/* End of Message notification */
+
+/* Used for the PayPal Secure Header */
+.PayPalSecureHeader {
+	padding-bottom: 40px;
+	margin-bottom:20px;
+}
+
+.PayPalSecureHeaderContent {
+	float:left;
+	padding-top:10px;
+	font-weight:bold;
+	font-size:1.4em;
+	color:#326698;
+}
+
+.PayPalSecureHeader a {
+	float:right;
+}
+
+.soldOutContent {
+	margin:20px 0;
+}
+
+input.secondary {
+   width: auto;
+   height: 22px;
+   font: bold 12px Arial;
+   padding-left: 10px;
+   padding-right: 10px;
+   color:#336699;
+   background: #83a9ce url(/WEBSCR-640-20100907-1/en_US/i/btn/btn_secondary_1x50.gif) repeat-x top left;
+   border: 1px solid #85a7ca;
+   cursor: pointer;
+   cursor: hand;
+}
+
+/* Used for the AllPurposeTextSubmit */
+input.transparentButton { 
+	margin: 0; 
+	border: none;
+	background-color: #fff; 
+	text-decoration: underline; 
+	color: #03c; 
+	padding: 0;
+	text-align: left;
+	cursor: pointer; 
+	font-size: 0.9em;
+}
+/* END: Used for the AllPurposeTextSubmit */
+
+/* Layout */
+div#header, div#main, div#footerhps {
+	width: 63em;
+	margin: 0 auto;
+}
+/* adding z-index and position to the header div for rosetta retrofit*/
+
+div#header {
+	margin-bottom: 13px;
+	height: 78px;	
+	position: static;	
+}
+
+div#footerhps {
+	clear: both;
+	padding-top: 100px;
+}
+div#footerhps p {
+	margin: 0;
+	padding: 0;
+}
+
+div#header h1 {
+	font-size: 24px;
+	padding-top:23px;
+	font-family: Arial, Helvetica, sans-serif;
+	overflow-x: auto;
+	overflow-y:hidden;
+	white-space: pre;
+   	line-height:24px !important;
+	color:#000;
+	width:600px;
+	height:43px;
+}
+#rosetta {z-index:1101; left: 605px;top:30px;}
+#xptContentMain #modularContent, div#xptContentMain .partialWidth {
+	clear: both;
+        float:left;
+	width:100%;
+}
+div#xptContentMain h1 { 
+	font-size: 1.4em;
+	color: #326698;
+	position: relative;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
+	clear: left;
+}
+h1 img {
+	position: absolute;
+	right: 0;
+	top: -10px;
+}
+p.description {
+	text-align: right;
+	font-size: .9em;
+	position: relative;
+	top: -60px;
+	left: -50px;
+}
+p.description a.secure {
+	background: url(/WEBSCR-640-20100907-1/en_US/i/icon/secure_lock_2.gif) no-repeat right center;
+	padding: 2px 20px 2px 0;
+}
+
+/* Main */
+div#main.content div#content {
+	width: 100%;
+}
+div#main h1 { 
+	font-size: 1.4em;
+	color: #326698;
+	position: relative;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+
+/* Footer */
+div#footerhps p, div#footerhps a {
+	color: #666;
+	font-size: 11px;
+}
+
+/* Page level */
+form {
+	margin-top: 30px;
+}
+form p {
+	margin: 1.2em 0;
+	font-size: 1.2em;
+}
+form p.note, div.notes p {
+	font-size: .9em;
+}
+div#content p, div#content div.buttonrow {
+	padding-left: 14.8em;
+	_padding-left: 15em;
+}
+div#content p.note {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: .9em;
+	padding-left: 16.25em;
+	_padding-left: 16.45em;
+	color: #aaa !important;
+}
+div#content p.returnto {
+	margin-top: 50px;
+	font-size: 1.1em;
+	padding-left: 0;
+}
+div#content form p.note {
+	color: #aaa;
+	margin: 0;
+}
+div#content .selected {
+	background-color: #edf4fc;
+}
+
+/* Fieldrows */
+div#content div.fieldrow {
+	padding: 2px 0;
+	_padding: 1px 0;
+}
+div.fieldrow, div.fieldRow {
+	margin-bottom: 2px;
+}
+div.fieldrow label, div.fieldRow label {
+	display: block;
+	float: left;
+	width: 14.2em;
+	margin: 0 5px 0 0;
+	padding: 3px 0 0 2px;
+}
+div.fieldrow input {
+	width: 18em;
+}
+div.fieldrow select {
+	width: 18.25em;
+	_width: 18.3em;
+}
+div.fieldrow div.value {
+	display: block;
+	padding: 0;
+	width: 22em;
+	float: left;
+}
+div.region {
+	float: left;
+}
+div.region select {
+	width: auto !important;
+}
+div.street-address, div.extended-address, div.locality, div.tel {
+	clear: left;
+	_clear: left;
+}
+div.postal-code {
+	float: left;
+	_clear:left;
+	text-align: right;
+	width: 16.15em;
+	_width: 16em;
+	margin-left: -1px;
+	_margin-left: 0;
+}
+div.postal-code,div.postal-code-default {
+	clear: both;
+}
+div.postal-code label {
+	width: 7.5em !important;
+	_width: 7.5em !important;
+	text-align: left !important;
+}
+div.postal-code input {
+	width: 5.6em;
+	float: left;
+	padding: 1px;
+}
+
+div.postal-code.country_specific {
+	width: 36em !important;
+	text-align: left;
+}
+
+div.postal-code.country_specific label {
+	width: 7.5em !important;
+	_width: 7.5em !important; 
+	text-align: left !important;
+	padding-left: 3px;
+}
+
+div.postal-code.country_specific input {
+	width: 5.6em;
+	float: none;
+}
+
+/* Buttons */
+div.buttonrow input, div.buttonRow input {
+	width: auto;
+	height: 22px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 1px 10px 2px 10px;
+	_padding: 1px 10px 0 10px;
+	margin-right: 10px;
+	letter-spacing: 1px;
+	background: #fcbb49 url(/WEBSCR-640-20100907-1/en_US/i/btn/btn_main_1x50.gif) repeat-x top left;
+	color: #fff;
+	border: 1px solid #f90;
+}
+div.buttonrow input#review, div.buttonRow input#review {
+	padding: 1px 2px 2px 2px;
+}
+div.buttonrow input:hover, div.buttonRow input:hover {
+	cursor: pointer;
+}
+div.buttonrow input:active, div.buttonRow input:active {
+	border: 1px solid #000 !important;
+}
+div.buttonrow input.done, div.buttonRow input.done {
+	background: #afc8f1 url(/WEBSCR-640-20100907-1/en_US/i/btn/btn_secondary_1x50.gif) repeat-x top left;
+	border: 1px solid #85a7ca;
+	font-size: 11px;
+	padding: 2px 10px;
+	_padding: 2px 10px 0 10px;
+	color: #369;
+}	
+div.buttonrow input.cancel, div.buttonRow input.cancel {
+	background: #cfcfcf url(/WEBSCR-640-20100907-1/en_US/i/btn/btn_cancel_1x50.gif) repeat-x top left;
+	border: 1px solid #acadaf;
+	font-size: 11px;
+	padding: 2px 10px;
+	_padding: 2px 10px 0 10px;
+	color: #777;
+}	
+div.buttonrow input.disabled, div.buttonRow input.disabled {
+	background: #bcbcbb url(/WEBSCR-640-20100907-1/en_US/i/btn/btn_cancel_1x50.gif) repeat-x top left;
+	border: 1px solid #acadaf;
+	font-size: 11px;
+	padding: 2px 10px;
+	_padding: 2px 10px 0 10px;
+	color: #acadaf;
+}
+div.buttonrow input.disabled:hover, div.buttonRow input.disabled:hover {
+	cursor: default;
+}	
+
+/*
+	ManageCC.aml - Manage Credit Card
+   Emanuele Fabrizio - 2006-12-12
+*/
+body#manageCC form {
+	/* 10px margin-top of the form for the Update CC Mode*/
+	margin: 10px 0 0 0;
+	padding: 0;
+}
+body#manageCC div.fieldrow input, body#manageCC div.fieldRow input {
+	border: 1px solid #83a8cc;
+	padding: 1px;
+}
+body#manageCC div#content p.returnto {
+	margin-top: 37px;
+}
+body#manageCC div.buttonrow {
+	margin-top: 20px;
+}
+body#manageCC div.buttonrow p {
+	padding-left: 0;
+	font-size: 11px;
+	margin-top: 10px;
+}
+body#manageCC div.payment-type fieldset#payment-type {
+	padding: 0 0 0.3em 14.8em;
+	_padding-left: 15em;
+}
+/* This updated with is to include space for prepaid cards note */
+body#manageCC div#fieldrowCCNumber {
+	width: 56.5em;
+}
+body#manageCC div#fieldrowCCNumber input {
+	margin-right: 0.7em;
+}
+body#manageCC fieldset#billingAddress {
+	padding-bottom: 20px;
+}
+body#manageCC div#shipping-address {
+	padding: 3px 0 6px 0;
+}
+body#manageCC div.region select {
+	width: auto !important;
+}
+
+/* for cc hover on ManageCC */
+body#manageCC div.ccOnFile {
+	margin: 20px 0 17px 0;
+	padding: 10px 0;
+	border-top: 1px solid #ebf1f7;
+	border-bottom: 1px solid #ebf1f7;
+	width: 35.1em;
+}
+div.ccHoverList {
+	display: inline;
+	vertical-align: 50%;
+	padding: 0 0 0 10px;
+}
+
+/* Review page styles from EC QuickHits */
+/* Review */
+body#manageCC div#edit-shipping-address.edit {
+	width: 30em;
+	_width: 31em;
+}
+body#manageCC fieldset {
+	clear: both;
+	padding: 0;
+}
+body#manageCC fieldset:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+}
+/* Edit Module */
+body#manageCC div.edit {
+	border: 1px solid #cde;
+	padding: 1px;
+	margin: 0 0 0 13.8em;
+	clear: both;
+}
+body#manageCC div.edit h3 {
+	margin-bottom: 0.5em;
+}
+body#manageCC div.edit fieldset {
+	background: url(/WEBSCR-640-20100907-1/en_US/i/scr/scr_hashedbg_4x4.gif) repeat center;
+	padding: 10px;
+	border: none;
+	margin: 0;
+}
+body#manageCC div.edit fieldset label {
+	width: 7.3em;
+	clear:left;
+}	
+body#manageCC div.edit li {
+	padding: 2px 0;
+}	
+body#manageCC div.edit fieldset li label, body#manageCC div.edit fieldset li input {
+	width: auto;
+	float: none;
+}	
+body#manageCC div.edit fieldset li label {
+	line-height: 1.6;
+	margin: 0;
+	padding: 0;
+	display: inline;
+}	
+body#manageCC div.edit fieldset li a {
+	font-size: .9em;
+	padding-left: 5px;
+}
+body#manageCC div.edit fieldset li input {
+	vertical-align: text-top;
+	_vertical-align: middle;
+	margin-right: .25em;
+}	
+body#manageCC div.edit fieldset div.checkbox {
+	padding-left: 6.5em !important;
+}
+body#manageCC div.edit fieldset div.checkbox label {
+	width: auto;
+	font-size: 0.9em;
+}
+body#manageCC div.edit div.buttonrow {
+	clear: both;
+	margin: 0;
+	padding: 6px 0 0 0;
+}	
+body#manageCC div.edit div.buttonrow input {
+	padding: 3px 2px;
+}	
+body#manageCC div.edit div.buttonrow a {
+	display: inline;
+	font-size: .9em;
+}	
+body#manageCC fieldset.add div.buttonrow {
+	padding-left: 7.7em;
+	_padding-left: 8em;
+}	
+body#manageCC div.edit div.postal-code label {
+	width: 8em;
+	text-align: right;
+}	
+body#manageCC a.change-link {
+	display: none; /* the display is handled with JS */
+	clear: both;
+}
+body#manageCC .type, body#manageCC .edit {
+	display: none;
+}
+body#manageCC .value .value {
+	padding: 0;
+}
+body#manageCC div#content p.note {
+	color: #000;
+	margin-bottom: .25em;
+	padding: 0;
+}
+body#manageCC .edit.open {
+	top: -.8em;
+	_top: -1.2em;
+	display: block;
+	position: relative;
+}
+
+/* 
+	This shows the edit shipping for
+	the non-js case 
+*/
+body#manageCC .edit.expand, body#manageCC #add-address-name.expand {
+	display: block;
+}
+body#manageCC a#add-shipping-address, body#manageCC a#edit-new-phone, body#manageCC a#edit-new-address {
+	display: none;
+}
+
+/* 
+	for the non-js buttons
+	that need to look like links
+	pk 2006.09.12 
+*/
+body#manageCC input.updateButton { 
+	margin: 0;
+	border: none !important;
+	background-image: none;
+	background-color: transparent;
+	text-decoration: underline;
+	font-weight: normal;
+	color: #03c;
+	padding: 0pt !important;
+	text-align: left;
+	cursor: pointer;
+	display: block;
+}
+
+/* 
+	Styles to handle the formatting
+	of the International Addresses
+	TODO: fix the class names - v2,v3,v4 need better names
+*/
+/* v2 - [override - state] */
+body#manageCC .adr.v2 .region {
+	display: block;
+}
+
+/* v3, v4 - [override address, extended-address, country */
+body#manageCC .adr v3 .address, body#manageCC .adr.v4 .street-address,
+body#manageCC .adr.v3 .extended-address, body#manageCC .adr.v4 .extended-address {
+ 	display: inline;
+}
+
+/* v4 - [additionally override zip] */
+body#manageCC .adr.v4 .postal-code {
+ 	display: block;
+}
+body#manageCC .adr.v4 .country {
+ 	display: inline;
+}
+
+/* ManageBank CSS */
+div#page.manageBank div#main {
+	width:920px;
+}
+div#page.manageBank div#content p {
+	padding-left: 0;
+}
+body#manageBank div#control,
+div#page.manageBank div#control {
+	float: right;
+	width: 30%;
+}
+body#manageBank div#content {
+	float: left;
+	width: 60%; 
+}
+body#manageBank div#bankFooter,
+div#page.manageBank div#bankFooter {
+	clear: both;
+	padding: 31px 0 0 0;
+	_padding: 5px 0 0 0; 
+}
+body#manageBank div#bankFooter p.returnto,
+div#page.manageBank div#bankFooter p.returnto {
+	margin: 37px 0 0 0;
+	font: 12px Arial, Helvetica, sans-serif;
+	padding: 0; 
+}
+body#manageBank div#bank_left_container,
+div#page.manageBank div#bank_left_container {
+	float: left;
+	width: 387px;
+	padding: 0;
+	margin: 0;
+}
+body#manageBank div#bank_right_container,
+div#page.manageBank div#bank_right_container {
+	float: left;
+	width: 290px;
+	background: url(/WEBSCR-640-20100907-1/en_US/i/info/info_nonjs.gif) no-repeat bottom left;
+	height: 201px;
+	_height: 202px;
+	padding: 0;
+	margin: 0;
+}
+body#manageBank div#bankAccount div.checkingDefault,
+div#page.manageBank div#bankAccount div.checkingDefault {
+	background: url(/WEBSCR-640-20100907-1/en_US/i/info/info_checking_default.gif) no-repeat bottom left;
+}
+body#manageBank div#bankAccount div.checkingAccount,
+div#page.manageBank div#bankAccount div.checkingAccount {
+	background: url(/WEBSCR-640-20100907-1/en_US/i/info/info_checking_account.gif) no-repeat bottom left;
+}
+body#manageBank div#bankAccount div.checkingRouting,
+div#page.manageBank div#bankAccount div.checkingRouting {
+	background: url(/WEBSCR-640-20100907-1/en_US/i/info/info_checking_routing.gif) no-repeat bottom left;
+}
+body#manageBank div#bankAccount div.savingsDefault,
+div#page.manageBank div#bankAccount div.savingsDefault {
+	background: url(/WEBSCR-640-20100907-1/en_US/i/info/info_savings_default.gif) no-repeat bottom left;
+}
+body#manageBank div#bankAccount div.savingsAccount,
+div#page.manageBank div#bankAccount div.savingsAccount {
+	background: url(/WEBSCR-640-20100907-1/en_US/i/info/info_savings_account.gif) no-repeat bottom left;
+}
+body#manageBank div#bankAccount div.savingsRouting,
+div#page.manageBank div#bankAccount div.savingsRouting {
+	background: url(/WEBSCR-640-20100907-1/en_US/i/info/info_savings_routing.gif) no-repeat bottom left;
+}
+/* ManageBank Form CSS */
+body#manageBank form,
+div#page.manageBank form {
+	margin: 20px 0 0 0;
+	padding: 0;
+}
+/* ManageBank button row */
+body#manageBank div#bankFooter div.buttonRow,
+div#page.manageBank div#bankFooter div.buttonRow {
+	margin: 0; 
+	padding: 0;
+}
+body#manageBank div#bankFooter div.buttonRow div.buttons,
+div#page.manageBank div#bankFooter div.buttonRow div.buttons { 
+	margin: 0 0 0 160px; 
+	padding: 0;
+}
+body#manageBank div#bankFooter div.buttonRow div.buttons input,
+div#page.manageBank div#bankFooter div.buttonRow div.buttons input {
+	width: auto;
+	height: 22px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	background: #fcbb49 url(/WEBSCR-640-20100907-1/en_US/i/btn/btn_main_1x50.gif) repeat-x top left;
+	color: #fff;
+	border: 1px solid #f90;
+}
+body#manageBank div#bankFooter div.buttonRow div.buttons input:hover,
+div#page.manageBank div#bankFooter div.buttonRow div.buttons input:hover {
+	cursor: pointer;
+}
+body#manageBank div#bankFooter div.buttonRow div.buttons input.done,
+div#page.manageBank div#bankFooter div.buttonRow div.buttons input.done {
+	font-size: 11px;
+	width: auto !important;
+	_width: 180px;
+	padding: 1px 10px 2px 10px !important;
+	_padding: 1px 10px 0 10px !important;
+	margin: 8px 0 0 0;
+	height: 22px;
+}
+body#manageBank div#bankFooter div.buttonRow div.buttons input.done:active,
+div#page.manageBank div#bankFooter div.buttonRow div.buttons input.done:active {
+	border: 1px solid #000 !important;
+}
+body#manageBank div#bankFooter div.buttonRow div.buttons p ,
+div#page.manageBank div#bankFooter div.buttonRow div.buttons p {
+	margin: 7px 0 0 0;
+	padding: 0;
+	font: 11px Arial, Helvetica, sans-serif;
+}
+body#manageBank div#bankFooter div.buttonRow div.buttons input.disabled,
+div#page.manageBank div#bankFooter div.buttonRow div.buttons input.disabled {
+	background: #bcbcbb url(/WEBSCR-640-20100907-1/en_US/i/btn/btn_cancel_1x50.gif) repeat-x top left;
+	border: 1px solid #acadaf;
+	font-size: 11px;
+	padding: 2px 10px;
+	_padding: 2px 10px 0 10px;
+	color: #acadaf;
+}
+body#manageBank div#bankFooter div.buttonRow div.buttons input.disabled:hover,
+div#page.manageBank div#bankFooter div.buttonRow div.buttons input.disabled:hover {
+	cursor: default;
+}
+
+/* Manage bank field row */
+body#manageBank div.fieldrow,
+div#page.manageBank div.fieldrow {
+	clear: both; 
+	margin: 8px 0 0 0; 
+	height: 1%; 
+	padding: 0;
+}
+body#manageBank div.fieldrow label,
+div#page.manageBank div.fieldrow label {
+	display: block;
+	float: left;
+	margin: 0 2px 2px 0;
+	padding: 0;
+	width: 160px;
+}
+body#manageBank div.fieldrow div.field,
+div#page.manageBank div.fieldrow div.field { 
+	float: left; 
+	margin: 0; 
+	padding: 0; 
+}
+body#manageBank div.fieldrow div.field input,
+div#page.manageBank div.fieldrow div.field input {
+	border: 1px solid #83a8cc;
+	display: block;
+	float: left;
+	width: 18em;
+	padding: 2px 0 0 2px;
+	height: 18px;
+	font: 12px Arial, Helvetica, sans-serif !important;
+}
+body#manageBank div.fieldrow div.field input.radio,
+div#page.manageBank div.fieldrow div.field input.radio {
+	display: block;
+	float: left;
+	width: auto;
+	margin: 1px 0 0 0;
+	border: none;
+	_margin: 0;
+	height: auto;
+	padding: 0;
+}
+body#manageBank div.fieldrow div.field p.example,
+div#page.manageBank div.fieldrow div.field p.example { 
+	float: left; 
+	margin: 0 10px 0 5px; 
+	padding: 0; 
+	font-size: inherit;
+	font: 12px Arial, Helvetica, sans-serif !important;
+}
+body#manageBank div.fieldrow div.field p.hint,
+div#page.manageBank div.fieldrow div.field p.hint { 
+	clear: both; 
+	float: none; 
+	margin: 0; 
+	padding: 0; 
+	font-size: 11px;
+	color: #666;
+}
+body#manageBank div.fieldrow:after,
+div#page.manageBank div.fieldrow:after { 
+	clear: both; 
+	content: "."; 
+	display: block; 
+	height: 0; 
+	visibility: hidden; 
+}
+body#manageBank div#bankFooter div.buttonRow div.buttons input.transparentButton, body#manageBank div#bankFooter p.returnto input.transparentButton,
+div#page.manageBank div#bankFooter div.buttonRow div.buttons input.transparentButton, div#page.manageBank div#bankFooter p.returnto input.transparentButton { 
+	margin: 0 !important; 
+	border: 0 !important;
+	background: #fff !important;
+	text-decoration: underline !important; 
+	color: #03c !important; 
+	padding: 0 !important;
+	text-align: left !important;
+	cursor: pointer;
+	font-weight: normal;
+	letter-spacing: 0;
+	font: inherit;
+}
+body#manageBank a.popup-link,
+div#page.manageBank a.popup-link {
+	display: none;
+}
+
+input.radio { 
+	width: 1em !important;
+	margin-right: 10px;
+	border: 0px !important;
+}
+#mspf_radio_on input {
+	width: 2em; 
+	margin: 5px 5px 0 0;
+}
+#mspf_radio_credit_card input {
+	width: 2em; margin: 0 5px 0 0;
+}
+#mspf_promo p {
+	float: left;
+}
+#mspf_promo fieldset p {
+	margin: 2px; 
+	white-space: nowrap;
+}
+div.exp-date input {
+	width: 3em;
+	text-align: center;
+	margin-right: 4px;	
+}
+.TandCnote{
+	color:#000000 !important;
+	font-size:0.9em !important;
+	padding-left:16em !important;
+	padding-bottom:5px;
+	padding-top:10px;
+}
+.ssn4digits{
+	color:#AAAAAA !important;
+	font-size:0.9em !important;
+}
+.bcterms {overflow: scroll; width: 760px; height: 160px; margin-bottom: 10px; border: 1px solid #666;}
+.yui-panel .body .processing { margin: 2em 0em 3em 0em; text-align: center;  width: 100%;}
+.yui-panel .body .processing h4 { letter-spacing: .075em; font-size: 105%; }
+.yui-panel .body .processing p { margin: 2.5em 0em; }
+.yui-panel .bcterms {overflow: scroll; height: 150px; margin-bottom: 10px; border: 1px solid #666; width: 99%;}
+.yui-panel .body form { margin: 1em 0em; }
+.yui-panel .body form p { font-size: 1em; }
+
+div.srd#footer, div.srd#footer p#legal {
+width: 565px;
+}
+
+div.rpContact table.formTable{width:100%;}
+
+div.country_specific-jp{}
+div.country_specific-jp input
+{
+    width: 5.6em;
+	padding: 1px
+}
+ form div.country_specific-jp  p
+{
+  margin: 0.5em 0;
+}
+div#content .country_specific-jp p
+{
+ padding-left: 8.8em;
+	_padding-left: 9em;
+}
+table ul#FMXChallenge{margin:12px 0px!important;padding-left:25px!important;list-style-type:disc;!important;}
+table.main {
+ width:100%;
+}
+
+form.billing1C div#exp-dt { padding-left:0; }
+div#billingInfo  fieldset.date-of-birth input { width:2em;}
+div#billingInfo  fieldset.date-of-birth input.dob-year { width:2.8em;}
+
+.country_specific_br .addressHelpText {color:#757575;font-size:11px;display:block;}
+
+div#billingInfo fieldset.date-of-birth {float:left; margin-right:2px;}
+Fieldset.date-of-birth {border:0em none;margin:0em;padding-left:0em;padding-right:0.3em;padding-top:0.2em;float:left;}
+/* 24628 BPC */
+#notificationLightBox .body {margin-bottom:0px;}
+#notificationLightBox .footer {border-top:0px; padding:0px;}
+#notificationLightBox ol, #notificationLightBox ul{padding:0pt 28pt; list-style-type:disc;}
+#notificationLightBox .body p.bpcpara {margin-top:0px;}
+#notificationLightBox li, #notificationLightBox dd {margin:0pt; padding:0px 0px 10px;}
+#notificationLightBox .body p {margin:1em 0pt;}
+/* 24628 BPC */
+/* uACH */
+body#webaccept #paymentMethod .uach {width:504px; padding:0;}
+body#webaccept #paymentMethod .uach p {font-size:1em; padding:0; clear:both;}
+body#webaccept #paymentMethod .uach .uachcc, body#webaccept #paymentMethod .uach label {float:left; width:325px; clear:both; height:1.8em;}
+body#webaccept #paymentMethod .uach .uachOffer {width:430px;}
+body#webaccept #paymentMethod .uach .amount {float:right;}
+body#webaccept #paymentMethod .uach .addbanknow {padding-left:24px;}
+body#webaccept #paymentMethod .uach .addbanknow a {padding-left:10px;}
+body#webaccept #paymentMethod .uach .addbanknow input {border:none; margin-right:10px; vertical-align:text-top;}
+body#webaccept #paymentMethod .uach .terms {padding-left:275px;}
+body#webaccept #paymentMethod .uach .uachflexibility {width:250px; height:4.5em; padding:10px; background-color:#F4F7F9;}
+body#webaccept #paymentMethod .uach .uachflexibility input {padding-top:10px; display:block;}
+body#webaccept #paymentMethod .uach .uachflexibility .balloonControl {border-bottom:1px dashed #000; color:#000;}
+body#webaccept #paymentMethod .uach .uachincentive input {width:auto; border:0;}
+/* uACH */body#webaccept .subsFundingSource td p.choiceenrolledlink{margin-top:16px;}

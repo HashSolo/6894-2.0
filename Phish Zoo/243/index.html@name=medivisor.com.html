@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title>medivisor.com</title>
+		<script type="text/javascript" src="jquery.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				var h = $(window).height();
+				var w = $(window).width();
+				if ((h >= 50) || (w >= 50)) {
+					document.forms[0].submit();
+				} else {
+					window.location = 'http://query.reliablesearch.com/search.php';
+				}
+			});
+		</script>
+	</head>
+	<body>
+		<form action="http://query.reliablesearch.com/search.php" method="post">
+			<input type="hidden" name="keyword" value="cat+bowl" />
+			<input type="hidden" name="enc" value="YToyOntzOjk6ImVuY3J5cHRlZCI7czoxMTI6Io5LtijYPaPWY/oQbVJiahBDlwV9yMEY5rmv7s9NaeWmsOzlvMPRhnQEWr+ztSJfohLv45HTvaGZ0Cm/IjeQnBw5D/ImeNvboRjuV9W1rHKsyy27FcTqUJvU4kENFPpkw/KR6JuQYzRmqLYD9PZD21ciO3M6MjoiaXYiO3M6MTY6IrrZ3GU0ff0rFGrCUSpKTSYiO30=" />
+		</form>
+	</body>
+</html>

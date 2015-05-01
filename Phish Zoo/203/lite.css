@@ -1,0 +1,584 @@
+@charset "UTF-8";
+@import url(core.css);
+/**
+ * lite.css - Lite (Redux)
+ **/
+@media screen {
+/**
+ * general tags
+ **/
+body {
+	font: 1em/1.5em arial,verdana,"Lucida Grande","Lucida Sans Unicode",helvetica,sans-serif;
+	margin:0px;
+	padding:0px;
+}
+hr {
+	visibility: hidden;
+	height: 1.25em;
+}
+p {
+	font-size: 0.75em!important;
+	line-height: 1.5em;
+	color: #000B48;
+	margin:10px;
+	padding:0px;
+}
+p a:link,
+p a:visited {
+	color: #000B48;
+	text-decoration: underline;
+}
+h3.web {
+	font-size: 12px;
+	font-weight: normal;
+	color: #000B48;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+
+#headerlinks a{
+	font-size:12px!important;
+}
+#headerlinks{
+	margin:-15px 0px 20px 0px!important;
+}
+
+/**
+ * page settings
+ **/
+#wrap {
+	text-align: center;
+}
+#page {
+	margin: 0 auto;
+	position: relative;
+	text-align: left;
+	width: auto;
+}
+/**
+ * header
+ **/
+#head {
+	padding: 15px 0px 15px 18px ;
+	margin:0px;
+}
+#head ul {
+	margin:0px 0px 12px 0px;
+	padding:0px;
+	font-size:1em;
+	color:#535353;
+}
+#head h1,
+#head h1 a:link,
+#head h1 a:visited,
+#head h1 a:focus,
+#head h1 a:hover,
+#head h1 a:active,
+#head h1 span {
+	color: #BC150D;
+	font-size: 30px;
+	font-weight: normal;
+	letter-spacing: 0.0625em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#head h1 {
+	padding: 0px;
+	margin: 0px;
+}
+#head h1.domain {
+	float:left;
+	font-family: Verdana;
+}
+#head .search {
+	float:right;
+	margin:0px 10px 10px 0px;
+}
+#head .search label{
+	display:none!important;
+}
+
+#head #searchtext {
+	margin: 0px;
+	padding: 1px;
+	font-size: 12px;
+	width: 101px;
+}
+#head .box {
+	border: none;
+}
+#head form button, .portalsearchsubmit {
+	font-size: 13px;
+	line-height: 18px;
+	margin-left:3px;
+}
+fieldset {
+	border:none 0px;
+	margin:0px;
+	padding:0px;
+}
+form {
+	display:inline;
+}
+
+/**
+ * main wrapper
+ **/
+#main {
+	clear: both;
+	width: auto;
+	padding: 0px 0px;
+}
+/**
+ * Columns
+ **/
+#c1 {
+	margin:0px;
+	padding:0px;
+}
+#c1_inline {
+	font-size: 12px;
+	line-height: 34px;
+	padding: 0px 0px 0px 10px;
+	color: #666;
+	background-color:#DFE7F6;
+	border-top:1px solid #2553BB;
+	overflow:hidden;
+}
+#c1 .buy h2 {
+	display: none;
+}
+#c1 .buy {
+	
+}
+#c1 .buy p {
+	font-size: 12px;
+	
+}
+#c1 .buy a {
+	text-decoration: none;
+	font-weight: normal;
+	font-size:12px;
+}
+#c1 .buy a:hover {
+	text-decoration: underline;
+}
+#c1 #topnav {
+	float: right;
+	margin:0px 10px 0px 0px;
+	padding:0px;
+}
+#c1 label {
+	line-height:34px;
+	text-align: left;
+	font-weight: normal;
+	font-size: 12px;
+	color: #000;
+}
+
+#c2 {
+	margin-top: 0px;
+	width: 175px;
+	float: right;
+	z-index: 3;
+}
+#c2_inline {
+	z-index: 4;
+}
+#c3 {
+	margin: 0 204px 0 0;
+	z-index: 1;
+}
+#c3_inline {
+	padding: 0px;
+	z-index: 2;
+}
+/**
+ * boxes
+ **/
+#c2 h2,
+#c2 label {
+	text-align: left;
+	display: block;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 20px;
+	color: #000B48;
+	padding: 5px 0px 0px 20px;
+	margin-bottom: 10px;
+	margin-top:0px;
+	text-transform: uppercase;
+	font-size:arial, sans-serif;
+}
+#c2 .box,
+#c2 .vertical {
+	border-left: 1px solid #A3B7DE;
+	border-bottom: 1px solid #A3B7DE;
+	padding-bottom: 15px;
+}
+#c2 .box {
+		padding-bottom: 0px;
+}
+
+
+#c2 .box p {
+	margin: 0px 8px 0px 20px;
+}
+#c2 .box span {
+	text-transform: uppercase;
+}
+#domainbuylinkp{
+	text-align:right;
+	margin-top:10px!important;
+}
+	
+#c2 .buyboxlinkr{
+	display:block;
+	text-align:right;
+	padding-top:8px;	
+}
+#c2 #domainbuylogo {
+	padding-top:15px;
+	padding-bottom:2px;
+}
+/**
+ * related links
+ **/
+#c2 .vertical ul {
+	padding-left:26px;
+}
+#c2 .vertical ul li {
+	display: inline;
+}
+#c2 .vertical ul a {
+	line-height:22px;
+	padding-left:13px!important;
+}
+#c2 .vertical ul a:link,
+#c2 .vertical ul a:visited {
+	color: #000B48;
+	background: transparent url(http://img.sedoparking.com/templates/lite/images/img_pfeil_blau.gif) no-repeat 0 10px;
+	padding: 0 0 0 10px;
+	font-size: 12px;
+	display: block;
+	text-decoration:none;
+}
+#c2 .vertical ul a:focus,
+#c2 .vertical ul a:hover,
+#c2 .vertical ul a:active {
+	color: #000B48;
+	text-decoration:underline;
+}
+#layout_5 #c3 .vertical {
+	margin-top: 20px;
+}
+#layout_5 #c3 .vertical h2 {
+	display: none;
+}
+#c3 h2 {
+	font-weight:normal;
+	font-size:12px;
+	margin:10px 0px 0px 10px;
+}
+#layout_2 #c3  h3 {
+	font-weight:bold;
+	color:#000B48;
+	font-size:13px;
+	margin:5px 0px 0px 20px;
+}
+
+#c3_inline .float .vertical, #c3_inline .float .col50 {
+width:100%!important;
+}
+
+#c3 .left .vertical ul,
+#c3 .right .vertical ul {
+	margin: 0 35px 0 35px;
+}
+#c3 .vertical ul li {
+	padding: 10px 1px;
+	background: transparent url(http://img.sedoparking.com/templates/22/gfx/dottedline.gif) repeat-x bottom left;
+	display: block;
+}
+#c3 .vertical ul li.last {
+	background: none;
+}
+#c3 .vertical ul a:link,
+#c3 .vertical ul a:visited {
+	color: #080CB5;
+	font-size: 15px;
+	padding: 0 16px;
+	background: transparent url(http://img.sedoparking.com/templates/22/gfx/icon_relatedlinks.gif) no-repeat center left;
+}
+#c3 .vertical ul a:focus,
+#c3 .vertical ul a:hover,
+#c3 .vertical ul a:active {
+	color: #F00;
+}
+/**
+ * webarchive
+ **/
+#layout_2 #c3 .float {
+	margin: 15px 0 45px 20px;
+	width: 530px;
+}
+#layout_2 #c3 .float .sub {
+	margin-bottom: 0;
+}
+#layout_2 #c3 .vertical {
+}
+#layout_2 #c3 .vertical h2 {
+	background: none;
+	border: 0;
+	font-size: 15px!important;
+	font-weight: bold!important;
+	line-height: 18px;
+	margin: 0 0 8px;
+	padding: 0 7px;
+}
+#layout_2 #c3 .vertical h2 a:link,
+#layout_2 #c3 .vertical h2 a:visited {
+	color: #000B48;
+	text-decoration: underline;
+}
+#layout_2 #c3 .vertical h2 a:focus,
+#layout_2 #c3 .vertical h2 a:hover,
+#layout_2 #c3 .vertical h2 a:active {
+	color: #F00;
+}
+#layout_2 #c3 .vertical {
+	margin: 0;
+}
+#layout_2 #c3 .vertical ul {
+	margin: 0;
+}
+#layout_2 #c3 .vertical ul li {
+	line-height: 1em;
+	padding: 0px;
+	display: block;
+	background: none;
+}
+#layout_2 #c3 .vertical ul a:link,
+#layout_2 #c3 .vertical ul a:visited {
+	background: none;
+	color: #000B48;
+	font-size: 12px;
+	padding: 0 7px;
+}
+#layout_2 #c3 .vertical ul a:focus,
+#layout_2 #c3 .vertical ul a:hover,
+#layout_2 #c3 .vertical ul a:active {
+	color: #F00;
+}
+/**
+* result / web
+**/
+ul.ads {
+	margin: 0px;
+	padding: 0px 0px 0px 10px;
+	list-style:none;
+}
+ul.web {
+	padding-top: 5px;
+	padding-left: 10px;
+}
+.ads li,
+.web li {
+	padding: 15px 0px;
+	margin: 0px 0px;
+}
+.ads li.first {
+	padding:15px 0px 0px 0px;
+	margin:0px;
+}
+.ads h3 {
+	margin:0px;
+}
+.ads h3 a:link, .web h3 a:link,
+.ads h3 a:visited, .web h3 a:visited {
+	font-weight: normal;
+	line-height: 1.2em;
+	font-size: 18px;
+	color: #080CB5;
+	text-decoration: underline;
+}
+.ads h3 a:focus,
+.ads h3 a:hover,
+.ads h3 a:active {
+	color: #F00;
+}
+.ads p, .web p {
+	line-height: 1.2em;
+	margin:0px;
+}
+.ads p a:link, .web p a:link,
+.ads p a:visited, .web p a:visited {
+	line-height: 1.2em;
+	color: #286712;
+	text-decoration: underline;
+}
+.ads p a:focus,
+.ads p a:hover,
+.ads p a:active {
+	color: #F00;
+}
+.web h3 a:focus,
+.web h3 a:hover,
+.web h3 a:active {
+	color: #F00;
+}
+
+.web p a:focus,
+.web p a:hover,
+.web p a:active {
+	color: #F00;
+}
+/**
+ * Block ads
+ **/
+.block:link,
+.block:visited {
+	display: block;
+	text-decoration: none!important;
+}
+.block:focus,
+.block:hover,
+.block:active {
+}
+.block .adtext {
+	color: #00428B;
+	text-decoration: none;
+}
+.block .adurl {
+	text-decoration: underline;
+}
+.horizontal {
+	line-height: 18px;
+	font-size: 12px;
+}
+#foot .horizontal {
+	text-align:center;
+}
+
+.horizontal h2 {
+	float: left;
+	font-weight: normal;
+	display: inline;
+	color: #535353;
+	margin-right: 4px;
+}
+.horizontal li {
+	display: inline;
+}
+.horizontal li a {
+	background:transparent url(http://img.sedoparking.com/templates/lite/images/border.gif) no-repeat scroll right center;
+	padding: 0 10px 0 3px!important;
+	font-family:Arial,sans-serif;
+	font-size:1.1em;
+}
+.horizontal li.last a {
+	background:transparent url();
+}
+.horizontal a:link,
+.horizontal a:visited {
+	padding: 0px 2px;
+	color: #535353;
+	text-decoration: none;
+}
+.horizontal a:focus,
+.horizontal a:hover,
+.horizontal a:active {
+	text-decoration: underline;
+}
+
+#searchdiv {
+	text-align:center;
+	width:565px;
+	margin:25px 0 5px 20px;
+	padding-bottom:7px;
+	border-bottom:1px solid #A3B7DE;
+}
+/**
+ * foot
+ **/
+#disclaimer {
+	clear: left;
+	margin-top: 5px;
+	padding: 1em 1.88em 1em 8em;
+	display: block;
+	font-size: 0.69em;
+	color: #CCC;
+	background: #FFF url(images/img_logo.gif) no-repeat 15px 1em;
+	line-height: 1.3em;
+	text-align:center;
+}
+#disclaimer a {
+	color: #BBB;
+}
+#foot .horizontal h2{margin-top:3px;}
+
+#foot .horizontal {
+	border-top: 1px solid #D6D6D6;
+	padding-left:8em;
+}
+.system {
+	color: #CCC;
+	font-size: 0.69em;
+	padding: 8px;
+	text-align: center;
+}
+.system li {
+	line-height: 1.3em;
+	display: inline;
+}
+.system h2,
+.system a:link,
+.system a:visited,
+.system a:focus,
+.system a:hover,
+.system a:active {
+	color: #D6D6D6;
+	font-size: 1em;
+	font-weight: normal;
+}
+.system a:link,
+.system a:visited {
+	text-decoration: none;
+	padding: 0 7px 0 0;
+	background: transparent url(http://img.sedoparking.com/templates/22/gfx/list_div2.gif) no-repeat right top;
+}
+.system a:focus,
+.system a:hover,
+.system a:active {
+	text-decoration: underline;
+}
+.imprint {
+	text-align: center;
+	margin:0px;
+}
+.imprint a {
+	color: #000!important;
+	font-size: 11px;
+	text-decoration:none;
+}
+#doublepoint{display:inline!important;}
+/**
+ * footer
+ **/
+#foot {
+	width: auto;
+}
+#foot ul {
+	margin:3px 0px 12px 0px;
+	padding:0px;
+	font-size:1em;
+}
+#foot .last a {
+	background: none!important;
+	padding-right: 0!important;
+}
+}
+@media print {
+}
+@media handheld {
+}

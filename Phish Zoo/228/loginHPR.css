@@ -1,0 +1,287 @@
+/* 
+  HPR and Login page formatting
+  Also used on pages calling FormGroupLoginMaster
+*/	
+form {
+	margin-bottom: 40px;
+}
+/* NEW */
+form p.note {
+	font-size: .9em;
+}
+
+/* --- container for all the login containers --- */
+.loginHPR {
+	width: 760px;
+}
+
+/* --- for original login form but fixes safari-only issue --- */
+.loginBoxBAlt {
+	width: 550px;
+}
+
+/* --- login B --- */	
+	.loginBoxB {
+		border: 1px solid #aaa;
+		padding: 5px 10px 20px 10px;
+		width: 100%;
+		margin-top: 30px;
+		margin-bottom: 28px;
+	}
+	.loginLogo {
+		position: relative;
+		height: 38px;
+		width: 60px;
+		top: -25px;
+		padding-top: 0;
+		padding-bottom: 0;
+		left: 1px;
+	}
+	.loginHeadlineB {
+		position: relative;
+		height: 15px;
+		width: 180px;
+		top: -34px;
+		left: 60px;
+		background-color: White;
+		padding: 5px 5px 0 5px;
+	}
+	.loginIntro {
+	position: relative;
+	top: -25px;
+	_top: -50px;
+	left: 66px;
+}
+	.loginBoxB2 {
+		border: 1px solid #aaa;
+		padding: 5px 10px 35px 10px;
+		_padding: 5px 10px 5px 10px;
+		width: 760px;
+		margin: 35px 0 5px 0;
+	}
+	.loginBoxB2 div.loginHeadlineB {
+		position: relative;
+		height: 15px;
+		width: 250px;
+		top: -21px;
+		left: 0;
+		background-color: White;
+		padding: 5px 5px 0 5px;
+	}
+	.cardBox {
+		border: 1px solid #aaa;
+		width: 30.5%;
+		padding: .2em .2em .2em .2em;
+		margin: 0 0 1em .4em;
+	}
+	.loginBoxB2 p {
+		padding: 0 0 0 .4em;
+	}
+
+	.loginBoxB2 div.buttonRow, {
+		float: right;
+		*float: none;
+		_float: none;
+		padding: 0 10px 0 0;
+	}
+
+/* --- login C --- */	
+	.loginBoxC {
+		border: 1px solid #aaa;
+		padding: 0 0 0 0;
+		width: 430px;
+		margin: 20px 0 0 0;
+		float: left;
+		height: 276px;
+	}
+	.loginBoxC h3 {
+		padding: 6px 0 6px 20px;
+		margin: 0 0 20px 0;
+		font-size: 15px;
+		background-color: #cde;
+	}
+	.loginBoxC p {
+		padding: 0 15px 4px 20px;
+	}
+	.signUpBoxC {
+		border: 1px solid #aaa;
+		padding: 0 0 0 0;
+		width: 305px;
+		margin: 20px 0 0 0;
+		float: right;
+		height: 276px;
+	}
+	.signUpBoxC h3 {
+		background-color: #efefef;
+		color: #666; 
+		padding: 6px 0 6px 20px;
+		margin: 0 0 20px 0;
+		font-size: 15px;
+	}
+	.signUpBoxC p {
+		padding: 0 15px 4px 20px;
+	}
+	.signUpBoxC div.buttonRow {
+		padding: 0 15px 8px 0px;
+		margin: 0 15px 20px 0;
+		_margin: 0 5px 2px 0;
+		float: right;
+	}
+	.cardBox2 {
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	div.cardBox2 div.cardBoxLogo {
+		margin-right: 20px;
+	}
+	div.cardBox2 div.cardBoxLogo, div.cardBox2 div#xptCardIcons {
+	display: inline;
+	}
+	
+/* overriding link style */
+div.fieldRow a {
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 1.4em;
+}
+	
+/* -----form HPR login------ */
+form.login div.fieldRow {
+	margin: 0 0 6px -40px !important;
+	_margin: 0 0 3px 0;
+}
+
+/* -----form HPR loginB------ */
+form.loginB div.fieldRow {
+	margin: 0 0 6px 0;
+	_margin: 0 0 3px 0;
+}
+form.loginB  div.buttonRow {
+	padding: 0 0 .5em 12.5em;
+}
+/* NEW */
+form.loginB p.note {
+	padding: 0 0 0 11em;
+	_padding: 0 0 0 14.6em;
+}
+
+form.loginB  div.fieldRow label {
+	font-weight: bold !important;
+	display: block;
+	width: 155px;
+	_width: 146px;
+	float: left;
+	text-align: right;
+	margin: 0 8px 0 0;
+	_margin: 0 5px 0 0;
+	padding: 4px 0 0 0;
+	font-size: 11px;
+}
+form.loginB div.fieldRow a {
+	margin: 0 0 0 1em;
+}
+/* --- form HPR Billing1C --- */
+form.billing1C div.fieldRow {
+	margin: 0 0 6px 100px !important;
+	_margin: 0 0 3px 0;
+}
+
+/* CHANGED */
+form.billing1C  div.buttonRow {
+	padding: 0 0 .5em 21.9em !important;
+	_padding: 0 0 .5em 12.8em;
+}
+/* NEW */
+form.billing1C  p.note {
+	padding: 0 0 0 23.9em;
+	_padding: 0 0 0 14.7em;
+}
+
+/* --- form HPR loginC --- */
+form.loginC {
+	padding: 0 0 50px 0;
+}
+form.loginC div.fieldRow {
+	position: relative;
+}
+form.loginC div.fieldRow a {
+	position: absolute;
+	left: 0;
+	margin: 0 0 0 168px;
+	_margin: 0;
+	line-height: 2;
+	width: 200px;
+}
+form.loginC div.fieldRow a#forgotEmail {
+	bottom: -85px;
+	_bottom: 132px;
+}
+form.loginC div.fieldRow a#forgotPassword {
+	bottom: -80px;
+	_bottom: 135px;
+}
+
+/* --- form ShortStack replacement --- */
+form.shortStack {
+	padding: 0 0 50px 0;
+	width: 180px;
+}
+form.shortStack div.fieldRow label {
+	font-weight: normal !important;
+	width: auto;
+	float: none;
+	_float: left;
+	text-align: left;
+	margin: .8em 0 0 0;
+	_margin: 0;
+	padding: 0;	
+}
+form.shortStack div.fieldRow a {
+	margin: 0;
+	_margin: 0 0 .5em 0;
+}
+form.shortStack div.buttonRow {
+	padding: .5em 0 .5em 0;
+}
+/* NEW */
+form.shortStack p.note {
+	padding: 0 !important;
+	_padding: 0 !important;
+}
+
+/* --- form shortStackTPL --- */
+
+form.shortStackTPL div.fieldRow label {
+	float: left;
+	margin: 0;
+	_width: 150px;
+}
+
+form.shortStackTPL div.fieldRow a#forgotEmail {
+float: left;
+margin: 0 0 1em 0;
+}
+form.shortStackTPL div.fieldRow a#forgotPassword {
+float: left;
+margin: 0 0 .5em 0;
+}
+
+/* ----wax heading----- */
+
+.superheadingLight {
+	font-size: 21px;
+	color: #369;
+	font-weight: bold;
+}
+
+/* ----end HPR login formatting----- */
+
+/* Merchant Onboarding landing page */
+form.loginB div.content div#loginFieldsEmbedded .fieldRow.login-email input,
+form.loginB div.content div#loginFieldsEmbedded .fieldRow.login-password input{
+	display: block;
+	clear: both;
+}
+/* End - Merchant Onboarding landing page */
+

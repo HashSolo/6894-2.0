@@ -1,0 +1,100 @@
+	body {text-align:center; margin:0; padding:0; font-size:14px; font-family: Arial, Tahoma, Lucida; background: #303030 url(images/bg.gif) repeat-x top}
+	
+	#header {width:808px; margin:0 auto; text-align:left; position:relative; height:175px;}
+	
+	h1 {color:#669999; text-align:left; margin:0; padding:0; font-size:48px; top:56px; position:absolute;}
+	h1 strong {color:#6699CC;}
+
+	#header h3 {color:#6699CC; left:142px; font-size:14px; position:absolute; top:105px; margin:0; padding:0;}
+	img {border:0;}
+	em {font-style:normal;}
+	form, fieldset {margin:0; padding:0; border:0;}
+	a {text-decoration:none;}	
+	
+	
+	#header form {right:0; position:absolute; width:290px; top:12px;}
+	#header p {display:block; clear:both; padding:4px 0 0 0; margin:0;}
+	#header label {font-size:16px; color:#444; font-weight:bold; float:left; padding-top:12px;}
+	#header input.text {border:1px solid #202020; background:#282828; color:#fff; padding:8px 4px 3px 4px; width:182px; height:18px; float:right; font-weight:bold;}
+
+	#header .go {margin:0; padding:0; position:absolute; top:70px; right:0;}
+	#header .go a {border:0; width:48px; height:25px; margin:0; padding:0; margin-top:13px; float:right; color:#6699CC; font-weight:bold;}
+	#header .go a:hover{color:#669999; text-decoration:underline;}
+	#header .forgot {position:absolute; top:78px; right:70px;}
+	#header .forgot a{color:#444; text-decoration:underline; font-size:12px;}
+	#header .forgot a:hover{color:#eee; text-decoration:underline;}
+	
+	#menu {position:absolute; left:0; top:120px; list-style-type:none; padding:0; margin:0; margin-top:5px;}
+	#menu a{color:#6699CC; font-weight:bold; vertical-align:middle; padding:8px; line-height:48px; margin:0;}
+	#menu a:hover {color:#669999; text-decoration:underline; background:#282828; margin:0; padding:4px;}
+
+	#green {width:808px; margin:0 auto; text-align:left; position:relative; height:240px; background:url(images/arow.gif) no-repeat 8px 76px;}
+	#green p {color:#fff; font-size:14px; float:left; width:233px; padding:20px 8px 0 23px; margin:0; font-weight:bold}
+	#green p.enjoy {padding:4px 0 0 28px; width:213px;}
+	#green p a {color:#3c3c3c; text-decoration:underline;}
+	#green p a:hover {color:#fcfcfc;}
+	#green strong {color:#3c3c3c; font-size:18px; display:block;}
+	#green .signup {position:absolute; right:0; top:8px; width:265px; height:204px; background:url(images/signup.png) no-repeat;}
+	#green .signup:hover {background:url(images/signuph.png) no-repeat;}
+	#green .signup img {visibility:hidden;}
+	#green .signup:hover img {visibility:show;}
+
+	h2 {color:#fff; text-align:left; margin:0; padding:0; font-size:36px; font-weight:normal; clear:both; display:block; padding:14px 23px;}
+	#content h2 {color:#afd9ef; font-size:30px; background:url(images/boxt.png) no-repeat top; margin:0; padding:0;}
+	h2 span {padding:28px 30px; display:block;}
+	
+	#content {width:808px; margin:0 auto; text-align:left;}
+	#content ul {padding:12px 16px; margin:0 32px; color:#fff;}
+	#content p {margin:0 32px; padding:0 0 12px 0;  color:#fff;}
+	#content a {color:#6699CC;}
+	#content a:hover {color:#CA762B;}
+	#content .box {margin-top:8px; background:url(images/box.png) repeat-y; position:relative;}
+	#content .instructions {margin:13px 32px 0 48px; position:relative; overflow:auto; height:266px; background:url(images/h3.png) repeat-x bottom;}
+	#content .gogle {position:absolute; right:0px; top:0px;}
+	#content h2.big {color:#737373; font-size:24px;}
+	#content h2.big strong{font-size:36px; color:#6699CC}
+	#content h2.big span {padding:26px 0 16px 18px;}
+	#content div.p {margin:0 32px; padding:0 0 12px 0;  color:#fff;}
+	
+	#content .menu {clear:both; margin:0 0 0 20px;}
+	#content .menu li {float:left; padding:4px 38px;}
+	#content .menu li a{color:#000; text-decoration:underline; padding:1px 4px}
+	#content .menu li a:hover {color:#fff; background:#369;}
+	
+	#content .go {clear:both; color:#6699CC; font-size:20px; top:46px; left:0; position:absolute; list-style-type:none; padding:0; margin:0;}
+	#content .go em {color:#c6f780; font-style:normal; font-weight:bold; font-size:24px;}
+	#content h3 {font-size:14px; color:#fff; top:232px; left:0; padding:4px 0px 0px 0px; position:absolute; margin:0;}
+	#content .free {background:url(images/h3.png) repeat-x bottom; margin:0 33px 0 48px; padding:12px 0 4px 0px; overflow:auto; _height:1%;}
+	#content .free ul {float:left; display:inline; width:296px; list-style-type:none; padding:0 0 12px 0; margin:0 0 0 60px;}
+	#content .free li {background:url(images/boxli.png) no-repeat 0px 9px; padding:2px 0 0 12px; font-size:14px; color:#737373}
+	#content .free em {color:#6699CC; font-weight:bold;}
+	.bigad {margin:32px auto; text-align:center; overflow:auto;}
+	a:focus {overflow:hidden;}
+	#content .bot {display:block; padding:22px 0 42px 0; background:url(images/boxb.png) no-repeat bottom; overflow:auto; margin:0; _height:1%;}
+	.bot a {color:#6699CC; font-size:30px; text-decoration:underline; font-weight:bold; font-style:italic; width:260px;}
+	.bot a:hover {color:#fff;}
+	.sign {float:left; margin-left:42px;}
+	.feat {float:right; margin-right:42px;}
+
+	#footwrap {text-align:left; background:#000 url(images/footbg.png) repeat-x; clear:both; overflow:auto;}
+	#footer {width:800px; margin:0 auto; color:#afd9ef; font-size:12px;}
+	#footer p {margin:0; padding:0 12px;}
+	#footer em {color:#fff;}
+	#copy {padding-top:12px; width:392px; background:url(images/footsep.png) no-repeat right 4px; float:left; overflow:auto;}
+	#copy a {color:#6699CC;}
+	#copy a:hover {color:#CA762B;}
+	#copy .power {color:#fff; margin-top:38px;}
+	#copy .power em {color:#ca762b; font-size:14px;}
+	#copy .power a.s {color:#CA762B;}
+	#copy .power a.s:hover {color:#6699CC}
+
+	#support {float:left; background:url(images/footsep.png) no-repeat right 4px; padding-top:12px; width:216px;}
+	#support img {margin:6px 4px 0 0;}
+	
+	#partner {float:left; padding-top:12px;}
+	#partner ul {list-style-type:none; padding:0 0 12px 0; margin:0 0 0 20px;}
+	#partner li {padding-left:8px; background:url(images/footli.png) no-repeat 0 8px;}
+	#partner a {color:#6699CC;}
+	#partner a.special, #partner a:hover {color:#ca762b;}
+	#partner a.special:hover {color:#6699CC;}
+	a:focus {outline:0;}

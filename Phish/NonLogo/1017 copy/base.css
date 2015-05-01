@@ -1,0 +1,476 @@
+/*  Base stylesheet for all freewebs site top and bottom elements moving forward - included in *many* places.
+ *  If you throw this somewhere new, be considerate and leave a note below. ;) -- Ryan
+ *
+ *  Used on: Webs.com Public site, Webs.com Members-only site, Webs.com support site (sparingly), developers.webs.com
+ */
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,font,img,kbd,q,s,samp,small,strike,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline} :focus {outline:0}
+body{line-height:1}ol,ul{list-style:none}table{border-collapse:separate;border-spacing:0}caption,th,td{text-align:left;font-weight:normal}blockquote:before, blockquote:after, q:before, q:after {content: ""}blockquote,q{quotes:"" ""}
+
+html {
+    font: normal 62.5%/1 "Trebuchet MS", arial, sans-serif;
+    padding: 0px;
+    color: #666;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background: transparent url('../images/top_blue_gradient.png') repeat-x top left;
+    min-width: 1000px;
+}
+
+a, a:visited { 
+    text-decoration: none; 
+    color: #519be0;   
+}
+
+blockquote {
+    padding: 5px 80px 8px 20px;
+    line-height: 1.5em;
+}
+
+a:hover { text-decoration: underline; }
+a.active { color: #96bf46; }
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.display_none {
+    display: none;
+}
+
+#tree_top {
+    position: relative;
+    min-height: 100%;
+    margin: 0;
+}
+
+* html #tree_top { height: 100%; }
+
+.center960 {
+    width: 975px; /* Crazy, eh? -- Ryan */
+    margin: 0 auto;
+}
+
+.dropdown_backToDash a,
+.dropdown_backToDash a:visited {
+	background: transparent url('../../../projects/members/multisite/return_arrow.png') no-repeat 5px 6px;
+	text-indent: 26px !important;
+}
+
+#awesome_background { background: transparent url('../images/awesome_background.png') no-repeat 20px 0; }
+* html #awesome_background { background: none !important; }
+
+.blackbar { background: transparent url('../images/black_gradient_bar.png') repeat-x 0 35px; }
+
+.blackbar_minimal {
+    background-color: #555555;
+    margin: 10px 0;
+    clear: both;
+    padding: 7px 0 6px;
+}
+
+.blackbar_minimal h2 {
+    float: left;
+    color: #fff;
+    font-size: 2.2em;
+    padding: 1px 0 1px 0;
+    font-weight: normal
+}
+
+.blackbar_minimal .green_subtitle {
+    font-size: .8em;
+    color: #9ac645;
+}
+
+.blackbar_minimal .blackbar_section {
+    float: left;
+    color: #fff;
+    font-size: 2.2em;
+    padding: 1px 0 1px 0;
+    font-weight: normal
+}
+
+.external_logged_in #blackbar_create_website { visibility: hidden; /* For external pages when logged in */ }
+
+#tree_trunk { 
+    padding: 15px 0 140px 0; 
+    clear: both;
+}
+
+#homepage #tree_trunk { padding: 35px 0 140px 0; }
+
+h1, 
+h1 a, 
+h1 a:visited {
+    width: 198px;
+    height: 103px;
+}
+
+h1.formally, 
+h1.formally a, 
+h1.formally a:visited { width: 237px; }
+
+h1 { float: left; }
+
+h1 a, 
+h1 a:visited {
+    display: block;
+    background: transparent url('../images/webs_main_logo.png') no-repeat top left;
+    text-indent: -9000px;
+}
+
+h1.formally a, 
+h1.formally a:visited { background: transparent url('../images/webs_logo_formerlyfreewebs.png') no-repeat top left; }
+
+h1.webslogo_backtodash { width: 240px; }
+
+h1.webslogo_backtodash a,
+h1.webslogo_backtodash a:visited { background: transparent url('../images/webs_main_logo_backtodashboard.png') no-repeat left top; width: 240px; }
+
+/* Login leaf is viewed in many areas, css corresponds */
+#login_leaf { 
+    color: #fff;
+    width: 467px;
+    padding: 0 0 0 10px;
+    height: 55px;
+    float: right;
+    background: transparent url('../images/top_login_background.png') no-repeat top left;
+}
+
+#login_leaf a, 
+#login_leaf a:visited { color: #fff; }
+
+#login_leaf span { font-size: 12px; }
+
+#login_leaf label { display: none; }
+
+#FWloginPassword2 { display: none; }
+
+#FWloginUsername, #FWloginPassword, #FWloginPassword2 {
+    width: 177px;
+    border: 1px solid #b0b0b0;
+    font-size: 1.2em;
+    padding: 2px;
+    margin: 0 5px 0 0;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    color: #c9c9c9;
+}
+
+.sign_in_fields { padding: 6px 0 0 0; }
+.sign_in_fields input { float: left; }
+#sign_in_rearrange input { margin: 1px 0 0 0; }
+
+#sign_in_leaf { text-indent: -9000px; width: 68px; height: 21px; background: transparent url('../../../global/theme/images/theme_sprite.png') no-repeat -186px -54px; border: 0px; }
+#sign_in_leaf:hover { cursor: pointer; }
+
+#remember_me_checkbox, 
+#remember_me, 
+#lost_password { 
+    display: block;
+    float: left; 
+}
+
+#remember_me_checkbox {
+    width: 20px;
+    height: 20px;
+    padding: 1px 0 0 0;
+    clear: left;
+    margin-left: -4px;
+}
+
+#remember_me { width: 170px; }
+
+#remember_me, 
+#lost_password { padding: 4px 0 0 2px; }
+
+#lost_password {
+    margin-left: -28px;
+}
+
+/* Logged in view */
+#login_leaf p.login_welcome {
+	/*    font-size: 1.7em;
+    line-height: 1.6em;
+    padding: 0 0 3px 5px; */
+}
+
+#login_leaf p.login_quicklinks {
+    font-size: 1.1em;
+    line-height: 1.2em;
+}
+
+#login_leaf a, #login_leaf a:visited {
+    background-repeat: no-repeat;
+    background-position: 5px 50%;
+    background-color: transparent;
+    padding: 0 4px 0 27px;
+    margin-left: -1px;
+}
+
+#login_leaf a#account_logout { background-image: url('../../../projects/members/images/common/navigation/navicons/account_logout.gif') }
+#login_leaf a#my_messages { background-image: url('../../../projects/members/images/common/navigation/navicons/my_messages.gif') }
+#login_leaf a#my_groups { background-image: url('../../../projects/members/images/common/navigation/navicons/my_groups.gif') }
+#login_leaf a#view_my_site { background-image: url('../../../projects/members/images/common/navigation/navicons/my_website.gif') }
+#login_leaf a#my_rings { background-image: url('../../../projects/members/images/common/navigation/navicons/myrings.gif') }
+#login_leaf a#Support { background-image: url('../../icons/silk/help.png'); }
+
+#login_leaf a#account_logout_multisite,
+#login_leaf a#support_link {
+	background-position: 0 0;
+	text-indent: -9000px;
+	display: block;
+	height: 21px;
+	padding: 0 !important; 
+	margin: 0 !important;
+	position: absolute;
+	top: 25px;
+}
+
+#login_leaf a#account_logout_multisite { 
+	background-image: url('../../../projects/members/images/common/navigation/logout_top_btn.png');
+	width: 53px;
+}
+
+* html #login_leaf a#account_logout_multisite {
+	background-image: url('../../../projects/members/images/common/navigation/logout_square.png');
+}
+
+#login_leaf a#support_link { 
+	background-image: url('../../../projects/members/images/common/navigation/support_top_btn.png');
+	width: 59px;
+}
+
+* html #login_leaf a#support_link {
+	background-image: url('../../../projects/members/images/common/navigation/support_square.png');
+}
+
+#login_leaf a#my_messages { background-image: url('../../../projects/members/images/common/navigation/navicons/my_messages.gif') }
+#login_leaf a#my_groups { background-image: url('../../../projects/members/images/common/navigation/navicons/my_groups.gif') }
+#login_leaf a#view_my_site { background-image: url('../../../projects/members/images/common/navigation/navicons/my_website.gif') }
+#login_leaf a#my_rings { background-image: url('../../../projects/members/images/common/navigation/navicons/myrings.gif') }
+
+#login_leaf a#account_logout_multisite { left: 395px; }
+#login_leaf a#support_link { left: 323px; }
+
+/*	Overridden dropdown styles below   */
+#login_leaf { position: relative; }
+
+*:first-child+html #awesome_background #login_leaf { z-index: 10000; }
+
+#login_leaf p.login_welcome {
+	font-size: 1.5em;
+	line-height: 1.5em;
+	padding: 0 0 1px 2px;
+}
+
+#multisite_dropdown_container {
+	position: relative;
+	z-index: 8;
+	height: 23px;
+	width: 230px;
+}
+
+#multisite_dropdown {
+	display: block;
+	width: 281px;
+	height: 17px;
+	background: transparent url('../../../projects/members/multisite/multi_site_dropdown.png') no-repeat top left;
+	z-index: 10;
+	color: #666;
+	font-size: 12px;
+	padding: 4px 0 0 8px;
+	position: absolute;
+	top: 1px;
+}
+
+* html #multisite_dropdown {
+	background: transparent url('../multisite/dropdown_square.png') no-repeat left top;
+    top: 2px;
+}
+
+#multisite_dropdown_choices {
+	border: 1px solid #b6bac1;
+	background-color: #f9fbff;
+	padding: 2px;
+	width: 261px;
+	position: absolute;
+	top: 20px;
+	left: 1px;
+	margin: 0;
+	display: none;
+}
+
+#multisite_dropdown_choices li { border-bottom: 1px solid #e5e7ec; }
+#multisite_dropdown_choices li.dropdown_manageSites { border-bottom: 0px; }
+
+#multisite_dropdown_choices li#dropdown_viewAll a,
+#multisite_dropdown_choices li#dropdown_viewAll a:visited {
+	background: url('../../../projects/members/multisite/multisite_view_all.png') no-repeat 5px 6px;
+	text-indent: 26px;
+}
+
+#multisite_dropdown_choices li#dropdown_createNewSite a,
+#multisite_dropdown_choices li#dropdown_createNewsite a:visited {
+	background: url('../../../projects/members/multisite/multisite_addsite.png') no-repeat 5px 6px;
+	text-indent: 26px;
+}
+
+.dropdown_manageSites a,
+.dropdown_manageSites a:visited {
+	background: transparent url('../../../projects/members/multisite/multisite_pencil.gif') no-repeat 5px 6px;
+	text-indent: 26px !important;
+}
+
+#multisite_dropdown_choices a,
+#multisite_dropdown_choices a:visited {
+	display: block;
+	width: 100%;
+	color: #666;
+	padding: 7px 0;
+	text-indent: 5px;
+	font-size: 12px;
+	margin: 0;
+}
+
+#multisite_dropdown_choices a:hover {
+	text-decoration: none;
+	background-color: #f1f1f1 !important;
+}
+
+
+/* Back to global styling... */
+#navigation_tabs {
+    list-style-type: none;
+    float: right;
+    clear: right;
+    height: 28px;
+    margin: 20px 0 0 0;
+    width: 476px;
+}
+
+* html #navigation_tabs { width: 477px; /* IE6 needs the extra pixel, go figure. And no, we're not serving conditionals in both layouts. ;P */ }
+
+#navigation_tabs li {
+    width: 120px;
+    height: 28px;
+    float: left;
+    margin: 0 0 0 -1px;
+}
+
+#navigation_tabs li a,
+#navigation_tabs li a:visited {
+    display: block;
+    width: 120px;
+    height: 28px;
+    text-indent: -9000px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+/*  Public site tab navigation styling -- not truly global in some sense,
+ *  but worth it to separate out for future purposes. Users can now also be logged in on corporate pages. */
+#navigation_tabs li#home a, #navigation_tabs li#home a:visited { background-image: url('../../../projects/public/images/navigation/home_inactive.png'); }
+#navigation_tabs li#home a.active { background-image: url('../../../projects/public/images/navigation/home_active.png'); }
+#navigation_tabs li#personal a, #navigation_tabs li#personal a:visited { background-image: url('../../../projects/public/images/navigation/personal_inactive.png'); }
+#navigation_tabs li#personal a.active { background-image: url('../../../projects/public/images/navigation/personal_active.png'); }
+#navigation_tabs li#groups a, #navigation_tabs li#groups a:visited { background-image: url('../../../projects/public/images/navigation/groups_inactive.png'); }
+#navigation_tabs li#groups a.active { background-image: url('../../../projects/public/images/navigation/groups_active.png'); }
+#navigation_tabs li#business a, #navigation_tabs li#business a:visited { background-image: url('../../../projects/public/images/navigation/business_inactive.png'); }
+#navigation_tabs li#business a.active { background-image: url('../../../projects/public/images/navigation/business_active.png'); }
+ 
+/*  Members tab navigation styling  */
+#navigation_tabs li#site a, #navigation_tabs li#site a:visited { background-image: url('../../../projects/members/images/common/navigation/viewmysite_inactive.png') }
+#navigation_tabs li#site a.active { background-image: url('../../../projects/members/images/common/navigation/premium_active.png') !important; }
+#navigation_tabs li#support a, #navigation_tabs li#support a:visited { background-image: url('../../../projects/members/images/common/navigation/support_inactive.png') }
+#navigation_tabs li#support a.active { background-image: url('../../../projects/members/images/common/navigation/community_active.png') !important; }
+#navigation_tabs li#account a, #navigation_tabs li#account a:visited { background-image: url('../../../projects/members/images/common/navigation/my_account_inactive.png') }
+#navigation_tabs li#account a.active { background-image: url('../../../projects/members/images/common/navigation/my_account_active.png') !important; /* IE6... */ }
+#navigation_tabs li#members_home a, #navigation_tabs li#members_home a:visited { background-image: url('../../../projects/members/images/common/navigation/home_inactive.png') }
+#navigation_tabs li#members_home a.active { background-image: url('../../../projects/members/images/common/navigation/home_active.png') !important; /* IE6... */ }
+
+#navigation_tabs li#members_home { margin: 0 -2px 0 0; }
+#navigation_tabs li#account { margin: 0 -3px 0 0; }
+#navigation_tabs li#support { margin: 0 0 0 2px; }
+#navigation_tabs li#site { width: 119px; }
+
+.subMenu {
+    font-size: .8em;
+}
+
+/*  Style Guides for Features Style  */
+.webs_info {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #EAEAEA;
+    padding-bottom: 20px;
+}
+
+.webs_info img {
+    float: left;
+}
+
+.webs_info h4 {
+    padding-bottom: 4px;
+}
+
+.webs_info h4, 
+.webs_info p {
+    float: right;
+    width: 570px;
+    margin-bottom: 0px;
+    padding-right: 20px;
+}
+
+#tree_roots {
+    position: relative;
+    margin: -140px 0 0 0;
+    height: 140px;
+    font-size: 1.1em;
+    line-height: 1.6em;
+    background: transparent url('../images/bottom_blue_gradient.png') repeat-x bottom left;
+}
+
+#root_cluster {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#tree_roots dl { margin-top: 11px; }
+
+#tree_roots dl.left { 
+    padding: 2px 5px 5px 10px;
+    float: left; 
+    background: transparent url('../images/footer_line_seperator.png') no-repeat top left;
+    height: 90px;
+    width: 138px;
+}
+
+#tree_roots dl.right { 
+    width: 260px; 
+    float: right; 
+    text-align: right;
+}
+
+#tree_roots dl dt {
+    color: #badf74;
+    font-size: 1.3em;
+    line-height: 1.4em;
+}
+
+#tree_roots dl.right dt {
+    font-size: 1.1em;
+    line-height: 1.4em;
+    padding: 5px 0 0 0;
+}
+
+#tree_roots a, 
+#tree_roots a:visited { color: #fff; }

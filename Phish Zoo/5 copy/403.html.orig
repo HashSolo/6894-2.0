@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE> 제로호스팅 </TITLE>
+
+<style type="text/css">
+<!--
+body { margin:0; padding:0;}
+#Zerois { font-size:12px; color:#8c8c8c; font-family:굴림;  background:url('img/bg.gif') repeat-x left top; margin:0; padding:0;}
+#Zerois a:link,
+#Zerois a:active,
+#Zerois a:visited, { color:#666666; text-decoration:none;}
+#Zerois a:hover { text-decoration:underline; }
+
+#Zerois img {border:0;}
+#Zerois .errorBox { width:478px; margin-top:0px; }
+#Zerois .errorMsg ul { list-style-type:none; padding:0; margin:0; }
+#Zerois .errorMsg li { margin:0; padding:0; font-size:12px; color:#8c8c8c;}
+#Zerois .errorMsg .messege { font-family:lucida sans, arial; font-size:36px; letter-spacing:-2px; border-bottom:1px dashed #CCC; color:#FF6600; padding:15px 0 5px 0; }
+#Zerois .errorMsg .text { margin-left:5px; line-height:18px; margin-top:10px; }
+
+-->
+</style>
+
+</HEAD>
+
+<BODY>
+
+<div id="Zerois">
+<table width="100%" height="100%" cellpadding="0" cellspacing="0" class="errorMsg">
+<tr>
+	<td align="center">
+		<div class="errorBox">
+		<ul style="text-align:left;">
+			<li><a href="http://zerois.net"><img src="img/msg00.gif"></a></li>
+			<li class="messege"><img src="img/icon.gif" align="absmiddle"> 403 <span style="font-size:24px;">forbidden</span></li>
+			<!--<li class="messege"><img src="img/icon.gif" align="absmiddle"><img src="img/403.gif" align="absmiddle"></li>-->
+			<li class="text"><strong>권한이 없습니다.</strong><br>
+			403 Error는 해당디렉토리 혹은 파일에 대한 권한이 없을 경우 발생합니다.<br>
+			Index파일이 있는지, 요청하는 파일 및 디렉토리의 권한을 확인 하시기 바랍니다.</li>
+		</ul>
+		</div>
+		</td>
+</tr>
+</table>
+</div>
+
+</BODY>
+</HTML>

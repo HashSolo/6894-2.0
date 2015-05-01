@@ -1,0 +1,131 @@
+/*--TOP MENU--*/
+ul#topmenu {
+	float:right;
+	font-size:134%;
+	font-weight:bold;
+	padding: 0px 10px 7px 10px;
+	margin: 0px;
+	list-style-type: none;
+}
+
+ul#topmenu li {
+	float:left;
+	margin: 0px; 
+	padding:9px 6px 11px 6px;
+	list-style-type: none;
+	color:#666;
+	background: #fff url(http://www.hsbc.co.uk/1/themes/html/hsbc_ukpersonal/images/pipe_v2.gif) right center no-repeat;
+}
+
+ul#topmenu li.last { background-image: none; padding-right: 0; }
+
+ul#topmenu li a { color:#666; text-decoration:none; }
+
+ul#topmenu li.selected a:link, ul#topmenu li.selected a:visited,
+ul#topmenu li.selected a:hover, ul#topmenu li.selected a:active { color:#f00; }
+
+ul#topmenu li a:hover{ color: #f00; text-decoration:underline;}
+	
+ul#mainmenu {
+	clear: left;
+	float:left;
+	height:48px;
+	padding:0px 0px 0px 10px;
+	margin:0px;
+	background: url(http://www.hsbc.co.uk/1/themes/html/hsbc_ukpersonal/images/tabsWhite/tabs_left.gif) no-repeat top left;
+	width: 960px;
+}
+/* START of IE6 box-model hack */
+* html ul#mainmenu { width: 970px; }
+/* END of IE6 box-model hack */
+.home ul#mainmenu {
+	background: url(http://www.hsbc.co.uk/1/themes/html/hsbc_ukpersonal/images/tabsWhite/tabs_home_left.gif) no-repeat top left;
+}
+
+ul#mainmenu li {
+	background: url(http://www.hsbc.co.uk/1/themes/html/hsbc_ukpersonal/images/tabsGrey/tabs_right.gif) no-repeat top right;
+	padding-right:10px;
+	display:inline;
+	float:left;
+	height:48px;
+	line-height: 1em;
+	text-align: center;
+}
+
+ul#mainmenu li a:link,
+ul#mainmenu li a:visited {
+	display:block;
+	float:left;
+	height:48px;
+	padding:0px 0px 0px 10px;
+	background: url(http://www.hsbc.co.uk/1/themes/html/hsbc_ukpersonal/images/tabsGrey/tab_left.gif) no-repeat top left;	
+	color:#333333; 
+	font-size:88%;
+	font-weight:bold;
+	text-decoration:none;
+	line-height:1em;
+}
+
+ul#mainmenu li a:hover, 
+ul#mainmenu li a:active {
+	color: #f00;
+}
+
+ul#mainmenu li.beforeselected {
+	background: url(http://www.hsbc.co.uk/1/themes/html/hsbc_ukpersonal/images/tabsGrey/tabs_right_curve.gif) no-repeat top right;
+}
+
+ul#mainmenu li.selected a:link,
+ul#mainmenu li.selected a:active,
+ul#mainmenu li.selected a:visited,
+ul#mainmenu li.last_selected a:link,
+ul#mainmenu li.last_selected a:active,
+ul#mainmenu li.last_selected a:visited {
+	background: url(http://www.hsbc.co.uk/1/themes/html/hsbc_ukpersonal/images/tabsWhite/tabs_select_left.gif) no-repeat top left;
+	color: #f00;	
+}
+
+ul#mainmenu li.selected {
+	background: url(http://www.hsbc.co.uk/1/themes/html/hsbc_ukpersonal/images/tabsGrey/tabs_select_right.gif) no-repeat top right;
+}
+
+ul#mainmenu li.last_selected {
+	background: url(http://www.hsbc.co.uk/1/themes/html/hsbc_ukpersonal/images/tabsGrey/tabs_select_right_last_v2.gif) no-repeat top right; 
+	padding-right:16px;
+} 
+
+ul#mainmenu li.afterselected a:link,
+ul#mainmenu li.afterselected a:active,
+ul#mainmenu li.afterselected a:visited {
+	background: url(http://www.hsbc.co.uk/1/themes/html/hsbc_ukpersonal/images/tabsGrey/tabs_left_curve.gif) no-repeat top left;
+}
+
+ul#mainmenu li a:link span,
+ul#mainmenu li a:active span,
+ul#mainmenu li a:visited span {
+	padding-top:4px;
+	display:block;
+	text-align: center;
+}
+
+
+/* SAFARI HACKS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* NOTE: These are valid CSS3 rules, but will not validate under CSS2. */
+
+/* Mac Safari (1st method) */
+html[xmlns*=""] body:last-child #masthead { width: 999px; } /* 1000px will cause horizontal scrolling */
+html[xmlns*=""] body:last-child ul#sectionnav li {padding-bottom: 0;}
+html[xmlns*=""] body:last-child ul#sectionnav li a {display: block; line-height:normal; padding-bottom: 6px; white-space: nowrap; }
+
+
+/* Mac Safari (2nd method) */
+body:last-child:not(:root:root) #masthead { width: 999px; }
+body:last-child:not(:root:root) ul#sectionnav li {padding-bottom: 0;}
+body:last-child:not(:root:root) ul#sectionnav li a {display: block; line-height:normal; padding-bottom: 6px; white-space: nowrap; }
+
+/* PC/unofficial Safari versions */
+@media all and (min-width: 0px) {
+	body:not(:root:root) #masthead { width: 999px; }
+	body:not(:root:root) ul#sectionnav li { padding-bottom: 0; }
+	body:not(:root:root) ul#sectionnav li a { display: block; line-height:normal; padding-bottom: 6px; white-space: nowrap; }
+}

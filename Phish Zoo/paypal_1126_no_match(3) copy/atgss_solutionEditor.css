@@ -1,0 +1,382 @@
+/* Editor styles */
+.maineditordiv
+{
+}
+
+/* styles to be used in the format menu on the capure page */
+.formatnormal {
+  font-family : tahoma;
+  color : rgb(0 , 0 , 0);
+  font-size : 8pt;
+  font-weight : normal;
+}
+.formatsmall {
+  font-family : tahoma;
+  color : rgb(0 , 0 , 0);
+  font-size : 7pt;
+  font-weight : normal;
+}
+.formatlarge {
+  font-family : tahoma;
+  color : rgb(0 , 0 , 0);
+  font-size : 12pt;
+  font-weight : normal;
+}
+.formatnormalbold {
+  font-family : tahoma;
+  color : rgb(0 , 0 , 0);
+  font-size : 8pt;
+  font-weight : bold;
+}
+.formatsmallbold {
+  font-family : tahoma;
+  color : rgb(0 , 0 , 0);
+  font-size : 7pt;
+  font-weight : bold;
+}
+.formatlargebold {
+  font-family : tahoma;
+  color : rgb(0 , 0 , 0);
+  font-size : 12pt;
+  font-weight : bold;
+}
+.formatred {
+  font-family : tahoma;
+  color : rgb(255 , 0 , 0);
+  font-size : 8pt;
+  font-weight : normal;
+}
+.formatnormalboldred {
+  font-family : tahoma;
+  color : rgb(255 , 0 , 0);
+  font-size : 8pt;
+  font-weight : bold;
+}
+.formatlargeboldred {
+  font-family : tahoma;
+  color : rgb(255 , 0 , 0);
+  font-size : 12pt;
+  font-weight : bold;
+}
+.formatcode {
+  font-family : courier;
+  color : rgb(0 , 0 , 0);
+  font-size : 8pt;
+  font-weight : normal;
+}
+.editorprompt
+{
+    font-family : Arial;
+    font-size : 10pt;
+    Font-style : normal;
+    Font-weight : bold;
+    Color : rgb(47 , 79 , 79);
+    padding-right : 10px;
+    border-bottom : 1px solid rgb(165 , 172 , 178);
+}
+
+.editorpromptinactive
+{
+    font-family : Arial;
+    font-size : 10pt;
+    Font-style : normal;
+    Font-weight : bold;
+    Color : rgb(47 , 79 , 79);
+    padding-right : 10px;
+}
+
+.maineditortable
+{
+    border-collapse : collapse;
+    background-repeat : no-repeat;
+    background-attachment : fixed;
+    background-position : right bottom;
+}
+.field
+{
+    padding-left : 4px;
+    padding-right : 4px;
+    padding-top : 2px;
+    padding-bottom : 2px;
+}
+.editorhiddenform
+{
+    position : absolute;
+    left : 39px;
+    top : 92px;
+    width : 0;
+    height : 0;
+    z-index : 0;
+    visibility : hidden;
+}
+.editortablecell
+{
+    padding: 3px;
+}
+.editorstatement
+{
+    font-family : tahoma;
+    font-size : 8pt;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.statement
+{
+    font-family : tahoma;
+    background-color : rgb(255 , 255 , 255);
+}
+.matchedstatement
+{
+    background-color : rgb(230 , 247 , 255);
+    font-family : tahoma;
+    font-size : 8pt;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.securedstatement
+{
+    border : 2px solid rgb(255 , 51 , 51);
+    font-family : tahoma;
+    font-size : 8pt;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.uneditablelink
+{
+    font-family : tahoma;
+    font-size : 8pt;
+    color : blue;
+    text-decoration : underline;
+}
+.solutionLink
+{
+    font-family : tahoma;
+    font-size : 8pt;
+    color : blue;
+    text-decoration : underline;
+}
+.editbox
+{
+    font-family : tahoma;
+    font-size : 10pt;
+    border : 1px solid rgb(165 , 172 , 178);
+    padding-left : 4px;
+    padding-right : 4px;
+    padding-top : 1px;
+    padding-bottom : 1px;
+    background-color : rgb(255 , 255 , 255);
+}
+.editboxactive
+{
+    font-family : tahoma;
+    font-size : 10pt;
+    border-bottom : 1px solid rgb(165 , 172 , 178);
+    border-left : 1px solid rgb(165 , 172 , 178);
+    border-right : 1px solid rgb(165 , 172 , 178);
+    padding-left : 4px;
+    padding-right : 4px;
+    padding-top : 1px;
+    padding-bottom : 1px;
+    background-color : rgb(255 , 255 , 255);
+}
+.editboxnoborder
+{
+    font-family : tahoma;
+    font-size : 10pt;
+    border : 0;
+    padding-left : 4px;
+    padding-right : 4px;
+    padding-top : 1px;
+    padding-bottom : 1px;
+    background-color : rgb(255 , 255 , 255);
+}
+.statementtable
+{
+    background-color : rgb(255 , 255 , 255);
+}
+.statementcellreadonly
+{
+    font-family : tahoma;
+    font-size : 8pt;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.statementbodyreadonly
+{
+    font-family : tahoma;
+    font-size : 8pt;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color : rgb(204 , 204 , 204);
+}
+.editorcheckbox
+{
+    border : 0px solid;
+}
+.imageButton n{
+    cursor : hand; /* non-standard, IE only */
+}
+
+/* Toolbar Styles */
+.editortoolbar
+{
+    border-left : 1px solid rgb(165 , 172 , 178);
+    border-top : 1px solid rgb(165 , 172 , 178);
+    border-right : 1px solid rgb(165 , 172 , 178);
+    background-color : #FFFFFF;
+}
+.editortool
+{
+    font-family : Arial;
+    font-size : 8pt;
+    font-style : normal;
+    Padding-left : 3px;
+    Padding-right : 3px;
+}
+.editorspacer
+{
+    font-family : Arial;
+    font-size : 8pt;
+    font-style : normal;
+}
+.styleSelect
+{
+    border : 0px;
+    font-size : 8pt;
+    font-family : tahoma;
+    font-style : normal;
+    width : 100px;
+}
+.securityimg
+{
+    padding-top: 5px;
+}
+
+.userpreferences
+{
+    border-left : 1px solid rgb(165 , 172 , 178);
+    border-top : 1px solid rgb(165 , 172 , 178);
+	border-bottom: 1px solid rgb(165 , 172 , 178);
+    border-right : 1px solid rgb(165 , 172 , 178);
+    background-color : #FFFFFF;
+}
+
+.editorbody
+{
+  font-family : tahoma;
+  color : rgb(0 , 0 , 0);
+  font-size : 8pt;
+  font-weight : normal;
+  padding: 3px 3px 3px 3px;
+}
+
+.propertyrow
+{
+  cursor:pointer;
+}
+
+.propertydisplay
+{
+  font-weight : bold;
+}
+
+.propertyvaluedisplay
+{
+  color: #6495ed;
+  font-weight : bold;
+}
+.propertydialog
+{  
+  border : 1px solid rgb(165 , 172 , 178);
+}
+
+.buttonSmallinsert {
+  display:inline !important;
+  margin:0 !important;
+  padding:2px 5px 2px 5px !important;
+  background:url(../image/bg/bg_button.gif) #ffffff repeat-x left bottom !important;
+  border:1px solid !important;
+  border-color:#c2c6ca #a1a4a7 #a1a4a7 #c2c6ca !important;
+  font:small-caption !important;
+  font-weight:normal !important;
+  text-decoration:none !important;
+  text-align:center !important;
+  white-space:nowrap;
+  cursor:hand; /* non-standard, IE only */
+}
+.buttonSmallinsert:link,
+.buttonSmallinsert:visited{
+  display:inline !important;
+  color:#000000 !important;
+}
+.buttonSmallinsert:hover,
+.buttonSmallinsert:active{
+  display:inline !important;
+  background:url(../image/bg/bg_buttonOn.gif) #ffffff repeat-x left bottom !important;
+}
+.goinsert span {
+  display: inline;
+  margin:0px;
+  padding:0px 12px 0px 2px;
+  width:2px;
+  height:4px;
+  background: url(../image/iconcatalog/global/icon_go.gif) no-repeat right 4px !important;
+}
+
+.inserttable
+{
+    font-family : tahoma;
+    font-size : 8pt;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.fieldvaluemultiple
+{  
+  border-top : 1px dashed rgb(165 , 172 , 178);
+}
+
+.spellerror {
+  color : rgb(255 , 0 , 0);
+}
+
+.fieldValueDisplay
+{
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.dialogContainer
+{  
+  border: 1px solid rgb(165 , 172 , 178);
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.matchingStatementsTable
+{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 3px;
+}
+
+p 
+{
+  padding:0;
+  margin:0;
+}

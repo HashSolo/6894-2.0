@@ -1,0 +1,13 @@
+function submitCJ10514017X312(formId, url) {
+   var s = "";
+   if (url != null) {
+      s = "<form id=\"" + formId + "\" method=\"post\" action=\"http://www.tkqlhce.com/click-s\" target=\"_top\">\r\n<input type=\"hidden\" name=\"aid\" value=\"10514017\"/>\r\n<input type=\"hidden\" name=\"pid\" value=\"3519954\"/><input type=\"hidden\" name=\"url\" value=\"" + url + "\"/></form>";
+   } else {
+      s = "<form id=\"" + formId + "\" method=\"post\" action=\"http://www.tkqlhce.com/click-s\" target=\"_top\">\r\n<input type=\"hidden\" name=\"aid\" value=\"10514017\"/>\r\n<input type=\"hidden\" name=\"pid\" value=\"3519954\"/></form>";
+   }
+   var x = document.createElement("div");
+   x.innerHTML = s;
+   document.getElementsByTagName("body")[0].appendChild(x);
+   document.getElementById(formId).submit();
+}
+document.write("<a href=\"javascript:submitCJ10514017X312(\'CJ10514017X312\',null);\"><img src=\"http://www.hostpapa.com/resources/images/banners/003_hostpapa_120x600.gif\" width=\"120\" height=\"600\" alt=\"HostPapa 100% Green Energy Hosting $5.95 per month\" border=\"0\"/></a>");

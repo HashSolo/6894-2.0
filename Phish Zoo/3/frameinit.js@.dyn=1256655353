@@ -1,0 +1,959 @@
+//
+// Disable Ext cache
+//
+//Ext.enableGarbageCollector = false;
+
+//
+// Globals
+//
+var topWin, editorVoid;
+var editorFrameImagesPath = "/editor/images/";
+var editorSelectionDisabled = false;
+var editorLastClick = 0;
+var editorContextMenuTimer;
+var editableElements;
+var contextMenuTotalItems =0;
+var backgroundMenus = {};
+var sL, sR, sT, sB;
+var editorContextMenuTimeout = null;
+var isEditorFrameWin = (window.parent &&
+                        window.parent.initEditorFrame &&
+                        window.parent != window &&
+                        window.parent == window.top) ? true : false;
+//
+
+if (isEditorFrameWin) {
+  topWin = window.top;
+  editorVoid = window.top.editorVoid;
+  topWin.editorFrameWin = window;
+  topWin.editorFrameDoc = document;
+
+  if (topWin.logClientProfileData)
+    topWin.logClientProfileData('Load page start');
+}
+
+// Cross frame helpers
+function getPositionOfElement(el) {
+    var w = Ext.get(el).getWidth();
+    var h = Ext.get(el).getHeight();
+    var x = Ext.get(el).getX();
+    var y = Ext.get(el).getY();
+    return {
+        w: w,
+        x: x,
+        h: h,
+        y: y
+    };
+}
+
+function removeElement(el) {
+    return Ext.removeNode(el);
+}
+
+// Init
+function frameInit() {
+
+    allowAddEvent(true);
+    topWin.editorFrameDoc.oncontextmenu = editorVoid;
+    topWin.document.oncontextmenu = editorVoid;
+
+    Ext.fly(document.body).unselectable();
+    setDocumentCursor('default');
+    var allElements = document.getElementsByTagName("*");
+
+    for (i = 0; i < allElements.length; i++) {
+        disableSelection(allElements[i]);
+        allElements[i].onclick = allElements[i].ondblclick = allElements[i].onmousedown = allElements[i].onmouseover = allElements[i].onmouseout = allElements[i].onmouseup = allElements[i].onblur = allElements[i].onfocus = editorVoid;
+    }
+
+ 
+
+    // Inject selection DIVs helpers
+    var blankImg = '<img border="0" width="1" height="1" src="' + Ext.BLANK_IMAGE_URL + '"/>';
+    var styleV = 'background-image: url(' + editorFrameImagesPath + 'selection-v.gif);  z-index: 40000; position: absolute; top:-1000px; left: -1000px; width: 1px; height: 1px';
+    var styleH = 'background-image: url(' + editorFrameImagesPath + 'selection-h.gif); z-index: 40000; position: absolute; top:-1000px; left: -1000px; width: 1px; height: 1px';
+    Ext.DomHelper.append(document.body, [{
+        tag: 'div',
+        style: styleV,
+        id: 'editor-selection-l',
+        html: blankImg
+    },
+    {
+        tag: 'div',
+        style: styleV,
+        id: 'editor-selection-r',
+        html: blankImg
+    },
+    {
+        tag: 'div',
+        style: styleH,
+        id: 'editor-selection-t',
+        html: blankImg
+    },
+    {
+        tag: 'div',
+        style: styleH,
+        id: 'editor-selection-b',
+        html: blankImg
+    },
+    {
+        tag: 'div',
+        style: 'overflow: hidden; position: absolute; display: none; z-index: 22000; width: 150px; height: 30px; border: 1px solid  #002C87; background-color: white; background-repeat: no-repeat; background-position: top left; background-image: url(/editor/images/nodrag.png)',
+        id: 'drag-helper',
+        html: '<div id="drag-helper-text" style="margin-left: 35px; padding-top: 6px; font-size: 10px; color: #002C87; font-family: arial, sans-serif ! important; font-weight: normal;  "/>'
+    }]);
+
+    //
+    sL = Ext.get('editor-selection-l');
+    sR = Ext.get('editor-selection-r');
+    sT = Ext.get('editor-selection-t');
+    sB = Ext.get('editor-selection-b');
+  
+
+    var editableImages = [];
+    Ext.each(Ext.query("IMG"),
+    function() {
+        var rseimagefile = '';
+        if (this.src.indexOf(RST.context['__templatebase']) == 0) {
+          rseimagefile = unescape(this.src.substring(RST.context['__templatebase'].length));
+            editableImages.push(this);
+            this.setAttribute("rseimageeditable", "true");
+            this.setAttribute("rseeditable", "true");
+            this.setAttribute("rseimagefile", rseimagefile);
+            /*
+            // Replace errored images with system image
+            // TODO - create system image thumb
+            var pic1= new Image(1,1); 
+            pic1.onerror = (function(){
+                    this.src='#'
+            }).createDelegate(this, [pic1,this]); ;
+            pic1.src = this.src; 
+            */
+        }
+    });
+   
+
+    Ext.each(Ext.query("[rsehidden=true]"),
+    function() {
+        this.style.display = 'none';
+    });
+  
+
+    Ext.each(Ext.query("[rsetoggle=true]"),
+    function() {
+        var rseeditable = this.getAttribute("rsemovegroup");
+        try {
+            if (Ext.query('[rsetoggle=true][rsemovegroup="' + rseeditable + '"]').length > 1) {
+                this.setAttribute("rsemovable", "true");
+            };
+        } catch(e) {}
+    });
+   
+
+    attachRseEvents(Ext.query("[rseeditable=true]"));
+    Ext.getBody().on("mousedown", function() { topWin.Ext.menu.MenuMgr.hideAll(); } , this);  
+
+
+    // UI Stuff
+    topWin.setTitleEditor("Editing " + topWin.editorCurrentPage);
+    topWin.Ext.menu.MenuMgr.get('editMenu').items.key('undo').setDisabled(!pageStatus.can_undo);
+    topWin.Ext.menu.MenuMgr.get('editMenu').items.key('redo').setDisabled(!pageStatus.can_redo);
+
+
+    if (topWin.logClientProfileData)
+      topWin.logClientProfileData('Load page end');
+    topWin.logServerProfileData('Load page start', load_time_begin);
+    topWin.logServerProfileData('Load page end', load_time_end); 
+    
+    topWin.setPrefillNamesRequest();
+
+    allowAddEvent(false);
+    setTimeout("allowAddEvent(true)", 1000);
+}
+
+
+
+function attachRseEvents(elementsArray){
+    Ext.each(elementsArray,
+    function() {
+        // Add Handlers       
+        Ext.fly(this).on("mouseup", onRstObjectMouseup, this);
+        Ext.fly(this).on("mouseout", function(){ clearTimeout(editorContextMenuTimeout); } , this);
+        Ext.fly(this).on("mouseover", onRstObjectMouseover, this);
+        Ext.fly(this).on("mousedown", onRstObjectMousedown.createDelegate(this), this);             
+
+        this.oncontextmenu = editorVoid;
+        if (findDragElement(this) !== null)
+        {
+          this.style.cursor = 'move';
+        }
+    });
+}
+
+function drawSelection(node){
+   if (node.nodeName.toLowerCase() == 'bdo') isBdo = true;
+    else isBdo = false;
+
+    var found = [];
+    if (isBdo) {
+        node.oldDisplay = node.style.display;
+        //  node.style.display = "block"; // FF2 BUG: when converting to display:block elements disappear or move 
+        // check if it has only 1 child  ..skip text/comment nodes
+        for (var i = 0; i < node.childNodes.length; i++) {
+            if (node.childNodes[i].nodeType == 1) {
+                found.push(node.childNodes[i]);
+            }
+        }
+    }
+
+    var box;
+    if (found.length == 1) {
+        box = Ext.get(found[0]).getBox();
+    } else {
+        box = Ext.get(node).getBox();        
+    }
+    
+    if (box.x + box.width >= Ext.getBody().getWidth()){
+        box.width = box.width - (box.x + box.width - Ext.getBody().getWidth()+20);
+    }
+
+    if (box.y + box.height >= Ext.getBody().getHeight()){
+        box.height = box.height - (box.y + box.height - Ext.getBody().getHeight()+20);       
+    }
+
+    var diff = 2;
+    sL.setBounds(box.x, box.y, 2, box.height - diff);
+    sR.setBounds(box.x + box.width - diff, box.y, 2, box.height);
+    sT.setBounds(box.x, box.y, box.width - diff, 2);
+    sB.setBounds(box.x, box.y + box.height - diff, box.width - diff, 2);
+
+    //if (isBdo) node.style.display = node.oldDisplay; // FF2 BUG
+}
+
+
+function getHoverOptions(domElement) {
+
+    var hoverOptions = {
+      click: null,
+      doubleclick: null,
+      generic: {}
+    };
+
+    hoverOptions.click = "click to see more editing options";
+
+    if (domElement.getAttribute('rsecontenteditable') == 'true')
+        hoverOptions.doubleclick = "double click to edit text";
+    else if (domElement.getAttribute('rseimageeditable') == 'true')
+        hoverOptions.doubleclick = "double click to change image";
+    else if (domElement.getAttribute('rseeditlogo'))
+        hoverOptions.doubleclick = "double click to edit logo";
+
+    if (domElement.getAttribute('rsemovable') == 'true')
+        hoverOptions.generic["drag to move element"] = true;
+
+    // search parents
+    if (domElement.nodeName != 'BODY' && domElement.parentNode) {
+        var parentHoverOptions = getHoverOptions(domElement.parentNode);
+        if (!hoverOptions.click && parentHoverOptions.click)
+            hoverOptions.click = parentHoverOptions.click;
+        if (!hoverOptions.doubleclick && parentHoverOptions.doubleclick)
+            hoverOptions.doubleclick = parentHoverOptions.doubleclick;
+        for (var i in parentHoverOptions.generic)
+            hoverOptions.generic[i] = true;
+    }
+
+    return hoverOptions;
+
+}
+
+
+function onRstObjectMouseover(event, domElement) {
+    if (editorSelectionDisabled) return false;
+    event.cancelBubble = true;
+    if (event.stopPropagation) event.stopPropagation();    
+    clearTimeout(editorContextMenuTimer);    
+    
+    editorContextMenuTimeout = setTimeout("if (topWin.editorContextMenu) topWin.editorContextMenu.hide(true)",800) ;
+    
+    drawSelection(this);
+
+    var parts = [];
+    var hoverOptions = getHoverOptions(this);
+    if (hoverOptions.click)
+        parts.push(hoverOptions.click);
+    if (hoverOptions.doubleclick)
+        parts.push(hoverOptions.doubleclick);
+    for (var i in hoverOptions.generic) {
+      parts.push(i);
+    }
+    var msg = Ext.util.Format.capitalize(parts.join(", "));
+    topWin.setStatusEditor(msg); 
+    domElement.title = msg;
+}
+
+function setDocumentCursor(cursorName){
+    document.body.style.cursor = cursorName;
+
+    var elements = document.getElementsByTagName('A');
+    for (var i=0;i < elements.length; i++)
+        elements[i].style.cursor = cursorName
+
+    var elements = document.getElementsByTagName('INPUT')
+    for (var i=0;i < elements.length; i++)
+       elements[i].style.cursor = cursorName
+
+    var elements = document.getElementsByTagName('TEXTAREA')
+    for (var i=0;i < elements.length; i++)
+       elements[i].style.cursor = cursorName
+
+}
+
+function onRstObjectMouseup(event, domElement) {   
+    Ext.getBody().un("mousemove", ddMouseMove );
+    autoScrollStop();
+    if (dragMoved)
+       return;
+
+    // TEST:
+    //document.body.style.cursor = "move";
+    //body.style.cursor = "move";
+    //
+    topWin.Ext.menu.MenuMgr.hideAll();
+    event.cancelBubble = true;
+    if (event.stopPropagation) event.stopPropagation();
+    editorCurrentRstObject = this; // domElement or this 
+    var timer = 500;
+    var d = (new Date).getTime();
+    var diff = d - editorLastClick;
+    if (diff < timer && diff > 0) {
+        onRstObjectDoubleClick(event, domElement);
+    } else {
+        editorContextMenuTimer = setTimeout(function() {
+            onRstObjectMouseupReal(event, domElement)
+        },
+        timer + 100);
+    }
+    editorLastClick = d;
+   
+}
+
+function onRstObjectDoubleClick(event, domElement) {
+    
+    clearTimeout(editorContextMenuTimer);
+
+    if(!domElement.getAttribute)
+       return;
+   
+
+    var label = domElement.getAttribute('rselabel') || (domElement.nodeName == 'IMG' ? 'Template Image': 'Template Element');
+
+
+    if (domElement.getAttribute('rsesectioneditable') == 'true') {
+        var rsesectionname = domElement.getAttribute('rsesectionname');
+        if (rsesectionname) {
+            return topWin.editRawFile(label, 'getMyContentSection', {
+                section_name: rsesectionname
+            },
+            'saveMyContentSection', {
+                section_name: rsesectionname
+            }, domElement, true);
+        }
+    }
+
+    if (domElement.getAttribute('rsecontenteditable') == 'true') {
+        var rsecontentfile = domElement.getAttribute('rsecontentfile');
+        var rsecontentpath = domElement.getAttribute('rsecontentpath');
+        if (rsecontentfile && rsecontentpath) {
+            return topWin.editRawFile(label, 'getEditableContent', {
+                file_name: rsecontentfile,
+                path: rsecontentpath
+            },
+            'saveEditableContent', {
+                file_name: rsecontentfile,
+                path: rsecontentpath
+            }, domElement, true);
+        }
+    }
+
+    if (domElement.getAttribute('rseimageeditable') == 'true' &&
+        domElement.getAttribute('rseeditlogo') != 'true' &&
+        domElement != getLogoImage()) {
+        return topWin.replaceImage(domElement);
+    }
+
+    if (domElement.getAttribute('rseeditlogo') == 'true') {
+      return topWin.replaceImage(getLogoImage(), true);
+    }
+
+    if (domElement.getAttribute('rseeditmenu') == 'true') {
+       var rsemenulocation = domElement.getAttribute('rsemenulocation');
+       if (rsemenulocation) {
+         return topWin.modulesEditMenuLinks(rsemenulocation);
+       }
+    }
+
+    if (topWin.advancedMode) {
+        if (domElement.getAttribute('rseraweditable') == 'true') {
+            var rserawfile = domElement.getAttribute('rserawfile');
+            if (rserawfile) {
+                return topWin.editRawFile(label, 'getFile', {
+                    file_name: rserawfile
+                },
+                'saveFile', {
+                    file_name: rserawfile
+                }, domElement);
+            }
+        }
+    }
+
+    // search parents
+    if (domElement.nodeName != 'BODY' && domElement.parentNode) {
+        return onRstObjectDoubleClick(event, domElement.parentNode);
+    }
+}
+
+
+function onRstObjectMouseupReal(event, domElement) {
+
+    // Position context menu
+    var tmp = [];
+    tmp[0] = 10 + event.xy[0];
+    tmp[1] = 10 + event.xy[1] + topWin.editorFrame.getTop();
+
+    tmp[0] = tmp[0] - Ext.get(document).getScroll().left;
+    tmp[1] = tmp[1] - Ext.get(document).getScroll().top;
+
+    topWin.editorContextMenu.showAt(tmp);
+
+    // Show context options for current RST object
+    topWin.editorContextMenu.removeAll();
+    // editorContextMenu.addText("Relevant context options");
+    
+    // add start
+    contextMenuTotalItems = 0
+    backgroundMenus = [];
+    editorGetActionsForElement(editorCurrentRstObject);
+    if(backgroundMenus.length>0){
+       topWin.editorContextMenu.addText("Backgrounds");
+       topWin.editorContextMenu.add({text: 'Replace backgrounds...', menu: {items: backgroundMenus}});
+    }
+    if (contextMenuTotalItems == 0)
+    {
+         topWin.editorContextMenu.addText('<table width="200" border="0" width="0" cellspacing="0" cellpadding="0"><tr><td>Enable advanced mode for more options</td><td align="right"><img style="cursor: pointer;" onclick="editorContextMenu.hide();" src="/editor/images/close-context.gif" width="13"  height="13"/></td></tr></table>');
+    }
+    // add end   
+
+
+}
+
+function getComputedBackground(_elem) {
+    var computedStyle;
+    if (typeof _elem.currentStyle != 'undefined') {
+        computedStyle = _elem.currentStyle;
+    }
+    else {
+        computedStyle = document.defaultView.getComputedStyle(_elem, null);
+    }
+
+    var b = computedStyle['backgroundImage'];
+   
+    if (b.indexOf('url') == 0) {
+        return b.substring(4, b.length - 1).replace(/\"/g, "")  ;
+    } else {
+        return false;
+    }
+}
+
+function editorGetActionsForElement(activeElement) {
+    
+    var menuItems = [];
+
+    if (!activeElement.getAttribute)
+        return;
+
+    //if (activeElement.getAttribute('rseeditable') == 'true') {
+       
+        var label = activeElement.getAttribute('rselabel') || (activeElement.nodeName == 'IMG' ? 'Template Image': 'Template Element');
+
+        if (activeElement.getAttribute('rseimageeditable') == 'true' && activeElement.getAttribute('rseeditlogo') != 'true' && activeElement != getLogoImage()) {
+             menuItems.push ({
+                text: 'Edit image...',
+                handler: topWin.replaceImage.createCallback(activeElement)
+            });
+             
+            if(!activeElement.getAttribute('width',2)  && !activeElement.getAttribute('height',2)){
+                 menuItems.push ({
+                    text: 'Resize image...',
+                    handler: topWin.replaceImage.createCallback(activeElement, false, true)
+                });
+            }
+        }
+
+        var backgroundImage = getComputedBackground(activeElement);
+        if (backgroundImage && backgroundImage.indexOf(RST.context['__templatebase']) == 0){
+                var callBack = topWin.replaceImage.createCallback(backgroundImage.substring(RST.context['__templatebase'].length), false, false);
+                var imgName = backgroundImage.split("/");
+                imgName = imgName[imgName.length-1];
+                var thumb = {
+                    hideOnClick: true,
+                    text: "<img width=\"50\" height=\"50\" style=\"cursor: pointer !important\" border=\"0\" src=\"" + Ext.util.Format.htmlEncode(backgroundImage) + "\" />",
+                    listeners: {click: callBack},
+                    xtype: 'tbtext'
+                };              
+                backgroundMenus.push ({
+                     menu: {
+                        items: [thumb]
+                    },                     
+                    text: imgName ,
+                    handler: callBack
+                });            
+        }
+
+        if (activeElement.getAttribute('rsecoloreditable') == 'true' ) {
+             menuItems.push ({
+                text: 'Edit color...',
+                handler: topWin.showMenuColorPicker.createCallback(activeElement)
+            });
+           
+        }
+
+        if (activeElement.getAttribute('rsecontenteditable') == 'true' ) {   //&& (rsecontentfile || rsecontentpath)      
+            var rsecontentfile = activeElement.getAttribute('rsecontentfile');
+            var rsecontentpath = activeElement.getAttribute('rsecontentpath');
+            menuItems.push ({
+                text: 'Edit content...',
+                // disabled: !rsecontentfile || !rsecontentpath,
+                handler: topWin.editRawFile.createCallback(label, 'getEditableContent', {
+                    file_name: rsecontentfile,
+                    path: rsecontentpath
+                },
+                'saveEditableContent', {
+                    file_name: rsecontentfile,
+                    path: rsecontentpath
+                },activeElement, true)
+            });
+        }
+
+        if (activeElement.getAttribute('rsesectioneditable') == 'true' ) { //&& rsesectionname
+            var rsesectionname = activeElement.getAttribute('rsesectionname');
+            menuItems.push ({
+                text: 'Edit text...',
+                //disabled: !rsesectionname,
+                handler: topWin.editRawFile.createCallback(label, 'getMyContentSection', {
+                    section_name: rsesectionname
+                },
+                'saveMyContentSection', {
+                    section_name: rsesectionname
+                },activeElement, true)
+            });
+        }
+
+        if (activeElement.getAttribute('rsetoggle') == 'true' && activeElement.getAttribute('rsehidden') == 'false' && activeElement.getAttribute('rserequired') != 'true' ) {
+            menuItems.push ({
+                text: 'Hide',
+                handler: topWin.contextHide.createCallback(activeElement, true)
+            });
+            menuItems.push ({
+                text: 'Hide from this page only',
+                handler: topWin.contextHide.createCallback(activeElement, false)
+            });
+            if (activeElement.getAttribute('rsemycontentsection') == 'true') {
+                menuItems.push ({
+                    text: 'Delete',
+                    handler: topWin.deleteMyContentSection.createCallback(activeElement.getAttribute("rsesectionname"),activeElement.getAttribute("rselabel"))
+                });
+            }
+        }
+
+        if (activeElement.getAttribute('rseeditcategories') == 'true') {
+             menuItems.push ({
+                text: 'Edit categories...',
+                handler: topWin.modulesEditCategories
+            });
+        }
+
+        if (activeElement.getAttribute('rseeditmenu') == 'true') {
+            var l = activeElement.getAttribute('rsemenulocation');
+            menuItems.push ({
+                text: 'Edit menu links...',
+                handler: topWin.modulesEditMenuLinks.createCallback(l)
+            });
+
+        }
+
+       
+
+        if (activeElement.getAttribute('rseeditlogo') == 'true') {
+            var logoImage = getLogoImage();
+            menuItems.push ({
+                text: 'Edit logo...', handler: topWin.replaceImage.createCallback(logoImage, true)
+            });
+            if( logoImage && !logoImage.getAttribute('width',2) && !logoImage.getAttribute('height',2) ){
+              menuItems.push ({
+                  text: 'Resize logo...', handler: topWin.replaceImage.createCallback(logoImage, true, true)
+              });
+            }
+        }
+
+        if (activeElement.getAttribute('rseraweditable') == 'true' && topWin.advancedMode) {
+            var f = activeElement.getAttribute('rserawfile');         
+            menuItems.push ({
+                text: 'Edit file source...',
+                //disabled: !topWin.advancedMode,
+                handler: topWin.editRawFile.createCallback(label, 'getFile', {
+                    file_name: f
+                },
+                'saveFile', {
+                    file_name: f
+                },activeElement)
+            });
+        };
+   
+        // Real
+
+        if (menuItems.length>0){
+            for(var i=0; i < menuItems.length; i++){
+                if (contextMenuTotalItems==0 && i==0){
+                    topWin.editorContextMenu.addText('<table width="200" cellpadding="0" cellspacing="0" border=0"><tr><td>'+label+'</td><td align="right"><img style="cursor: pointer;" onclick="editorContextMenu.hide();" src="/editor/images/close-context.gif" width="13"  height="13"/></td></tr></table>');                    
+                } else if ( i==0 ) {
+                      topWin.editorContextMenu.addText('<div  style="cursor: pointer; ">'+label+'</div>');  
+                }
+                contextMenuTotalItems ++;
+                topWin.editorContextMenu.add(menuItems[i]).getEl().on('mouseover', drawSelection.createCallback(activeElement));
+            }
+            if (menuItems.length != i){
+                   topWin.editorContextMenu.addSeparator();
+            }
+        } 
+
+    //}
+
+    // add parents
+    if (activeElement.nodeName != 'BODY' && activeElement.parentNode) {
+        editorGetActionsForElement(activeElement.parentNode);
+    }
+
+}
+
+function getLogoImage(){
+    if (typeof(getLogoImage.logoImage) == 'undefined') {
+      var logoBDO = Ext.DomQuery.select("[rseeditlogo=true]"); 
+      if (logoBDO && logoBDO[0]) {
+        getLogoImage.logoImage = Ext.DomQuery.select("[rseimageeditable=true]",logoBDO[0])[0];
+      } else {
+        getLogoImage.logoImage = null;
+      }
+    }
+    return getLogoImage.logoImage;
+}
+
+function getLogoInfo(){
+    if (!getLogoInfo.logoInfo) {
+      var logoBDO = Ext.DomQuery.select("[rseeditlogo=true]");
+      if (logoBDO && logoBDO[0]) {
+        getLogoInfo.logoInfo = {
+          logoVisible: logoBDO[0].getAttribute('rsehidden') == 'true' ? false : true,
+          logoType: logoBDO[0].getAttribute('rselogotype'),
+          logoText: logoBDO[0].getAttribute('rselogotext'),
+          logoTextSize: logoBDO[0].getAttribute('rselogotextsize'),
+          logoTextAlign: logoBDO[0].getAttribute('rselogotextalign'),
+          logoTextColor: logoBDO[0].getAttribute('rselogotextcolor'),
+          logoTextFont: logoBDO[0].getAttribute('rselogotextfont')
+        }
+      } else {
+        getLogoInfo.logoInfo = {};
+      }
+    }
+    return getLogoInfo.logoInfo;
+}
+
+function disableSelection(element) {
+    element.onselectstart = function() {
+        return false;
+    };
+    element.unselectable = "on";
+    element.style.MozUserSelect = "none";
+}
+
+function editorDisableSelection() {
+    topWin.Ext.menu.MenuMgr.hideAll();
+    editorSelectionDisabled = true;
+    sL.hide();
+    sR.hide();
+    sT.hide();
+    sB.hide();
+    /*
+    Ext.each(editableElements,
+    function() {   
+        Ext.fly(this).un("mouseover", onRstObjectMouseover);
+    });
+    */
+}
+
+function editorEnableSelection() {
+    editorSelectionDisabled = false;
+    if (sL)
+      sL.show();
+    if (sR)
+      sR.show();
+    if (sT)
+      sT.show();
+    if (sB)
+      sB.show();
+    /*
+    Ext.each(editableElements,
+    function() {   
+        Ext.fly(this).on("mouseover", onRstObjectMouseover, this);
+    });
+    */
+}
+
+// Drag and Drop
+var dragElement = null;
+var dragMoved = false;
+var dragStartPosition = [-1000, -1000];
+var dragDropTargets = [];
+var dragAndDropOverlayTarget = null;
+var oldDragAndDropOverlayTarget = null;
+
+function positionDDHelper(e) {
+    var tw = 142;
+    var th = 31;    
+    var minD = 100;
+
+    var x = e.xy[0] + 13;
+    var y = e.xy[1] + 13;
+    Ext.get("drag-helper").setXY([x, y]);
+   
+    oldDragAndDropOverlayTarget = dragAndDropOverlayTarget;
+    dragAndDropOverlayTarget = null;
+
+    for (var i=0; i<dragDropTargets.length; i++)
+    {
+      var dx = e.xy[0] - dragDropTargets[i].x - tw/2;
+      var dy = e.xy[1] - dragDropTargets[i].y - th/2;
+      var d = Math.sqrt(dx*dx + dy*dy);
+      if (d < minD){
+        minD = d;           
+        dragAndDropOverlayTarget = dragDropTargets[i].domElement;
+        dragAndDropOverlayTarget.originalElement = dragDropTargets[i].originalElement;       
+      }
+    }
+
+    if (oldDragAndDropOverlayTarget == dragAndDropOverlayTarget)
+      return;
+
+    if (dragAndDropOverlayTarget!=null){
+      Ext.get(dragAndDropOverlayTarget).setOpacity(1,true);       //
+      Ext.get("drag-helper").dom.style.backgroundImage = "url(/editor/images/drag.png)";
+    } else {
+       Ext.get("drag-helper").dom.style.backgroundImage = "url(/editor/images/nodrag.png)";
+    }
+
+
+    if (oldDragAndDropOverlayTarget!=null){
+      Ext.get(oldDragAndDropOverlayTarget).setOpacity(.2,true);       
+    }
+    
+}
+
+
+function findDragElement(node){
+     if (node.getAttribute && node.getAttribute("rsemovable") == 'true'){    
+         return node;
+     }
+     if (node.nodeName != 'BODY' && node.parentNode) {
+          return findDragElement(node.parentNode);
+     }
+     return null;
+}
+
+function onRstObjectMousedown(event){
+    if (event.button != 0 && dragMoved){       
+        return;
+    }
+     
+    dragMoved = false;
+
+    dragElement = findDragElement(this);
+    if (dragElement != null){
+          event.cancelBubble = true;
+          if (event.stopPropagation) event.stopPropagation();
+          dragStartPosition = event.xy;         
+          Ext.getBody().on("mousemove", ddMouseMove );
+          setDocumentCursor('move');
+          autoScrollStart();
+    } 
+}
+
+function ddShowMarkers(){
+          var tw = 142;
+          var th = 31;
+
+          var rselabel = dragElement.getAttribute("rselabel") ;
+          var rsemovegroup = dragElement.getAttribute("rsemovegroup") ;
+          var markers = [];
+          dragDropTargets = [];
+          Ext.each(Ext.DomQuery.select('[rsemovegroup="' + rsemovegroup + '"]'),
+          function() {
+              if ( this === dragElement || ( this.getAttribute('rsesectionname') == dragElement.getAttribute('rsesectionname') && this.getAttribute('rselocation') == dragElement.getAttribute('rselocation') )    ) 
+                return;
+
+              var oldDisplay = this.style.display;
+              this.style.display = 'block';
+              var box = Ext.get(this).getBox();
+              var tw = 142;
+              var th = 31;
+              x = Math.floor((box.x + box.width / 2) - tw / 2);
+              y = Math.floor((box.y) - th / 2);
+              dragDropTargets.push({x: x, y: y, rselocation: this.getAttribute('rselocation'), droptarget: null, originalElement: this});
+          });
+         
+          for(var i=0; i< dragDropTargets.length; i++){              
+              var cssStyle = 'position: absolute; left: ' + dragDropTargets[i].x + 'px; top: ' + dragDropTargets[i].y + 'px; width: ' + tw + 'px; height: ' + th + 'px;  background-image: url(/editor/images/moveithere.gif); ';
+              var newNodeProp = {
+                  rselocation: dragDropTargets[i].rselocation,
+                  originalElement: dragDropTargets[i].originalElement,
+                  'class': 'mycontent-section-target',
+                  tag: 'div',
+                  style: cssStyle,
+                  html: '&nbsp;'
+              };
+              dragDropTargets[i].domElement = Ext.DomHelper.append(Ext.getBody(), newNodeProp);
+              Ext.get(dragDropTargets[i].domElement).setOpacity(.2);
+          }
+
+          Ext.get("drag-helper-text").dom.innerHTML = rselabel;     
+          Ext.getBody().dom.style.cursor = 'move';
+}
+
+
+function dropTargetsCleanUp(){ 
+   Ext.each(Ext.query("[class=mycontent-section-target]"),
+    function() {
+        Ext.get(this).remove();
+   });
+}
+
+function ddMouseUp(e){
+   setDocumentCursor('default');
+   var oldLocation = dragElement ? dragElement.getAttribute('rselocation') : '';
+   var newLocation = dragAndDropOverlayTarget ? dragAndDropOverlayTarget.getAttribute('rselocation') : '';
+   var sectionName = dragElement.getAttribute('rsesectionname');
+   var forceRefresh = dragElement.getAttribute('rseforcerefresh') == "true" ? true : false;
+    
+   Ext.getBody().un("mousemove", ddMouseMove );
+   Ext.getBody().un("mouseup", ddMouseUp );
+   Ext.getBody().dom.style.cursor = '';
+   autoScrollStop();
+  
+   editorEnableSelection();
+   Ext.get("drag-helper").dom.style.display = 'none';
+
+   if (!oldLocation || !newLocation || oldLocation == newLocation){
+            dropTargetsCleanUp();
+            return;
+   }
+   var callback = forceRefresh ?
+     function (){ topWin.loadEditorFramePage() } :
+     function (){ topWin.enableEditor(true) }; 
+
+   dragAndDropOverlayTarget.originalElement.innerHTML = dragElement.innerHTML;
+    
+   dragAndDropOverlayTarget.originalElement.setAttribute("rsehidden","false");
+   dragAndDropOverlayTarget.originalElement.setAttribute("rsesectionname", sectionName);
+   
+   dragElement.setAttribute("rsehidden","true");
+
+   attachRseEvents(Ext.query("[rseeditable=true]", dragAndDropOverlayTarget.originalElement));
+      
+
+   dragElement.innerHTML = "";
+   dragElement.style.display = "none";
+
+   topWin.disableEditor(true);
+   if (dragElement.getAttribute('rsetemplatesection')=='true'){
+     topWin.editorAjaxRequest('moveTemplateSection', { old_location: oldLocation, new_location: newLocation}, callback );       
+   } else if( (dragElement.getAttribute('rsemycontentsection')=="true")){
+     topWin.editorAjaxRequest('moveMyContentSection', { section_name: sectionName, old_location: oldLocation, new_location: newLocation}, callback );
+   }
+   dropTargetsCleanUp();
+   dragElement = null;
+
+}
+
+function ddMouseMove(e){
+  mouseXY = e.getXY();
+  if (dragMoved) {
+    positionDDHelper(e);
+    return;
+  }
+  if (Math.abs(e.xy[0] - dragStartPosition[0]) > 4 ||
+      Math.abs(e.xy[1] - dragStartPosition[1]) > 4)
+  {
+          dragMoved = true;
+          Ext.getBody().on("mouseup", ddMouseUp );
+          editorDisableSelection();         
+          topWin.Ext.menu.MenuMgr.hideAll();
+          clearTimeout(editorContextMenuTimer);
+          Ext.get("drag-helper").dom.style.display = '';
+          ddShowMarkers();
+  }
+  
+}
+
+// AutoScroll
+var mouseXY;
+var viewSize;
+var autoScrollTimerId;
+var documentElement = Ext.get(window.document.documentElement);
+function autoScroll(){        
+        if (!mouseXY || !documentElement.isScrollable())
+                return;
+      
+        var scrollPosition = documentElement.getScroll();
+        var mouseX = mouseXY[0] - scrollPosition.left;
+        var mouseY = mouseXY[1] - scrollPosition.top;
+        var offset = 30;
+        var dir = "";
+        if (mouseX > viewSize.width - offset){
+               dir = "l";                   
+               mouseXY[0] = mouseXY[0] +offset;
+        } else if (mouseY > viewSize.height - offset*2){
+               dir = "b";                   
+               mouseXY[1] = mouseXY[1] +offset;
+        } else if (mouseX < offset){
+               dir = "r";                  
+               mouseXY[0] = mouseXY[0] -offset;               
+        } else if (mouseY < offset){
+               dir = "t";                  
+               mouseXY[1] = mouseXY[1] -offset;               
+        }
+        documentElement.scroll(dir, 10, false);
+}
+
+function autoScrollStart(){
+    if (!autoScrollTimerId){
+        viewSize = documentElement.getViewSize();
+        autoScrollTimerId = setInterval("autoScroll()",100);   
+    }
+}
+
+function autoScrollStop(){
+    if (autoScrollTimerId){
+        clearInterval(autoScrollTimerId);
+        autoScrollTimerId = null;
+    }
+}
+
+// Boot
+if (isEditorFrameWin) {
+  Ext.onReady(function() {   
+    try {
+        frameInit();
+    } catch(e) {
+        alert(e);
+    }
+    topWin.enableEditor();
+  });
+}

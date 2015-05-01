@@ -1,0 +1,18 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><!-- Touch Clarity logging request. http://www.touchclarity.com
+     Copyright (c) Touch Clarity Ltd 2001-2002. All rights reserved. Patent Pending. -->
+
+<meta name="robots" content="noindex,nofollow"></head><body>
+<script language="JavaScript">
+var container = (document.layers ? window : parent);
+
+function tc_create_content(cc_id,co_id,str){container.tc_set_content(cc_id,co_id,str);}
+function tc_send_report(){container.tc_report();}
+
+if (typeof container.tc_log_call!='undefined') {
+	if(typeof container.tc_referrer!='undefined') tc_referrer=container.tc_referrer;
+	document.write(container.tc_log_call);
+}
+</script><script src="c"></script>
+</body></html>

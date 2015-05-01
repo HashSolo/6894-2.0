@@ -1,0 +1,306 @@
+/*  Legacy styles, just in case. These are non-customizable */
+/*----------------------------------------------------------*/
+table.NT {
+	width:760px;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	border-spacing:0px;
+	border: none;
+}
+table.MediumTable {
+	width:570px;
+	border: none;
+}
+table.SmallTable {
+	width:380px;
+	border: none;
+}
+table.XSmallTable {
+	width:0px;
+	border: none;
+}
+table.XSmallBorderTable {
+	width:0px;
+	border-spacing:1px;
+	border: none;
+}
+table.SmallBorderTable {
+	width:380px;
+	border-spacing:1px;
+	border: none;
+}
+
+table.CalendarTable {
+	width:294px;
+	border:0px;
+}
+table.HelpTable {
+	width:456px;
+	border:0px;
+}
+th.NT {
+	font-size:12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align:left;
+	white-space:nowrap;
+}
+th.RightTH {
+	font-size:12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align:right}
+th.TopTH {
+	font-size:12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	vertical-align : top;
+	text-align:left;
+}font.NT {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+td {
+}
+td.NT {
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	white-space:nowrap;
+}
+td.TDWrap {
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	white-space:normal;
+}
+td.BoldTD {
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+td.RightTD {
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	text-align:right;
+}
+td.RightBoldTD {
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	text-align:right;
+	font-weight:bold;
+}
+td.CenterTD {
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	text-align:center;
+}
+td.CenterTDNowrap {
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	text-align:center;
+	white-space:nowrap;
+}
+td.CenterBoldTD {
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	text-align:center;
+	font-weight:bold;
+}
+td.Total {
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	text-align:right;
+	font-weight:bold;
+	font-style:italic;
+}
+td.TopTD{
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	vertical-align : top;
+}
+td.GreenText {
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:Green;
+}
+td.GreenCenterText {
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:Green;
+	text-Align:center;
+}
+td.SmallGreenText {
+	font-size:10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:Green;
+}
+td.GreenBoldText {
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:Green;
+	font-weight:bold;
+}
+td.YellowText {
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:Yellow;
+}
+td.RedText {
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:Red;
+}
+td.RedCenterText {
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:Red;
+	text-Align:center;
+}
+td.SmallRedText {
+	font-size:10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:Red;
+}
+td.SmallRedUText {
+	font-size:10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:Red;
+	text-decoration:underline;
+}
+td.RedBoldText {
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:Red;
+	font-weight:bold;
+}
+td.BlueText {
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:Blue;
+}
+td.BlueCenterText {
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:Blue;
+	text-Align:center;
+}
+td.SmallUText {
+	font-size:10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	text-decoration:underline;
+}
+td.SmallCenterText {
+	font-size:10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	text-align:center;
+}
+td.SmallTextTD {
+	font-size:10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+td.SmallTextTDWrap {
+	font-size:10px;
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+	white-space:normal;
+}
+td.RightSmallTextTD {
+	font-size:10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	text-align:right;
+}
+td.LeftSpacedTD {
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	height:40px;
+	text-align:left;
+}
+
+td.SpacedTD {
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	height:40px;
+}
+td.SpacedBoldTD {
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	height:40px;
+	font-weight:bold;
+}
+td.RightSpacedTD {
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	height:40px;
+	text-align:right;
+}
+
+td.AlignedButtonTD {
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	text-align:center;
+}
+td.ListLinkTD {
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	width:40px;
+	text-align:center;
+}
+td.AmountTD {
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	width:0px;
+	text-align:right;
+}
+td.BlankTD {
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	width:700px;
+}
+td.DescriptionTD {
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	white-space:nowrap;
+}
+a.Calendar			{
+	text-align:center;
+	text-decoration: underline;
+	font-size:11px;
+}
+a.Calendar:hover	{
+	text-align:center;
+	text-decoration: underline;
+	font-size:11px;
+}
+a.Calendar:link		{
+	text-align:center;
+	text-decoration: underline;
+	font-size:11px;
+}
+a.Calendar:active	{
+	text-align:center;
+	text-decoration: underline;
+	font-size:11px;
+}
+a.SmallText 		{
+	text-decoration: none;
+	font-weight:bold;
+	font-size:10px;
+}
+a.SmallText:hover   {
+	text-decoration: none;
+	font-weight:bold;
+	font-size:10px;
+}
+a.SmallText:link    {
+	text-decoration: none;
+	font-weight:bold;
+	font-size:10px;
+}
+a.SmallText:active  {
+	text-decoration: none;
+	font-weight:bold;
+	font-size:10px;
+}
+select {
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	vertical-align:middle;
+	text-decoration:none;
+	white-space:nowrap;
+}

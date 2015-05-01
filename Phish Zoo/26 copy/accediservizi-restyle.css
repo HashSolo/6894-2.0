@@ -1,0 +1,167 @@
+/* accesso ai servizi su pagina di login accedi.shtml */
+/*.titoloAccessoPrivati_interna	{background:url(http://www.poste.it/img/body/title_box_accedi_privati.gif) no-repeat 0 0 ; width:275px; padding:0; margin:0 auto;}
+.titoloAccessoBusiness_interna	{background:url(http://www.poste.it/img/body/title_box_accedi_business.gif) no-repeat 0 0 ; width:275px; padding:0; margin:0 auto;}*/
+.titoloAccessoPrivati_interna, .titoloAccessoBusiness_interna{width:275px; padding:0; margin:0 auto;}
+.titoloAccessoPrivati_interna p, .titoloAccessoBusiness_interna p {padding:3px 0 3px 15px;}
+/*.box_interna					{background:url(http://www.poste.it/img/body/box_accedi.gif) no-repeat 0 100% #eef1f6; width:275px; height:215px; padding:0; margin:0 auto; text-align:left;}*/
+.box_interna{width:275px; height:215px; padding:0; margin:0 auto; text-align:left;}
+span.business					{padding:0 0 0 22px;}
+.inputAccedi, .inputPassword	{height:19px; width:146px; padding:2px 0 0 5px; border:1px solid #ccc; }
+.inputAccedi					{margin:12px 0 0 0px;}
+.inputPassword					{margin:3px 0 0 0px;}
+.accesso						{text-align:left; margin:3px 5px 0 165px;}
+.pulsanteAccedi 				{background:url(http://www.poste.it/img/body/btn_sfumato.gif) repeat-x #6b6bc5; width:57px; height:20px; border:1px solid #080897;color:#fff; font-weight:bold;}
+div.dimenticato					{padding:8px 0 8px 10px; text-align:left; font-size:10px;}
+.dimenticato ul					{margin-left:6px; padding:0; text-align:left; list-style-type:none;}
+.dimenticato li					{margin:0; padding-left:8px; background:url(http://www.poste.it/img/homepage/square.gif) 0 6px no-repeat;}
+ 
+/* header */
+#contenitoreHeader {
+	width:940px;
+	height:60px;
+	background:url(/resources/images/body/bkgrHeader.gif) no-repeat;
+}
+#privatiTabLogin{
+	font-weight:bold;}
+#header_login {
+	width:100%;
+	text-align:right;
+	font-size:10px;
+}
+#header_login .opzioni {
+	width:780px;
+	text-align:right;
+	font-size:10px;
+	color:#005cab;
+}
+.header_login_global {
+	background:url(/resources/images/body/myposteglobal.gif) no-repeat bottom right;
+}
+#header_login div {
+	padding: 0px 16px 3px 0px;
+}
+#header_navigazione {
+	list-style-type:none;
+	padding:0px;
+	margin:0px;
+	height:28px;
+}
+#header_navigazione li {
+	display:inline;
+	padding:0px;
+	margin-right:5px
+}
+#header_subnavigazione {
+	width:100%;
+	padding:0px;
+	margin:0px;
+	text-align:right;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#005cab;
+}
+
+/* du */
+
+/* Elementi principali */
+* {
+	margin:0;
+	padding:0
+}
+
+.floatLeft {
+	float:left;
+}
+.floatRight {
+	float:right;
+}
+
+
+/*div.wincontent, div.win585u, */
+div.creaPagina, .abstract{
+  width: 940px !important;
+}
+
+div.titoloAccessoPrivati_interna{
+  text-align: right;
+  background-image: none;
+}
+
+div.titoloAccessoPrivati_interna p{
+background-color: none;
+}
+
+div.titoloAccessoPrivati_interna p strong{
+  color: #005CAB;
+  background-color: inherit;
+}
+
+span.business{
+  padding-left: 5px;
+  margin-left: 5px;
+  border-left: 1px solid #005CAB;
+}
+
+div.titoloAccessoPrivati_interna p a{
+  color: #005CAB !important;
+  background-color: inherit;
+}
+
+div.titoloAccessoPrivati_interna p{
+  background-color: none !important;
+}
+
+.box_interna div.ulLoginContainer a{
+  color: #005cab;
+}
+
+.box_interna div.ulLoginContainer ul{
+  list-style: none;
+  margin-left: 0;
+  line-height: 25px;
+  padding-left: 10px;
+  background-image: url(/resources/images/fcc/sfondo_login_bottom.jpg);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  padding-bottom: 50px;
+}
+
+.box_interna input.inputAccedi{
+  width: 250px;
+  border: 1px solid #000;
+}
+
+.box_interna input.inputPassword{
+  border: 1px solid #000;
+  width: 180px;
+}
+
+.box_interna{
+  background-image: url(/resources/images/fcc/sfondo_login_top.jpg);
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
+.box_interna form .bottone{
+  background-color:#005cab;
+  border:0 solid #005cab;
+  color:#ffffff;
+  cursor:default;
+  font-size:9px;
+  font-weight:bold;
+  height:16px;
+  margin-top:3px;
+}
+
+td.bloccoA2{
+  padding-left: 20px;
+}
+
+div.footer{
+  width: 940px;
+}
+
+#page {
+margin:0 auto;
+text-align:left;
+width:940px;
+}

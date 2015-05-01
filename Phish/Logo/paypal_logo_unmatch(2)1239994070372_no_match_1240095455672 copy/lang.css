@@ -1,0 +1,63 @@
+/* 
+	Title: fr_FR/lang.css
+	Author Name: Steve Ganz
+	Author Date: 2005-10-28
+	Description: Exclusive and redefined rules for fr_FR.
+*/
+div#header.mainHeader { 
+	width: 900px !important;
+}
+div#header.mainHeader form { 
+	width: 250px;
+}
+div#navPrimary { 
+	width: 675px;
+}
+div#navPrimary a {
+	padding: 0px 0px 0px 5px;
+}
+
+div#navPrimary a span {
+	padding:10px 12px 6px 6px;
+}
+div#navPrimary li#navMyAccount.expanded ul {
+	width: 670px;
+	left: -15px;
+}
+div#navPrimary li.expanded ul a span {
+	padding: 10px 10px 3px 6px;
+}
+
+#searchForm { width: 195px !important; }
+
+/* rosetta-related fix for FR IE7 only */
+*:first-child+html #header.srd #rosetta { left: 400px !important }
+
+/* start rosetta-related fixes for ESM */
+form.signup div.contentLeft .payment-type {
+	float: left;
+}
+form.signup div.contentLeft div#fieldrowCSC {
+	float: left; 
+	clear: both; 
+	width: 24.2em !important;
+}
+
+form.signup div.contentLeft div#fieldrowCCNumber, form.signup div.contentLeft div.payment-type  {
+	clear:left; 
+}
+
+form.signup div.contentLeft div#fieldrowCCExpDate {
+	width: 30em;
+}
+/* end rosetta-related fixes for ESM */
+#header.srd form#searchForm {
+	width: 200px;
+}
+
+.businessDescriptionLabel {
+display: block;
+}
+
+/* rosetta related fix for FR*/
+div.subscrbox div.subscrhead h4 {padding:0 0 10px 8px;}

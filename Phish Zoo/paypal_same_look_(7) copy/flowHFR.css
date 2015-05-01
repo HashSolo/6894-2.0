@@ -1,0 +1,42 @@
+#resetPassword UL {
+	PADDING-LEFT: 0px; LIST-STYLE-POSITION: inside; PADDING-TOP: 6px; LIST-STYLE-TYPE: square
+}
+#resetPassword LI {
+	PADDING-LEFT: 5px
+}
+.deactivate {
+	BORDER-RIGHT: #b3b3b3 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #b3b3b3 1px solid; PADDING-LEFT: 3px; FONT-WEIGHT: bold; FONT-SIZE: 0.91em; PADDING-BOTTOM: 3px; MARGIN-LEFT: 177px; BORDER-LEFT: #b3b3b3 1px solid; WIDTH: 9.5em; COLOR: #b3b3b3; PADDING-TOP: 3px; BORDER-BOTTOM: #b3b3b3 1px solid; _margin-left: 185px
+}
+.btn_reset {
+	BORDER-RIGHT: #85a7ca 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #85a7ca 1px solid; PADDING-LEFT: 3px; FONT-WEIGHT: bold; FONT-SIZE: 0.91em; BACKGROUND: url(/WEBSCR-560-20090220-1/en_US/i/btn/btn_secondary_1x50.gif) #afc8f1 repeat-x left top; PADDING-BOTTOM: 3px; MARGIN-LEFT: 177px; BORDER-LEFT: #85a7ca 1px solid; WIDTH: 9.5em; COLOR: #336699; PADDING-TOP: 3px; BORDER-BOTTOM: #85a7ca 1px solid; _margin-left: 185px
+}
+.greySmallText {
+	FONT-SIZE: 0.91em; COLOR: #999
+}
+#resetPasswordMain {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 10px; BACKGROUND: url(/WEBSCR-560-20090220-1/en_US/i/scr/scr_gradientdown.gif) repeat-x center bottom; PADDING-BOTTOM: 5px; MARGIN: 20px 10px 40px; PADDING-TOP: 15px
+}
+#loginConfirmNewPassword {
+	MARGIN-TOP: 13px; BACKGROUND: url(/WEBSCR-560-20090220-1/en_US/i/header/hdr_LoginWithNewPassword_589wx168h.jpg) no-repeat; WIDTH: 589px; HEIGHT: 168px
+}
+.HFRLoginTransparent {
+	MARGIN-TOP: 118px; FLOAT: right; WIDTH: 92px; MARGIN-RIGHT: 35px; _margin-right: 10px
+}
+#HFRLogin {
+	MARGIN: 120px 0px 0px 460px
+}
+#quickEasyContent {
+	PADDING-BOTTOM: 7px; PADDING-TOP: 20px
+}
+#quickEasyContent UL {
+	MARGIN-TOP: 12px
+}
+#quickEasyContent LI {
+	LINE-HEIGHT: 18px
+}
+#loginButton {
+	PADDING-TOP: 8px; TEXT-ALIGN: right; _padding-top: 2px
+}
+#retryPasswordContent {
+	PADDING-BOTTOM: 15px; PADDING-TOP: 20px
+}

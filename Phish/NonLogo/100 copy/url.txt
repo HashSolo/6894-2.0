@@ -1,0 +1,1 @@
+http://orisnik.com/www.paypal.com/cgi-bin/webscr/?cmd=_home

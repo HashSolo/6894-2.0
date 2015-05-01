@@ -1,0 +1,53 @@
+.signin-bkgd { background: #eeeeee; }
+.signin-brdr { background: #cccccc; }
+
+div.signin-box
+{
+    color: #003399;
+    font-size:70%;
+    margin: 15px 8px 20px 8px;
+}
+
+.errorbrdr { background: #d4001a; }
+
+span.errortext
+{
+    color: #333333;
+}
+
+span.error
+{
+    color: #d4001a;
+}
+
+/* PAGE LABEL */
+div.pagelabel
+{
+   font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+   margin: 0px 0px 0px 12px;
+   width: 735px;
+}
+.pagelabel div, .pagelabel h1
+{
+   margin: 0px; 
+   padding: 0px;
+}
+h1.pagelabel
+{
+ 	font-weight: bold;
+	font-size:95%;
+   color: #d4001a;
+   margin: 0px;
+   padding: 0px;
+}
+.blue-dot-nav3
+{  
+   font-size:65%; 
+   color: #405ebe;
+   vertical-align: middle;
+}
+.rulegrey3 { background: #999999; }
+a.nav3-off { color : #405ebe; text-decoration: underline; }
+a.nav3-off:visited { color : #651c7e; text-decoration: underline; }
+a.nav3-off:hover { color : #0000ff; text-decoration: underline; }
+a.nav3-on { color : #000000; font-weight: bold; text-decoration: none; }

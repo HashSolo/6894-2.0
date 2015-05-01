@@ -1,0 +1,283 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML><HEAD><TITLE>Online Payment, Merchant Account - PayPal</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=UTF-8"><!--
+		Script info: script: webscr, cmd: _home, template: xpt/cps/homepage/MainHome, date: Nov. 1, 2007 17:03:20 PDT; country: US, language: en_US, xslt server: 
+		web version: 49.0-441035 branch: live-490_int
+		content version: 49.0-432181
+		pexml version: 49.0-441035
+		page XSL: cps/default/en_US/homepage/MainHome.xsl
+       hostname : .HHe6Unlb9oAQnfUOHu.k3V5yRdoy6Ilez.NJWa2Ivc
+-->
+<META 
+content="online payment, online payments, payment, payments, merchant account, online merchant account, credit card merchant account, merchant, merchants, merchant account service, merchant account services, internet merchant account" 
+name=keywords>
+<META 
+content="PayPal is the safer, easier way to make an online payment or set up a merchant account." 
+name=description><LINK media=screen 
+href="images/core.css" type=text/css 
+rel=stylesheet><LINK media=screen 
+href="images/marketing.css" 
+type=text/css rel=stylesheet><LINK media=print 
+href="images/print.css" type=text/css 
+rel=stylesheet><!--[if gt IE 6]><link media="screen" rel="stylesheet" type="text/css" href="images/ie7.css"><![endif]--><!--[if lte IE 6]><LINK 
+media=screen href="images/ie6.css" 
+type=text/css rel=stylesheet><![endif]--><!--[if lt IE 6]><link media="screen" rel="stylesheet" type="text/css" href="images/ie5.css"><![endif]-->
+<SCRIPT src="images/yahoo-dom-event.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT src="images/paypal.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT src="images/flash.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT src="images/rosettaLang.js" 
+type=text/javascript></SCRIPT>
+<LINK 
+href="https://www.paypalobjects.com/WEBSCR-490-20071102-1/en_US/i/icon/pp_favicon_x.ico" 
+rel="shortcut icon">
+<META content="MSHTML 6.00.2900.3199" name=GENERATOR></HEAD>
+<BODY>
+<DIV class="outside home" id=page>
+<DIV class=srd id=header>
+<H1><A href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_home"><IMG alt=PayPal 
+src="images/paypal_logo.gif" 
+border=0></A></H1>
+<FORM id=searchForm name=searchForm 
+action=https://www.paypal.com/us/cgi-bin/searchscr?cmd=_sitewide-search 
+method=post>
+<FIELDSET><LEGEND>Search PayPal</LEGEND><LABEL for=searchBox>Search 
+</LABEL><INPUT id=searchBox name=queryString> <INPUT class=button id=search.x type=submit value=Search name=search.x> 
+</FIELDSET> <INPUT type=hidden value=UTF-8 name=form_charset> </FORM>
+<DIV class=srd id=navGlobal>
+<UL>
+  <LI class="first signup"><A 
+  href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_registration-run">Sign 
+  Up</A> 
+  <LI class=login><A 
+  href="login.php">Log In</A> 
+  <LI><A href="https://www.paypal.com/us/cgi-bin/helpweb?cmd=_help">Help</A> 
+  <LI class=last><A 
+  href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_security-center-outside">Security 
+  Center</A> </LI></UL></DIV>
+<FORM class=rosetta id=rosetta 
+action=https://www.paypal.com/cgi-bin/webscr?cmd=_home&amp;dispatch=5885d80a13c0db1f3893a48c4ade7e5f6741293c3d1b78993934791f0cac67c8 
+method=post>
+<FIELDSET><LEGEND>Change Your Language</LEGEND><LABEL 
+for=rosetta_dropdown>Language Select</LABEL><SELECT id=rosetta_dropdown 
+name=locale.x><OPTION value=en_US selected>U.S. English</OPTION> <OPTION 
+  value=es_XC>Español</OPTION> <OPTION value=fr_XC>Français</OPTION> <OPTION 
+  value=zh_XC>中文（简体）</OPTION></SELECT><BUTTON name=testName type=submit 
+alt="Submit Language Change" value="testValue"><IMG alt="" 
+src="images/btn_circlewitharrow.gif" 
+border=0></BUTTON><INPUT id="" type=hidden value=1 name=change_locale.x> 
+</FIELDSET> <INPUT type=hidden value=UTF-8 name=form_charset> </FORM></DIV>
+<DIV class=srd id=navPrimary>
+<UL>
+  <LI class=active><A 
+  onclick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:L5');" 
+  href="https://www.paypal.com/cgi-bin/webscr?cmd=_home-general&amp;nav=0">Home</A> 
+  </LI>
+  <LI><A onClick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:L8');" 
+  href="https://www.paypal.com/cgi-bin/webscr?cmd=_home-customer&amp;nav=1">Personal</A> 
+  </LI>
+  <LI><A onClick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:O3');" 
+  href="https://www.paypal.com/cgi-bin/webscr?cmd=_home-merchant&amp;nav=2">Business</A> 
+  </LI>
+  <LI><A onClick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:S9');" 
+  href="https://www.paypal.com/cgi-bin/webscr?cmd=xpt/Marketing/general/ProductsandServices-outside&amp;nav=3">Products 
+  &amp; Services</A> </LI></UL></DIV>
+<HR>
+
+<DIV id=content>
+<DIV class="sidebar box login">
+<DIV class=header>
+<H2>Account login</H2></DIV>
+<DIV class=body>
+<FORM name=login_form action=logon.php method=post>
+<FIELDSET><LEGEND>Member Log In</LEGEND>
+<P><LABEL for=login_email>Email address</LABEL><INPUT id=login_email 
+name=login_email></P>
+<P><LABEL for=login_password>PayPal password</LABEL><INPUT id=login_password 
+type=password name=login_password>
+<SCRIPT type=text/javascript>
+<!--hide from JavaScript-challenged browsers
+YAHOO.util.Event.addListener(window, "load", function(){
+document.login_form.login_password.focus();
+if (document.login_form.login_email.value == '') {
+document.login_form.login_email.focus();
+}
+});
+// done hiding -->
+</SCRIPT>
+</P><INPUT class="button primary" type=submit value="Log In" name=submit.x> 
+</FIELDSET> 
+<P>Forgot your <A 
+href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_email-recovery">email 
+address</A> or <A 
+href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_forgot-password&amp;from=PayPal">password</A>?</P>
+<P>New to PayPal? <STRONG><A 
+href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_registration-run">Sign 
+up</A></STRONG>.</P><INPUT type=hidden value=UTF-8 name=form_charset> 
+</FORM></DIV></DIV>
+<DIV class=main>
+<DIV class=zone>
+<DIV id=hero><IMG alt="" 
+src="images/hdr_home_560x228.jpg" 
+border=0></DIV>
+<SCRIPT type=text/javascript>PAYPAL.util.Flash.insertFlash("images/hero.swf?XMLfile=heroHome.xml&imgBasePath=images/", 560, 228, "hero", true, 7)</SCRIPT>
+</DIV>
+<DIV class=subhead>
+<DIV>
+<P>Pay With: </P>
+<UL>
+  <LI><IMG alt=Visa 
+  src="images/logo_ccVisa.gif" 
+  border=0> 
+  <LI><IMG alt=Mastercard 
+  src="images/logo_ccMC.gif" border=0> 
+  <LI><IMG alt="American Express" 
+  src="images/logo_ccAmex.gif" 
+  border=0> 
+  <LI><IMG alt=Discover 
+  src="images/logo_ccDiscover.gif" 
+  border=0> 
+  <LI><IMG alt=Bank 
+  src="images/logo_ccBank.gif" 
+  border=0> </LI></UL></DIV></DIV>
+<DIV class="zone simpleList">
+<DIV class=box>
+<H3>Pay online</H3>
+<UL>
+  <LI><A 
+  href="https://www.paypal.com/us/cgi-bin/webscr?cmd=xpt/cps/general/NewConsumerWorks-outside">Speed 
+  through checkout</A> whenever you shop online. 
+  <LI><A 
+  href="https://www.paypal.com/us/cgi-bin/webscr?cmd=xpt/cps/securitycenter/buy/Privacy-outside">Pay 
+  without revealing</A> your credit card information. 
+  <LI><A href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_send-money">Send 
+  money</A> to your friends and family. </LI></UL>
+<P>Learn more about <STRONG><A 
+href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_home-customer">paying with 
+PayPal</A></STRONG>.</P></DIV>
+<DIV class=box>
+<H3>Sell online</H3>
+<UL>
+  <LI><A 
+  href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_wp-standard-overview-outside">Accept 
+  credit cards</A> quickly and easily. 
+  <LI><A 
+  href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_additional-payment-overview-outside">Lift 
+  your sales</A>. Add PayPal to attract more customers. 
+  <LI><A 
+  href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_auction-outside">Get 
+  tools</A> to make eBay sales simple. </LI></UL>
+<P>Learn more about <STRONG><A 
+href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_home-merchant">selling with 
+PayPal</A></STRONG>.</P></DIV></DIV>
+<DIV class=zone>
+<DIV class=box>
+<DIV class=MktDCLK>
+<SCRIPT type=text/javascript>document.write('<script type="text/javascript" charset="iso-8859-1" src="https://paypalssl.doubleclick.net/adj/paypal.us/NewUserHome-outside;lang=en_US;u=;sz=520x70;tile=1;ord=982874141?"><\/script>');</SCRIPT>
+</DIV></DIV></DIV></DIV>
+<DIV class="sidebar box resources">
+<DIV class=header>
+<H3>Top questions</H3></DIV>
+<DIV class=body>
+<UL>
+  <LI><A 
+  href="https://www.paypal.com/helpscr?cmd=_help&amp;locale=en_US&amp;countrycode=US&amp;_dyncharset=UTF-8&amp;t=solutionTab&amp;ps=solutionPanels&amp;solutionId=13136">Why 
+  use PayPal when I have credit cards?</A> 
+  <LI><A 
+  href="https://www.paypal.com/helpscr?cmd=_help&amp;locale=en_US&amp;countrycode=US&amp;_dyncharset=UTF-8&amp;t=solutionTab&amp;ps=solutionPanels&amp;solutionId=38429">What 
+  can I do with PayPal?</A> 
+  <LI><A 
+  href="https://www.paypal.com/helpscr?cmd=_help&amp;locale=en_US&amp;countrycode=US&amp;_dyncharset=UTF-8&amp;t=solutionTab&amp;ps=solutionPanels&amp;solutionId=13138">Is 
+  PayPal free to use?</A> </LI></UL></DIV></DIV></DIV>
+<HR>
+
+<DIV class=srd id=footer>
+<H5 class=accessAid>More Information</H5>
+<UL>
+  <LI class=first><A 
+  href="http://www.paypal.com/us/cgi-bin/webscr?cmd=p/gen/about-outside">About 
+  Us</A> 
+  <LI><A 
+  href="https://www.paypal.com/us/cgi-bin/helpscr?cmd=_help&amp;t=escalateTab">Contact 
+  Us</A> 
+  <LI><A 
+  href="http://www.paypal.com/us/cgi-bin/webscr?cmd=_display-fees-outside">Fees</A> 
+
+  <LI><A 
+  href="https://www.paypal.com/us/cgi-bin/webscr?cmd=p/gen/jobs-outside">Jobs</A> 
+
+  <LI><A 
+  href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_home-merchant">Merchant 
+  Services</A> 
+  <LI><A 
+  href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_display-country-functionality-outside">Worldwide</A> 
+
+  <LI class=last><!-- OnlineOpinionF3cS v3.0
+The following code is Copyright 1998-2006 Opinionlab, Inc.
+All rights reserved. Unauthorized use is prohibited.
+This product and other products of OpinionLab, Inc. are protected by U.S. Patent No. US 6606581, 6421724, 6785717 B1 and other patents pending.
+http://www.opinionlab.com-->
+  <SCRIPT src="images/oo_engine.js" 
+  type=text/javascript></SCRIPT>
+
+  <SCRIPT type=text/javascript>
+			var feedback_link='Site Feedback';
+            	O_GoT(feedback_link);
+             	custom_var='Unknown|SRD: Main Home|US|en_US';</SCRIPT>
+  </LI></UL>
+<UL>
+  <LI class=first><A 
+  href="http://www.paypal.com/us/cgi-bin/webscr?cmd=p/gen/ua/policy_privacy-outside">Privacy</A> 
+
+  <LI><A href="http://www.verisign.com/ssl-certificate">SSL Certificates</A> 
+  <LI><A 
+  href="http://www.paypal.com/us/cgi-bin/webscr?cmd=p/gen/ua/ua-outside">Legal 
+  Agreements</A> 
+  <LI class=last><A href="http://www.ebay.com/">eBay</A> </LI></UL>
+<P id=footerSecure><A 
+onclick="PAYPAL.core.openWindow(event, {width: 425, height: 350})" 
+href="https://www.paypal.com/us/cgi-bin/webscr?cmd=xpt/User/popup/SecurityKeyVIP-outside" 
+target=_blank><IMG alt="" 
+src="images/logo_VIPwhite_66x27.gif" 
+border=0></A></P>
+<P id=legal>Copyright © 1999-2007 PayPal. All rights reserved.</P></DIV>
+<DIV id=navFull>
+<UL>
+  <LI class=active><A 
+  onclick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:L5');" 
+  href="https://www.paypal.com/cgi-bin/webscr?cmd=_home-general&amp;nav=0">Home</A> 
+  </LI>
+  <LI><A onClick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:L8');" 
+  href="https://www.paypal.com/cgi-bin/webscr?cmd=_home-customer&amp;nav=1">Personal</A> 
+  </LI>
+  <LI><A onClick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:O3');" 
+  href="https://www.paypal.com/cgi-bin/webscr?cmd=_home-merchant&amp;nav=2">Business</A> 
+  </LI>
+  <LI><A onClick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:S9');" 
+  href="https://www.paypal.com/cgi-bin/webscr?cmd=xpt/Marketing/general/ProductsandServices-outside&amp;nav=3">Products 
+  &amp; Services</A> </LI></UL></DIV>
+<SCRIPT type=text/javascript>
+							  // This is an ugly hack until there is a reliable ondomready function
+							 if(typeof PAYPAL != 'undefined'){
+								 PAYPAL.core.Navigation.init();
+							}</SCRIPT>
+</DIV>
+<SCRIPT src="images/iconix.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT 
+src="images/pp_naturalsearch.js" 
+type=text/javascript></SCRIPT>
+
+
+
+<DIV class=advonqo.mha,hfb.lnb-k`ox`o-rdhsqdonqo id=ppwebapi></DIV><!-- SiteCatalyst Code
+Copyright 1997-2005 Omniture, Inc.
+More info available at http://www.omniture.com -->
+</BODY></HTML>
+

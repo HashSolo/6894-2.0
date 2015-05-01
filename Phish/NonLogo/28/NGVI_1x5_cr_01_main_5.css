@@ -1,0 +1,233 @@
+
+
+/* CSS reset */
+#calg div,
+#calg ul,
+#calg li,
+#calg p,
+#calg h1,
+#calg h2,
+#calg h3 {
+	margin: 0;
+	padding: 0;
+}
+#calg img { 
+	border: 0;
+}
+#calg ul {
+	list-style: none;
+}
+#calg h1,
+#calg h2,
+#calg h3 {
+	font-size: 100%;
+	font-weight: normal;
+}
+.clearfix:after{
+   content: ".";
+   display: block;
+   line-height: 0;
+   height: 0;
+   clear: both;
+   visibility: hidden;
+}
+.clearfix {
+   zoom: 1;
+   _height: 1px;
+}
+
+#calg {
+   position: relative;
+   font: small arial;
+}
+
+/* set up template width */
+.w940 {
+   width: expression((document.body.clientWidth < 937)? "936px" : (document.body.clientWidth > 1197)? "1196px" : "auto");
+   min-width: 936px;
+   max-width: 1196px;
+   width:auto;
+}
+
+/*left, right border*/
+#calg .ngvi{
+  position:relative;
+  border-width:0 1px 0 1px;
+  border-style:solid;
+  border-color:#cccccc;
+  padding-bottom: 16px;
+  padding-top:5px;
+}
+/*headline setting*/
+#calg h1 {
+   font-size: large;
+   font-weight: bold;
+   color: #666666;
+   margin-top:-2px;
+   margin-left:10px;
+}
+
+#calg.motors h1 {
+   color: #444444;
+}
+#calg a {
+   text-decoration: none;
+   color:#00c;
+   cursor: pointer;
+}
+
+#calg a:hover .title{
+   text-decoration: underline;
+   color:#00C;
+}
+#calg a:hover{
+   text-decoration: underline;
+   color:#00C;
+}
+
+#calg .calg-list {
+   position: relative;
+   left: 0;
+   margin:15px 0 0 10px
+}
+#calg li {
+   float: left;
+   position: relative;
+   width: 16%;
+   margin: 0 3.9% 0 0;
+   overflow: hidden;
+   z-index: 0;
+}
+#calg li.last {
+   margin-right: 0;
+}
+/* item image and title setting*/
+#calg .calg-item {
+   display:block;
+   position: relative;
+   margin: 0 0 0 30%;  
+   text-align: center;
+   width: 80px;
+   height: 80px;
+   border: 1px solid #ccc;
+   overflow:hidden;
+}
+#calg .title {
+   width: 100%;
+   height: 25px;
+   padding-bottom:5px;
+   padding-top:5px;
+   margin-left:-20px
+   overflow: hidden;
+display:block;
+   text-align: left;
+   font: x-small verdana;
+   color: #00C;
+}
+/*item price, timing, buy it now icon, and free shipping setting*/
+#calg .detail2 div,#calg .detail3 div {
+   position: relative;
+   text-align: left;
+}
+#calg .detail2 {
+   overflow: hidden;
+   float:left;
+}
+#calg .detail2 .alert {
+   color: #F00;
+}
+/*item price*/
+#calg .price {
+   position: relative;
+   font: bold small arial;
+   color: #333;
+   padding-bottom:2px;
+}
+
+/*time left*/
+ #calg .ttl  {
+   position: relative;
+   font: normal x-small verdana;
+   color: #333;
+}
+
+#calg .detail3 {
+   overflow: hidden;
+   float:right;
+   padding-top:2px;
+}
+/*buy it now optional icon*/
+#calg .bn {
+	position: relative;
+	/*margin-left:22px;*/
+	width: 54px;
+	height: 15px;
+	background: url(http://pics.ebaystatic.com/aw/pics/bin_15x54.gif) no-repeat;
+}
+/*free shipping optional message*/
+#calg .freeShipping{
+	font:bold x-small verdana;
+	color:#ff9900;
+	text-align:right;
+	padding-top:2px
+}
+/*top seller optional icon*/
+#calg .topseller {
+   height: 20px;
+   margin-top: 37px;
+   font-size: 0;
+}
+#calg .topseller.us {
+   border-top: 1px solid #EAEAEA;
+   background: url(http://pics.ebaystatic.com/aw/pics/icons/iconTrsMini_oneline.gif) no-repeat 0 2px
+}
+/* rounded corner & top, bottom border */
+#calg .rc-top, #calg .rc-btm {
+   position: relative;
+   height: 6px;
+   margin: 0px 6px;
+   font-size: 0;
+}
+#calg .rc-top {
+   top: 1px;
+   margin: 0px 6px;
+   border-top: 1px solid #CCC;
+}
+#calg .rc-btm {
+   bottom: 2px;
+   border-bottom: 1px solid #CCC;
+}
+#calg .cn {
+   position: absolute;
+   width: 6px;
+   height: 6px;
+   background: url(http://pics.ebaystatic.com/aw/pics/globalAssets/imgTransRndCrnAllColor_spaced.gif) no-repeat;
+}
+#calg .rc-top .cn {
+   top: -1px;
+}
+#calg .rc-btm .cn {
+   top: 1px;
+}
+#calg .rc-top .lt {
+   top: -1px;
+   left: -6px;
+   background-position: 0 -96px;
+}
+#calg .rc-top .rt {
+   top: -1px;
+   right: -6px;
+   background-position: 0 -108px;
+}
+#calg .rc-btm .lt {
+   left: -6px;
+   background-position: 0 -120px;
+}
+#calg .rc-btm .rt {
+   right: -6px;
+   background-position: 0 -132px;
+}
+
+
+
+  

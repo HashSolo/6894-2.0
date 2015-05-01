@@ -1,0 +1,28 @@
+body.yoopage {
+	background: #375AAA;
+}
+
+div#page-body {
+	background: #5685E4 url(../../images/blue/page_t.png) 0 0 repeat-x;
+}
+
+div#page-body div.page-body-img {
+	/*background: url(../../images/blue/page_img.jpg) 50% 0 no-repeat;*/
+}
+
+div#page-body div.page-body-b {
+	background: url(../../images/blue/page_b.png) 0 100% repeat-x;
+}
+
+div#wrapper div.wrapper-b {
+	background: #ffffff url(../../images/blue/wrapper_b.png) 0 100% repeat-x;
+}
+
+div#wrapper div.wrapper-bl {
+	background: url(../../images/blue/wrapper_bl.png) 0 100% no-repeat;
+}
+
+div#wrapper div.wrapper-br {
+	background: url(../../images/blue/wrapper_br.png) 100% 100% no-repeat;
+}
+

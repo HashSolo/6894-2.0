@@ -1,0 +1,372 @@
+/**********************************************************
+ *                                                        *
+ *  Copyright ©2005  Corillian Corporation                *
+ *                                                        *
+ *  All rights reserved.                                  *
+ *                                                        *
+ *  Highly Confidential.                                  *
+ *                                                        *
+ *  No portion of this code may be reproduced,            *
+ *  transmitted or distributed without the express        *
+ *  written permission of Corillian Corporation.          *
+ *                                                        *
+ **********************************************************/
+
+/**********************************************************
+ *                                                        *
+ *  HTML ENTITIES                                         *
+ *                                                        *
+ **********************************************************/
+
+a, a:visited, a:link, a:active {
+	text-decoration: underline;
+	color: #006699;
+}
+
+body{
+	margin: 0px;
+	font-size: 12px; color: #333333;
+}
+
+form#MAINFORM{
+	margin: 0px 0px 10px 5px;
+}
+
+
+/**********************************************************
+ *                                                        *
+ *  GENERAL                                               *
+ *                                                        *
+ **********************************************************/
+
+.notice{
+	color: red;
+}
+
+.printOnly{
+	visibility: visible;
+	display: inherit;
+}
+
+.screenOnly{
+	visibility: visible;
+	display: inherit;
+}
+
+div.sectionHeader{
+	background-color: #C0E1EA;
+	padding: 3px 10px 3px 10px;
+	border: 1px solid #C0E1EA;
+}
+
+div.oboMode{
+	border: 1px solid Black;
+	background-color: Red;
+	color: White;
+	width: 150px;
+	padding: 4px;
+}
+
+div.sectionDivider{
+	margin: 0px;
+	border: none;
+}
+
+div.timeoutWarning{
+	display: none;
+	visibility: hidden;
+}
+
+.fullWidth{
+	width: 655px;
+}
+
+/**********************************************************
+ *                                                        *
+ *  HEADER                                                *
+ *                                                        *
+ **********************************************************/
+
+div.appTitle{
+	display: none;
+	visibility: hidden;
+}
+
+td.quicklinksHeader,
+div.relatedLinksContainer,
+div.imageAd1Container,
+div.imageAd2Container,
+.textAdContainer,
+.textAdDivider,
+.toolbarContainer{
+	display: none;
+	visibility: hidden;
+}
+
+/**********************************************************
+ *                                                        *
+ *  FOOTER                                                *
+ *                                                        *
+ **********************************************************/
+
+hr.footer{
+	color: #CCCCCC;
+	margin-left: 5px;
+	width: 660px;
+	height: 1px;
+}
+
+/*
+div.footerContainer{
+	width: 650px;
+	font-size: 11px;
+	color: #333333;
+	margin-left: 15px;
+}
+*/
+
+div.footerContainer a,
+div.footerContainer a:visited,
+div.footerContainer a:link,
+div.footerContainer a:active{
+	font-size: 11px;
+	color: #006699;
+}
+
+/**********************************************************
+ *                                                        *
+ *  ERRORS/VALIDATION                                     *
+ *                                                        *
+ **********************************************************/
+
+.VAMValSummary
+{
+   color: #CC0033;
+   font-weight: bold;
+}
+
+.VAMValSummaryHeader img{
+	margin-right: 3px;
+}
+
+.VAMValSummary
+{
+	margin-top: 0px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+.VAMValSummary a,
+.VAMValSummary a:visited,
+.VAMValSummary a:link,
+.VAMValSummary a:active{
+	color: #CC0033;
+	text-decoration: underline;
+}
+div.errContainerError,
+div.errContainerInfo,
+div.errContainerWarn{
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.errError,
+.errInfo,
+.errWarn{
+	margin-left: 0px;
+}
+.errError{
+	color: #CC0033;
+}
+
+.errInfo{
+	color: #006666;
+}
+
+.errWarn{
+	color: #333333;
+}
+
+/**********************************************************
+ *                                                        *
+ *  NAVIGATION                                            *
+ *                                                        *
+ **********************************************************/
+
+
+/**********************************************************
+ *                                                        *
+ *  TABLES                                                *
+ *                                                        *
+ **********************************************************/
+
+div.textRegion{
+	border: 1px solid black;
+	overflow: auto;
+	height: 550px;
+}
+
+/**********************************************************
+ *                                                        *
+ *  WORKSPACE                                             *
+ *                                                        *
+ **********************************************************/
+
+.formContainer
+{
+        padding-right: 30mm;
+}
+.formContainer .formInputContainer{
+	background-color: white;
+	width: 660px;
+}
+
+.formContainer .formButtonContainer{
+	margin-top: 5px;
+}
+.formContainer .formInputContainer .formTable td
+{
+
+    vertical-align: top;
+}
+.formContainer .formInputContainer .formTable .colTag
+{
+    width: 25%;
+}
+.formContainer .formInputContainer .formTable .colValue
+{
+    width: 75%;
+}
+
+.navBorder 
+{
+	background:#A12830 none repeat scroll 0%;
+	border-bottom:1px solid #922128;
+	height:2px;
+	width:770px;
+}
+
+div.olbMainBanner
+{
+	background:transparent url(../Images/banner_bg-2.gif) repeat-x scroll 0%;
+	height:115px;
+	width:770px;
+}
+
+div.olbLogoContainer
+{
+	background: transparent url(../Images/banner_02.gif) no-repeat scroll 0%;
+	height:115px;
+	width:770px;
+}
+
+div.olbLogo
+{
+	width: 191px;
+	height: 80px;
+	float: left;
+	overflow: hidden; 
+}
+
+div.olbBadge 
+{
+	background:transparent url(../Images/header_badge.gif) no-repeat scroll 0%;
+	color:#333333;
+	font-family:arial;
+	font-size:11px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	height:69px;
+	line-height:11px;
+	margin-top: 5px;
+	padding: 9px 12px 0px 0px;
+	text-align:left;
+	width:310px;
+}
+
+div.olbTopNav 
+{
+	color:white;
+	float:right;
+	font-family:arial;
+	font-size:10px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:normal;
+	padding:5px 6px 0px 0px;
+	text-align:right;
+}
+
+
+.footerContainer
+{
+	width: 750px;
+	margin-left: 5px;
+	padding-left: 10px;
+	padding-top: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #656565;
+	line-height: 17px;
+}
+
+
+.footerBar
+{    
+    background: url(../Images/footer_bg.jpg) repeat-x;
+    float: left;
+    border-top: #e5ecf4 1px solid;
+    margin-left: 0px;    
+    padding-left: 0px;
+    padding-top: 12px;
+    padding-bottom: 40px;
+    padding-right: 8px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #656565;
+	line-height: 17px;
+}
+
+/**********************************************************
+ *                                                        *
+ *  ONLINE ACCOUNT ORIGINATION                            *
+ *                                                        *
+ **********************************************************/
+/**********************************************************
+ *                                                        *
+ *  OAO HEADER                                            *
+ *                                                        *
+ **********************************************************/
+
+#oaoProgressBar
+{
+	display: none;
+}
+
+.oaoBadge{
+	visibility: hidden;
+	display: none;
+}
+
+#oaoMainBanner
+{
+	width: 770px;
+	height: 115px;
+	background: url(../images/banner_bg.gif) repeat-x;
+}
+
+#oaoMainBanner .logoContainer
+{
+	height: 115px;
+	background: url(../images/banner_02-2.gif) no-repeat;
+}
+
+#oaoMainBanner .logo
+{
+	width: 191px;
+	height: 80px;
+	float: left;
+	overflow: hidden; 
+}
+

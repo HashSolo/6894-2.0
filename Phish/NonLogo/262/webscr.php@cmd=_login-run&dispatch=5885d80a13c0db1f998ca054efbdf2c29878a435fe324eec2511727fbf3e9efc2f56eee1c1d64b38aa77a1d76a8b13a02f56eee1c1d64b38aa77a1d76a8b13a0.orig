@@ -1,0 +1,1273 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es-es" lang="es-es" dir="ltr" >
+
+<head>
+
+
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="Corporación Viva la Ciudadanía, ONG, educación, lideres, escuelas de liderazgo democratico, caja de herramientas, semanario virtual" />
+  <meta name="description" content="Corporación Viva la Ciudadanía, por el goce de sus derechos, viva la ciudadanía 20 Años" />
+  <meta name="generator" content="Joomla! 1.5 - Open Source Content Management" />
+  <title>Corporación Viva la Ciudadanía - Corporación Viva la Ciudadanía</title>
+  <link href="/index.php?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+  <link href="/index.php?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+  <link href="/templates/yoo_evolution/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="stylesheet" href="/plugins/system/jcemediabox/css/jcemediabox.css?v=1010" type="text/css" />
+  <link rel="stylesheet" href="/plugins/system/jcemediabox/themes/standard/css/style.css?version=1010" type="text/css" />
+  <link rel="stylesheet" href="/plugins/system/jceutilities/css/jceutilities.css?v=224" type="text/css" />
+  <link rel="stylesheet" href="/plugins/system/jceutilities/themes/standard/css/style.css?version=224" type="text/css" />
+  <link rel="stylesheet" href="/plugins/content/valaddthis/css/horizontal.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/yoo_evolution/css/template.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/yoo_evolution/css/blue/blue-layout.css" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_vvisit_counter/css/mod_vvisit_counter.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.viva.org.co/modules/mod_yoo_search/mod_yoo_search.css.php" type="text/css" />
+  <style type="text/css">
+    <!--
+#toTop {width:100px;z-index: 10;border: 1px solid #333; background:#121212; text-align:center; padding:5px; position:fixed; bottom:0px; right:0px; cursor:pointer; display:none; color:#fff;text-transform: lowercase; font-size: 0.9em;}
+body.width-thin div.wrapper { width: 790px; }
+body.width-wide div.wrapper { width: 960px; }
+body.width-fluid div.wrapper { width: 90%; }
+div#styleswitcher { width: 45px; }
+
+    -->
+  </style>
+  <script type="text/javascript" src="/templates/yoo_evolution/lib/js/mootools/mootools-release-1.11.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+  <script type="text/javascript" src="/plugins/system/jbLibrary/jquery.lazyload.js"></script>
+  <script type="text/javascript" src="/plugins/system/jcemediabox/js/jcemediabox.js?v=1010"></script>
+  <script type="text/javascript" src="/plugins/system/jcemediabox/addons/default.js?v=1010"></script>
+  <script type="text/javascript" src="/plugins/system/jcemediabox/addons/twitter.js?v=1010"></script>
+  <script type="text/javascript" src="/plugins/system/jceutilities/js/jceutilities.js?v=224"></script>
+  <script type="text/javascript" src="http://www.viva.org.co/plugins/system/mediaobject/js/mediaobject-150.js"></script>
+  <script type="text/javascript" src="/media/system/js/caption.js"></script>
+  <script type="text/javascript" src="http://www.viva.org.co/modules/mod_yoo_search/mod_yoo_search.js"></script>
+  <script type="text/javascript" src="http://www.viva.org.co//modules/mod_date2/ty2udate.js"></script>
+  <script type="text/javascript">
+jQuery.noConflict();jQuery(document).ready(function(){
+			jQuery(function () {
+		var scrollDiv = document.createElement('div');
+		jQuery(scrollDiv).attr('id', 'toTop').html('^ Ir a arriba').appendTo('body');    
+		jQuery(window).scroll(function () {
+		        if (jQuery(this).scrollTop() != 0) {
+		            jQuery('#toTop').fadeIn();
+		        } else {
+		            jQuery('#toTop').fadeOut();
+		        }
+		    });
+		    jQuery('#toTop').click(function () {
+		        jQuery('body,html').animate({
+		            scrollTop: 0
+		        },
+		        800);
+		    });
+		});
+		
+		});
+		jQuery(document).ready(function(){jQuery("img").lazyload({ 
+	    effect : "fadeIn" 
+	    });
+	});	JCEMediaBox.init({popup:{width:"",height:"",legacy:0,lightbox:0,shadowbox:0,resize:1,icons:1,overlay:1,overlayopacity:0.8,overlaycolor:"#000000",fadespeed:500,scalespeed:500,hideobjects:1,scrolling:"fixed",close:2,labels:{'close':'JCEMEDIABOX_CLOSE','next':'JCEMEDIABOX_NEXT','previous':'JCEMEDIABOX_PREVIOUS','cancel':'JCEMEDIABOX_CANCEL','numbers':'JCEMEDIABOX_NUMBERS'}},tooltip:{className:"tooltip",opacity:0.8,speed:150,position:"br",offsets:{x: 16, y: 16}},base:"/",imgpath:"plugins/system/jcemediabox/img",theme:"standard",themecustom:"",themepath:"plugins/system/jcemediabox/themes"});	window.addEvent('domready', function(){window.jcepopup=new JCEUtilities({popup:{legacy:0,resize:1,icons:1,overlay:1,overlayopacity:0.8,overlaycolor:"#000000",fadespeed:500,scalespeed:500,hideobjects:1,scrollpopup:1},tooltip:{className:"tooltip",opacity:1,speed:150,position:"br",offsets:{x: 16, y: 16}},imgpath:"plugins/system/jceutilities/img",theme:"standard",themecustom:"",themepath:"plugins/system/jceutilities/themes"});});	MediaObject.init({'flash':"9,0,124,0",'windowmedia':"5,1,52,701",'quicktime':"6,0,2,0",'realmedia':"7,0,0,0",'shockwave':"8,5,1,0"});var YtSettings = { tplurl: '/templates/yoo_evolution', color: 'blue', layout: 'left', fontDefault: 'font-medium', widthDefault: 'width-wide', widthThinPx: 790, widthWidePx: 960, widthFluidPx: 0.9 };
+  </script>
+  <!--[if lte IE 6]>
+   			<script type="text/javascript" src="/plugins/system/jbLibrary/jquery.badBrowser.js"></script> 
+   			 <![endif]-->
+  <script type="text/javascript" src="/templates/yoo_evolution/lib/js/addons/base.js"></script>
+<script type="text/javascript" src="/templates/yoo_evolution/lib/js/addons/accordionmenu.js"></script>
+<script type="text/javascript" src="/templates/yoo_evolution/lib/js/addons/fancymenu.js"></script>
+<script type="text/javascript" src="/templates/yoo_evolution/lib/js/addons/dropdownmenu.js"></script>
+<script type="text/javascript" src="/templates/yoo_evolution/lib/js/yoo_tools.js"></script>
+
+
+<link rel="apple-touch-icon" href="/templates/yoo_evolution/apple_touch_icon.png" />
+<script language="JavaScript" type="text/javascript">
+<!--
+function PopWindow()
+{
+window.open('on_line.html','En Vivo','width=300,height=300,menubar=no,scrollbars=no,toolbar=no,location=no,directories=no,resizable=no,top=100,left=50');
+}
+//-->
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-16950448-1");
+pageTracker._trackPageview();
+</script>
+</head>
+
+
+
+<body id="page" class="yoopage font-medium width-wide left  default ">
+
+
+
+	
+
+
+	<div id="page-body">
+
+		<div class="page-body-img">
+
+			<div class="page-body-b">
+
+				<div class="wrapper floatholder">
+
+
+
+					<div id="header">
+
+					
+
+						<div id="toolbar">
+
+							<div class="floatbox ie_fix_floats">
+
+							
+
+								<!--
+								<div id="date">
+
+									Martes, 21 Septiembre 2010
+								</div>
+
+								
+			-->
+
+								
+								<div id="topmenu">
+
+									<ul class="menu" id="topmenu"><li class="level1 item1 first"><a href="/index.php?option=com_content&amp;view=category&amp;id=37&amp;Itemid=125" class="level1 item1 first"><span>Preguntas frecuentes</span></a></li><li class="level1 item2"><a href="/index.php?option=com_xmap&amp;sitemap=1&amp;Itemid=124" class="level1 item2"><span>Mapa del sitio</span></a></li><li class="level1 item3 last"><a href="http://mail.google.com/a/viva.org.co" onclick="window.open(this.href,'targetWindow','toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,');return false;" class="level1 item3 last"><span>Correo</span></a></li></ul>
+
+								</div>
+
+								
+
+
+								
+								<div id="styleswitcher">
+
+									
+									
+									<a id="switchfontlarge" href="javascript:void(0)" title="Increase font size"></a>
+
+									<a id="switchfontmedium" href="javascript:void(0)" title="Default font size"></a>
+
+									<a id="switchfontsmall" href="javascript:void(0)" title="Decrease font size"></a>
+
+									
+								</div>
+
+								
+								
+
+											<div class="module deepest blank">
+								<div style="margin:0px auto;width:auto;text-align:right;"><span id="ty2udate213">	<script language="javascript" type="text/javascript">
+	<!--
+	function ISO8601Local213(date) {
+	// handles years from 0000 to 9999 only
+		var offset213 = date.getTimezoneOffset();
+		var offsetSign213 = "-";
+		if (offset213 <= 0) {
+			offsetSign213 = "+";
+			offset213 = -offset213;
+		}
+		var offsetHours213 = Math.floor(offset213 / 60);
+		var offsetMinutes213 = offset213 - offsetHours213 * 60;
+		return ("000" + date.getFullYear()).slice(-4) +
+		"-" + ("0" + (date.getMonth() + 1)).slice(-2) +
+		"-" + ("0" + date.getDate()).slice(-2) +
+		"T" + ("0" + date.getHours()).slice(-2) +
+		":" + ("0" + date.getMinutes()).slice(-2) +
+		":" + ("0" + date.getSeconds()).slice(-2) +
+		"," + ("00" + date.getMilliseconds()).slice(-3) +
+		offsetSign213 + ("0" + offsetHours213).slice(-2) +
+		":" + ("0" + offsetMinutes213).slice(-2);
+	}
+
+	var ISO8601213 = "0";
+
+	function clock213() {
+		var newdate213 = new Date();
+
+		if(ISO8601213 == "1") {
+
+			var time213 = ISO8601Local213(newdate213);
+
+		} else {
+
+			var day213="";
+			var month213="";
+			var myweekday213="";
+			var year213="";
+			var mydate213 = new Date();
+			var dston213  =  new  Date('March 14, 1999 2:59:59');
+			var dstoff213 = new Date('November 7, 1999 2:59:59');
+			dston213.setFullYear(newdate213.getFullYear());
+			dstoff213.setFullYear(newdate213.getFullYear());
+
+			var dst213 = "0";
+			var myzone213 = newdate213.getTimezoneOffset();
+
+			var zone213 = -5;
+			
+			// zone is negative so convert to positive to do calculations
+			if (zone213 <= 0) {
+				zoneb213 = -zone213;
+			} else {
+				zoneb213 = zone213;
+			}
+			
+			if (mydate213 > dston213 && mydate213 < dstoff213 && dst213 == "1") {
+			//date is between dst dates and dst adjust is on.
+				zonea213 = zoneb213 - 1;
+				var houradjust213 = 0;
+			} else {
+				zonea213 = zoneb213;
+				var houradjust213 = -1;
+			};
+
+			newtime213=newdate213.getTime();
+
+			var newzone213 =  (zonea213*60*60*1000);
+
+			// convert zone back to negative if it was negative originally
+			if (zone213 <= 0) {
+				newzone213 = -newzone213;
+			}
+			newtimea213 = newtime213+(myzone213*60*1000)+newzone213;
+
+			mydate213.setTime(newtimea213);
+			myday213 = mydate213.getDay();
+			mymonth213 = mydate213.getMonth();
+			myweekday213= mydate213.getDate();
+			myyear213= mydate213.getYear();
+			year213 = myyear213;
+
+			if (year213 < 2000) year213 = year213 + 1900;
+			myhours213 = mydate213.getHours();
+
+			
+			var mm213 = "am";
+			if (myhours213 > 11 + houradjust213)
+				mm213 = "pm";
+			if (myhours213 > 12 + houradjust213)
+				myhours213 -= 12;
+			if (myhours213 == 0) myhours213 = 12;
+
+			
+			myminutes213 = mydate213.getMinutes();
+
+			if (myminutes213 < 10){
+				mytime213 = "0" + myminutes213;
+			}
+			else {
+				mytime213 = "" + myminutes213;
+			};
+
+			myseconds213 = mydate213.getSeconds();
+
+			if (myseconds213 < 10) {
+				myseconds213 = "0" + myseconds213;
+			} else {
+				myseconds213 = "" + myseconds213;
+			};
+
+			arday213 = new Array("Domingo","Lunes","Martes","Miercoles","Jueves","Viernes","Sabado")
+			armonth213 = new Array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre", "Octubre","Noviembre","Diciembre")
+			ardate213 = new Array("0th","1st","2nd","3rd","4th","5th","6th","7th","8th","9th","10th","11th","12th","13th","14th","15th","16th","17th","18th","19th","20th","21st","22nd","23rd","24th","25th","26th","27th","28th","29th","30th","31st");
+
+							myweekday213 = parseInt(myweekday213);
+			
+				var time213 = (""+arday213[myday213]+","+" "+myweekday213+" "+armonth213[mymonth213]+" "+year213+" "+""+""+myhours213+":"+mytime213+":"+myseconds213+mm213+"");
+
+					}
+
+	document.getElementById('ty2udate213').innerHTML  = time213;
+
+	setTimeout("clock213()", 1000)
+
+	}
+	listen("load", window, clock213);
+	//-->
+	</script>
+
+	</span></div>			</div>
+			
+
+
+
+							</div>
+
+						</div>
+
+
+
+						<div id="headerbar">
+
+							<div class="floatbox ie_fix_floats">
+
+											<div class="module deepest blank">
+								<a target="_blank" href="/publicaciones/catedra_fals_borda_parte_1"><img alt="catedra_fals_borda_parte_1" src="/images/stories/catedra_fals_borda_parte_1.jpg" width="172" height="115" /></a><a target="_blank" href="/publicaciones/catedra_fals_borda_parte_2"><img alt="catedra_fals_borda_parte_2" src="/images/stories/catedra_fals_borda_parte_2.jpg" width="172" height="115" /><br /></a>			</div>
+			
+
+							</div>
+
+						</div>
+
+							
+
+						<div id="menubar">
+
+							<div class="menubar-l"></div>
+
+							<div class="menubar-r"></div>
+
+							<div class="menubar-m"></div>
+
+						</div>
+
+						
+
+						
+						<div id="menu">
+
+							<ul class="menu"><li class="level1 item1 first active current"><a href="http://www.viva.org.co/" class="level1 item1 first active current"><span>Inicio</span></a></li><li class="level1 item3 parent"><span class="separator level1 item3 parent"><span>Quienes somos</span></span><ul class="level2"><li class="level2 item1 first"><a href="/index.php?option=com_content&amp;view=article&amp;id=68&amp;Itemid=152" class="level2 item1 first"><span>Nuestra Misión</span></a></li><li class="level2 item2"><a href="/index.php?option=com_content&amp;view=article&amp;id=78&amp;Itemid=203" class="level2 item2"><span>Hacia Donde Vamos</span></a></li><li class="level2 item4 last"><a href="/index.php?option=com_content&amp;view=article&amp;id=77&amp;Itemid=200" class="level2 item4 last"><span>Conformación Red Viva</span></a></li></ul></li><li class="level1 item5 parent"><span class="separator level1 item5 parent"><span>Transparencia</span></span><ul class="level2"><li class="level2 item1 first"><a href="/index.php?option=com_content&amp;view=article&amp;id=75&amp;Itemid=198" class="level2 item1 first"><span>Política de Transparencia</span></a></li><li class="level2 item2"><a href="/index.php?option=com_content&amp;view=article&amp;id=156&amp;Itemid=195" class="level2 item2"><span>Mecanismos de Control</span></a></li><li class="level2 item3"><a class="level2 item3"><span>Proyectos</span></a></li><li class="level2 item4"><a href="/index.php?option=com_content&amp;view=article&amp;id=82&amp;Itemid=197" class="level2 item4"><span>Informe de Gestión</span></a></li><li class="level2 item5"><a href="/index.php?option=com_content&amp;view=article&amp;id=81&amp;Itemid=199" class="level2 item5"><span>Información Financiera</span></a></li><li class="level2 item6"><a href="/index.php?option=com_content&amp;view=article&amp;id=76&amp;Itemid=201" class="level2 item6"><span>Estatutos</span></a></li><li class="level2 item7 last"><a href="/index.php?option=com_content&amp;view=article&amp;id=90&amp;Itemid=202" class="level2 item7 last"><span>Organigrama</span></a></li></ul></li><li class="level1 item7 parent"><a class="level1 item7 parent"><span>Viva en las Regiones</span></a><ul class="level2"><li class="level2 item1 first"><a href="/index.php?option=com_content&amp;view=article&amp;id=70&amp;Itemid=216" class="level2 item1 first"><span>Regional Bogotá</span></a></li><li class="level2 item2 last"><a href="/index.php?option=com_content&amp;view=article&amp;id=69&amp;Itemid=217" class="level2 item2 last"><span>Regional Medellin</span></a></li></ul></li><li class="level1 item8"><a href="/index.php?option=com_remository&amp;Itemid=166" class="level1 item8"><span>Documentos</span></a></li><li class="level1 item12 last"><a href="/index.php?option=com_contact&amp;view=category&amp;catid=12&amp;Itemid=224" class="level1 item12 last"><span>Contactenos</span></a></li></ul>
+
+						</div>
+
+						
+		
+
+								
+
+						<div id="logo">
+
+							<a href="/index.php" title="Home"><img class="correct-png" src="/images/stories/LogoViva.png" alt="LogoViva" width="259" height="130" /></a>
+
+						</div>
+
+						
+
+
+						
+						<div id="search">
+
+							<div class="default">
+	<div id="yoo-search-1" class="yoo-search">
+	
+		<form action="index.php" method="post">
+			<div class="searchbox">
+				<button class="search-magnifier" type="submit" value="Search"></button>
+				<input class="searchfield" type="text" onfocus="if(this.value=='search...') this.value='';" onblur="if(this.value=='') this.value='search...';" value="search..." size="20" alt="search..." maxlength="20" name="searchword" />
+				<button class="search-close" type="reset" value="Reset"></button>
+			</div>	
+			<input type="hidden" name="task"   value="search" />
+			<input type="hidden" name="option" value="com_search" />
+		</form>		
+
+		<div class="resultbox" style="width: 400px;"></div>
+
+	</div>
+</div><script type="text/javascript">
+// <!--
+window.addEvent('domready', function(){ new YOOsearch('yoo-search-1', { 'url': 'http://www.viva.org.co/index.php?option=com_search&tmpl=raw&type=json&ordering=&searchphrase=all&Itemid=53', 'fieldText': 'search...', 'msgResults': 'Search results', 'msgCategories': 'Search categories', 'msgNoResults': 'No results found', 'msgMoreResults': 'More results' }); });
+// -->
+</script>
+
+
+						</div>
+
+						
+
+
+						
+
+
+					</div>
+
+					<!-- header end -->
+
+					
+
+					
+
+					<div id="wrapper">
+
+					
+
+						<div class="wrapper-container-t">
+
+							<div class="wrapper-tl"></div>
+
+							<div class="wrapper-tr"></div>
+
+							<div class="wrapper-t"></div>
+
+						</div>
+
+	
+
+						<div class="wrapper-b">
+
+							<div class="wrapper-l">
+
+								<div class="wrapper-r">
+
+									<div class="wrapper-bl">
+
+										<div class="wrapper-br">
+
+											<div class="wrapper-container">
+
+
+
+											
+											<div id="top">
+
+												<div class="floatbox ie_fix_floats">
+
+
+
+													
+
+
+													
+														
+															<div class="topbox width20 separator float-left">
+
+																			
+			<div class="mod-default">
+				<div class="module ">
+											<div class="badge-top"></div>
+										<div class="module-2">
+						<div class="module-3">
+							<div class="module-4 deepest">
+																<div style="text-align: center;"><a target="_blank" href="/cajavirtual/svc0224/"><img src="/images/stories/logoSemanarioVirtual.png" alt="logoSemanarioVirtual" height="150" width="150" /></a></div>							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+
+															</div>
+
+														
+															<div class="topbox width20 separator float-left">
+
+																			
+			<div class="mod-default">
+				<div class="module default">
+										<div class="module-2">
+						<div class="module-3">
+							<div class="module-4 deepest">
+																<div style="text-align: center;"><img alt="suscribir_semanario" src="/images/stories/suscribir_semanario.png" height="110" width="150" /> <form onsubmit="return validaemail(this);" action="listas.php" method="post"> <input style="font-family: Verdana; font-size: 10px;" maxlength="50" size="20" name="email" value="su dirección aquí" onclick="this.value='';" id="email" type="text" /><br /><input style="text-align: center;" src="/images/stories/go.gif" alt="Suscribirse" name="Submit" type="image" border="0" /> <input value="listsemanariovirtual" name="lista" type="hidden" /> <input value="listas.viva.org.co" name="dominio" type="hidden" /> <input value="subscribe" name="accion" type="hidden" /> </form></div>							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+
+															</div>
+
+														
+															<div class="topbox width20 separator float-left">
+
+																			
+			<div class="mod-default">
+				<div class="module default">
+										<div class="module-2">
+						<div class="module-3">
+							<div class="module-4 deepest">
+																<div style="text-align: center;"><a target="_blank" href="/multimedia/homenaje_jorge_bernal_medina/"><img alt="Bernal" src="/images/stories/Bernal.jpg" height="146" width="146" /></a></div>							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+
+															</div>
+
+														
+															<div class="topbox width20 separator float-left">
+
+																			
+			<div class="mod-default">
+				<div class="module default">
+										<div class="module-2">
+						<div class="module-3">
+							<div class="module-4 deepest">
+																<br /><br />
+<div style="text-align: center;"><a href="http://www.bogotavaadelante.gov.co" target="_blank"><img src="/images/stories/logoBogotavaAdelante.jpg" alt="logoBogotavaAdelante" width="123" border="0" height="93" /></a></div>							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+
+															</div>
+
+														
+															<div class="topbox width20  float-left">
+
+																			
+			<div class="mod-default">
+				<div class="module ">
+											<div class="badge-new"></div>
+										<div class="module-2">
+						<div class="module-3">
+							<div class="module-4 deepest">
+																<div style="text-align: center;"><span class="box"><a href="/caja_de_herramientas/caja136/" target="_blank"><img src="/images/stories/logoCajadeHerramientas.png" alt="logoCajadeHerramientas" width="150" height="150" /></a></span></div>							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+
+															</div>
+
+														
+													
+																		
+
+												</div>
+
+											</div>
+
+											<!-- top end -->
+
+											
+
+
+											<div id="middle">
+
+												<div class="background">
+
+				
+
+													
+													<div id="left">
+
+														<div id="left_container" class="clearfix">
+
+																		
+			<div class="mod-default mod-menu">
+				<div class="module grey">
+										<div class="module-2">
+						<div class="module-3">
+							<div class="module-4 deepest">
+																<h3 class="module"><span class="module-2"><span class="module-3"><span class="color">Estrategias</span></span></span></h3>
+																<ul class="menu"><li class="level1 item2 first parent toggler"><span class="separator level1 item2 first parent"><span>Comunicación</span></span><ul class="accordion level2"><li class="level2 item1 first"><a href="/index.php?option=com_content&amp;view=article&amp;id=85&amp;Itemid=207" class="level2 item1 first"><span>Caja de Herramientas</span></a></li><li class="level2 item2"><a href="/index.php?option=com_content&amp;view=article&amp;id=160&amp;Itemid=208" class="level2 item2"><span>Historial Semanario Virtual</span></a></li><li class="level2 item3"><a href="/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=64&amp;Itemid=209" class="level2 item3"><span>Publicaciones Impresas</span></a></li><li class="level2 item4"><a href="/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=46&amp;Itemid=229" class="level2 item4"><span>Publicaciones Virtuales</span></a></li><li class="level2 item5"><a href="/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=47&amp;Itemid=210" class="level2 item5"><span>Radio</span></a></li><li class="level2 item6 last"><a class="level2 item6 last"><span>Comunicados de Prensa</span></a></li></ul></li><li class="level1 item3 parent toggler"><span class="separator level1 item3 parent"><span>Diplomacia Ciudadana</span></span><ul class="accordion level2"><li class="level2 item1 first"><a href="http://www.forumsocialmundial.org.br/" target="_blank" class="level2 item1 first"><span>Foro Social Mundial</span></a></li><li class="level2 item2"><a href="http://www.alop.or.cr/" target="_blank" class="level2 item2"><span>ALOP</span></a></li><li class="level2 item3 last"><a class="level2 item3 last"><span>EURALAT</span></a></li></ul></li><li class="level1 item4 parent toggler"><span class="separator level1 item4 parent"><span>Educación</span></span><ul class="accordion level2"><li class="level2 item1 first"><a href="/escuelas/" target="_blank" class="level2 item1 first"><span>Escuelas de Liderazgo</span></a></li><li class="level2 item2"><a class="level2 item2"><span>S.E.S</span></a></li><li class="level2 item3 last"><a class="level2 item3 last"><span>Foro Social Colombia</span></a></li></ul></li><li class="level1 item5 last parent toggler"><span class="separator level1 item5 last parent"><span>Lobbying y Presión Política</span></span><ul class="accordion level2"><li class="level2 item1 first"><a href="/index.php?option=com_content&amp;view=section&amp;layout=blog&amp;id=13&amp;Itemid=227" class="level2 item1 first"><span>Economico-Social</span></a></li><li class="level2 item2 last"><a href="/index.php?option=com_content&amp;view=section&amp;layout=blog&amp;id=14&amp;Itemid=228" class="level2 item2 last"><span>Jurídico-Política</span></a></li></ul></li></ul>							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+						
+			<div class="mod-default">
+				<div class="module default">
+										<div class="module-2">
+						<div class="module-3">
+							<div class="module-4 deepest">
+																<div id="flashContent">
+<object height="800" width="170" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,32,18" style="vertical-align: middle;" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000">
+<param name="quality" value="high" />
+<param name="play" value="true" />
+<param name="loop" value="true" />
+<param name="wmode" value="transparent" />
+<param name="scale" value="showall" />
+<param name="menu" value="true" />
+<param name="devicefont" value="false" />
+<param name="allowScriptAccess" value="sameDomain" />
+<param name="src" value="/media/menu_socias.swf" /><embed height="800" width="170" src="/media/menu_socias.swf" allowscriptaccess="sameDomain" devicefont="false" menu="true" scale="showall" wmode="transparent" loop="true" play="true" quality="high" style="vertical-align: middle;" type="application/x-shockwave-flash"></embed><span name="allowScriptAccess" value="sameDomain"></span>
+</object>
+</div>							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+						
+			<div class="mod-default">
+				<div class="module default">
+										<div class="module-2">
+						<div class="module-3">
+							<div class="module-4 deepest">
+																<div style="text-align: center;"><a href="/index.php?option=com_enhancedweblinks&amp;view=categories&amp;Itemid=232"><img alt="enlaces_img" src="/images/stories/enlaces_img.gif" width="170" height="100" /></a></div>							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+						
+			<div class="mod-color">
+				<div class="module blue">
+										<div class="module-2">
+						<div class="module-3">
+							<div class="module-4 deepest">
+																<center>
+<script type="text/javascript" src="http://widgets.amung.us/map.js"></script><script type="text/javascript">WAU_map('dxsydxbbp7jy', 170, 100, 'neosat', 'star-orange')</script>
+</center>
+
+<center><a href="http://whos.amung.us/show/dxsydxbbp7jy"><img src="http://whos.amung.us/swidget/dxsydxbbp7jy.gif" alt="site statistics" width="80" height="15" border="0" /></a> </center>							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+						
+			<div class="mod-color">
+				<div class="module blue">
+										<div class="module-2">
+						<div class="module-3">
+							<div class="module-4 deepest">
+																<!-- Vinaora Visitors Counter for Joomla! --><div id="vvisit_counter"><div><img src="http://www.viva.org.co/modules/mod_vvisit_counter/images/digit_counter/default/0.png" alt="mod_vvisit_counter" title="Vinaora Visitors Counter 2.0" /><img src="http://www.viva.org.co/modules/mod_vvisit_counter/images/digit_counter/default/0.png" alt="mod_vvisit_counter" title="Vinaora Visitors Counter 2.0" /><img src="http://www.viva.org.co/modules/mod_vvisit_counter/images/digit_counter/default/0.png" alt="mod_vvisit_counter" title="Vinaora Visitors Counter 2.0" /><img src="http://www.viva.org.co/modules/mod_vvisit_counter/images/digit_counter/default/0.png" alt="mod_vvisit_counter" title="Vinaora Visitors Counter 2.0" /><img src="http://www.viva.org.co/modules/mod_vvisit_counter/images/digit_counter/default/4.png" alt="mod_vvisit_counter" title="Vinaora Visitors Counter 2.0" /><img src="http://www.viva.org.co/modules/mod_vvisit_counter/images/digit_counter/default/8.png" alt="mod_vvisit_counter" title="Vinaora Visitors Counter 2.0" /><img src="http://www.viva.org.co/modules/mod_vvisit_counter/images/digit_counter/default/2.png" alt="mod_vvisit_counter" title="Vinaora Visitors Counter 2.0" /><img src="http://www.viva.org.co/modules/mod_vvisit_counter/images/digit_counter/default/1.png" alt="mod_vvisit_counter" title="Vinaora Visitors Counter 2.0" /><img src="http://www.viva.org.co/modules/mod_vvisit_counter/images/digit_counter/default/1.png" alt="mod_vvisit_counter" title="Vinaora Visitors Counter 2.0" /></div><div><table cellpadding="0" cellspacing="0" style="width: 90%;"><tbody><tr align="left"><td><img src="http://www.viva.org.co/modules/mod_vvisit_counter/images/stats/default/vtoday.png" alt="mod_vvisit_counter" title="2010-09-20" /></td><td>Hoy</td><td align="right">639</td></tr><tr align="left"><td><img src="http://www.viva.org.co/modules/mod_vvisit_counter/images/stats/default/vyesterday.png" alt="mod_vvisit_counter" title="2010-09-19" /></td><td>Ayer</td><td align="right">0</td></tr><tr align="left"><td><img src="http://www.viva.org.co/modules/mod_vvisit_counter/images/stats/default/vweek.png" alt="mod_vvisit_counter" title="2010-09-18 -&gt; 2010-09-20" /></td><td>Esta Semana</td><td align="right">639</td></tr><tr align="left"><td><img src="http://www.viva.org.co/modules/mod_vvisit_counter/images/stats/default/vlweek.png" alt="mod_vvisit_counter" title="2010-09-11 -&gt; 2010-09-18" /></td><td>Ultima semana</td><td align="right">7376</td></tr><tr align="left"><td><img src="http://www.viva.org.co/modules/mod_vvisit_counter/images/stats/default/vmonth.png" alt="mod_vvisit_counter" title="2010-08-31 -&gt; 2010-09-20" /></td><td>Este mes</td><td align="right">15875</td></tr><tr align="left"><td><img src="http://www.viva.org.co/modules/mod_vvisit_counter/images/stats/default/vlmonth.png" alt="mod_vvisit_counter" title="2010-08-01 -&gt; 2010-08-31" /></td><td>Ultimo mes</td><td align="right">12573</td></tr><tr align="left"><td><img src="http://www.viva.org.co/modules/mod_vvisit_counter/images/stats/default/vall.png" alt="mod_vvisit_counter" title="Vinaora Visitors Counter" /></td><td>Todos los dias</td><td align="right">48211</td></tr></tbody></table></div><hr/><div>We have:&nbsp;13 guests&nbsp;online<br />Su IP:&nbsp;129.25.29.158<br />Wget&nbsp;1.11.4,&nbsp;<br /> Hoy: Sep 21, 2010</div><div><a href="http://vinaora.com" target="_self" title="Vinaora Visitors Counter 2.0 for Joomla!">Visitors Counter</a></div></div>							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+
+														</div>
+
+													</div>
+
+													<!-- left end -->
+
+													
+									
+
+													<div id="main">
+
+														<div id="main_container" class="clearfix">
+
+							
+
+															
+				
+
+															<div id="mainmiddle" class="floatbox">
+
+				
+
+																
+												
+
+																<div id="content">
+
+																	<div id="content_container" class="clearfix">
+
+				
+
+																		
+																		<div id="contenttop" class="floatbox">
+
+				
+
+																			
+																				
+																					<div class="contenttopbox width100  float-left">
+
+																									
+			<div class="mod-tab">
+				<div class="module">
+					<div class="module-2">
+						<div class="module-3">
+							<div class="module-4">
+								<div class="module-5 deepest">
+																		<div class="header-container-1">
+										<div class="header-container-2">
+											<div class="header-l"></div>
+											<div class="header-r"></div>
+											<h3 class="module"><span class="color">Viva</span> en Twitter</h3>
+										</div>
+									</div>
+																		<div style="overflow: hidden;">
+										
+
+
+<div  style = "margin-top:0px; margin-bottom:0px; position:relative;left:0px;overflow:hidden;padding-left:0px; padding-right:0px; padding-top:0px; padding-bottom:0px;  background-color:;width:100%; "><br/><script src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 10,
+  interval: 10000,
+  width: 'auto',
+  height: 150,
+  theme: {
+    shell: {
+      background: '#e0dde0',
+      color: '#030303'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#000000',
+      links: '#0707eb'
+    }
+  },
+  features: {
+    scrollbar: true,
+    loop: false,
+    live: true,
+    hashtags: true,
+    timestamp: true,
+    avatars: true,
+    behavior: 'all'
+  }
+}).render().setUser('SemanarioViva').start();
+</script></div>									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+
+																					</div>
+
+																				
+																			
+								
+
+																		</div>
+
+																		<!-- contenttop end -->
+
+																		
+								
+
+																		
+																		<div id="breadcrumb">
+
+																			<span class="breadcrumbs pathway">
+Inicio</span>
+
+																		</div>
+
+																		
+												
+
+																		<div class="floatbox">
+
+																			
+
+																			<table class="blog" cellpadding="0" cellspacing="0">
+
+<tr>
+	<td valign="top">
+		<table width="100%"  cellpadding="0" cellspacing="0">
+		<tr>
+										<td valign="top" width="100%" class="article_column">
+				
+
+
+<table class="contentpaneopen">
+<tr>
+		<td class="contentheading" width="100%">
+					Informe revictimización al MOVICE			</td>
+	
+		<td align="right" width="100%" class="buttonheading">
+	<a href="/index.php?view=article&amp;catid=52:mesa-nacional-de-victimas&amp;id=174:informe-revictimizacion-al-movice&amp;format=pdf" title="PDF" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><img src="/templates/yoo_evolution/images/pdf_button.png" alt="PDF"  /></a>	</td>
+	
+		<td align="right" width="100%" class="buttonheading">
+	<a href="/index.php?view=article&amp;catid=52:mesa-nacional-de-victimas&amp;id=174:informe-revictimizacion-al-movice&amp;tmpl=component&amp;print=1&amp;layout=default&amp;page=" title="Imprimir" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><img src="/templates/yoo_evolution/images/printButton.png" alt="Imprimir"  /></a>	</td>
+	
+		</tr>
+</table>
+<table class="contentpaneopen">
+
+
+
+
+<tr>
+<td valign="top" colspan="2">
+
+<!-- BEGIN: ValAddThis Plugin -->
+<script charset="utf-8" type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js"></script>
+<script type="text/javascript" language="javascript">
+var addthis_localize = {
+				share_caption: "Compartir",
+				email_caption: "Mail a un amigo",
+				email: "Mail",
+				favorites: "Favoritos",
+				more: "Más..."
+			};
+var addthis_config = {ui_language: "es",services_compact: "facebook,twitter,googlebuzz,email,more",services_exclude: "digg",ui_hover_direction: false,ui_use_addressbook: false,data_track_linkback: false,data_use_flash: true,data_use_cookies: true,ui_use_embeddable_services_beta: false,data_ga_tracker: UA-16950448-1}; </script>
+<div class="addthis_toolbox">
+<div class="valaddthis_id174"><div class="addHoriz">
+<div><a class="addthis_button_facebook">&nbsp;</a></div>
+<div><a class="addthis_button_twitter">&nbsp;</a></div>
+<div><a class="addthis_button_googlebuzz">&nbsp;</a></div>
+<div><a class="addthis_button_email">&nbsp;</a></div>
+<div class="clearAddthis"></div>
+</div>
+</div>
+<script type="text/javascript">
+ addthis.toolbox(".valaddthis_id174", {}, {url: "http://www.viva.org.co/index.php?option=com_content&amp;view=article&amp;id=174:informe-revictimizacion-al-movice&amp;catid=52:mesa-nacional-de-victimas&amp;Itemid=228", title: "Informe revictimización al MOVICE", description: ""});
+</script></div>
+
+<!-- END: ValAddThis Plugin -->
+<div style="text-align: justify;">En sus cinco años de existencia el MOVICE ha podido consolidarse como un espacio que puede ofrecer alternativas viables en los procesos de exigibilidad de los derechos de las víctimas de crímenes de Estado en Colombia. A la vez, se ha posicionado como uno de los principales actores sociales y políticos que con voz propia ha venido confrontando las políticas del Gobierno y reclamando cambios estructurales en el Estado&nbsp;&nbsp; colombiano. Cambios que permitan obtener Verdad y Justicia y hacer viable un Estado Democrático como principal forma de reparación al conjunto del pueblo colombiano.</div>
+<div style="text-align: justify;">La labor en defensa de los derechos de las víctimas se ha desarrollado en un contexto de militarización de los espacios civiles y de la criminalización y estigmatización de la oposición política a nivel regional y nacional en el marco de la política denominada “Seguridad Democrática”.</div>
+<div style="text-align: justify;"></div>
+<div><a target="_blank" href="/pdfs/interior.pdf"><img style="display: block; margin-left: auto; margin-right: auto;" alt="ver_pdf" src="/images/stories/ver_pdf.jpg" width="95" height="38" /></a></div></td>
+</tr>
+
+
+
+</table>
+<span class="article_separator">&nbsp;</span>
+
+<table class="contentpaneopen">
+<tr>
+		<td class="contentheading" width="100%">
+				<a href="/index.php?option=com_content&amp;view=article&amp;id=173:memorias-cumbre-social-y-politica-2009&amp;catid=46:publicaciones-viva&amp;Itemid=229" class="contentpagetitle">
+			Memorias Cumbre Social y Politica 2009</a>
+			</td>
+	
+		<td align="right" width="100%" class="buttonheading">
+	<a href="/index.php?view=article&amp;catid=46:publicaciones-viva&amp;id=173:memorias-cumbre-social-y-politica-2009&amp;format=pdf" title="PDF" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><img src="/templates/yoo_evolution/images/pdf_button.png" alt="PDF"  /></a>	</td>
+	
+		<td align="right" width="100%" class="buttonheading">
+	<a href="/index.php?view=article&amp;catid=46:publicaciones-viva&amp;id=173:memorias-cumbre-social-y-politica-2009&amp;tmpl=component&amp;print=1&amp;layout=default&amp;page=" title="Imprimir" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><img src="/templates/yoo_evolution/images/printButton.png" alt="Imprimir"  /></a>	</td>
+	
+		</tr>
+</table>
+<table class="contentpaneopen">
+
+
+
+
+<tr>
+<td valign="top" colspan="2">
+
+<!-- BEGIN: ValAddThis Plugin -->
+<script charset="utf-8" type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js"></script>
+<script type="text/javascript" language="javascript">
+var addthis_localize = {
+				share_caption: "Compartir",
+				email_caption: "Mail a un amigo",
+				email: "Mail",
+				favorites: "Favoritos",
+				more: "Más..."
+			};
+var addthis_config = {ui_language: "es",services_compact: "facebook,twitter,googlebuzz,email,more",services_exclude: "digg",ui_hover_direction: false,ui_use_addressbook: false,data_track_linkback: false,data_use_flash: true,data_use_cookies: true,ui_use_embeddable_services_beta: false,data_ga_tracker: UA-16950448-1}; </script>
+<div class="addthis_toolbox">
+<div class="valaddthis_id173"><div class="addHoriz">
+<div><a class="addthis_button_facebook">&nbsp;</a></div>
+<div><a class="addthis_button_twitter">&nbsp;</a></div>
+<div><a class="addthis_button_googlebuzz">&nbsp;</a></div>
+<div><a class="addthis_button_email">&nbsp;</a></div>
+<div class="clearAddthis"></div>
+</div>
+</div>
+<script type="text/javascript">
+ addthis.toolbox(".valaddthis_id173", {}, {url: "http://www.viva.org.co/index.php?option=com_content&amp;view=article&amp;id=173:memorias-cumbre-social-y-politica-2009&amp;catid=46:publicaciones-viva&amp;Itemid=229", title: "Memorias Cumbre Social y Politica 2009", description: "Libro memorias cumbre social y politica realizada en el año 2009"});
+</script></div>
+
+<!-- END: ValAddThis Plugin -->
+<div style="text-align: justify;"><img style="margin-right: 5px; margin-bottom: 5px; float: left;" alt="memorias_lib" src="/images/stories/memorias_lib.jpg" width="146" height="208" />En este libro se compilan algunas de las propuestas que en los escenarios previos a la Cumbre Social y Política –realizada en 2009 en Bogotá- fueron deliberados públicamente. Así mismo, este libro presenta a la sociedad colombiana las conclusiones de los tres días de deliberación que culminó con las propuestas de una agenda para el país de cara a otra economía, otra política, otra democracia sobre la base de la justicia y la equidad.</div>
+<br />
+<div style="text-align: justify;">Para el logro de estos objetivos, se realizaron diversas mesas temáticas previas a la Cumbre en las que se discutieron los temas: Ingresos, Empleo, Ambiental, Asuntos Agrarios, Descentralización, Equilibrio de Poderes, Modelo económico, Política de Paz y agenda Internacional, de igual forma se realizaron Cumbres departamentales en Antioquia, Santander, Valle, Cauca, Bogotá, Boyacá, Sucre, Barranquilla, Manizales entre otras.</div>
+<div style="text-align: justify;">
+</td>
+</tr>
+
+
+<tr>
+	<td  colspan="2">
+		<a href="/index.php?option=com_content&amp;view=article&amp;id=173:memorias-cumbre-social-y-politica-2009&amp;catid=46:publicaciones-viva&amp;Itemid=229" class="readon">
+			Leer más...</a>
+	</td>
+</tr>
+
+</table>
+<span class="article_separator">&nbsp;</span>
+
+<table class="contentpaneopen">
+<tr>
+		<td class="contentheading" width="100%">
+					Monseñor Jaime Prieto Amaya apóstol del desarrollo humano			</td>
+	
+		<td align="right" width="100%" class="buttonheading">
+	<a href="/index.php?view=article&amp;catid=63:novedades&amp;id=172:monsenor-jaime-prieto-amaya-apostol-del-desarrollo-humano&amp;format=pdf" title="PDF" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><img src="/templates/yoo_evolution/images/pdf_button.png" alt="PDF"  /></a>	</td>
+	
+		<td align="right" width="100%" class="buttonheading">
+	<a href="/index.php?view=article&amp;catid=63:novedades&amp;id=172:monsenor-jaime-prieto-amaya-apostol-del-desarrollo-humano&amp;tmpl=component&amp;print=1&amp;layout=default&amp;page=" title="Imprimir" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><img src="/templates/yoo_evolution/images/printButton.png" alt="Imprimir"  /></a>	</td>
+	
+		</tr>
+</table>
+<table class="contentpaneopen">
+
+
+
+
+<tr>
+<td valign="top" colspan="2">
+
+<!-- BEGIN: ValAddThis Plugin -->
+<script charset="utf-8" type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js"></script>
+<script type="text/javascript" language="javascript">
+var addthis_localize = {
+				share_caption: "Compartir",
+				email_caption: "Mail a un amigo",
+				email: "Mail",
+				favorites: "Favoritos",
+				more: "Más..."
+			};
+var addthis_config = {ui_language: "es",services_compact: "facebook,twitter,googlebuzz,email,more",services_exclude: "digg",ui_hover_direction: false,ui_use_addressbook: false,data_track_linkback: false,data_use_flash: true,data_use_cookies: true,ui_use_embeddable_services_beta: false,data_ga_tracker: UA-16950448-1}; </script>
+<div class="addthis_toolbox">
+<div class="valaddthis_id172"><div class="addHoriz">
+<div><a class="addthis_button_facebook">&nbsp;</a></div>
+<div><a class="addthis_button_twitter">&nbsp;</a></div>
+<div><a class="addthis_button_googlebuzz">&nbsp;</a></div>
+<div><a class="addthis_button_email">&nbsp;</a></div>
+<div class="clearAddthis"></div>
+</div>
+</div>
+<script type="text/javascript">
+ addthis.toolbox(".valaddthis_id172", {}, {url: "http://www.viva.org.co/index.php?option=com_content&amp;view=article&amp;id=172:monsenor-jaime-prieto-amaya-apostol-del-desarrollo-humano&amp;catid=63:novedades&amp;Itemid=233", title: "Monseñor Jaime Prieto Amaya apóstol del desarrollo humano", description: ""});
+</script></div>
+
+<!-- END: ValAddThis Plugin -->
+<p style="text-align: center;"><strong>(1941 – 2010)</strong></p>
+<p style="text-align: center;"><strong><img alt="Jaime_Prieto_Amaya_01" src="/images/stories/Jaime_Prieto_Amaya_01.jpg" height="248" width="200" /><br /></strong></p>
+<p><strong> </strong></p>
+<p style="text-align: center;"><strong> </strong></p>
+<p><strong> </strong></p>
+<p><strong>Eliécer Soto Ardila, Pbro.</strong></p>
+<p><strong>Barrancabermeja – Santander</strong></p>
+<p style="text-align: justify;">Cuando el Padre Jaime Prieto Amaya fue ordenado Obispo y luego posesionado como Pastor propio de la Diócesis de Barrancabermeja, en diciembre de 1993, asumió en su escudo episcopal el lema Justicia y paz, con esto reflejaba un deseo de mantener su línea ministerial: El compromiso de la Evangelización desde la realidad social y la coherencia entre lo que durante su presbiterado proclamaba y demandaba de la misión pastoral de los clérigos desde sus tres grados jerárquicos y lo que sería su desempeño como Obispo.</p>
+<div style="text-align: justify;">
+</td>
+</tr>
+
+
+<tr>
+	<td  colspan="2">
+		<a href="/index.php?option=com_content&amp;view=article&amp;id=172:monsenor-jaime-prieto-amaya-apostol-del-desarrollo-humano&amp;catid=63:novedades&amp;Itemid=233" class="readon">
+			Leer más...</a>
+	</td>
+</tr>
+
+</table>
+<span class="article_separator">&nbsp;</span>
+
+<table class="contentpaneopen">
+<tr>
+		<td class="contentheading" width="100%">
+				<a href="/index.php?option=com_content&amp;view=article&amp;id=171:el-adios-al-amigo-al-hermano-al-companero&amp;catid=63:novedades&amp;Itemid=233" class="contentpagetitle">
+			El adiós al amigo, al hermano, al compañero…</a>
+			</td>
+	
+		<td align="right" width="100%" class="buttonheading">
+	<a href="/index.php?view=article&amp;catid=63:novedades&amp;id=171:el-adios-al-amigo-al-hermano-al-companero&amp;format=pdf" title="PDF" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><img src="/templates/yoo_evolution/images/pdf_button.png" alt="PDF"  /></a>	</td>
+	
+		<td align="right" width="100%" class="buttonheading">
+	<a href="/index.php?view=article&amp;catid=63:novedades&amp;id=171:el-adios-al-amigo-al-hermano-al-companero&amp;tmpl=component&amp;print=1&amp;layout=default&amp;page=" title="Imprimir" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><img src="/templates/yoo_evolution/images/printButton.png" alt="Imprimir"  /></a>	</td>
+	
+		</tr>
+</table>
+<table class="contentpaneopen">
+
+
+<tr>
+	<td valign="top" colspan="2" class="createdate">
+		Lunes, 23 de Agosto de 2010 17:19	</td>
+</tr>
+
+
+<tr>
+<td valign="top" colspan="2">
+
+<!-- BEGIN: ValAddThis Plugin -->
+<script charset="utf-8" type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js"></script>
+<script type="text/javascript" language="javascript">
+var addthis_localize = {
+				share_caption: "Compartir",
+				email_caption: "Mail a un amigo",
+				email: "Mail",
+				favorites: "Favoritos",
+				more: "Más..."
+			};
+var addthis_config = {ui_language: "es",services_compact: "facebook,twitter,googlebuzz,email,more",services_exclude: "digg",ui_hover_direction: false,ui_use_addressbook: false,data_track_linkback: false,data_use_flash: true,data_use_cookies: true,ui_use_embeddable_services_beta: false,data_ga_tracker: UA-16950448-1}; </script>
+<div class="addthis_toolbox">
+<div class="valaddthis_id171"><div class="addHoriz">
+<div><a class="addthis_button_facebook">&nbsp;</a></div>
+<div><a class="addthis_button_twitter">&nbsp;</a></div>
+<div><a class="addthis_button_googlebuzz">&nbsp;</a></div>
+<div><a class="addthis_button_email">&nbsp;</a></div>
+<div class="clearAddthis"></div>
+</div>
+</div>
+<script type="text/javascript">
+ addthis.toolbox(".valaddthis_id171", {}, {url: "http://www.viva.org.co/index.php?option=com_content&amp;view=article&amp;id=171:el-adios-al-amigo-al-hermano-al-companero&amp;catid=63:novedades&amp;Itemid=233", title: "El adiós al amigo, al hermano, al compañero…", description: ""});
+</script></div>
+
+<!-- END: ValAddThis Plugin -->
+<p style="text-align: center;"><img alt="Jorge_Bernal" src="/images/stories/Jorge_Bernal.jpg" height="233" width="233" /></p>
+<p style="text-align: justify;">Jorge Arturo Bernal, ¿qué podríamos decir ante tu partida?, simplemente, como dijo nuestro premio nobel Octavio paz y que te gustaba tanto escuchar: gracias. Gracias a la vida, como cantó otra grande recién ida la “Negra grande” que también te gustaba escuchar: Mercedes Sosa, gracias a la vida, por habernos permitido compartir, vivir, soñar.</p>
+<div style="text-align: justify;"></div>
+<p style="text-align: justify;">Ante tu partida, querido amigo, querido hermano, no nos queda más que darle gracias a la vida…porque por los infinitos caminos inexorables del destino nos permitió juntarnos, compartir, vivir, soñar. Indignarnos querido compañero por la pobreza, por la inequidad, por la falta del valor civil de indignarnos.</p>
+<div style="text-align: justify;"></div>
+<p style="text-align: justify;">Fuiste el ejemplo de la indignación, reclamaste siempre contra el derecho a las herencias sin afectar el mínimo vital de quien las poseía.</p>
+<div style="text-align: justify;"></div>
+<p style="text-align: justify;">Te hiciste a pulso, nadie te dio lo que no te merecías. Así se hacen las personas que realmente nos marcan en su existencia. Como dijo Octavio Paz gracias. Como dijo la negra grande de las américas gracias a la vida porque nos permitió conocerte, compartir contigo, disfrutar contigo de ese banquete que fue tu vida acompañada de tu radicalidad.</p>
+<div style="text-align: justify;"></div>
+<p style="text-align: justify;">Siempre compañero, como yo –como nosotros- solíamos decirte: robamos parte de tus pensamientos. Por ejemplo, la Cumbre Social y Política en 2009 tuvo tu inspiración… igual que como en 1999 ideaste la Cumbre Contra la Pobreza y por la Equidad. Creo que te lo dije –te lo dijimos- que habíamos tomado algunas ideas tuyas, te reíste, no son mías dijiste, son necesidades que este país tiene que reivindicar.</p>
+<div style="text-align: justify;"></div>
+<p style="text-align: justify;">Querido Jorge frente a los insondables misterios de la muerte, henos aquí. Ayúdanos a seguir con la firme convicción que tuviste y nos enseñaste: ¿cómo hacer para no defraudar a los desvalidos?, tener la fuerza de don Alonso Quijano, El Quijote, a quien todos dieron por loco. A ti también muchas veces te dijeron loco, te contradijeron por tu firme convicción de defender a esos pobres, a esos excluidos. Ayúdanos a comprender.</p>
+<div style="text-align: justify;"></div>
+<p style="text-align: justify;">Cuantas veces tuviste ideas que luego se manifestaron en realidades. Recordamos tu entusiasmo en el proceso constituyente de 1991. Tenías abundante pelo en ese entonces. Con Norberto Ríos y Antonio Madariaga viajabas a las 5 de la mañana cada 5 días a reunirte con nosotros en Bogotá, soñando, queriendo una vida mejor para el país. Una sociedad justa, más igualitaria. Un socialismo humano con libertades pero también con oportunidades.</p>
+<div style="text-align: justify;"></div>
+<p style="text-align: justify;">Recuerdo el último 11 de agosto. Agosto, querido amigo me cae mal. Fue el mes en que murió mi madre. También murió mi padre. También dos hermanos míos murieron en agosto. Lo cual, como diría Borges, simplemente son coincidencias del destino que nadie puede ordenar. En agosto querido compañero también partes. En aquel almuerzo del 11 de agosto, por cierto con Patricia Fernández, nos reímos y tú me entregaste tu último libro “Exclusión social y desigualdad en Medellín”. Estabas feliz, contento, como el ser pleno que llega al final de la jornada.</p>
+<div style="text-align: justify;"></div>
+<p style="text-align: justify;">Siempre tú lucha por la igualdad, siempre pensando en la democracia. Como lo comentamos muchas veces tú y yo y parafraseando a Carlos Marx, la estupidez no fue de quien dijo que este pedazo del planeta me pertenece –la propiedad privada sobre la tierra- la estupidez mayor fue de quienes lo aceptaron.</p>
+<div style="text-align: justify;"></div>
+<p style="text-align: justify;">Querido Jorge aquí estamos frente a tu cadáver, no ante tu inteligencia que nos legó más de quince o veinte libros y cientos de artículos…estamos ante todo, frente a un ejemplo de vida.</p>
+<div style="text-align: justify;"></div>
+<p style="text-align: justify;">Al final de tu jornada quiero decirte en nombre de Viva la Ciudadanía, de tus amigos, de tus amigas, como dijo el gran poeta gracias por habernos acompañado. Y por haber estado con nosotros</p>
+<div style="text-align: justify;"></div>
+<p style="text-align: justify;"><strong><em>Pedro Santana Rodríguez</em></strong></p>
+<div style="text-align: justify;"></div>
+<p style="text-align: justify;"><strong><em>Presidente Corporación Viva la Ciudadanía</em></strong></p>
+<p> </p>
+<p style="text-align: center;">La celebración por la vida de Jorge será el martes 24 de agosto, a las 3:00 pm, en Campos de Paz.</p>
+<p style="text-align: center;">Calle 2 Sur N° 65 – 263 de la ciudad de Medellín. Tel: 074 2853300</p></td>
+</tr>
+
+
+
+</table>
+<span class="article_separator">&nbsp;</span>
+</td>
+								
+		</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td valign="top">
+		<div class="blog_more">
+			<div>
+	<strong>Más artículos...</strong>
+</div>
+<ul>
+	<li>
+		<a class="blogsection" href="/index.php?option=com_content&amp;view=article&amp;id=170:comunicado-de-prensa-audiencia-nacional-de-victimas-del-conflicto-armado&amp;catid=52:mesa-nacional-de-victimas&amp;Itemid=228">
+			Comunicado de Prensa Audiencia Nacional de Víctimas del Conflicto Armado</a>
+	</li>
+	<li>
+		<a class="blogsection" href="/index.php?option=com_content&amp;view=article&amp;id=169:primer-encuentro-distrital-de-beneficiarios-de-la-tutela&amp;catid=60:regionales&amp;Itemid=234">
+			Primer Encuentro Distrital de Beneficiarios de la Tutela</a>
+	</li>
+	<li>
+		<a class="blogsection" href="/index.php?option=com_content&amp;view=article&amp;id=168:programacion-primer-encuentro-distrital-de-beneficiarios-de-la-tutela&amp;catid=60:regionales&amp;Itemid=234">
+			Programación Primer Encuentro Distrital de Beneficiarios de la Tutela</a>
+	</li>
+	<li>
+		<a class="blogsection" href="/index.php?option=com_content&amp;view=article&amp;id=167:resultado-foro-internacional-de-desarrollo-economico-productividad-y-competitividad-para-ciudades&amp;catid=67:bogota-va-adelante-ivienes&amp;Itemid=227">
+			Resultado Foro Internacional de Desarrollo Económico, Productividad y Competitividad para Ciudades</a>
+	</li>
+</ul>
+		</div>
+	</td>
+</tr>
+
+<tr>
+	<td valign="top" align="center">
+		&lt;&lt; <span class="pagenav">Inicio</span> &lt; <span class="pagenav">Prev</span> <span class="pagenav">1</span> <a title="2" href="/index.php?limitstart=4" class="pagenav">2</a> <a title="3" href="/index.php?limitstart=8" class="pagenav">3</a> <a title="4" href="/index.php?limitstart=12" class="pagenav">4</a> <a title="5" href="/index.php?limitstart=16" class="pagenav">5</a> <a title="Próximo" href="/index.php?limitstart=4" class="pagenav">Próximo</a> &gt; <a title="Fin" href="/index.php?limitstart=16" class="pagenav">Fin</a> &gt;&gt;		<br /><br />
+	</td>
+</tr>
+<tr>
+	<td valign="top" align="center">
+		Página 1 de 5	</td>
+</tr>
+</table>
+
+
+																		</div>
+
+								
+
+																		
+				
+
+																	</div>
+
+																</div>
+
+																<!-- content end -->
+
+								
+
+															</div>
+
+															<!-- mainmiddle end -->
+
+						
+
+															
+				
+
+														</div>
+
+													</div>
+
+													<!-- main end -->
+
+				
+
+												</div>
+
+											</div>
+
+											<!-- middle end -->
+
+											
+
+											
+											<div id="bottom">
+
+												<div class="floatbox ie_fix_floats">
+
+													
+
+													
+														
+															<div class="bottombox width25 separator float-left">
+
+																			
+			<div class="mod-default">
+				<div class="module default">
+										<div class="module-2">
+						<div class="module-3">
+							<div class="module-4 deepest">
+																<div style="text-align: center;"><a href="/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=54&amp;Itemid=230"><img alt="Red_nacional_de_planeacion_local_y_presupuestacin_participativa" src="/images/stories/Red_nacional_de_planeacion_local_y_presupuestacin_participativa.png" height="200" width="200" /></a></div>							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+
+															</div>
+
+														
+															<div class="bottombox width25 separator float-left">
+
+																			
+			<div class="mod-default">
+				<div class="module default">
+										<div class="module-2">
+						<div class="module-3">
+							<div class="module-4 deepest">
+																<div style="text-align: center;"><img alt="Presupuestos_participativos_barranca_ocana" src="/images/stories/Presupuestos_participativos_barranca_ocana.png" width="200" height="200" /></div>							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+
+															</div>
+
+														
+															<div class="bottombox width25 separator float-left">
+
+																			
+			<div class="mod-default">
+				<div class="module default">
+										<div class="module-2">
+						<div class="module-3">
+							<div class="module-4 deepest">
+																<div style="text-align: center;"><a target="_blank" href="http://mesanacionaldevictimas.blogspot.com/"><img alt="Mesa_nacional_de_victimas" src="/images/stories/Mesa_nacional_de_victimas.png" width="200" height="200" /></a></div>							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+
+															</div>
+
+														
+															<div class="bottombox width25  float-left">
+
+																			
+			<div class="mod-default">
+				<div class="module default">
+										<div class="module-2">
+						<div class="module-3">
+							<div class="module-4 deepest">
+																<div style="text-align: center;"><a href="/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=53&amp;Itemid=225"><img alt="Comision_de_seguimiento_a_la_politica_publica_del_desplazamiento_forzado" src="/images/stories/Comision_de_seguimiento_a_la_politica_publica_del_desplazamiento_forzado.png" width="200" height="200" /></a></div>							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+
+															</div>
+
+														
+													
+													
+
+													
+															
+
+												</div>
+
+											</div>
+
+											<!-- bottom end -->
+
+											
+
+
+											<div id="footer">
+
+												<a class="anchor" href="#page">&nbsp;</a>
+
+												Copyright © 2010 <a href="http://www.viva.org.co">Corporación Viva La Ciudadanía</a>
+
+												
+
+											</div>
+
+											<!-- footer end -->
+
+
+
+											</div>
+
+										</div>		
+
+									</div>
+
+								</div>		
+
+							</div>
+
+						</div>
+
+					</div>
+
+					<!-- wrapper end -->
+
+
+
+				</div>		
+
+			</div>
+
+		</div>		
+
+	</div>
+
+	<!-- page-body end -->
+
+
+
+</body>
+
+</html>

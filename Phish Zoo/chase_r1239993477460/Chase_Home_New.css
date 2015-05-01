@@ -1,0 +1,114 @@
+P {
+	FONT-SIZE: 70%; FONT-FAMILY: arial
+}
+.pageWidth {
+	WIDTH: 779px
+}
+.gheader_logo_pad {
+	PADDING-LEFT: 2px; PADDING-BOTTOM: 0px; PADDING-TOP: 5px
+}
+.gheader_logo_margin {
+	MARGIN: 15px 17px
+}
+.gheader_gnav_font {
+	FONT-SIZE: 70%; PADDING-BOTTOM: 5px; VERTICAL-ALIGN: middle; COLOR: #666666; PADDING-TOP: 10px; FONT-FAMILY: arial
+}
+A.gheader_gnav__bold_link:link {
+	FONT-WEIGHT: bold; COLOR: #074580; TEXT-DECORATION: none
+}
+A.gheader_gnav__bold_link:visited {
+	FONT-WEIGHT: bold; COLOR: #074580; TEXT-DECORATION: none
+}
+A.gheader_gnav__bold_link:active {
+	FONT-WEIGHT: bold; COLOR: #074580; TEXT-DECORATION: underline
+}
+A.gheader_gnav__bold_link:hover {
+	FONT-WEIGHT: bold; COLOR: #074580; TEXT-DECORATION: underline
+}
+A.gheader_gnav_link:link {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+A.gheader_gnav_link:visited {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+A.gheader_gnav_link:active {
+	COLOR: #666666; TEXT-DECORATION: underline
+}
+A.gheader_gnav_link:hover {
+	COLOR: #666666; TEXT-DECORATION: underline
+}
+.inputTextBox {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 2px 0px; VERTICAL-ALIGN: top; PADDING-TOP: 2px
+}
+.homeLinkBoxB {
+	MARGIN: 10px 0px 0px 10px
+}
+.headerPic {
+	MARGIN-LEFT: 10px; MARGIN-RIGHT: 10px
+}
+.homeLinkBoxC {
+	MARGIN: 0px 0px 0px 10px; COLOR: #666666
+}
+.homeLinkBoxD {
+	PADDING-LEFT: 20px; MARGIN: 0px; COLOR: #666666
+}
+.homeLinkBox2B {
+	FONT-SIZE: 0.7em; MARGIN: 0px 10px 3px; FONT-FAMILY: arial
+}
+A.homeLinks:link {
+	COLOR: #095aa6; TEXT-DECORATION: none
+}
+A.homeLinks:visited {
+	COLOR: #095aa6; TEXT-DECORATION: none
+}
+A.homeLinks:active {
+	COLOR: #095aa6; TEXT-DECORATION: underline
+}
+A.homeLinks:hover {
+	COLOR: #095aa6; TEXT-DECORATION: underline
+}
+.newsBox {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 20px; PADDING-BOTTOM: 0px; COLOR: #666666; PADDING-TOP: 10px
+}
+.newsBox2 {
+	FONT-SIZE: 0.7em; MARGIN: 3px 10px 10px; FONT-FAMILY: arial
+}
+.newsBox3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 20px; PADDING-BOTTOM: 0px; COLOR: #666666; PADDING-TOP: 5px
+}
+.bizBox1 {
+	FONT-SIZE: 0.7em; LEFT: 17px; MARGIN-BOTTOM: -10px; WIDTH: 118px; FONT-FAMILY: arial; POSITION: relative; TOP: -20px
+}
+.bizBox2 {
+	FONT-SIZE: 0.7em; LEFT: 17px; MARGIN-BOTTOM: -10px; WIDTH: 165px; FONT-FAMILY: arial; POSITION: relative; TOP: -20px
+}
+.home_bottom_adbox {
+	TEXT-ALIGN: center
+}
+.heightBase1 {
+	HEIGHT: 60px
+}
+.heightBase3 {
+	HEIGHT: 160px
+}
+.heightBase2 {
+	HEIGHT: 120px
+}
+.heightBase4 {
+	HEIGHT: 90px
+}
+.copyright {
+	MARGIN-TOP: 20px; FONT-SIZE: 70%; MARGIN-BOTTOM: 10px; COLOR: #666666; FONT-FAMILY: arial; TEXT-ALIGN: center
+}
+.footerHome {
+	MARGIN-TOP: 10px; BACKGROUND-IMAGE: url(footer_gradient.gif); WIDTH: 100%; BACKGROUND-REPEAT: repeat-x
+}
+.pwdTextBox {
+	WIDTH: 100px
+}
+.pageText {
+	FONT: 0.7em Arial, Helvetica, sans-serif; COLOR: #666666
+}
+.dashes5 {
+	BACKGROUND-POSITION: left bottom; FONT-SIZE: 1px; BACKGROUND-IMAGE: url(bk-dash.gif); MARGIN-BOTTOM: 5px; MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px; BACKGROUND-REPEAT: repeat-x; HEIGHT: 4px
+}

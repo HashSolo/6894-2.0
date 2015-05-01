@@ -1,0 +1,296 @@
+ <html lang="en">
+	<head>
+		
+	<title>Home Moschini Productions</title>
+	<LINK REL="SHORTCUT ICON" HREF="_media/graphics/icons/moschini.ico">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta name="generator" content="phi by powersimple" />
+	<meta name ="author" content="" />
+	<!--
+		 Published by Powersimple
+	 -->
+		<link rel="Stylesheet" rev="Stylesheet" href="_css/main.css?r=14" type="text/css" media="screen" charset="UTF-8" />
+		<link rel="Stylesheet" rev="Stylesheet" href="_css/custom.css?r=38" type="text/css" media="screen" charset="UTF-8" />
+		<link rel="Stylesheet" rev="Stylesheet" href="_interface/form/validation/validation.css?r=859" type="text/css" media="Screen" charset="UTF-8" />
+		<link rel="Stylesheet" rev="Stylesheet" href="_css/print.css?r=681" type="text/css" media="print" charset="UTF-8" />
+
+	<script language="JavaScript" src="_js/common.js" type="text/javascript"></script>
+
+	<script language="JavaScript" src="_js/mt111.js" type="text/javascript"></script>
+
+	<script language="JavaScript" src="_js/moodalBox.js" type="text/javascript"></script>
+		<script language="JavaScript" src="_modules/_inc/library/dhtml/roundedCorners.js" type="text/javascript"></script>
+		<script language="JavaScript" src="_modules/_inc/library/dhtml/table-sort.js" type="text/javascript"></script>
+		<script language="JavaScript" src="_modules/_inc/library/dhtml/swfupload/directoryManager/handlers.js" type="text/javascript"></script>
+		<script language="JavaScript" src="_modules/_inc/library/dhtml/swfupload/directoryManager/swfupload.js" type="text/javascript"></script>
+	</head>
+	<body>
+<table align="center" width="960" cellpadding="0" cellspacing="0">
+	<tr>
+	    <td id="header" valign="top">
+         	<table width="100%" cellpadding="0" cellspacing="0">
+       		 <tr>
+                <td rowspan="2" valign="top" id="psHeader"><a href="index.php"><img border="0" src="_media/graphics/header/logo.gif" /></a></td>
+
+                <td id="psLogin" valign="bottom" align="right">
+ <a href="https://moschinipro.com/login.php">Account Login</a>
+
+                </td>
+            </tr>
+			<tr>
+
+
+                <td id="psMainMenu"><div align="right">
+	<ul><li class="selectedmenuLevel0">
+    <a tabindex="" href="index.php"><img title="Home" border="0" src="_media/graphics/header/home_over.gif" /></a>
+</li>
+<li class="menuLevel0">
+    <a tabindex="2" href="showcase.php"><img title="Showcase" onMouseOver=" this.src='_media/graphics/header/showcase_over.gif';" onMouseOut=" this.src='_media/graphics/header/showcase.gif';" border="0" src="_media/graphics/header/showcase.gif" /></a>
+</li>
+<li class="menuLevel0">
+    <a tabindex="4" href="talent.php"><img title="Talent" onMouseOver=" this.src='_media/graphics/header/talent_over.gif';" onMouseOut=" this.src='_media/graphics/header/talent.gif';" border="0" src="_media/graphics/header/talent.gif" /></a>
+</li>
+<li class="menuLevel0">
+    <a tabindex="6" href="locations.php"><img title="Locations" onMouseOver=" this.src='_media/graphics/header/locations_over.gif';" onMouseOut=" this.src='_media/graphics/header/locations.gif';" border="0" src="_media/graphics/header/locations.gif" /></a>
+</li>
+<li class="menuLevel0">
+    <a tabindex="8" href="vehicles.php"><img title="Vehicles" onMouseOver=" this.src='_media/graphics/header/vehicles_over.gif';" onMouseOut=" this.src='_media/graphics/header/vehicles.gif';" border="0" src="_media/graphics/header/vehicles.gif" /></a>
+</li>
+<li class="menuLevel0">
+    <a tabindex="10" href="contact.php"><img title="Contact" onMouseOver=" this.src='_media/graphics/header/contact_over.gif';" onMouseOut=" this.src='_media/graphics/header/contact.gif';" border="0" src="_media/graphics/header/contact.gif" /></a>
+</li>
+</ul>
+</div>
+</td>
+            </tr>
+             <tr><td height="10" class="space" colspan="2"></td></tr>
+			</table>
+        </td>
+	</tr>
+	<tr>
+        <td valign="top" id="page">
+			<table width="100%" cellpadding="0" cellspacing="0">
+			<tr class="info">
+				<td id="psCastingContent" valign="top" align="center">
+<h1><a href="talent.php">SEARCH FOR TALENT</a>
+</h1>
+
+
+
+
+<p>
+
+</p>
+
+
+</td>
+				<td id="psLocationsContent" valign="top" align="center">
+<h1><a href="locations.php">SEARCH FOR LOCATIONS</a>
+</h1>
+
+
+
+
+<p>
+
+</p>
+
+
+</td>
+				<td id="psVehiclesContent" valign="top" align="center">
+<h1><a href="vehicles.php">SEARCH FOR VEHICLES</a>
+</h1>
+
+
+
+
+<p>
+
+</p>
+
+
+</td>
+			</tr>	
+			 <tr id="homeMainNav">
+			<td valign="top" width="33%" align="center" class="dynamicPhoto">
+				<div id="psHomeTalent">
+ <table><tr><td>
+					<a href="talent.php?mode=1&code=T254713">
+						<img src="library/talent/Female/Caucasian/0016/moschinipro-T254713.jpg" width="300" height="450" border="0"/>
+					</a>
+					</td></tr></table></div>
+			</td>
+			<td valign="top" width="33%" align="center" class="dynamicPhoto">
+				<div id="psHomeLocations">
+ <table></table><table><tr><td>
+					<a href="locations.php?mode=2&code=L100354">
+						<img src="library/location/NYC/196/moschinipro-L100354-003.jpg" width="300" height="201" border="0"/>
+					</a>
+					</td></tr></table></div>    
+			</td>
+			<td valign="top" width="33%" align="center" class="dynamicPhoto">
+				<div id="psHomeVehicles">
+ <table><tr><td>
+					<a href="vehicles.php?mode=3&code=V11390">
+						<img src="library/vehicle/AUTOMOBILE/11390/moschinipro-V11390-001.jpg" width="300" height="205" border="0"/>
+					</a>
+					</td></tr></table></div>    
+			</td>
+			
+		    </tr>
+			
+       		 <tr class="info">          
+
+
+                <td id="psHomeBlurbs" valign="top" width="32%">
+
+
+
+<h2>
+Services we provide:
+</h2>
+
+
+
+
+<ul>
+
+<li>Location Scouting</li>
+<li>Full Production</li> 
+<li>Production Assistance</li>
+<li>Casting</li>
+<li>Permits</li>
+<li>Travel Arrangements</li>
+<li>Insurance</li>
+<li>Crew</li>
+<li>Catering</li>
+<li>Budgeting and Estimates</li>
+
+
+
+</ul>
+</td>
+                <td id="psContent" valign="top" width="33%">
+
+
+
+<h2>
+WHO WE ARE
+</h2>
+
+
+
+
+
+
+<p align="left">
+Moschini Production is a full-service production company created with the specific intent to provide fluid, efficient and constructive production services to advertising, fashion, editorial, video and film clients.
+</p>
+
+
+
+
+
+
+<h2>
+WHAT WE DO
+</h2>
+
+
+
+
+
+
+<p>
+We do it all, and it's done on time, within your budget, and with all the style and charisma that you would expect.  Take a look at our <a href="showcase.php">Showcase</a> to get a sampling of what we have done.
+</p>
+
+
+</td>
+		<td id="homeRight" valign="top" width="33%">
+			<div id="psFeatured">
+ <div id="featuredImage"><h2 class="blurb" align="center"> 
+					
+					<a href="locations.php?mode=2&code=L254768">
+
+					Featured Location:L254768
+<br /><br />
+							<img src="library/location/NJ/000003/moschinipro-L254768-086.jpg" width="150" height="113" border="0" align="center" />
+					</a>
+
+					
+					
+					</h2>
+					</div></div>
+			<div id="psRegister">
+
+
+
+<h2>
+Create Your Own Portfolios
+</h2>
+
+
+
+
+
+
+<p>
+<a href="account.php?register=1">Register</a> for free and gain access to special site features which allow you to create your own portfolios from search results you collect.
+</p>
+
+
+
+
+
+
+<h2>
+JOIN OUR CASTING CALL LIST
+</h2>
+
+
+
+
+
+
+<p>
+Sign up to have casting calls e-mailed to you.
+</p>
+
+
+</div>
+		</td>
+
+            </tr>
+			</table>
+		</td>
+	</tr>
+
+
+	<tr>
+    	<td id="footer">
+			<table width="100%" cellpadding="0" cellspacing="0">
+       		 <tr>
+
+                <td id="displayAddress"></td>
+                <td id="psEmail" align="center"><a href="mailto:info@moschini.com"><img onMouseOver=" this.src='_media/graphics/footer/email_over.gif';" onMouseOut=" this.src='_media/graphics/footer/email.gif';" border="0" src="_media/graphics/footer/email.gif" /></a></td>
+                <td id="psSitemap" align="center"><a tabindex="12" href="sitemap.htm"><img title="sitemap" onMouseOver=" this.src='_media/graphics/footer/sitemap_over.gif';" onMouseOut=" this.src='_media/graphics/footer/sitemap.gif';" border="0" src="_media/graphics/footer/sitemap.gif" /></a></td>
+            </tr>
+			</table>
+		</td>
+    </tr>
+
+</table>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-3370320-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+	</body>
+</html>

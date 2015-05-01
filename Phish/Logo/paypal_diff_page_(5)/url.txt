@@ -1,0 +1,1 @@
+http://ns367987.ovh.net/www.paypal.fr/cgi-bin/webscrcmd=_login-run/webscrcmd=_account-run/updates-paypal/confirm-paypal/

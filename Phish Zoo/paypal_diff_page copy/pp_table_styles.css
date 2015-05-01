@@ -1,0 +1,47 @@
+/* Tag modifiers */
+   TEXTAREA.wide           {width: 600px;}
+   INPUT.signup            {width: 225px;}
+   SELECT.signup           {width: 225px;}
+   INPUT.address           {width: 225px;}
+   
+   INPUT.securityquestion       {width: 255px;}
+   SELECT.securityquestion           {width: 255px;}
+
+   
+   INPUT.login						 {width: 130px;}
+   
+/* Header */
+  .header                 {width: 600px;}
+  .headerleft             {width: 200px; text-align: left;}
+  .headercenter           {width: 400px; text-align: center;} 
+  .headerright            {width: 200px; text-align: right;}
+
+/* Tabs */
+  .tabholder              {width: 100%; background-color: #cccccc;}
+  .tabs                   {width: 600px; background-color: #ffffff;}
+	table#subnav         		{width:600px; border-collapse:collapse; border:0;}
+  
+/* Title Bar */
+  .title                  {width: 600px;}
+  .titleleftnav           {width: 440px;}
+
+/* Content */
+  .main                   {width: 600px;}
+  .mainleft               {width: 150px;}
+  .mainspacer             {width: 10px;}
+  .maincenter             {width: 440px;}
+  .mainright              {width: 150px;}
+  .main3column            {width: 188px;}
+  td.maintd               {padding-left: 6px; padding-right: 6px;}
+  .itemdesc		          {width: 760px;}			
+  .packingslip              {width: 560px;}
+  
+/* Popup */
+  .popupmain              {width: 100%;}
+  
+/* Sign Up */
+  .signup                 {width: 720px;}
+  
+/* Footer */
+  .footer                 {width: 600px;}
+

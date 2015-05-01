@@ -1,0 +1,16 @@
+@import url("kaka.css");
+
+/* For IE 5.2 Mac Only */
+/*\*//*/
+  @import "asa.css";
+/**/ 
+
+/* For IE 5.0 Win Only */
+@media tty {
+ i{content:"\";/*" "*/}}; @import 'alo.css'; {;}/*";}
+}/* */
+
+/* For IE 5.5 Win Only */
+@media tty {
+ i{content:"\";/*" "*/}}@m; @import 'alo.css'; /*";}
+}/* */

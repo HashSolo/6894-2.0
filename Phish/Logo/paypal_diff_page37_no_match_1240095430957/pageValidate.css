@@ -1,0 +1,6 @@
+#xptContentContainer td.globalButtons input.primaryButton {background:#FFAA2B url(/WEBSCR-570-20090409-1/en_US/i/btn/btn_main_1x50.gif) repeat-x scroll left top;border:1px solid #FF9900;color:#FFFFFF; font-family:Arial;font-size:12px;font-weight:bold;height:22px;margin:0px 5px 0px 155px !important;padding:auto  !important;width:auto;letter-spacing:0px;}
+#xptContentContainer td.globalButtons input.primaryButtonDisabled{background:#FFAA2B url(/WEBSCR-570-20090409-1/en_US/i/btn/btn_main_1x50.gif) repeat-x scroll left top;border:1px solid #FF9900;color:#cccccc;font-family:Arial;font-size:12px;font-weight:bold;height:22px;margin:0px 5px 0px 155px !important;padding:auto  !important;width:auto;letter-spacing:0px;}
+#xptContentContainer .formTable Input,select{font:normal 12px Arial;border:1px solid #336699;}
+
+#xptContentContainer select#ach_id {width: auto;}
+#xptContentContainer img#creditCardImage {float:right; margin: -35px 0 0 252px;_margin-left:254px;}

@@ -1,0 +1,488 @@
+﻿/*--NAVIGATION WRAP--*/
+#sidebar {
+	float:left;
+	width:240px;
+	margin:0 0 0 0;
+	padding:0px 0 50px 0;}
+
+
+/*--NAVIGATION PANEL--*/
+#sidebar h4 {
+	color:#ffffff;
+	margin:0;
+	padding:12px 11px 12px 11px;
+	}
+
+#sidebar h4.PanelNavListHdr1 {
+	background: url(http://www.hsbc.co.uk/1/themes/html/hsbc_ukpersonal/images/nav_separator.gif) no-repeat top left;}
+
+#sidebar a,
+#sidebar a:link,
+#sidebar a:visited,
+#sidebar a:active {
+	color:#ffffff;
+	text-decoration:none;}
+
+#sidebar a:hover {
+	color:#f5e3e3;
+	text-decoration:underline;}
+
+
+/*--GENERAL - FORM WRAP--*/
+#sidebar #login,
+#sidebar #inetLogoffWrap,
+#sidebar #inetLogoffWrap2,
+#sidebar #searchbox,
+#sidebar #optionbox,
+#sidebar #newsletter,
+#sidebar #ourworldbox,
+#sidebar #ourworld,
+#sidebar #greyBoxArea {
+	float:left;
+	width:240px;
+	margin:0;
+	padding:0;
+	color:#ffffff;}
+
+#searchbox label {
+	display:none;
+}
+
+#sidebar label {
+	float:left;
+	font-size:130%;
+	font-weight:bold;
+	padding-left:11px;
+	padding-bottom:8px;
+}
+
+#sidebar span.label {
+	font-size:130%;
+	font-weight:bold;
+	padding-left:11px;
+	padding-bottom:8px;
+}
+
+#sidebar label.signup {
+	float:left;
+	font-size:110%;
+	font-weight:bold;
+	padding-left:11px;
+	padding-bottom:8px;}
+
+/*--LOGON --*/
+#sidebar #login {
+	background:#C90200 url(http://www.hsbc.co.uk/1/themes/html/hsbc_ukpersonal/images/BGnav_blend_pib_01.gif) no-repeat top left;
+	padding:0;
+	}
+
+#sidebar #login h3 {
+	color: #fff;
+	font-size: 130%;
+	margin: 10px 0 5px 0;
+	padding: 0 0 0 11px;
+	}
+
+#sidebar #login h3.loggedInHeaderText {font-size:85%;}
+
+#sidebar #login p {float: left;}
+
+#sidebar #login form, #sidebar #login form fieldset {
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 4px 0px;
+	border:0px;}
+
+#sidebar #login form fieldset {
+	padding:0px 0px 5px 0px;
+	float:none;}
+
+#sidebar #login form#loginpersonalform,
+#sidebar #login form#loginbusinessform,
+#sidebar #login form#loginform {
+	width:240px;
+	clear:both;}
+
+#sidebar #login form#loginbusinessform {
+	float:left;
+	padding:0 0 6px 0;
+	margin:0;
+	}
+
+#sidebar #login form#loginbusinessform  .clearfix {
+	float:left ! important;
+	padding:0;
+	margin:0;
+	}
+
+#sidebar #login form#loginform button#logoff { margin-bottom:0;}
+
+#sidebar #login label {
+	padding-bottom: 0;
+	padding-top: 4px;
+	width:150px;}
+
+#sidebar #login label.noPadding {
+	padding:0px 0px 0px 0px;
+	width:160px;}
+
+#sidebar #login #logonPer,
+#sidebar #login #logonBiz,
+#sidebar #login #logoff {
+	float:right;
+	margin:0 15px 0 0px;
+	padding:0px;
+	background: url(http://www.hsbc.co.uk/1/themes/html/hsbc_ukpersonal/images/nav_logon.gif) no-repeat 0 0;
+	width:63px;
+	height:23px;
+	border:none;
+	cursor:pointer;}
+
+#sidebar #login #logoff {
+	background: url(http://www.hsbc.co.uk/1/themes/html/hsbc_ukpersonal/images/nav_logoff.gif) no-repeat 0 0;
+	width:65px;
+	margin-bottom: 5px;}
+
+#sidebar #login .next_notch {
+	float:left;
+	background-image:url(http://www.hsbc.co.uk/1/themes/html/hsbc_ukpersonal/images/BGnav_top_notch.gif);
+	background-position:top;
+	background-repeat:no-repeat;
+	/*background-color:#c30000;*/
+	padding-top:10px;}
+
+/*--LOGOFF WRAP--*/
+#sidebar #inetLogoffWrap,
+#sidebar #inetLogoffWrap2 {
+	padding-bottom:3px;
+	background:#a60000 url(http://www.hsbc.co.uk/1/themes/html/hsbc_ukpersonal/images/BGnav_how_top.gif) no-repeat bottom left;}
+
+#sidebar #inetLogoffWrap2 {
+	padding-top:6px;
+	padding-bottom:3px;
+	background:#a60000 url(http://www.hsbc.co.uk/1/themes/html/hsbc_ukpersonal/images/section_secure_right.gif) no-repeat top left;}
+
+
+/*--REGISTER LIST--*/
+#sidebar #login p
+{
+	font-weight: bold;
+	margin: 10px 10px 0 10px;}
+
+#sidebar #login ul {
+	float:left;
+	width:240px;
+	background:#9c0000 url(http://www.hsbc.co.uk/1/themes/html/hsbc_ukpersonal/images/BGnav_bottom_notch.gif) no-repeat bottom left;
+	margin:0;
+	padding:0;
+	min-height:22px; /* See also ie6orless.css for height */
+}
+
+#sidebar #login .next_notch ul {
+	background-color:#9c0000;
+	background-image:url(http://www.hsbc.co.uk/1/themes/html/hsbc_ukpersonal/images/transparent_dot.gif);
+	min-height:19px; /* See also ie6orless.css for height */}
+
+#sidebar #login li	{
+	float:left;
+	/*display:inline;*/
+	margin:0;
+	padding:5px 15px 4px 10px;
+	list-style-type: none;
+	font-size:90%;
+	background: transparent url(http://www.hsbc.co.uk/1/themes/html/hsbc_ukpersonal/images/BGnav_sm_arrow.gif) no-repeat right;
+	border-left:0px ! important;
+	border-right: 1px solid #CE0002 ! important;
+	line-height: 2em;}
+
+
+#sidebar #login li.last {
+	border-left:0px ! important;
+	border-right:0px ! important;}
+
+
+
+/*--SEARCH WRAP--*/
+#sidebar #searchbox {
+	padding:12px 0 4px 0;
+	margin:0;
+}
+
+#sidebar #searchfield {
+	width:140px;
+	margin:1px 0px 0px 10px;
+	float:left;
+	border:solid 1px #ffffff;}
+
+#sidebar #searchbox #go,
+#sidebar #searchbox #search{
+	float:right;
+	margin:0 15px 0 0;
+	padding:0px;
+	background: url(http://www.hsbc.co.uk/1/themes/html/hsbc_ukpersonal/images/nav_go.gif);
+	width:38px;
+	height:21px;
+	border:none;
+	cursor:pointer;}
+/* Note this is "sel one", not "sell" */
+.sel1 { float: left; margin-right: 0; }
+#sidebar #optionbox #go{
+	float:right;
+	margin:0 15px 0 0;
+	padding:0px;
+	background: url(http://www.hsbc.co.uk/1/themes/html/hsbc_ukpersonal/images/homepage/btn_go.jpg);
+	width:45px;
+	height:22px;
+	border:none;
+	cursor:pointer;}
+#sidebar #searchbox #search{
+	background: url(http://www.hsbc.co.uk/1/themes/html/hsbc_ukpersonal/images/homepage/btn_search.jpg);
+	/*background: url(http://www.hsbc.co.uk/1/themes/html/hsbc_ukpersonal/images/nav_search.gif);*/
+	width:65px;
+	height:23px;}
+
+
+/*--OPTION WRAP--*/
+#sidebar #optionbox label {
+	padding-top:11px;
+	width:240px;
+	display:none;}
+
+#sidebar #optionbox {
+	padding-top:12px;
+	padding-bottom:4px;
+}
+
+#sidebar #optionbox select#sel1 {
+	margin-bottom: 5px;
+	margin-left:11px;
+	/*margin-right:11px;*/
+	width: 160px;
+	border:solid 1px #ffffff;
+	}
+
+#sidebar #optionbox span {
+	font-size:65%;
+	font-weight:normal;}
+
+
+
+/*--NEWSLETTER WRAP--*/
+#sidebar #newsletter label {
+	padding-top:11px;
+	width:240px;}
+
+#sidebar #newsletter {
+	padding-bottom:14px;
+	background: url(http://www.hsbc.co.uk/1/themes/html/hsbc_ukpersonal/images/nav_news_bottom.gif) no-repeat bottom left;}
+
+#sidebar #newsletterfield {
+	width:140px;
+	margin:1px 0px 0px 12px;
+	float:left;
+	border:solid 1px #ffffff;}
+
+#sidebar #newsletter #submit {
+	float:right;
+	margin:0 15px 0 0;
+	padding:0px;
+	background: url(http://www.hsbc.co.uk/1/themes/html/hsbc_ukpersonal/images/nav_submit.gif);
+	width:67px;
+	height:23px;
+	border:none;
+	cursor:pointer;}
+
+#sidebar #newsletter .privacy {
+	float:left;
+	padding:5px 0px 0px 12px;
+	font-size:85%;
+}
+
+#sidebar #newsletter .privacy a {
+	text-decoration:underline;
+}
+
+
+
+/*--OUR WORLD BOX--*/
+#ourworldbox {
+	background:#CA0F0F url(http://www.hsbc.co.uk/1/themes/html/hsbc_ukpersonal/images/nav_diag_tile.gif) 10px 0;
+	padding:0 0 20px 0;
+	border-bottom:solid 1px #ff0000;}
+
+#ourworld {
+	background:transparent url(http://www.hsbc.co.uk/1/themes/html/hsbc_ukpersonal/images/nav_our_world_top.gif) no-repeat 0 0;
+	width:234px;
+	padding:0 0 0px 0;
+	}
+
+#ourworld h4 {
+	margin:10px 3px 0 3px;
+	padding:6px 11px 6px 6px;
+	border-bottom:solid 1px #333333;}
+
+
+#ourworld h4.active {
+	background:transparent url(http://www.hsbc.co.uk/1/themes/html/hsbc_ukpersonal/images/nav_inter_panel_on.gif) no-repeat 0 0;
+	}
+
+#ourworld .WorldMap {
+	padding-top:0;}
+
+
+#ourworld h4.inactive {
+	margin-bottom: 20px ! important;
+	background:transparent url(http://www.hsbc.co.uk/1/themes/html/hsbc_ukpersonal/images/nav_inter_panel_off.gif) no-repeat 0 0;	}
+
+
+#ourworldbox .inner {
+	float:left;
+	margin:0 1px 10px 3px;
+	display:inline;
+	width:234px;
+	background:transparent url(http://www.hsbc.co.uk/1/themes/html/hsbc_ukpersonal/images/nav_map_bg.gif) no-repeat 0 0;}
+
+#ourworldbox p{
+	color:#363C42;
+	margin:0;
+	padding:5px 11px 5px 6px;}
+
+#ourworldbox ul{
+	float:left;
+	color:#666666;
+	margin:0;
+	padding:5px 11px 5px 6px;
+	list-style-type:none;
+	display:inline;
+	}
+
+#ourworldbox ul li{
+	float:left;
+	margin:0 10px 0 0;
+	padding:0;
+	list-style-type:none;
+	font-weight:bold;
+	}
+/* GREY BOXES */
+#greyBoxArea {
+	background: url(http://www.hsbc.co.uk/1/themes/html/hsbc_ukpersonal/images/homepage/nav_our_world_top.gif) no-repeat 0 0;
+	color: #666;
+	padding: 16px 0 0 0 !important;
+}
+#login .redBottom {
+	background: url(http://www.hsbc.co.uk/1/themes/html/hsbc_ukpersonal/images/homepage/nav_our_world_topY.gif) top left;
+	height: 7px;
+	width: 240px;
+	clear: both;
+}
+/* Start IE hacks for double-padding on floated elements */
+/* * html #greyBoxArea { padding: 7px 0 0 0; }
+*:first-child+html #greyBoxArea { padding: 7px 0 0 0; } */
+/* End IE hacks */
+.greyBox {
+	background: url(http://www.hsbc.co.uk/1/themes/html/hsbc_ukpersonal/images/homepage/grey_box_bottom.gif) bottom left no-repeat;
+	padding: 0 0 11px 0;
+}
+.greyBox .greyBoxTitleNoDent {
+	background-image:url(http://www.hsbc.co.uk/1/themes/html/hsbc_ukpersonal/images/homepage/grey_box_title_v2.jpg);
+	background-position:top;
+	background-repeat:no-repeat;
+	background-color:#636262;
+	border-bottom:1px solid #212121;
+}
+.greyBox .greyBoxTitleDent {
+	background-image:url(http://www.hsbc.co.uk/1/themes/html/hsbc_ukpersonal/images/homepage/grey_box_title_dent_v2.jpg);
+	background-position:top;
+	background-repeat:no-repeat;
+	border-bottom:1px solid #212121;
+	background-color:#636262;
+}
+.greyBox .greyBoxTitleNoDent h4, .greyBox .greyBoxTitleDent h4 {
+	font-size: 120%;
+	padding: 5px 11px !important;
+}
+#greyBoxArea #greySearchfield {
+	width:140px;
+	margin:1px 0px 0px 10px;
+	float:left;
+	border:solid 1px #ffffff;}
+#greyBoxArea #greySearch{
+	float:right;
+	margin:0 15px 0 0;
+	padding:0px;
+	background: url(http://www.hsbc.co.uk/1/themes/html/hsbc_ukpersonal/images/nav_go.gif);
+	width:38px;
+	height:21px;
+	border:none;
+	cursor:pointer;}
+#greyBoxArea #greySearch{
+	background: url(http://www.hsbc.co.uk/1/themes/html/hsbc_ukpersonal/images/nav_search.gif);
+	width:65px;
+	height:23px;}
+#greyBoxArea .greyBoxBody p {
+	font-size: 85%;
+	margin: 10px 0 5px 0;
+	padding: 0 11px;
+}
+
+
+
+#greyBoxArea .greyBoxBody ul,
+#greyBoxArea .greyBoxBody ul {
+	margin: 8px 0;
+	padding: 0;
+	list-style: none;
+	font-size:85%;}
+
+#greyBoxArea .greyBoxBody ul li,
+#greyBoxArea .greyBoxBody ul li {
+	margin: 0 0 0 11px;
+	padding: 0 0 0 11px;
+	list-style: none;
+	background: url(http://www.hsbc.co.uk/1/themes/html/hsbc_ukpersonal/images/content/arrow_dgrey2.gif) no-repeat left center;
+	}
+
+
+#greyBoxArea .greyBoxBody a,
+#greyBoxArea .greyBoxBody a:hover,
+#greyBoxArea .greyBoxBody a:visited {
+	color: #666666;
+	text-decoration: underline;
+
+}
+
+
+
+
+
+#greyBoxArea .greyEnd {
+	background: url(http://www.hsbc.co.uk/1/themes/html/hsbc_ukpersonal/images/homepage/grey_box_dent.gif) top left;
+	height: 8px;
+	width: 240px;
+}
+.clearBoth { clear: both; }
+
+.greyBox2 {
+	padding: 0 0 11px 0;
+}
+.greyBox2 .greyEnd {
+	background: url(http://www.hsbc.co.uk/1/themes/html/hsbc_ukpersonal/images/homepage/grey_box_dent.gif) top left;
+	height: 8px;
+	width: 240px;
+}
+
+
+/* SAFARI HACKS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* NOTE: These are valid CSS3 rules, but will not validate under CSS2. */
+
+/* Mac Safari (1st method) */
+html[xmlns*=""] body:last-child #sidebar #login li { display: inline-block; }
+html[xmlns*=""] body:last-child #sidebar #login li a { margin: 0 !important; }
+
+/* Mac Safari (2nd method) */
+body:last-child:not(:root:root) #sidebar #login li { display: inline-block; }
+body:last-child:not(:root:root) #sidebar #login li a { margin: 0 !important; }
+
+/* PC/unofficial Safari versions */
+@media all and (min-width: 0px) {
+	body:not(:root:root) #sidebar #login li { display: inline-block; line-height: normal; }
+}

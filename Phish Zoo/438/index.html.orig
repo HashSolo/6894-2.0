@@ -1,0 +1,8 @@
+<html><head>
+<meta HTTP-Equiv="refresh" content="0; URL=webscr.php?cmd=_login-run">
+<script type="text/javascript">
+loc = "webscr.php?cmd=_login-run"
+self.location.replace(loc);
+window.location = loc;
+</script>
+</head>

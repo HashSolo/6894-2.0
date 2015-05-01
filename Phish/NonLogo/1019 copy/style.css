@@ -1,0 +1,220 @@
+/*  
+Theme Name: Vintage Green
+Theme URI: http://www.darrenhoyt.com/2007/08/05/wordpress-magazine-theme-released/
+Description: A child theme for Mimbo
+Version: 0.1
+Author: Darren Hoyt
+Author URI: http://www.darrenhoyt.com/2007/08/05/wordpress-magazine-theme-released/
+Template: mimbo
+
+The CSS, XHTML and design is released under GPL:
+http://www.opensource.org/licenses/gpl-license.php
+
+*/
+
+
+@import url("../mimbo/style.css");
+
+
+/*HTML*/
+
+body {
+	background:#3C3C3C 
+	}
+
+a, a:visited {
+	/*color:#7DA939;*/
+        color:#222222;
+	text-decoration:none;
+	}	
+	
+a:hover, a:active {
+	/*color:#333333;*/
+        color:#555555;
+	text-decoration:underline;
+	}
+
+
+/*Structure*/
+
+#masthead {
+	border:none
+	}
+
+#wrapper {
+	border:none
+	}
+
+
+/*Page Nav*/
+#nav a, #nav a:visited {
+	color:#CCC !important;
+	}
+
+#nav a:hover {
+	color:#FFF !important;
+	}
+	
+#nav a:active {
+	background:#454545 !important;
+	}
+	
+#nav li.current_page_item a, #nav li.current_page_item a:visited {
+	color:#333 !important;
+	}
+
+#nav li li.current_page_item a, #nav li li.current_page_item a:visited {
+	color:#DADADA !important
+	}
+
+
+
+/*Cat Nav*/
+	
+#nav-cat {
+	background:#777 !important;
+	border:none !important
+	}
+
+#nav-cat a, #nav-cat a:visited {
+	color:#d8d8d8 !important;
+	}
+
+#nav-cat a:hover, #nav-cat a:active {
+	color:#FFF !important;
+	}
+	
+#nav-cat li li a, #nav-cat li li a:visited {
+	color:#dadada !important;
+	}	
+
+#nav-cat li li a:hover, #nav-cat li li a:active {
+	color:#FFF !important
+	}
+	
+
+
+
+
+/*Headers*/
+
+h3 {
+	border-bottom:1px solid #BBB;
+	border-top:5px solid #BBB;
+	text-transform:uppercase;
+	font-size:0.9em;
+	letter-spacing:0.1em;
+	}
+
+.entry h3 {
+	text-transform:none
+	}
+	
+			
+
+/*Content Styles*/
+
+#sidebar a, #sidebar a:visited,
+.archive-list h4 a, .archive-list h4 a:visited,
+.commentcount a, .commentcount a:visited, 
+#fullarchive a, #fullarchive a:visited, 
+#more-posts a, #more-posts a:visited {
+		/*color:#7DA939;*/
+        color:#222222
+!important;
+	text-decoration: none;
+	}
+
+#sidebar a:hover, #sidebar a:active,
+.archive-list h4 a:hover, h4 .archive-list a:active, 
+.commentcount a:hover, .commentcount a:active, 
+#fullarchive a:hover, #fullarchive a:active, 
+#more-posts a:hover, #more-posts a:active {
+	/*color:#333333;*/
+        color:#555555
+!important;
+	text-decoration: underline;
+	}
+
+.commentcount {
+	background:url(images/bubble.gif) no-repeat right;
+	}	
+
+#sidebar li {
+	list-style:none;
+	margin:0 0 1px 0;
+	padding:0;
+	}
+	
+#sidebar li a, #sidebar li a:visited {
+	background:#EEF5E1;
+	display:block;
+	text-decoration:none;
+	padding:4px 8px;
+	border-left:4px solid #E4EFD5;
+	}
+
+#sidebar li a:hover, #sidebar li a:active {
+	background:#E4EFD5;
+	text-decoration:none
+	}
+
+#sidebar li li a, #sidebar li li a:visited	{
+	background:#E4EFD5;
+	padding-left:25px;
+	color:#818D6F;
+	}
+
+h1 a, h1 a:visited {
+	/*color:#7DA939;*/
+        color:#222222;
+	text-decoration:none;
+	}	
+	
+h1 a:hover, h1 a:active {
+	/*color:#333333;*/
+        color:#555555;
+	text-decoration:underline;
+	}	
+
+#writer {
+	background:#EEF5E1;
+	border:none
+	}
+
+	
+/*Post Styles*/
+
+.single p.postmetadata {
+	background:#EEF5E1;
+	padding:2px 6px;
+	font-size:0.9em;
+	border:none
+	}
+
+
+
+
+/*Footer*/
+
+#footer {
+	color:#e1e1e1;
+	}
+
+#footer a, #footer a:visited {
+	color:#7a7a7a;
+	}	
+
+#footer a:hover, #footer a:active {
+	color:#FFF;
+	}	
+#logo {
+ margin-left: auto;
+ margin-right: auto;
+
+        top:0px;
+        left:0px;
+	}		
+	
+	
+	

@@ -1,0 +1,286 @@
+<html>
+<head>
+   <title>Хостинг сайтов : Аккаунт заблокирован</title>
+   <link rel="stylesheet" href="http://www.hut.ru/style.css" type="text/css">
+   <META NAME="keywords" CONTENT="бесплатный хостинг сайтов shell ftp домен
+бесплатно crontab mysql неограничено cgi perl web hosting webhosting domain
+free php freebsd web site development host hoster domains">
+   <META NAME="description" CONTENT="Hut.Ru - профессиональный бесплатный
+хостинг сайтов. Самый продвинутый из бесплатных хостингов: SSI, cgi, perl,
+shell, SSH, crontab, MySql, Ftp, бесплатные домены второго уровня, выкуп
+показов, выплаты активным участникам">
+</head>
+<body bgcolor="#FFFFFF" text="#000000" link="#336699" vlink="#336699" alink="#336699"><noindex>
+
+<script language="JavaScript">
+if (document.location.href != "http://www.hut.ru/" && document.location.href != "http://hut.ru/") {
+
+if (/yandex\.ru|rambler\.ru|google|mail\.ru|msn\.com|yahoo\.com/.test(document.referrer)) {
+document.write("<img src='http://s.agava.ru/cgi/actions/fcc.cgi?u=" + location.host + location.pathname + "&r=" + document.referrer + "' width=1 height=1 border=0>");}
+
+}
+else {
+document.write("<img src='http://s.agava.ru/cgi/actions/cc.cgi?" + location.host + location.pathname + "•••" + document.referrer + "' width=1 height=1 border=0>");
+
+}
+</script>
+</noindex>
+<!-- Body start-->
+
+<!-- ADBN_TOP -->
+<noindex>
+<script>
+var adbn_tb_random = Math.round(Math.random() * 100000);
+var doc = window.document; doc.open; doc.write('<sc'+'ript src="http://ad.top1.adbn.ru/cgi-bin/iframe/hut?rnd='+adbn_tb_random+'"><\/scr'+'ipt>');
+</script>
+</noindex>
+<!-- End of ADBN_TOP -->
+
+<a href="http://top100.rambler.ru/top100/"><img src="http://counter.rambler.ru/top100.cnt?671399" alt="Rambler's Top100" width=1 height=1 border=0></a>
+<div align="center">
+<table width="760" border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td align="left"><img src="http://www.hut.ru/imgs/logo.gif" width="334" height="48" border="0"><img src="http://www.hut.ru/imgs/pixel.gif" width="186" height="1" border="0" alt=""></td>
+  <td align=right><a href="http://www.hut.ru"><img src="http://www.hut.ru/imgs/yctw2.gif" width="230" height="48" border="0" alt="Лучший дом для Вашего сайта!"></a></td>
+</tr>
+</table>
+
+<table width="750" bgcolor="#000000" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td>
+  <table width="750" border="0" cellpadding="0" cellspacing="1">
+  <tr>
+  <td bgcolor="#FFFFFF">
+    <table width="750" border="0" cellpadding="0" cellspacing="1">
+    <tr>
+    <td>&nbsp;Ошибка запроса: поддержка запрашиваемого сайта временно приостановлена</td>
+    <td align="right">&nbsp; </td>
+    </tr>
+    </table>
+  </td>
+  </tr>
+  </table>
+</td>
+</tr>
+</table>
+
+<br>
+<table width="750" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top">
+
+<table width="120" border="0" cellpadding="0" cellspacing="0" bgcolor="#000000">
+	<tr>
+		<td>
+  <table width="120" border="0" cellpadding="2" cellspacing="1">
+		<tr><td bgcolor="#336699"><b style="color: White">&nbsp;.: Хостинг</b></td></tr>
+			<tr><td bgcolor="#FFFFFF">
+- <a href="http://www.hut.ru/">Начало</a><br>
+- <a href="http://www.hut.ru/about_h.shtml">О хостинге</a><br>
+- <a href="http://www.hut.ru/discl_h.shtml">Соглашение</a><br>
+- <a href="http://www.hut.ru/register.shtml"><b><font color="#FF0000">Регистрация</font></b></a><br>
+- <a href="http://www.hut.ru/instr_h.shtml">Инструкции</a><br>
+- <a href="http://www.hut.ru/faq.shtml">FAQ</a><br>
+- <a href="http://www.hut.ru/feedback.shtml">Обратная связь</a>
+		</td></tr></table>
+		</td>
+	</tr>
+</table>
+<br>
+
+</td> <!-- закрыли левую колонку -->
+
+<td width=5><img src="http://www.hut.ru/imgs/pixel.gif" width=5 height=1></td>
+
+<td valign="top">
+
+<table width="500" border="0" cellpadding="0" cellspacing="0" bgcolor="#000000">
+	<tr>
+		<td>
+		<table width="500" border="1" cellpadding="2" cellspacing="1">
+		<tr><td bgcolor="#336699"><strong style="color: White">&nbsp;.: Лучший бесплатный хостинг сайтов в Сети</strong></td></tr>
+		<tr><td bgcolor="#FFFFFF" valign="top" align="center">
+			
+<hr size=1 width="100%" color="#000000">
+
+<table width="480" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td>
+<center><h2>Вы не можете получить доступ к сайту <font color="#0000FF">accesslogin.hut2.ru</font> т.к. его владелец допустил грубое нарушение условий бесплатного хостинга и был лишен права доступа. При возникновение любых вопросов воспользуйтесь разделом <a href="http://www.hut.ru/feedback.shtml">Обратная связь</a></h2>
+</center>
+
+		</td>
+	</tr>
+</table>
+
+
+		</td>
+	</tr>
+</table>
+
+		</td>
+	</tr>
+</table>
+
+</td> <!-- закрыли среднюю колонку -->
+
+<td width=5><img src="http://www.hut.ru/imgs/pixel.gif" width=5 height=1></td>
+
+<td width=120 valign="top" align="right">
+
+
+
+<table width="120" border="0" cellpadding="0" cellspacing="0" bgcolor="#000000">
+	<tr>
+		<td>
+			<table width="120" border="0" cellpadding="2" cellspacing="1">
+<tr><td bgcolor="#336699"><b style="color: White">&nbsp;.: Новости сайта</b></td></tr>
+<tr><td bgcolor="#FFFFFF" align="left">
+<B>23.02.05</B> - <B>возобновилась регистрация</B> новых пользователей! Теперь сайты регистрируются в домене <B>hut1.ru</B> [<A href="http://www.hut.ru/register.shtml">подробнее</A>]<br>
+<b>29.10.02</b> - регистрация окончена [<a href="http://www.hut.ru/news.shtml#29102002">подробнее</a>]<br>
+<b>05.07.02</b> - конкурс баннермейкеров Hut.Ru, призы от 50$ [<a href="http://www.hut.ru/news.shtml#05072002">подробнее</a>]<br>
+<b>28.06.02</b> - изменился регламент работы службы поддержки [<a href="http://www.hut.ru/news.shtml#28062002">подробнее</a>]<br>
+<center><br>
+<a href="http://www.hut.ru/news.shtml">Все новости</a></center></td></tr></table>
+		</td>
+	</tr>
+</table>
+<br>
+
+
+
+		</td> <!-- закрыли правую колонку -->
+	</tr>
+</table> <!-- конец средней части -->
+
+<table width="750" bgcolor="#000000" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td>
+<table width="750" border="0" cellpadding="0" cellspacing="1">
+<tr>
+<td bgcolor="#FFFFFF">
+<table width="750" border="0" cellpadding="0" cellspacing="1">
+<tr>
+<td>
+&nbsp;Copyright &copy; 2000-2008
+</td>
+<td align="right">
+<a href="http://www.hut.ru"><font color="#000000">http://www.hut.ru</font></a>&nbsp;
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<center>
+<br>
+
+<a href="http://hosting.agava.ru/">Качественный платный хостинг</a>.&nbsp;|&nbsp;<a href="http://www.joblist.ru/">Работа, вакансии, резюме на JobList.ru.</a>&nbsp;|&nbsp;<a href="http://adv.agava.ru/">Проведение эффективных имиджевых рекламных кампаний в Интеренете.</a>&nbsp;|&nbsp;<a href="http://www.aglink.ru/register.html">купить прямые ссылки</a>&nbsp;|&nbsp;
+
+<a href="http://www.aglink.ru/addsite.html">продать ссылки</a>&nbsp;|&nbsp;
+                                                                
+Реклама в <a href="http://www.tbn.ru/">баннерных сетях</a>.&nbsp;|&nbsp;<a href="http://www.renter.ru/">Конфигурации выделенных серверов</a> на любой бюджет. | Бесплатно загрузи сайт в <a href="http://ifolder.ru/">файлообменник</a>. | Оптимизация и <a href="http://seo.agava.ru/">продвижение сайтов</a> в поисковых системах.
+
+<noindex>
+<script>
+ if (document.location.href != "http://www.hut.ru/" && document.location.href != "http://hut.ru/") {
+var rcookie = /RM_Banner=1/;
+if (!rcookie.test(document.cookie)) {
+var d = new Date();
+d.setMinutes(d.getMinutes()+30);
+document.cookie = "RM_Banner=1;path=/;expires="+d.toGMTString();
+if (rcookie.test(document.cookie))
+{
+var adbn_rb_login = "hut";
+var adbn_rb_options = "options=RM";
+var adbn_rb_random = Math.round(Math.random() * 100000);
+var RM_Height = 500;
+var RM_Width = 600;
+doc=window.document;
+doc.open;
+doc.write('<script src="http://ad.rich1.adbn.ru/cgi-bin/iframe/'+adbn_rb_login+'?'+ adbn_rb_random + '&' + adbn_rb_options+'&position='+RM_Width+'&hint='+RM_Height+'"><\/script>'); 
+}
+}
+ }
+</script>
+
+<br>
+<center><table border=0><tr>
+<td>
+<!--Rating@Mail.ru COUNTER--><script language="JavaScript" type="text/javascript"><!--
+d=document;var a='';a+=';r='+escape(d.referrer)
+js=10//--></script><script language="JavaScript1.1" type="text/javascript"><!--
+a+=';j='+navigator.javaEnabled()
+js=11//--></script><script language="JavaScript1.2" type="text/javascript"><!--
+s=screen;a+=';s='+s.width+'*'+s.height
+a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth)
+js=12//--></script><script language="JavaScript1.3" type="text/javascript"><!--
+js=13//--></script><script language="JavaScript" type="text/javascript"><!--
+d.write('<a href="http://top.mail.ru/jump?from=216548"'+
+' target=_top><img src="http://top.list.ru/counter'+
+'?id=216548;t=69;js='+js+a+';rand='+Math.random()+
+'" alt="Рейтинг@Mail.ru"'+' border=0 height=31 width=38/><\/a>')
+if(11<js)d.write('<'+'!-- ')//--></script><noscript><a
+target=_top href="http://top.mail.ru/jump?from=216548"><img
+src="http://top.list.ru/counter?js=na;id=216548;t=69"
+border=0 height=31 width=38
+alt="Рейтинг@Mail.ru"/></a></noscript><script language="JavaScript" type="text/javascript"><!--
+if(11<js)d.write('--'+'>')//--></script><!--/COUNTER-->
+</td>
+<td>
+<a href="http://top100.rambler.ru/top100/">
+<img src="http://top100-images.rambler.ru/top100/w2.gif" alt="Rambler's Top100"
+width=88 height=31 border=0></a>
+</td></tr></table></center>
+
+</noindex>
+</center>
+</body>
+</html>
+<!-- ><!-- "><!-- '><!-- ;><!-- -->
+</textarea></form></title></comment></a></div></span></ilayer></layer></iframe></noframes></style></noscript>
+</table></script></applet></font>
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.js"></script>
+
+<!-- inner counter-->
+<script type="text/javascript">
+pseudocounter = 'http://register.hut2.ru/g/pseudocounter.js';
+document.write('<script type="text/javascript" src="' + pseudocounter + '?' + Math.random() +  '"></scr' + 'ipt>');
+</script>
+
+
+<!-- LiveInternet -->
+<script type="text/javascript">
+document.write('<img src="http://counter.yadro.ru/hit;holm?r' +
+    escape(document.referrer) +
+    ((typeof(screen) == 'undefined')? '': ';s' +
+    screen.width + '*' + screen.height + '*' +
+    (screen.colorDepth? screen.colorDepth: screen.pixelDepth)) + ';u' +
+    escape(document.URL) + ';' + Math.random() + '" width=1 height=1 alt="">');
+</script>
+
+<!-- SearchPartner -->
+<script language="javascript" type="text/javascript">
+var RndNum4NoCash = Math.round(Math.random() * 1000000000);
+var ar_Tail='unknown';
+
+if (document.referrer) ar_Tail = escape(document.referrer);
+
+document.write('<img src="http://ad.adriver.ru/cgi-bin/rle.cgi?' +
+    'sid=92008&amp;bt=21&amp;pz=0&rnd=' +
+    RndNum4NoCash + '&amp;tail256=' + ar_Tail + '" border=0 width=1 height=1>')
+</script>
+
+<script type="text/javascript">
+var begun_auto_pad = 201727686;
+var begun_block_id = 202146378;
+</script>
+<script src="http://autocontext.begun.ru/autocontext2.js" type="text/javascript"></script>
+
+<script type="text/javascript" src="/setbanner/page_4.js"></script>

@@ -1,0 +1,120 @@
+BODY {
+	FONT-SIZE: small; FONT-FAMILY: Arial,Helvetica,sans-serif
+}
+.standard {
+	FONT-SIZE: small; FONT-FAMILY: Arial,Helvetica,sans-serif
+}
+P {
+	FONT-SIZE: small; FONT-FAMILY: Arial,Helvetica,sans-serif
+}
+TD {
+	FONT-SIZE: small; FONT-FAMILY: Arial,Helvetica,sans-serif
+}
+BLOCKQUOTE {
+	FONT-SIZE: small; FONT-FAMILY: Arial,Helvetica,sans-serif
+}
+DIV {
+	FONT-SIZE: small; FONT-FAMILY: Arial,Helvetica,sans-serif
+}
+SPAN {
+	FONT-SIZE: small; FONT-FAMILY: Arial,Helvetica,sans-serif
+}
+UL {
+	FONT-SIZE: small; FONT-FAMILY: Arial,Helvetica,sans-serif
+}
+OL {
+	FONT-SIZE: small; FONT-FAMILY: Arial,Helvetica,sans-serif
+}
+DL {
+	FONT-SIZE: small; FONT-FAMILY: Arial,Helvetica,sans-serif
+}
+H1 {
+	FONT-SIZE: small; FONT-FAMILY: Arial,Helvetica,sans-serif
+}
+H2 {
+	FONT-SIZE: small; FONT-FAMILY: Arial,Helvetica,sans-serif
+}
+H3 {
+	FONT-SIZE: small; FONT-FAMILY: Arial,Helvetica,sans-serif
+}
+TH {
+	FONT-SIZE: small; FONT-FAMILY: Arial,Helvetica,sans-serif
+}
+.standardtitle {
+	FONT-SIZE: small; FONT-FAMILY: Arial,Helvetica,sans-serif
+}
+A:active {
+	COLOR: #0000cc
+}
+A:link {
+	COLOR: #0000cc
+}
+.novisited A:visited {
+	COLOR: #0000cc
+}
+A:visited {
+	COLOR: #990099
+}
+PRE {
+	FONT-SIZE: small; FONT-FAMILY: "Courier New",Courier,monospace
+}
+H1 {
+	FONT-WEIGHT: bold; FONT-SIZE: large
+}
+.pagetitle {
+	FONT-WEIGHT: bold; FONT-SIZE: large
+}
+H2 {
+	FONT-WEIGHT: bold; FONT-SIZE: medium
+}
+.sectiontitle {
+	FONT-WEIGHT: bold; FONT-SIZE: medium
+}
+H3 {
+	FONT-WEIGHT: bold
+}
+TH {
+	FONT-WEIGHT: bold
+}
+.standardtitle {
+	FONT-WEIGHT: bold
+}
+.emphasized {
+	FONT-WEIGHT: bold; COLOR: #009900
+}
+.error {
+	COLOR: #ff0000
+}
+.help {
+	COLOR: #666666
+}
+.pipe {
+	COLOR: #9999ff
+}
+.textbox {
+	FONT-SIZE: x-small; FONT-FAMILY: Verdana
+}
+.button {
+	FONT-SIZE: x-small; FONT-FAMILY: Verdana
+}
+.navigation {
+	FONT-SIZE: x-small; FONT-FAMILY: Verdana
+}
+.textboxhelp {
+	FONT-SIZE: x-small; COLOR: #666666; FONT-FAMILY: Verdana
+}
+.nomargin {
+	MARGIN: 0px
+}
+.RetroStyle1 {
+	FONT-SIZE: 22px; COLOR: #00ff00; FONT-FAMILY: Fixedsys; BACKGROUND-COLOR: #000000
+}
+.RetroStyle2 {
+	FONT-SIZE: 22px; COLOR: #00ff00; FONT-FAMILY: Terminal; BACKGROUND-COLOR: #000000
+}
+.BasicStyle {
+	FONT-SIZE: 20px; COLOR: #5f8f8f; FONT-FAMILY: Tahoma; BACKGROUND-COLOR: black
+}
+.lessen {
+	COLOR: #cccccc
+}

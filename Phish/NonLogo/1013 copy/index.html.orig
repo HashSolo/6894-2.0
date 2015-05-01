@@ -1,0 +1,781 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="it" dir="ltr">
+
+<!-- Mirrored from www.cartasi.it/gtwpages/index.jsp by HTTrack Website Copier/3.x [XR&CO'2008], Fri, 07 May 2010 21:45:55 GMT -->
+<head>
+<title>CartaSi: Carte di credito per privati e aziende</title>
+<meta name="keywords" content="carta di credito aziendale,carta di credito rateale,carte di credito,carte di credito prepagate,carte di credito privati">
+<meta name="description" content="Scopri i vantaggi delle carte di credito CartaSi, cerca tra le soluzioni per privati e aziende quella più adatta a te e richiedi la tua carta di credito.">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<style type="text/css" title="stile predefinito" media="screen">
+<!--
+@import url("../css/privati.css");
+#container #mainNav #pmenu li.drop a.active0 {
+ background:#fff;
+ color:#666;
+}
+-->
+</style>
+<link href="http://www.cartasi.it/greybox/gb_styles.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+var GB_ROOT_DIR = "http://www.cartasi.it/greybox/";
+</script>
+<script type="text/javascript" src="http://www.cartasi.it/javascript/jquery.js"></script>
+<script type="text/javascript" src="http://www.cartasi.it/greybox/AJS.js"></script>
+<script type="text/javascript" src="http://www.cartasi.it/greybox/AJS_fx.js"></script>
+<script type="text/javascript" src="http://www.cartasi.it/greybox/gb_scripts.js"></script>
+<script type="text/javascript" src="http://www.cartasi.it/javascript/home.js"></script>
+<script type="text/javascript" src="http://www.cartasi.it/javascript/gesturl.js"></script>
+<script>
+function goFocuson(param, param2) {
+	document.gotopage.action = "index.html";
+	document.gotopage.focusonPage.value=param;
+    document.gotopage.param.value=param2;
+	document.gotopage.submit();
+}
+var home ="/gtwpages";
+var vers = GetBrowse();
+function GetBrowse(){
+	
+	return "NS4";
+}
+</script>
+<script type="text/javascript">
+		jQuery(document).ready(function(){
+			function resetMenu(){
+				$(".primoLivello").removeClass("att");
+				$.each($(".primoLivello"),function() {
+					index = $(".primoLivello").index(this);
+					//$(this).children().children().attr("src","img/"+(index+1)+".gif")
+				});
+			}
+			$(".primoLivello").hover(function() {
+				$(".primoLivello").removeClass("atthover");
+				$(this).addClass("atthover");
+				
+			},
+			function() {
+				$(this).removeClass("atthover");
+			});
+			$(".primoLivelloLink").click(function() {
+				if($(this).attr("href") == "#") {
+					resetMenu();
+					$(".fourth").hide();
+					$(".thirdUl").css("width","194px");
+					index = $(".primoLivelloLink").index(this);
+					$(this).parent().addClass("att");
+					//$(this).parent().css("height", "127px");
+					$("#main").css("height", "114px");
+					//$(this).children().children().attr("src","img/"+(index+1)+"_att.gif");
+					$(".third").hide();
+					$(".third"+index).slideDown(function(){
+						$(".fourth").hide();
+					});
+				}
+			});
+			$(".thirdSelector").click(function() {
+				$(".fourth").hide();
+				$(".thirdUl").css("width","194px");
+				$(".thirdSelector").removeClass("active");
+				$(this).addClass("active");
+				//resetMenu();
+				//index = $(".primoLivello").index(this);
+				//$(this).addClass("att");
+				$(this).parent().css("width","388px");
+				$(this).children(".fourth").show();
+				$(this).children(".fourth").css("width","0px");
+				$(this).children(".fourth").css("left",($(this).position().left+194)+"px");
+				$(this).children(".fourth").animate({width:"194px"},{queque:false, duration:500});
+			});
+			
+			$(".thirdSelector").hover(function() {
+				$(".thirdSelector").removeClass("on");
+				$(this).addClass("on");
+				
+			},function(){
+				$(this).removeClass("on");
+			});
+	$(".nothirdSelector").hover(function() {
+				$(this).addClass("on");
+				
+			},function(){
+				$(this).removeClass("on");
+			});
+			$(".fourthSelector").hover(function() {
+				$(".fourthSelector").removeClass("on");
+				$(this).addClass("on");
+				
+			});
+			
+			//$(".third").hide();
+			//$(".fourth").hide();
+			//$(".fourth").css("width","0px");
+			//$(".third:first").show();
+			//$(".fourth").hide();
+		});
+	</script>
+<script src="Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+<style type="text/css">
+<!--
+.style1 {color: #CCCCCC}
+.style2 {color: #FFFFFF}
+.clear {clear:both}
+.dbidTip {padding: 3px 0 0 0;  font-size:85%}
+.dbidTip {padding: 3px 0 0 0;  font-size:85%}
+.kmsibold {font-weight:bold; font-size: 114%;}
+.kmsibold {font-weight:bold; font-size: 114%;}
+.subperstxt {line-height:1.75em;}
+.subperstxt {line-height:1.75em;}
+.subperstxt2 {margin: 0 0 0 2em; display:block;}
+.subperstxt2 {margin: 0 0 0 2em; display:block;}
+.yreglgsb {margin-top:0}
+#yreglgtb {text-align: left; width: 100%;}
+#yreglgtb {text-align: left; width: 100%;}
+input#persistent {margin-bottom: -0em;}
+input#persistent {margin-bottom: -0em;}
+p#sigcopys {text-align: left; font-size: 85%; padding: .4em; margin: .6em .0em 1em 0; border-bottom: 1px dotted #9D9C9D; border-top: 1px dotted #9D9C9D;}
+p#sigcopys {text-align: left; font-size: 85%; padding: .4em; margin: .6em .4em 1em 0; border-bottom: 1px dotted #9D9C9D; border-top: 1px dotted #9D9C9D;}
+th#thpw {text-align:left;}
+th#thun {text-align:left;}
+-->
+</style>
+</head>
+</head>
+<body>
+<form name="gotopage" method=post action="#">
+  <input type="hidden" name="jspName" value="null">
+  <input type="hidden" name="param" value="null">
+  <input type="hidden" name="newsPage" value="null">
+<input type="hidden" name="idc" value="null">
+  <input type="hidden" name="focusonPage" value="null">
+</form>
+<div id="container">
+  
+
+  
+<div id="logo"><a href="index4cee.html?id=DBYjkzsTaY" title="torna alla Home Page"><img src="../immagini/brandCartasi2.gif" alt="logo CartaSi" /></a></div>
+
+
+			
+
+
+  
+<div class="first">
+  <ul>
+    <li class="privati_att"><a href="index4cee.html?id=DBYjkzsTaY">Privati</a></li>
+    <li class="aziende"><a href="indexbe73.html?id=PoRumhjiIs">Aziende</a></li>
+    <li class="esercenti"><a href="index6f84.html?id=AKiKBNPTss">Esercenti</a></li>
+    <li class="banche"><a href="https://servizibanche.cartasi.it/portal/server.pt" target="_blank">Banche</a></li>
+  </ul>
+</div>
+
+
+
+
+  
+
+<div id="main">
+    <div class="second">
+        <ul>
+            <li class="primoLivello" id="li1_node1">
+                <a class="primoLivelloLink" href="#">Carte di credito</a>
+                <div class="third0 third" id="div_node1">
+                    <ul class="thirdUl">
+                        <li id="li3_node1_1" class="nothirdSelector">
+                            <a href="common/index1b25.html?id=ZMBIumxkul">L'offerta CartaSi</a>
+                        </li>
+                        <li id="li3_node1_2" class="nothirdSelector">
+                            <a href="common/indexfc60.html?id=ScyEenxoVG">I principali vantaggi</a>
+                        </li>
+				  </ul><ul class="thirdUl">
+					<li id="li3_node1_4" class="thirdSelector">
+                            <a href="#">CartaSi Classic Move On</a>
+                            <ul class="fourth" id="ul4_node1_4">
+                                <li class="fourthSelector" id="li4_node1_4_1">
+                                    <a href="common/index3b20.html?id=GLmpEErUkS" class="enclose">Caratteristiche</a>
+                                </li>
+                            </ul>
+                    </li>
+                        <li id="li3_node1_5" class="nothirdSelector">
+                            <a href="common/index71ce.html?id=pTRPULCsWr">CartaSi FreeTouch</a>
+                        </li>
+                        <li id="li3_node1_6" class="thirdSelector">
+                            <a href="#">CartaSi Revolving</a>
+                            <ul class="fourth" id="ul4_node1_6">
+                                <li class="fourthSelector" id="li4_node1_6_1">
+                                    <a href="common/indexc15a.html?id=vhxQQtxVXR" class="enclose">Caratteristiche</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="li3_node1_7" class="thirdSelector">
+                            <a href="#">CartaSi Quattroruote</a>
+                            <ul class="fourth" id="ul4_node1_7">
+                                <li class="fourthSelector" id="li4_node1_7_1">
+                                    <a href="common/indexc3c1.html?id=reZcGYaypK" class="enclose">Caratteristiche</a>
+                                </li>
+                                <li class="fourthSelector" id="li4_node1_7_2">
+                                    <a href="common/index5f6a.html?id=pnleWTPWZG" class="enclose">Vantaggi auto</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="li3_node1_8" class="thirdSelector">
+                            <a href="#">CartaSi Campus</a>
+                            <ul class="fourth" id="ul4_node1_8">
+                                <li class="fourthSelector" id="li4_node1_8_1">
+                                    <a href="common/index2774.html?id=pjEdMAuQFw" class="enclose">Caratteristiche</a>
+                                </li>
+                                <li class="fourthSelector" id="li4_node1_8_2">
+                                    <a href="common/indexd80f.html?id=sDlBTuCkec" class="enclose">Come richiederla</a>
+                                </li>
+                            </ul>
+                        </li>
+						</ul><ul class="thirdUl">
+					<li id="li3_node1_10" class="thirdSelector">
+                            <a href="#">CartaSi Gold</a>
+                            <ul class="fourth" id="ul4_node1_10">
+                                <li class="fourthSelector" id="li4_node1_10_1">
+                                    <a href="common/indexf21c.html?id=EQiYbzeeHy" class="enclose">Caratteristiche</a>
+                                </li>
+                                <li class="fourthSelector" id="li4_node1_10_2">
+                                    <a href="common/indexda90.html?id=TPvBERhZVd" class="enclose">Offerte esclusive</a>
+                                </li>
+                                <li class="fourthSelector" id="li4_node1_10_3">
+                                    <a href="common/indexc36b.html?id=NwvwTACFjd" class="enclose">MasterCard Premium Collection</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="li3_node1_11" class="thirdSelector">
+                            <a href="#">CartaSi Platinum</a>
+                            <ul class="fourth" id="ul4_node1_11">
+                                <li class="fourthSelector" id="li4_node1_11_1">
+                                    <a href="common/index2d7b.html?id=VuYAVFjaSK" class="enclose">Caratteristiche</a>
+                                </li>
+                                <li class="fourthSelector" id="li4_node1_11_2">
+                                    <a href="common/indexc0e9.html?id=iPLuTMgYiU" class="enclose">Offerte esclusive</a>
+                                </li>
+                                <li class="fourthSelector" id="li4_node1_11_3">
+                                    <a href="common/indexede1.html?id=vPyoVuZsjW" class="enclose">MasterCard Premium Collection</a>
+                                </li>
+                                <li class="fourthSelector" id="li4_node1_11_4">
+                                    <a href="common/index6410.html?id=aZUxZFBRPr" class="enclose">Come richiederla</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="primoLivello" id="li1_node2">
+                <a class="primoLivelloLink" href="#">Carte prepagate</a>
+                <div class="third1 third" id="div_node2">
+                    <ul class="thirdUl">
+                        <li id="li3_node2_1" class="nothirdSelector">
+                            <a href="common/index2f9c.html?id=WUSRfkdPyx">L'offerta CartaSi</a>
+                        </li>
+                        <li id="li3_node2_2" class="nothirdSelector">
+                            <a href="common/index35a7.html?id=XVpmtgcsme">I vantaggi</a>
+                        </li>
+                        <li id="li3_node2_3" class="nothirdSelector">
+                            <a href="common/index0144.html?id=STYwepfFKu">Come ricaricarle</a>
+                        </li>
+				  </ul><ul class="thirdUl">
+					<li id="li3_node2_5" class="thirdSelector">
+                            <a href="#">CartaSi prepagata nominativa</a>
+                            <ul class="fourth" id="ul4_node2_5">
+                                <li class="fourthSelector" id="li4_node2_5_1">
+                                    <a href="common/index05be.html?id=wBJDummrGm" class="enclose">CartaSi Eura</a>
+                                </li>
+                            </ul>
+                    </li>
+                        <li id="li3_node2_6" class="thirdSelector">
+                            <a href="#">CartaSi prepagata anonima</a>
+                            <ul class="fourth" id="ul4_node2_6">
+                                <li class="fourthSelector" id="li4_node2_6_1">
+                                    <a href="common/indexf885.html?id=RHWRqExRTa" class="enclose">CartaSi Club</a>
+                                </li>
+                                <li class="fourthSelector" id="li4_node2_6_2">
+                                    <a href="common/index9282.html?id=RJMWaIDMlI" class="enclose">CartaSi Telethon</a>
+                                </li>
+                                <li class="fourthSelector" id="li4_node2_6_3">
+                                    <a href="common/indexc199.html?id=kJDWJrEuLq" class="enclose">CartaSi GiroCard</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="primoLivello" id="li1_node3">
+                <a class="primoLivelloLink" href="#">ioSi</a>
+                <div class="third2 third" id="div_node3">
+                    <ul class="thirdUl">
+                        <li id="li3_node3_1" class="nothirdSelector">
+                            <a href="common/index9331.html?id=VpufjCSeex">Scopri un mondo di privilegi</a>
+                        </li>
+                        <li id="li3_node3_2" class="nothirdSelector">
+                            <a href="common/index8dc2.html?id=buclvhdOOl">Iscriviti subito a ioSi</a>
+                        </li>
+                        <li id="li3_node3_3" class="nothirdSelector">
+                            <a href="common/index8467.html?id=YcDxEEgjNG">Invita un amico</a>
+                        </li>
+				  </ul><ul class="thirdUl">
+					<li id="li3_node3_5" class="thirdSelector">
+                            <a href="#">Raccolta Punti ioSi 2010</a>
+                            <ul class="fourth" id="ul4_node3_5">
+                                <li class="fourthSelector" id="li4_node3_5_1">
+                                    <a href="common/indexefbe.html?id=kyXtyjQcAi" class="enclose">Come guadagnare Punti ioSi</a>
+                                </li>
+                                <li class="fourthSelector" id="li4_node3_5_2">
+                                    <a href="common/index76b7.html?id=GTIqGAytBw" class="enclose">Premi in edizione speciale</a>
+                                </li>
+                                <li class="fourthSelector" id="li4_node3_5_3">
+                                    <a href="common/index9681.html?id=RHpEfvZMMF" class="enclose">Catalogo Premi 2010</a>
+                                </li>
+                            </ul>
+                    </li>
+                        <li id="li3_node3_6" class="nothirdSelector">
+                            <a href="common/indexe5d7.html?id=ItZmdoIisI">Agenzia Viaggi ioSi</a>
+                        </li>
+                        <li id="li3_node3_7" class="nothirdSelector">
+                            <a href="common/index4022.html?id=BTRjKmCQQn">Partner ioSi, offerte esclusive</a>
+                        </li>
+                        <li id="li3_node3_8" class="nothirdSelector">
+                            <a href="common/indexcd8c.html?id=lsapQJtJYc">Sicurezza e Assistenza ioSi</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="primoLivello" id="li1_node4">
+                <a class="primoLivelloLink" href="common/index1458.html?id=eNlYTtZKwH">CartaSi Village</a>
+                <div class="third3 third" id="div_node4"></div>
+            </li>
+            <li class="primoLivello" id="li1_node5">
+                <a class="primoLivelloLink" href="#">Sicurezza</a>
+                <div class="third4 third" id="div_node5">
+                    <ul class="thirdUl">
+                        <li id="li3_node5_1" class="nothirdSelector">
+                            <a href="common/index9a68.html?id=skKWEJVcWG">Consigli utili per te</a>
+                        </li>
+                        <li id="li3_node5_2" class="thirdSelector">
+                            <a href="#">Sicurezza via SMS</a>
+                            <ul class="fourth" id="ul4_node5_2">
+                                <li class="fourthSelector" id="li4_node5_2_1">
+                                    <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=rMbMhClOUP" class="enclose">SMS informativi e di sicurezza</a>
+                                </li>
+                                <li class="fourthSelector" id="li4_node5_2_2">
+                                    <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=upetIAiUaP" class="enclose">Come attivarli</a>
+                                </li>
+                                <li class="fourthSelector" id="li4_node5_2_3">
+                                    <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=CDgegHemlB" class="enclose">Elenco comandi</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="li3_node5_3" class="thirdSelector">
+                            <a href="#">Sicurezza on-line</a>
+                            <ul class="fourth" id="ul4_node5_3">
+                                <li class="fourthSelector" id="li4_node5_3_1">
+                                    <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=gutTnPKdDT" class="enclose">3D Secure: cos'e'</a>
+                                </li>
+                                <li class="fourthSelector" id="li4_node5_3_2">
+                                    <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=NHQTqVerbG" class="enclose">3D Secure: iscrizione</a>
+                                </li>
+                                <li class="fourthSelector" id="li4_node5_3_3">
+                                    <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=KlYuKTcUiv" class="enclose">3D Secure: come funziona</a>
+                                </li>
+                                <li class="fourthSelector" id="li4_node5_3_4">
+                                    <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=NoIOBarlwY" class="enclose">3D Secure: domande frequenti</a>
+                                </li>
+                                <li class="fourthSelector" id="li4_node5_3_5">
+                                    <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=YKUxMxrWRo" class="enclose">3D Secure: modifica dati</a>
+                                </li>
+                                <li class="fourthSelector" id="li4_node5_3_6">
+                                    <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=QQLtLlQmYq" class="enclose">Il codice di sicurezza CV2</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="li3_node5_4" class="nothirdSelector">
+                            <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=eutvBHXEyg">Scelta della password</a>
+                        </li>
+                        <li id="li3_node5_5" class="thirdSelector">
+                            <a href="#">Difenditi dal phishing</a>
+                            <ul class="fourth" id="ul4_node5_5">
+                                <li class="fourthSelector" id="li4_node5_5_1">
+                                    <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=GmTgwbevGi" class="enclose">Cos'e' il phishing</a>
+                                </li>
+                                <li class="fourthSelector" id="li4_node5_5_2">
+                                    <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=rrRVjaLqDp" class="enclose">Come difendersi</a>
+                                </li>
+                                <li class="fourthSelector" id="li4_node5_5_3">
+                                    <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=SoSDAsiCAJ" class="enclose">Riconosci un'e&ndash;mail phishing</a>
+                                </li>
+                                <li class="fourthSelector" id="li4_node5_5_4">
+                                    <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=RvfAeviHpL" class="enclose">Riconosci un sito phishing</a>
+                                </li>
+                                <li class="fourthSelector" id="li4_node5_5_5">
+                                    <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=kjnlkGRowy" class="enclose">Segnalaci un phishing</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="primoLivello" id="li1_node6">
+                <a class="primoLivelloLink" href="#">Pagamenti</a>
+                <div class="third5 third" id="div_node6">
+                    <ul class="thirdUl">
+                        <li id="li3_node6_1" class="nothirdSelector">
+                            <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=PkqJrAMJLn">Ricariche telefoniche</a>
+                        </li>
+                        <li id="li3_node6_2" class="nothirdSelector">
+                            <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=lsKuxrUctI">Domiciliazioni utenze</a>
+                        </li>
+                        <li id="li3_node6_3" class="thirdSelector">
+                            <a href="#">Trasporti</a>
+                            <ul class="fourth" id="ul4_node6_3">
+                                <li class="fourthSelector" id="li4_node6_3_1">
+                                    <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=LmrBtarQvg" class="enclose">Bollo auto ACI</a>
+                                </li>
+                                <li class="fourthSelector" id="li4_node6_3_2">
+                                    <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=EKsYrfQZVY" class="enclose">Autostrade per l'Italia</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="li3_node6_4" class="thirdSelector">
+                            <a href="#">Pagamenti via SMS</a>
+                            <ul class="fourth" id="ul4_node6_4">
+                                <li class="fourthSelector" id="li4_node6_4_1">
+                                    <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=CspnGrvdxe" class="enclose">Attivare il servizio</a>
+                                </li>
+                                <li class="fourthSelector" id="li4_node6_4_2">
+                                    <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=YulsBQXXBN" class="enclose">Skipass e impianti di risalita</a>
+                                </li>
+                                <li class="fourthSelector" id="li4_node6_4_3">
+                                    <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=LcjkDLCeuO" class="enclose">Bus e sosta</a>
+                                </li>
+                                <li class="fourthSelector" id="li4_node6_4_4">
+                                    <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=YoaaHHYBNo" class="enclose">Prodotti assicurativi e assistenza</a>
+                                </li>
+                                <li class="fourthSelector" id="li4_node6_4_5">
+                                    <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=kOAVTcYZlO" class="enclose">Hi-tech</a>
+                                </li>
+                                <li class="fourthSelector" id="li4_node6_4_6">
+                                    <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=lAKbOvNKhk" class="enclose">Intrattenimento</a>
+                                </li>
+                            </ul>
+                        </li>
+				  </ul><ul class="thirdUl">
+					<li id="li3_node6_6" class="thirdSelector">
+                            <a href="#">Ricariche CartaSi Prepagate </a>
+                            <ul class="fourth" id="ul4_node6_6">
+                                <li class="fourthSelector" id="li4_node6_6_1">
+                                    <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=CTmmhSPQLF" class="enclose">Servizio acquisto Buoni Ricarica</a>
+                                </li>
+                                <li class="fourthSelector" id="li4_node6_6_2">
+                                    <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=tcqWLcKFlI" class="enclose">Acquista un Buono Ricarica</a>
+                                </li>
+                                <li class="fourthSelector" id="li4_node6_6_3">
+                                    <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=eAIVYEBrJg" class="enclose">Utilizzo Buoni Ricarica</a>
+                                </li>
+                                <li class="fourthSelector" id="li4_node6_6_4">
+                                    <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=rDYfWnyJOL" class="enclose">Smarrimento codici attivazione</a>
+                                </li>
+                            </ul>
+                    </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="primoLivello" id="li1_node7">
+                <a class="primoLivelloLink" href="http://www.cartasi.it/gtwpages/common/index.jsp?id=EYbKCNMxFA">Servizi</a>
+                <div class="third6 third" id="div_node7"></div>
+            </li>
+            <li class="primoLivello" id="li1_node8">
+                <a class="primoLivelloLink" href="#">Assistenza</a>
+                <div class="third7 third" id="div_node8">
+                    <ul class="thirdUl">
+                        <li id="li3_node8_1" class="nothirdSelector">
+                            <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=UNRNOnDaVv">Assistenza su Numero Verde</a>
+                        </li>
+                        <li id="li3_node8_2" class="nothirdSelector">
+                            <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=FqcTcwuEat">Furto smarrimento</a>
+                        </li>
+                        <li id="li3_node8_3" class="nothirdSelector">
+                            <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=NftEfAtBWr">Addebito non riconosciuto</a>
+                        </li>
+                        <li id="li3_node8_4" class="nothirdSelector">
+                            <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=codOQrsCfc">Superamento disponibilita'</a>
+                        </li>
+				  </ul><ul class="thirdUl">
+					<li id="li3_node8_6" class="nothirdSelector">
+                            <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=ffKmVcENcX">Richiesta aumento plafond</a>
+                    </li>
+                        <li id="li3_node8_7" class="nothirdSelector">
+                            <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=TpxnAEIUOi">Smarrimento codice PIN</a>
+                        </li>
+                        <li id="li3_node8_8" class="nothirdSelector">
+                            <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=ZkCHeLugtw">Estratto conto non ricevuto</a>
+                        </li>
+                        <li id="li3_node8_9" class="nothirdSelector">
+                            <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=IRToMCEHKv">Carta smagnetizzata</a>
+                        </li>
+						</ul><ul class="thirdUl">
+					<li id="li3_node8_11" class="nothirdSelector">
+                            <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=mhuwxCXhSZ">Carta ritirata da ATM</a>
+                        </li>
+                        <li id="li3_node8_12" class="nothirdSelector">
+                            <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=FjbOBbQYVv">Carta dimenticata</a>
+                        </li>
+                        <li id="li3_node8_13" class="nothirdSelector">
+                            <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=cPESKoBwKP">Variazione indirizzo</a>
+                        </li>
+                        <li id="li3_node8_14" class="nothirdSelector">
+                            <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=eSgnphvZcQ">Cambio Banca</a>
+                        </li>
+						</ul><ul class="thirdUl">
+					<li id="li3_node8_16" class="nothirdSelector">
+                            <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=rTSDQxVGMB">Servizi d'emergenza</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="primoLivello" id="li1_node9">
+                <a class="primoLivelloLink" href="#">FAQ</a>
+                <div class="third8 third" id="div_node9">
+                    <ul class="thirdUl">
+                        <li id="li3_node9_1" class="nothirdSelector">
+                            <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=KdnBXxXadY">Il Programma ioSi</a>
+                        </li>
+                        <li id="li3_node9_2" class="nothirdSelector">
+                            <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=GeYsOydLlw">Disponibilita' - limite utilizzo</a>
+                        </li>
+                        <li id="li3_node9_3" class="nothirdSelector">
+                            <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=LtKlBDuHOD">Emergenza!</a>
+                        </li>
+                        <li id="li3_node9_4" class="nothirdSelector">
+                            <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=IrXJNFQTOw">Servizi SMS</a>
+                        </li>
+				  </ul><ul class="thirdUl">
+					<li id="li3_node9_6" class="nothirdSelector">
+                            <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=itghWhMXaS">Estratto conto</a>
+                    </li>
+                        <li id="li3_node9_7" class="nothirdSelector">
+                            <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=MvZMoZSPGE">Servizio Clienti</a>
+                        </li>
+                        <li id="li3_node9_8" class="nothirdSelector">
+                            <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=obbBpvVgJm">Sicurezza</a>
+                        </li>
+                        <li id="li3_node9_9" class="nothirdSelector">
+                            <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=YCxRMNHkrr">Uso della Carta</a>
+                        </li>
+						</ul><ul class="thirdUl">
+					<li id="li3_node9_11" class="nothirdSelector">
+                            <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=NoIOBarlwY">Protezione anti-frode 3D Secure</a>
+                        </li>
+                        <li id="li3_node9_12" class="thirdSelector">
+                            <a href="#">Ricariche telefoniche</a>
+                            <ul class="fourth" id="ul4_node9_12">
+                                <li class="fourthSelector" id="li4_node9_12_1">
+                                    <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=sloALDmAEx" class="enclose">Info generali sul servizio</a>
+                                </li>
+                                <li class="fourthSelector" id="li4_node9_12_2">
+                                    <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=tPlOIugRLt" class="enclose">Carte Servizi</a>
+                                </li>
+                                <li class="fourthSelector" id="li4_node9_12_3">
+                                    <a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=OyVmsZKBMt" class="enclose">Regole di sicurezza</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+
+
+  
+<div xmlns:java="http://xml.apache.org/xslt/java" id="focusArea">
+    <h3>Focus on</h3>
+    <div id="focusBox1">
+        <h4 class="titoloNews">
+            <a href="javascript:go('nWYJEASXoT');" title="Ricarica on-line il tuo cellulare TIM e WIND con CartaSi.">Ricarica on-line il tuo cellulare TIM e WIND con CartaSi.</a>
+        </h4>
+        <p class="testo">Le tue ricariche telefoniche e le tue Carte Servizi sul Portale Titolari.</p>
+    </div>
+    <div id="focusBox2">
+        <h4 class="titoloNews">
+            <a href="javascript:go('exjtPmTSMq');" title="Con Europcar trovi tutte le soluzioni per le tue esigenze di mobilit&agrave;">Con Europcar trovi tutte le soluzioni per le tue esigenze di mobilit&agrave;</a>
+        </h4>
+        <p class="testo">Fino a 3.000 punti agli iscritti ioSi e sconti fino al 40%</p>
+    </div>
+    <div id="focusBox3">
+        <h4 class="titoloNews">
+            <a href="javascript:go('QENrlAIuTk');" title="Con CartaSi e MasterCard vinci un viaggio indimenticabile.">Con CartaSi e MasterCard vinci un viaggio indimenticabile.</a>
+        </h4>
+        <p class="testo">Richiedi CartaSi MasterCard Gold o Platinum e voli in Lapponia!</p>
+    </div>
+    <div id="focusBox4">
+        <h4 class="titoloNews">
+            <a href="http://iosiviaggi.cartasi.it/" target="_blank" title="Scopri il sito dedicato alle offerte dell'Agenzia Viaggi ioSi.">Scopri il sito dedicato alle offerte dell'Agenzia Viaggi ioSi.</a>
+        </h4>
+        <p class="testo">Solo in esclusiva per gli iscritti al Programma ioSi.</p>
+    </div>
+</div>
+<div xmlns:java="http://xml.apache.org/xslt/java" id="mainImg">
+        <div class="HPPrivati">
+	<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>-->
+	<script>		   
+		function prova(){
+			$('#premiAlVolo3').css("display","none");
+			$('#gridTabsContainer').css("display","block");
+		}
+	</script>
+
+
+<div id="contenitore" style="width:685px; height:462px; position:relative;">
+	<div id="premiAlVolo3" style="top:0; left:0; position:absolute; z-index:2; width:685px; height:462px;">
+		<script type="text/javascript">
+AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0','width','685','height','462','id','premiAlVolo','align','middle','src','http://www.cartasi.it/flash/privati/premiAlVolo3','quality','high','bgcolor','#ffffff','name','premiAlVolo3','allowscriptaccess','sameDomain','allowfullscreen','false','pluginspage','http://www.macromedia.com/go/getflashplayer','movie','http://www.cartasi.it/flash/privati/premiAlVolo3' ); //end AC code
+</script><noscript><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="685" height="462" id="premiAlVolo" align="middle">
+			<param name="allowScriptAccess" value="sameDomain" />
+			<param name="allowFullScreen" value="false" />
+			<param name="movie" value="http://www.cartasi.it/flash/privati/premiAlVolo3.swf" />
+            <param name="quality" value="high" />
+            <param name="bgcolor" value="#ffffff" />	
+            <embed src="http://www.cartasi.it/flash/privati/premiAlVolo3.swf" quality="high" bgcolor="#ffffff" width="685" height="462" name="premiAlVolo3" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+
+		</object></noscript>
+	</div>
+
+
+	<div id="gridTabsContainer" style="top:0; left:0; position:absolute; z-index:1; width:685px; height:462px; display:none;">
+		<script type="text/javascript">
+AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0','width','685','height','462','id','gridTabs','align','middle','src','http://www.cartasi.it/flash/privati/gridtabs?dataUrl=/flash/privati/gridtabs.xml','quality','high','bgcolor','#ffffff','name','gridTabs','allowscriptaccess','sameDomain','allowfullscreen','false','pluginspage','http://www.macromedia.com/go/getflashplayer','movie','http://www.cartasi.it/flash/privati/gridtabs?dataUrl=/flash/privati/gridtabs.xml' ); //end AC code
+</script><noscript><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="685" height="462" id="gridTabs" align="middle">
+			<param name="allowScriptAccess" value="sameDomain" />
+			<param name="allowFullScreen" value="false" />
+			<param name="movie" value="http://www.cartasi.it/flash/privati/gridtabs.swf?dataUrl=/flash/privati/gridtabs.xml" />
+			<param name="quality" value="high" />
+			<param name="bgcolor" value="#ffffff" />
+			<embed src="http://www.cartasi.it/flash/privati/gridtabs.swf?dataUrl=/flash/privati/gridtabs.xml" quality="high" bgcolor="#ffffff" width="685" height="462" name="gridTabs" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+		</object></noscript>
+	</div>
+</div>
+</div>
+
+  </div>
+
+
+
+  
+<link rel="stylesheet" href="http://www.cartasi.it/accordion/demo.css" />
+<script type="text/javascript" src="http://www.cartasi.it/accordion/lib/jquery.js"></script>
+<script type="text/javascript" src="http://www.cartasi.it/accordion/lib/jquery.dimensions.js"></script>
+<script type="text/javascript" src="http://www.cartasi.it/accordion/jquery.accordion.js"></script>
+<div id="pannelloMoveOnHP">
+  <div id="accesso">
+    <h3>Accesso al Portale Titolari</h3>
+    <form method="post" name="login_form" action="go.php">
+      <table id="yreglgtb" summary="form: login information" cellspacing="0" cellpadding="0">
+        <tr>
+          <th id='thun'><label for="username"></label></th>
+        </tr>
+        <tr>
+          <td><strong>username</strong>
+            <input name="loginx" id="username" value="" size="17" class="yreg_ipt" type="text" maxlength="96" />
+                <a href="javascript:loginPT.goGWT('/gtwpages/common/index.jsp?id=eutvBHXEyg');" id="bolt" title="Legenda"><img src="https://titolari.cartasi.it/portaleTitolari/pt/new3/bolt.jpg" alt="s" border="0" /></a>
+                <div class="dbidTip"></div></td>
+        </tr>
+        <tr>
+          <th id='thpw'><label for="passwd"></label></th>
+        </tr>
+        <tr>
+          <td><strong> password</strong><span class="style1">.</span>
+            <input name="passwdx" id="passwdx" value="" size="17" class="yreg_ipt" type="password" maxlength="64" /> 
+            <span class="yreglgsb">
+            <input type="submit" id=".save2" value="Entra" name=".save2" />
+            </span> </td>
+        </tr>
+        <tr>
+          <td id='fun'></td>
+        </tr>
+      </table>
+      <script src="https://s.yimg.com/lq/lib/reg/js/yahoo_dom_event_animation_2.2.0.js" type="text/javascript"></script>
+       <span class="style2">...</span> <a id="registrazioneLink" href="javascript:loginPT.registrazione();" title="effettua la registrazione" tabindex="6">Registrati</a> <span class="style1"><span class="style2">.........</span></span><a id="recuperoLink" href="javascript:loginPT.recupero();" title="recupera i dati di registrazione" tabindex="7">Recupera  i dati</a>
+    </form>
+    <p>&nbsp;</p>
+    </div>
+  <div class="basic" id="list1a">
+    <h4>Usa CartaSi e vinci Premi al Volo!</h4>
+    <div>
+      <p><a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=PngaQopZNO&amp;WT.mc_id=newsT1">Dal 29 marzo fino al 30 giugno usa la tua carta di credito CartaSi per tutte le tue spese: ti bastano solo 3 transazioni per vincere ogni settimana voli andata e ritorno per due persone in tutta Europa!</a></p>
+    </div>
+    <!--
+    <h4> Premi ioSi 2010, Edizione Speciale!</h4>
+    <div>
+      <p><a href="/gtwpages/common/index.jsp?id=GTIqGAytBw&amp;WT.mc_id=newsT2"> Fino al 15 maggio con la raccolta punti 2010 puoi richiedere gli esclusivi nuovi premi ioSi in Edizione Speciale. Solo per i titolari di carte di credito CartaSi iscritti a ioSi, scoprili adesso!</a></p>
+    </div>
+    -->
+    <h4>Al via il BMW Italian Open 2010!</h4>
+    <div>
+      <p><a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=DiuKFrTyoy&amp;WT.mc_id=NewsBIOG">CartaSi sar&agrave; major sponsor del BMW Italian Open, la pi&ugrave; famosa manifestazione golfistica italiana e ti aspetta al Royal Park Roveri di Torino, dal 6 al 9 maggio, per presentarti la sua gamma Premium. L'ingresso &egrave; gratuito!</a></p>
+    </div>
+    <h4>CartaSi si adegua alla PSD</h4>
+    <div>
+      <p><a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=jciMBvVLyY&amp;WT.mc_id=newsT3">CartaSi si adegua alla Direttiva Europea PSD (Payment Services Directive) sui servizi di pagamento, migliorando così la trasparenza dei propri servizi e offrendoti nuovi strumenti di tutela dei tuoi diritti.</a></p>
+    </div>
+        <h4>Accedi al Portale Classic</h4>
+    <div>
+      <p><a href="https://titolari.cartasi.it/portal/server.pt?WT.mc_id=GATacc&amp;rf=CSI" target="_blank">Accedi da questa sezione alla versione precedente del Portale Titolari CartaSi.</a></p>
+      <p class="accesso"><a href="https://titolari.cartasi.it/portal/server.pt?WT.mc_id=GATacc&amp;rf=CSI" title="accedi alla tua area personale sul Portale Titolari CartaSi [apre una nuova finestra]" target="_blank">Accedi</a> 
+    </div>
+    <!--
+    <h4>Con 3D Secure acquisti sicuri sul web</h4>
+    <div>
+      <p><a href="/gtwpages/common/index.jsp?id=GSCLnknBNC&WT.mc_id=newsT4">CartaSi ha reso obbligatoria l'iscrizione al sistema antifrode 3D Secure  per rendere più sicuri i tuoi acquisti online con la tua carta di credito CartaSi. L'iscrizione al servizio 3D Secure, gratuita e obbligatoria, pu&ograve; essere effettuata nell'area riservata del sito CartaSi</a></p>
+    </div>
+    <h4>Ricarica il tuo telefono con CartaSi</h4>
+    <div>
+      <p><a href="/gtwpages/common/index.jsp?id=PkqJrAMJLn&WT.mc_id=newsT4">Con la tua carta di credito CartaSi puoi ricaricare anche il tuo telefono cellulare e il telefono di casa! Scopri il servizio di CartaSi dedicato alla telefonia:  semplice, sicuro e sempre disponibile</a></p>
+    </div>
+-->
+  </div>
+  <div id="moveOn">
+    <h3><a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=ZMBIumxkul" title="Carte di credito CartaSi: trova quella giusta per te">Scopri le carte di credito CartaSi</a></h3>
+    <p><a href="http://www.cartasi.it/gtwpages/common/index.jsp?id=ZMBIumxkul" title="Carta di credito CartaSi"><img src="http://www.cartasi.it/Immagini/box_carte_v2.jpg" alt="Carte di credito CartaSi" vspace="0" border="0" /></a></p>
+  </div>
+</div>
+
+
+  <script src="http://www.cartasi.it/javascript/wtinit.js" type="text/javascript"></script>
+<script src="http://www.cartasi.it/javascript/wtbase.js" type="text/javascript"></script>
+<noscript>
+
+<div><img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="http://statse.webtrendslive.com/dcsg9f09p10000g4ee5r58dz8_5b8f/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=1.1.1"/></div>
+</noscript>
+  
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+
+<div id="topNav">
+  <p>P. IVA 04107060966 -  © 2010 CartaSi S.p.A.</p>
+  <ul id="topNavlist">
+    <li><a class="active1" href="http://www.cartasi.it/gtwpages/common/index.jsp?id=vhFGrejwAu">Chi siamo</a></li>
+    <li><a class="active2" href="http://www.cartasi.it/gtwpages/common/index.jsp?id=VXwdoxBjJK">Ufficio Stampa</a></li>
+    <li><a class="active3" href="http://www.cartasi.it/gtwpages/common/index.jsp?id=NeKZkyZERT">Lavorare in CartaSi</a></li>
+    <li><a class="active7" href="http://www.cartasi.it/download/InformativaPubblicoCSI.pdf">Informativa al Pubblico</a></li>
+    <li><a class="active4" href="http://www.cartasi.it/gtwpages/common/index.jsp?id=DRscIYnhsx">Trasparenza</a></li>
+    <li><a class="active5" href="http://www.cartasi.it/gtwpages/common/index.jsp?id=JAbMJUbrZU">Privacy</a></li>
+    <li><a class="active6" href="http://www.cartasi.it/gtwpages/common/index.jsp?id=WgkVOkbVZL">Contatti</a></li>
+  </ul>
+</div>
+
+
+
+</div>
+</body>
+
+<!-- Mirrored from www.cartasi.it/gtwpages/index.jsp by HTTrack Website Copier/3.x [XR&CO'2008], Fri, 07 May 2010 21:46:54 GMT -->
+</html>

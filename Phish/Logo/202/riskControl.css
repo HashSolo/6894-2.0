@@ -1,0 +1,115 @@
+thead td
+{
+	background-color: #83a8cc;
+	color: #fff;
+	padding: 5px 1px 5px 5px;
+}
+tbody tr.header-row td
+{
+	background-color: #dbe7f2;
+}
+.risk-form tbody td, .risk-dashboard tbody td
+{
+	padding: 5px 2px;
+}
+table.tablewrapper {margin-top:15px; border:1px solid #3A5065; width:100%;}
+table.tablewrapper td.tablepading {padding:10px;}
+table.tablewrapper tbody div.mycontainer {background-color:#dbe7f2; padding:5px; background: #dbe7f2 url(/WEBSCR-640-20100907-1/en_US/i/scr/fp_blueBG_589x122.gif) repeat-x left top;}
+table.tablewrapper tr.header td {text-transform: uppercase; font-weight: bold;}
+table.tablewrapper tr td {font-weight:bold; padding: 5px;}
+table.innertable tr td.innertablelstrow {border-top:1px solid #3A5065;}
+table.innertable tr td.innertablefootrlft {border-top:1px solid #3A5065; border-left:1px solid #3A5065; border-bottom:1px solid #3A5065;}
+table.innertable tr td.innertablefootrcentr {border-top:1px solid #3A5065; border-bottom:1px solid #3A5065;}
+table.innertable tr td.innertablefootrrgt {border-top:1px solid #3A5065; border-right:1px solid #3A5065; border-bottom:1px solid #3A5065;}
+table.innertable tfoot.innertablefootr {background-color:#fff;}
+table.risk-table
+{
+	background-color: #fff;
+	background-image: none;
+}
+.risk-dashboard thead td
+{
+	background-color: #83a8cc;
+	color: #fff;
+	padding: 1px 1px 1px 5px;
+}
+.risk-dashboard thead td input
+{
+	margin-left: 5px;
+}
+.risk-dashboard tbody.risk-dashboard
+{
+	padding: 5px;
+}
+.risk-dashboard tbody.risk-dashboard tr.header td
+{
+	text-transform: uppercase;
+}
+.risk-dashboard tbody.risk-dashboard tr.footer td
+{
+	font-weight: bold;
+}
+#bar-chart-accepted
+{
+	background: #060 url(/WEBSCR-640-20100907-1/en_US/i/scr/fp_green_232x11.gif) repeat-y;
+	float: left;
+	width: 0; height:15px;
+}
+#bar-chart-pending
+{
+	background: #cc0 url(/WEBSCR-640-20100907-1/en_US/i/scr/fp_yellow_232x11.gif) repeat-y;
+	float: left;
+	width: 0; height:15px;
+}
+#bar-chart-denied
+{
+	background: #900 url(/WEBSCR-640-20100907-1/en_US/i/scr/fp_red_232x11.gif) repeat-y;
+	float: left;
+	width: 0; height:15px;
+}
+#bar-chart-flagged
+{
+	background: #036 url(/WEBSCR-640-20100907-1/en_US/i/scr/fp_blue_232x11.gif) repeat-y;
+	float: left; height:15px;
+	width: 0;
+}
+.risk-table
+{
+	border: 1px solid #83a8cc;
+}
+.risk-table tbody td
+{
+	border-top: 1px solid #dbe7f2;
+}
+.risk-form
+{
+	border: 1px solid #83a8cc;
+}
+.risk-form tbody td
+{
+	border-left: 1px solid #dbe7f2;
+	border-top: 1px solid #dbe7f2;
+	border-collapse: collapse;
+}
+.risk-form thead td a
+{
+	color: #fff;
+}
+.whitebg {
+	background-color:#FFFFFF;
+	padding:10px !important;
+	height:10px;
+}
+.upgradefmfleft{display:inline;width:400px;float:left}
+.upgradefmfright{display:inline;}
+#historyMiniLog .tableHeader a {float:right;}
+#historyMiniLog .tableHeader span.leftcontent{float:left;width: 49%}
+#historyMiniLog .tableHeader span.rightcontent{float:right;text-align: right;width: 49%}
+table#ipadd th{text-align:left}
+#sidebar .navContainer {border:1px solid #ccc; color:#000; }
+#sidebar .navContainer ul {margin:0;padding:0;list-style-type:none;}
+#sidebar .navContainer li {margin:0;}
+#sidebar .navContainer a {display:block;}
+#sidebar #selected a {background-color:#ffffcc; text-decoration:none;}
+#sidebar ul li.offLevel1 a, #sidebar ul li.onLevel1 a {border-top:1px solid #ccc; padding:5px 5px 5px 15px; }
+#sidebar .LeftNavHeader {margin:0; padding:5px 0 5px 15px; background-color:#eee; font-size:1.1em; font-weight:bold;}

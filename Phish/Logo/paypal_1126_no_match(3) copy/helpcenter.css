@@ -1,0 +1,654 @@
+/* override ATG css body properties to set page to neutral for PP layout */
+.panel { visibility: visible;border: none; padding: 0px 0px;}
+
+body{
+	margin:0 !important;
+	padding:0 5px !important;
+	background-color:#fff !important;
+	width: 98% !important;
+}
+#xptHeader {
+	margin: 0 auto !important;
+	width: 640px;
+}
+#xptHeader table a {
+	padding: 0 5px;
+}
+
+div#navPrimary {                     
+	width: 650px;
+}
+
+/*remove bottom border per bug PPSCR00742449 Kristen Lanum*/
+div#navPrimary.srd {
+	border-bottom:none;
+}
+
+.ppPageTitle{
+	font-size: 17px;
+	border-bottom: 2px solid #666 !important;
+	margin: 0 auto 0 auto !important;
+	padding: 0 0 10px 0 !important;
+	color: #036;
+	width: 800px !important;
+}
+
+/*search form at top below Help Center H2.*/
+/*Kristen Lanum for spec 13884 7/16/08*/
+div#topSearchPos {
+	position:relative;
+	top:-5.3em;/*was -3.5, adjusted for IE*/
+	width: 800px !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+div#topSearch {
+	float:right;
+	border:1px solid #CCCCCC;
+	padding: 5px;
+	background-color:#ECF1F7;
+	}
+
+input.long {
+	width:150px !important;
+	margin-right:3px;
+}
+
+/*Increase size of Search button, gray out the Search the Help Center text*/
+input#searchSubmit {font-size:1.1em;}
+
+/*In IE, the H1 "<name>, Some possible answers" was floating to the right of where the Search form was. This property lets it wrap to the left.*/
+div#topQuestionsPanel div.panel {
+	clear:both;
+}
+
+/*these items were pushing the Search Results heading down*/
+dl#describeFormPanel {
+	display:none;
+}
+#describeProblemPanel form {
+	display:none;
+}
+/*end search form styling*/
+
+/*indent text in the Help Center pane.*/
+/*Kristen Lanum for spec 13884 7/16/08*/
+/* .topicTreeBody { margin-left:6px; } */
+
+/*begin block requested by Brian Nguyen 7/18/08*/
+/* #languageSupportPanel .title,
+#languageSupportPanel h5 {
+	background-color:#DBE7F2;
+	border-bottom:medium none;
+	color:#000000;
+} */
+
+/* #languageSupportPanel .panelContent{
+  padding: 10px;
+  margin: 0 10px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+} */
+
+/* #languageSupportPanel a {
+  font-weight: bold;
+} */
+
+/* #languageSupportPanel dd a {
+  font-weight: normal;
+} */
+/*end block requested by Brian Nguyen 7/18/08*/
+
+/*fixes 8/8/08 to un-hide title in the language support panel Kristen Lanum*/
+/* #languageSupportPanel .title,
+#languageSupportPanel h5 {  
+	background:none;
+	color: #036;
+	border:1px solid #ccc;
+	border-bottom:none;
+	margin:0px 10px 0px 0px;
+}
+
+#languageSupportPanel .panel{
+	border:none;
+	background:none;
+	visibility:visible;
+	padding:5px 0px 0px 10px;
+} */
+
+/*end fixes 8/8/08*/
+
+/* div#maincontent {
+	border: none !important;
+	width: 800px !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	top: 0px !important;
+	}
+*/
+/* XPT Header */
+
+div#xptHeader table tbody tr td a {
+font-size: 13px;
+}
+
+/* START CONTENT LAYOUT */
+/* Top Articles Content Panel */
+div#hideShow {
+	width: 507px;
+	padding-top: 10px;
+	padding-left: 40px;
+	display:none; /*Kristen Lanum for spec 13884 7/16/08*/
+}
+
+#column_1 #topQuestionsPanel h1.title{
+	font-size:13px !important;
+	color: #036;
+}
+#column_1 #topQuestionsPanel .panelContent{
+	font-size:12px !important;
+	font-weight:bold;
+	color: #036;
+	padding: 0 0 5px 0;
+}
+#column_1 #topQuestionsPanel .panelContent a{
+	font-weight:normal;
+}
+
+#column_1 #topQuestionsPanel #topQuestionsContent ol li {
+	margin-bottom: 5px;
+}
+
+
+#describeYourProblem, #searchTextField {
+	height: auto !important;
+}
+
+#quickFindPanel div.panel div.panelContent {
+	font-size:13px;
+}
+
+#quickFindPanel div.panel div.panelContent form#quickFindForm dl.dataSet {
+	width: 470px; 
+}
+
+#quickFindPanel div.panel div.panelContent a {
+	font-size:12px;
+}
+ 
+#describeProblemPanel, #quickFindPanel div.panelContent  {
+background-color: #ECF1F7;
+}
+
+
+#contactUsSmallPanel div.panelContent a { 
+	font-size:12px;
+}
+
+/* div#maincontent div#column_1 div#poweredByLogoPanel{
+display: none !important;
+} */
+
+div#describeProblemPanel {
+	font-size: 13px;
+background-color: #fff;
+}
+
+div#divSearchResults {
+	font-size: 12px;
+	width: 570px;
+}
+
+/* div#solutionPanel {
+	font-size: 12px;
+} */
+
+div#solutionPanel div.article_details_breadcrumbs {
+	margin-left: 10px;
+	padding: 10px 0 12px 5px;
+	width: 563px;
+	background-color: #EFF3F7;
+	border: 1px solid #B5B2B5;
+	border-bottom: none;
+}
+
+dl.describeProblem {
+	background-color: #ECF1F7;
+	padding-bottom: 12px;
+}
+
+div#solutionPanel div.ppTitle {
+	font-size: 13px;
+	margin-top: 0px !important;
+}
+
+.ppTitle {
+	background: #86A6CF url(/HELPSCR-560-20090209-1/en_US/i/scr/browse.gif) no-repeat right top !important;
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FFF;
+	margin-top: 30px !important;
+	_margin-top: 10px !important;
+width: 569px !important;
+}
+.ppTitle h3 {
+margin: 0;
+}
+dl.solResults * {
+border: none !important;
+
+} 
+
+/*END CONTENT LAYOUT */
+
+
+/* START NAV PANEL LAYOUT */
+/* Helpful Resources Panel CSS */
+#helpfulResourcesPanel .panel h5, #helpfulResourcesPanel .panel h1 {
+	border:1px solid #ccc;
+	border-bottom: 0;
+	color:#036;
+	font-size: 13px; 
+}
+#helpfulResourcesPanel .panelContent {
+	font-size:12px;
+}
+#helpfulResourcesPanel .panelContent dt{
+	font-weight:bold;
+}
+#helpfulResourcesPanel .panelContent dd{
+	margin:0 0 0 13px;
+}
+
+/* Top 5 Articles Side nav panel */
+#column_3 #topQuestionsPanel .panel h5 {
+	border:0;
+	color:#fff;
+	font-size: 12px; 
+	background-color: #86a6cf;
+}
+#column_3 #topQuestionsPanel .panel .panelContent {
+	border:0;
+	background-color: #ecf1f7;
+	font-size: 12px;
+}
+#column_3 #topQuestionsPanel .panel .panelContent ol {
+margin: 0 0 0 24px;
+padding: 0;
+}
+sid
+#column_3 #topQuestionsPanel .panel .panelContent ol li {
+margin-bottom: 6px;
+}
+
+
+/*Recently Viewed Side Nav */
+/* #myHistoryPanel .panel h5 {
+	border:1px solid #ccc;
+	border-bottom: 0;
+	color:#036;
+	font-size: 12px; 
+} */
+
+#myHistoryPanel div.panel div.panelContent {
+	font-size: 12px;
+}
+
+#myHistoryPanel li {
+	color: #000;
+}
+
+#myHistoryPanel .answersViewed h3,  #myHistoryPanel .searchHistory {
+	/* width: 150px; */
+	display: none;
+}
+
+/* ul.simpleBullets li a {
+color: #0066CC;
+text-decoration: underline;
+font-size: 12px !important;}
+*/
+
+/* Contact Us Side Nav */
+#contactUsSmallPanel .panel h5{
+	font-size:13px;
+}
+#contactUsSmallPanel .panelContent span{
+	font-size:12px;
+}
+
+
+/* END NAV PANEL LAYOUT */
+
+/* ATG is DOWN */
+.pageTitle {
+  border-bottom: 2px solid gray;
+  margin-bottom: 5px;
+  padding: 5px; 
+  color: rgb(4, 51, 105);
+}
+
+#atgDown {
+  background: #FFFFFF url(/HELPSCR-560-20090209-1/en_US/i/pui/main/container_bg.jpg) repeat-x scroll center bottom;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;  
+}
+
+.floatLeft {
+  float: left;
+  padding-bottom: 1em;
+}
+
+.addPadding {
+  padding-top: 2em;
+}
+
+#atgDown ul.col {
+  float: left;
+  width: 240px;
+  padding-left: 5px;
+  margin-left: 5px; 	
+}
+
+#atgDown li {
+  float: left;
+  width: 220px; 
+  list-style-type: none;
+  padding-bottom: 15px;
+}
+
+#atgDown a {
+  font-weight: bold;
+}
+
+/* ATG is Down END */
+
+div#frameA {
+	height: auto;
+	border: none;
+}
+
+iframe {
+	border: 1px solid #ccc;
+}
+
+.panel { background-image: none !important; }
+div#solutionPanel #toolBar {
+  display: block;
+  float: none;
+}
+
+div#solutionPanel #toolBar #solutionQuestion dl dd ul li {
+font-size: 12px;
+font-weight: 400;
+color: #000;
+text-align: left;
+border: 0;
+}
+
+div#solutionPanel #toolBar #solutionQuestion .solution {
+height: auto;
+}
+
+div#solutionPanel #toolBar #solutionQuestion div.solution dl.dataSet dd ul li a {
+	font-size: 12px;
+	text-decoration: underline;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+/* div#solutionPanel #toolBar #solutionQuestion .solution dd {width: 100%;} */
+
+div#frameB {
+width: 100%;
+height: auto;
+display: block;
+margin: 0 auto 0 auto !important;
+}
+
+div#frameB * {
+width: 570px;
+}
+
+div#frameB dd.solSynopsis {
+display: none;
+} 
+
+/* #myHistoryPanel .answersViewed {
+	width: 155px;
+} */
+
+#myHistoryPanel .answersViewed ul {
+	font-size: 12px;
+}
+
+/* Width of Search input field */
+/* #quickFindPanel .dataSet input#describeYourProblem {
+	width: 310px !important;
+} */
+
+/* Show All link */
+div#frameB {
+	margin-left: 5px !important;
+	width: 570px;
+}
+
+/* #searchResultsTabletopControlBarControlBarTag div.barTitle #resultsBarTop .pagination, #searchResultsTablebottomControlBarControlBarTag div.barTitle #resultsBarTop .pagination {
+	width: 555px !important;
+} */
+
+/* for loading image */
+#ppSearchLoadingArea {
+ 	width: 570px;
+	margin-left: 10px;
+	/* display: none; */
+}
+
+#ppSearchLoadingArea img {
+	margin-top: 10px;
+	width: 20px;
+	height: 18px;
+}
+
+/* To override SRD */
+
+#quickFindPanel div.panel {z-index: 0; visibility: visible; border: none; padding: 0; background-color: transparent; position: static; background:none;}
+
+#quickFindPanel div.panel div.panelContent {z-index: 0; visibility: visible; border: 1px solid #ccc;}
+
+/* #topQuestionsPanel div.panel {visibility: visible; border: none; padding: 0; background:none;} */
+
+#topQuestionsPanel div.panel div#topQuestionsContent {visibility: visible; border: none; padding: 0;}
+
+#browsePanel div.panel div#panelContent,#browsePanel div.panel {visibility: visible; border: none; padding: 0;}
+#browsePanel div.panel {background:none;}
+
+/*inserted by request from Suresh Alluru for spec 13884*/
+#browsePanel .title{
+  background-color: #fff;
+  color: #000;
+  border: none;
+  visibility:visible !important; /*added by krl to un-hide the title*/
+}
+
+/*Indent the Help Center box to line up with headings. Kristen Lanum 7/25/08 for spec 13884*/
+/* div#frameA div#answer {margin-left:10px;} */
+/*Hide the panel which holds the quickFindform (moved to top right)*/
+#quickFindFormPanel {display:none;}
+
+#helpfulResourcesPanel div.panel {visibility: visible; border: none; padding: 0; background:none;}
+
+#contactUsSmallPanel div.panel {visibility: visible; border: none; padding: 0; background:none;}
+
+#contactUsPanel2 div.panel {padding: 0;}
+
+#browsePanel div.panel {padding: 0;}
+
+#myHistoryPanel div.panel {visibility: visible; border: none; padding: 0; background-color: transparent; position: static; background:none;}
+
+#relatedContentPanel div.panel {visibility: visible; border: none; padding: 0; background:none;}
+#topSearchPos {margin:20px auto 0 auto; width:780px;}
+
+.containerWide {
+width:760px; 
+margin:0 auto 6px auto;
+}
+#maincontent {
+clear:both; 
+/* margin-top:1.5em !important; */ 
+padding-top: 1em !important;
+}
+/* #maincontent {clear:both; overflow:auto; margin-top:1.5em;} */
+#maincontent .sideposright #main {float:left; width:570px;}
+#maincontent .sideposright #sidebar {float:right; width:180px;}
+#maincontent .sideposleft #main {float:right; width:570px;}
+#maincontent .sideposleft #sidebar {float:left; width:180px;}
+#homePage #maincontent { 
+margin-top: 1em !important; 
+padding-top: 0px !important; 
+}
+#sidebar {line-height:1.33;}
+
+.browseAnswersRow ul {float: left;
+  width: 275px;
+  font-weight: bold;
+  padding-left: 0;
+  padding-right: 10px;
+}
+.browseAnswersRow li {
+  font-weight: normal;
+}
+.browseAnswersRow { clear:both; 
+
+}
+.browseAnswers h3 {
+  border-bottom: 1px solid #CCCCCC;
+  padding:7px 0pt 4px 0pt;
+  padding-right: 10px;
+}
+
+#sidebar div {margin:1em 0;}
+#sidebar .nav {border:1px solid #ccc;}
+#sidebar .nav h4 {border-bottom:1px solid #ccc; padding:4px 5px; background:url(/HELPSCR-560-20090209-1/en_US/i/nav/side_nav_bg.gif) left bottom repeat-x;}
+#sidebar .nav ul {margin:0;}
+#sidebar .nav ul li {margin:0; border-bottom:1px solid #e6e6e6; padding:3px 5px 4px 12px; background:#fafafa url(/HELPSCR-560-20090209-1/en_US/i/nav/side_nav_li.gif) 4px 8px no-repeat; list-style:none;}
+/* parent node open, gray arrow facing downward */
+#sidebar .nav ul li.open {background-position:3px -482px;}
+/* parent node active, bold arrow facing downward */
+#sidebar .nav ul li.active {background-position:4px -72px;}
+#sidebar .nav ul li.active a {font-weight:bold;}
+#sidebar .nav ul li.active ul a {font-weight:normal; color: #084482;}
+#sidebar .nav ul li.last {border:none;}
+/* child node, */
+#sidebar .nav ul ul li {margin:.4em 0 .2em 0; border:none; padding:0 5px 0 12px; background-position:4px 5px;}
+/* child node, bold arrow facing right */
+#sidebar .nav ul ul li.active {background-position:4px -74px;}
+#sidebar .nav ul ul li.active a {font-weight: bold;}
+#sidebar .nav a {text-decoration:none;}
+#sidebar .nav a:hover, #sidebar .nav a:active, #sidebar .nav a:focus {text-decoration:underline;}
+#sidebar .linkset {border:1px solid #ccc;}
+#sidebar .linkset a {display:block; text-decoration:none;}
+#sidebar .linkset a:hover, #sidebar .linkset a:active, #sidebar .linkset a:focus {text-decoration:underline;}
+#sidebar .linkset ul {margin:.9em 0;}
+#sidebar .linkset ul li {margin-left:0; _border-bottom:1px solid #fff; padding-left:6px; background:url(/HELPSCR-560-20090209-1/en_US/i/nav/side_dot.gif) 0 6px no-repeat; list-style:none;}
+#sidebar .emphasis h4 {border-bottom:1px solid #ccc; padding:4px 5px; background:#f7f6f4;}
+#sidebar .emphasis ul {margin:.9em 5px;}
+#sidebar .supp {padding:0 5px;}
+#sidebar .supp h4 {border-bottom:1px solid #ccc; padding:4px 0;}
+#sidebar .supp ul li.break {margin-top:.9em; border-top:1px solid #ccc; padding-top:.9em; background-position:0 16px; *background-position:0 18px;}
+#sidebar .content {border:1px solid #ccc; padding:0 5px;}
+#sidebar .content h4 {margin-top:1em;}
+#sidebar .help {padding:0 5px 0 20px; background:url(/HELPSCR-560-20090209-1/en_US/i/pui/q_mark.gif) 0 0 no-repeat;}
+#sidebar .help p, #sidebar .help ul {margin:0;}
+#sidebar .help ul li {display:inline; margin:0 .4em 0 0; *margin-right:.5em; border-right:1px solid #333; padding-right:.6em; *padding-right:.4em; list-style:none;}
+#sidebar .help ul li.last {border:none;}
+
+/*  #sidebar .boxed {*/
+.boxed {
+	border:1px solid #ccc;
+	padding: 0 7px 0 5px;
+}
+#sidebar .top {margin-top: 0;}
+
+span.arrow {
+	background:transparent url(/HELPSCR-560-20090209-1/en_US/i/nav/icon_orange_arrow.gif) no-repeat scroll 0pt 50%;
+	padding-left:17px;
+}
+
+#languageSupportPanel ol, #helpTopicsPanel li, #topQuestionsPanel ol, #helpTopicsPanel div ol, #sideTopicsPanel ul, #searchPage ul, #relatedContentPanel ul, #sideTopicPanel ul, #topQuestionsContent ol, #helpTopicsContent ol, .answersViewed ul {padding-left: 0px !important; margin-left: 0px !important;}
+#languageSupportPanel ol li, #topQuestionsPanel ol li, #sideTopicsPanel ul li, #searchPage ul li, #sideTopicPanel ul li, #topQuestionsContent ol li, #helpTopicsContent ol li, .answersViewed ul li {margin-left:0; _border-bottom:1px solid #fff; padding-left:6px; background:url(/HELPSCR-560-20090209-1/en_US/i/nav/side_dot.gif) 0 6px no-repeat; list-style:none;}
+#helpTopicsPanel div ol li, #helpTopicsPanel li, #relatedContentPanel ul li {margin-left:0 !important; _border-bottom:1px solid #fff; padding-left:10px !important; background:url(/HELPSCR-560-20090209-1/en_US/i/icon/icon_content_arrow.gif) 0 6px no-repeat; list-style:none;}
+.browseAnswersRow ul li {margin-left:0; _border-bottom:1px solid #fff; padding-left:6px; background:url(/HELPSCR-560-20090209-1/en_US/i/nav/side_dot_blkround.gif) 0 6px no-repeat; list-style:none;}
+
+div#topQuestionsPanel, #topQuestionsPanel .panel, div#topQuestionsPanel, div#sideTopicsPanel, .sideTopicsPanel, div#myHistoryPanel, div#myHistoryPanel .panel, div#myHistoryPanel .panel .panelContent, div#myHistoryPanel .panel .panelContent .answersViewed { margin-top: 0; margin-bottom: 0; }
+/* #myHistoryPanel .panel .panelContent .answersViewed { margin-top: 4px; } */
+
+div#sideTopicPanel { margin-top: 0; margin-bottom: 0;}
+
+div#virtualChatPanel {
+  overflow: auto;
+  margin: 2px 0px 1px 0px;
+}
+div#virtualChatPanel div.virtualChat {
+  margin: 3px 0px;
+ width: 142px;
+ font-size: 10px;
+  float: left;
+}
+/* div#virtualChatPanel div.avatar {
+  float: right;
+  margin: 0px 0px;
+} */
+
+.virtual {background: transparent url(/HELPSCR-560-20090209-1/en_US/i/help/icon_avatar_sarah_27x30.gif) no-repeat 97% 100%;}
+/* .virtualBottom {
+ margin: 3px 0px;
+ width: 300px;  	
+} */
+.virtualBottom {
+ margin: 3px 0px;
+ padding-top: 8px; 
+ padding-bottom: 8px;
+ width: 420px;  	
+}
+
+.virtulaBottom virtualChat {
+	float: none;
+	width: auto;
+}
+#describeYourProblem { 
+  width: 435px; /* will look correct for logest language -- French */
+  margin: 5px 5px;
+}
+
+#quickButton { margin: 5px 5px 5px 0px;}
+.onlySearch #quickFindPanel input#describeYourProblem { width: 641px; }
+.sharedSearch #quickFindPanel {
+  width: 555px;
+  float: left;
+  padding-right: 10px;
+}
+.sharedSearch #virtualChatPanel { width: 180px; }
+/* .sharedSearch .panelContent, .sharedSearch #virtualChatPanel { */
+.sharedSearch { float: left; }
+.sharedSearch #virtualChatPanel, div#virtualChatPanel { margin: 0px 0px; }
+.sharedSearch #virtualChatPanel, #sidebar #virtualChatPanel { height: 34px !important; }
+#solutionQuestion .solution .label { display: none; }
+#solutionQuestion .solution .dataSet dd {margin-left: 0;}
+#solutionQuestion .solution .dataSet dd ol {margin-left: 0px; padding-left: 20px;}
+#solutionQuestion .solution .dataSet dd ul li {padding-left:6px; background:url(/HELPSCR-560-20090209-1/en_US/i/nav/side_dot_blkround.gif) 0 6px no-repeat; list-style:none;}
+#relatedContentPanel dd { margin-left: 0; }
+#solutionPanel .panel {padding: 0 0; }
+.topRow { clear: both; }
+#virtualChatPanel .virtualChatContact { width: 80%; }
+#virtualChatPanel .virtualChatContact h3 { padding-top: 7px; }
+#virtualChatPanel .virtualChatContact div { padding-bottom: 1em; }
+h2 {
+font-size:1.33em;
+font-weight: bold;
+}
+#solutionPanel, #searchPage, #contactUs, #solutionPage, #browsePage, #languageSupportPanel { margin-top: 1em !important; }

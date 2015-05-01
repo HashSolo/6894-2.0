@@ -1,0 +1,201 @@
+body,div,span,td,select,option,textarea,input
+{
+	font-family: "Trebuchet MS",Arial,sans-serif;
+	font-size: 12px;
+}
+
+.thin
+{
+	border: 1px solid #202020;
+}
+
+.login
+{
+	border: 1px solid #202020;
+	font-size: 10px;
+}
+
+.small
+{
+	font-size: 10px;
+}
+
+div#wholesite
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+}
+
+div#top
+{
+	width: 1000px;
+}
+
+a#banner
+{
+	float: left;
+	display: block;
+	width: 306px;
+	height: 106px;
+	background-image: url('/images/banner-left.jpg');
+}
+
+div#ad
+{
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	float: left;
+	width: 494px;
+	height: 100px;
+	border-top: 3px solid #CBEFFA;
+	border-bottom: 3px solid #CBEFFA;
+	background-color: #E0E0E0;
+}
+
+div#userinfo
+{
+	float: left;
+	clear: right;
+	width: 194px;
+	height: 100px;
+	text-align: right;
+	background-color: #FFFFCC;
+	border: 3px solid #CBEFFA;
+	clear: right;
+}
+
+div.box-top
+{
+	width: 495px;
+	height: 24px;
+	padding-top: 5px;
+}
+
+div.box-top-item,div.box-top-item-active
+{
+	display: table-cell;
+	width: 100px;
+	height: 24px; 
+	border-left: 3px solid #CBEFFA;
+	border-top: 3px solid #CBEFFA;
+	float: left;
+	font-size: 14px;
+	text-align: center;
+	font-weight: bold;
+	background-image: url('/images/bgblue.gif');
+}
+
+a.middle
+{
+	vertical-align: 30%;
+	height: 24px;
+	font-size: 12px;
+	text-decoration: none;
+	color: black;
+}
+
+a.middle:hover
+{
+	text-decoration: underline;
+}
+
+div.box-top-item-active
+{
+	background-image: url('/images/bgyellow.gif');
+}
+
+div.box-content
+{
+	width: 483px;
+	border: 3px solid #CBEFFA;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+a.category
+{
+	display: block;
+	color: #399BD8;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+	clear: both;
+}
+
+a.category:hover
+{
+	text-decoration: underline;
+}
+
+a.thumb
+{
+	display: block;
+	width: 80px;
+	float: left;
+}
+
+a.thumb:hover
+{
+	text-decoration: underline;
+}
+
+div.view-head
+{
+	font-size:16px;
+	font-weight: bold;
+}
+
+div.view-descr
+{
+	font-size: 12px;
+	font-style: italic;
+	padding-bottom: 10px;
+}
+
+div.view-main
+{
+	padding-top: 10px;
+	float: left;
+	clear: left;
+	width: 483px;
+}
+
+div.view-categories
+{
+	padding-top: 10px;
+	float: right;
+	clear: right;
+}
+
+iframe.view-related
+{
+	display: block;
+	float: right;
+	clear: right;
+}
+
+a.view-fullscreen
+{
+	font-size: 14px;
+	font-weight: bold;
+	display: block;
+	padding-top: 5px;
+}
+
+td.rateit
+{
+	font-size: 16px;
+	font-weight: bold;
+	color: #808080;
+}
+
+td.rateinfo
+{
+	font-size: 14px;
+	color: #606060;
+}
+
+}

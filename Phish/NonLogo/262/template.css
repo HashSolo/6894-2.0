@@ -1,0 +1,30 @@
+/*
+ * YOOtheme CSS file
+ *
+ * @author yootheme.com
+ * @copyright Copyright (C) 2007 YOOtheme Ltd. & Co. KG. All rights reserved.
+ */ 
+ 
+/* reset styling */
+@import url(reset.css);
+ 
+/* layout styling */
+@import url(layout.css);
+
+/* typography styling */
+@import url(typography.css);
+
+/* menu styling */
+@import url(menus.css);
+
+/* module styling */
+@import url(modules.css);
+
+/* Joomla core styling */
+@import url(joomla.css);
+
+/* Third party extensions styling */
+@import url(extensions.css);
+
+/* Third party extensions styling */
+/* @import url(custom.css); */

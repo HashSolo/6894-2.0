@@ -1,0 +1,69 @@
+#calcpage{width:750px; margin:0 auto; font:Arial;color:#333333;}
+#calcpage h2{margin:0; color:#040608; font-size:20px;}
+#calcpage label{margin-bottom: 3px;}
+#calcpage .dots {border-top:1px dotted #ccc;margin:7px 0 7px 0;}
+#calcpage .calcHeader{ background:#ffffff url(/WEBSCR-640-20100823-1/en_US/Marketing/i/header/hdr_headerbg_750x82.gif) no-repeat;height:82px;}
+#calcpage .calcHeader h1{padding:20px 0 0 20px; color:#EFE7CB; font-size:20px;font-style:italic;}
+#calcpage .calcHeader h3{padding: 2px 0 5px 20px; color:#ffffff; font-size:16px;font-weight:normal;}
+#calcpage .contmain {width:750px;margin:20px 0 0 0;}
+#calcpage .contleft {width:320px;float:left;padding-left:20px;}
+#calcpage .contright {width: 354px;float:right;margin:0 15px 0 0;}
+#calcpage .p2pcalc .middle{border-left:1px solid #cecece;border-right:1px solid #cecece;width:352px;background: transparent url(/WEBSCR-640-20100823-1/en_US/Marketing/i/scr/scr_MF_Box_1x500.gif) repeat-x scroll center bottom;}
+#step1 , #step2 , #step3 {width:300px;margin-left:20px;display:block;clear:both;}
+#step1.current h2{ background:url(/WEBSCR-640-20100823-1/en_US/Marketing/i/scr/scr_1_on_14x20.gif) no-repeat;color:#174871; padding:5px 0 0 15px; font-size: 14px;}
+#step1 h2{background:url(/WEBSCR-640-20100823-1/en_US/Marketing/i/scr/scr_1_off_14x20.gif) no-repeat; padding:5px 0 0 20px; height:20px; color:#999999; font-size: 14px;}
+#step2.current h2{ background:url(/WEBSCR-640-20100823-1/en_US/Marketing/i/scr/scr_2_on_14x20.gif) no-repeat;color:#174871; font-size:14px;margin-bottom:5px;}
+#step2 h2{ background:url(/WEBSCR-640-20100823-1/en_US/Marketing/i/scr/scr_2_off_14x20.gif) no-repeat; color:#999999; padding:5px 0 0 20px; font-size:14px;margin-bottom:5px;}
+#step3 h2{ background:url(/WEBSCR-640-20100823-1/en_US/Marketing/i/scr/scr_3_off_14x20.gif) no-repeat; color:#999999; padding:0 2px 0 20px; font-size:14px;line-height:20px;margin-top:5px;}
+#step3 h2 img {padding:0;}
+#step3 {width:310px;}
+#feetable {width:270px;margin:10px 0 10px 0;}
+#feetable .payopt{width:110px;}
+#feetable .payfee{width:70px;}
+#feetable .paytot{width:80px;}
+#feetable .header{border-bottom:1px dotted #ccc;padding-bottom:5px;}
+#feetable td {background-color:transparent !important;}
+#calcpage .nodash {border-bottom:0;color:#000;}
+#calcpage .bluebg {background:#D1EBF7;}
+#step1a{clear:both;overflow:auto;display:block;width:300px;}
+#step1b {overflow: auto;clear:both;}
+#ptime{padding:2px 0 0 4px;}
+#flag_icon{padding:3px 4px 0 4px;}
+#see_info , #btnReCalculate {font-size: 10px;}
+#see_info {text-align:right;padding-right:20px;}
+#ex_value , #step1b{margin-top:10px;clear:both;}
+.innercont {padding-left:30px;}
+.amount {float:left;width:90px;}
+.currency {float:left;width:150px;text-align:left;}
+.amthdr{width:250px;display:block;overflow:auto;clear:both;}
+#country_name {font-size:11px;margin-right:5px;width:245px;float:left;}
+#amount_ccode {font-size:11px;width:155px;}
+#amount{font-size:11px;}
+#emailfrom , #emailto {font-size:11px;width:200px;margin-bottom:10px;}
+#animate_exrate{clear:both;}
+#ex_rate_usd {padding-top:5px;clear:both;}
+#btnCalculate{background:url(/WEBSCR-640-20100823-1/en_US/Marketing/i/btn/btn_calculate.gif) no-repeat;width:86px;height:24px;border:0;clear:both;margin-top:10px;}
+#step1Continue , #step2Continue{background:url(/WEBSCR-640-20100823-1/en_US/Marketing/i/btn/btn_continue.gif) no-repeat;width:80px;height:24px;border:0;}
+#ex_amount{width:200px;float:left;font-weight:bold;color:#000;}
+.footcont p {padding-left:40px;}
+.bottom{background:url(/WEBSCR-640-20100823-1/en_US/Marketing/i/scr/scr_MF_BoxBottom_new_354x7.gif) no-repeat;width:354px;height:7px;}
+.top{background:url(/WEBSCR-640-20100823-1/en_US/Marketing/i/scr/scr_MF_BoxTop_new_354x7.gif) no-repeat;width:354px;height:7px;_margin-bottom:-10px;}
+.help { background: url(https://www.paypalobjects.com/en_US/i/icon/form_error.png) no-repeat;color: #cc0000; padding:0 0 0 20px;clear:both; }
+p.sndhead{margin: 1em 0 0 0;}
+.recalcStyle{ float:left; background:transparent url(/WEBSCR-640-20100823-1/en_US/Marketing/i/btn/btn_expand1.JPG) no-repeat -1px center ; border:1px solid transparent; margin:0 0 5px 10px ; cursor:pointer; color:#174871; text-decoration:underline;}
+li, dd {margin:0 0 0 1.7em;}
+div.messageBox {padding-top: 15px !important;}
+.accessAid {DISPLAY: block;	LEFT: -500em;	OVERFLOW: hidden;	WIDTH: 1px;	TEXT-INDENT: -9999em;	LINE-HEIGHT: 0;	POSITION: absolute;	TOP: 0px;	HEIGHT: 1px}
+#balloonCalloutPanel{ left:-30px; top:-100px; }
+.balloon .posUnder .body {background:#ffffff none repeat scroll 0 0;border-color:#666666;border-style:solid;border-width:0 1px 1px;padding:12px 17px 10px 8px;}
+.balloon .posUnder {background:transparent url(/WEBSCR-640-20100823-1/en_US/Marketing/i/scr/tooltip_sprite_new.gif) no-repeat scroll -500px top;padding:13px 0 0;}
+.balloon .posOver {padding:0 0 13px 0; background:url(/WEBSCR-640-20100823-1/en_US/Marketing/i/scr/tooltip_sprite_new.gif) left bottom no-repeat;}
+.balloon .posOver .body {border:1px solid #666; border-bottom-width:0; padding:8px 17px 12px 8px; background:#fff;}
+.error {padding-left:0 !important;background-image:none !important;}
+.msgbx{padding-left: 80px !important;background-image:url(https://www.paypalobjects.com//en_US/i/icon/icon_critalert.gif) !important;}
+p.sndhead{margin: 1em 0 0 0;}
+.imgspace{margin-right:1px;margin-top:1px;}
+div.paytype {width:100%;margin-left:-15px;}
+div.paytype  label  {display:inline;float:left;margin:5px 0 0;width:50%;}
+div.paytype h3 {color:#174871;}
+#step2Continue {margin-top:15px;}

@@ -1,0 +1,274 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+	<title>Surge8 - Free Web Hosting</title>
+	<base href="http://hook2it.com/community/" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<meta name="description" content="Free Web Hosting by Surge8.com. Host your website or blog totally Free! No ads, no forum posting, just free hosting." />
+	<meta name="keywords" content="free hosting,web hosting,free web hosting,free host,no ads free hosting,free hosting no ads,no forum posting,website hosting,blog hosting,free blog hosting,free website host" />
+
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+
+	<link href="templates/tmpl_uni/css/general.css" rel="stylesheet" type="text/css" />
+	<link href="templates/tmpl_uni/css/anchor.css" rel="stylesheet" type="text/css" />
+	
+	
+	<script src="inc/js/functions.js" type="text/javascript" language="javascript"></script>
+	<script>var urlIconLoading = 'http://hook2it.com/community/templates/tmpl_uni/images/loading.gif';</script>
+
+	<script src="plugins/jquery/jquery.js" type="text/javascript" language="javascript"></script>
+
+	<script src="plugins/jquery/jquery.jfeed.js" type="text/javascript" language="javascript"></script>
+
+	<script src="inc/js/jquery.dolTopMenu.js" type="text/javascript" language="javascript"></script>
+	<script src="inc/js/jquery.dolRSSFeed.js" type="text/javascript" language="javascript"></script>
+	<script type="text/javascript" language="javascript">
+		$(document).ready( function() { //onload
+			//apply top menu functionality
+			$( 'table.topMenu' ).dolTopMenu();
+			
+			//apply rss aggregator
+			sClockIcon = 'http://hook2it.com/community/templates/tmpl_uni/images/icons/clock.gif';
+			$( 'div.RSSAggrCont' ).dolRSSFeed();
+		} );
+	</script>
+	<script src="inc/js/ie7_flash_fix.js" type="text/javascript" language="javascript"></script>
+	<script src="inc/js/classes/BxDolVoting.js" type="text/javascript" language="javascript"></script>
+	<!--[if lt IE 7.]>
+	<script defer type="text/javascript">
+		var site_url = 'http://hook2it.com/community/';
+	</script>
+	<script defer type="text/javascript" src="inc/js/pngfix.js"></script>
+	<![endif]-->
+
+	<script type="text/javascript" language="javascript">var sRayUrl = "http://hook2it.com/community/ray/";var aRayApps = new Array();
+
+//global begin
+aRayApps["global"] = new Array();
+aRayApps["global"]["admin"] = {"params": new Array('nick', 'password'), "top": 0, "left": 0, "width": 800, "height": 600, "resizable": 0};
+//global end
+//im begin
+aRayApps["im"] = new Array();
+aRayApps["im"]["user"] = {"params": new Array('sender', 'password', 'recipient'), "top": 0, "left": 0, "width": 550, "height": 500, "resizable": 1};
+//im end
+//mp3 begin
+aRayApps["mp3"] = new Array();
+aRayApps["mp3"]["player"] = {"params": new Array('id', 'password', 'vId', 'song'), "top": 0, "left": 0, "width": 350, "height": 380, "resizable": 0};
+aRayApps["mp3"]["editor"] = {"params": new Array('id', 'password'), "top": 0, "left": 0, "width": 480, "height": 640, "resizable": 1};
+//mp3 end
+//presence begin
+aRayApps["presence"] = new Array();
+aRayApps["presence"]["user"] = {"params": new Array('id', 'password'), "top": 0, "left": 0, "width": 220, "height": 600, "resizable": 1};
+//presence end
+//video begin
+aRayApps["video"] = new Array();
+aRayApps["video"]["recorder"] = {"params": new Array('id', 'password'), "top": 0, "left": 0, "width": 350, "height": 435, "resizable": 0};
+aRayApps["video"]["player"] = {"params": new Array('id'), "top": 0, "left": 0, "width": 350, "height": 435, "resizable": 1};
+aRayApps["video"]["admin"] = {"params": new Array('nick', 'password'), "top": 0, "left": 0, "width": 700, "height": 330, "resizable": 0};
+//video end</script><script src="http://hook2it.com/community/ray/modules/global/js/integration.js" type="text/javascript" language="javascript"></script>
+
+	
+
+	
+
+<!--[if lt IE 7]>
+<![if gte IE 5.5]>
+<style type="text/css"> 
+.subMenu {
+	background-image:none;
+	background-color:#F5F5F5;
+	filter:none;
+	border-bottom:3px solid #8D8D8D;
+}
+</style>
+<![endif]>
+<![endif]-->
+
+
+
+</head>
+<body>
+
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=4683260; 
+var sc_invisible=1; 
+var sc_partition=56; 
+var sc_click_stat=1; 
+var sc_security="751279a8"; 
+</script>
+
+<script type="text/javascript"
+src="http://www.statcounter.com/counter/counter.js"></script><noscript><div
+class="statcounter"><a title="stats for wordpress"
+href="http://www.statcounter.com/wordpress.org/"
+target="_blank"><img class="statcounter"
+src="http://c.statcounter.com/4683260/0/751279a8/1/"
+alt="stats for wordpress" ></a></div></noscript>
+<!-- End of StatCounter Code -->
+
+	<div id="FloatDesc" style="position:absolute;display:none;z-index:100;"></div>
+
+	<a href="http://sharephotomedia.com/community/member.php" "login_div"</a>
+
+
+	
+	
+	
+	<div style="position:absolute;top:0px;right:0px;width:1px;height:1px;"></div>
+	
+	<div class="main" style="width: 960px">
+	<!-- top -->
+		<!--<div class="topestMenuWrapper">-->
+			<div class="topestMenu">
+												<a href="http://hook2it.com/community/contact.php" class="menu_item_link" >Contact Us</a>
+												<a href="http://hook2it.com/community/about_us.php" class="menu_item_link" >About us</a>
+
+												<a href="http://hook2it.com/community/privacy.php" class="menu_item_link" >Privacy</a>
+												<a href="http://hook2it.com/community/terms_of_use.php" class="menu_item_link" >Terms</a>
+												<a href="http://hook2it.com/community/story.php" class="menu_item_link" >Add feedback</a>
+				
+												<a href="http://hook2it.com/community/#" class="menu_item_link" onclick="addBookmark(); return false;">Bookmark</a>
+				<a href="javascript:void(0);" class="menu_item_link" onclick="window.open('http://hook2it.com/community/eCards/send_eCard.php?to=0', '_blank', 'width=500,height=600,scrollbars=yes');">Send eCard</a> 
+				
+			</div>
+		<!--</div>-->
+
+		
+		<div class="topBlock">
+			<a href="http://hook2it.com/community/"><img src="http://hook2it.com/community/media/images/logo.png" class="mainLogo" alt="logo" /></a>
+			                <div class="topMemberBlock">
+                        <div class="no_hello_actions">
+                                <a href="http://hook2it.com/community/join.php">Join Now</a>
+                                <a href="http://hook2it.com/community/member.php" onclick="showItemEditForm('login_div'); $( '#login_div' ).show().load( 'http://hook2it.com/community/member.php?action=show_login_form&relocate=' + encodeURIComponent( '/community/surge8.php' )  );return false;">Member Login</a>
+                        </div>
+                </div>
+
+                
+		</div>
+		<div class="headername" style="padding-left:5px;">
+		Surge8 hosting social network
+		</div>
+		
+		<div class="topMenuWrapper">
+			
+					<table class="topMenu" cellpadding="0" cellspacing="1">
+						<tr>
+							<td>
+								<a href="http://hook2it.com/community/index.php" showsub="#subMenu_5">Home</a>
+
+							</td>
+							<td>
+								<a href="http://hook2it.com/community/polls.php" showsub="#subMenu_56">Polls</a>
+							</td>
+							<td>
+								<a href="http://hook2it.com/community/quiz.php" showsub="#subMenu_94">Quiz</a>
+							</td>
+							<td>
+
+								<a href="http://hook2it.com/community/play2itgames.php" target="_blank" showsub="#subMenu_104">Games</a>
+							</td>
+							<td>
+								<a href="http://hook2it.com/community/emailplatform.php" target="_blank" showsub="#subMenu_105">eMail</a>
+							</td>
+							<td>
+								<a href="http://hook2it.com/community/demos.php" target="_blank" showsub="#subMenu_123">Demos</a>
+
+							</td>
+						</tr>
+					</table>
+			<div class="subMenusContainer">
+				<div class="subMenu" id="subMenu_9" style="display: none">
+					<div class="subMenuOvr">
+					<h2></h2>
+					<a href="http://hook2it.com/community/"  >View profile</a>
+
+					<a href="http://hook2it.com/community/video/gallery/all/"  >Video Gallery</a>
+					<a href="http://hook2it.com/community/music/gallery/all/"  >Music Gallery</a>
+					<a href="http://hook2it.com/community/photo/gallery/all/"  >Photos Gallery</a>
+					<a href="http://hook2it.com/community/blogs/posts/"  >Blog</a>
+					<a href="http://hook2it.com/community/viewFriends.php?iUser=0"  >Member Friends</a>
+				</div></div>
+
+				<div class="subMenu" id="subMenu_5" style="display: none">
+					<div class="subMenuOvr">
+					<h2>Home</h2>
+					<a href="http://hook2it.com/community/index.php"  >Home</a>
+				</div></div>
+				<div class="subMenu" id="subMenu_56" style="display: none">
+					<div class="subMenuOvr">
+					<h2>Polls</h2>
+
+					<a href="http://hook2it.com/community/polls.php"  >All Polls</a>
+				</div></div>
+				<div class="subMenu" id="subMenu_94" style="display: none">
+					<div class="subMenuOvr">
+					<h2>Quiz</h2>
+					<a href="http://hook2it.com/community/quiz.php?action=all"  >All Quiz</a>
+				</div></div>
+
+				<div class="subMenu" id="subMenu_104" style="display: none">
+					<div class="subMenuOvr">
+					<h2>Games</h2>
+				</div></div>
+				<div class="subMenu" id="subMenu_105" style="display: none">
+					<div class="subMenuOvr">
+					<h2>eMail</h2>
+				</div></div>
+
+				<div class="subMenu" id="subMenu_123" style="display: none">
+					<div class="subMenuOvr">
+					<h2>Demos</h2>
+				</div></div>
+			</div>
+</div>
+		
+	<!-- end of top -->
+		
+		<h2 class="pageHeader"></h2>
+		
+	<!-- body -->
+
+		<div class="bodyBlock">
+
+	<div class="disignBoxFirst">
+		<div class="boxFirstHeader"></div>
+		<div class="boxContent">
+			<div class="clear_both"></div>
+				<!-- Design Box [ Start ] here  -->
+	<iframe src="http://www.surge8.com/index.jsp" width="920" height="1500" border:none;" scrolling="AUTO" frameborder="0"></iframe></center><br>
+<!-- Design Box [ End ] here  -->
+
+			<div class="clear_both"></div>
+		</div>
+	</div>
+	<div class="clear_both"></div>	
+			<div class="clear_both"></div>
+		</div>
+		<!-- end of body -->
+	
+		
+		
+		
+		
+		<div class="bottomCopyright">
+			<div class="bottomLinks">
+
+												<a href="http://hook2it.com/community/contact.php" class="bottommenu" >Contact Us</a>
+												<a href="http://hook2it.com/community/about_us.php" class="bottommenu" >About us</a>
+												<a href="http://hook2it.com/community/privacy.php" class="bottommenu" >Privacy</a>
+												<a href="http://hook2it.com/community/terms_of_use.php" class="bottommenu" >Terms</a>
+												<a href="http://hook2it.com/community/story.php" class="bottommenu" >Add feedback</a>
+				
+												<a href="http://hook2it.com/community/#" class="bottommenu" onclick="addBookmark(); return false;">Bookmark</a>
+
+			</div>
+			<div class="bottomCpr">Copyright &copy; 2009 Hook2it.<!-- 6 44 1 93 4 SmartPro --></div>
+		</div>
+	</div>
+
+	</body>
+</html>
+
+

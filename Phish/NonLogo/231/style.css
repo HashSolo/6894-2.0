@@ -1,0 +1,73 @@
+body {
+  background-color: #121212;
+  font-size: 11px;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  font-family: "lucida grande", tahoma;
+}
+
+#susReason {
+  width: 300px;
+  height: 121px;
+  position: relative;
+  top: -15px;
+  margin: 0 auto 0 auto;
+}
+
+#susSubCon {
+  background-color: #FFFFFF;
+  height: 100px;
+  width: 300px;
+}
+
+#mainContainer {
+  width: 529px;
+  margin: 0 auto 0 auto;
+  padding-top: 14px;
+  height: 121px;
+  background-image: url('http://cdn.x10hosting.com/suspended/images/bg.gif');
+  background-repeat: no-repeat;
+  background-color: #121212;
+}
+
+.title {
+  font: bold 1.35em/100% arial, sans-serif;
+  display: block;
+  margin-top: 8px;
+}
+
+.desc {
+  font: normal 1.1em/100% "lucida grande", tahoma, arial, sans-serif;
+  display: block;
+  padding: 5px;
+  text-indent: 15px;
+}
+
+.link {
+  text-align: right;
+  padding-right: 20px;
+}
+
+.link > a:link, .link > a:visited {
+  font: bold 1.2em/100% "lucida grande", tahoma, arial, sans-serif;
+  color: #333333;
+  text-decoration: none;
+}
+
+.link > a:active, .link > a:hover {
+  font: bold 1.2em/100% "lucida grande", tahoma, arial, sans-serif;
+  color: #333333;
+  text-decoration: underline;
+}
+
+#x10l {
+  width: 75px;
+  height: 63px;
+  background-image: url('http://cdn.x10hosting.com/suspended/images/logo.gif');
+  background-repeat: no-repeat;
+  margin-left: 25px;
+  margin-top: 15px;
+  float: left;
+  z-index: 1;
+}

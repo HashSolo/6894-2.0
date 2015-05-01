@@ -1,0 +1,348 @@
+@import url(../styles.css);
+
+
+/* ------ reseting ------ */
+html {font-size: 100%}
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dt, dd, li, address, form, fieldset, hr, blockquote {margin: 0; padding: 0;}
+img, fieldset {border: none}
+
+body { color: #636363; font-size: 0.75em /* = 12px */; line-height: 1.3em; min-width: 795px; font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif; }
+
+/* ------ common ------ */
+h1, h2, h3, h4, h5, h6 { color: #939ca5; font-size: 1em}
+img,fieldset{ border: 0; }
+.invisible { display: none; }
+.center { text-align: center; }
+.right { text-align: right; }
+.clear { clear: both; }
+.red { color: #f90300; }
+.bold {font-weight: bold}
+
+a { color: #0D62AC; text-decoration: underline; }
+a:hover {color: #C70100; text-decoration: underline; }
+
+input,select,textarea {font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; color: #0c65ae; vertical-align: middle; font-size: 12px}
+input.inputText, textarea {color: #0c65ae; border:1px solid #cccccc; padding: 2px; font-family: Arial, Tahoma, Verdana, sans-serif; font-size: 12px}
+textarea {vertical-align: baseline}
+input.inputBtn, input.inputBtnMini {color: #f8f8f8; border: 1px solid #ccc; font-weight: bold; background: #f8f8f8; color: #7188af; cursor: pointer; font-size: 12px; font-family: Tahoma, Verdana, Arial, sans-serif; vertical-align: middle; border: 1px #ccc solid; padding: 3px 10px 3px 10px; }
+input.inputBtn:hover {color: #296db3; }
+input.inputBtnMini {font-size: 11px; padding: 2px 10px}
+input.size_1 {width: 100px;}
+select {color: #0c65ae;  border:1px solid #cccccc; padding: 2px;}
+select.size_1 {width: 100px;}
+
+a.button {color: #f8f8f8; border: 1px solid #ccc; font-weight: bold; background: #f8f8f8; color: #7188af; cursor: pointer; font-size: 12px; font-family: Tahoma, Verdana, Arial, sans-serif; vertical-align: middle; border: 1px #ccc solid; padding: 3px 10px 3px 10px; }
+a.buttonMini {color: #f8f8f8; border: 1px solid #ccc; font-weight: bold; background: #f8f8f8; color: #7188af; cursor: pointer; font-size: 11px; font-family: Tahoma, Verdana, Arial, sans-serif; vertical-align: middle; border: 1px #ccc solid; padding: 3px 10px 3px 10px; }
+.redCircle {background: url(../../pics/yoyo/icon_circle_red.png) 0 6px no-repeat; padding: 0 0 0 10px;}
+		
+#advertWideBox { border-bottom: 1px #f6f6f6 solid; text-align: center; padding: 5px 0; margin: 0pt auto; width: 60%; }
+
+#wrapper.start {padding: 0; background: transparent;/*  font-size: 12px  */}
+#wrapper {padding-bottom: 20px; width: 960px; margin: 0 auto; background: url(../../pics/yoyo/bg_pixel.png) 198px 0 repeat-y; overflow: hidden; zoom:1}
+
+/* ------ home page - start ------ */
+#startTop { margin: 10px 0 10px 0; height: 233px; }
+#ggb { float: left; width: 200px; height: 233px; padding-bottom: 0px; }
+#gfx { float: left; width: 283px; height: 233px; background: url(../../pics/yoyo/banner-start2.jpg) no-repeat; }
+		#gfx a { display: block; width: 283px; height: 233px; }
+	#startRight { margin: 0 0 0 498px; height: 233px; }
+		#startRight h1 { margin: 0 0 6px 0; padding-top: 10px; }
+			#startRight #coDlaCiebieMamy { height: 13px; background: url(../../pics/yoyo/header-coDlaCiebieMamy.png) no-repeat bottom left;}
+		#startRight ul { margin: 0; list-style: none; }
+			#startRight li {  line-height: 1.2em; border-bottom: 1px #f4f4f4 solid; padding: 4px 0 4px 20px; background: url(../../pics/yoyo/arrow_right_red.png) 0 0.65em no-repeat; }
+		#startRight a { margin: 10px 0 0 0; display: block; text-align: right; }
+		#startRight #porownajPlany { height: 10px; background: url(../../pics/yoyo/btn-porownajPlany.png) right no-repeat;}
+		
+#startMain { clear: both; background: url(../../pics/yoyo/smTop-top.png) top no-repeat;  }
+	#startMain h2 { height: 17px; margin: 0 5px 15px 5px;}
+		#startMain h2 span {display: none}
+	#startMain h2 a { font-size: 0.8em; font-weight: normal; color: #cfcfcf; text-decoration: none; display: block; text-align: right; margin: 0 0 0 0; zoom:1; line-height: 1.1em; padding-bottom: 4px; outline-width: 0}
+	#startMain h2 a:focus {outline-width: 1px}
+	#startMain h2 a:hover { text-decoration: underline; color: #f90300; }
+
+	#smTop { padding: 0 0 20px 0; /* height: auto !important; height: 197px; min-height: 197px;  */ overflow: hidden; zoom: 1}
+		#smTop table { border-collapse: collapse; margin: 0 5px 20px 0;  }
+			#smTop th { font-weight: normal; text-align: left; padding: 0 5px 2px 0; border-bottom: 1px #f4f4f4 solid; font-weight: bold; }
+				#smTop th em { font-weight: normal; font-style: normal; }
+			#smTop td { font-weight: bold; color: #0430a9; text-align: right; padding: 0 5px 2px 0; border-bottom: 1px #f4f4f4 solid; width: 35%; }
+		#sm1 { width: 195px; float: left; margin: 10px 19px 0 10px; display: inline;}
+		#sm2 { width: 492px; float: left; margin: 10px 13px 0 0; }     
+			#sm2 ul {float: left; list-style: none; margin:0; width: 32%; font-size: 0.9em; margin: 0 4px 13px 0;}
+			#sm2 ul a {color: #787a8f; /* font-weight: bold; */ text-decoration: none;}
+			#sm2 ul a:hover {text-decoration: underline; color:#F90300;}
+			#sm2 ul em {color: #0430A9; /* font-weight: bold; */ font-style: normal}
+			#sm2 ul li {padding:0; margin: 0; background: url(../../pics/yoyo/arrow_light_red.gif) 0 6px no-repeat; padding: 0 0 1px 7px;}
+		#sm4 { width: 217px; float: right; margin: 10px 11px 0 0; display: inline}
+			#sm4 ul { list-style: none; margin: -5px 0 0 3px; }
+			#sm4 li { border-bottom: 1px #f4f4f4 solid;  padding: 3px 0 3px 10px; background: url(../../pics/yoyo/arrow_right_red.png) left 10px no-repeat; }
+			#sm4 li a { display: block; color: #787a8f; text-decoration: none; margin: 0 4px 0 0; }
+			#sm4 a.arrowUp { background: url(../../pics/yoyo/arrow_up_red.png) right 8px no-repeat; }
+			#sm4 a.arrowDown { background: url(../../pics/yoyo/arrow_down_green.png) right 8px no-repeat; }
+			#sm4 li a:hover { color: #f90300; text-decoration: underline; }
+			
+	#smExtra {background: url(../../pics/yoyo/smExtra-btm.png) bottom no-repeat; padding: 0 0 35px 0; zoom:1}
+	#smExtra-wrap {background: url(../../pics/yoyo/smExtra-loop.png) 0 repeat-y; padding-left: 10px; overflow: hidden; zoom:1}
+		#odpoczne {width: 704px; float: left; background: #faf7ef url(../../pics/yoyo/smExtra-watermark.png) center no-repeat; color: #603913 }
+		#odpoczne h2 {background: url(../../pics/yoyo/header-odpoczne.png) 0 0 no-repeat}
+		#odpoczne h2 a {color: #ffcc99;}
+		ul#odpoczne-items{list-style: none; margin: 0 -5px 0 -5px; overflow: hidden; zoom:1;}		
+		#odpoczne li.item {width: 347px; float: left; margin: 0 5px 25px 5px; position: relative; display: inline}
+		#odpoczne li.lastrow {margin-bottom: 20px;}
+		#odpoczne a.thumb img {float: left; width: 125px; height: 94px; background-color: #fff; padding: 2px; border: 1px solid #e9d9cb}
+		#odpoczne h3 {float: left; margin-left: 9px; margin-bottom: 4px; font-size: 1.0em; font-weight: bold; overflow: hidden; width: 207px}
+		#odpoczne h3 a {color: #ff4e00; text-decoration: none;}
+		#odpoczne h3  img {display: block;}
+		#odpoczne h3 a:hover {color: #F90300}
+		#odpoczne li.item ul {list-style: none; float: left; margin-left: 9px; width: 207px; line-height: 1.5em; font-size: 0.9em;}
+		#odpoczne li.where a {text-decoration: none; color: #603913;}
+		#odpoczne li.where a:hover {text-decoration: underline}
+		#odpoczne li.more {font-size: 0.8em; text-align: right; position: absolute; bottom: 0;}
+		#odpoczne li.more a {text-decoration: none;}
+		#odpoczne em.key {font-style: normal;}
+		
+		p#odpoczne-goto {font-size: 11px;}
+		p#odpoczne-goto strong {margin-right: 0.3em;}
+		p#odpoczne-goto a {color: #f63; text-decoration: none;}
+		p#odpoczne-goto a:hover {color: #F90300; text-decoration: underline;}
+		
+ 					
+		#zakupy {margin-left: 724px; padding-right: 10px; background: #fff }
+			#zakupy h2 {background: url(../../pics/yoyo/header-zakupy.png) no-repeat; margin-left: 0; }
+			#zakupy ul {list-style: none;}
+			#zakupy ul.books {border-bottom: 1px solid #eee; margin-bottom: 8px;}					
+			#zakupy ul li {overflow: hidden; margin-bottom: 5px}
+				#zakupy ul li a.item {display: block; text-decoration: none; zoom: 1}
+				#zakupy ul li a.item:hover big {/* text-decoration: underline; */ color: #F90300}
+				 #zakupy ul li a.item img {float: left; width: 47px}
+				 #zakupy ul li a.item big {margin-left: 55px; color: #787A8F; font-size: 1em; font-weight: bold; display: block; line-height: 1.1em; margin-bottom: 4px;}
+				 #zakupy ul li a.item em strong {color: #636363}
+				 #zakupy ul li a.item em {color: #636363; margin-left: 55px; display: block; font-style: normal;}
+				 #zakupy ul li a.item small {font-size: 0.8em; margin-left: 55px; text-align: right; display: block;}				
+	
+	#smBtm { background: url(../../pics/yoyo/smBtm-btm.png) bottom no-repeat; min-height: 190px !important; height: 190px; height: auto; overflow: hidden; clear: both; zoom: 1; padding: 0 0 15px 0;  margin-bottom: 14px}
+		#sm5 { width: 473px; float: left; margin: 0 26px 0 0; }
+			#sm5 #newsLeft { width: 217px; float: left; margin: 0 0 0 11px; display: inline;}
+			#sm5 #newsRight { width: 217px; float: right;  display: inline; margin: 0 10px 0 0}
+			#sm5 h3 { font-size: 1em; color: #0d62ac; margin: 0 0 25px 0; }
+			#sm5 h4 { color: #cfcfcf;  font-weight: normal; margin: 0 0 18px 0; line-height: 1.1em}
+			#sm5 p {  margin: 0 0 5px 0; }
+			#sm5 a { display: block; text-align: right;  color: #aa0001; text-decoration: none; margin: 0 10px 0 0; padding: 0 0 10px 0; font-weight: bold;}
+			#sm5 a:hover { color: #f90300; text-decoration: underline; }
+		#sm6 { width: 432px; float: left; }
+			#sm6 h3 {  margin: 0; color: #787a8f; }
+			#sm6 h4 { font-size: 0.8em; margin: 0 0 5px 0; font-weight: normal; color: #ccc; }
+			#sm6 p {  }
+			#sm6 a {margin-top: 14px; font-weight: bold; color: #0d62ac; text-decoration: none; display: block; text-align: right;  }
+			#sm6 a:hover { color: #f90300; text-decoration: underline; }
+
+/* ------ subpage - start ------ */
+#sidebar { width: 198px; float: left; background: #f6f6f6 /* url(../../pics/yoyo/cornerGrayBox-bl.png) left bottom no-repeat;  */}
+	#sidebar ul { list-style: none; margin: 0px 0 15px 0; padding: 16px 15px 20px 10px; background: #F6F6F6  url(../../pics/yoyo/grayFrameBox-tl.png) 0 top no-repeat; }/* boxWide_top.png */
+	/* #sidebar ul.clear { background-image: none; padding: 2px 15px 10px 10px; } */
+		#sidebar ul li { padding: 5px 0 5px 10px; font-weight: bold; background: url(../../pics/yoyo/arrow_right_red.png) 0 11px no-repeat; border-bottom: 1px #f4f4f4 solid; }
+		#sidebar ul li.open { background: url(../../pics/yoyo/arrow_down_red.png) 0 11px no-repeat; }
+			#sidebar ul li a { color: #646464; text-decoration: none; }
+			#sidebar ul li a:hover { text-decoration: underline; }
+			#sidebar ul li a.gray { color: #787a8f; text-decoration: none; }
+			#sidebar ul li a.gray:hover { text-decoration: underline; }
+			#sidebar ul li a.red { color: #f80300; text-decoration: none; }
+			#sidebar ul li a.red:hover { text-decoration: underline; }
+			#sidebar ul ul { margin: 0; padding: 0; }
+				#sidebar ul ul li { padding: 0 0 0 10px; font-weight: normal; background: url(../../pics/yoyo/icon_circle_red.png) 0 6px no-repeat; border: 0; }
+					#sidebar ul ul li a { text-decoration: underline; }
+					#sidebar ul ul li a:hover { color: #c70100; text-decoration: none; }
+		#sidebar table { border-collapse: collapse; margin: 10px 10px 20px 10px; }
+			#sidebar th { font-weight: normal; text-align: left; padding-left: 5px; border-bottom: 1px #f4f4f4 solid; }
+			#sidebar td { width: 66px; font-weight: bold; color: #f80302; text-align: right; padding-right: 5px; border-bottom: 1px #f4f4f4 solid; }
+		#sBanner { display: block; height: 190px; background: #fff url(../../pics/yoyo/banner-sidebar.jpg) 0 10px no-repeat; padding: 0 0 20px 0; }
+
+/* ------ content - start ------ */
+#content {float: left; width: 760px;}				
+
+#breadcrumbs { height: 45px; margin: 0; }
+	#breadcrumbs ul { height: 33px; list-style: none; margin: 0 0 0 0px; padding: 8px 11px 0 25px; }
+		#breadcrumbs li { color: #959ba7; float: left; padding: 0 15px 0 0; margin: 0 8px 0 0; background: url(../../pics/yoyo/arrow_right_red.png) right 6px no-repeat; }
+		#breadcrumbs li.last { background: transparent; padding: 0; }
+			#breadcrumbs a { font-weight: normal; color: #959ba7; text-decoration: none; }
+			#breadcrumbs a:hover { color: #c70100; text-decoration: underline; }	
+						
+#content div.padding {padding: 0 25px 25px 25px;}
+
+#content h1, #content h2 {color: #666; font-family: "Trebuchet MS", Arial, Helvetica, Tahoma, Verdana, sans-serif; margin-bottom: 1em}
+#content p {margin-bottom: 1em}
+#content h1 {font-size: 1.3em;}
+#content h2 {font-size: 1.10em; color: #787777}
+#content a {font-weight: bold; color: #0c65ae; text-decoration: none;}
+#content a:hover {color: #f80300; text-decoration: underline;}
+
+#content table.wide {border-collapse: collapse; background: #fafafa url(../../pics/yoyo/boxWide_top.png) top no-repeat; width: 559px; margin: 0 auto 2em auto}
+	#content table.wide thead {color:#939CA5;}
+		#content table.wide thead th {padding: 10px 0 7px 0}
+	#content table.wide tbody {background: #fff; }
+		#content table.wide tbody td {border:1px solid #F6F6F6; padding: 8px 4px 8px 4px;}
+
+#content table.messages {}
+	#content table.messages thead {text-align: left;}
+		#content table.messages thead th {padding-left: 8px}
+	#content table.messages tbody td {border-right: none;}
+	#content table.messages tbody td.topic { border-left: none;}
+	#content table.messages tbody td.topic a {font-weight: normal;}
+	#content table.messages tbody td.action {text-align: center; border-left: none; border-right: 1px solid #F6F6F6}
+
+#content table.wide .subHeader {color:#939CA5; font-weight: bold}
+	
+#content ul.circle {margin: 10px 12px 10px 15px; list-style: none; }
+	#content ul.circle li { background: url(../../pics/yoyo/icon_circle_red.png) 0 6px no-repeat; padding: 0 0 0 10px; margin: 0 0 5px 0 }	
+	
+#content dl.messageView {background: #fafafa url(../../pics/yoyo/boxWide_top.png) top no-repeat; width: 559px; margin-bottom: 2em; }
+	#content dl.messageView dt {padding: 25px 18px 18px;}
+		#content dl.messageView dt span {display: block; font-size: 1.1em; margin-top: 15px; color: #939CA5;}
+		#content dl.messageView dt span strong {color: #636363;}
+	#content dl.messageView dd {background: #fff; border: 1px solid #F6F6F6; padding: 20px 24px; }			
+	#content dl.messageView dd.bottomButtons {background: #fafafa; padding: 5px 18px; border-top: 1px solid #F6F6F6; margin-top: -1px;}
+
+#content ul.panelItems {list-style: none; margin-bottom: 10px}
+	#content ul.panelItems li { border-bottom: 1px #f6f6f6 solid; margin-left: 1px; padding: 7px 55px 7px 108px; min-height: 76px !important; height: auto; height: 76px; /*ie triple-hack*/}
+		#content ul.panelItems li p {margin-left: 20px}
+	#content ul.panelItems li h2 a {display: block; zoom: 1 }
+	#content .icon-twojeDane { background: url(../../pics/yoyo/icon-twojeDane.png) 0px 7px no-repeat; }
+	#content .icon-wiadomosci { background: url(../../pics/yoyo/icon-wiadomosci.png) 0px 7px no-repeat; }
+	#content .icon-zarzadzYoyo { background: url(../../pics/yoyo/icon-zarzadzYoyo.png) 0px 7px no-repeat; }
+	#content .icon-zarzadzForum { background: url(../../pics/yoyo/icon-zarzadzForum.png) 0px 7px no-repeat; }
+	#content .icon-zarzadzXt { background: url(../../pics/yoyo/icon-zarzadzXt.png) 0px 7px no-repeat; }
+	#content .icon-faq { background: url(../../pics/yoyo/icon-faq.png) 0px 7px no-repeat; }
+	#content .icon-pomocTech { background: url(../../pics/yoyo/icon-pomocTech.png) 0px 7px no-repeat; }
+	#content .icon-historiaLog { background: url(../../pics/yoyo/icon-historiaLog.png) 0px 7px no-repeat; }
+	#content .icon-zmienEmail { background: url(../../pics/yoyo/icon-zmienEmail.png) 0px 7px no-repeat; }		
+	#content .icon-zmienHaslo { background: url(../../pics/yoyo/icon-zmienHaslo.png) 0px 7px no-repeat; }
+	#content .icon-wyrejestruj { background: url(../../pics/yoyo/icon-wyrejestruj.png) 0px 7px no-repeat; }		
+	#content .icon-zmienProfil { background: url(../../pics/yoyo/icon-zmienProfil.png) 0px 7px no-repeat; }
+	#content .icon-openId { background: url(../../pics/yoyo/icon-openId.png) 0px 7px no-repeat; }
+	#content .icon-zaakceptowaneReg { background: url(../../pics/yoyo/icon-zaakceptowaneReg.png) 0px 7px no-repeat; }
+	#content .icon-twojeStrony { background: url(../../pics/yoyo/icon-twojeStrony.png) 0px 7px no-repeat; }
+
+#content div.thinBox {background: #fafafa url(../../pics/yoyo/boxThin_top.png) no-repeat; width: 366px; float: left; padding: 15px 0; }
+	#content div.thinBox h1, #content div.thinBox h2 {font-family: Tahoma, Verdana, "Trebuchet MS", Arial, Helvetica, sans-serif; color: #979BA4; }
+	#content div.thinBox div.item {border-bottom: 1px solid #fff; margin: 0 0 15px 0; padding: 0 23px; zoom: 1}
+		#content div.thinBox div.item h1 {font-size: 1.1em; background: url(../../pics/yoyo/icon_circle_red.png) 0 6px no-repeat; padding: 0 0 0 10px; margin: 0 0 10px -10px;}
+		#content div.thinBox div.item h2 {font-size: 1em}
+		#content div.thinBox div.item ul.line {overflow: hidden; list-style: none; font-weight: bold; margin-bottom: 1em} 
+			#content div.thinBox div.item ul.line li {background:transparent url(../../pics/yoyo/arrow_right_red.png) no-repeat scroll right 6px; float: left; padding: 0 11px 0 0; margin: 0 4px 0 0} 
+			#content div.thinBox div.item ul.line li.last {background: none;}
+		#content div.thinBox div.item ul.vertical {list-style: none; margin-bottom: 1em}
+			#content div.thinBox div.item ul.vertical li {clear: both; position: relative; margin-bottom: 3px; zoom: 1}
+				#content div.thinBox div.item ul.vertical li a.actionBtn {font-size: 0.8em; position: absolute; right: 0}
+
+#content div#contentSidebar {width: 180px; float: right; }
+ div#contentSidebar ul { list-style: none; padding: 14px 15px 14px 10px; margin: 0; }
+		div#contentSidebar ul li { padding: 5px 0 5px 10px; font-weight: bold; background: url(../../pics/yoyo/arrow_right_red.png) 0 9px no-repeat; border-bottom: 1px #e8e4e4 solid; }
+		div#contentSidebar ul li.last { border: 0; }
+			div#contentSidebar ul li a { color: #0d62ac; text-decoration: none; }
+			div#contentSidebar ul li a:hover { color: #0d62ac; text-decoration: underline; }
+
+#content div#contentSidebar.ale {width: 100px} /* ??? */
+#content div#thinColumn {width: 490px; float: left}
+
+.warmBox {background: #f3efec}
+	.warmBox .t-l {background: url(../../pics/yoyo/cornerLightBox-tl.gif) top left no-repeat;}
+	.warmBox .t-r {background: url(../../pics/yoyo/cornerLightBox-tr.gif) top right no-repeat;}
+	.warmBox .b-l {background: url(../../pics/yoyo/cornerLightBox-bl.gif) bottom left no-repeat;}
+	.warmBox .b-r {background: url(../../pics/yoyo/cornerLightBox-br.gif) bottom right no-repeat;}
+
+#columnsHolder {}
+ #columnsHolder #mainCol{float: left;}
+ #columnsHolder #sideCol{float: right;}
+	 #columnsHolder.columnsForAdvert120px #mainCol {float: left; width: 639px; }
+		 #columnsHolder.columnsForAdvert120px #mainCol .padding {padding-right: 6px}
+	 #columnsHolder.columnsForAdvert120px #sideCol {float: right; width: 120px; }
+
+	 #columnsHolder.columnsForAdvert160px #mainCol {float: left; width: 599px; }
+		 #columnsHolder.columnsForAdvert160px #mainCol .padding {padding-right: 2px}
+	 #columnsHolder.columnsForAdvert160px #sideCol {float: right; width: 160px; }
+
+
+#content ul.directoryItems {list-style: none;}
+	#content ul.directoryItems li {width: 31%; float: left; display: inline; margin: 0 13px 10px 0; zoom: 1}
+		#content ul.directoryItems li h3 {font-size: 1em; background: url(../../pics/yoyo/arrow_bold_red.gif) left 5px no-repeat; padding: 0 0 4px 10px; border-bottom: 1px #f6f6f6 solid; margin-bottom: 4px}
+		#content ul.directoryItems li h3 a {font-weight: bold;}
+		#content ul.directoryItems li a {font-weight: normal;}
+		#content ul.directoryItems li a.more {margin-top: 5px; display: block; text-align: right; font-weight: bold;}		
+	#content ul.directoryItems li.firstInRow {clear: left; zoom: 1;}
+		
+#content ul.directoryColumn {float: left; width: 40%; list-style: none;  margin: 0 5px 20px 25px; padding: 0 20px 0 0; display: inline; }
+#content ul.directoryColumn.left {border-right: 1px #f6f6f6 solid}						
+	#content ul.directoryColumn li {padding: 0 44px 3px 8px; background: url(../../pics/yoyo/arrow_light_red.gif) 0 6px no-repeat;  position: relative; zoom: 1}
+		#content ul.directoryColumn li a {color: #0D62AC; text-decoration: none;}			
+		#content ul.directoryColumn li a:hover {color: #F90300; text-decoration: underline;}			
+		#content ul.directoryColumn li small {font-size: 1em; color: #F80302; position: absolute; right: 0px; top: 0px; font-weight: bold}
+
+#content div.searchBar {background: #FAFAFA; padding: 8px 8px; margin-bottom: 15px; overflow: hidden; zoom: 1}
+	#content div.searchBar select {padding: 1px 0 2px 2px; vertical-align: middle;}
+	#content div.searchBar label {vertical-align: middle;}
+	#content div.searchBar fieldset.left {float: left}
+	#content div.searchBar fieldset.right {float: right}
+		#content div.searchBar fieldset.right input.inputText {width: 120px}
+		#content div.searchBar fieldset.right input.inputBtnMini {width: 60px; height: 21px}
+			#content div.searchBar fieldset.right select.size_1 {width: 130px}
+
+#content .pozostaleKateg {position: relative; zoom: 1}
+	#content .pozostaleKateg span.kategWyzej {position: absolute; right: 0; font-size: 0.9em}
+	#content .pozostaleKateg span.kategWyzej a {background: url(../../pics/yoyo/arrow_up_blue.gif) left 5px no-repeat; padding-left: 10px}
+
+#content h1.nazwaKategorii {clear: both; position: relative; zoom: 1; padding-right: 130px}
+	#content h1.nazwaKategorii small {font-size: 1em; font-weight: normal;}
+		#content h1.nazwaKategorii .ilosc {font-weight: bold; color: #f90300}
+	#content h1.nazwaKategorii span.stronaZ {font-size: 0.8em; font-weight: normal; position: absolute; right: 0;}
+
+#content div.sponsorowaneBox {clear: both; margin-bottom: 15px; zoom: 1}
+	#content div.sponsorowaneBox .padding {padding: 15px}
+	
+dl.pagesList {margin-bottom: 15px}
+	dl.pagesList dt {background: url(../../pics/yoyo/icon_circle_red.png) 0pt 7px no-repeat; margin-bottom: 10px; padding-left: 12px; font-size: 1.2em; font-weight: bold; zoom: 1}
+	dl.pagesList dd {margin-left: 50px; border-bottom: 1px #f6f6f6 solid; margin-bottom: 8px;}
+		dl.pagesList dd a.outlink {background: url(../../pics/yoyo/icon_outlink.gif) 2px 4px no-repeat; padding-left: 17px; font-weight: bold}		
+
+div.paginator {text-align: center; margin-bottom: 20px;}
+	div.paginator ul {list-style: none; }
+		div.paginator ul li {display: inline; line-height: 220%}
+			div.paginator ul li a {padding: 3px 8px; border:1px solid #EDEDED; font-weight: bold;}
+			div.paginator ul li span {padding: 3px 8px; border:1px solid #badaf4;}	
+			
+#helpdesk {}
+#helpdesk h2 {font-size: 1.2em}
+#helpdesk dl {}
+#helpdesk dl dt {text-align: right; font-size: 1.1em; border-bottom: 1px solid #E9E9E9; padding: 0 0 3px } 
+	#helpdesk dl dt .author {float: left;} 
+	#helpdesk dl dt .author cite{font-weight: bold; font-style: normal}
+	#helpdesk dl dt .date {color: #c0c0c0;}
+	#helpdesk dl dt .date em {font-style: normal; }
+#helpdesk dl dd {margin: 0 0 1.2em 24px; padding: 12px 12px 0 0; border-right: 1px solid #E9E9E9; }
+	#helpdesk dl dd p {margin-bottom: 0.6em;}
+	#helpdesk dl dd .extras {background: #f8f8f8; padding: 5px 0 1px 10px; margin-right: -12px; border-top: 1px solid #E9E9E9;}
+	#helpdesk dl dd ul {margin: 0 0 0.6em 0.7em; list-style: none}
+	#helpdesk dl dd ul li {background: url(../../pics/yoyo/icon_circle_red.png) 0 6px no-repeat; padding: 0 0 0 10px; margin: 0}
+	
+/* --- form template - start --- */
+#content div.formBox {margin-bottom: 15px}
+#content div.formBox fieldset {margin-bottom: 10px;}
+#content div.formBox fieldset legend {padding-bottom: 13px; color: #787777; font-family: "Trebuchet MS", Arial, Helvetica, Tahoma, Verdana, sans-serif; font-size: 1.10em; font-weight: bold;}
+#content div.formBox .notes {background: #ffffe1; border: 1px solid #f0c48b; color: #71695f; padding: 4px 8px; margin: 0px 0 10px 0; }
+#content div.formBox div.required, #content div.formBox div.optional {clear: both; margin-bottom: 5px; overflow: hidden; padding: 4px 0 4px 0; zoom: 1 /*iesux*/}
+	#content div.formBox div.error {background: #fafafa url(../../pics/yoyo/formField_top-l.png) -1px -1px no-repeat ; border: 1px solid #ededed;}
+		#content div.formBox div p.errorField {margin: 0 0 0 145px; background: url(../../pics/yoyo/icon_errorField.png) no-repeat; color: #f90300; font-weight: bold; padding: 0 0 3px 25px;}
+	#content div.formBox label {padding-top: 3px; width: 140px; text-align: right; float: left; margin-right: 5px; text-align: right;}			
+	#content div.formBox div.required label {font-weight: bold;}
+	#content div.formBox input.inputText, #content div.formBox textarea, #content div.formBox select  {width: 250px}		
+	#content div.formBox textarea.wide {width: 400px}
+	#content div.formBox small {font-size: 0.95em; margin-left: 150px; width: 250px; display: block; color: #000099 /*#787a8f*/;}
+	#content div.formBox div.compactBox {margin-left: 145px; width:255px; }
+		#content div.formBox div.compactBox label {padding: 2px 0 0 20px; float: none; width: auto; text-align: left; margin: 0 0 4px 0; display: block}
+		#content div.formBox div.compactBox input.inputCheckbox, #content div.formBox div.compactBox input.inputRadio {float: left; margin-left: -20px; }
+	#content div.formBox div img {border:1px solid #cccccc; }
+/* --- form template - end --- */
+
+#statystykaYoyoPl {height: 13px; background: url(../../pics/yoyo/header-statystykaYoyo.png) no-repeat; }
+#statystykaYoyoPl.sidebar { margin: 0 0 0 10px; }
+#najpopularniejsze {height: 13px; background: url(../../pics/yoyo/header-najpopularniejsze.png) no-repeat; }
+#katalogYoyoPl {height: 13px; background: url(../../pics/yoyo/header-katalogYoyoPl.png) no-repeat; }
+#polecamy {height: 13px; background: url(../../pics/yoyo/header-polecamy.png) no-repeat; }

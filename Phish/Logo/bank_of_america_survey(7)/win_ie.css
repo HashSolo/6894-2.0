@@ -1,0 +1,66 @@
+.signin-bkgd {
+	BACKGROUND: #eeeeee
+}
+.signin-brdr {
+	BACKGROUND: #cccccc
+}
+DIV.signin-box {
+	FONT-SIZE: 70%; MARGIN: 15px 8px 20px; COLOR: #003399
+}
+.errorbrdr {
+	BACKGROUND: #d4001a
+}
+SPAN.errortext {
+	COLOR: #333333
+}
+SPAN.error {
+	COLOR: #d4001a
+}
+DIV.pagelabel {
+	MARGIN: 0px 0px 0px 12px; WIDTH: 735px; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+.pagelabel DIV {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.pagelabel H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H1.pagelabel {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 95%; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #d4001a; PADDING-TOP: 0px
+}
+.blue-dot-nav3 {
+	FONT-SIZE: 65%; VERTICAL-ALIGN: middle; COLOR: #405ebe
+}
+.rulegrey3 {
+	BACKGROUND: #999999
+}
+A.nav3-off {
+	COLOR: #405ebe; TEXT-DECORATION: underline
+}
+A.nav3-off:visited {
+	COLOR: #651c7e; TEXT-DECORATION: underline
+}
+A.nav3-off:hover {
+	COLOR: #0000ff; TEXT-DECORATION: underline
+}
+A.nav3-on {
+	FONT-WEIGHT: bold; COLOR: #000000; TEXT-DECORATION: none
+}
+.module1OutlineTableTempPass {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #cccccc 1px solid; MARGIN-TOP: 0px; PADDING-LEFT: 5px; BACKGROUND: #e9e9ea; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: #cccccc 1px solid; WIDTH: 100%; PADDING-TOP: 0px; BORDER-BOTTOM: #cccccc 1px solid
+}
+.module4OutlineTable {
+	BORDER-RIGHT: #d4001a 1px solid; BORDER-TOP: #d4001a 1px solid; BORDER-LEFT: #d4001a 1px solid; BORDER-BOTTOM: #d4001a 1px solid
+}
+.listNew {
+	MARGIN: 60px; LINE-HEIGHT: 130%; LIST-STYLE-TYPE: none
+}
+.h2-ada1 {
+	FONT-SIZE: 0px; LEFT: -10000px; WIDTH: 0px; POSITION: absolute; HEIGHT: 0px
+}
+.listTemp {
+	MARGIN: 0px 0px 0px 1.5em; LINE-HEIGHT: 130%; LIST-STYLE-TYPE: disc
+}
+.textChgTemp {
+	FONT-SIZE: 70%; LETTER-SPACING: 0px
+}

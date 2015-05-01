@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background-repeat:repeat-x;
+	background-color:#e4e4e4;
+	color:#666666;
+	padding:0;
+	margin:0;
+}
+
+.clear
+{
+	clear: both;
+}
+
+
+
+#middle_bkg{}
+#middle_bkg .middle{ width:700px; margin:0 auto; padding:250px 0 0 0;}
+#middle_bkg .blackText{font-family: Tahoma, Arial, Verdana; font-size:24px; color:#000000; text-align:center;}
+
+#middle_bkg a{ font-family:Tahoma, Arial, Verdana; font-size:24px; color:#ca4309; text-decoration:none;}
+#middle_bkg a:hover{ font-family:Tahoma, Arial, Verdana; font-size:24px; color:#ca4309; text-decoration:underline;}
+
+div#blueBand { background-color: #980000;  margin:0;}
+div#blueBand div.top { background: transparent url("images/blueBand_T.gif") repeat-x left top; }
+div#blueBand div.right { background: url("images/blueBand_R.gif") repeat-y right top; }
+div#blueBand div.bottom { background: url("images/blueBand_B.gif") repeat-x left bottom; }
+div#blueBand div.left { background: url("images/blueBand_L.gif") repeat-y left top; }
+div#blueBand div.leftTop { background: url("images/blueBand_LT.gif") no-repeat left top;  }
+div#blueBand div.rightTop { background: transparent url("images/blueBand_RT.gif") no-repeat right top; }
+div#blueBand div.leftBottom { background: url("images/blueBand_LB.gif") no-repeat left bottom;}
+div#blueBand div.rightBottom { background: url("images/blueBand_RB.gif") no-repeat right bottom; *width: 100%; }
+
+#main_middleArea{ width:675px; margin:0 auto; padding:17px 0 17px 15px; float:left;}
+#main_middleArea .whitetxt{ width:675px; float:left; font-family:Tahoma, Arial, Verdana; font-size:24px; color:#ffffff;}
+#main_middleArea .yellowtxt{ color:#ffde00;}
+#main_middleArea .whiteheading{ font-family:Tahoma, Arial, Verdana; font-size:18px; color:#000000;}
+
+#main_middleArea a{ font-family:Tahoma, Arial, Verdana; font-size:18px; color:#ca4309; text-decoration:none;}
+#main_middleArea a:hover{ font-family:Tahoma, Arial, Verdana; font-size:18px; color:#ca4309; text-decoration:underline;}
+
+
+#copyright{ text-align:center; font-family:Tahoma, Arial, Verdana; font-size:11px; color:#666666; margin:0 auto; width:831px; padding:10px 0 0 0;}

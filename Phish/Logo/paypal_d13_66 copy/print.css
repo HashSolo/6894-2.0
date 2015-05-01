@@ -1,0 +1,153 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: #fff; PADDING-BOTTOM: 0px; MARGIN: 0px; FONT: 75%/1.2em Arial, Helvetica, sans-serif; COLOR: #000; PADDING-TOP: 0px
+}
+H1 {
+	LINE-HEIGHT: 1em
+}
+H2 {
+	LINE-HEIGHT: 1em
+}
+H3 {
+	LINE-HEIGHT: 1em
+}
+H4 {
+	LINE-HEIGHT: 1em
+}
+H1 {
+	FONT-SIZE: 1.5em
+}
+H2 {
+	FONT-SIZE: 1.33em
+}
+H3 {
+	FONT-SIZE: 1.16em
+}
+H4 {
+	FONT-SIZE: 1em
+}
+A {
+	COLOR: #333
+}
+A IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+P {
+	MARGIN: 1em 0px
+}
+UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 1em 0px; PADDING-TOP: 0px
+}
+OL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 1em 0px; PADDING-TOP: 0px
+}
+DL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 1em 0px; PADDING-TOP: 0px
+}
+DT {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+LI {
+	MARGIN: 0px 0px 0px 1.7em
+}
+DD {
+	MARGIN: 0px 0px 0px 1.7em
+}
+EM {
+	FONT-STYLE: italic
+}
+STRONG {
+	FONT-WEIGHT: bold
+}
+DFN {
+	FONT-STYLE: normal
+}
+VAR {
+	FONT-STYLE: normal
+}
+CODE {
+	FONT: 1em "Courier New", Courier, monospace
+}
+KBD {
+	FONT: 1em "Courier New", Courier, monospace
+}
+SAMP {
+	FONT: 1em "Courier New", Courier, monospace
+}
+Q:unknown {
+	content: ""
+}
+Q:unknown {
+	content: ""
+}
+CITE {
+	FONT-STYLE: normal
+}
+CITE SPAN {
+	DISPLAY: block
+}
+abbr {
+	CURSOR: pointer; COLOR: #333; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; TEXT-DECORATION: underline; BORDER-BOTTOM-STYLE: none
+}
+ACRONYM {
+	CURSOR: pointer; COLOR: #333; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; TEXT-DECORATION: underline; BORDER-BOTTOM-STYLE: none
+}
+FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+LEGEND {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+LABEL {
+	DISPLAY: block
+}
+INPUT {
+	BORDER-RIGHT: #999 1px solid; BORDER-TOP: #999 1px solid; FONT: 1.1em Arial, Helvetica, sans-serif; BORDER-LEFT: #999 1px solid; BORDER-BOTTOM: #999 1px solid
+}
+SELECT {
+	BORDER-RIGHT: #999 1px solid; BORDER-TOP: #999 1px solid; FONT: 1.1em Arial, Helvetica, sans-serif; BORDER-LEFT: #999 1px solid; BORDER-BOTTOM: #999 1px solid
+}
+TEXTAREA {
+	BORDER-RIGHT: #999 1px solid; BORDER-TOP: #999 1px solid; FONT: 1.1em Arial, Helvetica, sans-serif; BORDER-LEFT: #999 1px solid; BORDER-BOTTOM: #999 1px solid
+}
+INPUT {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+TEXTAREA {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+UNKNOWN {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+UNKNOWN {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+BUTTON {
+	BORDER-RIGHT: #999 1px solid; BORDER-TOP: #bbb 1px solid; BORDER-LEFT: #bbb 1px solid; WIDTH: auto! important; COLOR: #000; BORDER-BOTTOM: #999 1px solid
+}
+INPUT.button {
+	BORDER-RIGHT: #999 1px solid; BORDER-TOP: #bbb 1px solid; BORDER-LEFT: #bbb 1px solid; WIDTH: auto! important; COLOR: #000; BORDER-BOTTOM: #999 1px solid
+}
+TABLE {
+	BORDER-COLLAPSE: collapse
+}
+HR {
+	BORDER-TOP: #000 1px solid; BACKGROUND: #000; HEIGHT: 1px
+}
+#navGlobal {
+	DISPLAY: none
+}
+#navPrimary {
+	DISPLAY: none
+}
+#navFull {
+	DISPLAY: none
+}
+#rosetta {
+	DISPLAY: none
+}
+#footer H5 {
+	DISPLAY: none
+}
+#footer UL {
+	DISPLAY: none
+}

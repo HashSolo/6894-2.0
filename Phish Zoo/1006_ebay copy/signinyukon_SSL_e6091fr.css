@@ -1,0 +1,165 @@
+A:active {
+	TEXT-DECORATION: none
+}
+A:link {
+	TEXT-DECORATION: none
+}
+A:visited {
+	TEXT-DECORATION: none
+}
+A:active {
+	TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+.sectiontitleYukon {
+	FONT-SIZE: x-large; COLOR: #5d5d5d
+}
+.titleYukon {
+	FONT-WEIGHT: bold; FONT-SIZE: medium; COLOR: #ff8000
+}
+TD {
+	FONT-SIZE: small; COLOR: #333333
+}
+P {
+	FONT-SIZE: small; COLOR: #333333
+}
+DIV {
+	FONT-SIZE: small; COLOR: #333333
+}
+UL {
+	FONT-SIZE: small; COLOR: #333333
+}
+SPAN {
+	FONT-SIZE: small; COLOR: #333333
+}
+UL.commonList {
+	MARGIN-TOP: 0px; PADDING-LEFT: 20px; LIST-STYLE-POSITION: outside; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 10px; MARGIN-LEFT: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: disc
+}
+.errorYukon {
+	FONT-SIZE: x-small; COLOR: #ff0000; FONT-FAMILY: Verdana
+}
+BUTTON {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+* HTML BUTTON {
+	MARGIN: 0px 5px 0px 0px; OVERFLOW: visible; WIDTH: 1%
+}
+BUTTON .btn {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 6px; FONT-WEIGHT: bold; BACKGROUND: url(https://securepics.ebaystatic.com/aw/pics/buttons/btnViPrmry.gif); PADDING-BOTTOM: 0px; VERTICAL-ALIGN: middle; CURSOR: pointer; COLOR: #fff; LINE-HEIGHT: 190%; PADDING-TOP: 0px; FONT-FAMILY: Arial; WHITE-SPACE: nowrap; HEIGHT: 24px
+}
+BUTTON .btn .btn {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 14px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.SIActBtn .btn {
+	BACKGROUND: url(https://securepics.ebaystatic.com/aw/pics/viewitem/imgVIPrmryBtnLt.gif) no-repeat left top
+}
+.SIActBtn .btn .btn {
+	BACKGROUND: url(https://securepics.ebaystatic.com/aw/pics/buttons/btnViPrmry.gif) no-repeat 100% 0px
+}
+.SIForBtn {
+	MARGIN-RIGHT: 5px
+}
+.SIForBtn .b1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; CURSOR: pointer; COLOR: #000000; LINE-HEIGHT: 29px; PADDING-TOP: 10px; WHITE-SPACE: nowrap; TEXT-DECORATION: none
+}
+.SIForBtn .b2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; CURSOR: pointer; COLOR: #000000; LINE-HEIGHT: 29px; PADDING-TOP: 10px; WHITE-SPACE: nowrap; TEXT-DECORATION: none
+}
+.SIForBtn .b3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; CURSOR: pointer; COLOR: #000000; LINE-HEIGHT: 29px; PADDING-TOP: 10px; WHITE-SPACE: nowrap; TEXT-DECORATION: none
+}
+.SIForBtn .b1 {
+	BACKGROUND: url(https://securepics.ebaystatic.com/aw/pics/express/button/btn2left.gif) no-repeat left center
+}
+.SIForBtn .b2 {
+	BACKGROUND: url(https://securepics.ebaystatic.com/aw/pics/express/button/btn2Right.gif) no-repeat right center; MARGIN-LEFT: 15px
+}
+.SIForBtn .b3 {
+	BACKGROUND: url(https://securepics.ebaystatic.com/aw/pics/express/button/btn2Bkgd.jpg) repeat-x center 50%; MARGIN-RIGHT: 15px
+}
+.signinyukon-rcp .signinyukon-s {
+	POSITION: relative; BACKGROUND-COLOR: #ececec
+}
+.signinyukon-rcp .signinyukon-s .signinyukon-e {
+	BACKGROUND: url(https://securepics.ebaystatic.com/aw/pics/globalAssets/imgRndCnrBlank.gif) no-repeat 100% -10px; POSITION: relative
+}
+.signinyukon-rcp .signinyukon-s .signinyukon-w {
+	FONT-SIZE: 0px; BACKGROUND: url(https://securepics.ebaystatic.com/aw/pics/globalAssets/imgRndCnrBlank.gif) no-repeat 0px -15px; POSITION: relative; HEIGHT: 5px
+}
+.signinyukon-rcp .signinyukon-mid {
+	BORDER-RIGHT: #ececec 1px solid; BORDER-LEFT: #ececec 1px solid; POSITION: relative; BACKGROUND-COLOR: #ececec
+}
+.signinyukon-rcp .signinyukon-n {
+	POSITION: relative; BACKGROUND-COLOR: #ececec
+}
+.signinyukon-rcp .signinyukon-n .signinyukon-e {
+	BACKGROUND: url(https://securepics.ebaystatic.com/aw/pics/globalAssets/imgRndCnrBlank.gif) no-repeat 100% -5px; POSITION: relative
+}
+.signinyukon-rcp .signinyukon-n .signinyukon-w {
+	FONT-SIZE: 0px; BACKGROUND: url(https://securepics.ebaystatic.com/aw/pics/globalAssets/imgRndCnrBlank.gif) no-repeat 0px 0px; POSITION: relative; HEIGHT: 5px
+}
+.YukonPageWidth {
+	MIN-WIDTH: 760px; MAX-WIDTH: 940px; MARGIN: 0px auto
+}
+* HTML .YukonPageWidth {
+	WIDTH: 760px; ; WIDTH: expression((document.documentElement.offsetWidth) <940 ? ((document.documentElement.offsetWidth) < 760? "760px" : "auto"):"940px")
+}
+.AuthBorderGrey {
+	CLEAR: both; BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; WIDTH: 100%; BORDER-BOTTOM: #cccccc 1px solid
+}
+.AuthPageWidth {
+	PADDING-RIGHT: 20px; FLOAT: left; WIDTH: 65%
+}
+.AuthPageWidth1 {
+	WIDTH: 25%
+}
+.AuthBorderGrey .n .e {
+	DISPLAY: block; FONT-SIZE: 0px; MARGIN: 0px; LINE-HEIGHT: 0%; POSITION: relative; HEIGHT: 10px
+}
+.AuthBorderGrey .n .w {
+	DISPLAY: block; FONT-SIZE: 0px; MARGIN: 0px; LINE-HEIGHT: 0%; POSITION: relative; HEIGHT: 10px
+}
+.AuthBorderGrey .s .e {
+	DISPLAY: block; FONT-SIZE: 0px; MARGIN: 0px; LINE-HEIGHT: 0%; POSITION: relative; HEIGHT: 10px
+}
+.AuthBorderGrey .s .w {
+	DISPLAY: block; FONT-SIZE: 0px; MARGIN: 0px; LINE-HEIGHT: 0%; POSITION: relative; HEIGHT: 10px
+}
+.AuthBorderGrey .n .w {
+	BACKGROUND: url(http://pics.ebaystatic.com/aw/pics/globalAssets/imgPanelULGrey.gif) no-repeat left top; LEFT: -2px; TOP: 0px
+}
+.AuthBorderGrey .n .e {
+	RIGHT: -1px; BACKGROUND: url(http://pics.ebaystatic.com/aw/pics/globalAssets/imgPanelURGrey.gif) no-repeat right top; TOP: -1px
+}
+.AuthBorderGrey .s .e {
+	RIGHT: -1px; BACKGROUND: url(http://pics.ebaystatic.com/aw/pics/globalAssets/imgPanelLRGrey.gif) no-repeat right bottom; BOTTOM: -1px
+}
+.AuthBorderGrey .s .w {
+	BACKGROUND: url(http://pics.ebaystatic.com/aw/pics/globalAssets/imgPanelLLGrey.gif) no-repeat left bottom; LEFT: -2px; BOTTOM: 0px
+}
+.AuthSpacer {
+	PADDING-BOTTOM: 10px
+}
+.AuthSpacer1 {
+	MARGIN: 10px
+}
+#signmotors2 BUTTON {
+	PADDING-RIGHT: 10px; BACKGROUND: url(https://securepics.ebaystatic.com/aw/pics/motors2/buttons/btnLeftOrg.gif) no-repeat left 50%
+}
+#signmotors2 BUTTON .btn {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; BACKGROUND: url(https://securepics.ebaystatic.com/aw/pics/motors2/buttons/btnRtOrg.gif) no-repeat right top; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; HEIGHT: 27px; _padding: 0 4px 0 5px
+}
+#signmotors2 BUTTON .btn .btn {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 0px; BACKGROUND: url(https://securepics.ebaystatic.com/aw/pics/motors2/buttons/btnGradOrg.gif) repeat-x 50% top; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#signmotors2 .btnMain {
+	PADDING-RIGHT: 10px; BACKGROUND: url(https://securepics.ebaystatic.com/aw/pics/motors2/buttons/btnLeftOrg.gif) no-repeat left 50%; MARGIN-RIGHT: 0px
+}
+#signmotors2 .btnMain .btn {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; BACKGROUND: url(https://securepics.ebaystatic.com/aw/pics/motors2/buttons/btnRtOrg.gif) no-repeat right top; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; HEIGHT: 27px; _padding: 0 4px 0 5px
+}
+#signmotors2 .btnMain .btn .btn {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; BACKGROUND: url(https://securepics.ebaystatic.com/aw/pics/motors2/buttons/btnGradOrg.gif) repeat-x 50% top; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}

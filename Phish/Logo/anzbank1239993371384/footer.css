@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+
+#footer
+{
+	color: black;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 79%;
+	line-height: 150%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	text-decoration: none;
+}
+#footer {
+	background-color: #00FF00;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+	
+	margin-top: 1em;
+	padding-top: 1em;
+	border-top: 4px solid #cceaff;
+	background-color: transparent;
+	text-align: center;
+	font-size: .9em;
+	line-height: 130%;
+}
+
+#footer ul.horizontallist li {
+	display: inline;
+}
+
+#footer ul.pipedlist li, #footer ul.nonpipedlist li {
+	border-right: 1px solid black;
+	padding-left: 1em;
+	padding-right:1em;
+}
+
+#footer ul.pipedlist li.lastlistitem {
+	border-right: 0 !important;
+}
+
+/* may be unnecessary */
+#footer * {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	text-decoration: none;
+}
+
+#footer p, #footer ul {
+	font-size: 79%;
+}
+
+#footer a:link {
+    color: #003399;
+}
+#footer a:visited {
+    color: #003399;
+}
+#footer a:hover {
+    color: #0066cc;
+    text-decoration: underline;
+}
+
+

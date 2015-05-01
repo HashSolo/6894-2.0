@@ -1,0 +1,37 @@
+/*Author: George Philip Date: 29/06/06 */
+html, body {margin: 0; padding: 0;}
+h2 {font-size: 1.167;}
+h3 {font-size: 1.0em;}
+
+/*layout for bulkshipping form*/ 
+div#multiOrderShipping {width:450px; padding:5px 10px 0 0; float:left;          }
+div#multiOrderShipping h3 {margin:0; padding:0;}
+div#multiOrderShipping ul {margin:0 10px 20px 40px; padding:0;}
+div#printLabel {width:300px; padding:10px 10px 0 0; margin:0; float:left;}
+div#printLabel p {margin:8px 0 0 0; padding:0; font-size:0.91em !important;}
+div#printLabel h2 {margin:0; padding:0;}
+div#extra {float:right; width:272px; padding:0 ; margin:0 0 0 0;}
+div#extra div.generalBox div.title h4 {padding:10px 0 5px 14px !important; text-indent:0 !important; font-size:1.167em !important;}
+div#extra div.content{padding:0 5px 5px 15px !important;}
+div#extra div.launchTool{border:1px solid #e9c75b; padding:20px 0 0 0; margin:0 0 0 0; background-color:#f5edbe; width:242px;}
+div#extra div.launchTool p{margin-left:20px;}
+div#extra div.launchTool h4 {margin-left:20px;}
+div#extra div.launchTool p.launchToolLink {margin:0; padding:0; background-color:#fff; border-top:1px solid #e9c75b;}
+div#extra h4{margin:0; padding:0; font-size: 1.167em; color: #036;}
+div#extra img.launchTool{margin:10px 0 10px 55px;}
+div#extra div.generalBox input {margin-left:-4px;}
+div#extra div.content p{padding:5px 5px 5px 0 !important; margin:0 !important;}
+div#extra div.content p a {font-weight:bold;}
+div#extra div.content p.link {padding:3px 5px 5px 0 !important; margin:0 !important;}
+div.attention, div.attention div.content, div.attention div.title, div.attention div.title * {background-image: url(/WEBSCR-640-20100907-1/en_US/i/scr/yellow_box.gif)!important;}
+div.browserRequirements {clear:both;}
+div.browserRequirements h4{padding:0; margin:0; font-size:0.91em;}
+div.browserRequirements ul {padding:3px 0 0 40px; margin:0; font-size:0.91em;}
+#customsItems {border-collapse:collapse;}
+#customsItems tr.itemHeader td {font-weight: bold; background-color:#cde; vertical-align: top;}
+#customsItems tr.itemHeader td span.desc {font-weight: normal; display: block;}
+#customsItems tr.even {background-color:#eee;}
+#customsItems td {font-weight: normal; border:1px solid #aaa; padding: 4px;}
+#additionalCompensation .currencyValue {text-align:right;}
+#additionalCompensation .tableAlign {_padding:0 0 0 10px;}
+.postagelabel{vertical-align:bottom;}

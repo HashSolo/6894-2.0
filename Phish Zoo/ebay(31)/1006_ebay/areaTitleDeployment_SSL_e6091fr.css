@@ -1,0 +1,372 @@
+.bc {
+	FONT-SIZE: xx-small; FONT-FAMILY: Verdana,Arial,sans-serif
+}
+#areaTitle {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(https://securepics.ebaystatic.com/aw/pics/globalAssets/rtCurve.gif) no-repeat right top; PADDING-BOTTOM: 0px; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: solid
+}
+#areaTitle H1 {
+	PADDING-RIGHT: 40px; PADDING-LEFT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 14pt; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: middle; LINE-HEIGHT: 41px; PADDING-TOP: 0px; FONT-FAMILY: Arial
+}
+#areaTitle DIV {
+	BACKGROUND: 0px 0px; HEIGHT: 41px
+}
+#areaTitle DIV DIV {
+	BACKGROUND: url(https://securepics.ebaystatic.com/aw/pics/globalAssets/rtCurve.gif) no-repeat right top
+}
+#areaTitle DIV DIV DIV {
+	BACKGROUND: url(https://securepics.ebaystatic.com/aw/pics/globalAssets/rtCurve.gif) no-repeat right top; FLOAT: right; WIDTH: 10px
+}
+#areaTitle IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FLOAT: left; BORDER-BOTTOM-WIDTH: 0px; MARGIN: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.bold {
+	FONT-WEIGHT: bold
+}
+.titletext {
+	FONT-WEIGHT: bold; FONT-SIZE: 22px; COLOR: #193b67; FONT-FAMILY: Arial
+}
+.linktext {
+	FONT-SIZE: 16px; FONT-FAMILY: Arial
+}
+.PPAStyle {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial
+}
+.ens {
+	DISPLAY: inline
+}
+.fontnormal {
+	FONT-WEIGHT: normal
+}
+.art {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: solid; border-size: 4px
+}
+.highlightitViolet IMG {
+	BORDER-RIGHT: #c9c9fe 4px solid; BORDER-TOP: #c9c9fe 4px solid; BORDER-LEFT: #c9c9fe 4px solid; BORDER-BOTTOM: #c9c9fe 4px solid
+}
+.highlightitYellow IMG {
+	BORDER-RIGHT: yellow 4px solid; BORDER-TOP: yellow 4px solid; BORDER-LEFT: yellow 4px solid; BORDER-BOTTOM: yellow 4px solid
+}
+SPAN.violetborder {
+	BORDER-RIGHT: #c9c9fe 4px solid; BORDER-TOP: #c9c9fe 4px solid; BORDER-LEFT: #c9c9fe 4px solid; BORDER-BOTTOM: #c9c9fe 4px solid
+}
+SPAN.yellowborder {
+	BORDER-RIGHT: yellow 4px solid; BORDER-TOP: yellow 4px solid; BORDER-LEFT: yellow 4px solid; BORDER-BOTTOM: yellow 4px solid
+}
+#areaTitleNormal {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(https://securepics.ebaystatic.com/aw/pics/globalAssets/rtCurve.gif) no-repeat right top; PADDING-BOTTOM: 0px; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: solid
+}
+#areaTitleNormal H1 {
+	PADDING-RIGHT: 40px; PADDING-LEFT: 10px; FONT-WEIGHT: normal; FONT-SIZE: 18pt; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: middle; LINE-HEIGHT: 41px; PADDING-TOP: 0px; FONT-FAMILY: Arial
+}
+#areaTitleNormal DIV {
+	BACKGROUND: 0px 0px; HEIGHT: 41px
+}
+#areaTitleNormal DIV DIV {
+	BACKGROUND: url(https://securepics.ebaystatic.com/aw/pics/globalAssets/rtCurve.gif) no-repeat right top
+}
+#areaTitleNormal DIV DIV DIV {
+	BACKGROUND: url(https://securepics.ebaystatic.com/aw/pics/globalAssets/rtCurve.gif) no-repeat right top; FLOAT: right; WIDTH: 10px
+}
+#areaTitleNormal IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FLOAT: left; BORDER-BOTTOM-WIDTH: 0px; MARGIN: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.headingBorder {
+	CLEAR: both; BORDER-RIGHT: #9999cc 0px solid; BORDER-TOP: #9999cc 1px solid; BORDER-LEFT: #9999cc 0px solid; WIDTH: 100%; BORDER-BOTTOM: #9999cc 0px solid; HEIGHT: 100%; BACKGROUND-COLOR: #ededf7
+}
+.leftField {
+	FLOAT: left; WIDTH: 74%
+}
+.rightField1 {
+	FLOAT: right; WIDTH: 24%
+}
+.contentAlign {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.classAutoSugg1 {
+	COLOR: #ffffff; BACKGROUND-COLOR: #000080
+}
+.classAutoSugg2 {
+	BACKGROUND-COLOR: white
+}
+.textboxAlign {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: xx-small; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; FONT-FAMILY: Verdana; voice-family: inherit
+}
+.headingBorderCS {
+	BORDER-TOP-WIDTH: 1px; CLEAR: both; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 100%; HEIGHT: 100%; BACKGROUND-COLOR: #ededf7; BORDER-RIGHT-WIDTH: 0px
+}
+.liindent {
+	MARGIN: 0px 0px 0px 25px
+}
+.hlpBubNW {
+	BACKGROUND-POSITION: center bottom; FLOAT: left; BACKGROUND-IMAGE: url(https://securepics.ebaystatic.com/aw/pics/bubbleHelp/hlpBubNW.gif); WIDTH: 10px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 20px
+}
+.hlpBubN {
+	BACKGROUND-POSITION: center bottom; FLOAT: left; BACKGROUND-IMAGE: url(https://securepics.ebaystatic.com/aw/pics/bubbleHelp/hlpBubN.gif); WIDTH: 280px; BACKGROUND-REPEAT: repeat-x; HEIGHT: 20px
+}
+.hlpBubNE {
+	BACKGROUND-POSITION: center bottom; FLOAT: left; BACKGROUND-IMAGE: url(https://securepics.ebaystatic.com/aw/pics/bubbleHelp/hlpBubNE.gif); WIDTH: 10px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 20px
+}
+.hlpBubW {
+	BACKGROUND-POSITION: center top; FLOAT: left; BACKGROUND-IMAGE: url(https://securepics.ebaystatic.com/aw/pics/bubbleHelp/hlpBubW.gif); WIDTH: 10px; BACKGROUND-REPEAT: repeat-y; HEIGHT: 90px
+}
+.hlpBubMiddle {
+	BACKGROUND-POSITION: center top; FLOAT: left; WIDTH: 280px; HEIGHT: 90px; BACKGROUND-COLOR: #ffffcc
+}
+.hlpBubE {
+	BACKGROUND-POSITION: center top; FLOAT: left; BACKGROUND-IMAGE: url(https://securepics.ebaystatic.com/aw/pics/bubbleHelp/hlpBubE.gif); WIDTH: 10px; BACKGROUND-REPEAT: repeat-y; HEIGHT: 90px
+}
+.hlpBubW {
+	BACKGROUND-POSITION: center top; FLOAT: left; BACKGROUND-IMAGE: url(https://securepics.ebaystatic.com/aw/pics/bubbleHelp/hlpBubW.gif); WIDTH: 10px; BACKGROUND-REPEAT: repeat-y; HEIGHT: 90px
+}
+.hlpBubMiddle {
+	BACKGROUND-POSITION: center top; FLOAT: left; WIDTH: 280px; HEIGHT: 90px; BACKGROUND-COLOR: #ffffcc
+}
+.hlpBubE {
+	BACKGROUND-POSITION: center top; FLOAT: left; BACKGROUND-IMAGE: url(https://securepics.ebaystatic.com/aw/pics/bubbleHelp/hlpBubE.gif); WIDTH: 10px; BACKGROUND-REPEAT: repeat-y; HEIGHT: 90px
+}
+.hlpBubSW {
+	BACKGROUND-POSITION: center top; FLOAT: left; BACKGROUND-IMAGE: url(https://securepics.ebaystatic.com/aw/pics/bubbleHelp/hlpBubSW.gif); WIDTH: 10px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 20px
+}
+.hlpBubS {
+	BACKGROUND-POSITION: center top; FLOAT: left; BACKGROUND-IMAGE: url(https://securepics.ebaystatic.com/aw/pics/bubbleHelp/hlpBubS.gif); WIDTH: 280px; BACKGROUND-REPEAT: repeat-x; HEIGHT: 20px
+}
+.hlpBubSE {
+	BACKGROUND-POSITION: center top; FLOAT: left; BACKGROUND-IMAGE: url(https://securepics.ebaystatic.com/aw/pics/bubbleHelp/hlpBubSESel.gif); WIDTH: 10px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 20px
+}
+.hlpBub1 {
+	DISPLAY: none; Z-INDEX: 200; VISIBILITY: visible; WIDTH: 300px; POSITION: absolute; TOP: 20px; HEIGHT: 140px
+}
+.hlpBubNWau {
+	BACKGROUND-POSITION: center bottom; FLOAT: left; BACKGROUND-IMAGE: url(https://securepics.ebaystatic.com/aw/pics/bubbleHelp/hlpBubNW.gif); WIDTH: 10px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 20px
+}
+.hlpBubNau {
+	BACKGROUND-POSITION: center bottom; FLOAT: left; BACKGROUND-IMAGE: url(https://securepics.ebaystatic.com/aw/pics/bubbleHelp/hlpBubN.gif); WIDTH: 280px; BACKGROUND-REPEAT: repeat-x; HEIGHT: 20px
+}
+.hlpBubNEau {
+	BACKGROUND-POSITION: center bottom; FLOAT: left; BACKGROUND-IMAGE: url(https://securepics.ebaystatic.com/aw/pics/bubbleHelp/hlpBubNE.gif); WIDTH: 10px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 20px
+}
+.hlpBubWau {
+	BACKGROUND-POSITION: center top; FLOAT: left; BACKGROUND-IMAGE: url(https://securepics.ebaystatic.com/aw/pics/bubbleHelp/hlpBubW.gif); WIDTH: 10px; BACKGROUND-REPEAT: repeat-y; HEIGHT: 70px
+}
+.hlpBubMiddleau {
+	BACKGROUND-POSITION: center top; FLOAT: left; WIDTH: 280px; HEIGHT: 70px; BACKGROUND-COLOR: #ffffcc
+}
+.hlpBubEau {
+	BACKGROUND-POSITION: center top; FLOAT: left; BACKGROUND-IMAGE: url(https://securepics.ebaystatic.com/aw/pics/bubbleHelp/hlpBubE.gif); WIDTH: 10px; BACKGROUND-REPEAT: repeat-y; HEIGHT: 70px
+}
+.hlpBubWau {
+	BACKGROUND-POSITION: center top; FLOAT: left; BACKGROUND-IMAGE: url(https://securepics.ebaystatic.com/aw/pics/bubbleHelp/hlpBubW.gif); WIDTH: 10px; BACKGROUND-REPEAT: repeat-y; HEIGHT: 70px
+}
+.hlpBubMiddleau {
+	BACKGROUND-POSITION: center top; FLOAT: left; WIDTH: 280px; HEIGHT: 70px; BACKGROUND-COLOR: #ffffcc
+}
+.hlpBubEau {
+	BACKGROUND-POSITION: center top; FLOAT: left; BACKGROUND-IMAGE: url(https://securepics.ebaystatic.com/aw/pics/bubbleHelp/hlpBubE.gif); WIDTH: 10px; BACKGROUND-REPEAT: repeat-y; HEIGHT: 70px
+}
+.hlpBubSWau {
+	BACKGROUND-POSITION: center top; FLOAT: left; BACKGROUND-IMAGE: url(https://securepics.ebaystatic.com/aw/pics/bubbleHelp/hlpBubSW.gif); WIDTH: 10px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 20px
+}
+.hlpBubSau {
+	BACKGROUND-POSITION: center top; FLOAT: left; BACKGROUND-IMAGE: url(https://securepics.ebaystatic.com/aw/pics/bubbleHelp/hlpBubS.gif); WIDTH: 280px; BACKGROUND-REPEAT: repeat-x; HEIGHT: 20px
+}
+.hlpBubSEau {
+	BACKGROUND-POSITION: center top; FLOAT: left; BACKGROUND-IMAGE: url(https://securepics.ebaystatic.com/aw/pics/bubbleHelp/hlpBubSESel.gif); WIDTH: 10px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 20px
+}
+.hlpBub1au {
+	DISPLAY: none; Z-INDEX: 200; VISIBILITY: visible; WIDTH: 300px; POSITION: absolute; TOP: 20px; HEIGHT: 140px
+}
+#footer_container {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; MARGIN-BOTTOM: 30px; BORDER-LEFT: #ccc 1px solid; BORDER-BOTTOM: #ccc 1px solid; BACKGROUND-COLOR: #f4f4f4; TEXT-ALIGN: left
+}
+#footer_container .whiter-n .whiter-e {
+	DISPLAY: block; FONT-SIZE: 0px; MARGIN: 0px; LINE-HEIGHT: 0%; POSITION: relative; HEIGHT: 10px
+}
+#footer_container .whiter-n .whiter-w {
+	DISPLAY: block; FONT-SIZE: 0px; MARGIN: 0px; LINE-HEIGHT: 0%; POSITION: relative; HEIGHT: 10px
+}
+#footer_container .whiter-s .whiter-e {
+	DISPLAY: block; FONT-SIZE: 0px; MARGIN: 0px; LINE-HEIGHT: 0%; POSITION: relative; HEIGHT: 10px
+}
+#footer_container .whiter-s .whiter-w {
+	DISPLAY: block; FONT-SIZE: 0px; MARGIN: 0px; LINE-HEIGHT: 0%; POSITION: relative; HEIGHT: 10px
+}
+#footer_container .whiter-n .whiter-e {
+	RIGHT: -1px; BACKGROUND: url(http://pics.ebaystatic.com/aw/pics/half/newsite/imgGreyRgtBotCur_6x6.gif) no-repeat right top; TOP: -1px
+}
+#footer_container .whiter-n .whiter-w {
+	BACKGROUND: url(http://pics.ebaystatic.com/aw/pics/half/newsite/imgGreyLftBotCur_6x6.gif) no-repeat left top; LEFT: -2px; WIDTH: 10px
+}
+#footer_container .whiter-s .whiter-e {
+	RIGHT: -1px; BOTTOM: -1px
+}
+#footer_container .whiter-s .whiter-w {
+	LEFT: -2px; WIDTH: 10px
+}
+#footer_container .whiter-mid {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#footer_container .whiter-mide {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+#footer_container .whiter-head {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 8px; FONT-WEIGHT: bold; FONT-SIZE: 11px; PADDING-BOTTOM: 6px; PADDING-TOP: 0px; FONT-FAMILY: Arial,Helvetica,sans-serif; POSITION: relative; BACKGROUND-COLOR: #fff
+}
+#footer_container .whiter-foot {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+#footer_container .whiter-s_nf {
+	POSITION: relative; BACKGROUND-COLOR: #f4f4f4
+}
+#footer_container .whiter-s_nf .whiter-e {
+	RIGHT: -1px; BACKGROUND: url(https://securepics.ebaystatic.com/aw/pics/globalassets/imgpanellrgrey.gif) no-repeat right bottom; BOTTOM: -1px; POSITION: relative
+}
+#footer_container .whiter-s_nf .whiter-w {
+	FONT-SIZE: 0px; BACKGROUND: url(https://securepics.ebaystatic.com/aw/pics/globalassets/imgpanelllgrey.gif) no-repeat left bottom; LEFT: -2px; POSITION: relative; HEIGHT: 6px
+}
+#footer_container .whiter-mide2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 20px; PADDING-BOTTOM: 5px; PADDING-TOP: 15px
+}
+#footer_container .whiter-heade {
+	FONT-SIZE: medium
+}
+#footer_container TD {
+	FONT-SIZE: 11px; VERTICAL-ALIGN: top; COLOR: #666666; FONT-FAMILY: verdana
+}
+#footer_container TD A:link {
+	COLOR: #005f9f; TEXT-DECORATION: none
+}
+#footer_container TD A:active {
+	COLOR: #005f9f; TEXT-DECORATION: none
+}
+#footer_container TD A:visited {
+	COLOR: #005f9f; TEXT-DECORATION: none
+}
+#footer_container TD A:hover {
+	COLOR: #005f9f; TEXT-DECORATION: underline
+}
+#footer_container TD A.moreforyoulink:link {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+#footer_container TD A.moreforyoulink:active {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+#footer_container TD A.moreforyoulink:visited {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+#footer_container TD A.moreforyoulink:hover {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+#footer_container #moreforyoupanel .moreforyouitems {
+	BORDER-RIGHT: #ccc 1px dotted; PADDING-RIGHT: 16px; PADDING-LEFT: 6px; PADDING-BOTTOM: 3px; WIDTH: 25%; PADDING-TOP: 3px
+}
+#footer_container #moreforyoupanel .moreforyouicons {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 18px; PADDING-BOTTOM: 3px; PADDING-TOP: 5px
+}
+#footer_links {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ccc; FONT-FAMILY: verdana; TEXT-ALIGN: center
+}
+#footer_links A:link {
+	COLOR: #cc6600; TEXT-DECORATION: none
+}
+#footer_links A:active {
+	COLOR: #cc6600; TEXT-DECORATION: none
+}
+#footer_links A:visited {
+	COLOR: #cc6600; TEXT-DECORATION: none
+}
+#footer_links A:hover {
+	TEXT-DECORATION: underline
+}
+#footer_links .copyright {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #666666
+}
+#halfheader {
+	Z-INDEX: 20; POSITION: relative
+}
+#halfheader .headertabs {
+	HEIGHT: 33px
+}
+#halfheader .logoimg {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 25px; PADDING-LEFT: 25px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 12px; BORDER-RIGHT-WIDTH: 0px
+}
+#halfheader .headertabs TD {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 12px; FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #666666; FONT-FAMILY: verdana; WHITE-SPACE: nowrap
+}
+#halfheader .headertabs A:link {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+#halfheader .headertabs A:active {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+#halfheader .headertabs A:visited {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+#halfheader .headertabs A:hover {
+	COLOR: #005f9f; TEXT-DECORATION: underline
+}
+#halfheader .headertabs .tabon {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; BACKGROUND-COLOR: #ffffff
+}
+#halfheader .headertabs .taboff {
+	BORDER-RIGHT: #bfbfbf 1px solid; BACKGROUND-IMAGE: url(http://pics.ebaystatic.com/aw/pics/half/newsite/imgGrayTabBg_1x33.gif)
+}
+#halfheader .headertabs .taboffright {
+	PADDING-RIGHT: 4px; BACKGROUND-IMAGE: url(http://pics.ebaystatic.com/aw/pics/half/newsite/imgGrayTabBg_1x33.gif)
+}
+#halfheader .headertabs .taboffleft {
+	BORDER-RIGHT: #bfbfbf 1px solid; PADDING-LEFT: 5px; BACKGROUND-IMAGE: url(http://pics.ebaystatic.com/aw/pics/half/newsite/imgGrayTabBg_1x33.gif)
+}
+#halfheader .cartlink A:link {
+	PADDING-RIGHT: 10px; FONT-SIZE: 13px; VERTICAL-ALIGN: middle; COLOR: #cc6600; FONT-FAMILY: arial; WHITE-SPACE: nowrap; HEIGHT: 22px; TEXT-DECORATION: none
+}
+#halfheader .cartlink A:hover {
+	PADDING-RIGHT: 10px; FONT-SIZE: 13px; VERTICAL-ALIGN: middle; COLOR: #cc6600; FONT-FAMILY: arial; WHITE-SPACE: nowrap; HEIGHT: 22px; TEXT-DECORATION: none
+}
+#halfheader .cartlink A:active {
+	PADDING-RIGHT: 10px; FONT-SIZE: 13px; VERTICAL-ALIGN: middle; COLOR: #cc6600; FONT-FAMILY: arial; WHITE-SPACE: nowrap; HEIGHT: 22px; TEXT-DECORATION: none
+}
+#halfheader .cartlink A:visited {
+	PADDING-RIGHT: 10px; FONT-SIZE: 13px; VERTICAL-ALIGN: middle; COLOR: #cc6600; FONT-FAMILY: arial; WHITE-SPACE: nowrap; HEIGHT: 22px; TEXT-DECORATION: none
+}
+#headertopright TD {
+	BORDER-RIGHT: #bfbfbf 1px solid; PADDING-RIGHT: 12px; PADDING-LEFT: 12px; FONT-SIZE: 12px; COLOR: #005f9f; FONT-FAMILY: verdana; WHITE-SPACE: nowrap
+}
+#headertopright A:link {
+	COLOR: #005f9f; TEXT-DECORATION: none
+}
+#headertopright A:active {
+	COLOR: #005f9f; TEXT-DECORATION: none
+}
+#headertopright A:visited {
+	COLOR: #005f9f; TEXT-DECORATION: none
+}
+#headertopright A:hover {
+	COLOR: #005f9f; TEXT-DECORATION: underline
+}
+#headersearchbar .searchleft {
+	BACKGROUND: url(http://pics.ebaystatic.com/aw/pics/half/newsite/imgSearchBoxBg_1x43.gif) repeat-x; POSITION: relative; HEIGHT: 43px
+}
+#headersearchbar .searchright {
+	RIGHT: 0px; BACKGROUND: url(http://pics.ebaystatic.com/aw/pics/half/newsite/imgSearchBoxRightCur_10x43.gif) no-repeat right top; WIDTH: 10px; MARGIN-RIGHT: -1px; POSITION: absolute; HEIGHT: 43px
+}
+#headersearchbar .searchmain {
+	BACKGROUND: url(http://pics.ebaystatic.com/aw/pics/half/newsite/imgSearchBoxLeftCur_10x43.gif) no-repeat left top; LEFT: 0px; MARGIN-LEFT: -1px; WIDTH: 10px; POSITION: absolute; HEIGHT: 43px
+}
+#headersearchbar .searchmain TD {
+	PADDING-LEFT: 12px; FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #ffffff; PADDING-TOP: 8px; FONT-FAMILY: arial
+}
+#headersearchbar .searchmain .advancedsearch {
+	PADDING-LEFT: 20px; FONT-WEIGHT: normal; FONT-SIZE: 12px; FONT-FAMILY: verdana; WHITE-SPACE: nowrap
+}
+#headersearchbar .searchmain .advancedsearch A:link {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+#headersearchbar .searchmain .advancedsearch A:active {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+#headersearchbar .searchmain .advancedsearch A:visited {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+#headersearchbar .searchmain .advancedsearch A:hover {
+	COLOR: #fff; TEXT-DECORATION: underline
+}

@@ -1,0 +1,50 @@
+/* Global Airline Spec - 18982 */
+/* ---------------------------------------------------------------------
+	HistoryAirlineMiniLog Table
+-----------------------------------------------------------------------*/
+#historyAirLinesMiniLog table {border-collapse: collapse;}
+#historyAirLinesMiniLog table caption{display:block; position:absolute; top:0; left:-9999em; overflow:hidden; line-height:0;}
+#historyAirLinesMiniLog table th{font-size: 11px; font-weight: bold; background-color: #ccddee; padding:4px; border: 1px solid #aaaaaa; border-collapse:collapse;}
+#historyAirLinesMiniLog table td {font-size: 11px; padding: 4px; border: 1px solid #aaaaaa; border-collapse:collapse;}
+/* below styles are created for eCheck spec - 22661 starts*/
+p.eCheckContent {padding:0px; margin-bottom:3px !important;}
+div.InfoBox {border:1px solid #c3cb37;}
+h2.okToShip {background:url(/WEBSCR-640-20100907-1/en_US/i/icon/icon_oktoship_29x32.gif) no-repeat 10px 7px; padding-top:12px; color:#000; height:35px; background-color:#f9f9cf; padding-left:50px;}
+div.InfoBox img {float:left;}
+div.InfoBox p.test {float:left; width:12px; height:48px; background-color:#FFFFCF; padding:0px;}
+div.InfoBox p {background-color:#fff; padding-top:22px; padding-left:10px; padding-bottom:30px;}
+a.whatIsEcheck {padding-left:10px; color:#0000ff !important; position:absolute; margin-top:-22px;}
+a.cancelEcheck {color:#0000ff !important; margin-top:-15px; display:block;}
+div.withIcon {background:url(/WEBSCR-640-20100907-1/en_US/i/icon/icon_waitdontship_29x32.gif) no-repeat 10px 7px; padding-top:16px; color:#000; background-color:#f9f9cf; padding-left:50px; height: 35px;}
+div.withIcon h2 {float:left; color:#000;}
+div.withOutIcon { padding-top:12px; color:#000; height:35px; background-color:#FFFFCF; padding-left:15px;}
+div.withOutIcon h2 {float:left; color:#000;}
+div.echeckStatus {padding-right: 5px; float: right;}
+a.eCheckInfoLink {color:#0000ff !important;}
+/* below styles are created for eCheck spec - 22661 ends*/
+
+/* Styles below for 3DS*/
+.balloonCallout, .balloon .body ul li {padding:0 !important;margin:0px !important;padding:0px !important; }
+.balloonCallout ul, .balloonCallout ul li, .balloon .body ul, .balloon .body ul li .body ul li ul{margin-top:0 !important;margin-bottom:0 !important;list-style-type:none;}
+
+/*for Spec #27060 */
+.digitalkeyBox{width:430px;word-wrap: break-word;}
+.digitalkeytxt{max-width:430px;}
+
+
+/* for PPSCR01002031 */
+#transactionDetails .labelLong {font-weight:bold; padding-top:4px; text-align:right; vertical-align:text-top;}
+#transactionDetails .smallLong {padding-top:4px; vertical-align:text-top;}
+
+.secondary {color:#757575;}
+span.help {color:#757575; font-size:0.9em; margin:0.1em 0;}
+.dashed {text-decoration:none;border-bottom:1px dashed;}
+
+/*for APAC #17 Dispute Notification enhancement Spec #34685 63.3 */
+.resCenterContent {border:1px solid #ccc; background:#E8F1FA; padding:5px 5px 5px 10px;}
+
+.hopDottedTop {border-bottom:2px dotted #AAAAAA; padding-top:5px;}
+.hopDottedBottom {border-top:2px dotted #AAAAAA; padding-bottom:5px;}
+.hopBlue {background-color:#E8F1FA;}
+.hopMsg {padding:10px;}
+.hopInline {padding-left:38px; background:#E8F1FA url(/WEBSCR-640-20100907-1/en_US/i/icon/icon_info_24wx24h.gif) no-repeat 10px 5px;}

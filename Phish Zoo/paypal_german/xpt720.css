@@ -1,0 +1,10 @@
+#xptHeader TABLE {width: 720px;}
+#xptContentInner {width: 720px; margin-left: auto; margin-right: auto; text-align: left;}
+#xptContentLeft {width: 190px;} /* homepage only */
+#xptContentInner TD.lefty {width: 190px;}
+#xptContentInner TD.spacer {width: 10px;}
+#xptContentInner TD.righty {width: 520px;}
+#xptClickthroughFooter TABLE {width: 720px;}
+#xptFootnote TABLE {width: 720px;}
+#xptFooter TABLE {width: 720px;}
+SELECT.smallInputWidth {width: 340px;}

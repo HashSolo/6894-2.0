@@ -1,0 +1,45 @@
+DIV.mainHeader#header {
+	WIDTH: 900px! important
+}
+DIV.mainHeader#header FORM {
+	WIDTH: 250px
+}
+DIV#navPrimary {
+	WIDTH: 730px
+}
+DIV#navPrimary A {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+DIV#navPrimary A SPAN {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 6px; PADDING-BOTTOM: 6px; PADDING-TOP: 10px
+}
+DIV#navPrimary LI.expanded#navMyAccount UL {
+	WIDTH: 670px
+}
+DIV#navPrimary LI.expanded UL A SPAN {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 6px; PADDING-BOTTOM: 3px; PADDING-TOP: 10px
+}
+.label#labelLong {
+	WIDTH: 36%
+}
+DIV#securityCenterInside DIV.parallelStyle H3 {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; WIDTH: 49%; PADDING-TOP: 0px
+}
+DIV#securityCenterInside DIV.parallelStyle H3.lastBreak {
+	MARGIN: 5px 0px
+}
+DIV#modularContent DIV.loginHeadlineB {
+	WIDTH: 305px! important
+}
+DIV#modularContent .loginBoxB2 .loginHeadlineB {
+	WIDTH: 305px! important
+}
+FORM.loginB DIV.fieldRow {
+	CLEAR: both
+}
+DIV#openDispute {
+	HEIGHT: 70px
+}
+DIV#tutorials {
+	HEIGHT: 70px
+}

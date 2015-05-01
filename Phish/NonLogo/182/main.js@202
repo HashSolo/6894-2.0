@@ -1,0 +1,180 @@
+function test(form,callback)
+{if(form.user.value==''||form.pass.value=='')
+{_show(_$('qip_login_error'));trytofocus(form.user);return false;}
+disableForm(form,true);JsHttpRequest.query(window.login_url+'?r='+Math.random(),{user:form.user.value,pass:form.pass.value,alien:form.alien.checked,time:new Date().getTimezoneOffset()},function(result,debugMessages)
+{if(debugMessages)
+alert(debugMessages);if(result.code==200)
+{var redirUrl=_$('qip_login_redirect').value;if(redirUrl.length)
+{if(redirUrl=='self')
+window.location.reload();else
+window.location=redirUrl;return;}
+startqipActions(result);hideLoginFrom(1);_hide(_$('qip_unauth_menu')),_show(_$('qip_auth_menu'));if(_$('qwh_menu'))
+setClass(_$('qwh_menu'),'qwh_menu_auth');var jid=form.user.value.toLowerCase().split('@');var domain=jid[1]||'qip.ru',username=jid[0];jid=username+'@'+domain;var username_top=jid.length<=25?jid:(jid.substr(0,22)+'...');var username_info=username.length<=12?username:(username.substr(0,11)+'...');_hide(_$('qip_login_error'));_$('qip_username').innerHTML=username_top;}
+var er_msg=_$('qip_login_error');if(result.code==400&&result.login&&result.key)
+er_msg.innerHTML='Учетная запись была ранее удалена. <a href="/settings/undeleteAcc?user='+result.login+'&key='+result.key+'">Восстановить</a>';else
+er_msg.innerHTML='Логин/пароль введены неправильно. Попробуйте еще раз.';_show(er_msg);disableForm(form,false);form.user.blur();trytofocus(form.user);if(callback)
+callback(null,result.code);});return false;}
+function startqipActions(result)
+{updateOwnCabinet();var login_form=_$('qip_mail_login_form'),user_info=_$('qip_user_info');if(!login_form||!user_info)
+return;_hide(login_form),_show(user_info);if('fn'in result)
+_$('qip_greeting').innerHTML=getDayTime()+(result.fn.length?(', '+(result.fn.length>6?'<br />':'')+result.fn):'');for(var i=0,fields=['love','friends'];i<fields.length;i++)
+if(fields[i]in result)
+_show(_$('q_login_'+fields[i]+'_new'));}
+function pluralForm(n,form1,form2,form5)
+{n=Math.abs(n)%100;n1=n%10;if(n>10&&n<20)return form5;if(n1>1&&n1<5)return form2;if(n1==1)return form1;return form5;}
+function updateOwnCabinet()
+{if(!('reload_personal_url'in window))
+return;JsHttpRequest.query(window.reload_personal_url,null,function(result,debugMessages)
+{if(!(result instanceof Object)||debugMessages)
+return;setTimeout('updateOwnCabinet()',600000);if('fn'in result)
+(_$('qip_greeting')||{}).innerHTML=getDayTime()+(result.fn.length?(', '+(result.fn.length>6?'<br />':'')+result.fn):'');var fields={'mail':0,'love':1,'friends':1};var titles=[['входящее письмо','входящих письма','входящих писем'],['новое сообщение','новых сообщения','новых сообщений'],['новое письмо','новых письма','новых писем']];for(var name in fields)
+if((name in result)&&(result[name]=parseInt(result[name])))
+{var elem=_$('q_login_'+name+'_new'),t=titles[fields[name]];if(elem)
+{setClass(elem,'q_bold');elem.innerHTML=result[name]+' '+pluralForm(result[name],t[0],t[1],t[2]);}
+if(name=='mail')
+{var emails=_$('q_mail_top');if(emails)
+{emails.innerHTML=result[name]+' '+pluralForm(result[name],titles[2][0],titles[2][1],titles[2][2]);_show(emails.parentNode);}}}},true)}
+function getDayTime()
+{var t=new Date().getHours();var d=new Date().getDay();var str_t='';if(t<5)str_t='Доброй ночи';else if(t<10)str_t='Доброе утро';else if(t<12&&(d==0||d==6))str_t='Доброе утро';else if(t<18)str_t='Добрый день';else str_t='Добрый вечер';return str_t;}
+function loader_geo()
+{window.geo_code=getCookie('sqip_weather_code');}
+function showLoginForm()
+{var form=_$('qip_login_form');if(!_hidden(form))
+_hide(form);else
+{_show(form);form.user.select();trytofocus(form.user);}
+return false;}
+function goSearch(form)
+{var qfield=form[window.menu_data[window.active.name].qname]||window.active.qfield||form.elements[0];if(qfield.value!=='')
+return form.submit();else
+document.location=(window.active.name=='maps')?'http://maps.qip.ru/':'http://search.qip.ru/?tab='+window.active.name;}
+function goSearch2(form)
+{if(typeof(suggest)=='undefined'||suggest.dis)
+return goSearch(form);if(suggest.s.style.display=='none'||suggest.sug_select==-1)
+{if(suggest.sel_pr)
+suggest.addI('from','presug');else if(suggest.hc)
+suggest.addI('from','suggest');goSearch(form);}
+if(suggest.sug_select>=0)
+{suggest.setSuggest(suggest.s.childNodes[suggest.sug_select]);if(suggest.isHidden())
+return suggest.hide();}}
+var sint=false;function ds()
+{suggest.disable();}
+function su()
+{if(sint==false)
+suggest.init('qip_suggest','search_form_text_internet','search_form_internet','search_btn_internet','http://search.qip.ru/suggest?q=');sint=true;suggest.enable();suggest.goSearch=goSearch2;}
+function openMenu(tab,more)
+{var menu_data=window.menu_data;if(menu_data[tab]==null)
+return true;var form=document.forms['search_form'];if(!window.active)
+def_params();var qfield=window.active.qfield=window.active.qfield||form[menu_data[window.active.name].qname];if(!qfield||(more&&!qfield.value.length))
+return true;for(var i in menu_data)
+(_$('menu_item_'+i)||{}).className=(i==tab)?'aktiv':'';window.active.name=tab;qfield.name=menu_data[tab].qname;form.action=menu_data[tab].url;trytofocus(qfield);return goSearch(form),false;}
+function sample(span,url)
+{if(url)
+JsHttpRequest.query(url,{},function(){},true);var field=(_$('search_form_text_internet')||_$('search_form_text')||{});field.value=span.innerHTML;trytofocus(field);}
+function changeCity(res)
+{town=res.geo.city;town_love=res.geo.rp;short_town_love=(town_love.length>13)?(town_love.substr(0,10)+'...'):town_love;short_town_love_w=(town_love.length>18)?(town_love.substr(0,16)+'...'):town_love;short_town_weather=(res.weather_name.length>25)?(res.weather_name.substr(0,25)+'...'):res.weather_name;window.geo_code=res.code;var div_job=_$('div_job');if(div_job)
+div_job.innerHTML=res.job;(_$('qt_city_name')||{}).innerHTML=town;(_$('sp_love_town')||{}).innerHTML=short_town_love;(_$('hd_love_geo')||{}).value=res.geo.love;(_$('weather')||{}).innerHTML=res.weather;(_$('a_weather_cap')||{}).innerHTML=short_town_weather;setCookie('sqip_weather_code',window.geo_code,new Date(new Date().getFullYear()+1,1,1),'/','.qip.ru');}
+function lovesave(f)
+{val=f.pol.options[f.pol.selectedIndex].value+'-'
++f.spol.options[f.spol.selectedIndex].value+'-'
++f.bage.value+'-'+f.tage.value;set_startqip_settings('love',val);}
+function switch_country(code)
+{if(get_startqip_settings('news_country')==code)
+return;set_startqip_settings('news_country',code);var container=_$('news_content_container');code=='UA'?(unsetClass(container,'RU'),setClass(container,'UA')):(unsetClass(container,'UA'),setClass(container,'RU'));}
+function switchBlock(lnk,n)
+{var table=lnk;while(table.tagName.toLowerCase()!='table')
+table=table.parentNode;var items=table.getElementsByTagName('div');for(var i=0;i<items.length;i++)
+items[i].className=items[i].className.replace('aktiv','');lnk.parentNode.className+=' aktiv';set_startqip_settings('news_tab',n);i=0;while(block=_$('content_'+i++))
+block.className=block.className.replace(/ hidden/g,'')+(i-1==n?'':' hidden');}
+function focusField(field,def_val)
+{if(field.value!=def_val)
+return;field.className=field.className.split(' ')[0];field.value='';}
+function blurField(field,def_val)
+{if(field.value!='')
+return;field.className=field.className+' qh_field_inact';field.value=def_val;}
+function infoReload(town_code)
+{window.geo_code=town_code;JsHttpRequest.query(window.base_url+'blocks/reload?r='+Math.random(),{'code':town_code},function(result,debugMessages)
+{if(!debugMessages)
+changeCity(result);hide_n_show();},true);return false;}
+function hide_n_show()
+{var city=window.weatherData.city;unsetClass(city,'qt_city_selection'),setClass(city,'qt_city_normal');window.weatherData.list.disabled=true;}
+function switchTownSelect(show,city_code,js_name)
+{var city=_$('q_city'),list=_$('qt_city_list');if(list.options.length>1)
+{list.disabled=!show;unsetClass(city,'qt_city_normal'),setClass(city,'qt_city_selection');return trytofocus(list);}
+unsetClass(city,'qt_city_normal'),setClass(city,'qt_city_loading');window.weatherData={'city':city,'list':list,'city_code':city_code,'city_name':_$('qt_city_name')};document.body.appendChild(_$$('script',{type:'text/javascript',charset:'utf-8',src:window.base_url+'js/'+js_name}));}
+function fillOptions(opts)
+{var data=window.weatherData;var list=data.list;opts=opts.split(';');for(var i=0,ln=opts.length;i<ln;i++)
+{var entry=opts[i].split(',');list.options[i]=new Option(entry[1],entry[0]);if(data.city_code==entry[0])
+list.options[i].selected=true;}
+unsetClass(data.city,'qt_city_loading'),setClass(data.city,'qt_city_selection');list.disabled=false;trytofocus(list);}
+function _$(id){return document.getElementById(id);}
+function _$$(tagname,attr)
+{var elem=document.createElement(tagname);if(attr)
+for(var i in attr)
+elem[i]=attr[i];return elem;}
+function trytofocus(el){try{el.focus()}catch(e){};}
+function setClass(elem,className){if(!hasClass(elem,className)){elem.className+=' '+className;}}
+function unsetClass(elem,className){elem.className=elem.className.replace(new RegExp("(^|\\s)"+className+"(\\s|$)"),'$1 $2');}
+function hasClass(elem,className){return new RegExp("(^|\\s)"+className+"(\\s|$)").test(elem.className);}
+function _show(elem){unsetClass(elem,'q_hidden');}
+function _hide(elem){setClass(elem,'q_hidden');}
+function _hidden(elem){return hasClass(elem,'q_hidden');}
+function activateTab(elem)
+{var alinks=_$('i-quot').getElementsByTagName('A');var apages=_$('i-graph').getElementsByTagName('DIV');for(var i=0;i<alinks.length;i++)
+{var cur=(alinks[i]==elem);cur?setClass(alinks[i],'i-active'):unsetClass(alinks[i],'i-active');cur?setClass(apages[i],'i-active'):unsetClass(apages[i],'i-active');}}
+function closeMenu()
+{setTimeout('hideLoginFrom()',200);}
+function hideLoginFrom(p)
+{var form=_$('qip_login_form');if(form&&(!form.user.disabled||p))
+_hide(form);}
+function show_more(more,id)
+{more=more||arguments.callee[id].parentNode;(!id&&hasClass(more,'qm_inactive'))?unsetClass(more,'qm_inactive'):setClass(more,'qm_inactive');}
+function set_startqip_settings(fieldname,value,cookie_name,project)
+{cookie_name=cookie_name||'startqip_settings';var settings=getCookie(cookie_name);if(!settings)
+settings='';settings=_unpack(settings);if(!(settings instanceof Object))
+settings={};settings[fieldname]=value;settings=_pack(settings);project=project||'';setCookie(cookie_name,settings,new Date(new Date().getFullYear()+1,1,1),'/',(new RegExp(project+"(qip(2|3)?\.)?qip\.ru").test(document.domain)?document.domain:(project+'.qip.ru')));}
+function get_startqip_settings(field_name,cookie_name)
+{cookie_name=cookie_name||'startqip_settings';var settings=getCookie(cookie_name);if(!settings)
+return null;settings=_unpack(settings);if(!(settings instanceof Object))
+return null;return(field_name in settings)?settings[field_name]:null;}
+function _pack(obj)
+{var data=[];for(var field in obj)
+data.push(field+'='+obj[field]);return data.join('|');}
+function _unpack(packed)
+{var data=packed.split('|'),obj={};for(var i=0;i<data.length;i++)
+{data[i]=data[i].split('=');if(data[i].length===2)
+obj[data[i][0]]=data[i][1];}
+return obj;}
+function disableForm(form,disable)
+{var elems=form.elements;for(var i=0;i<elems.length;i++)
+elems[i].disabled=disable;}
+function checkAll(src_elem,target_elem_name)
+{var elems=src_elem.form.elements;for(var i=0;i<elems.length;i++)
+if(elems[i].type.toLowerCase()=='checkbox'&&(elems[i].name==target_elem_name||elems[i].name==src_elem.name))
+elems[i].checked=src_elem.checked;}
+function setCookie(name,value,expires,path,domain,secure)
+{var curCookie=name+"="+escape(value)+
+((expires)?"; expires="+expires.toGMTString():"")+
+((path)?"; path="+path:"")+
+((domain)?"; domain="+domain:"")+
+((secure)?"; secure":"");document.cookie=curCookie;}
+function getCookie(name)
+{var prefix=name+"=";var cookieStartIndex=document.cookie.indexOf(prefix);if(cookieStartIndex==-1)
+return null;var cookieEndIndex=document.cookie.indexOf(";",cookieStartIndex+prefix.length);if(cookieEndIndex==-1)
+cookieEndIndex=document.cookie.length;return unescape(document.cookie.substring(cookieStartIndex+prefix.length,cookieEndIndex));}
+function deleteCookie(name,path,domain)
+{if(getCookie(name))
+{document.cookie=name+"="+
+((path)?"; path="+path:"")+
+((domain)?"; domain="+domain:"")+"; expires=Thu, 01-Jan-70 00:00:01 GMT";}}
+function getParentByTagName(elem,parent_tag_name)
+{var cur_tag_name=elem.tagName.toLowerCase(),parent_tag_name=parent_tag_name.toLowerCase();while(cur_tag_name!==parent_tag_name&&cur_tag_name!=='html')
+elem=elem.parentNode,cur_tag_name=elem.tagName.toLowerCase();return(cur_tag_name==='html')?false:elem;}
+function click_stat(event)
+{event=event||window.event;if(!(event.which&&(event.which==1||event.which==2)||event.button&&(event.button==0||event.button==1)))
+return false;var target=event.target||event.srcElement,form,anchor,url,id;if(target.tagName.toLowerCase()=='input'&&(target.type=='submit'||target.type=='image')&&(form=getParentByTagName(target,'form'))&&form.action.length)url=form.action,id=form.name;else if((anchor=getParentByTagName(target,'a'))&&anchor.getAttribute('href').charAt(0)!=='#')url=anchor.href,id=anchor.id;else return;var x=('clientX'in event)?(event.clientX-(_$('index_main_wrapper').offsetLeft||0)):0,y=('clientY'in event)?(event.clientY+document.documentElement.scrollTop):0;var script=_$('link_stat_script');if(!script)
+document.body.appendChild(script=_$$('script',{id:'link_stat_script',type:'text/javascript',charset:'utf-8'}));script.src=window.base_url+'js/empty.js'
++'?id='+(id.length?id:('pos'+x+'x'+y))
++'&href='+escape(url)
++'&r='+new Date().getTime();}
+function iebar()
+{var n=navigator,ntver=n.userAgent,regexp=/^.+NT ([0-9]\.[0-9]).+$/;var os={'5.1':'XP','6.0':'Vista','6.1':'Vista'}[ntver.match(regexp)?ntver.replace(regexp,'$1'):'5.1'];var lang=((n.language||n.systemLanguage||n.userLanguage).substr(0,2).toLowerCase()=='ru')?'RU':'EN';var platform=(n.platform=='Win64')?'_64':'';(_$('iebar')||{}).href=(_$('q_dl_ie_direct')||{}).href=(_$('q_dl_ie')||{}).href='http://download.qip.ru/IE8-Setup-Full_'+os+'_'+lang+platform+'.exe';}

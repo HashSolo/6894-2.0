@@ -1,0 +1,21 @@
+body,.standard,p,td,blockquote,div,span,ul,ol,dl,h1,h2,h3,th,.standardtitle { font-family:Arial,Helvetica,sans-serif;font-size:small; }
+a:active,a:link,.novisited a:visited { color:#0000CC; }
+a:visited { color:#990099; }
+pre { font-family:"Courier New",Courier,monospace;font-size:small; }
+h1,.pagetitle { font-size:large;font-weight:bold; }
+h2,.sectiontitle { font-size:medium;font-weight:bold; }
+h3,th,.standardtitle { font-weight:bold; }
+.emphasized { color:#009900;font-weight:bold; }
+.error { color:#FF0000; }
+.help { color:#666666; }
+.pipe { color:#9999FF; }
+.textbox,.button,.navigation { font-family:Verdana;font-size:x-small; }
+.textboxhelp { font-family:Verdana;font-size:x-small;color:#666666; }
+.nomargin { margin:0px; }
+.RetroStyle1 { font-family:Fixedsys;color:#00FF00;background-color:#000000;font-size:22px; }
+.RetroStyle2 { font-family:Terminal;color:#00FF00;background-color:#000000;font-size:22px; }
+.BasicStyle { font-family:Tahoma;color:#5F8F8F;background-color:Black;font-size:20px; }
+.lessen { color:#cccccc; }
+
+
+/* b=6038743 */

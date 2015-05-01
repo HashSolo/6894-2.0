@@ -1,0 +1,31 @@
+
+var ADBRITE;
+if (!ADBRITE){
+  ADBRITE = {};
+}
+if (!ADBRITE.INTERMISSION){
+   ADBRITE.INTERMISSION = {};
+   ADBRITE.INTERMISSION.sid = '772971';
+   ADBRITE.INTERMISSION.bookmark_url = 'http://www.imvu.com/catalog/web_landing.php?p=adbrite&source=adbrite&c=772971&medium=cpm&campaign=US&content=home_page_pop';
+   ADBRITE.INTERMISSION.zone_id = '772971';
+   ADBRITE.INTERMISSION.statistics_url = 'http://iclick.adbrite.com/click/iclick.php?zone_id=772971&banner_id=12912031&variation_id=1659455';
+   ADBRITE.INTERMISSION.hostname = 'ads-vrx.adbrite.com';
+   ADBRITE.INTERMISSION.publisher_logo = '<span style="font-family:Arial, Helvetica, sans-serif;color:#000;font-weight:bold;text-decoration:none;font-size:24px;border:none;">HelioHost</a></span>';
+   ADBRITE.INTERMISSION.skip_this_ad = '<img style="border:none;display:inline;margin:0;padding:0;background-color:transparent;" src="http://files.adbrite.com/mb/images/skip_gray.gif" alt="Skip this ad &gt;" />';
+   ADBRITE.INTERMISSION.background_image = '';
+   ADBRITE.INTERMISSION.banner_id = '12912031';
+   ADBRITE.INTERMISSION.set_intermission_shown_url = 'http://ads-vrx.adbrite.com/adserver/set_intermission_show.php?sid=772971&banner_id=12912031&stuff=86400';
+   ADBRITE.INTERMISSION.text_headline = 'IMVU.com';
+   ADBRITE.INTERMISSION.frame = 'false';
+   ADBRITE.INTERMISSION.publisher_name = 'HelioHost';
+   ADBRITE.INTERMISSION.advertiser_name = 'IMVU.com';
+   ADBRITE.INTERMISSION.advertiser_logo = 'http://files.adbrite.com/generated/images/adv_logos/395979.png';
+   ADBRITE.INTERMISSION.stuff = '86400';
+   ADBRITE.INTERMISSION.text_body = '';
+   ADBRITE.INTERMISSION.path = 'http://files.adbrite.com';
+   ADBRITE.INTERMISSION.iframe_source = 'http://click.adbrite.com/mb/click.php?sid=772971&banner_id=12912031&variation_id=1659455&uts=1285108237&cpc=302e30303535&keyword_id=1474020&ab=168362027&sscup=da33887946c9461905a03bb8be28c051&sscra=742dc7f355540e63826dc2b0f715da6a&ub=2165906846&guid=168362027x0.671_1285108237x1851814044&odc=vrx&rs=&tgt=http%3A%2F%2Fwww.imvu.com%2Fcatalog%2Fweb_landing.php%3Fp%3Dadbrite%26source%3Dadbrite%26c%3D%5BADBRITEZONEID%5D%26medium%3Dcpm%26campaign%3DUS%26content%3Dhome_page_pop&sc=&adt=9&bg=12105447&rhash=30d13bd9e9220cf8ff8d980f6dd44850&zeid=deterministic&nsscup=d1ccda9342c3b0be856110ad0dd8c48b&bkw=&r=';
+   ADBRITE.INTERMISSION.variation_id = '1659455';
+   ADBRITE.INTERMISSION.background_color = 'E6E6E6';
+   document.write('<scr' + 'ipt type="text/javascript" src="http://files.adbrite.com/httpads/browser_sniffing.js?rand=3"></sc' + 'ript>');
+   document.write('<scr' + 'ipt type="text/javascript" src="http://files.adbrite.com/httpads/intermission_test_redraw.js?rand=3"></sc' + 'ript>');
+}

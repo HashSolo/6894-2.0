@@ -1,0 +1,281 @@
+/* CSS Document */
+
+body { 
+font-family: verdana; 
+font-size: 11px;
+		}
+body a{
+font-family: verdana; 
+font-size: 11px; color: #1D536D; font-weight: normal; 
+text-decoration: underline;
+}
+
+body a:hover{ 
+color: #1D536D;
+text-decoration: none;
+  }
+  
+/* li {list-style-image:url(body-list-arrow.gif); margin-left:10px; line-height:19px;} */
+
+select {
+font-family:Arial, Helvetica, sans-serif;
+font-size:10px;
+border:1px solid #999999;
+}
+
+.arrow {list-style-image:url(body-list-arrow.gif); margin-left:10px; line-height:19px;} 
+.webhost-border {border:1px solid #999999;}
+.host-login-inputbox {font-family:Arial, Helvetica, sans-serif; font-size:9px; width:100px; border:1px solid #1D536D;}
+.small-text {font-family:verdana, Arial, Helvetica, sans-serif; font-size:9px;  color:#666666;}
+.red-text {font-family:verdana, Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#FF0000;}
+.login-text {font-family:verdana, Arial, Helvetica, sans-serif; font-size:10px;  font-weight:bold; color:#1D536D;}
+.border-left {border-left:1px solid #999999;}
+.border-right {border-right:1px solid #999999;}
+.body-padding {padding-right:15px; padding-left:15px; padding-bottom:10px; }
+
+.signup-row1 {border-left:1px solid #cccccc; padding-left:10px; height:30px; font-family: verdana; 
+font-size: 11px; color: #1D536D; font-weight: bold; color:#666666; background-color:#FFFFFF;} 
+.signup-row2 {border-left:1px solid #cccccc; padding-left:10px; height:30px; font-family: verdana; 
+font-size: 11px; color: #1D536D; font-weight: bold; color:#666666; background-color:#FFF7E2;}
+.signup-row1b {border-right:1px solid #cccccc; font-family: verdana; font-size: 11px; background-color:#FFFFFF;}
+.signup-row2b {border-right:1px solid #cccccc; background-color:#FFF7E2; font-family: verdana; 
+font-size: 11px;} 
+.signup-bold {color:#000000; font-weight:bold;}
+.inputbox {font-family:Arial, Helvetica, sans-serif; font-size:11px; width:200px; border:1px solid #999999;}
+.dropdown {font-family:Arial, Helvetica, sans-serif; font-size:10px; border:1px solid #999999;}
+.header1 {font-family:verdana, Arial, Helvetica, sans-serif; font-size:14px;  font-weight:bold; color:#2C5F74 ;}
+.maintext { font-family: verdana; font-size: 11px;}
+.affiliate-link {background-color:#848484; text-decoration:none; font-family: verdana; font-size: 10px; color: #FFFFFF; font-weight: bold; padding-top: 5px; padding-bottom: 5px;}
+.affiliate-link-sel {background-color:#EEEEEE; text-decoration:none; font-family: verdana; font-size: 11px; color: #000000; font-weight: bold; padding-top: 5px; padding-bottom: 5px;}
+.affiliate-link:hover {background-color:#EEEEEE; text-decoration:none; font-family: verdana; font-size: 10px; color: #000000; font-weight: bold; padding-top: 5px; padding-bottom: 5px; border:thin; border-style:groove;}
+
+/* Links */
+a.smalllink:link { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #1D536D; font-weight: normal; text-decoration: underline; }
+a.smalllink:active { font-family:  Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #1D536D; font-weight: normal; text-decoration: underline; }
+a.smalllink:visited { font-family:  Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #1D536D; font-weight: normal; text-decoration:underline; }
+a.smalllink:hover { font-family:  Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #1D536D; font-weight: normal; text-decoration: none; }
+
+a.redlink:link { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #FF0000; font-weight: normal; text-decoration: underline; }
+a.redlink:active { font-family:  Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #FF0000; font-weight: normal; text-decoration: underline; }
+a.redlink:visited { font-family:  Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #FF0000; font-weight: normal; text-decoration:underline; }
+a.redlink:hover { font-family:  Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #FF0000; font-weight: normal; text-decoration: none; }
+.white {font-family:verdana, Arial, Helvetica, sans-serif; font-size:12px;  font-weight:bold; color:#FFFFFF;}
+
+.options {
+  font: 11px verdana,arial,sans-serif;
+  font-weight: bold;
+  letter-spacing: -1.0px;
+  color: BLACK
+}
+
+.options-red {
+  font: 11px verdana,arial,sans-serif;
+  font-weight: bold;
+  letter-spacing: -1.0px;
+  color: RED
+}
+
+.bullet {list-style-type: square;}
+
+/* signup_paypal */
+
+.info_box {
+  width: 100%;
+}
+
+.info_box_bottom {
+  width: 100%;
+}
+
+.info {
+  padding: 10px 0px;
+  border-top: 3px solid #bfe180;
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  border-bottom: 0px;
+}
+
+.info_box table , .info_box table td {
+  font-size: 11px;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+
+.info_box .info .label {
+  width: 208px;
+  color: #666666;
+  font-weight: bold;
+}
+
+.info_box .info .data {
+  width: 0px;
+}
+
+.bottom {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.bottom .middle {
+  width: 100%;
+  background: url(page-signup-whiteb2.gif);
+}
+
+.nlButton, a.nlButton {
+  background-color: #68AC03;
+  background-image: url(dmButtonBg.gif);
+  background-repeat: repeat-x;
+  border:solid 1px #76b802;
+  color: #FFFFFF;
+
+  font:bold 11px Arial, Helvetica, sans-serif;
+  text-decoration:none;
+  text-align:center;
+  padding:4px;
+}
+
+a.nlButton:hover, input.nlButton:hover {
+  color:#d6e0c5;
+  text-decoration: none;
+  border: 1px solid #333;
+}
+
+.infolist {
+  list-style-image: url(body-arrow.gif);
+}
+
+.no_break {
+    white-space: nowrap;
+}
+
+.signuplabel {
+    padding-left: 10px !important;
+    height: 30px !important;
+    font-family: Verdana !important;
+    font-size: 11px !important;
+    font-weight: bold !important;
+    color: #666666 !important;
+}
+
+.cvv2 {
+    color: #2F859C !important;
+}
+
+body a{
+    font-family: verdana;
+    font-size: 11px;
+    color: #1D536D;
+}
+
+tr.even td {
+    background-color: #FFFFFF;
+}
+
+tr.odd td {
+    background-color: #FFF7E2;
+}
+
+
+.heading {
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #20526b;
+    border-bottom:  3px solid #bfe180;
+}
+
+.bigheader {
+    background: url(signuptab_big.gif);
+    background-repeat: no-repeat;
+    height: 56px;
+    font-size: 22px !important;
+}
+
+.bigheader_sub {
+    font-size: 12px !important;
+    color: #bfe180;
+}
+
+.container {
+    margin-top:    10px !important;
+    margin-bottom: 10px !important;
+    border-collapse: collapse;
+}
+.container_tl {
+    width:0px;
+}
+.container_tl div, .container_tr div { display: none }
+.container_tmid {
+    background: url(signuptab.gif);
+    background-repeat: no-repeat;
+    border-bottom:  4px solid #bfe180;
+    height: 42px;
+}
+.container_tmid_big {
+    background: url(signuptab_big.gif);
+    background-repeat: no-repeat;
+    border-bottom:  4px solid #bfe180;
+    height: 60px;
+}
+.container_tmid div, .container_tmid_big div {
+    font-size: 20px;
+    font-family: Arial;
+    padding-top: 6px;
+    padding-left: 10px;
+}
+.container_tmid_big div {
+    padding-top: 10px;
+}
+.container_tr {
+    width:0px;
+}
+.container_l {
+    width: 0px;
+}
+.container_content{
+   border-left: 1px solid #CCCCCC;
+   border-right: 1px solid #CCCCCC;
+}
+.container_r {
+    width: 0px;
+}
+
+.container_bmid {
+    border-top:    1px solid #CCCCCC !important;
+    height: 0px;
+}
+.container_bl {
+}
+.container_br {
+}
+
+.billing .container_content {
+    padding:  0px !important;
+}
+
+.inputbox {
+    width: 150px !important;
+}
+
+.dname {
+    font-family: Verdana;
+    font-weight: bolder;
+}
+
+.v11 {
+    font-family: Verdana !important;
+    font-size: 11px !important;
+}
+
+.sidebar {
+    padding-top: 11px;
+    background-color: #fff4d4;
+}
+
+.error {
+    color: #FF0000;
+    font-weight: bold;
+}
+

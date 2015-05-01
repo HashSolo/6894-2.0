@@ -1,0 +1,1172 @@
+body
+{
+	
+    FONT-FAMILY: arial,helvetica,sans;
+    COLOR: #000;
+    height: 100%;
+	
+	/* To Centre The Form */
+	margin: 0;
+	padding: 0;
+	text-align: center;
+} 
+
+h1
+{
+	font-size: 32px;
+	color: #363ABE;
+}
+
+h2
+{
+	padding-top: 0px;
+	COLOR: white;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 1.4em
+}
+
+h3
+{
+ 	font-size: 1.1em;
+ 	color: #373ABE;
+ 	font-weight: bold; 
+ 	COLOR: white;
+ 	line-height: 0px;
+}
+h4
+{
+ 	font-size: 1.1em;
+ 	color: #373ABE;
+ 	font-weight: bold; 
+ 	COLOR: white;
+}
+
+
+/* Classes */
+.signInProbsText h3
+{
+	color: #373ABE;
+}
+
+A.signInProbsText:Visited
+{
+	color: #373ABE;
+}
+
+.signInProbsTextRed h3
+{
+	color: White;
+	font-weight: bold;
+	background-color: #cc0000;
+}
+
+.bwFontRed
+{
+	color: White;
+	font-weight: bold;
+	background-color: #cc0000;
+}
+
+.PageButton
+{
+	background: url("/LookAndFeel/images/Halifax/buttonBck.jpg") repeat-x;
+	border: solid 1px #7d91d0;
+	CURSOR: hand;
+	COLOR: black;
+	width: 5.6em;
+	font-weight: bold;
+	padding-bottom:0.2em;
+	vertical-align:middle;
+}
+/*\*/
+html*.PageButton
+{
+	/*safari only value*/
+	width:6em;
+	
+	/*ie reset*/
+	_padding-top:0.1em;
+	padding-bottom:0;
+	_width:5.6em;
+}/**/
+
+
+.PageButtonWide
+{
+	background: url("/LookAndFeel/images/Halifax/buttonBck.jpg") repeat-x;
+	border: solid 1px #7d91d0;
+	CURSOR: hand;
+	COLOR: black;
+	width: 150px;
+	overflow: visible;
+	font-weight: bold;
+	padding: 0 8 0 8;
+	padding-top: 0.2em;
+	padding-bottom:0.2em;
+	vertical-align:middle;
+	text-align: center;
+}
+
+.ProcessStageLeft
+{
+	float: left;
+	font-weight: bold;
+}
+
+.ProcessStageMiddle
+{
+	float: left;
+	padding-left: 0.5em;
+	width: 150px;
+	_width: 150px;
+}
+
+.ProcessStageRight
+{
+	float: right;
+	width: 155px;
+	margin-right: 30px;
+	_margin-right: 10px;	/* IE 6 Fix */
+}
+
+.LoginPrompt
+{
+	FONT-WEIGHT: bold;	
+	color: white;	
+	font-size:0.75em;
+}
+
+.LoginAnswer
+{
+	font-weight: normal;
+	font-size:0.75em;
+	width: 150px;
+}
+
+.LoginText
+{
+	font-weight: normal;
+	font-size:0.75em;
+}
+
+.LoginRow
+{
+	float:none;
+	position: relative;
+	width: 100%;
+	height: 30px;
+	margin-top: -5px;	
+    _margin-top: -5px;	
+    margin-left: 2px;
+}
+
+.LoginRowSpacer
+{
+	float:none;
+	position: relative;
+	width: 100%;
+	height: 15px;
+	margin-top: -5px;	
+	_margin-top: -5px;	
+	margin-left: 2px;
+}
+
+.LoginColumn1
+{
+	float: left;
+	width: 170px;
+	height: 10px;
+	
+}
+
+.LoginColumn2
+{
+}
+
+A.UserNameCookieLink
+{
+	color: White;
+}
+
+/****************************************************************/
+/* CSSLogin.xslt 												*/
+/****************************************************************/
+#Header
+{
+	width: 100%;
+	height: 107px;
+
+	background-image: url("/LookAndFeel/images/Halifax/HxHeaderRight.gif");
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	border: none;
+	
+}
+
+
+ 
+
+/* Header Logo */
+#HeaderLogo
+{
+	float:left;
+	width: 100%;
+	left: 0px;
+	height: 105px;
+	background-image: url("/LookAndFeel/images/Halifax/HxLogoLogin.gif");
+	background-repeat: no-repeat;
+}
+
+#HeaderButtonBar
+{
+	/*float: right;*/
+	width: 200px;
+	position: absolute;
+	right: 0px;
+	text-align: right;
+	padding-top: 1px;
+}
+
+
+#HeaderTitle
+{
+	text-align: left;
+	
+	width: 700px;
+	padding-top: 20px;
+	_padding-top: 40px;
+	padding-left: 220px;
+	height: 20px;
+}
+
+
+/* Input Buttons */
+INPUT
+{
+	FONT-FAMILY: arial,helvetica,sans;
+	/*font-size:1em;*/
+	font-size:0.75em;
+}
+* html INPUT
+{
+	padding-top:0.1em;
+}
+
+INPUT.HeaderButton
+{    
+	float: right;
+	background: url("/LookAndFeel/images/Halifax/buttonBck.jpg") repeat-x;
+	border: solid 1px #7d91d0;
+	text-align:center;
+	cursor: hand;
+	width: 80px;
+	height: 27px;
+	_height: 28px;
+	color: black;
+	font-weight: bold;
+	font-size: 95%;
+	text-decoration: none;
+	font-family: Arial,helvetica,sans;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	margin-right: 3px;
+}
+
+
+
+/****************************************************************/
+/* FormsLogin.xsl												*/
+/****************************************************************/
+
+/* Fieldset & Legends			*/
+/* For Activate & FormsLogin	*/
+#NewToOnlineFieldSet 
+{
+	
+    border:none;
+    margin:0 0 0 0;
+    padding:0 0 0 0;		
+    float: left;
+}
+
+#NewToOnlineFieldSet legend
+{
+	margin-left:-1000px;
+	font-size:0;
+}
+
+#SignInFieldSet 
+{
+	
+    border:none;
+    margin:0 0 0 0;
+    padding:0 0 0 0;		
+    float:right;
+}
+
+#SignInFieldSet legend
+{
+	margin-left:-1000px;
+	font-size:0;
+}
+
+#ActivateFieldSet
+{
+    border:none;
+    margin:0 0 0 0;
+    padding:0 0 0 0;		
+}
+
+#ActivateFieldSet legend
+{
+	margin-left:-1000px;
+	font-size:0;
+}
+
+/* WorkArea */
+#WorkArea
+{
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 800px;
+    height: 500px;
+}
+
+#NoScriptDiv
+{
+	font-size:0.75em;
+	color: #cc0000;
+	font-weight:bold;
+	text-align: left;	 /* to realign your text */
+}
+
+#TestServer
+{
+	font-size:0.75em;
+	color: #cc0000;
+	font-weight:bold;
+	text-align: left;	 /* to realign your text */
+}
+
+#TestServer.Activate
+{
+	padding-left: 200px;
+}
+
+#AdditionalInfo
+{
+	color: #cc0000;
+	font-weight: bold;
+	font-size:0.75em;
+	_height: 10px;
+	text-align: left;	 /* to realign your text */
+}
+
+#AdditionalInfo.Activate
+{
+	padding-left: 200px;
+	padding-right: 200px;
+	/* IE Hack */
+	_height: 10px;
+}
+
+
+#Content
+{
+	background-color: #aac9ff;
+}
+
+/* For Activate Page Only */
+/* Centre sign in box */
+#Content.Activate
+{
+	margin:0px auto;
+	width: 400px;
+}
+
+#ContentHeader
+{
+	height: 10px;
+	width: 100%;
+	background-color: #aac9ff;
+}
+
+#ContentBody
+{
+	width: 100%;
+	height: 210px;
+	background-color: #aac9ff;
+}
+
+#ContentBody.Activate
+{
+	height: 120px;
+	/* IE Hack */
+	_height: 110px;
+}
+
+#ContentInformation
+{
+	width: 100%;
+	height: 100px;
+	margin-top: 0px;
+	
+	/* IE Hacks */
+	_height: 80px;
+	_margin-top: 10px;
+}
+
+
+#ContentFooter
+{
+	width: 100%;
+	height: 10px;
+	background-color: #aac9ff;
+}
+
+
+#ContentTopLeft
+{
+	background-image: url("/LookAndFeel/images/Halifax/CornerTopLeft.gif");
+	background-position:top;
+	background-repeat:no-repeat;
+	height: 10px;
+	width: 10px;
+	margin-left: -2px;
+	float:left;
+}
+
+#ContentTopRight
+{
+	background-image: url("/LookAndFeel/images/Halifax/CornerTopRight.gif");	
+	background-position:top;
+	background-repeat:no-repeat;
+	height: 10px;
+	width: 10px;
+	margin-right: -2px;
+	float: right;
+}
+
+#ContentBottomLeft
+{
+	background-image: url("/LookAndFeel/images/Halifax/CornerBottomLeft.gif");
+	background-position:bottom;
+	background-repeat:no-repeat;
+	width: 10px;
+	height: 10px;
+	margin-left: -2px;
+	float:left;
+}
+
+#ContentBottomRight
+{
+	background-image: url("/LookAndFeel/images/Halifax/CornerBottomRight.gif");	
+	background-position:bottom;
+	background-repeat:no-repeat;
+	width: 10px;
+	height: 10px;
+	margin-right: -2px;
+	float: right;
+	
+}
+
+
+/* ----------------------------------------- */
+/* New to online box						 */
+/* Start									 */
+/* ----------------------------------------- */
+#NewToOnline
+{
+	float: left;
+	width: 400px;
+	height: 203px;
+	margin-left: 10px;
+	background-color: #363ABE;
+	color: White;	
+	text-align: left;	 /* to realign your text */
+}
+
+
+
+
+
+#NewToOnlineHeader
+{
+	_float: none;
+	_position: absolute; 
+}
+
+#NewToOnlineBodyHeader
+{
+    
+	height: 50px;
+	width: 380px;
+	/* IE 7 Hacks */
+	_height: 30px;
+
+	
+}
+
+#SecurityMessage
+{
+	
+	float: right;
+	height: 10px;
+	
+	/* IE 7 Hacks */
+	margin-top: 5px;
+	
+	/*padding-top: 10px;*/
+	
+}
+
+
+#NewToOnlineBodyTitle
+{
+    
+	float: left;
+	height: 10px;
+	margin-top: -10px;
+	/* IE 7 Hacks */
+	_margin-top: 10px;
+}
+
+
+
+#NewToOnlineBody
+{
+ 
+	width: 100%;
+	height: 193px;
+
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: left;	 /* to realign your text */
+}
+
+#NewToOnlineFooter
+{
+	height: 10px;
+	width: 100%;
+}
+
+
+#NewToOnlineTopLeft
+{
+	background-image: url("/LookAndFeel/images/Halifax/dark-blue-box-top-left.gif");
+	background-position:top;
+	background-repeat:no-repeat;
+	height: 10px;
+	width: 10px;
+	float:left;
+}
+
+#NewToOnlineTopRight
+{
+	background-image: url("/LookAndFeel/images/Halifax/dark-blue-box-top-right.gif");	
+	background-position:top;
+	background-repeat:no-repeat;
+	height: 10px;
+	width: 10px;
+	float: right;
+}
+
+#NewToOnlineBottomLeft
+{
+	background-image: url("/LookAndFeel/images/Halifax/dark-blue-box-bottom-left.gif");
+	background-position:bottom;
+	background-repeat:no-repeat;
+	width: 10px;
+	height: 10px;
+	float:left;
+}
+
+#NewToOnlineBottomRight
+{
+	background-image: url("/LookAndFeel/images/Halifax/dark-blue-box-bottom-right.gif");	
+	background-position:bottom;
+	background-repeat:no-repeat;
+	width: 10px;
+	height: 10px;
+	float: right;
+}
+
+
+
+#ProcessInformation
+{
+	font-size:0.75em;
+	width: 100%;
+	margin-top: -10px;
+}
+
+
+#ProcessStage1
+{
+	margin-top: 10px;
+	font-size:0.75em;
+}
+
+#ProcessStage1 A 
+{
+	color: Black;
+	text-decoration: none;
+}
+
+
+#ProcessStage1 A:link
+{
+	color: Black;
+	text-decoration: none;
+}
+
+#ProcessStage1 A:hover
+{
+	color: Black;
+	text-decoration: none;
+}
+
+#ProcessStage1 A:visited
+{
+	color: Black;
+	text-decoration: none;
+}
+
+
+#ProcessStage2
+{
+	margin-top: 40px;
+	font-size:0.75em;
+}
+
+#ProcessStage2 A 
+{
+	color: Black;
+	text-decoration: none;
+}
+
+
+#ProcessStage2 A:link
+{
+	color: Black;
+	text-decoration: none;
+}
+
+#ProcessStage2 A:hover
+{
+	color: Black;
+	text-decoration: none;
+}
+
+#ProcessStage2 A:visited
+{
+	color: Black;
+	text-decoration: none;
+}
+
+
+#EmployeeShare
+{
+	margin-top: 90px;
+	font-size:0.75em;
+}
+
+#EmployeeShare h4
+{
+	margin-bottom: 0px;
+	/* IE Hack */
+	_margin-bottom: 20px;
+}
+
+#EmployeeShare A 
+{
+	color: White;
+	margin-top: -20px;
+	
+	/* IE Hack */
+	_position:absolute;
+	_margin-top: -20px;
+}
+
+
+#EmployeeShare A:link
+{
+	color: White;
+}
+
+#EmployeeShare A:hover
+{
+	color: White;
+}
+
+#EmployeeShare A:visited
+{
+	color: White;
+}
+
+/* ----------------------------------------- */
+/* New to online box						 */
+/* End										 */
+/* ----------------------------------------- */
+
+
+
+
+/* ----------------------------------------- */
+/* Sign In box								 */
+/* Start									 */
+/* ----------------------------------------- */
+#SignIn
+{
+	float: right;
+	width: 350px; 
+	margin-right: 10px;
+	background-color: #668dff;
+	color: White;
+	/* IE Hack */
+	_height: 202px;
+}
+
+#SignIn.Activate
+{
+	float: none;
+	margin:0px auto;
+	/* IE Hack */
+	_height: 120px;
+}
+
+#SignInHeader
+{
+	/* IE Hacks */
+    _float: none;
+	_position: absolute; 
+	_margin-left: -175px;
+}
+
+#SignInBody > .LoginRow:first-child
+{
+	margin-bottom: 5px;
+}
+	
+
+#SignInBody .LoginRow h2
+{
+	margin-left: -2px;
+    
+    /* IE Hacks */
+    _float: inherit;
+    _position: inherit;
+    _margin-bottom: 15px;
+} 
+
+/* Activate Page Only */
+#SignInBody.Activate > .LoginRow:first-child
+{
+	margin-bottom: 5px;
+	height: 35px;
+}
+
+/* Activate Page Only */
+#SignInBody.Activate .LoginRow h2
+{
+	_margin-left: 0px;
+}
+
+#SignInBody
+{
+
+	padding-left: 10px;
+	padding-right: 10px;	
+	text-align: left;	 /* to realign your text */
+    margin-top: -10px;
+    height: 184px;
+    
+    /* IE Hacks */	
+    _float: none;
+	_position: absolute; 
+	_margin-top: 15px;
+	_margin-left: -175px;
+	_background-color: inherit;
+	_height: 200px;
+
+}
+
+
+
+/*\*/
+html*#SignInBody
+{
+	/*safari only value*/
+	/*height: 201px;*/
+	_height: 203px;	
+	_background-color: #668dff;
+}/**/
+
+
+#SignInBody.Activate
+{
+	height:120px;
+	_height:120px;
+}
+
+/*\*/
+html*#SignInBody.Activate
+{
+	/*safari only value*/
+	height: 100px;
+	_height: 120px;	
+	
+}/**/
+
+#SignInFooter
+{
+	
+/*	margin-top: -16px;*/
+	float: none;
+	height: 10px;
+	width: 100%;
+	
+	_float: none;
+	_position: absolute;
+	_margin-left: -175px;
+	_margin-top: 200px;
+	_height: 100px;
+}
+
+/* Activate Page Only */
+#SignIn.Activate #SignInFooter
+{
+	_margin-top: 117px;
+}
+
+#SignInTopLeft
+{
+	background-image: url("/LookAndFeel/images/Halifax/mid-blue-box-top-left.gif");
+	background-position:top;
+	background-repeat:no-repeat;
+	height: 10px;
+	width: 10px;
+	/*margin-left: -2px;*/
+	float:left;
+}
+
+#SignInTopRight
+{
+	background-image: url("/LookAndFeel/images/Halifax/mid-blue-box-top-right.gif");	
+	background-position:top;
+	background-repeat:no-repeat;
+	height: 10px;
+	width: 10px;
+	/*margin-right: -2px;*/
+	float: right;
+}
+
+#SignInBottomLeft
+{
+	background-image: url("/LookAndFeel/images/Halifax/mid-blue-box-bottom-left.gif");
+	background-position:bottom;
+	background-repeat:no-repeat;
+	width: 10px;
+	height: 10px;
+	float:left;
+}
+
+#SignInBottomRight
+{
+	background-image: url("/LookAndFeel/images/Halifax/mid-blue-box-bottom-right.gif");	
+	background-position:bottom;
+	background-repeat:no-repeat;
+	width: 10px;
+	height: 10px;
+	/*margin-right: -2px;*/
+	float: right;
+	
+}
+
+/* ----------------------------------------- */
+/* Sign In box								 */
+/* End										 */
+/* ----------------------------------------- */
+
+
+
+/* ----------------------------------------- */
+/* Useful Information box					 */
+/* Start									 */
+/* ----------------------------------------- */
+#UsefulInformation
+{
+	float: left;
+	width: 400px;
+	height: 70px;
+	margin-left: 10px;
+	text-align: left;	 /* to realign your text */
+}
+
+
+#UsefulInformation h3
+{
+ 	font-size: 1.1em;
+ 	color: #373ABE;
+ 	font-weight: bold; 
+ 	margin-top: 10px;
+}
+
+#UsefulInformation a
+{
+	font-size:0.75em;	
+	color:#373ABE;
+}
+
+#UsefulInformation a:Visited
+{
+	color:#373ABE;	
+}
+
+#InfoContentHeader
+{
+	width: 100%;
+}	
+
+#InfoContentBody
+{
+	padding-left: 10px;
+	padding-right: 10px;	
+}
+
+#InfoContentFooter
+{
+	width: 100%;
+}	
+
+#InfoContentHeaderTopLeft
+{
+	height: 10px;
+	width: 10px;
+	float:left;
+}
+
+#InfoContentHeaderTopRight
+{
+	height: 10px;
+	width: 10px;
+	float: right;
+}
+
+#InfoContentFooterBottomLeft
+{
+	width: 10px;
+	height: 10px;
+	float:left;
+}
+
+#InfoContentFooterBottomRight
+{
+	width: 10px;
+	height: 10px;
+	float: right;
+	
+}
+
+
+/* ----------------------------------------- */
+/* Useful Information box					 */
+/* End										 */
+/* ----------------------------------------- */
+
+
+/* ----------------------------------------- */
+/* Problem Signing In box					 */
+/* Start									 */
+/* ----------------------------------------- */
+#ProblemSigningIn
+{
+	float: right;
+	width: 350px; 
+	height: 70px;
+	margin-right: 10px;
+	text-align: left;	 /* to realign your text */
+}
+
+#ProblemSigningIn.Activate
+{
+	width: 350px;
+	float: none;
+	height:100px;
+	text-align: center;
+	margin:0px auto;
+	margin-top: 30px;
+	/* IE Hack */
+	_margin-top: 30px;
+}
+
+
+#ProblemSigningIn h3
+{
+ 	font-size: 1.1em;
+ 	font-weight: bold; 
+ 	margin-top: 10px;
+}
+
+#ProblemSigningIn a
+{
+	font-size:0.75em;	
+}
+
+#ProblemContentErrorHeader
+{
+	width: 100%;
+	background-color: #cc0000;
+	height: 10px;
+}	
+
+#ProblemContentErrorBody
+{
+	padding-left: 10px;
+	padding-right: 10px;	
+	background-color: #cc0000;
+	text-align: left;
+}
+
+#ProblemContentErrorFooter
+{
+	width: 100%;
+	background-color: #cc0000;
+	height: 10px;
+}	
+
+#ProblemContentErrorHeaderTopLeft
+{
+	background-image: url("/LookAndFeel/images/Halifax/Sign_in_error_top_left.gif");
+	background-position:top;
+	background-repeat:no-repeat;
+	height: 10px;
+	width: 10px;
+	float:left;
+}
+
+#ProblemContentErrorHeaderTopRight
+{
+	background-image: url("/LookAndFeel/images/Halifax/Sign_in_error_top_right.gif");	
+	background-position:top;
+	background-repeat:no-repeat;
+	height: 10px;
+	width: 10px;
+	float: right;
+}
+
+#ProblemContentErrorFooterBottomLeft
+{
+	background-image: url("/LookAndFeel/images/Halifax/Sign_in_error_bottom_left.gif");
+	background-position:bottom;
+	background-repeat:no-repeat;
+	width: 10px;
+	height: 10px;
+	float:left;
+}
+
+#ProblemContentErrorFooterBottomRight
+{
+	background-image: url("/LookAndFeel/images/Halifax/Sign_in_error_bottom_right.gif");	
+	background-position:bottom;
+	background-repeat:no-repeat;
+	width: 10px;
+	height: 10px;
+	float: right;
+	
+}
+
+
+#ProblemContentHeader
+{
+	width: 100%;
+}	
+
+#ProblemContentBody
+{
+	padding-left: 10px;
+	padding-right: 10px;	
+	text-align: left;
+}
+
+#ProblemContentFooter
+{
+	width: 100%;
+}	
+
+#ProblemContentHeaderTopLeft
+{
+	height: 10px;
+	width: 10px;
+	float:left;
+}
+
+#ProblemContentHeaderTopRight
+{
+	height: 10px;
+	width: 10px;
+	float: right;
+}
+
+#ProblemContentFooterBottomLeft
+{
+	width: 10px;
+	height: 10px;
+	float:left;
+}
+
+#ProblemContentFooterBottomRight
+{
+	width: 10px;
+	height: 10px;
+	float: right;
+	
+}
+
+
+/* ----------------------------------------- */
+/* Problem Signing In box					 */
+/* End										 */
+/* ----------------------------------------- */
+
+
+
+/* ----------------------------------------- */
+/* Product Banner box					     */
+/* Start									 */
+/* ----------------------------------------- */
+#ProductBanner
+{
+	margin-top: 0px;
+	height: auto;
+	text-align: center;
+	border: 0px none;
+}
+
+#ProductBanner img 
+{
+	border: 0px none;
+}
+/* ----------------------------------------- */
+/* Product Banner box					     */
+/* End										 */
+/* ----------------------------------------- */
+
+
+/* ----------------------------------------- */
+/* Legal Banner box							 */
+/* Start									 */
+/* ----------------------------------------- */
+#LegalBanner
+{
+	margin-top: 10px;
+	text-align: center;
+	font-size:0.75em;
+	/*font-size: 7pt;*/
+}
+/* ----------------------------------------- */
+/* Legal Banner box							 */
+/* End										 */
+/* ----------------------------------------- */

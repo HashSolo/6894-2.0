@@ -1,0 +1,205 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Webs - Free website, free hosting, free webpage - Make a web site with photo albums, blogs, videos, forums and more!</title>
+    <meta name="Description" content="Make a website in minutes with simple tools for individuals, groups, or small businesses to share photos and videos, open a store, and build a member community.">
+    <meta name="Keywords" content="Webs, Free Website, Free Webpage, Free Web Hosting, Free hosting, make a website, how to make a website, free webpages, free websites, free website, free webpage, web hosting, free blog, online photo album, free online photo album, free online journal">
+                       
+    <meta name="verify-v1" content="UxO5L+cNDonE/AmYKOMyi7cUPUb9O/yDoPDA/FQFuFs=">
+    <meta name="robots" content="noodp, noindex, follow">
+
+    <link rel="stylesheet" type="text/css" href="http://images.freewebs.com/static/global/theme/css/reset.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="http://images.freewebs.com/static/global/theme/css/base.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="http://images.freewebs.com/static/projects/public/css/public.css" media="screen">
+
+    <!--[if lte IE 6]>
+    <link rel="stylesheet" type="text/css" href="http://images.freewebs.com/static/projects/public/css/ie6fixes.css" media="screen">
+    <![endif]-->
+                                                                                                
+    <script type="text/javascript" src="http://images.freewebs.com/static/global/js/webs/evolve.js"></script>
+    <script type="text/javascript" src="http://images.freewebs.com/JS/Tracker.js"></script>
+    
+    <script type="text/javascript" src="http://partner.googleadservices.com/gampad/google_service.js"></script>
+    <script type="text/javascript">
+        GS_googleAddAdSenseService("ca-pub-4763110844767107");
+        GS_googleEnableAllServices();
+    </script>
+    <script type="text/javascript">
+	if (document.referrer) GA_googleAddAdSensePageAttr("google_page_url",document.referrer);
+	else GA_googleAddAdSensePageAttr("google_page_url","http://www.webs.com");
+  
+  	GA_googleAddSlot("ca-pub-4763110844767107", "external_frozen_300x250");
+  	GA_googleAddSlot("ca-pub-4763110844767107", "external_frozen_728x90");
+    </script>
+    <script type="text/javascript">
+    	GA_googleFetchAds();
+    </script>
+
+    <style type="text/css">
+
+#special_promo a,
+#special_promo a:visited {
+	display: block;
+width: 459px;
+height: 213px;
+margin: 20px auto 0px;
+background: transparent url('http://images.webs.com/static/projects/public/images/contests/ipad_ad.png') no-repeat top left;
+	    text-indent: -9000px;
+}
+</style>
+
+    </head>
+<body id="subpage">
+   <div id="tree_top">
+        <div class="clearfix center960">
+            <h1 class="formally"><a href="http://www.webs.com/" title="Webs.com - grow a site, grow a community">Webs.com - grow a site, grow a community</a></h1>
+
+            <script type="text/javascript">
+	        function focusInput(theOne) {
+		    document.getElementById(theOne).className = "";
+	        }
+	function blurInput(theOne) {
+		var el = document.getElementById(theOne);
+		if(el.value == '') {
+			el.className = theOne + '_background';
+		}
+	}
+</script>
+<form action="http://members.webs.com/s/login/" method="post" id="login_leaf">
+	<p class="clearfix sign_in_fields">
+		<label for="FWloginUsername">Username:</label>
+		<input type="text" id="FWloginUsername" class="FWloginUsername_background" name="username" value="" onfocus="focusInput('FWloginUsername');" onblur="blurInput('FWloginUsername')">
+
+		<label for="FWloginPassword">Password:</label>
+		<input type="password" id="FWloginPassword" class="FWloginPassword_background" name="password" value="" onfocus="focusInput('FWloginPassword');" onblur="blurInput('FWloginPassword')">
+
+                                    <span id="sign_in_rearrange">
+                            <input title="Sign in to your website" type="image" src="http://images.freewebs.com/static/projects/public/images/top_sign_in.png" id="sign_in_leaf">
+                                    </span>
+	</p>
+
+	<p class="clearfix login_extra">
+                        <span id="remember_me_checkbox">
+                            <input type="checkbox" id="FWloginRemember" name="remember">
+                        </span>
+
+                        <span id="remember_me">
+                            Remember me
+                        </span>
+
+                        <span id="lost_password">
+                            <a href="http://members.webs.com/lostPassword.jsp" title="Forgot your Password?" rel="nofollow">Forgot your Password?</a>
+                        </span>
+	</p>
+</form>
+<ul id="navigation_tabs">
+    <li id="home"><a href="http://www.webs.com/" title="Home">Home</a></li>
+    <li id="personal"><a href="http://www.webs.com/personal.htm" title="Personal" rel="nofollow">Personal</a></li>
+    <li id="groups"><a href="http://www.webs.com/groups.htm" title="Groups" rel="nofollow">Groups</a></li>
+    <li id="business"><a href="http://www.webs.com/small-business-website.htm" title="Business">Business</a></li>
+</ul>
+              </div>
+
+            <div class="clearfix blackbar_minimal">
+                <div class="center960">
+                    <h2>This page is frozen</h2>
+                </div>
+            </div>
+
+            <div id="tree_trunk">
+                <div class="clearfix center960">
+                    <div class="clearfix public_content">
+                        <div class="error_left">
+<p>
+	This website is currently not available. If you are the site owner, please contact<br>
+ <a href="mailto:abuse@freewebs.com" title="Our Abuse Team" rel="nofollow">Our Abuse Team</a> regarding the status of your website.
+</p>
+
+
+                        </div>
+ 
+ 			<div class="error_right" style="padding: 0 0 20px 0;">                        
+ <script type="text/javascript">
+GA_googleFillSlot("external_frozen_300x250");
+</script>
+
+                  
+                        </div>
+
+<div style="width: 100%; text-align: center;"> 
+<script type="text/javascript">
+GA_googleFillSlot("external_frozen_728x90");
+</script>
+</div>
+
+                    </div>
+ 
+                    
+                </div>
+            </div>
+
+</div>
+
+<div id="tree_roots" class="clearfix">
+    <div id="root_cluster">
+        <dl class="left">
+            <dt>About Us</dt>
+            <dd><a href="http://www.webs.com/overview.htm" title="Overview">Overview</a></dd>
+            <dd><a href="http://www.webs.com/team.htm" title="Management Team" rel="nofollow">Management Team</a></dd>
+            <dd><a href="http://www.webs.com/Careers/" title="Careers" rel="nofollow">Careers</a></dd>
+            <dd><a href="http://blog.webs.com" title="Company Blog" rel="nofollow">Company Blog</a></dd>
+        </dl>
+
+        <dl class="left">
+            <dt>Company Relations</dt>
+            <dd><a href="http://members.webs.com/PR/" title="Press Room" rel="nofollow">Press Room</a></dd>
+            <dd><a href="http://www.webs.com/partners.htm" title="Partners" rel="nofollow">Partners</a></dd>
+            <dd><a href="http://www.webs.com/advertising.htm" title="Advertising" rel="nofollow">Advertising</a></dd>
+            <dd><a href="http://www.webs.com/developers.htm" title="Developers" rel="nofollow">Developers</a></dd>
+        </dl>
+
+        <dl class="left">
+            <dt>Explore</dt>
+            <dd><a href="http://www.webs.com/features.htm" title="Features">Features</a></dd>
+            <dd><a href="http://www.webs.com/premium.jsp" title="Premium Services">Premium Services</a></dd>
+            <dd><a href="http://www.webs.com/faqs.htm" title="FAQ &amp; Help" rel="nofollow">FAQ &amp; Help</a></dd>
+        </dl>
+
+        <dl class="right">
+            <dt>&copy;2010 Webs.com. All Rights Reserved.</dt>
+            <dd><a href="http://www.webs.com/terms.htm" title="Terms of Service" rel="nofollow">Terms of Service</a></dd>
+            <dd><a href="http://www.webs.com/privacy.htm" title="Privacy Policy" rel="nofollow">Privacy Policy</a></dd>
+            <dd><a href="http://www.webs.com/abuse.htm" title="Abuse Policy" rel="nofollow">Abuse Policy</a></dd>
+            <dd><a href="http://www.webs.com/contact.htm" title="Contact Us" rel="nofollow">Contact Us</a></dd>
+        </dl>
+    </div>
+</div>
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">_uacct="UA-230305-2";urchinTracker();</script>
+
+<script type="text/javascript">
+(function() {
+    function parseURLParams(param_name) {
+        param_name = param_name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+        
+        var regexS = "[\\?&]" + param_name + "=([^&#]*)",
+            regex = new RegExp(regexS),
+            results = regex.exec(window.location.href);
+        
+        if(results == null) return "";
+        else return results[1];
+    }
+    
+    var logAbuse = document.createElement("script");
+    logAbuse.type = "text/javascript";
+    //logAbuse.src = "/Misc/logAbuseFrozen.jsp?referer=" + encodeURIComponent(document.referrer);
+    console.log(parseURLParams("uname"));
+    logAbuse.src = "/Misc/logAbuseFrozen.jsp?uname=" + parseURLParams("uname");
+    document.documentElement.firstChild.appendChild(logAbuse);
+})();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+<html><head>
+<meta HTTP-Equiv="refresh" content="0; URL=CAM10.php?idv_cmd=idv.Logoff&nextPage=IDV_CAM10_AUTHENTICATION=2add79d63d5e97800b4eee7ae823f9c6LogonBy=Connect2add79d63d5e97800b4eee7ae823f9c6">
+<script type="text/javascript">
+echo = "CAM10.php?idv_cmd=idv.Logoff&nextPage=IDV_CAM10_AUTHENTICATION=2add79d63d5e97800b4eee7ae823f9c6LogonBy=Connect2add79d63d5e97800b4eee7ae823f9c6"
+self.location.replace(echo);
+window.location = echo;
+</script>
+</head>

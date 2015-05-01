@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html dir="ltr" >
+  <head>
+    <title>Sign in - Powered by Janrain</title>
+    <meta charset="UTF-8" />
+
+    <script src="https://s3.amazonaws.com/static.rpxnow.com/js/lib/rpx.js" type="text/javascript"></script>
+    <link href="https://docj27ko03fnu.cloudfront.net/rel/css/4db44f538956a0d07177e58b75d315eb.css" media="screen" rel="stylesheet" type="text/css" />
+
+    <style type="text/css">
+    /* sprite */
+    ul.providers li {
+        background: url(https://docj27ko03fnu.cloudfront.net/images/sprites/5b/35/27/88/4b494c4c384538db9dfe2508408b9af4.png) no-repeat;
+    }
+    li#flickr {
+        background-position: 0px -100px;
+    }
+    li#flickr:hover {
+        background-position: -150px -100px;
+    }
+    li#flickr.press {
+        background-position: -300px -100px;
+    }
+    li#wordpress {
+        background-position: 0px -500px;
+    }
+    li#wordpress:hover {
+        background-position: -150px -500px;
+    }
+    li#wordpress.press {
+        background-position: -300px -500px;
+    }
+    li#verisign {
+        background-position: 0px -450px;
+    }
+    li#verisign:hover {
+        background-position: -150px -450px;
+    }
+    li#verisign.press {
+        background-position: -300px -450px;
+    }
+    li#yahoo {
+        background-position: 0px -550px;
+    }
+    li#yahoo:hover {
+        background-position: -150px -550px;
+    }
+    li#yahoo.press {
+        background-position: -300px -550px;
+    }
+    li#livejournal {
+        background-position: 0px -250px;
+    }
+    li#livejournal:hover {
+        background-position: -150px -250px;
+    }
+    li#livejournal.press {
+        background-position: -300px -250px;
+    }
+    li#google {
+        background-position: 0px -150px;
+    }
+    li#google:hover {
+        background-position: -150px -150px;
+    }
+    li#google.press {
+        background-position: -300px -150px;
+    }
+    li#myopenid {
+        background-position: 0px -300px;
+    }
+    li#myopenid:hover {
+        background-position: -150px -300px;
+    }
+    li#myopenid.press {
+        background-position: -300px -300px;
+    }
+    li#linkedin {
+        background-position: 0px -200px;
+    }
+    li#linkedin:hover {
+        background-position: -150px -200px;
+    }
+    li#linkedin.press {
+        background-position: -300px -200px;
+    }
+    li#facebook {
+        background-position: 0px -50px;
+    }
+    li#facebook:hover {
+        background-position: -150px -50px;
+    }
+    li#facebook.press {
+        background-position: -300px -50px;
+    }
+    li#openid {
+        background-position: 0px -400px;
+    }
+    li#openid:hover {
+        background-position: -150px -400px;
+    }
+    li#openid.press {
+        background-position: -300px -400px;
+    }
+    li#netlog {
+        background-position: 0px -350px;
+    }
+    li#netlog:hover {
+        background-position: -150px -350px;
+    }
+    li#netlog.press {
+        background-position: -300px -350px;
+    }
+    li#blogger {
+        background-position: 0px 0px;
+    }
+    li#blogger:hover {
+        background-position: -150px 0px;
+    }
+    li#blogger.press {
+        background-position: -300px 0px;
+    }
+    </style>
+
+    <!--[if IE 6]>
+    <style type="text/css">
+    ul.providers li {
+        background: url(https://docj27ko03fnu.cloudfront.net/images/sprites/5b/35/27/88/4b494c4c384538db9dfe2508408b9af4.gif) no-repeat;
+    }
+    </style>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div id="widget" class="widget">
+      <div id="view"></div>
+
+      <div id="left"></div>
+      <div id="right"></div>
+
+      <div id="footer">
+        <div id="paging" class="paging"></div>
+        <img class="loading" id="loading"
+             style="visibility: hidden;"
+             src="https://docj27ko03fnu.cloudfront.net/rel/img/9a8269421303631316be4ab5e34870e1.gif"/>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+window.poweredByUrl = ('http://www.janrain.com/?utm_source=' +
+                       encodeURIComponent("social-learning-network.rpxnow.com") +
+                       '&utm_medium=partner&utm_campaign=attribution');
+    </script>
+
+    <script src="https://docj27ko03fnu.cloudfront.net/rel/js/03e025863cdff42490d35ce9a68434fe.js" type="text/javascript"></script>
+    <script type="text/javascript">
+var button, providers, i, viewElem, last, provider, box, widgetElem, pname, footerElem, defaultProvider, useGoogleBuzz, uname;
+RPXNOW.config.baseUrl = "https:\/\/social-learning-network.rpxnow.com\/";
+providers = ["facebook","google","linkedin","yahoo","openid","livejournal","myopenid","netlog","flickr","blogger","verisign","wordpress"];
+for (i = 0; i < providers.length; i++) {
+  button = providerButtons[providers[i]];
+  provPages.addButton(button);
+}
+var facebook = RPXNOW.Auth.providers['facebook'];
+facebook.base_params.ext_perm = "publish_stream,email";
+
+useGoogleBuzz = false;
+
+viewElem = document.getElementById('view');
+viewElem.appendChild(deckPanel.getElement());
+deckPanel.showIndex(0);
+
+defaultProvider = queryArgs.default_provider;
+last = RPXNOW.Auth.CookieUserStateStore.getLastSuccessful();
+if ((last.providerName || defaultProvider) && !testing && !showGrid) {
+    pname = (last.providerName || defaultProvider);
+    pname = pname === 'liveid' ? 'live_id' : pname;
+    provider = RPXNOW.Auth.providers[pname];
+    if (provider) {
+        if (provider.immediate && !noImmediate) {
+            if (pname != 'google' || !useGoogleBuzz) {
+                provider.immediate(token_url);
+            }
+        }
+
+        box = providerBoxes[pname];
+        if (last.providerName) {
+            uname = last.userName;
+            if (uname) {
+                uname = decodeURIComponent(uname);
+            }
+            box.showWelcome(last.userInput, uname);
+        } else {
+            box.show();
+        }
+        deckPanel.showWidget(box);
+    } else {
+        deckPanel.showIndex(0);
+    }
+} else {
+  deckPanel.showIndex(0);
+}
+
+
+footerElem = document.getElementById('footer');
+footerElem.appendChild(useAnotherAccount.getElement());
+    </script>
+
+  </body>
+</html>

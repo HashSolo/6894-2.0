@@ -1,0 +1,114 @@
+A.button {
+	PADDING-RIGHT: 0.6em; PADDING-LEFT: 0.6em; PADDING-BOTTOM: 3px; PADDING-TOP: 3px
+}
+LEGEND {
+	LEFT: -0.6em; POSITION: relative
+}
+BUTTON {
+	BORDER-TOP-WIDTH: 1px! important; PADDING-RIGHT: 0.16em; PADDING-LEFT: 0.16em; BORDER-LEFT-WIDTH: 1px! important; BORDER-BOTTOM-WIDTH: 1px! important; PADDING-BOTTOM: 1px; PADDING-TOP: 1px; BORDER-RIGHT-WIDTH: 1px! important
+}
+INPUT.button {
+	BORDER-TOP-WIDTH: 1px! important; PADDING-RIGHT: 0.16em; PADDING-LEFT: 0.16em; BORDER-LEFT-WIDTH: 1px! important; BORDER-BOTTOM-WIDTH: 1px! important; PADDING-BOTTOM: 1px; PADDING-TOP: 1px; BORDER-RIGHT-WIDTH: 1px! important
+}
+BUTTON  {
+	PADDING-RIGHT: 0px! important; PADDING-LEFT: 0px! important; PADDING-BOTTOM: 0px! important; MARGIN: 0px; PADDING-TOP: 0px! important
+}
+#header {
+	POSITION: static
+}
+#searchForm {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 20px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px; POSITION: static
+}
+#searchForm INPUT#searchBox {
+	WIDTH: 90px
+}
+#searchForm INPUT.button {
+	MARGIN-LEFT: 0px
+}
+#navGlobal LI {
+	PADDING-LEFT: 1em
+}
+#navGlobal LI A {
+	MARGIN-RIGHT: 0.8em
+}
+#navPrimary {
+	WIDTH: 100%
+}
+#navPrimary UL {
+	HEIGHT: 1%
+}
+#navPrimary UL LI.active UL {
+	WIDTH: 760px
+}
+#footer UL LI {
+	PADDING-LEFT: 0.7em
+}
+#footer UL LI A {
+	MARGIN-RIGHT: 0.3em
+}
+A.button:hover {
+	CURSOR: hand
+}
+abbr {
+	CURSOR: hand
+}
+ACRONYM {
+	CURSOR: hand
+}
+BUTTON:hover {
+	CURSOR: hand
+}
+INPUT.button:hover {
+	CURSOR: hand
+}
+.lightbox .panel .close {
+	CURSOR: hand
+}
+.autoTooltip {
+	CURSOR: hand
+}
+.outside #content .main .subhead {
+	MARGIN-BOTTOM: 3.4em; HEIGHT: 1%
+}
+.outside #content .main .zone .box {
+	MARGIN: 0px 10px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.home #content .main .zone .box {
+	MARGIN: 0.5em 5px; WIDTH: 95%
+}
+.home #content .main .splitList .box UL LI {
+	MARGIN: 0px 20px 0px 0px; HEIGHT: 6em
+}
+.outside #content .main .simpleList .box {
+	MARGIN: 10px; WIDTH: 245px! important
+}
+.outside #content .main .imageList .box {
+	WIDTH: 245px! important
+}
+.outside #content .main .imageList {
+	PADDING-RIGHT: 0px! important; PADDING-LEFT: 0px! important; PADDING-BOTTOM: 0.5em! important; PADDING-TOP: 0.5em! important
+}
+.nologin #content .main .subhead {
+	MARGIN-BOTTOM: 1em
+}
+.nologin #content .main .simpleList .box {
+	WIDTH: 45%! important
+}
+.nologin #content .main .imageList .box {
+	WIDTH: 45%! important
+}
+.simple #content .main .zone .box {
+	MARGIN: 0.1em 3%
+}
+.products #content .main .box H4 {
+	WIDTH: 100%
+}
+.products #content .main .box UL {
+	PADDING-BOTTOM: 2em
+}
+.products #content .main .zone .box {
+	MARGIN: 0px
+}
+DIV.paymentSignupBox {
+	MARGIN-LEFT: 0px
+}

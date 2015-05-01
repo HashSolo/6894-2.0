@@ -1,0 +1,227 @@
+body {	background-color: #F9F9F9; }
+
+.main {
+	background: #F9F9F9 url('/images/nov_09_theme/background-1.png') repeat-x;
+}
+.subpage {
+	background: #F9F9F9 url('/images/nov_09_theme/sub-pages-background.png') repeat-x;
+}
+
+#header-main {
+	height:128px;
+	position: relative; float: left;
+	background: url('/images/nov_09_theme/header-main.gif') no-repeat;
+}
+
+#header-logo { position: relative; float: left; width: 380px; }
+#header-login { position: relative; float: left; width: 420px; margin-left: 135px; height: 60px;}
+	#header-login form { padding: 0px; margin: 0px; }
+	.header-login-fields { vertical-align: center; float: left; width: 153px; height: 30px; border: none; font-family: Arial, Helvetica, sans-serif; font-size:18px; font-weight: bold; letter-spacing: -1px; color:#999999; background:url('/images/nov_09_theme/login-pass-field.gif') no-repeat; padding-left:3px; padding-top:3px; margin-top: 8px; }
+	.header-login-button { margin-right:20px; margin-left: 10px;  }
+
+
+#header-links { position: relative; float: right; width: 480px; height: 40px;}
+
+	#header-links ul { float: right; position: relative; float: left; display: block; }
+	#header-links li { display: block; float: left; padding: 0px; margin: 0px;}
+
+
+/* MIDDLE CONTENTS START #mid { height: 88px; } */
+#submid { height: 88px; }
+
+/* MIDDLE CONTENTS START */
+#mid {
+	height: 402px;
+	background-image:url(/images/nov_09_theme/mid-section-low-res2.jpg);
+	background-repeat: no-repeat;
+
+}
+
+#mid2 {
+	height: 80px;
+}
+#midtable {
+	text-align: left;
+	padding: 10px;
+	width: 90%;
+	background-color: #EFEFEF;
+	vertical-align: middle;
+}
+
+.headline-mid {
+	font-family: calibri, arial, helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	color:#E7FCFE;
+}
+
+.subhead-mid {
+	font-family: calibri, arial, helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	color:#FFC448;
+	text-indent: 100px;
+
+}
+
+.headline-main {
+	font-family: calibri, arial, helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	color:#E7FCFE;
+}
+
+.subhead-main {
+	font-family: calibri, arial, helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	color:#FFC448;
+}
+
+.register-fields
+{
+	border: none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	background-color:transparent;
+	color:#999999;
+}
+
+.site-address-password-text {
+	font-family: calibri, arial, helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	color:#E7FCFE;
+}
+/* MIDDLE CONTENTS END */
+
+#content {
+	margin:0 auto;
+	padding-top: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:13px;
+
+}
+.tagline { text-align: center; line-height: 1.2em; padding-top: 10px; }
+.tagline2 { text-align: center; line-height: 0.2em; padding: 0px; margin: 0px;}
+#content a {
+
+	text-decoration:none;
+	color:#3681CF;
+
+}
+
+#content a:hover {
+
+	text-decoration:underline;
+	color:#3681CF;
+
+}
+
+#content .left {
+
+	width:600px;
+	float:left;
+	padding:10px;
+
+}
+
+#content .right {
+
+	width:180px;
+	float:right;
+	padding:10px;
+
+}
+
+#content .testimonial-box {
+
+	width:260px;
+	float:right;
+	padding:10px;
+	margin-top:0px;
+	margin-right: 10px;
+	height:200px;
+	background-color:#F2F2F2;
+	border: 1px solid #c3c3c3;
+
+}
+
+#content .seperator {
+
+	width:5px;
+	float:right;
+	border-left:1px solid #E6E6E6;
+	margin-right:8px;
+	margin-top:10px
+
+}
+
+.highlight { color: #22577F; font-size:18px; }
+
+.content-subheads {
+
+	font-family: calibri,arial,helvetica,sans-serif;
+	font-size:20px;
+	letter-spacing:-1px;
+	font-weight:bold;
+
+}
+
+.benefit-headline {
+	font-size:14px;
+	letter-spacing:-1px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#666666;
+}
+/* MAIN CONTENT END */
+#testimonial h1 { font-size:16px; letter-spacing:-1px; color:#666666; font-weight:bold; border-bottom:3px solid #E9E9E9; margin-bottom:10px; }
+/* TESTIMONIALS CONTENT START */
+.testimonial-text {
+
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 23px;
+	font-weight: normal;
+	letter-spacing: -1px;
+	color:#FF9900;
+}
+
+.testimonial-client {
+
+	font-family: calibri,arial,helvetica,sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	color:#999999;
+}
+/* TESTIMONIALS CONTENT START */
+
+
+/* RIGHT CONTENT BAR START */
+#recommended-sites {
+	font-size:15px;
+	font-family: calibri,arial,helvetica,sans-serif;
+	letter-spacing:-1px;
+	font-weight:bold;
+	margin-left:5px;
+}
+/* RIGHT CONTENT BAR END */
+
+.vertaligntop {
+vertical-align: top;
+padding-left: 10px;
+padding-bottom: 20px;
+}
+
+
+#footer { margin:0 auto; margin-bottom: 10px; float:left; font-family:Arial, Helvetica, sans-serif; font-size: 11px; color: #999999; padding-top:10px; }
+	#footer a { text-decoration:none; color:#3681CF; }
+	#footer a:hover { text-decoration:underline; color:#3681CF; }

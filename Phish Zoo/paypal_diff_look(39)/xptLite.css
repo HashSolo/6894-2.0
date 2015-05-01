@@ -1,0 +1,111 @@
+BODY {
+	FONT-WEIGHT: 400; FONT-SIZE: 13px; COLOR: #000; FONT-FAMILY: verdana,arial,helvetica,sans-serif
+}
+TD {
+	FONT-WEIGHT: 400; FONT-SIZE: 13px; COLOR: #000; FONT-FAMILY: verdana,arial,helvetica,sans-serif
+}
+DIV {
+	FONT-WEIGHT: 400; FONT-SIZE: 13px; COLOR: #000; FONT-FAMILY: verdana,arial,helvetica,sans-serif
+}
+BODY {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BACKGROUND-COLOR: #fff
+}
+#xptHeader {
+	MARGIN: 0px; WIDTH: 100%
+}
+#xptHeader TABLE {
+	WIDTH: 600px
+}
+#xptHeader TR {
+	VERTICAL-ALIGN: middle
+}
+#xptHeader TD.cobrand {
+	FONT-WEIGHT: 700; FONT-SIZE: 22px; COLOR: #036
+}
+#xptHeader .emphasis {
+	FONT-WEIGHT: 700
+}
+.xptHeader {
+	WIDTH: 600px
+}
+#xptTabs {
+	FONT-SIZE: 13px; BACKGROUND-IMAGE: url('bg.gif'); HEIGHT: 59px; margin-left:0px; margin-right:0px; margin-top:17px; margin-bottom:10px
+}
+#xptTabs TABLE.secondary {
+	MARGIN: 4px 0px 0px
+}
+#xptTabsBlueBar {
+	FONT-SIZE: 13px; BACKGROUND-IMAGE: url('bg_clk.gif'); WIDTH: 100%; margin-left:0px; margin-right:0px; margin-top:5px; margin-bottom:10px
+}
+#xptContentOuter {
+	WIDTH: 100%; TEXT-ALIGN: center
+}
+#xptContentCustom {
+	MARGIN-LEFT: auto; WIDTH: 760px; MARGIN-RIGHT: auto; TEXT-ALIGN: left
+}
+#xptFooter {
+	MARGIN: 24px 0px 0px; WIDTH: 100%
+}
+#xptFooter TABLE {
+	WIDTH: 630px
+}
+#xptFooter TD {
+	TEXT-ALIGN: center
+}
+#xptFooter P {
+	FONT-SIZE: 11px; MARGIN: 0px 0px 12px
+}
+#xptFooter P.lastPara {
+	FONT-SIZE: 11px; MARGIN: 0px
+}
+#xptFooter A.ebayLink {
+	FONT-WEIGHT: 700; FONT-SIZE: 13px; COLOR: #03c
+}
+#xptPrivacy {
+	MARGIN-TOP: 24px; WIDTH: 100%; TEXT-ALIGN: center
+}
+#xptPrivacy A {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; PADDING-BOTTOM: 20px; PADDING-TOP: 20px
+}
+.small {
+	FONT-WEIGHT: 400; FONT-SIZE: 11px
+}
+.smallEmphasis {
+	FONT-WEIGHT: 700; FONT-SIZE: 11px
+}
+.emphasis {
+	FONT-WEIGHT: 700
+}
+.largeEmphasis {
+	FONT-WEIGHT: 700; FONT-SIZE: 17px
+}
+A {
+	COLOR: #03c
+}
+TD.fullRowNoLeftNav {
+	WIDTH: 760px
+}
+TABLE.tableDarkYellowBorder {
+	BORDER-RIGHT: #ffcc00 2px solid; BORDER-TOP: #ffcc00 2px solid; BORDER-LEFT: #ffcc00 2px solid; BORDER-BOTTOM: #ffcc00 2px solid; BACKGROUND-COLOR: #fff
+}
+TABLE.tableLightGreyBorder {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid; BACKGROUND-COLOR: #fff
+}
+.inlineRed {
+	COLOR: #f00
+}
+#xptMessageBox {
+	MARGIN: 0px 0px 10px; WIDTH: 100%
+}
+#xptMessageBox TABLE {
+	BORDER-RIGHT: #aaa 1px solid; BORDER-TOP: #aaa 1px solid; BORDER-LEFT: #aaa 1px solid; WIDTH: 600px; BORDER-BOTTOM: #aaa 1px solid; BACKGROUND-COLOR: #ffc
+}
+#xptMessageBox TR {
+	VERTICAL-ALIGN: top
+}
+#xptMessageBox TD {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; PADDING-TOP: 4px
+}
+#xptMessageBox P {
+	FONT-WEIGHT: 700; FONT-SIZE: 13px; PADDING-BOTTOM: 0px
+}

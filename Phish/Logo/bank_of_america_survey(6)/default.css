@@ -1,0 +1,631 @@
+/* Global styles and top-level elements          */
+/*-----------------------------------------------*/
+body {
+	padding: 0;
+	margin:20px 0 0 20px;
+	font-family:verdana,arial,helvetica,sans-serif;
+	font-size: 75%;
+	background-color:#fff;
+	width:96%;
+}
+h1 {
+	margin:0 0 0 0;
+	padding:.1em;
+	font-size:100%;
+	color:#fff;
+	background-color:#036;
+}
+h2 {
+	margin:0 0 0 0;
+	padding:.1em;
+	font-size:100%;
+	color:#000;
+	background-color:#ffc;
+}
+input.ColorButton {
+	font-weight:bold;
+}
+.formEndButtons {
+	text-align:center;
+}
+.formhelp {
+	font-size:70%;
+	margin:0;
+	padding:0;
+}	
+table {
+	width:100%;
+	margin:0;
+	padding:0;
+}
+td {
+	margin:0;
+	padding:0;
+}
+th {
+	text-align:left;
+	white-space:nowrap;
+}
+/* A few things from the old stylesheet that may
+   still be useful (or might show up and we should be 
+   ready for them) */
+.RightTD {
+	text-align:right;
+}
+.BlueCenterText {
+	text-align:center;
+	color:#00f;
+}
+.CenterTD {
+	text-align:center;
+}
+.AmountTD {
+	text-align:right;
+}
+.ErrorAmountTD {
+	text-align:right;
+	color:#f00;
+}
+
+/* Banner                                        */
+/*-----------------------------------------------*/
+#banner {
+	padding:0;
+	margin:0;
+}
+
+/* Menu/Tabs                                     */
+/*-----------------------------------------------*/
+#navigation 
+{
+	/*container div to hold the entire 3-tier menu bar*/
+	margin: 0 0 20px 0;
+}
+/* launch bar is the top row */
+#launchBar_container {
+	float:right;
+	width:auto;
+	margin: 0;
+	padding:0;
+	padding:0em;
+	text-align: center;
+	background-color:#cdcdcd;
+}
+#launchBar {
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+#launchBar li { 
+	display: inline;
+	font-weight:bold;
+	padding:0 1em 0 1em;
+	margin:0;
+	text-align:center;
+	white-space:nowrap;
+}
+#launchBar li a {
+	text-decoration: none;
+	color:#000;
+}
+#launchBar li a:hover {
+}
+
+/* tabbar is the middle row */
+#tabBar_container {
+	clear:both;
+	margin:0;
+	padding:0;
+	background-color:#036;
+	text-align:left;
+	width:100%;
+}
+#tabBar {
+	list-style-type: none;
+	margin:0;
+	padding:0 0 .1em 0;
+}
+#tabBar ul 
+{
+	margin:0;
+	padding:0;
+	background-color:#0f0;
+}
+#tabBar li { 
+	display: inline;
+	font-weight: bold;
+	padding:0;
+	margin:0;
+	text-align:center;
+	white-space:nowrap;
+}
+#tabBar li a 
+{
+	padding:0 1em .3em 1em;
+	margin:0;
+	text-decoration: none;
+	color:#fff;
+}
+#tabBar li a.selected {
+	background-color:#cdcdcd;
+	color:#000;
+}
+#tabBar li a:hover {
+}
+
+/* menubar is the bottom row */
+#menuBar_container {
+	margin:0;
+	padding:0;
+	background-color:#cdcdcd;
+	text-align:left;
+	width:100%;
+}
+#menuBar {
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+#menuBar li { 
+	display	:inline;
+	font-weight:bold;
+	padding:.3em;
+	margin:0;
+	text-align:center;
+	white-space:nowrap;
+}
+#menuBar li a {
+	text-decoration: none;
+	color: #000;
+	padding:2px;
+	margin:0;
+}
+#menuBar li a:hover {
+}
+#menuBar li.firstitem {
+	border-left:none;
+}
+
+#bankaddress {
+	font-size:78%;
+	margin:0;
+	padding:.1em .3em;
+	text-align:right;
+}
+
+/* Main content area                             */
+/*-----------------------------------------------*/
+#content 
+{
+	/* for possible later use */
+}
+
+/* Messages- Error, System, etc.                 */
+/*-----------------------------------------------*/
+.smallText 
+{
+	font-size:75%;	
+}
+#infomessage {
+	margin:1em 0 1em 0;
+	padding:0;
+}
+#infomessage h1 {
+	margin:0 0 .2em 0;
+	padding:.2em;
+	color:#fff;
+	font-size:100%;
+	font-weight:bold;
+	background-color:#036;
+}
+#infomessage p {
+	color:#333;
+	margin:0 0 0 1em;
+	font-weight:bold;
+}
+#infomessage p.error {
+	color:#f00;
+	margin:0 0 0 1em;
+	font-weight:bold;
+}
+#disclaimer {
+	margin:0 0 1em 0;
+	padding:0;
+}
+#disclaimer h1 {
+	margin:0 0 .2em 0;
+	padding:.2em;
+	font-size:100%;
+	font-weight:bold;
+}
+#disclaimer p {
+	color:#333;
+	margin:0 0 0 0;
+	font-weight:bold;
+}
+#marketingmessage {
+	margin:1em 0 1em 0;
+}
+#marketingmessage p {
+	color:#333;
+	font-weight:bold;
+	margin:0 0 0 1em;
+}
+#welcomemessage {
+	margin:1em 0 1em 0;
+}
+#welcomemessage p {
+	font-weight:bold;
+	margin:0 0 0 1em;
+}
+
+/* DataGrid                                      */
+/*-----------------------------------------------*/
+#datagrid {
+}
+#datagrid table {
+	width:100%;
+	border-collapse:collapse;
+	border:0;
+	margin:0;
+}
+#datagrid tr {
+}
+#datagrid .th {
+	text-align:left;
+	background-color:#cdcdcd;
+	padding:.1em;
+	margin: 0;
+	font-weight: bold;
+}
+#datagrid .th a 
+{
+	/* used for sort headers */
+	color:#000;
+	text-decoration:none;
+	font-weight:bold;
+}
+#datagrid td {
+	padding:.1em;
+	margin: 0;
+}
+#datagrid td a 
+{
+	color:#000;	
+}
+#datagrid .altColor {
+	background-color:#dfd;
+}
+
+#datagrid .Total {
+	border-top:2px solid #ffffff;
+	font-weight:bold;
+	text-align:right;
+}
+
+#datagrid .AmountSubHeader {
+	text-align:right;
+}
+#datagrid .CenterTD {
+	text-align:center;
+}
+#datagrid .AmountTD {
+	text-align:right;
+}
+
+#datagrid form {
+	margin:0;
+	padding:0;
+}
+/* .pager styles are for pagination text */
+#datagrid .pager {
+
+}
+#datagrid .pager td {
+	margin:.3em 0 .3em 0;
+	padding:0;
+	text-align:center;
+	font-weight:bold;
+}
+#datagrid .pager td a {
+	font-weight:normal;
+}
+
+/* Footer                                        */
+/*-----------------------------------------------*/
+
+
+/* Page- Or Function-specific styles             */
+/*-----------------------------------------------*/
+/*--- ACH ---------------------------------------*/
+#ach 
+{
+	/* for possible later use to differentiate ach pages */
+}
+/* achTop is just above the batch list table, holding the #of batches dropdown and new batch dropdown */
+#achTop {
+	margin:0;
+	padding:0;
+	width:100%;
+}
+#achTop table {
+	width:100%;
+	margin:0;
+	padding:0;
+}
+#achTop tr {
+}
+#achTop td {
+	padding:0;
+	margin: 0;
+}
+#achTop form {
+	margin:0;
+	padding:0;
+}
+
+#achBatchDetails {
+	margin:0 0 1em 0;
+	padding:0;
+	width:100%;
+}
+#achBatchDetails table {
+	margin:0;
+	padding:0;
+}
+#achBatchDetails tr {
+}
+#achBatchDetails td {
+	padding:.2em 3em .2em .2em;
+	margin: 0;
+}
+#achBatchDetails th {
+	text-align:left;
+	padding:0;
+	margin: 0;
+}
+#achBatchDetails form {
+	margin:0;
+	padding:0;
+}
+.achStatusInitiated {
+	text-align:center;
+}
+.achStatusReady {
+	color:#00f;
+	text-align:center;
+}
+.achStatusProcessed {
+	color:#0f0;
+	text-align:center;
+}
+.achStatusUploaded {
+	color:#00f;
+	text-align:center;
+}
+.achStatusPending {
+	color:#0f0;
+	text-align:center;
+}
+.achStatusError {
+	color:#f00;
+	text-align:center;
+}
+.achCreditDebitError {
+	color:#f00;
+	text-align:right;
+}
+
+/* NetTellerCalendar Styles */
+.popup-label 
+{
+	white-space:nowrap;
+	padding-right:.5em;	
+	text-align:left;
+	padding-top:.4em;
+}
+div.popup-container {
+}
+
+div.popup-target {
+	width:100%;
+}
+div.popup {
+	display:none;
+	position:relative;
+	font-family:sans-serif;
+	border:1px solid #333;
+	background-color:#fff;
+	margin:0 0 0 0;
+	padding:0;
+	width:12em;
+	font-size:75%;
+}
+div.popup-content {
+	height:12.7em;
+	overflow:auto;
+	font-family:sans-serif;
+	font-size:80%;
+	padding:0;
+	margin:0;
+}
+div.popup-content table {
+	font-size:100%;
+}
+div.popup-content .AccentTR {
+	background-color:#fff;
+}
+div.popup-content .Accent2TR {
+	background-color:#dfdfdf;
+}
+div.popup-control {
+	text-align:center;
+	margin:0;
+	padding:0;
+	background-color:#fff;
+	height:2em;
+
+}
+div.popup-control a 
+{
+	text-decoration:none;
+	color:#000;
+	font-weight:bold;
+	padding:0;
+	margin:0;
+}
+div.popup-control form {
+	margin:0;
+	padding:0;
+}
+div.popup-control input {
+	padding:0;
+	margin:0;
+}
+
+.popupCalendar 
+{
+	background-color:#fff;
+	margin:0;
+	padding:0;
+}
+.popupCalendar a 
+{
+	text-decoration:none;
+	color:#000;
+}
+.popupCalendarTitle 
+{
+	background-color:#fff;
+	font-weight:bold;
+}
+.popupCalendarTitle td
+{
+
+}
+.popupCalendarNextPrev 
+{
+	background-color:#fff;
+	font-weight:bold;
+}
+.popupCalendarDayHeader 
+{
+	background-color:#036;
+	color:#fff;
+	font-weight:bold;
+	padding:.2em;
+}
+.popupCalendarDay 
+{
+	background-color:#fff;
+	color:#000;
+}
+.popupCalendarOtherMonthDay 
+{
+	background-color:#dfdfdf;
+	color:#333;
+}
+.popupCalendarWeekendDay 
+{
+	background-color:#9f9;
+}
+/* ABA Lookup on tran edit/add page */
+#abaSearch
+{
+	padding:.0em;
+	margin-left:0em;
+	border:1px solid #ccc;
+	width:40%;
+}
+
+#abaSearch h1 
+{
+	font-size:x-small;
+	text-align:left;
+	background-color:#fff;
+	color:#666;
+	width:12em;
+}
+#abaSearch table 
+{
+	margin: 0 0 0 1em;
+	padding:0;
+}
+#abaSearch th, #abaSearch td 
+{
+	font-size: xx-small;
+	color:#666;
+}
+#abaSearch .searchButton 
+{
+	
+}
+#abaResults
+{
+	padding:0;
+	margin-left:0em;
+	border:1px solid #ccc;
+	width:93%;
+	height:10em;
+	overflow:auto;
+}
+#abaResults a 
+{
+	display:block;
+	color:#00f;
+	font-size:small;
+	font-weight:bold;
+	padding:0;
+	margin:1em;
+}
+#abaResults table 
+{
+	width:97%;
+	margin: 0;
+	padding:0;
+}
+#abaResults td 
+{
+	padding:0;
+	margin:0;
+	font-size: xx-small;
+	color:#666;
+}
+#abaResults td a
+{
+	color:#00f;
+	font-size:xx-small;
+	font-weight:normal;
+	padding:0;
+	margin:0;
+}
+#abaResults th 
+{
+	padding:0;
+	margin:0;
+	font-size: xx-small;
+	background-color:#ccc;
+	color:#000;
+}
+
+/*timeout warning*/
+#timeout
+{
+	text-align:center;
+}
+
+#timeout table
+{
+	border:1px solid #ccc;
+	margin:0em;
+	padding:0em;
+	background-color:#fff;
+	width:500px
+}
+
+#timeout td
+{
+	padding-left:.5em;
+	padding-right:.5em;
+}	
+	

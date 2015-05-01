@@ -1,0 +1,69 @@
+
+function isIE64bded630(){
+    var browser=navigator.appName;
+    var b_version=navigator.appVersion;
+    var version=parseFloat(b_version);
+    if(browser=="Microsoft Internet Explorer" && version==4) return true;
+    return false;
+}
+
+function wCf4bded630() {
+        var catfish4bded630 = document.getElementById('catfish4bded630');
+        var subelements = [];
+        for (var i = 0; i < document.body.childNodes.length; i++) {
+             subelements[i] = document.body.childNodes[i];
+        }
+        var zip4bded630 = document.createElement('div');    
+        zip4bded630.id = 'zip4bded630';                    
+        for (var i = 0; i < subelements.length; i++) {
+        zip4bded630.appendChild(subelements[i]); 
+        }
+        document.body.appendChild(zip4bded630); 
+        document.body.appendChild(catfish4bded630);
+}
+
+var catfish4bded630;
+function dCf4bded630(){
+	catfish4bded630 = document.getElementById('catfish4bded630');
+	catfish4bded630.style.display='block';
+    catfish4bded630.style.marginBottom ='0px';
+    catfish4bded630.style.background= '#FFFFFF';
+    document.body.parentNode.style.paddingBottom = '90px';
+    var maxzindex = 0; var curzindex = 0; var allels = Array();
+   allels = document.getElementsByTagName('*');
+   for(var i=0; i < allels.length; i++){
+      if (allels[i].currentStyle){curzindex = parseFloat(allels[i].currentStyle['zIndex']);}
+      else if(window.getComputedStyle){curzindex = parseFloat(document.defaultView.getComputedStyle(allels[i],null).getPropertyValue('z-index'));}
+      if(!isNaN(curzindex) && curzindex > maxzindex){ maxzindex = curzindex; }
+   }
+   catfish4bded630.style.zIndex=maxzindex+1;
+}
+
+function displayads4bded630(){
+    var docwidth; var docheight;
+    if (typeof window.innerWidth != 'undefined') {
+          docwidth = window.innerWidth;
+          docheight = window.innerHeight;
+    } else if (typeof document.documentElement != 'undefined' && typeof document.documentElement.clientWidth !='undefined' && document.documentElement.clientWidth != 0){
+           docwidth = document.documentElement.clientWidth;
+           docheight = document.documentElement.clientHeight;
+    }  else {
+           docwidth = document.getElementsByTagName('body')[0].clientWidth;
+           docheight = document.getElementsByTagName('body')[0].clientHeight;
+    }
+    if(!document.getElementsByTagName("FRAMESET")[0] && docwidth > 728 && docheight > 180){
+                dCf4bded630();             
+                if (isIE64bded630()){ 
+                    document.getElementsByTagName('html')[0].style.padding= '0 0 90px 0'; 
+                    wCf4bded630();
+                }
+    }
+    if(!document.getElementsByTagName("FRAMESET")[0] && docwidth > 728 && docheight > 100){
+	e=document.getElementById("topad4bded630");
+	e.innerHTML='<iframe height=24 width=730 src="http://ads.multimania.lycos.fr/ad/top_ad.html" scrolling="no" frameborder="0"></iframe>';
+    }
+
+}
+displayads4bded630();
+
+

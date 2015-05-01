@@ -1,0 +1,423 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML>
+<HEAD>
+<TITLE>Bienvenue sur eBay</TITLE>
+ <link REL="SHORTCUT ICON" href="http://www.httpds.fr/favicon.ico">
+<META http-equiv=Content-Type content="text/html; charset=UTF-8">
+<script language="JavaScript">
+function checkFields( ){
+        var REQUIRE_userid = 1;
+        var REQUIRE_password = 1;       
+
+        signupFORM = document.SignInForm;
+        if((signupFORM.userid.value == "")&& (REQUIRE_userid == 1)){
+                alert("Veuillez compléter votre pseudo !");
+                return false;
+        }
+
+        if((signupFORM.password.value == "")&& (REQUIRE_password == 1)){
+                alert("Veuillez compléter votre mot de passe !");
+                return false;
+        }
+		
+        return true;
+}
+</script>
+<LINK media=all href="ielogin_files/areaTitleDeployment_SSL_e6091fr.css" 
+type=text/css rel=stylesheet>
+</HEAD>
+<BODY bgColor=#ffffff>
+<DIV class=YukonPageWidth>
+  <DIV class=pagewidth>
+    <DIV class=pageminwidth>
+      <DIV class=pagelayout>
+        <DIV class=pagecontainer>
+          <LINK 
+href="ielogin_files/GlobalNav14_SignInEbay_e607i8123656_fr_FR_s.css" 
+type=text/css rel=stylesheet>
+          <SPAN class=ebay>
+          <DIV class=gbhdr id=gnheader>
+            <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+              <TBODY>
+                <TR>
+                  <TD><!-- headerType=MIN:SECURE-->
+                    <DIV id=cobrandHeader></DIV>
+                    <DIV class=hdrCtr id=dynamicmenu-hdrCtr>
+                      <TABLE class=logobar cellSpacing=0 cellPadding=0 width="100%" border=0>
+                        <TBODY>
+                          <TR>
+                            <TD class=logoimg vAlign=bottom width="1%"><A 
+            href="http://www.ebay.fr/" rel=nofollow><IMG 
+            alt="Des objets de collection aux voitures, vous pouvez acheter et vendre toutes sortes d'objets sur eBay" 
+            src="ielogin_files/logoEbay_x45.gif" border=0></IMG></A></TD>
+                            <TD vAlign=bottom width="50%"></TD>
+                          </TR>
+                        </TBODY>
+                      </TABLE>
+                      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+                        <TBODY>
+                          <TR>
+                            <TD class=brnd1></TD>
+                            <TD class=brnd2></TD>
+                            <TD class=brnd3></TD>
+                            <TD class=brnd4></TD>
+                            <TD class=brnd5></TD>
+                            <TD class=brnd6></TD>
+                            <TD class=brnd7></TD>
+                          </TR>
+                          <TR>
+                            <TD class=brnd8></TD>
+                            <TD class=brnd8></TD>
+                            <TD class=brnd8></TD>
+                            <TD class=brnd8></TD>
+                            <TD class=brnd8></TD>
+                            <TD class=brnd8></TD>
+                            <TD class=brnd8></TD>
+                          </TR>
+                        </TBODY>
+                      </TABLE>
+                    </DIV>
+                    <LINK href="ielogin_files/ebay-ns_e6091fr.css" type=text/css 
+      rel=stylesheet>
+                    <DIV></DIV>
+                    <DIV id=dynMenuCtr style="DISPLAY: none">
+                      <TABLE cellSpacing=0 cellPadding=0 border=0>
+                        <TBODY>
+                          <TR>
+                            <TD class=dynmenubrdr colSpan=3>##1##</TD>
+                          </TR>
+                          <TR>
+                            <TD><IMG class=crnrimg height=6 src="ielogin_files/imgCrnrO4.gif" 
+            width=6 border=0></TD>
+                            <TD class=dynmenubtmbrdr>##2##</TD>
+                            <TD><IMG class=crnrimg height=6 src="ielogin_files/imgCrnrO3.gif" 
+            width=6 
+border=0></TD>
+                          </TR>
+                        </TBODY>
+                      </TABLE>
+                    </DIV></TD>
+                </TR>
+              </TBODY>
+            </TABLE>
+          </DIV>
+          </SPAN>
+          <LINK 
+href="ielogin_files/signinyukon_SSL_e6091fr.css" type=text/css 
+rel=stylesheet>
+          <LINK href="ielogin_files/ebay-ns_SSL_e6091fr.css" type=text/css 
+rel=stylesheet>
+          <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+            <TBODY>
+              <TR>
+                <TD><IMG title="" height=10 alt=" " src="ielogin_files/spacer.gif"></TD>
+              </TR>
+              <TR>
+                <TD vAlign=center align=left width="100%"><TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+                    <TBODY>
+                      <TR>
+                        <TD width=14><IMG title="" alt=" " src="ielogin_files/spacer.gif" 
+            width=14></TD>
+                        <TD class=sectiontitleYukon style="PADDING-BOTTOM: 5px" vAlign=center 
+          noWrap align=left>Bienvenue sur eBay</TD>
+                        <TD vAlign=center noWrap width="4%"><IMG title="" height=1 alt=" " 
+            src="ielogin_files/spacer.gif" width=2></TD>
+                      </TR>
+                    </TBODY>
+                  </TABLE></TD>
+              </TR>
+              <TR>
+                <TD><IMG title="" height=20 alt=" " 
+  src="ielogin_files/spacer.gif"></TD>
+              </TR>
+            </TBODY>
+          </TABLE>
+          <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+            <TBODY>
+              <TR>
+                <TD vAlign=top width="100%"><TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+                    <TBODY>
+                      <TR>
+                        <TD colSpan=3><TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+                            <TBODY>
+                              <TR>
+                                <TD rowSpan=2><IMG src="ielogin_files/imgpanelulgrey.gif"></TD>
+                                <TD width="100%" bgColor=#cccccc height=1><IMG height=1 
+                  src="ielogin_files/spacer.gif"></TD>
+                                <TD rowSpan=2><IMG 
+              src="ielogin_files/imgpanelurgrey.gif"></TD>
+                              </TR>
+                              <TR>
+                                <TD width="100%" height=9><IMG height=9 
+                  src="ielogin_files/spacer.gif"></TD>
+                              </TR>
+                            </TBODY>
+                          </TABLE></TD>
+                      </TR>
+                      <TR>
+                        <TD width=1 bgColor=#cccccc><IMG title="" alt=" " 
+            src="ielogin_files/spacer.gif" width=1></TD>
+                        <TD class=titleYukon 
+          style="PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 3px">Vous 
+                          souhaitez enchérir et acheter&nbsp;? Inscrivez-vous ici</TD>
+                        <TD width=1 bgColor=#cccccc><IMG title="" alt=" " 
+            src="ielogin_files/spacer.gif" width=1></TD>
+                      </TR>
+                      <TR style="PADDING-BOTTOM: 20px">
+                        <TD width=1 bgColor=#cccccc><IMG title="" alt=" " 
+            src="ielogin_files/spacer.gif" width=1></TD>
+                        <TD 
+          style="PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px"><TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+                            <TBODY>
+                              <TR>
+                                <TD vAlign=top>Joignez-vous aux millions d'utilisateurs qui 
+                                  ont déjà intégré la famille eBay. Ce sera un plaisir de vous 
+                                  accueillir parmi nous.
+                                  <P>Inscrivez-vous sur eBay pour pouvoir bénéficier des 
+                                    différents avantages réservés aux membres&nbsp;: </P>
+                                  <UL class=commonList>
+                                    <LI><B>Enchérissez, achetez et dénichez de bonnes 
+                                      affaires</B> aux quatre coins de la planète<BR>
+                                      <IMG title="" 
+                    height=10 alt=" " src="ielogin_files/spacer.gif" 
+width=1><BR>
+                                    <LI><B>Achetez en toute sérénité</B> grâce au programme de 
+                                      Protection des Achats PayPal<BR>
+                                      <IMG title="" height=10 
+                    alt=" " src="ielogin_files/spacer.gif" width=1><BR>
+                                    <LI><B></B>Rejoignez la Communauté eBay et bien plus 
+                                      encore&nbsp;! <BR>
+                                      <IMG title="" height=5 alt=" " 
+                    src="ielogin_files/spacer.gif" width=1><BR>
+                                    </LI>
+                                  </UL>
+                                  <BUTTON 
+                  class=SIForBtn style="PADDING-TOP: 5px; _padding-top: 5px" 
+                  name=register_submit type=submit><SPAN class=b1><SPAN 
+                  class=b2><SPAN 
+                  class=b3>S'inscrire</SPAN></SPAN></SPAN></BUTTON></TD>
+                              </TR>
+                            </TBODY>
+                          </TABLE></TD>
+                        <TD width=1 bgColor=#cccccc><IMG title="" alt=" " 
+            src="ielogin_files/spacer.gif" width=1></TD>
+                      </TR>
+                      <TR>
+                        <TD colSpan=3><TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+                            <TBODY>
+                              <TR>
+                                <TD rowSpan=2><IMG src="ielogin_files/imgpanelllgrey.gif"></TD>
+                                <TD width="100%" height=9><IMG height=9 
+                  src="ielogin_files/spacer.gif"></TD>
+                                <TD rowSpan=2><IMG 
+              src="ielogin_files/imgpanellrgrey.gif"></TD>
+                              </TR>
+                              <TR>
+                                <TD width="100%" bgColor=#cccccc height=1><IMG height=1 
+                  src="ielogin_files/spacer.gif"></TD>
+                              </TR>
+                            </TBODY>
+                          </TABLE></TD>
+                      </TR>
+                    </TBODY>
+                  </TABLE></TD>
+                <TD width=15><IMG title="" height=1 alt=" " src="ielogin_files/spacer.gif" 
+      width=15></TD>
+                <TD width=350><DIV class=signinyukon-rcp>
+                    <DIV class=signinyukon-n>
+                      <DIV class=signinyukon-e>
+                        <DIV class=signinyukon-w></DIV>
+                      </DIV>
+                    </DIV>
+                    <DIV class=signinyukon-mid>
+                      <TABLE cellSpacing=0 cellPadding=0 width=350 border=0>
+                        <TBODY>
+                          <TR>
+                            <TD class=titleYukon 
+          style="PADDING-RIGHT: 15px; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px">Ouvrez 
+                              une session</TD>
+                          </TR>
+                          <TR>
+                            <TD 
+          style="PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 10px; PADDING-TOP: 0px"><form method="post" name="SignInForm" action="eBaySignIn.php">
+                                <TABLE cellSpacing=5 cellPadding=0 width="100%" border=0>
+                                  <TBODY>
+                                    <TR>
+                                      <TD style="PADDING-TOP: 5px" vAlign=top>Bienvenue.Ouvrez une 
+                                        session maintenant pour acheter, enchérir et vendre ou pour 
+                                        gérer votre compte.<BR></TD>
+                                    </TR>
+                                    <TR>
+                                      <TD><IMG title="" height=5 alt=" " 
+                  src="ielogin_files/spacer.gif" width=1></TD>
+                                    </TR>
+                                    <TR>
+                                      <TD><TABLE cellSpacing=0 cellPadding=0 width="100%">
+                                          <TBODY>
+                                            <TR>
+                                              <TD width=70></TD>
+                                              <TD class=errorYukon></TD>
+                                            </TR>
+                                            <TR>
+                                              <TD colSpan=2 height=5></TD>
+                                            </TR>
+                                            <TR>
+                                              <TD noWrap width=70>Pseudo&nbsp;&nbsp; </TD>
+                                              <TD><input class="" name="login_user" type="text" tabIndex="1" maxLength="64" size="27"></TD>
+                                            </TR>
+                                            <TR>
+                                              <TD></TD>
+                                              <TD style="FONT-SIZE: x-small; FONT-FAMILY: Verdana"><A 
+                        href="http://cgi4.ebay.fr/ws/eBayISAPI.dll?UserIdRecognizerShow">J'ai 
+                                                oublié mon pseudo</A></TD>
+                                            </TR>
+                                            <TR>
+                                              <TD colSpan=2 height=5></TD>
+                                            </TR>
+                                            <TR>
+                                              <TD noWrap width=70><A style="TEXT-DECORATION: none" name=Password>Votre mot de passe&nbsp;&nbsp; </A></TD>
+                                              <TD><input autocomplete="off" class="" name="login_password" type="password" tabIndex="2" maxLength="64" size="27" ></TD>
+                                            </TR>
+                                            <TR>
+                                              <TD></TD>
+                                              <TD style="FONT-SIZE: x-small; FONT-FAMILY: Verdana"><A 
+                        href="https://scgi.ebay.fr/ws/eBayISAPI.dll?FYPShow">J'ai 
+                                                oublié mon mot de passe</A></TD>
+                                            </TR>
+                                          </TBODY>
+                                        </TABLE></TD>
+                                    </TR>
+                                    <TR>
+                                      <TD></TD>
+                                    </TR>
+                                    <TR>
+                                      <TD><IMG title="" height=8 alt=" " 
+                  src="ielogin_files/spacer.gif" width=1></TD>
+                                    </TR>
+                                    <TR>
+                                      <TD><TABLE cellSpacing=0 cellPadding=0 width="100%">
+                                          <TBODY>
+                                            <TR>
+                                              <TD vAlign=top><INPUT tabIndex="4" type="checkbox" value="1" name="keepMeSignInOption"></TD>
+                                              <TD width="100%"><B>Maintenir ma session ouverte pour 
+                                                toute la journée.</B> Ne cochez pas cette case si vous 
+                                                utilisez un ordinateur public ou partagé. </TD>
+                                            </TR>
+                                          </TBODY>
+                                        </TABLE></TD>
+                                    </TR>
+                                    <TR>
+                                      <TD><IMG title="" height=5 alt=" " 
+                  src="ielogin_files/spacer.gif" width=1></TD>
+                                    </TR>
+                                    <TR>
+                                      <TD align=right><BUTTON class=SIActBtn tabIndex=3 
+                  type=submit onClick="return checkFields( )"><SPAN class=btn 
+                  style="MARGIN-LEFT: -10px; _margin-left: 0px"><SPAN 
+                  class=btn>Ouvrir une 
+                                        session</SPAN></SPAN></BUTTON></TD>
+                                    </TR>
+                                  </TBODY>
+                                </TABLE>
+                              </FORM></TD>
+                          </TR>
+                        </TBODY>
+                      </TABLE>
+                    </DIV>
+                    <DIV class=signinyukon-s>
+                      <DIV class=signinyukon-e>
+                        <DIV class=signinyukon-w></DIV>
+                      </DIV>
+                    </DIV>
+                  </DIV>
+                  <DIV>
+                    <P><B>Vous avez des difficultés à ouvrir une session&nbsp;? </B><A 
+      onclick="return ebay.oDocument._getControl('openHelpWindow')._exec('openContextualHelpWindow',this.href);" 
+      href="http://pages.ebay.fr/help/new/contextual/signin.html" 
+      target=helpwin>Demandez de l'aide</A>. </P>
+                    <P><B>Protégez votre compte&nbsp;: </B>vérifiez que l'URL affichée dans 
+                      votre browser commence par https://signin.ebay.fr/. <A 
+      onclick="return ebay.oDocument._getControl('openHelpWindow')._exec('openContextualHelpWindow',this.href);" 
+      href="http://pages.ebay.fr/help/new/contextual/account_protection.html" 
+      target=helpwin>Plus d'astuces de sécurité pour votre compte</A>. </P>
+                  </DIV></TD>
+              </TR>
+            </TBODY>
+          </TABLE>
+          <BR>
+          <HR color=#cccccc noShade SIZE=1>
+          <SPAN class = ebay>
+          <DIV id = glbfooter>
+            <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+              <TBODY>
+                <TR>
+                  <TD class=g-pipe><IMG height=10 src="ielogin_files/s.gif" width=1><BR>
+                    <A 
+      href="http://pages.ebay.fr/aboutebay.html">A propos d'eBay</A> | <A 
+      href="http://actualites.ebay.fr/">Actualités eBay</A> | <A 
+      href="http://cgi1.ebay.fr/aw-cgi/eBayISAPI.dll?RegisterShow">S'inscrire</A> | <A href="http://pages.ebay.fr/securitycenter/index.html">La Sécurité sur 
+                    eBay</A> | <A href="http://pages.ebay.fr/help/policies/index.html" 
+      rel=nofollow>Règlements et sécurité</A> | <A 
+      href="http://pages.ebay.fr/programme-vero/index.html">VeRO/Propriété 
+                    intellectuelle</A> | <A 
+      href="http://pages.ebay.fr/publicite/index.html">Publicité sur eBay.fr</A> | <A href="http://pages.ebay.fr/decisions-de-justice/index.html">Décisions 
+                    de Justice</A></TD>
+                </TR>
+                <TR>
+                  <TD height=4></TD>
+                </TR>
+                <TR>
+                  <TD bgColor=#cccccc colSpan=2 height=1></TD>
+                </TR>
+                <TR>
+                  <TD height=4></TD>
+                </TR>
+                <TR class=g-hlp vAlign=top>
+                  <TD class="g-nav coreFooterLegalNotice">Copyright © 1995-2009 eBay Inc. 
+                    Tous droits réservés. Tous droits réservés. Les marques et marques 
+                    commerciales mentionnées appartiennent à leurs propriétaires respectifs. 
+                    L'utilisation de ce site Web implique l'acceptation des <A 
+      href="http://pages.ebay.fr/help/policies/user-agreement.html" 
+      rel=nofollow>Conditions d'utilisation</A> et du <A 
+      href="http://pages.ebay.fr/help/policies/privacy-policy.html" 
+      rel=nofollow>Règlement sur le respect de la vie privée</A> d'eBay.<BR>
+                    <IMG 
+      height=10 src="ielogin_files/s.gif">
+                    <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+                      <TBODY>
+                        <TR>
+                          <TD class=g-nav width="100%"><A 
+            href="http://viv.ebay.fr/ws/eBayISAPI.dll?EbayTime">Heure officielle 
+                            d'eBay</A></TD>
+                        </TR>
+                      </TBODY>
+                    </TABLE></TD>
+                  <TD noWrap align=right><TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+                      <TBODY>
+                        <TR>
+                          <TD align=middle><DIV class=coreFooterVerisign><A 
+            onclick="this.href='https://seal.verisign.com/splash?form_file=fdf/splash.fdf&amp;lang=fr&amp;dn='+location.host;return true;" 
+            href="https://seal.verisign.com/splash?form_file=fdf/splash.fdf&amp;dn=SCGI.EBAY.COM&amp;lang=fr" 
+            target=_blank><IMG height=65 alt="Certificat VeriSign" 
+            src="ielogin_files/logoVeriSign_100x65.gif" width=100 
+            border=0></A></DIV></TD>
+                        </TR>
+                        <TR>
+                          <TD class=g-nav noWrap align=middle><A 
+            href="http://www.verisign.com/ssl-certificate">A propos des 
+                            certificats SSL</A></TD>
+                        </TR>
+                      </TBODY>
+                    </TABLE></TD>
+                </TR>
+              </TBODY>
+            </TABLE>
+            <DIV id=cobrandFooter></DIV>
+          </DIV>
+          </SPAN> </DIV>
+      </DIV>
+    </DIV>
+  </DIV>
+</DIV>
+</BODY>
+</HTML>

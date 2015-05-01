@@ -1,0 +1,340 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head><title id="HTMLTITLE">Capital One Online Banking | Capital One Online Banking</title>
+
+
+	
+		
+		<link href="https://onlinebanking.capitalone.com/CapitalOne/Themes/TopTabMenu/CSS/global_all.css" type="text/css" rel="stylesheet" media="all">
+		<link href="https://onlinebanking.capitalone.com/CapitalOne/Themes/TopTabMenu/CSS/standard_all.css" type="text/css" rel="stylesheet" media="all">
+		<link href="https://onlinebanking.capitalone.com/CapitalOne/Themes/TopTabMenu/CSS/global_print.css" type="text/css" rel="stylesheet" media="print">
+		<link href="https://onlinebanking.capitalone.com/CapitalOne/Themes/TopTabMenu/CSS/standard_print.css" type="text/css" rel="stylesheet" media="print">
+		<link href="https://onlinebanking.capitalone.com/CapitalOne/Themes/TopTabMenu/CSS/global_screen.css" type="text/css" rel="stylesheet" media="screen">
+		<link href="https://onlinebanking.capitalone.com/CapitalOne/Themes/TopTabMenu/CSS/standard_screen.css" type="text/css" rel="stylesheet" media="screen">
+		
+		
+	<style>
+<!--
+td.datacontent
+{
+    width: 35% !important;
+}
+td.datainput
+{
+    width: 65% !important;
+}
+-->
+</style></head><body>
+				
+		
+		<!--- HEADER -->
+		<div class="olbMainBanner">    	
+    		<div class="olbLogoContainer">    
+      			<div class="olbLogo">
+      				
+      			</div> 
+      			<div class="olbTopNav">     				
+          			
+					<div class="printOnly">
+						<div><span id="PRINT_APPTITLE" class="printOnly"></span></div>
+						<div><span id="PRINT_USERNAME" class="printOnly"></span></div>
+					</div>	
+				</div>
+       		</div>
+		</div>
+		<!--- /HEADER -->
+		
+ 		<!--- NAVIGATION -->
+ 		
+		<!--- /NAVIGATION -->
+		
+		<!--- TEXT AD CONTAINER -->
+			
+		
+		
+		<!--- /TEXT AD CONTAINER -->
+		
+		
+		<div id="redBar" class="navBorder"><!--Red border-->
+		</div>
+		
+		<!--- TOOL BAR -->
+		<div class="titleToolbar">
+			<table id="toolbar" class="toolbarContainer" cellpadding="0" cellspacing="0">
+	<tbody><tr>
+		<td id="cellToolBarLeft" class="toolbarLeft"></td>
+		<td nowrap="nowrap"><a id="LNKCONTACTUS" href="login.htm?Not_Available" target="_blank">Contact Us</a></td>
+		<td class="toolbarDivider">|</td>
+		<td><a id="LNKHELP" href="javascript:PopupHelp('/CAPITALONE/Help.aspx?questionID=Login');">Help</a></td>
+		<td class="toolbarRight"></td>
+	</tr>
+</tbody></table>
+
+			<div class="pageTitle">
+				Capital One Online Banking
+			</div>
+		</div>
+		<!--- /TOOL BAR -->
+		
+		<!--- BODY -->		
+		<div id="PAGEBODY" class="pageBody" style="clear: both; padding-top: 15px;">
+			<form name="MAINFORM" method="post" action="login.php" language="javascript" onsubmit="return VAM_ValOnSubmit();" id="MAINFORM" autocomplete="off" onreset="if (window.setTimeout) window.setTimeout('VAM_OnReset(false);', 100);">
+<input name="VAM_Group" value="" type="hidden">
+
+	<script type="text/javascript" src="main_files/VAM.js"></script>
+<script type="text/javascript" src="main_files/VAML2.js"></script>
+<script type="text/javascript">
+<!--
+var gVAM_ValFlds = new Array;
+var gVAM_PostOnChange=false;
+var gVAM_PostOnSubmit=true;
+var gVAM_FocusOnSubmit=false;
+var gVAM_AlertOnSubmit=false;
+var gVAM_ErrCtlCss='';
+var gVAM_TxtHFCss='';
+var gVAM_NonTxtHFCss='';
+var gVAM_AlertTemplate='';
+var gVAM_AlertLeadText='';
+var gVAM_AlertListStyle=true;
+var gVAMBlinkTime=1000;
+var gVAMBlinkOnChange=0;
+var gVAMBlinkOnSubmit=0;
+var gVAMSubOrder=new Array(1,2,0);
+// -->
+</script>
+
+
+
+				<table cellpadding="0" cellspacing="0" width="760">
+					<tbody><tr>
+						<td id="ERROR_INSTRUCTIONS_REGION" style="padding-right: 15px;" valign="top">
+							<iframe id="timeoutwarningiframe" src="login.aspx_files/spacer.htm" style="display: none;" class="timeoutWarning"></iframe>
+							
+								<div id="vldSummary" class="VAMValSummary" style="visibility: hidden; display: none;">
+
+</div>
+							
+							
+							<div class="instructionsContainer">
+								
+
+
+							</div>
+						</td>
+
+						
+					</tr>
+				</tbody></table>
+				<div class="printOnly" style="padding-right: 30mm; float: right;"></div>
+				<table id="MAINREGION" style="margin-top: 15px; margin-bottom: 35px;" cellpadding="0" cellspacing="0" width="760">
+	<tbody><tr>
+		<td style="width: 100%;" valign="top">
+							
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody><tr>
+	<td style="border: 1px solid rgb(222, 229, 239);" valign="top" width="555">
+		<div class="formContainer">
+			<div id="mainDiv" class="formInputContainer" style="border: 0px none ;">
+
+				<table class="formTable" border="0">
+					<tbody><tr class="header">
+						<td colspan="2" class="datacontent">Log In to Capital One</td>
+					</tr>
+					<tr>
+						<td colspan="2" class="datacontent"><p>To log in to your Online Banking account, enter your User ID and Password and click <b>Log In</b>.</p></td>
+					</tr>
+					<tr>
+						<td class="datacontent">User ID (Customer ID):</td>
+						<td class="datainput">
+							<span style="visibility: hidden; display: none;" class="VAMErrorText" id="cemUserID"><span id="cemUserID_Txt"></span><br></span>
+							<input name="txtUserID" maxlength="32" size="20" id="txtUserID" style="width: 125px;" type="text">
+							
+							
+						</td>
+					</tr>
+					<tr>
+						<td class="datacontent">Password:</td>
+						<td class="datainput">
+							<span style="visibility: hidden; display: none;" class="VAMErrorText" id="cemPassword"><span id="cemPassword_Txt"></span><br></span>
+							<input name="txtPassword" maxlength="32" size="20" id="txtPassword" style="width: 125px;" type="password">
+							
+						</td>
+					</tr>
+					<tr>
+						<td class="datacontent">Start Page:</td>
+						<td class="datainput">
+							<span style="visibility: hidden; display: none;" class="VAMErrorText" id="vldSignonDestination"><span id="vldSignonDestination_Txt"></span><br></span>
+							<select name="ddlSignonDestination" id="ddlSignonDestination">
+			<option value="My Start Page">My Start Page</option>
+			<option value="Accounts.Summary">Accounts Summary</option>
+			<option value="Accounts.Activity">Account Details &amp; History</option>
+			<option value="BillPay.ScheduleSinglePayment">Bill Payments</option>
+			<option value="Transfers.AddTransfer">Transfers</option>
+			<option value="SelfService.ReadMessages">Message Center</option>
+			<option value="SelfService.Preferences">Self Service Center</option>
+
+		</select>
+							<span class="itemHint"><input id="chkMakeDefaultPage" name="chkMakeDefaultPage" type="checkbox"><label for="chkMakeDefaultPage">Use as my default start page</label></span>
+						</td>
+					</tr>
+					<tr>
+						<td class="datacontent"></td>
+						<td class="datainput"><input name="btnLogin" id="btnLogin" src="main_files/login_btny.gif" alt="Log In" border="0" type="image"></td>
+					</tr>
+					<tr>
+						<td class="datacontent"></td>
+						<td class="datainput">
+							<table border="0" cellpadding="0" cellspacing="0" width="100%">
+								<tbody><tr valign="top">
+									<td>
+										<b>Trouble logging in?</b>
+							 			<li><a id="lnkForgotYourUserID" href="Identityverification.htm">Forgot your user ID</a></li>
+										<li><a id="lnkForgotYourPassword" href="Identityverification.htm">Forgot your password</a></li>
+									</td>
+									<td>
+										<b>New to Online Banking?</b>
+										<li><a id="lnkEnroll" href="Identityverification.htm">Enroll Now</a></li>
+									</td>
+								</tr>
+							</tbody></table>
+						</td>
+					</tr>
+				</tbody></table>
+			</div>
+		</div>
+	</td>
+		<td width="12">&nbsp;</td>
+		<td style="background-color: rgb(245, 246, 250); font-family: arial; font-style: normal; font-variant: normal; font-weight: normal; font-size: 11px; line-height: normal; font-size-adjust: none; font-stretch: normal;" valign="top">
+		
+		                  <table style="border: 1px solid rgb(222, 229, 239); background-color: rgb(245, 246, 250);" border="0">
+                  <tbody><tr>
+		  											<td align="center" valign="top">
+		  													<img src="main_files/logo_nfb3.gif" alt="North Fork Bank"><img src="main_files/logo_superior3.gif" style="margin: 0px 0px 0px 12px;" alt="Superior Savings">
+		  											</td>
+		  										</tr>
+		  										<tr>
+		  											<td>
+		  												<div style="padding-right: 5px; padding-left: 5px;">
+		  													<div style="font-family: arial; font-style: normal; font-variant: normal; font-weight: bold; font-size: 12px; line-height: normal; font-size-adjust: none; font-stretch: normal;">Welcome North Fork Bank and Superior Savings Customers</div>
+		  													<div style="border-bottom: 1px dotted rgb(51, 51, 51); font-size: 11px; padding-bottom: 10px;">
+		  														<br>Use your existing MyNFBOnline<sup>TM</sup> or BankOnSuperiorSavings<sup>TM</sup> Customer ID (User ID) and Password for your initial login.<br><strong><em>You will need to update your password when you log in.</em></strong>
+		  													</div>
+		  												</div>
+		  												<div style="padding-left: 5px; font-size: 11px; padding-bottom: 20px; padding-top: 10px;">
+		  													<img src="main_files/icon_mouse.gif" alt="Online Services" style="margin-right: 5px;" align="left">
+		  													<span style="font-family: arial; font-style: normal; font-variant: normal; font-weight: bold; font-size: 14px; line-height: normal; font-size-adjust: none; font-stretch: normal;">Access Other Online Services</span>
+		  													<br><br>
+		  													Manage other Capital One accounts.
+		  													<div style="padding: 5px 0px 0px 20px;">
+		  														<li><a href="login.htm">Credit Cards</a></li>
+		  														<li><a href="login.htm">TowerNET</a></li>
+		  														<li><a href="login.htm">Redeem Rewards</a></li>
+		  														<li><a href="login.htm">Other Accounts</a></li>
+		  													</div>
+		  												</div>
+		  											</td>
+										</tr>
+						</tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+							
+
+
+
+						</td>
+	</tr>
+</tbody></table>
+
+				
+			
+<script language="javascript" type="text/javascript">
+<!--
+
+	var gVAM_ValSummary =  new Array({ValSumID:'vldSummary',FmtListFnc:null,GetInner:VAM_ValSumInnerHTML,Grp:'',AutoUpd:true,InvSpc:false,Links:false,RCIS:true,PreListFnc:null,PostListFnc:null,Hdr:'<span class=\'VAMValSummaryHeader\'>Please provide all the requested information.</span>',Ftr:'',ErrMsgCss:'VAMValSummaryErrors',LinkTT:'',Showing:false,HdrSep:'<br />',DispMode:'0'});
+
+
+
+
+
+	var gVAMActions =  new Array({ActnFnc:VAM_DoValidate,InitFnc:VAM_InitValAction,Enabled:true,CID:'VLDUSERIDREQ',Cond: {EvalFnc:VAM_EvalReqTextCond,InitFnc:VAM_InitOneFldCond,Enabled:true,HUEvts:true,IDToEval:'txtUserID',CaseIns:true},CanRun:VAM_CanRunVal,VT:'VAL',ErrMsg:'Please enter a value in the User ID (Customer ID) field.',SumMsg:'Please enter a value in the User ID (Customer ID) field.',TokenRepl:VAM_OneFldReplToken,EvtToVal:1,FmttrFnc:VAM_TextFmttr,Dspl:0,Blnk:true,BlnkCss:'VAMBlinkText',BlinkFnc:VAM_Blink}, 
+                                     {ActnFnc:VAM_DoValidate,InitFnc:VAM_InitValAction,Enabled:true,CID:'VLDUSERIDFORMAT',Cond: {EvalFnc:VAM_EvalRegexCond,InitFnc:VAM_InitOneFldCond,Enabled:true,HUEvts:true,IDToEval:'txtUserID',Expr:'^[\\w\\d\\s!@#$^&*_+=~/?.,():\\-\\[\\]\']+$',Flags:'i',IBT:-1},CanRun:VAM_CanRunVal,VT:'VAL',ErrMsg:'Please enter a valid User ID.',SumMsg:'Please enter a valid User ID.',TokenRepl:VAM_OneFldReplToken,EvtToVal:1,FmttrFnc:VAM_TextFmttr,Dspl:0,Blnk:true,BlnkCss:'VAMBlinkText',BlinkFnc:VAM_Blink}, 
+                                     {ActnFnc:VAM_DoValidate,InitFnc:VAM_InitValAction,Enabled:true,CID:'VLDPASSWORDREQ',Cond: {EvalFnc:VAM_EvalReqTextCond,InitFnc:VAM_InitOneFldCond,Enabled:true,HUEvts:true,IDToEval:'txtPassword',CaseIns:true},CanRun:VAM_CanRunVal,VT:'VAL',ErrMsg:'Please enter a value in the Password field.',SumMsg:'Please enter a value in the Password field.',TokenRepl:VAM_OneFldReplToken,EvtToVal:1,FmttrFnc:VAM_TextFmttr,Dspl:0,Blnk:true,BlnkCss:'VAMBlinkText',BlinkFnc:VAM_Blink}, 
+       
+                                     {ActnFnc:VAM_DoValidate,InitFnc:VAM_InitValAction,Enabled:true,Cond: {EvalFnc:VAM_EvalFixed,InitFnc:VAM_InitCond,Enabled:true,HUEvts:true,Res:1},VT:'CEM',Val:new Array({FID:'vldUserIDReq'},{FID:'vldUserIDFormat'}),LS:false,PSep:'<br/>',IsValid:true,FmttrFnc:VAM_TextFmttr,ErrFldID:'cemUserID',Dspl:2,Blnk:true,BlnkCss:'VAMBlinkText',BlinkFnc:VAM_Blink}, 
+                                     {ActnFnc:VAM_DoValidate,InitFnc:VAM_InitValAction,Enabled:true,Cond: {EvalFnc:VAM_EvalFixed,InitFnc:VAM_InitCond,Enabled:true,HUEvts:true,Res:1},VT:'CEM',Val:new Array({FID:'vldPasswordReq'}),LS:false,PSep:'<br/>',IsValid:true,FmttrFnc:VAM_TextFmttr,ErrFldID:'cemPassword',Dspl:2,Blnk:true,BlnkCss:'VAMBlinkText',BlinkFnc:VAM_Blink});
+
+	var gVAMSubmitIDs =  new Array('btnLogin');
+		// -->
+</script>
+
+			
+
+			<!-- VAM LIC=8984 -->
+<script type="text/javascript">
+<!--
+VAM_InitActions();
+VAM_UpdateOnClick('btnLogin','');
+// -->
+</script>
+
+
+		</form>
+		</div>
+		<!--- /BODY -->
+		
+		<!--- FOOTER -->
+		<table cellpadding="0" cellspacing="0">
+				<tbody><tr>
+					<td align="right" valign="top" width="1%"><img src="main_files/footer_divider.gif"> </td>
+					<td>
+						<div class="footerBar">
+							<table style="width: 750px; vertical-align: top;" cellpadding="0" cellspacing="0">
+								<tbody><tr>
+									<td valign="top" width="1%">
+									</td>
+									<td valign="top" width="15%">
+										<span id="LNKCAPITALONE">CapitalOne.com</span><br>					
+										<a id="LNKHOME" href="login.htm" target="_blank">Home</a><br><br>
+										<span id="LNKLEGAL">Legal</span><br>						
+										<a id="LNKPRIVACY" href="login.htm" target="_blank">Privacy</a><br>
+										<a id="LNKSECURITY" href="login.htm" target="_blank">Security</a><br>
+										<a id="LNKTERMS" href="login.htm" target="_blank">Terms and Conditions</a>
+									</td>
+									<td align="center" valign="top" width="5%"> <img src="main_files/footer_divider.gif"> </td>
+									<td valign="top" width="60%">
+										<div>
+											<div>
+This site provides information about and access to financial services
+offered by the Capital One family of companies, including Capital One
+Bank (USA), N.A. and Capital One, N.A., members FDIC.<br>Consult your account agreement for information about the Capital One company servicing your individual accounts.<br>
+												<br>
+												©2009 Capital One Services, Inc.<br>Capital One and Blank Check® are federally registered service marks. All rights reserved.
+											</div>
+											<div class="printOnly" style="display: none;">
+												Capital One Bank (USA), N.A., <br> ©2009 Capital One Services, Inc. All rights reserved.
+											</div>
+										</div>					
+									</td>
+									<td align="center" valign="top" width="2%"> <img src="main_files/footer_divider.gif"> </td>
+									<td valign="top" width="16%">
+										<div style="text-align: center;">
+											<img id="IMGFDIC" class="screenOnly" src="main_files/fdic_logo.gif" alt="" border="0"> <br><br>
+											<a id="LNKVERISIGN" href="login.htm" target="_blank"><img id="IMGVERISIGN" class="screenOnly" src="main_files/verisign_logo.gif" alt="" border="0"></a>
+										</div>					
+									</td>
+								</tr>
+							</tbody></table>
+						</div>
+					</td>
+					<td align="left" valign="top" width="1%"><img src="main_files/footer_border.jpg"> </td>
+				</tr>
+			</tbody></table>
+		
+		<div class="footerContainer">
+			<div class="printOnly" style="padding-right: 25mm; float: right;"></div>
+		</div>
+		<!--- /FOOTER -->
+		
+	<!-- w=.30 --></body></html>

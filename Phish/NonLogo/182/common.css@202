@@ -1,0 +1,282 @@
+h2 {margin: 0 0 7px 0; color: #027cb2; font: bold normal 15px Arial, Helvetica, sans-serif;}
+h2 a, h2 a:hover, h2 a:active, h2 a:visited {color: #027cb2; text-decoration: none;}
+
+
+/* icons */
+.q_icon {display: inline-block; padding-left: 20px; height: 16px; background: transparent url(/skin/img/icons.png) no-repeat;}
+* html .q_icon {background-image: url(/skin/img/icons_ie6_page.png);}
+
+.q_qip        {background-position: 0    0px;}
+.q_auto       {background-position: 0  -16px;}
+.q_file       {background-position: 0  -32px;}
+.q_friends    {background-position: 0  -48px;}
+.q_games      {background-position: 0  -64px;}
+.q_history    {background-position: 0  -80px;}
+.q_home       {background-position: 0  -96px;}
+.q_horo       {background-position: 0 -112px;}
+.q_humor      {background-position: 0 -128px;}
+.q_job        {background-position: 0 -144px;}
+.q_kards      {background-position: 0 -160px;}
+.q_love       {background-position: 0 -176px;}
+.q_mail       {background-position: 0 -192px;}
+.q_maps       {background-position: 0 -208px;}
+.q_mblogi     {background-position: 0 -224px;}
+.q_memori     {background-position: 0 -240px;}
+.q_photo      {background-position: 0 -256px;}
+.q_referats   {background-position: 0 -272px;}
+.q_shop       {background-position: 0 -288px;}
+.q_sport      {background-position: 0 -304px;}
+.q_tests      {background-position: 0 -320px;}
+.q_tvidi      {background-position: 0 -336px;}
+.q_video      {background-position: 0 -352px;}
+.q_voip       {background-position: 0 -368px;}
+.q_search     {background-position: 0 -384px;}
+.q_settings   {background-position: 0 -400px;}
+.q_infium     {background-position: 0 -416px;}
+.q_online     {background-position: 0 -432px;}
+.q_mobile     {background-position: 0 -448px;}
+.q_bar        {background-position: 0 -464px;}
+.q_skins      {background-position: 0 -480px;}
+.q_smiles     {background-position: 0 -496px;}
+.q_plugins    {background-position: 0 -512px;}
+.q_mail_wb    {background-position: 0 -528px;}
+.q_love_wb    {background-position: 0 -544px;}
+.q_friends_wb {background-position: 0 -560px;}
+.q_history_wb {background-position: 0 -576px;}
+.q_paint      {background-position: 0 -592px;}
+.q_avatars    {background-position: 0 -608px;}
+.q_oboi       {background-position: 0 -624px;}
+.q_photolink  {background-position: 0 -640px;}
+.q_ip         {background-position: 0 -656px;}
+.q_anekdot    {background-position: 0 -672px;}
+.q_flash      {background-position: 0 -688px;}
+.q_converter  {background-position: 0 -704px;}
+.q_fun        {background-position: 0 -720px;}
+.q_sms        {background-position: 0 -736px;}
+.q_oneworld   {background-position: 0 -752px;}
+.q_ae         {background-position: 0 -768px;}
+.q_ziza       {background-position: 0 -784px;}
+.q_news       {background-position: 0 -800px;}
+.q_hosting    {background-position: 0 -816px;}
+/* //icons */
+
+
+/* login form */
+.qh_login {padding: 10px; width: 350px; top: 29px; right: 10px; z-index: 99; font: normal 12px/12px Arial; background-color: #fff; border: #ccc solid 1px;}
+form.qh_login a {color: #0b98ca; text-decoration: underline;}
+form.qh_login a:hover {color: #0b98ca; text-decoration: none;}
+.qh_login .qh_error {margin-bottom: 5px; color: #ff0000;}
+.qh_login .qh_splitter {margin: 10px 0; height: 1px; background-color: #ccc; overflow: hidden;}
+
+.qh_login .qh_field {padding: 1px; width: 134px; height: 16px; border: 1px #999 solid; vertical-align: middle;}
+.qh_login .qh_field_inact {color: #888;}
+.qh_login .qh_button {width: 61px; height: 20px; border: 0; background: #efefef url(/i/qip_bar_bg.png) no-repeat 0 0; vertical-align: middle;}
+
+.qh_login .qh_extra {text-align: center;}
+.qh_login .qh_extra input {margin: 0; width: 14px; height: 14px; vertical-align: middle;}
+/* //login form */
+
+
+/* grey head */
+.qip_head {padding: 5px 10px 0; min-width: 980px; height: 24px; font: normal 11px/11px Arial; background-color: #737373; overflow: hidden;}
+.qip_head a {color: #fff; text-decoration: underline; outline: none;}
+.qip_head a:hover {color: #fff; text-decoration: none;}
+
+.qh_user_block {margin: 0; padding: 0; height: 24px;}
+.qh_user_block li {float: left; margin: 0 4px; padding: 0; height: 24px; list-style-type: none; line-height: 16px;}
+.qh_user_block li div {padding: 2px 5px;}
+.qh_user_block li div.qip_username {color: #fff;}
+
+.qh_menu {margin: 0; padding: 0; height: 24px; overflow: hidden;}
+.qh_menu li {float: left; margin: 0 4px; padding: 0; height: 24px; list-style-type: none; line-height: 16px;}
+.qh_menu li div {padding: 2px 7px 4px;}
+.qh_menu a, .qh_menu a:hover {text-decoration: none; white-space: nowrap;}
+.qhm_current {background: #fff url(/i/qip_bar_bg.png) no-repeat 100% -53px;}
+.qhm_current div {background: url(/i/qip_bar_bg.png) no-repeat 0 -23px;}
+
+/* ie6 */
+* html .qip_head .q_icon {background-image: url(/skin/img/icons_ie6_head.png);}
+* html .qip_head .qhm_current .q_icon {background-image: url(/skin/img/icons_ie6_page.png);}
+/* //grey head */
+
+
+/* white head */
+.qip_top {padding: 0 10px; min-width: 980px; font: normal 11px/22px Arial, Helvetica, sans-serif;}
+.qip_top .qtl_delimiter {margin: 0 6px;}
+.qt_login .q_mail_top, .qt_login .q_mail_top a, .qt_login .qtl_login {color: #006600;}
+
+/* ie6 */
+* html .qip_top .q_icon {background-image: url(/skin/img/icons_ie6_page.png);}
+/* //white head */
+
+
+/* new white head */
+.qip_white_head {padding: 4px 20px; min-width: 960px; height: 12px; font: normal 11px/11px Tahoma; border-bottom: 1px solid #ccc;}
+.qip_white_head a {outline: none; text-decoration: underline;}
+.qip_white_head a:hover {text-decoration: none;}
+
+.qip_white_head a,
+.qip_white_head a:hover,
+.qip_white_head .qwh_user_block,
+.qip_white_head .qwh_menu {color: #231f20;}
+
+.qwh_user_block {margin: 0; padding: 0; height: 12px;}
+.qwh_user_block li {float: left; margin: 0 0 0 6px; padding: 0; height: 12px; list-style-type: none; line-height: 11px;}
+.qwh_user_block li.qwh_delimiter {color: #808285;}
+.qwh_user_block .q_mail_top, .qwh_user_block .q_mail_top:hover {color: #027cb2;}
+.qwh_user_block .qwh_logout {color: #808285;}
+
+.qwh_menu {margin: 0; padding: 0; height: 12px;}
+.qwh_menu li {float: left; margin: 0 10px 0 0; padding: 0; height: 12px; list-style-type: none; line-height: 11px;}
+.qwh_menu a {font-weight: normal; white-space: nowrap;}
+
+.qwh_menu .qm_list {z-index: 11;}
+.qwh_menu .qm_link {z-index: 12; font-size: 9px; font-family: Arail; text-decoration: none;}
+.qwh_menu .qm_link span {height: 11px; font-size: 11px; font-family: Tahoma;}
+.qwh_menu .qm_inactive .qm_link span,
+.qwh_menu .qm_inactive .qm_link:hover span {border-bottom-color: #000;}
+
+.qwh_menu_auth #qwh_menu_mail,
+.qwh_menu_auth #qwh_menu_horo {display: none;}
+
+.qip_white_head .qh_login {top: 20px;}
+/* //new white head */
+
+
+/* more list */
+li.q_more {margin-right: 0; height: 15px;}
+.qm_inactive .qm_list {display: none;}
+
+.qm_list {position: absolute; z-index: 9; margin: -5px 0 0 -8px; padding: 25px 7px 3px; width: 75px; height: auto; background-color: #fff; border: #ccc solid 1px; text-align: left;}
+ul.qm_list li {float: none; margin: 3px 0; padding: 0; list-style: none;}
+.qm_list li a {padding: 0; text-align: left; text-decoration: underline;}
+.qm_list li a:hover {text-decoration: none;}
+.qm_list li.qml_services {margin-top: 10px;}
+
+.qm_link {position: relative; height: 16px; z-index: 10; text-decoration: none; cursor: pointer; cursor: hand;}
+.qm_link span {display: inline-block; height: 13px; border-bottom: #fff dotted 1px;}
+.qm_inactive .qm_link span {border-bottom: #027cb2 dotted 1px;}
+.qm_inactive .qm_link:hover span {border-bottom: #027cb2 solid 1px;}
+/* //more list */
+
+
+/* new search form */
+.q_search_tabs {margin: 0 0 3px; height: 15px;}
+.q_search_tabs li {float: left; padding-right: 11px;}
+.q_search_tabs a.qst_active,
+.q_search_tabs a.qst_active:hover {color: #000; font-weight: bold; text-decoration: none; cursor: default;}
+
+.q_search_form table {
+	width: 100%;
+	_width: 98%;
+	_text-align: center;
+}
+
+.qs_field {background: transparent left -64px repeat-x;}
+.qs_field_l {background: transparent left top no-repeat;}
+.qs_field_r {background: transparent right -32px no-repeat;}
+.qs_field, .qs_field_l, .qs_field_r {height: 32px; background-image: url(/i/pip/tfield.gif);}
+
+.qs_tfield {width: 98%; height: 18px; font: bold 16px/16px Arial; border: none; color: #808285; background-color: transparent; overflow: hidden;
+	padding: 7px 1%;
+	//padding: 8px 5px 4px 5px;
+}
+.qs_submit_cell {width: 77px;}
+.qs_submit {margin-left: 10px; width: 77px; height: 30px; border: none; font: bold 16px/16px Arial; color: #fff;
+	background: #02b0ef url(/i/pip/submit.gif) left top no-repeat;}
+
+.qs_example {margin: 2px 87px 0 0; height: 16px; color: #808285;}
+.qs_example span {color: #027cb2; border-bottom: #027cb2 dotted 1px; cursor: pointer; cursor: hand;}
+/* //new search form */
+
+
+/* mail login block */
+.qip_mail {}
+.qip_mail h2 {margin: 0; color: #fff; font: bold 15px Arial, Helvetica, sans-serif; text-align: center;}
+.qip_mail h2 a {color: #fff; text-decoration: none;}
+.qip_mail .q_button {margin: 0; width: 60px; height: 19px; background: #71c4e2 url(/skin/img/qip_button.png) left top no-repeat; border: none; vertical-align: middle; font-size: 12px;}
+
+
+.qm_auth .qm_login_t,
+.qm_auth .qm_login_m,
+.qm_auth .qm_login_b {padding: 0 7px;}
+
+.qm_auth .qm_login_t {padding-top: 5px; background: transparent url(/skin/img/qip_own.png) left top no-repeat;}
+
+.qm_auth .qm_login_m {padding: 5px 7px; color: #fff; text-align: center; background: transparent url(/skin/img/qip_mail_bg_line.gif) left top repeat-y;}
+
+.qm_auth .qm_login_b {padding-bottom: 5px; background: transparent url(/skin/img/qip_own.png) left bottom no-repeat;}
+.qm_auth .qm_login_b a, .qip_mail .qm_auth .qm_login_b a:hover {color: #fff;}
+.qm_auth .qm_login_b .q_icon {margin: 2px auto;}
+.qm_auth .qm_login_b .q_sms {color: yellow;}
+.qm_auth .qm_login_b .qm_splitter {margin: 6px 0; height: 1px; background-color: #eee; overflow: hidden;}
+@-moz-document url-prefix() { .qm_auth .qm_login_b .q_button {padding-bottom: 0.3em;} }
+
+
+.qm_unauth {}
+.qm_unauth form {margin-bottom: 5px; padding: 7px; height: 109px; background: #1fafe4 url(/skin/img/qip_mail_bg.png) left top no-repeat; overflow: hidden;}
+.qm_unauth h2 {padding-bottom: 18px;}
+.qm_unauth .qm_field {padding: 1px 5px; width: 94%; height: 16px; border-width: 0; color: #999999; display: block;
+	margin: 6px 0;
+	//margin: 4px 0;
+}
+.qm_unauth .q_nobr {color: #fff; font-size: 11px; line-height: 16px;}
+.qm_unauth .q_nobr input {margin: 0 0 2px 0; vertical-align: middle;}
+
+.qm_unauth .qm_links {padding-left: 8px;}
+/* mail login block */
+
+
+/* left menu */
+.qip_left_menu {float: left; margin: 10px 0 20px; font-size: 11px;}
+
+.qlm_small {float: left; margin: 5px 0px 0 0px; width: 90px; line-height: 16px; overflow: hidden;}
+.qlm_small .qlm_new {margin: -21px 0 0 62px; height: 21px; color: #f00;}
+.qlm_services {width: 90px;
+	margin: 5px 45px 0;
+	_margin: 5px 22px 0;
+}
+/* left menu */
+
+
+/* footer */
+.qip_footer {margin: -46px auto 0 auto; padding: 7px 10px; width: 980px; min-width: 980px; font: normal 11px/31px Arial; border-top: 1px solid #737373;}
+.qf_stretch {width: auto;}
+
+.qip_footer, .qf_left, .qf_right, .qf_center {height: 31px;}
+
+.qf_left  {float: left;  width: 100px; text-align: left;}
+.qf_right {float: right; width: 350px; text-align: right;}
+.qf_center {text-align: center;}
+
+.qf_right .qf_counter {padding-right: 5px;}
+.qf_right img {display: block; border: none;}
+
+.qf_c31x31 {width: 31px; height: 31px;}
+.qf_c88x31 {width: 88px; height: 31px;}
+
+.qf_bigmir {font: 10px/10px Tahoma; color: #027cb2;}
+.qf_bigmir .qf_bm_t {height: 2px; overflow: hidden; background: url('http://i.bigmir.net/cnt/samples/diagonal/b59_top.gif') left top no-repeat;}
+.qf_bigmir .qf_bm_m {background: url('http://i.bigmir.net/cnt/samples/diagonal/b59_center.gif') left top repeat-y;}
+.qf_bigmir .qf_bm_b {height: 2px; overflow: hidden; background: url('http://i.bigmir.net/cnt/samples/diagonal/b59_bottom.gif') left top no-repeat;}
+.qf_bigmir .qf_bm_m .qf_bm_logo {padding-top: 1px; height: 14px; text-align: center;}
+.qf_bigmir .qf_bm_m .qf_bm_data {padding: 0 6px; height: 12px; color: #666;}
+.qf_bigmir .qf_bm_logo a {text-decoration: none;}
+.qf_bigmir .qf_bm_logo span {color: #f00;}
+.qf_bigmir .qf_bm_data .qf_bm_hosts {float: left;}
+.qf_bigmir .qf_bm_data .qf_bm_hits {float: right;}
+/* //footer */
+
+
+/* settings */
+.q_small {font-size: 11px;}
+.q_bold {font-weight: bold;}
+.q_hidden {display: none;}
+.q_abs {position: absolute;}
+.q_fl {float: left;}
+.q_fr {float: right;}
+.q_nobr {white-space: nowrap;}
+.q_cl {clear: left;}
+.q_cr {clear: right;}
+.q_cb {clear: both;}
+/* settings */

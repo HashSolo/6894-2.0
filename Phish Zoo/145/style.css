@@ -1,0 +1,28 @@
+.vhh4 { text-align:center; margin-bottom:15px; color:#92C100; font-weight:bold; }
+hr { height:0px; border:none; border-top:1px solid; margin:15px 0px; }
+.cent { text-align:center; }
+.proj { width:680px; margin:0px auto; }
+.lvh { width:240px; float:left; }
+.lvh div { padding-left:66px; margin-bottom:10px; }
+.con { background:url(http://err.agava.ru/fh/s/pic_01.gif) left top no-repeat; }
+.bis { background:url(http://err.agava.ru/fh/s/pic_02.gif) left top no-repeat; } 
+.rvh { margin-left:240px; width:440px; padding-left:15px; }
+.rvh p { padding:5px 0px 0px 30px; margin-bottom:5px; }
+.jobvh { background:url(http://err.agava.ru/fh/s/pic_03.gif) left top no-repeat; }
+.znak { background:url(http://err.agava.ru/fh/s/pic_04.gif) left top no-repeat; }
+.test { background:url(http://err.agava.ru/fh/s/pic_05.gif) left top no-repeat; }
+.vsem { background:url(http://err.agava.ru/fh/s/pic_06.gif) left top no-repeat; }
+.book { background:url(http://err.agava.ru/fh/s/pic_07.gif) left top no-repeat; }
+.comp { background:url(http://err.agava.ru/fh/s/pic_08.gif) left top no-repeat; }
+.avto { background:url(http://err.agava.ru/fh/s/pic_11.gif) left top no-repeat; }
+.serv { background:url(http://err.agava.ru/fh/s/pic_06.gif) left top no-repeat; }
+.tour { background:url(http://err.agava.ru/fh/s/pic_12.gif) left top no-repeat; }
+.net { background:url(http://err.agava.ru/fh/s/pic_10.gif) left top no-repeat; }
+
+*:first-child+html .proj { width:700px; }
+*html .proj { width:700px; }
+*:first-child+html hr { border:1px solid #4B4242; } 
+*html hr { border:1px solid #4B4242; } 
+*html .personal .l { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://err.agava.ru/vh/i/personal_l.png",sizingMethod="crop"); }
+*html .personal .r { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://err.agava.ru/vh/i/personal_r.png",sizingMethod="crop"); }
+*html .personal div { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://err.agava.ru/vh/i/personal_c.png",sizingMethod="scale"); }

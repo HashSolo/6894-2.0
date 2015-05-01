@@ -1,0 +1,3685 @@
+/*
+HTML redefined styles
+*/
+body,
+.wpsPortletBody,
+.wpsPortletText,
+.wpsEditText,
+.wpsPortletSmText,
+.wpsEditSmText,
+.wpsPortletTinyText,
+.portlet-font
+{
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333;
+}
+
+img
+{
+	border: 0px;
+}
+
+form
+{
+	margin: 0px;
+	display: inline;
+}
+
+input,
+.wpsEditField,
+.portlet-form-input-field
+{
+	vertical-align: middle;
+}
+
+textarea,
+.wpsEditField,
+.portlet-form-input-field
+{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1
+{
+	font-size: 160%;
+	font-weight: normal;
+	margin: 0px 15px 5px 0px;
+	padding: 0px;
+}
+
+h2
+{
+	font-size: 125%;
+	margin: 0px 0px 5px 0px;
+}
+
+h3
+{
+	color: #333;
+	font-size: 110%;
+	margin: 0px 0px 6px 0px;
+	padding: 0px;
+	line-height: 110%;
+}
+
+table td
+{
+	padding: 6px 8px 6px 9px;
+}
+
+table th a
+{
+	padding-right: 7px;
+	color: #333 !important;
+}
+
+table p,
+.wpsTableText,
+.portlet-section-body
+{
+	margin: 0px !important;
+}
+
+table th,
+.wpsTableHead th
+{
+	color: #333;
+	padding: 5px 0px;
+}
+
+
+table a:lang(en)
+{
+	/* FIX FOR: mozilla*/
+	font-weight: bold !important;
+}
+
+table,
+.wpsTable
+{
+	font-size: 100%;
+	border-collapse: collapse;
+	/* FIX FOR: PC IE5.5 & PC IE */
+	width: 90%;
+	wid\th: 100%;
+	margin-bottom: 4px;
+}
+
+/* used to seperate links in order to allow screen readers to pause between links */
+i
+{
+	display: none;
+}
+
+/*
+Containers
+*/
+
+div.containerGlobal
+{
+	width: 760px;
+}
+
+div.containerLogoArea
+{
+	width: 350px;
+	float: left;
+}
+
+.extVariableContentContainer
+{
+	background:url("../left_nav_bg.gif") repeat-y left;
+	float:left;
+}
+div.containerLeft
+{
+	width: 140px;
+	float: left;
+	background-color: #EEE;
+	margin-right: 12px;
+}
+
+div.containerMain
+{
+	width: 604px;
+	float: left;
+	background-color:#fff;
+}
+
+div.extFullWidth div.containerMain
+{
+	width: 760px;
+}
+
+div.containerMainExpanded
+{
+	width: 760px;
+	overflow: hidden;
+}
+
+	div.containerMainExpanded div.hsbcMainContent
+	{
+		padding-left: 10px;
+		width: 760px;
+		wid\th: 750px;
+	}
+
+	.hsbcOneCols
+	{
+		width: 604px;
+	}
+	.hsbcTwoCols
+	{
+		width: 288px;
+	}
+
+
+div.containerFooter
+{
+	width: 100%;
+	float: left;
+}
+
+div.hsbcMainContent
+{
+	float: left;
+	width:604px;
+	/*font-size: 80%;*/
+}
+
+/*
+Divlets
+*/
+
+/* ENTITY DIVLET
+---------------------------------------------------------------------------------------------- */
+
+div.containerEntity
+{
+	width: 760px;
+}
+
+div.hsbcEntity
+{
+	float:left;
+	background: url("../bgEntityTabBack.gif") repeat-x top left;
+
+	/* mac-ie */
+	font-size:68%;
+	/*non-mac-ie \*/
+	font-size:61%;
+	clear:both;
+	/* */
+	padding: 0px 7px 0px 11px ;
+	width: 742px;
+}
+
+div.hsbcEntity div.hsbcEntityTextArea01
+{
+	float:left;
+	padding: 3px 0px 0px;
+	color: #666;
+}
+
+div.hsbcEntity div.hsbcEntityTextArea02
+{
+	float:right;
+
+}
+div.hsbcEntity ul
+{
+	display: inline;
+	padding: 0px;
+	margin: 0px;
+
+
+}
+div.hsbcEntity ul li
+{
+	float: left;
+	list-style: none;
+	padding: 3px 13px 0px 0px;
+	margin: 0px;
+	background: url("../bgEntityTabDivider.gif") no-repeat top right;
+
+	height: 18px;
+}
+div.hsbcEntity ul li a
+{
+
+}
+div.hsbcEntity ul li a:hover
+{
+	color: #f00;
+	text-decoration: none;
+}
+div.hsbcEntity ul li.hsbcEntityTabSelectedLeft
+{
+	padding: 3px 0px 0px;
+	background: none;
+}
+div.hsbcEntity ul li.hsbcEntityTabLastTab
+{
+	background: none;
+	padding: 3px 8px 0px 0px;
+}
+
+div.hsbcEntity a
+{
+	color:#333;
+	text-decoration:none;
+}
+div.hsbcEntity a:hover
+{
+	color:#333;
+	text-decoration:underline;
+}
+div.hsbcEntity ul li.hsbcEntityTabSelected
+{
+	background: url("../bgEntityTabLeft.gif") no-repeat top left;
+	padding: 3px 0px 0px 14px;
+}
+
+div.hsbcEntity ul li.hsbcEntityTablast
+{
+	float: left;
+	list-style: none;
+	height: 18px;
+	margin: 0px;
+	background: url("../bgEntityTabDividerP.gif") no-repeat top left;
+	padding: 3px 13px 0px 6px;
+}
+
+
+div.hsbcEntity ul li.hsbcEntityTabSelected a
+{
+	background: url("../bgEntityTabSlider.gif") no-repeat top right;
+	height: 18px;
+	padding: 3px 14px 6px 0px;
+	color: #F00;
+	\margin-top: -3px;
+}
+div.hsbcEntity ul li.hsbcEntityTabSelected a:hover
+{
+	color:#F00;
+}
+
+
+/* Logo Area Divlet (start) */
+	div.hsbcDivletLogo
+	{
+		height: 52px;
+		width: auto;
+	}
+
+		div.hsbcDivletLogo .hsbcDivletLogoImage
+		{
+			padding: 13px 0px 0px 10px;
+			float: left;
+			width: 141px;
+		}
+
+		div.hsbcDivletLogo .hsbcDivletLogoTagLine
+		{
+			float: left;
+			vertical-align: middle;
+			padding: 18px 0px 0px 12px;
+			font: bold 14px Arial, Helvetica, sans-serif;
+			color: #f00;
+		}
+/* Logo Area Divlet (end) */
+
+/* Search Area Divlet (start) */
+	div.hsbcDivletSearch
+	{
+		float: right;
+		text-align: right;
+		font-size: 80%;
+		margin-top: 13px;
+		padding-right: 6px;
+	}
+	div.hsbcDivletSearch input
+	{
+		vertical-align: middle;
+	}
+/* Search Area Divlet (end) */
+
+/* Tab menu Divlet (start) */
+	div.hsbcDivtletTabMenu,
+	.wpsPortletTabSet
+	{
+		background:url("../tab_bg.gif") no-repeat right bottom;
+		height: 44px;
+		width: 100%;
+		clear: left;
+	}
+		div.hsbcDivtletTabMenu ul
+		{
+			margin: 0px;
+			padding: 0px;
+		}
+		div.hsbcDivtletTabMenu ul li
+		{
+			margin: 0px;
+			padding: 0px 0px 0px 6px;
+			list-style: none;
+			float: left;
+			height: 44px;
+			background: url("../tab_off_left.gif") no-repeat top left;
+			text-align: center;
+		}
+		div.hsbcDivtletTabMenu ul li a,
+		.wpsPortletTabLink
+		{
+			padding: 0px 9px 0px 2px;
+			margin: 0px;
+			height: 44px;
+			line-height: 36px;
+			float: left;
+			display: block;
+			background: url("../tab_off_right.gif") no-repeat top right;
+			text-decoration: none;
+			color: #333;
+			font-size: 75%;
+			font-weight:bold;
+			vertical-align: 50%;
+		}
+		div.hsbcDivtletTabMenu ul li a:hover,
+		.wpsPortletTabLink:hover
+		{
+			color: #f00 !important;
+		}
+		div.hsbcDivtletTabMenu ul li.hsbcDivtletTabMenuSelected,
+		.wpsPortletSelectedTab
+		{
+			background: url("../tab_on_left.gif") no-repeat top left;
+		}
+		div.hsbcDivtletTabMenu ul li.hsbcDivtletTabMenuSelected a,
+		.wpsPortletSelectedTab a,
+		.wpsPortletSelectedTabLink
+		{
+			background: url("../tab_on_right.gif") no-repeat top right;
+		}
+		div.hsbcDivtletTabMenu ul li.extFirstTab
+		{
+			background: url("../first_tab_off_left.gif") no-repeat top left;
+			padding-left: 15px;
+		}
+		div.hsbcDivtletTabMenu ul li.extFirstTabSelected
+		{
+			background: url("../first_tab_on_left.gif") no-repeat top left;
+			padding-left: 15px;
+		}
+		div.hsbcDivtletTabMenu ul li.extFirstTabSelected a
+		{
+			background: url("../tab_on_right.gif") no-repeat top right;
+		}
+		div.hsbcDivtletTabMenu ul li.extSelectedTabRight
+		{
+			background: url("../tab_off_left_selected_right.gif") no-repeat top left;
+		}
+		div.hsbcDivtletTabMenu ul li.extSelectedTabRight a
+		{
+			background: url("../tab_off_right_selected_right.gif") no-repeat top right;
+		}
+		div.hsbcDivtletTabMenu ul li.extSelectedTabLeft
+		{}
+		div.hsbcDivtletTabMenu ul li.extSelectedTabLeft a
+		{
+			background: url("../tab_off_right_selected_left.gif") no-repeat top right;
+		}
+		div.hsbcDivtletTabMenu ul li.extLastTabSelected
+		{
+			background:   url("../tab_on_left.gif") no-repeat top left;
+		}
+		div.hsbcDivtletTabMenu ul li.extLastTabSelected a
+		{
+			background:  url("../last_tab_on_right.gif") no-repeat top right;
+			padding-right: 34px;
+		}
+		div.hsbcDivtletTabMenu ul li.extRightAlignTab
+		{
+			float: right;
+			padding-right: 14px;
+		}
+		div.hsbcDivtletTabMenu ul li.extRightAlignTabSelected
+		{
+			background:  url("../first_tab_on_left.gif") no-repeat top left;
+			float: right;
+			padding-left: 15px;
+			padding-right: 0px;
+		}
+		div.hsbcDivtletTabMenu ul li.extRightAlignTabSelected a
+		{
+			background: url("../right_align_tab_on_right.gif") no-repeat top right;
+			padding-right: 23px;
+			padding-left: 3px;
+		}
+		div.hsbcDivtletTabMenu ul li.extSelectedTabRightEndBlock
+		{
+			background: url("../tab_off_left_selected_right_end_block.gif") no-repeat top left;
+		}
+		div.hsbcDivtletTabMenu ul li a.extDoubleLine
+		{
+			line-height: 13px;
+			padding-top: 4px;
+			/* FIX FOR: PC IE5.5 and PC IE5.01 */
+			height: 44px;
+			hei\ght: 40px;
+		}
+		div.hsbcDivtletTabMenu ul li a .extMacIE
+		{
+			float: left;
+			clear: left;
+			padding-top: 2px;
+			/*FIX FOR: MAC IE \*/
+			float: none;
+			clear: none;
+			padding-top: 0px;
+			/* */
+		}
+/* Tab menu Divlet (end) */
+
+/* Log on/log off Divlet (start) */
+div.hsbcDivletLogon
+	{
+		float:left;
+		width:760px;
+		padding-top:5px;
+		background-color:#fff;
+	}
+	div.hsbcDivletLogon p
+	{
+		padding:7px 10px 8px 0px;
+		margin:0px;
+		text-align:right;
+		font-size:70%;
+	}
+	div.hsbcDivletLogon span
+	{
+		color:#f00;
+	}
+	div.hsbcDivletLogon .hsbcDivletLogonCurrentlyLoggedOff span
+	{
+		color:#666;
+	}
+
+
+	div.hsbcDivletLogon span.hsbcDivletLogonSpan
+	{
+
+		background:url("../btn_log_off.gif") no-repeat left;
+		background-repeat:no-repeat;
+		background-position:left;
+		padding:3px 11px 4px 14px;
+		margin:4px 4px 4px 0px;
+
+	}
+
+	div.hsbcDivletLogon a.hsbcDivletLogonLink
+	{
+		text-decoration:none;
+		color:#fff;
+		font-weight:bold;
+	}
+
+
+	div>.hsbcDivletLogon a.hsbcDivletLogonLink
+	{color:#f00;text-decoration:underline;}
+	div > .hsbcDivletLogon a.hsbcDivletLogonLink
+	{color:#fff;text-decoration:none;}
+
+	div.hsbcDivletLogon .hsbcDivletLogonCurrentlyLoggedOff a.hsbcDivletLogonLink
+	{
+		background:url("../btn_log_on.gif") no-repeat left;
+	}
+	div>.hsbcDivletLogon .hsbcDivletLogonCurrentlyLoggedOff a.hsbcDivletLogonLink
+	{background:none;color:#36c;}
+	div > .hsbcDivletLogon .hsbcDivletLogonCurrentlyLoggedOff a.hsbcDivletLogonLink
+	{background:url("../btn_log_on.gif") no-repeat left;color:#fff;}
+
+	div.hsbcDivletLogon a.hsbcDivletLogonLink:hover
+	{
+		text-decoration:underline;
+	}
+	div.hsbcDivletLogon a.hsbcDivletLogonSupportLink
+	{
+		color:#36c;
+	}
+/* Log on/log off Divlet (end) */
+
+/* Breadcrumb Divlet (start) */
+	div.hsbcDivletBreadCrumb,
+	.wpsBreadcrumbTrail
+	{
+		float: left;
+		margin: 6px 0px 0px 0px;
+		padding:0px 0px 10px 10px;
+		width: 620px;
+	}
+		div.hsbcDivletBreadCrumb ul
+		{
+			margin: 0px;
+			padding: 0px;
+		}
+		div.hsbcDivletBreadCrumb ul li,
+		.wpsBreadcrumbTrail
+		{
+			margin: 0px;
+			padding: 0px 4px 0px 10px;
+			list-style: none;
+			float: left;
+			background: url("../breadcrumb_arrow.gif") no-repeat left;
+			white-space: nowrap;
+			font-size: 80%;
+			color: #666;
+		}
+		div.hsbcDivletBreadCrumb ul li a,
+		.wpsBreadcrumbTrail a
+		{
+			text-decoration: none;
+			color: #666;
+		}
+		div.hsbcDivletBreadCrumb ul li.hsbcDivletBreadCrumbFirst
+		{
+			background: none;
+			padding-left: 0px;
+		}
+		div.hsbcDivletBreadCrumb ul li.hsbcDivletBreadCrumbLast
+		{
+		}
+/* Breadcrumb Divlet (end) */
+
+/* Navigation list divlet (start) */
+	div.hsbcDivletNavigation,
+	.portlet-menu
+	{
+	}
+		div.hsbcDivletNavigation ul
+		{
+			margin: 0px;
+			padding: 0px 0px 8px 5px;
+			background-color:#fff;
+		}
+		div.hsbcDivletNavigation ul li,
+		.portlet-menu-item
+		{
+			background-image:url(../images/content/arrow_dgrey2.gif);
+			background-repeat:no-repeat;
+			background-position:left 0.3em;
+			list-style: none;
+			/* line-height: 100%;  commented for Defect 1536 */
+			padding: 1px 16px 3px 10px;
+		}
+		div.hsbcDivletNavigation ul li a
+		{
+			text-decoration: none;
+			color: #333;
+			/*font-size: 80%;*/
+			font-weight: bold;
+		}
+		div.hsbcDivletNavigation ul li a:hover,
+		.portlet-menu-item-hover
+		{
+			color: #f00 !important;
+		}
+		div.hsbcDivletNavigation ul li.hsbcDivletNavigationSelected,
+		.portlet-menu-item-selected
+		{
+			background-image:url("../nav_arrow_right_selected.gif");
+		}
+		div.hsbcDivletNavigation ul li.hsbcDivletNavigationSelectedWithChildren
+		{
+			background-image:url("../nav_arrow_down_selected.gif");
+		}
+		div.hsbcDivletNavigation ul li.hsbcDivletNavigationSelected a,
+		div.hsbcDivletNavigation ul li.hsbcDivletNavigationSelectedWithChildren a
+		{
+			color: #f00;
+		}
+		div.hsbcDivletNavigation ul li ul
+		{
+			margin: 3px 0px 0px 1px;
+			padding: 0px;
+		}
+		div.hsbcDivletNavigation ul li ul li,
+		.portlet-menu-cascade-item
+		{
+			margin: 0px;
+			padding: 3px 0px 3px 2px;
+			background: none;
+			line-height: 80%;
+			/* \*/
+			line-height: 70%;
+			/* */
+		}
+		div.hsbcDivletNavigation ul li ul li a
+		{
+			color: #333 !important;
+			font-size: 70%;
+		}
+		div.hsbcDivletNavigation ul li ul li.hsbcDivletNavigationSelected,
+		.portlet-menu-cascade-item-selected
+		{
+			background: none;
+		}
+		div.hsbcDivletNavigation ul li ul li.hsbcDivletNavigationSelected a
+		{
+			color: #f00 !important;
+		}
+
+		div.hsbcDivletNavigation .extNavigationHeading
+		{
+			color: #666;
+			font-size: 80%;
+			margin: 0px 0px 3px 10px;
+			font-weight: bold;
+			font-style: italic;
+		}
+		div.hsbcDivletNavigation .extBackLink
+		{
+			background-image:url(../images/content/arrow_dgrey2.gif);
+		}
+		/* extSecondaryList (start) */
+		.extSecondaryList
+		{
+			clear:left;
+			padding-top:10px;
+		}
+		.extSecondaryList ul
+		{
+			background:none!important;
+		}
+		/* extSecondaryList (end) */
+
+
+		/* extendedList (start) */
+		.extendedList
+		{
+			clear:left;
+			padding-top:10px;
+		}
+		.extendedList ul
+		{
+			background:none!important;
+		}
+		/* extendedList (end) */
+
+
+		/* extFurtherInfo (start) */
+		.extFurtherInfo
+		{
+			float:left;
+		}
+		.extFurtherInfo a
+		{
+			text-decoration: none !important;
+			float:left;
+			color: #333;
+			/*font-size: 80%;*/
+			font-weight: bold;
+			width:140px;
+			margin:0px 0px 5px 5px;
+			padding:10px 0px 0px 10px;
+			background-image:url(../images/content/arrow_dgrey2.gif);
+			background-repeat:no-repeat;
+			background-position:left 80%;
+		}
+                .extFurtherInfo a.normalRedHsbcLink
+		{
+		        background-image : none ;
+		        float : none;
+		        color : #f00;
+		        margin : 0px 0px 0px 0px;
+		        padding : 0px 0px 0px 0px;
+		}
+		.extFurtherInfo a.normalHsbcLink
+		{
+		        background-image : none ;
+	                float : none;
+		        margin : 0px 0px 0px 0px;
+		        padding : 0px 0px 0px 0px;
+		}
+		.extFurtherInfo a:hover
+		{
+			color: #f00 !important;
+		}
+		.extFurtherInfo p
+		{
+			font-size:68%;
+			color:#666;
+			margin:0px;
+			padding:5px 10px 5px 10px;
+			background-color:#fff;
+			width:140px;
+			wid\th:130px;
+			float: left;
+			clear: left;
+			overflow:hidden;
+		}
+		.extFurtherInfo p span
+		{
+			float:none;
+			display:block;
+			/* \*/
+			float:left;
+			/* */
+			overflow:hidden;
+			width:120px;
+		}
+		/* extFurtherInfo (end) */
+/* Navigation list divlet (end) */
+
+/* Footer divlet (start) */
+	div.hsbcDivletFooterLinks,
+	.wpsCopyrightText
+	{
+		font-size: 70%;
+		width: 100%;
+		float: left;
+		margin: 10px 0px;
+	}
+		div.hsbcDivletFooterLinks p,
+		.wpsCopyrightText p
+		{
+			margin: 4px 0px 0px 10px;
+			padding: 6px 0px;
+			background: url("../dash_line.gif") repeat-x top left;
+			height: 1em;
+			color: #666;
+		}
+		div.hsbcDivletFooterLinks p a,
+		.wpsCopyrightText p a
+		{
+			font-weight: bold;
+			color: #666;
+			text-decoration: none;
+		}
+		div.hsbcDivletFooterLinks p a:hover,
+		.wpsCopyrightText p a:hover
+		{
+			text-decoration: underline !important;
+		}
+		div.hsbcDivletFooterLinks p span.hsbcDivletFooterLinksLeft,
+		.wpsCopyrightText p span.hsbcDivletFooterLinksLeft
+		{
+			float: left;
+		}
+		div.hsbcDivletFooterLinks p span.hsbcDivletFooterLinksRight,
+		.wpsCopyrightText p span.hsbcDivletFooterLinksLeft
+		{
+			float: right;
+			font-weight: bold;
+		}
+/* Footer divlet (end) */
+/* END OF THEME STYLES */
+
+	div.hsbcRightContent
+	{
+		display:none;
+	}
+
+/* Balances divlet (start) */
+	.hsbcDivletBox
+	{
+		padding:6px 0px 0px 0px;
+		margin: 0px;
+		width: 140px;
+		float: left;
+	}
+	.hsbcDivletBox .extSafariFix
+	{
+		font-size: 1px;
+		margin: 0px;
+		height: 1px;
+		float: left;
+		width: 140px;
+		display: block;
+		border-bottom:2px solid #fff;
+	}
+	.hsbcDivletBox .extIESixFix
+	{
+		width:1px;
+		height:1px;
+		position:absolute;
+		left:-2000px;
+		top:-2000px;
+	}
+	.hsbcDivletBox .hsbcSeparator
+	{
+		font-size: 1px;
+		margin: 4px 0px;
+		height: 1px;
+		float: left;
+		width: 140px;
+		display: block;
+		border-bottom:1px solid #eee;
+		background:none;
+	}
+	.hsbcDivletBoxTitle .hsbcSeparator
+	{
+		margin:0px;
+		background-color:#eee;
+		border-bottom:2px solid #fff;
+	}
+	.hsbcDivletBoxContent
+	{
+		padding:0px;
+		margin: 0px;
+		float: left;
+		background-color:#fff;
+	}
+	.hsbcDivletBoxTitle
+	{
+	}
+	.hsbcDivletBoxRow
+	{
+		padding:0px 10px 0px 8px;
+		float: left;
+		clear: left;
+		width: 132px;
+		/*font-size: 68%;*/
+		overflow:hidden;
+	}
+	.hsbcDivletBoxTitle .hsbcDivletBoxRow
+	{
+		padding:0px 0px 3px 8px;
+		width: 140px;
+		wid\th: 132px;
+		/*font-size:80%;*/
+		background-color:#eee;
+	}
+	.hsbcDivletBoxRow a
+	{
+		font-weight: bold;
+		color: #333;
+		text-decoration: none !important;
+		margin: 2px 0px;
+		/* \*/
+		margin: 0px;
+		/* */
+		display: block;
+	}
+	.hsbcDivletBoxRowNoLink
+	{
+		color: #666;
+	}
+	.hsbcDivletBoxRow .hsbcDivletBoxRowText
+	{
+		float: left;
+	}
+	.hsbcDivletBoxTitle .hsbcDivletBoxRow .hsbcDivletBoxRowText
+	{
+		padding:2px 0px;
+	}
+	.hsbcDivletBoxRowNoLink .hsbcDivletBoxRowText
+	{
+		float:none;
+		display:block;
+		/* \*/
+		float:left;
+		/* */
+		overflow:hidden;
+		width:120px;
+	}
+	.hsbcDivletBoxRow span.hsbcDivletBoxRowImage
+	{
+		float: left;
+	}
+	a span.hsbcDivletBoxRowText,
+	a span.hsbcDivletBoxRowImage
+	{
+		cursor: pointer;
+		cursor: hand;
+	}
+	a:hover.hsbcDivletBoxRowText,
+	a:hover span.hsbcDivletBoxRowText,
+        a.hsbcDivletBoxRowText:hover
+	{
+		color: #f00 !important;
+	}
+	.hsbcDivletBoxRow a img
+	{
+		border: none;
+	}
+	.hsbcDivletBoxRow .hsbcTextInput
+	{
+		width: 107px;
+	}
+/* Balances divlet (end) */
+
+	.hsbcWarningText
+	{
+		color: #f00;
+	}
+	.hsbcSelected
+	{
+		color: #f00 !important;
+	}
+	.hsbcPositiveText
+	{
+		color: #090;
+	}
+
+/*
+HSBC generic styles
+*/
+
+/* Button styles */
+div.hsbcButtonLeft
+{
+	background: url("../btn_left_inv.gif") no-repeat right;
+	width: 15px;
+	height: 22px;
+	float: left;
+}
+div.hsbcButtonLeft_1
+{
+	background: url("../btn_left_inv1.gif") no-repeat right;
+	width: 15px;
+	height: 22px;
+	float: left;
+}
+div.hsbcButtonLeft_2
+{
+	background: url("../btn_left_inv2.gif") no-repeat right;
+	width: 15px;
+	height: 22px;
+	float: left;
+}
+div.hsbcButtonLeft_3
+{
+	background: url("../btn_left_inv3.gif") no-repeat right;
+	width: 15px;
+	height: 22px;
+	float: left;
+}
+div.hsbcButtonLeft_4
+{
+	background: url("../btn_left_inv4.gif") no-repeat right;
+	width: 15px;
+	height: 22px;
+	float: left;
+}
+div.hsbcButtonLeft_5
+{
+	background: url("../btn_left_inv5.gif") no-repeat right;
+	width: 15px;
+	height: 22px;
+	float: left;
+}
+div.hsbcButtonLeft_6
+{
+	background: url("../btn_left_inv6.gif") no-repeat right;
+	width: 15px;
+	height: 22px;
+	float: left;
+}
+div.hsbcButtonLeft_7
+{
+	background: url("../btn_left_inv7.gif") no-repeat right;
+	width: 15px;
+	height: 22px;
+	float: left;
+}
+div.hsbcButtonCenter
+{
+	background: url("../btn_bg_inv.gif") repeat-x;
+	float: left;
+}
+div.hsbcButtonCenter a,
+.wpsButtonText,
+.portlet-form-input-field
+{
+	background: url("../arr_right_blu_inv.gif") no-repeat;
+	text-decoration: none !important;
+	color: #fff !important;
+	height: 22px;
+	float: left;
+	margin: 3px 0px;
+	padding: 0px 0px 0px 8px !important;
+	font-weight: bold;
+}
+div.hsbcButtonCenter a:hover
+{
+	text-decoration: underline !important;
+}
+div.hsbcButtonCenterWithoutChevron
+{
+	background: url("../btn_bg_inv.gif") repeat-x;
+	float: left;
+}
+div.hsbcButtonCenterWithoutChevron a
+{
+	text-decoration: none !important;
+	color: #fff !important;
+	height: 22px;
+	float: left;
+	margin: 3px 0px;
+	font-weight: bold;
+}
+div.hsbcButtonCenterWithoutChevron a:hover
+{
+	text-decoration: underline !important;
+}
+div.hsbcButtonRight
+{
+	background: url("../btn_right_inv.gif") no-repeat;
+	width: 7px;
+	height: 22px;
+	float: left;
+}
+div.extRowButton
+{
+	height: 25px;
+	clear: both;
+	padding: 8px 15px 5px 9px;
+	margin: 0px;
+	float: none !important;
+}
+div.extContentHighlightPib div.extRowButton
+{
+	padding-right: 9px;
+	padding-bottom: 10px!important;
+}
+div.extButtons
+{
+	float: right;
+	white-space: nowrap;
+	display: inline;
+	height: 22px;
+}
+div.hsbcButtonCenter a.hsbcButtonBack
+{
+	background: url("../arr_left_blu_inv.gif") no-repeat;
+}
+div.extButtons .hsbcDisabled a
+{
+	background: url("../arr_right_gry_inv.gif") no-repeat;
+	color: #ccc !important;
+}
+div.extButtons .hsbcDisabled a.hsbcButtonBack
+{
+	background: url("../arr_left_gry_inv.gif") no-repeat;
+	color: #ccc !important;
+}
+div.hsbcDivletBoxRow div.hsbcButtonLeft
+{
+	width: 10px;
+}
+div.hsbcDivletBoxRow span.hsbcDivletBoxRowText
+{
+	margin-top: 1px;
+}
+/* Button styles (end) */
+
+/* Generic re-usable styles not part of any structure above. May or may not be used in HTML */
+
+a.hsbcDivletNavigationSelected
+{
+	color: #f00 !important;
+}
+
+a.skiplink
+{
+   color: #fff;
+   text-decoration: none;
+   font-size: 55%;
+}
+
+.hsbcTextHighlight
+{
+	color: #f00 !important;
+}
+
+.hsbcTextHighlightError,
+.wpsFieldErrorText,
+.portlet-msg-error
+{
+	color: #f00 !important;
+}
+
+.hsbcDisabled,
+.wpsButtonDisabledText
+{
+	color: #999;
+}
+
+a.hsbcContextualHelp
+{
+	margin-left: 5px;
+}
+
+.hsbcPrintOnly
+{
+	display: none;
+}
+
+.hsbcAccountName
+{
+	white-space: nowrap;
+}
+
+.hsbcAccountType
+{
+	font-weight: bold;
+	white-space: nowrap;
+}
+
+.hsbcAccountSortcode
+{
+	margin-right: 4px;
+	display: inline;
+	white-space: nowrap;
+}
+
+.hsbcAccountNumber
+{
+	display: inline;
+}
+
+.hsbcActiveAccount
+{
+	color: #f00;
+	float: left;
+}
+
+.hsbcSeparator
+{
+	background: url("../dash_line.gif") repeat-x top left;
+	font-size: 1px;
+	margin: 1px 0px;
+	margin-right: 14px;
+	height: 1px;
+}
+
+div.extPibRow
+{
+	float: none !important;
+	margin-right: 10px;
+}
+
+div.hsbcRow
+{
+	float: left;
+}
+
+div.hsbcCol
+{
+	float: left;
+}
+/* Generic re-usable styles (end) */
+
+
+
+.hsbcMainContent .hsbcDivletBox .hsbcSeparator
+{
+	margin: 4px 0px;
+	float: left;
+	display: block;
+	width: 100%;
+}
+
+
+
+/* PIB/PWS Specific styles */
+
+.extContentHighlight
+{
+	border: 1px solid #ccc;
+	margin: 9px 14px 15px 0px !important;
+	padding: 12px 10px 10px 10px !important;
+}
+.hsbcBackgroundImage
+{
+	background-position: right top;
+	background-repeat: no-repeat;
+}
+div.extHeight1 .extContentHighlight
+{
+
+	height: 160px;
+	heigh\t: 136px;
+	min-height: 136px;
+}
+div.extHeight2 .extContentHighlight
+{
+	height: 240px;
+	heigh\t: 216px;
+	min-height: 216px;
+}
+div.extHeight1 .extContentHighlight:lang(en)
+{
+	height: 136px;
+	/* \*/
+	height: inherit;
+	/* */
+}
+div.extHeight2 .extContentHighlight:lang(en)
+{
+	height: 216px;
+	/* \*/
+	height: inherit;
+	/* */
+}
+
+.extContentHighlightPib
+{
+	border:1px solid #ccc;
+	margin-top: 8px;
+	margin-bottom: 7px;
+	padding: 0px;
+	position: relative;
+	vertical-align: bottom;
+	width: 592px /*602px*/;
+}
+.containerLeft .extMyAccountPromo
+{
+	float:left;
+	padding:15px 0px 0px 8px;
+}
+.hsbcMainContent .extMyAccountPromo
+{
+	margin:6px 0px 7px 0px;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	width:602px;
+	font-weight:bold;
+}
+
+.extContentHighlightPib h3
+{
+	padding-top:4px;
+}
+
+.extContentHighlightPib .hsbcSeparator
+{
+	margin: 1px 10px;
+	padding: 0px !important;
+}
+.extContentHighlightPib table
+{
+	width: 100%;
+}
+.extContentHighlightPib table th
+{
+	background-color: #e5e5e5;
+}
+
+div.containerMainExpanded .extContentHighlightPib
+{
+	width:748px;
+	padding-top: 0px;
+}
+
+.extContentHighlightPib div.hsbcRow,
+div.hsbcRowSeparator
+{
+	padding: 5px 9px;
+	clear: both;
+}
+
+.extContentHighlightPib div.hsbcRow p
+{
+	margin: 0px;
+}
+div.hsbcTwoCols div.extContentHighlightPib
+{
+	width:288px!important;
+}
+
+.extTwoColSpacer
+{
+	width:16px;
+	float:left;
+}
+.hsbcTwoCols .hsbcBackgroundImage
+{
+	padding-right: 70px !important;
+}
+.hsbcTwoCols .extPibRow .hsbcContent
+{
+	padding-top:2px;
+	padding-bottom: 2px;
+}
+.hsbcTwoCols .extPibRow .hsbcContent img
+{
+	position:relative;
+	top:-5px;
+	right:-10px;
+}
+
+div.hsbcRowSeparator
+{
+	border-bottom: 1px dashed #ccc;
+}
+
+div.hsbcImportant
+{
+	background: #f00 url("../icon_exclamation.gif") left no-repeat;
+}
+
+.hsbcImportant
+{
+	color: #fff;
+}
+
+.hsbcImportant a
+{
+	color: #fff !important;
+	padding-left: 20px;
+	margin-left: 3px;
+}
+
+.extShowHide
+{
+	background: url("../icon_show_hide.gif") left no-repeat;
+}
+
+.extShowHide a
+{
+	padding-left: 20px;
+	margin-left: 3px;
+}
+
+.hsbcContent
+{
+	margin: 0px 14px 0px 0px;
+	padding: 9px 0px 15px 0px;
+}
+
+.extIntBnk2 .hsbcContent
+
+{
+	margin: 0px 0px 0px 14px;
+}
+.extFullWidth h1
+{
+	margin-left: 10px;
+}
+.hsbcContent a
+{
+	color: #36c !important;
+	text-decoration: none !important;
+}
+
+.hsbcContent a:hover
+{
+	text-decoration: underline !important;
+}
+
+/* FIX FOR: PC IE 5.01 */
+	div>.hsbcContent h3
+	{
+		float: left;
+	}
+	div > .hsbcContent h3
+	{
+		float: none;
+	}
+/*  */
+
+.hsbcContent h3 a
+{
+	color: #333 !important;
+}
+
+.hsbcContent p
+{
+	padding: 0px 0px 8px 0px;
+	/* Changed for content pages from padding: 0px 0px 4px 0px; */
+	margin: 0px;
+	color: #333;
+	clear: left;
+}
+
+.hsbcContent p a
+{
+	text-decoration: underline !important;
+}
+
+.hsbcContent img
+{
+	margin: 0px;
+}
+img.extRightAlignImg
+{
+	margin: 0px 0px 0px 10px;
+	float: right;
+}
+.hsbcContent a img
+{
+	margin: 0px 0px 10px 10px;
+	border: 0px;
+}
+
+img.extPromotionImg
+{
+	margin: 9px 0px 15px 0px;
+}
+
+
+.hsbcContent ul
+{
+	margin: 0px;
+	padding: 3px 0px 12px 8px;
+	clear: left;
+}
+
+.hsbcContent ul li
+{
+	margin: 5px 0px 0px 1px;
+	padding: 0px 0px 0px 10px;
+	list-style: none;
+	background: url("../bullet.gif") no-repeat top left;
+}
+.hsbcContent ul li a
+{
+	text-decoration: underline !important;
+}
+.hsbcContent ul.hsbcActionLink
+{
+	padding-left: 0px !important;
+}
+.hsbcContent ul.hsbcActionLink li
+{
+	margin: 3px 0px 3px 0px;
+	background: url("../action_link_arrow.gif") no-repeat top left;
+}
+.hsbcContent ul li.hsbcActionLink
+{
+	background: url("../action_link_arrow.gif") no-repeat top left;
+}
+.hsbcContent ul.hsbcActionLink li a,
+.hsbcContent ul li.hsbcActionLink a
+{
+	text-decoration: none !important;
+	font-weight: bold !important;
+	background: none !important;
+}
+
+a.hsbcActionLink
+{
+	font-weight: bold;
+	padding: 0px 0px 0px 8px;
+	background: url("../action_link_arrow.gif") no-repeat top left;
+	color: #36c !important;
+}
+/* Fix FOR: PC IE 5.01 */
+	a>.hsbcActionLink
+	{
+		background: none;
+		padding: 0px;
+	}
+	a > .hsbcActionLink
+	{
+		background: url("../action_link_arrow.gif") no-repeat top left;
+		background-repeat: no-repeat !important;
+		padding-left: 8px;
+	}
+/*  */
+.hsbcContent .extToTop
+{
+	font-weight: bold;
+	padding: 0px 0px 0px 10px;
+	background: url("../to_top_link_arrow.gif") no-repeat top left;
+}
+/* Fix FOR: PC IE 5.01 */
+	div>.hsbcContent .extToTop
+	{
+		background: none;
+		padding: 0px;
+	}
+	div > .hsbcContent .extToTop
+	{
+		background: url("../to_top_link_arrow.gif") no-repeat top left;
+		padding-left: 10px;
+	}
+/*  */
+.hsbcContent .hsbcPdf img
+{
+	margin: 0px;
+}
+
+.hsbcContent img.extIconImg
+{
+	margin: 0px;
+	vertical-align:middle;
+	border: 0px;
+}
+
+div.hsbcTextLeft
+{
+	float: left;
+}
+div.hsbcTextLeft h1
+{
+	display: inline;
+}
+div.extPibRow h1
+{
+	display: inline;
+	line-height: 250%
+}
+div.hsbcTextRight
+{
+	text-align: right;
+	white-space: nowrap;
+}
+.extLastLogOn
+{
+	margin-bottom: 0em;
+	position:relative;
+	top:10px;
+}
+.extLastLogOn p {
+	margin-right: 0 !important;
+}
+
+.hsbcTextCentered
+{
+	text-align:center;
+}
+
+.hsbcTextInput
+{
+	background-color: #f1f1f1;
+}
+
+input.hsbcTextInputDay,
+select.hsbcTextInputDay,
+input.hsbcTextInputMonth,
+select.hsbcTextInputMonth,
+input.hsbcTextInputTwoDigit,
+select.hsbcTextInputTwoDigit
+{
+	width: 21px !important;
+	wid\th: 15px !important;
+}
+
+input.hsbcTextInputDay:lang(en),
+select.hsbcTextInputDay:lang(en),
+input.hsbcTextInputMonth:lang(en),
+select.hsbcTextInputMonth:lang(en),
+input.hsbcTextInputTwoDigit:lang(en),
+select.hsbcTextInputTwoDigit:lang(en)
+{
+	/*FIX FOR: Mozilla*/
+	width: 15px !important;
+}
+
+div > .hsbcTextInputDay,
+div > .hsbcTextInputMonth,
+div > .hsbcTextInputTwoDigit,
+td > .hsbcTextInputDay,
+td > .hsbcTextInputMonth,
+td > .hsbcTextInputTwoDigit
+{
+	/*FIX FOR: Safari*/
+	width: 21px !important;
+}
+
+input.hsbcTextInputYear,
+input.hsbcTextInputFourDigit,
+select.hsbcTextInputYear,
+select.hsbcTextInputFourDigit
+{
+	width: 35px !important;
+	wid\th: 30px !important;
+}
+
+input.hsbcTextInputYear:lang(en),
+input.hsbcTextInputFourDigit:lang(en),
+select.hsbcTextInputYear:lang(en),
+select.hsbcTextInputFourDigit:lang(en)
+{
+	width: 30px !important;
+}
+
+div > .hsbcTextInputYear,
+div > .hsbcTextInputFourDigit,
+td > .hsbcTextInputYear,
+td > .hsbcTextInputFourDigit
+{
+	/*FIX FOR: Safari*/
+	width: 35px !important;
+}
+
+input.hsbcTextInputMedium,
+select.hsbcTextInputMedium
+{
+	width: 150px !important;
+}
+
+input.hsbcTextInputP2GMedium,
+select.hsbcTextInputP2GMedium
+{
+	width: 176px !important;
+}
+
+input.hsbcTextInputLong,
+select.hsbcTextInputLong
+{
+	width: 250px !important;
+}
+
+textarea.extInputFullWidth
+{
+	margin-bottom: 8px;
+	/* FIX FOR: PC IE5.5 & PC IE 5.01 */
+	width: 90%;
+	wid\th: 98%;
+}
+
+input.hsbcButtonInput,
+input.hsbcButtonInput,
+input.hsbcButtonInput
+{
+	display: inline;
+	float: left;
+	margin: 0px 3px;
+}
+
+.hsbcDisabled input.hsbcButtonInput,
+.hsbcDisabled input.hsbcButtonInput,
+.hsbcDisabled input.hsbcButtonInput
+{
+	color: #666;
+}
+
+p.hsbcTextHighlight,
+.wpsFieldSuccessText,
+.portlet-msg-success
+{
+	font-weight:bold;
+	background: url("../confirm_tick.gif") left no-repeat;
+	padding: 5px 0px 5px 24px;
+}
+
+div.containerMain p
+{
+	margin: 8px 15px 8px 0px;
+}
+
+div.extRowButton .hsbcActiveAccount
+{
+	margin-top: -6px;
+}
+
+div.containerMain div.hsbcAccountType,
+div.containerMain div.hsbcAccountName
+{
+	display: inline;
+}
+
+div.containerMain div.hsbcAccountName
+{
+	white-space: normal;
+}
+
+table th a.hsbcDivletNavigationSelected,
+.wpsTableHeadLink th a,
+.wpsTableHeadLink th a:visited,
+.wpsTableHeadLinke th a:hover
+{
+	background: url("../arr_down_red_on_gry.gif") right top no-repeat;
+}
+
+table th a.hsbcDivletNavigationNotSelected
+{
+	background: url("../arr_right_blk_on_gry.gif") right no-repeat;
+	padding-right:4px;
+	padding-top: 4px;
+}
+
+table.hsbcRowSeparator td,
+table tr.hsbcRowSeparator td
+{
+	background-image: url("../dash_line.gif");
+	background-position: left bottom;
+	background-repeat: repeat-x;
+}
+
+table tr.hsbcNoRowSeparator td
+{
+	background: none;
+}
+
+table tr.extTableRow1 td,
+table tr.extTableRow1 th
+{
+	padding-bottom: 20px !important;
+}
+
+table .extTableColumn1
+{
+	width:200px;
+	padding-top: 5px;
+	padding-right: 20px;
+	font-weight: bold;
+	vertical-align: top;
+}
+
+table th.extTableColumn1
+{
+	vertical-align: middle;
+}
+
+table td.extTableColumn2
+{
+	text-align: right;
+	white-space: nowrap;
+}
+table th.extTableColumn2
+{
+	text-align: right;
+	padding-right: 8px;
+}
+
+table .extTableColumn3
+{
+	width: 30px;
+	text-align: center;
+}
+
+table .extTableColumn4
+{
+	width: 280px;
+}
+
+table .extTableColumn5
+{
+	text-align: center;
+}
+
+table .extTableColumn6
+{
+	text-align: left;
+	padding-left: 9px;
+}
+
+table .extTableColumn7
+{
+	width: 225px;
+}
+
+table.extTwoColumnTable th
+{
+	background-color: #fff;
+	text-align: left;
+	padding-left: 9px;
+	vertical-align: top;
+	width: 20%;
+}
+
+table.extTwoColumnTable td p
+{
+	padding-bottom: 10px;
+}
+
+.hsbcMainContent .hsbcDivletBoxRow
+{
+	padding: 0px 0px 0px 0px;
+	float: left;
+	width: 100%;
+}
+/*hsbcColsFour*/
+.hsbcFourCols .hsbcContent
+{
+	padding: 6px 14px 0px 0px;
+	margin-right: 0px;
+	overflow:hidden;
+	float: left;
+}
+	div>.hsbcFourCols .hsbcContent
+	{
+		overflow:hidden;
+		float: left;
+	}
+	div > .hsbcFourCols .hsbcContent
+	{
+		float: none;
+		overflow:inherit;
+	}
+div.hsbcFourCols a
+{
+	float: left;
+}
+div.hsbcFourCols p
+{
+	margin-right: 0px;
+	margin-top: 4px;
+}
+
+/* Flow form */
+.hsbcFlowForm
+{
+	font-size: 90%;
+	/* \*/
+	font-size: 85%;
+	/* */
+	padding: 10px 0px 6px 0px;
+	float: left;
+}
+.hsbcFlowBox
+{
+	float: left;
+	border: 1px solid #ccc;
+	padding: 8px 0px;
+	background-color: #EFEFEF;
+}
+.hsbcFlowBox p
+{
+	color: #666;
+	text-align: center;
+	font-weight: bold;
+	margin: 0px !important;
+	padding: 0px 1px !important;
+	/* \*/
+	padding: 0px 2px !important;
+	/* */
+}
+.hsbcFlowForm .hsbcSelected
+{
+	background-color: #f00;
+}
+.hsbcFlowForm .hsbcSelected p
+{
+	color: #fff !important;
+}
+.hsbc03FlowBoxes .hsbcFlowBox
+{
+	width: 145px;
+	wid\th: 143px;
+}
+.hsbc04FlowBoxes .hsbcFlowBox
+{
+	width: 103px;
+	wid\th: 101px;
+}
+.hsbcFlowArrow
+{
+	height: 45px;
+	float: left;
+	background: url("../arr_right_flow.gif") no-repeat left;
+}
+.hsbc03FlowBoxes .hsbcFlowArrow
+{
+	width: 20px;
+}
+.hsbc04FlowBoxes .hsbcFlowArrow
+{
+	width: 21px;
+}
+/*  */
+
+/* Layout Content 01 - designed for use with forms in PWS*/
+
+.extLayoutContent01
+{
+	border: 1px solid #ccc;
+	width: 474px;
+	margin: 20px 0px 10px 0px !important;
+	float: left;
+	padding-bottom: 5px;
+}
+.extLayoutContent01 .extPwsTable
+{
+	border: none;
+	width: 472px !important;
+	wid\th: 474px !important;
+	margin-bottom: 15px;
+	margin-top: 6px !important;
+}
+.extLayoutContent01 table.extPwsTable td
+{
+	font-size:100% !important;
+	color: #333 !important;
+	width: 237px;
+	padding: 0px 0px 10px 9px !important;
+	vertical-align:top;
+}
+.extLayoutContent01 h2
+{
+	padding: 10px 9px 3px 9px;
+}
+.extLayoutContent01 .hsbcSeparator
+{
+	margin-left: 9px;
+	padding-bottom: 10px;
+}
+.extLayoutContent01 .extNoPadding
+{
+	padding-bottom: 0px;
+}
+.extLayoutContent01 h3
+{
+	padding: 8px 9px 8px 9px !important;
+	margin-bottom: 0px;
+}
+.extLayoutContent01 p
+{
+	padding: 9px;
+	margin: 0px !important;
+}
+.extLayoutContent01 table p
+{
+	padding: 5px 0px;
+}
+.extLayoutContent01 .hsbcLegal
+{
+	background-color: #EFEFEF;
+	padding: 9px 0px;
+	margin-bottom: 20px;
+}
+.extLayoutContent01 .hsbcLegal h3
+{
+	padding-bottom: 0px !important;
+}
+.extLayoutContent01 .hsbcLegal p
+{
+	padding: 5px 9px;
+}
+.extLayoutContent01 .extSmallerText
+{
+	font-size: 90% !important;
+	/* \*/
+	font-size: 88% !important;
+	/* */
+}
+.extLayoutContent01 .extSmallerText a
+{
+	text-decoration: underline;
+	color: #36c !important;
+}
+.extLayoutContent01 .extRowButton
+{
+	position: relative;
+	margin-bottom: 10px;
+}
+.extLayoutContent01 .extRowButton .hsbcActionLink
+{
+	position: absolute;
+	font-weight: bold;
+}
+.rowExtRowButton01
+{
+	background-color:#EFEFEF;
+}
+.rowExtRowButton01 .hsbcActionLink
+{
+	padding-top: 4px;
+}
+/*  */
+
+/* LANDING PAGES */
+/* .extLndPg
+{
+	font-size: 70% !important;
+} */
+.extLndPg p,
+.extLndPg li,
+.extLndPg ol,
+.extLndPg a
+{
+	font-size: 90%;
+	/* \*/
+	font-size: 85%;
+	/* */
+}
+.extLndPg p a,
+.extLndPg h2 a,
+.extLndPg h3 a,
+.extLndPg li a {font-size: 100%;}
+
+.extLndPg p {
+	color: #666;
+	padding: 0px 0px 4px 0px;
+}
+
+.extLndPg h2 {
+	margin: 0px;
+	padding: 0px;
+	color: #333;
+}
+
+.extTtl .hsbcContent {
+	padding-bottom: 0px;
+	padding-top: 12px;
+}
+.extLndPg ul {margin: 0px 0px 3px 5px;}
+.extLndPg ul li {
+	font-weight: bold;
+	color: #666;
+	margin: 1px 0px;
+}
+/* End of Landing page styles */
+.extIntBnk1 label
+{
+	font-size: 90%;
+	/* \*/
+	font-size: 85%;
+	/* */
+	width: 260px;
+	wid\th: 240px;
+	float: left;
+	margin: 4px 0px !important;
+	padding: 4px 10px !important;
+	background-color: #efefef !important;
+}
+
+.hsbcActionDivlet
+{
+	border: 1px solid #ccc;
+	background: url("../actions_divlet_bg.gif") repeat-y top right;
+	float: left;
+	margin-bottom: 10px;
+	font-size: 90%;
+	/* \*/
+	font-size: 85%;
+	/* */
+}
+.extSmTxt .hsbcActionDivlet
+{
+	font-size: 100%;
+}
+.hsbcActionDivlet .hsbcActionDivletText
+{
+	float: left;
+	width: 316px;
+	wid\th: 302px;
+	padding: 4px 7px;
+}
+
+.hsbcActionDivlet .hsbcActionDivletActions
+{
+	width: 156px;
+	wid\th: 146px;
+	padding: 4px 3px 7px 7px;
+	height: 100%;
+	float: left;
+}
+
+.hsbcActionDivlet h2
+{
+	font-size: 185%;
+	font-weight: normal;
+	padding: 7px 5px;
+}
+.hsbcActionDivlet ul
+{
+	padding-top: 0px;
+	margin-top: 0px;
+}
+.hsbcActionDivlet p,
+.hsbcActionDivlet li
+{
+	color: #666;
+	margin-top: 0px !important;
+	padding-top: 0px !important;
+}
+
+table.extPwsTable,
+table.extPwsTable2 {
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+	margin-top: 8px;
+}
+
+table.extPwsTable2 th {
+	text-align:left;
+	padding-left:8px;
+	}
+table.extPwsTable2 th,
+table.extPwsTable2 td {
+	font-size:85%;
+	}
+
+div.containerMainExpanded .hsbcOneCols table
+{
+	width: 610px !important;
+}
+div.containerMainExpanded .hsbcTwoCols table
+{
+	width: 298px !important;
+}
+.hsbcOneCols table
+{
+	width: 474px !important;
+}
+.hsbcTwoCols table
+{
+	width: 230px !important;
+}
+table.extPwsTable th
+{
+	text-align: left;
+	padding: 5px 3px 5px 8px;
+	font-size: 90%;
+	/* \*/
+	font-size: 85%;
+	/* */
+}
+table.extPwsTable td
+{
+	padding: 5px 3px 5px 8px;
+	color: #666;
+	font-size: 90%;
+	/* \*/
+	font-size: 85%;
+	/* */
+}
+.extLndPg table.extPwsTable li,
+.extLndPg table.extPwsTable p,
+.extSmTxt table.extPwsTable li,
+.extSmTxt table.extPwsTable p
+{
+	font-size: 100%;
+}
+table ul.hsbcActionLink
+{
+	margin: 0px;
+}
+
+table ul.hsbcActionLink li a
+{
+	text-decoration: none !important;
+	font-weight: bold;
+}
+table.extPwsTable td p,
+table.extPwsTable td li
+{
+	color: #666 !important;
+}
+table ul.hsbcActionLink li a
+{
+}
+table.hsbcKeyPoints td
+{
+}
+
+table.extPwsTable a,
+table.extPwsTable a:link,
+table.extPwsTable a:active,
+table.extPwsTable a:visited,
+table.extPwsTable2 a,
+table.extPwsTable2 a:link,
+table.extPwsTable2 a:active,
+table.extPwsTable2 a:visited {
+	text-decoration:underline ! important;}
+
+table.extPwsTable a:hover,
+table.extPwsTable2 a:hover {
+	text-decoration:underline ! important;}
+
+
+div.hsbcLegal
+{
+	font-size: 90%;
+	/* \*/
+	font-size: 85%;
+	/* */
+}
+p.hsbcLegal
+{
+	color: #666;
+}
+.hsbcLegal a
+{
+	color: #666 !important;
+	font-weight: normal !important;
+	text-decoration: underline !important;
+}
+div.hsbcLegal p a,
+td.hsbcLegal p a
+{
+	color: #36c !important;
+	font-weight: normal !important;
+	text-decoration: underline !important;
+}
+.extLndPg div.hsbcLegal,
+.extSmTxt div.hsbcLegal
+{
+	font-size: 100%;
+}
+table.extPibTable td.hsbcLegal p
+{
+	font-size: 85%;
+}
+table.extPwsTable td.hsbcLegal p
+{
+	font-size: 90%;
+}
+.extLndPg td.hsbcLegal p,
+.extSmTxt td.hsbcLegal p
+{
+	font-size: 90%;
+}
+div.extBgColour01,
+div.extBgColour02,
+div.extBgColour03,
+div.extBgColour04,
+div.extBgColour05,
+div.extBgColour06
+{
+	padding-left: 9px;
+	padding-right: 9px;
+	padding-bottom: 9px;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+}
+.extContentHighlightPib .extBgColour01,
+.extContentHighlightPib .extBgColour02,
+.extContentHighlightPib .extBgColour03,
+.extContentHighlightPib .extBgColour04,
+.extContentHighlightPib .extBgColour05,
+.extContentHighlightPib .extBgColour06,
+.extContentHighlightPib .extBgColour07
+{
+	padding-left: 0px;
+	border: none;
+	margin: 0px;
+}
+.extContentHighlightPib .extBgColour01 h3,
+.extContentHighlightPib .extBgColour02 h3,
+.extContentHighlightPib .extBgColour03 h3,
+.extContentHighlightPib .extBgColour04 h3,
+.extContentHighlightPib .extBgColour05 h3,
+.extContentHighlightPib .extBgColour06 h3,
+.extContentHighlightPib .extBgColour07 h3
+{
+	margin-bottom: 3px;
+}
+.extContentHighlightPib .extBgColour01 h3 a,
+.extContentHighlightPib .extBgColour02 h3 a,
+.extContentHighlightPib .extBgColour03 h3 a,
+.extContentHighlightPib .extBgColour04 h3 a,
+.extContentHighlightPib .extBgColour05 h3 a,
+.extContentHighlightPib .extBgColour06 h3 a,
+.extContentHighlightPib .extBgColour07 h3 a
+{
+	color:#333;
+}
+div.extBgColour01 p,
+div.extBgColour02 p,
+div.extBgColour03 p,
+div.extBgColour04 p,
+div.extBgColour05 p,
+div.extBgColour06 p,
+div.extBgColour07 p
+{
+	margin-right: 0px;
+}
+tr.extBgColour01 th,
+tr.extBgColour02 th,
+tr.extBgColour03 th,
+tr.extBgColour04 th,
+tr.extBgColour05 th,
+tr.extBgColour06 th,
+tr.extBgColour07 th,
+tr.extBgColour01 td,
+tr.extBgColour02 td,
+tr.extBgColour03 td,
+tr.extBgColour04 td,
+tr.extBgColour05 td,
+tr.extBgColour06 td,
+tr.extBgColour07 td
+{
+	background-image: url("../table_cell_border.gif");
+	background-position: left bottom;
+	background-repeat: repeat-x;
+}
+td.extBgColour01,
+td.extBgColour02,
+td.extBgColour03,
+td.extBgColour04,
+td.extBgColour05,
+td.extBgColour06,
+td.extBgColour07
+{
+	background-image: url("../table_cell_border.gif");
+	background-position: right top;
+	background-repeat: repeat-y;
+}
+.extBgColour01
+{
+	background-color: #efefef;
+}
+.extBgColour02
+{
+	background-color: #ffeaea;
+}
+.extBgColour03
+{
+	background-color: #f1f1f1;
+}
+.extBgColour04
+{
+	background-color: #eaeffa;
+}
+.extBgColour05
+{
+	background-color: #e5e5e5;
+}
+.extBgColour06
+{
+	background-color: #36c;
+	color: #fff !important;
+}
+.extBgColour07
+{
+	background-color: #f00;
+	color: #fff !important;
+}
+div.extSeparator
+{
+	background: #ccc;
+	height: 2px;
+}
+tr.extSeparator th,
+tr.extSeparator td
+{
+	background-image: url(../images/BGdotted_line.jpg);
+	background-position: left bottom;
+	background-repeat: repeat-x;
+}
+tr.extSeparator .extBgColour01,
+tr.extSeparator .extBgColour02,
+tr.extSeparator .extBgColour03,
+tr.extSeparator .extBgColour04,
+tr.extSeparator .extBgColour05
+{
+	background-image: url("../seporator_with_bg_colour.gif");
+	background-position: right bottom;
+	background-repeat: no-repeat;
+}
+
+/*--ALTERNATIVE TABLE STYLE--*/
+tr.extSeparatorAlt th,
+tr.extSeparatorAlt td,
+tr.extSeparatorAltShaded th,
+tr.extSeparatorAltShaded td {
+border-bottom:solid 1px #cccccc;
+border-left:solid 1px #cccccc;}
+tr.extSeparatorAltShaded th,
+tr.extSeparatorAltShaded td {
+background:#f1f1f1;}
+
+.extPwsTable2 th {
+	border-bottom:solid 1px #cccccc ! important;}
+
+.extPwsTable2 td {
+	text-align:center;}
+
+.extPwsTable2 td.first {
+	text-align:left;}
+
+
+.extLargerText {
+	font-size: 120% !important;}
+
+.extSmallerText
+{
+	font-size: 80% !important;
+}
+.extTextOne
+{
+	color: #666;
+	margin-bottom: 4px;
+}
+
+div.containerMain a
+{
+	text-decoration: none;
+	color: #36c;
+	font-weight: bold;
+}
+
+div.containerMain a:hover
+{
+	text-decoration: underline !important;
+}
+
+div.extNavigationSeperator
+{
+	margin-left: 10px;
+	padding-bottom: 6px;
+}
+.extEmail
+{
+	width:280px;
+	overflow:hidden;
+}
+
+.extSmTxt p,
+.extSmTxt li,
+.extSmTxt ol,
+.extSmTxt a
+{
+	font-size: 90%;
+	/* \*/
+	font-size: 85%;
+	/* */
+}
+.extSmTxt p a,
+.extSmTxt h2 a,
+.extSmTxt h3 a,
+.extSmTxt li a
+{
+	font-size: 100%;
+}
+
+.extSmTxt p
+{
+	padding: 0px 0px 4px 0px;
+}
+
+.extSmTxt h2
+{
+	margin: 0px;
+	padding: 0px;
+	color: #333;
+}
+
+.extSmTxt ul
+{
+	margin: 0px 0px 3px 5px;
+}
+.extSmTxt ul li
+{
+	margin: 1px 0px;
+}
+
+.extLndPg .hsbcButtonCenter a
+{
+	font-size: 100%;
+}
+
+.hsbcSiteMap a.extIconLink
+{
+	padding-left: 6px;
+}
+
+.hsbcSiteMap a.extNonIconLink
+{
+	padding-left: 18px;
+}
+
+.hsbcSiteMap ul li
+{
+	background:none;
+	padding-left: 0px;
+}
+
+.hsbcSiteMap ul
+{
+	padding-left: 0px;
+	background: url("../dash_line.gif") repeat-x top left;
+}
+
+.hsbcSiteMap ul li ul
+{
+	background: none;
+}
+
+.hsbcSiteMap ul li ul
+{
+	padding-left: 11px;
+}
+
+.hsbcSiteMap ul li ul li
+{
+	font-size: 90%;
+	/* \*/
+	font-size: 85%;
+	/* */
+}
+.hsbcSiteMap ul li ul li ul li
+{
+	font-size: 100%;
+}
+.extPopup
+{
+	width: 100% !important;
+	wid\th: auto !important;
+	margin-right: 20px;
+}
+.extPopup .containerMainExpanded
+{
+	width: 100% !important;
+}
+.extPopup .hsbcMainContent
+{
+	width: 100%;
+	wid\th: 760px;
+}
+.extPopup .hsbcMainContent .hsbcContent {
+	padding-left: 10px;
+}
+.hsbcPopupCloser
+{
+	float: right;
+	font-size: 75%;
+	margin-top: 19px;
+	padding-right: 6px;
+}
+.extPopup .hsbcDivletSearch
+{
+}
+.hsbcPopupBar
+{
+	width: 100%;
+	float: left;
+	height: 10px;
+	overflow: hidden;
+	background: #d90000 url("../popup_bg.gif") no-repeat bottom right;
+}
+.hsbcPopupBarInner
+{
+	width: 100%;
+	float: left;
+	height: 5px;
+	overflow: hidden;
+	background: #f00 url("../popup_bg.gif") no-repeat top right;
+}
+.ext02Popup,
+.ext02Popup .hsbcMainContent
+{
+	width: 760px !important;
+}
+.ext02Popup .hsbcMainContent .hsbcContent {
+	padding-left: 10px;
+}
+.ext02Popup .hsbcPopupBar
+{
+	background: #d90000 url("../home_bar_bg.gif") no-repeat bottom right;
+}
+.ext02Popup .hsbcPopupBarInner
+{
+	background: #f00 url("../home_bar_bg.gif") no-repeat top right;
+}
+
+/* HOME PAGE STYLES (start of) */
+.extHomePageBar
+{
+	background-image: url("../home_bar_bg.gif");
+}
+.extHomePageBar .hsbcPopupBarInner
+{
+	background-image: url("../home_bar_bg.gif");
+}
+.extHomeSectionOne
+{
+	float: left;
+	padding: 5px 0px 0px 10px;
+	margin-top: 6px;
+}
+	.extHomeSectionOne h1
+	{
+		font-size: 145%;
+		margin-top: 5px;
+		padding-bottom: 2px;
+		width: 550px;
+	}
+	.extHomeColOne
+	{
+		width: 185px;
+	}
+	.extHomeColTwo
+	{
+		width: 565px;
+		height: 362px;
+	}
+
+
+	/* Styles for links through to site */
+	.extHomeSectionOne .extHomeColOne p.extHomeTitle
+	{
+		padding: 0px;
+		line-height: 100%;
+		font-size: 125%;
+		margin-top: 0px;
+	}
+	.extHomeSectionOne .extHomeColOne p.extHomeTitle a
+	{
+		font-weight: normal;
+		text-decoration: none !important;
+		color: #36c !important;
+		background: url("../home_title_arr.gif") no-repeat top left;
+		padding-left: 10px;
+		float: left;
+	}
+
+	.extHomeSectionOne .extHomeColOne p.extHomeTitle a:hover
+	{
+		text-decoration: underline !important;
+	}
+
+
+	.extHomeSectionOne .extHomeColOne ul a
+	{
+		font-size: 80%;
+		/* \*/
+		font-size: 75%;
+		/* */
+
+		text-decoration: none !important;
+		font-weight: normal;
+		line-height: 75%;
+	}
+
+
+	.extHomeSectionOne .extHomeColOne p
+	{
+		font-size: 80%;
+		/* \*/
+		font-size: 75%;
+		/* */
+
+		line-height: 95%;
+
+		padding-left: 10px;
+		padding-right: 0px;
+		margin-right: 0px;
+
+
+		margin-top: 0px !important;
+		margin-bottom: 0px !important;
+	}
+
+	.extHomeSectionOne .extHomeColOne ul
+	{
+		margin-left: 2px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
+	p.extHomeBusPara
+	{
+		padding-bottom: 0px;
+	}
+
+	.extHomeSectionOne ul.extHomePageList li
+	{
+		margin-top: 6px;
+		margin-bottom: 6px;
+	}
+
+	.extHomeSectionOne .extHomeColOne ul li
+	{
+		padding-left: 10px;
+		margin-left: 0px;
+		list-style: none;
+		background: url("../nav_arrow_right_home.gif") no-repeat center left;
+
+		/* need to check across all browsers how this value behaves */
+		line-height: 60%;
+	}
+
+	.extHomeListItem01
+	{
+		margin-top: 10px !important;
+	}
+
+	ul.extHomePageInlineList li
+	{
+		display: inline;
+		margin: 0px;
+		background: url("../nav_arrow_right_home_02.gif") no-repeat center left !important;
+	}
+
+	ul.extHomePageInlineList li a
+	{
+		padding-right: 10px;
+	}
+
+	ul.extHomePageInlineList
+	{
+		margin-top: 0px;
+		padding-top: 0px;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+		padding-left: 8px;
+	}
+
+	.extHomeColTwo
+	{
+		background-repeat:no-repeat;
+	}
+
+	.extHomeBusSection
+	{
+		margin-top: 15px;
+	}
+
+	.extHomeSectionOne img,
+	.extHomeSectionTwo img
+	{
+		margin: 0px;
+		padding: 0px;
+	}
+.extHomeSectionTwo
+{
+	float: left;
+	padding: 6px 0px 6px 1px;
+}
+	.extHomeSectionTwo .extHomeColOne
+	{
+		width: 253px;
+	}
+	.extHomeSectionTwo .extHomeColTwoR
+	{
+		width: 380px;
+	}
+	.extHomeSectionTwo .extHomeColTwoL
+	{
+		width: 379px;
+	}
+	.extHomeSectionTwo .extHomeColLongOne
+	{
+		width: 759px;
+	}
+	.extHomeSectionTwo img
+	{
+		margin-left: 3px;
+	}
+	.extHomeSectionTwo .extHomeColTwoR img
+	{
+		margin-left: 4px;
+	}
+.extHomeSectionThree
+{
+	clear: left;
+	float: left;
+	width: 760px;
+	wid\th: 750px;
+	margin-top: 5px;
+}
+	.extHomeSectionThree p
+	{
+		margin: 0px 3px 0px 0px !important;
+	}
+	.extHomeSectionThree .hsbcMainContent
+	{
+		width: 760px !important;
+	}
+	.extHomeSectionThree h2
+	{
+		margin-bottom: 3px;
+	}
+	.extHomeSectionThree .hsbcOneCols
+	{
+		width: 760px !important;
+	}
+	.extHomeSectionThree .hsbcTwoCols
+	{
+		width: 370px !important;
+		wid\th: 380px !important;
+	}
+	.extHomeSectionThree .hsbcTwoCols .hsbcTwoCols
+	{
+		width: 180px !important;
+	}
+	.extHomeSectionThree .hsbcTwoCols .hsbcTwoCols .hsbcContent
+	{
+		padding: 0px;
+		margin: 0px;
+	}
+
+/* HOME PAGE STYLES (end of) */
+
+/* Invest Direct Button (Start of) */
+a.investDirect
+{
+	background: url("../investdirect.gif") no-repeat top right;
+}
+/* Invest Direct Button (End of) */
+
+.hsbcSearchPageHead,
+.hsbcSummaryContent
+{
+	border: 1px solid #ccc;
+	padding: 6px 8px 6px 10px;
+	background: #e5e5e5;
+	font-size: 90%;
+	/* \*/
+	font-size: 85%;
+	/* */
+}
+
+.hsbcSearchPageHead
+{
+	height: 30px;
+}
+.hsbcSummaryContent
+{
+}
+/* Fix for PC IE5.01 */
+div>.hsbcSearchPageHead
+{ height: 30px; }
+div > .hsbcSearchPageHead
+{ height: auto; }
+/* */
+
+.hsbcSearchPageHead p,
+.hsbcSummaryContent p
+{
+	padding: 0px !important;
+	margin: 0px !important;
+}
+.hsbcSearchPageHead .hsbcTextLeft p,
+.hsbcSummaryContent .hsbcTextLeft p
+{
+	float: left;
+	/* \*/
+	float: none;
+	/* */
+}
+/* Page List divlet (start) */
+/* Used in search results. MUST remain at the bottom of the CSS file to work in Mac IE */
+	.hsbcDivletPageList
+	{
+		padding: 0px 9px 0px 0px !important;
+		background-color: #eaeffa !important;
+		font-size: 90%;
+		/* \*/
+		font-size: 85% !important;
+		/* */
+		line-height: 250%;
+		border-top: 1px solid #fff;
+		border-bottom: 1px solid #fff;
+	}
+	/* Fix for PC IE5.01 */
+	div>.hsbcDivletPageList
+	{ height: 20px; }
+	div > .hsbcDivletPageList
+	{ height: auto; }
+	/* */
+	.hsbcDivletPageList ul
+	{
+		margin: 0px !important;
+		padding: 0px !important;
+		float: left !important;
+		clear: none;
+	}
+	.hsbcDivletPageList li
+	{
+		float: left;
+		margin: 0px !important;
+		padding: 0px 11px !important;
+		background: none !important;
+		line-height: 250% !important;
+		border-right: 1px solid #fff !important;
+		font-weight: bold;
+	}
+	.hsbcDivletPageList li.hsbcDivletPageListSelected
+	{
+		background-color: #fff !important;
+		border-right: 1px solid #eaeffa !important;
+	}
+	.hsbcDivletPageList li.hsbcDivletPageListSelected a
+	{
+		color: #333 !important;
+		text-decoration: none !important;
+		cursor: auto !important;
+	}
+	.hsbcDivletPageList li a
+	{
+		display:block;
+		float: left !important;
+		/* \*/
+		float: none;
+		/* */
+	}
+	.hsbcDivletPageList div.hsbcTextLeft
+	{
+		float: left;
+	}
+	.hsbcDivletPageList div.hsbcTextRight
+	{
+		text-align: right;
+		white-space: nowrap;
+	}
+/* Page List divlet (end) */
+/*Terms and Conditions Footer Divlet*/
+
+/*terms and conditions error divlet*/
+
+div.termsError
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: #fff;
+	height:75em;
+	width:760px;
+	z-index:100;
+	padding-left: 10px;
+
+}
+
+/* Used inside div.termsError to work around the ie z-index bug */
+div.ieZindexWrapper
+{
+	position: relative;
+	z-index: 100;
+}
+
+/*end of terms and conditions error divlet*/
+
+div.hsbcDivletFooterLinksLayer,
+.wpsCopyrightText
+{
+	font-size: 85%;
+	width: 100%;
+	float: left;
+	margin: 10px 0px;
+}
+div.hsbcDivletFooterLinksLayer p,
+.wpsCopyrightText p
+{
+	margin: 4px 0px 0px 10px;
+	padding: 6px 0px;
+	background: url("../dash_line.gif") repeat-x top left;
+	height: 1em;
+	color: #666;
+}
+div.hsbcDivletFooterLinksLayer p a,
+.wpsCopyrightText p a
+{
+	font-weight: bold;
+	color: #666;
+	text-decoration: none;
+}
+div.hsbcDivletFooterLinksLayer p a:hover,
+.wpsCopyrightText p a:hover
+{
+	text-decoration: underline !important;
+}
+div.hsbcDivletFooterLinksLayer p span.hsbcDivletFooterLinksLeft,
+.wpsCopyrightText p span.hsbcDivletFooterLinksLeft
+{
+	float: left;
+}
+div.hsbcDivletFooterLinksLayer p span.hsbcDivletFooterLinksRight,
+.wpsCopyrightText p span.hsbcDivletFooterLinksLeft
+{
+	float: right;
+	font-weight: bold;
+}
+
+/* When display is not required for labels */
+
+.off
+{
+  display: none
+}
+
+   table .extTableColumn8
+{
+        padding: 2px 0px 0px 4px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+table .extTableColumn9
+{
+           vertical-align: top;
+           padding: 6px 0px 0px 9px;
+}
+
+table ul.hsbcUL
+{
+       padding: 2px 0px 0px 4px;
+       margin-top: 0px;
+       margin-bottom: 0px;
+       margin-left:39px;
+}
+table th a.hsbcDivletNavigationUpSelected,
+.wpsTableHeadLink th a,
+.wpsTableHeadLink th a:visited,
+.wpsTableHeadLinke th a:hover
+{
+	background: url("../arr_up_red_on_gry.gif") right top no-repeat;
+
+}
+
+
+a.hsbcDivletNavigationUpSelected
+{
+	color: #f00 !important;
+}
+
+.checkboxBold
+{
+   /*FIX FOR:IE*/
+    border-top: thick;
+
+   /*FIX FOR: firefox*/
+   -moz-outline-style: solid !important;
+   -moz-outline-width: 1px !important;
+}
+
+/* Used to make text faint(gray) */
+.faintText
+{
+  color:#808080;
+}
+
+/* Used to change the padding and margin for the td */
+table .extTableColumn61
+{
+	PADDING-LEFT: 16px;
+	PADDING-RIGHT: 0px;
+	margin-right: 0px
+}
+
+table th.extTableColumn21
+{
+	PADDING-RIGHT: 0px;
+	margin-right: 0px
+}
+
+table td.extTableColumn21
+{
+	PADDING-RIGHT: 0px;
+	margin-right: 0px
+}
+
+table td.extTableColumn22 {
+	padding-left: 0px;
+}
+
+table .alinePrint
+{
+	padding: 8px 0px 0px 0px;
+	margin-left:0px;
+}
+
+/* Used to display eggTimer on the pages where user has to wait */
+
+.eggTimer
+{
+
+	background: url("../eggtimer_animated.gif") center no-repeat;
+	height:25px;
+}
+
+.hsbcSearchResults .hsbcMainContent
+{
+	width: 700px;
+	margin-left: 15px;
+}
+
+.hsbcSearchResults .hsbcMainContent .hsbcRow
+{
+	width: 700px;
+	clear: both;
+}
+
+.hsbcSearchResults .hsbcContent
+{
+	width: 700px;
+}
+
+.hsbcSearchResults .hsbcSearchPageHead
+{
+	height: 2.5em;
+}
+
+.leftMargin10
+{
+	margin-left: 10px;
+
+}
+.extLayoutContent01 td strong
+{color:#000000 !important;}
+
+.extLayoutContent01 td a
+{color:#36c !important; text-decoration:none !important;}
+
+.hsbcActionLink a
+{color:#36c !important; text-decoration:none !important;}
+
+/*terms and conditions error divlet*/
+
+div.termsError
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: #fff;
+	height:75em;
+	width:1000px;
+	z-index:100;
+	padding-left: 10px;
+
+}
+.hsbcBoxStyle
+{
+        border-top:1px solid #d5d0e0;
+	border-bottom:1px solid #d5d0e0;
+	margin-bottom:50px;
+	margin-left:6px;
+	float:left;
+}
+
+/* Added new classes for PIB Bridge Removal*/
+
+TABLE a.hsbcukstp_onlineSaver_Links
+{
+	color: #0000FF;
+	visited:#0000FF;
+	text-decoration: underline !important;
+	font-family: Arial;
+	font-size: 100%;
+}
+
+.hsbcRightContent .hsbcButtonInvLeftRed {
+	MARGIN-TOP: 3px;
+}
+
+DIV.hsbcButtonInvLeftRed {
+	BACKGROUND: url("../images/Red_btn_left_inv.gif") no-repeat right 50%; FLOAT: left; WIDTH: 7px; HEIGHT: 22px;
+}
+DIV.hsbcDivletBoxRow DIV.hsbcButtonInvLeftRed {
+	WIDTH: 10px;
+}
+
+.hsbcRightContent .hsbcButtonInvCenterRed {
+	MARGIN-TOP: 3px;
+}
+
+.hsbcRightContent .hsbcButtonInvCenterRed A {
+	FONT-SIZE: 100%;
+}
+DIV.hsbcButtonInvCenterRed {
+	BACKGROUND: url("../images/Red_btn_bg_inv.gif") repeat-x; FLOAT: left;
+}
+DIV.hsbcButtonInvCenterRed A {
+	PADDING-RIGHT: 0px! important; PADDING-LEFT: 2px! important; FONT-WEIGHT: bold;  FLOAT: left; PADDING-BOTTOM: 0px! important; MARGIN: 3px 0px; COLOR: #fff! important; PADDING-TOP: 0px! important; HEIGHT: 22px; TEXT-DECORATION: none! important;
+}
+DIV.hsbcButtonInvCenterRed A:hover {
+	TEXT-DECORATION: underline! important;
+}
+
+.extLndPg .hsbcButtonInvCenterRed A {
+	FONT-SIZE: 100%;
+}
+
+.hsbcRightContent .hsbcButtonInvRightRed {
+	MARGIN-TOP: 3px;
+}
+
+DIV.hsbcButtonInvRightRed {
+	BACKGROUND: url("../images/Red_btn_right_inv.gif") no-repeat; FLOAT: left; WIDTH: 7px; HEIGHT: 22px;
+}
+.hsbcFourColsMainHeadingRed
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 140%;
+    COLOR: red;
+    FONT-FAMILY: Arial, Helvetica, Verdana, Sans-Serif;
+    TEXT-DECORATION: none;
+}
+.hsbcFourColsMainHeadingBlack
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 140%;
+    COLOR: black;
+    FONT-FAMILY: Arial, Helvetica, Verdana, Sans-Serif;
+    TEXT-DECORATION: none;
+}
+.greyBackground
+{
+ 	background-color: #EFEFEF;
+ 	padding: 9px 0px;
+ 	margin-bottom: 20px;
+}
+
+.savings_strong
+{
+	color:black;
+}
+
+.hsbcSubHeadingNoPaddingLeftBlack
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 100%;
+    COLOR: black;
+    FONT-FAMILY: Arial, Helvetica, Verdana, Sans-Serif;
+ }
+.hsbcSubHeadingNoPaddingLeftRed
+ {
+     FONT-WEIGHT: bold;
+     FONT-SIZE: 100%;
+     COLOR: red;
+     FONT-FAMILY: Arial, Helvetica, Verdana, Sans-Serif;
+ }
+ span.saving_black_bold strong
+  {
+      FONT-WEIGHT: bold;
+      FONT-SIZE: 100%;
+      COLOR: black;
+      FONT-FAMILY: Arial, Helvetica, Verdana, Sans-Serif;
+  }
+ table.pib_saving_border
+  {
+        border: 1px solid;
+        border-collapse: collapse;
+        border-spacing:0px;
+        border-color:#C0C0C0;        
+  }
+  table.pib_saving_border a,
+  table.pib_saving_border a:link,
+  table.pib_saving_border a:active,
+  table.pib_saving_border a:visited {
+   	text-decoration:underline ! important;
+   	color:#0000FF;
+ 	}
+ table td.pib_saving_cell
+  {
+       padding: 6px 6px 6px 6px;
+       border: 1px solid; 
+  }
+ table td.pib_saving_cell_bgcolor
+ {
+      padding: 6px 6px 6px 6px;
+      border: 1px solid; 
+      background-color: #EFEFEF;
+ }
+table.vk
+{ 
+                font-size: 100%;
+	border-collapse: collapse;
+	width: 100%;
+	margin-bottom: 0px;
+}
+table tr.vk{
+	padding-right: 0px; border-top: 0px solid; padding-left: 0px; padding-bottom:0px; border-left: 0px solid; padding-top: 0px; border-bottom: 0px solid
+}
+table td.vk{
+	padding-right: 0px; border-top: 0px solid; padding-left: 0px; padding-bottom:0px; border-left: 0px solid; padding-top: 0px; border-bottom: 0px solid
+}
+/* Added new classes for PIB Credit Cards */
+	/* STARTS HERE */
+
+ .hsbcCenterAlign
+   {
+   padding-left:4% !important;
+  }
+  
+  
+  .hsbc04FlowBoxes .hsbcFlowArrowRed
+  {
+  	width: 15px;
+  	text-align: left;
+  }
+  .hsbc04FlowBoxes .hsbcFlowArrowDown
+  {
+  	width: 25px;
+  }
+  .hsbc04FlowBoxes .hsbcFlowBoxCards
+  {  	
+  	width: 10%;	
+	float: left;		
+	padding: 15px 0px;
+  }
+  
+ 
+  .hsbcFlowArrowRed
+  {
+  	height: 45px;
+  	float: left;
+  	background: url("../red_arrow.gif") no-repeat left;
+  }
+  
+  .hsbcFlowArrowDown
+  {
+  	height: 45px;
+  	float: left;
+  	background: url("../red_arrow_down.gif") no-repeat left;
+   } 
+ 
+ .hbeu_ukp_bodySmall
+ {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 12px;
+	COLOR: black;
+	FONT-FAMILY: arial, helvetica, sans-serif
+ } 
+
+/** CRC01 **/
+
+div.hsbcFourColsRow {
+	width: 100% !important;
+	clear: both ;
+}
+
+div.hsbcFourColsColumnOne {
+	width:100% !important; 
+	float:left !important;
+	padding-left:20px !important;	
+}
+
+div.hsbcRedHeadingWithoutBold {
+	width:100% !important; 
+	float:left !important;	
+	COLOR: #ff0000;
+}
+
+/** CRC03 **/
+.hsbcukstp_doublesizedcontentgrey
+{
+	font-size: 18px;
+	font-weight:normal;
+	color: gray;
+	font-family: Arial, Helvetica, Sans-serif;
+}
+.hbeu_ukp_bglightred
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 16px;
+    COLOR: #ff0000;
+    FONT-FAMILY: Arial, Helvetica, Verdana, Sans-Serif;
+    TEXT-DECORATION: none
+}
+.hsbcCreditCard {
+ 
+	WIDTH:159Px;
+	HEIGHT:103px;
+	background: url("../credit_card_159x103.jpg") no-repeat;
+}
+
+.hsbcukstp_boldcontentgrey strong
+{
+	font-size: 12px;
+	font-weight:bold;
+	color: gray;
+	font-family: Arial, Helvetica, Sans-serif;
+}
+.hsbcSubHeadingNoPaddingLeftRedPIBCC
+ {
+     FONT-WEIGHT: bold;
+     FONT-SIZE: 12px;
+     COLOR: #ff0000;
+     FONT-FAMILY: Arial, Helvetica, Verdana, Sans-Serif;
+ }
+
+/*CRC06 */
+div.box
+{
+	border: 1px solid #ccc;
+	width: 98% !important;
+	margin: 5px 0px 0px 5px !important;
+}
+
+table.fullWidth
+{
+	width: 100% !important;
+}
+
+.smallbox{
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	padding: 2px;
+}
+
+.agreementBox table{
+	width: 96%;
+}
+
+
+DIV.agreementBoxForPIBCreditCards
+{
+border-width:1px; 
+border-style:solid; 
+height:400px; 
+background-color:#ffffff; 
+overflow:auto;
+}
+
+/** CRC07 **/
+
+.hsbcLifeChoicesCAOImage{ 
+ 	WIDTH:240px;
+	HEIGHT:179px;
+	background: url("../stp_cover_against.gif") no-repeat;cursor: pointer;
+}
+
+
+/** CRC08 **/
+.hsbcHeadingRedNoPaddingLeft
+{
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 16px;
+	COLOR: #ff0000;
+	FONT-FAMILY: Arial, Helvetica, Verdana, Sans-Serif;
+	TEXT-DECORATION: none;   
+}
+.hsbcSubHeadingNoPaddingLeft
+{
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 12px;
+	COLOR: black;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+ }
+
+TABLE a.navRedU
+{
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 12px;
+	COLOR:#ff0000;
+	visited:#ff0000;
+	FONT-FAMILY: Arial;
+	TEXT-DECORATION: underline
+} 
+
+/** CRC02 **/
+
+div.hsbcFourColsColumnOneWithSpace {
+	width:97% !important; 
+	float:left !important;
+	padding-left:20px !important;
+	padding-right:3% !important;
+}
+.hsbcFourColsMainHeading
+{    
+    FONT-SIZE: 16px;
+    COLOR: black;
+    FONT-FAMILY: Arial, Helvetica, Verdana, Sans-Serif;
+    TEXT-DECORATION: none;
+
+}
+.hsbcFourColsSubHeading
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 14px;
+    COLOR: #ff0000;
+    FONT-FAMILY: arial, helvetica, sans-serif;
+    
+}
+.hsbcFourColsSectionHeading
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: #ff0000;
+    FONT-FAMILY: arial, helvetica, sans-serif;
+    
+}
+
+table.tableNoPadding td
+{
+	padding: 1px 8px 1px 9px;
+}
+
+
+/*Error highlight*/
+
+.errorhighlightfield
+{
+	BACKGROUND-COLOR: #dbeffb
+}
+
+.errors
+{	
+	MARGIN: 0px;
+	FONT: bold xx-small arial, helvetica, sans-serif;
+	COLOR: red
+} 
+
+/** Buttons **/
+
+INPUT.hsbcSearchButton {
+	BORDER-RIGHT: #eaeffa 0px solid;
+	BORDER-LEFT: #eaeffa 0px solid;
+	BORDER-TOP: #eaeffa 0px solid;
+	BORDER-BOTTOM: #eaeffa 0px solid;
+	color: white;
+	padding: 0%;
+	padding-bottom:0%;
+	WIDTH:104px;
+	HEIGHT:22px;
+	background: url("../button_Search_red.gif") no-repeat;cursor: pointer;
+}
+
+
+INPUT.hsbcSubmitButton {
+	BORDER-RIGHT: #eaeffa 0px solid;
+	BORDER-LEFT: #eaeffa 0px solid;
+	BORDER-TOP: #eaeffa 0px solid;
+	BORDER-BOTTOM: #eaeffa 0px solid;
+	color: white;
+	padding: 0%;
+	padding-bottom:0%;
+	WIDTH:104px;
+	HEIGHT:22px;
+	background: url("../button_submit_red.gif") no-repeat;cursor: pointer;
+}
+
+INPUT.hsbcCancelButton {
+	BORDER-RIGHT: #eaeffa 0px solid;
+	BORDER-LEFT: #eaeffa 0px solid;
+	BORDER-TOP: #eaeffa 0px solid;
+	BORDER-BOTTOM: #eaeffa 0px solid;
+	color: white;
+	padding: 0%;
+	padding-bottom:0%;
+	WIDTH:104px;
+	HEIGHT:22px;
+	background: url("../button_cancel_red.gif") no-repeat;cursor: pointer;
+}
+
+INPUT.hsbcBackButton {
+	BORDER-RIGHT: #eaeffa 0px solid;
+	BORDER-LEFT: #eaeffa 0px solid;
+	BORDER-TOP: #eaeffa 0px solid;
+	BORDER-BOTTOM: #eaeffa 0px solid;
+	color: white;
+	padding: 0%;
+	padding-bottom:0%;
+	WIDTH:104px;
+	HEIGHT:22px;
+	background: url("../button_Back_red.gif") no-repeat;cursor: pointer;
+}
+
+
+
+INPUT.hsbcContinueButton {
+	BORDER-RIGHT: #eaeffa 0px solid;
+	BORDER-LEFT: #eaeffa 0px solid;
+	BORDER-TOP: #eaeffa 0px solid;
+	BORDER-BOTTOM: #eaeffa 0px solid;
+	color: white;
+	padding: 0%;
+	padding-bottom:0%;
+	WIDTH:104px;
+	HEIGHT:22px;
+	background: url("../button_Continue_red.gif") no-repeat;cursor: pointer;
+}
+
+INPUT.hsbcAmendButton {
+	BORDER-RIGHT: #eaeffa 0px solid;
+	BORDER-LEFT: #eaeffa 0px solid;
+	BORDER-TOP: #eaeffa 0px solid;
+	BORDER-BOTTOM: #eaeffa 0px solid;
+	color: white;
+	padding: 0%;
+	padding-bottom:0%;
+	WIDTH:104px;
+	HEIGHT:22px;
+	background: url("../button_Amend_red.gif") no-repeat;cursor: pointer;
+}
+
+INPUT.hsbcDeclineButton {
+	BORDER-RIGHT: #eaeffa 0px solid;
+	BORDER-LEFT: #eaeffa 0px solid;
+	BORDER-TOP: #eaeffa 0px solid;
+	BORDER-BOTTOM: #eaeffa 0px solid;
+	color: white;
+	padding: 0%;
+	padding-bottom:0%;
+	WIDTH:104px;
+	HEIGHT:22px;
+	background: url("../button_Decline_Offer_red.gif") no-repeat;cursor: pointer;
+}
+INPUT.PDFDownloadButton {
+	BORDER-RIGHT: #eaeffa 0px solid;
+	BORDER-LEFT: #eaeffa 0px solid;
+	BORDER-TOP: #eaeffa 0px solid;
+	BORDER-BOTTOM: #eaeffa 0px solid;
+	color: white;
+	padding: 0%;
+	padding-bottom:0%;
+	WIDTH:104px;
+	HEIGHT:22px;
+	background: red; no-repeat;cursor: pointer;
+}
+
+/** Added to remove the topmargin from bullet points*/
+
+.hsbcAgreementPageTopMargin {
+	margin-top:0;	
+}
+.hsbcAgreementPageBottomMargin {
+	margin-bottom:0;	
+}
+
+/* Added new class for OOB auth code bold display*/
+
+ .hsbcBoldDisplay
+ {
+ 	 font-size:200%;
+ 	 padding-left:150px;
+ }
+
+
+ .hsbcListLeftPadding
+ {
+  padding:0px 0px 0px 12px;
+  margin:0px 0px 0px 11px;
+ }
+ 
+ /*------------------Added for DCF-----------------*/
+  
+  INPUT.hsbcSubmitButton {
+  	BORDER-RIGHT: #eaeffa 0px solid;
+  	BORDER-LEFT: #eaeffa 0px solid;
+  	BORDER-TOP: #eaeffa 0px solid;
+  	BORDER-BOTTOM: #eaeffa 0px solid;
+  	color: white;
+  	padding: 0%;
+  	padding-bottom:0%;
+  	WIDTH:190px;
+  	HEIGHT:22px;
+  	background: url("../contin_fund_acc.gif") no-repeat;cursor: pointer;
+}
+
+span.hsbcBoldBlackForDCF strong {color:black !important;}
+
+.hsbcUnderline
+{
+	text-decoration: underline;
+}

@@ -1,0 +1,11 @@
+/* 
+	Title: en_GB/country.css
+	Author Name: Cynthia Chu
+	Author Date: 2007-07-23
+	Description: Exclusive and redefined rules for en_GB for SRD.
+*/
+
+ 
+
+.outside #content .main .zone #hero p {margin:-34px 0 0 450px;}
+.outside #content .main .zone #hero img.getstarted {width:auto; padding-bottom:10px;}

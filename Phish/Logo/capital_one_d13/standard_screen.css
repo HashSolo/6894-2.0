@@ -1,0 +1,488 @@
+/**********************************************************
+ *                                                        *
+ *  Copyright ©2005  Corillian Corporation                *
+ *                                                        *
+ *  All rights reserved.                                  *
+ *                                                        *
+ *  Highly Confidential.                                  *
+ *                                                        *
+ *  No portion of this code may be reproduced,            *
+ *  transmitted or distributed without the express        *
+ *  written permission of Corillian Corporation.          *
+ *                                                        *
+ **********************************************************/
+
+/**********************************************************
+ *                                                        *
+ *  HTML ENTITIES                                         *
+ *                                                        *
+ **********************************************************/
+body{
+	width:770px;
+}
+
+/**********************************************************
+ *                                                        *
+ *  GENERAL                                               *
+ *                                                        *
+ **********************************************************/
+
+div.sectionDivider{
+	height: 15px;
+}
+
+/**********************************************************
+ *                                                        *
+ *  HEADER                                                *
+ *                                                        *
+ **********************************************************/
+.toolbarContainer
+{
+    margin-left: 5px;
+    margin-right: 0px;
+    float: right;
+    vertical-align: top;
+}
+.toolbarContainer *
+{
+    font-size: 10px;
+}
+.toolbarContainer tr
+{
+    height: 20px;
+}
+.toolbarContainer td
+{
+	background-image: url(../Images/toolbar_bg.gif);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.toolbarContainer td a:link,
+.toolbarContainer td a:visited,
+.toolbarContainer td a:active
+{
+	color: #2866af;
+	text-decoration: none;
+}
+.toolbarContainer td a:hover
+{
+	text-decoration: none;
+}
+.toolbarContainer td.toolbarLeft
+{
+	background: url(../Images/toolbar_left.gif) no-repeat;
+    padding-left: 5px;
+    padding-right: 0px;
+}
+.toolbarContainer td.toolbarRight
+{
+	background: url(../Images/toolbar_right.gif) no-repeat;
+}
+.toolbarContainer td.toolbarDivider
+{
+    padding-left: 0;
+    padding-right: 0;
+}
+.toolbarContainer td.toolbarHighlighted
+{
+	background: url(../Images/toolbar_bg_messages.jpg);
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.toolbarContainer td.toolbarHighlighted a:link,
+.toolbarContainer td.toolbarHighlighted a:visited,
+.toolbarContainer td.toolbarHighlighted a:active,
+.toolbarContainer td.toolbarHighlighted a:hover
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.toolbarContainer td.toolbarLeftHighlighted
+{
+	background: url(../Images/toolbar_left_messages.jpg) no-repeat;
+	padding-left: 8px;
+	padding-right: 6px;
+}
+
+
+.toolbarContainer td.toolbarSelected
+{
+	background-image: None;
+    background-color: #CCE4EC;
+}
+
+
+
+/**********************************************************
+ *                                                        *
+ *  FOOTER                                                *
+ *                                                        *
+ **********************************************************/
+
+
+/**********************************************************
+ *                                                        *
+ *  ERRORS/VALIDATION                                     *
+ *                                                        *
+ **********************************************************/
+
+
+/**********************************************************
+ *                                                        *
+ *  NAVIGATION                                            *
+ *                                                        *
+ **********************************************************/
+
+div.navigationContainer
+{
+	height:52px;
+	margin-left:5px;
+	margin-top: -24px;
+	width:760px;
+}
+
+/*
+div.navigationContainer tr.navigationSubList{
+	background-image: url(../Images/subnav_bg.gif);
+	height: 27px;
+}
+
+div.navigationContainer a.navigationActiveSubItem,
+div.navigationContainer a.navigationActiveSubItem:visited,
+div.navigationContainer a.navigationActiveSubItem:link,
+div.navigationContainer a.navigationActiveSubItem:active
+div.navigationContainer a.navigationActiveSubItem:hover {
+	color: #000000 !important;
+	font-size: 12px !important;
+	font-weight: bold !important;
+	text-decoration: none !important;
+}
+
+div.navigationContainer tr.navigationSubList a,
+div.navigationContainer tr.navigationSubList a:visited,
+div.navigationContainer tr.navigationSubList a:link,
+div.navigationContainer tr.navigationSubList a:active{
+	color: #006666;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+div.navigationContainer tr.navigationSubList a:hover{
+	color: #009999;
+	text-decoration: none;
+}
+
+div.navigationContainer tr.navigationSubList span.separator{
+	color: #006666;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+*/
+
+/**********************************************************
+ *                                                        *
+ *  TABLES                                                *
+ *                                                        *
+ **********************************************************/
+
+/**********************************************************
+ *                                                        *
+ *  WORKSPACE                                             *
+ *                                                        *
+ **********************************************************/
+
+div.instructionsContainer{
+ 	margin-bottom: 0px;
+ 	margin-left: 10px;
+}
+
+.appTitle *
+{
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+#HEADER
+{
+    width: 100%;
+}
+#APPTITLE
+{
+    font-size: 11px;
+    font-weight: bold;
+    color: #003a6f;
+}
+#USERNAME
+{
+    font-size: 11px;
+    font-weight: bold;
+}
+#OTHERACCOUNTS
+{
+    font-size: 11px;
+}
+.textAdContainer
+{
+	margin-top: 6px;
+	margin-left: 13px;
+	margin-bottom: 6px;
+	padding-left: 2px;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+}
+.textAdContainer a:link
+.textAdContainer a:visited
+{
+	color: #00657C;
+}
+.textAdContainer a:hover
+{
+	color: #0092BA;
+}
+.textAdDivider
+{	vertical-align: top;
+	margin-top: 0px;
+    margin-left: 5px;
+}
+
+.topNavMenu
+{
+	height:24px;
+	background: transparent url(../images/banner_bg.gif) no-repeat;
+}
+
+td.topNavItem
+{	
+    padding-top: 5px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 0px;	
+    font-weight: bold;
+    background: url(../images/nav_left-off.gif);
+}
+td.topNavItemSelected
+{
+	background: url(../images/nav_left-on.gif);
+}
+td.topNavItemFirstSelected
+{
+	background: url(../images/nav_left-on.gif);	
+}
+td.topNavItem a
+{
+    font-size: 12px;
+    font-weight: bold;
+}
+td.topNavItem a:link,
+td.topNavItem a:visited
+{
+	color: #FFFFFF;
+    text-decoration: none;
+}
+td.topNavItem a:hover
+{
+	color: #FFFFFF;
+    text-decoration: underline;
+}
+td.topNavItemSelected a
+{
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    }
+td.topNavItemSelected a:link,
+td.topNavItemSelected a:visited
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+td.topNavItemSelected a:hover
+{
+    color: #ffffff;
+    text-decoration: underline;
+}
+td.topNavItemFirstSelected a
+{
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+}
+td.topNavItemFirstSelected a:link,
+td.topNavItemFirstSelected a:visited
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+td.topNavItemFirstSelected a:hover
+{
+    color: #ffffff;
+    text-decoration: underline;
+}
+.subNavMenu
+{
+	background:#00315D url(../images/subnav_bg.gif) no-repeat scroll center bottom;
+    height: 27px;
+}
+td.subNavItem
+{    
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+td.subNavItem a
+{
+    color: #ffffff;
+    font-size: 12px;
+}
+td.subNavItemSelected a
+{
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+}
+td.subNavItem a:link,
+td.subNavItem a:visited
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+td.subNavItem a:hover
+{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.navigationContainer
+{
+    width: 760px;
+}
+.navigationContainer .progressBar
+{
+	margin-top: 1px;
+	/* control the width of the progress bar
+       to match the background image of the top menu */
+	width: 752px;
+}
+.navigationContainer .progressBar .default
+{
+	border: 1px solid #CEE7EB;
+	background-color: #EEF8FA;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+	padding: 5px 2px 5px 10px;
+}
+.navigationContainer .progressBar .current
+{
+	border: 1px solid #CEE7EB;
+	background-color: #CEE7EB;
+	font-size: 12px;
+	font-weight: bold;
+	color: #333333;
+	padding: 5px 2px 5px 10px;
+}
+.navigationContainer .progressBar .visited
+{
+	border: 1px solid #CEE7EB;
+	background-color: #F4F4F4;
+	font-size: 12px;
+	font-weight: normal;
+	color: #999999;
+	padding: 5px 2px 5px 10px;
+}
+
+.footerBar
+{    
+    background: url(../images/footer_bg-2.jpg) repeat-x;
+    float: left;
+    border-top: #e5ecf4 1px solid;
+    margin-left: 0px;    
+    padding-left: 0px;
+    padding-top: 12px;
+    padding-bottom: 40px;
+    padding-right: 8px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #656565;
+	line-height: 17px;
+}
+
+.footerBar a:link,
+.footerBar a:visited,
+.footerBar a:hover
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #656565;
+	line-height: 17px;
+}
+
+.faqInfo
+{
+	background-color:#5780ae; 
+	height:25px; 
+	padding:0px 5px 0px 13px; 
+	border:solid 1px #488898;
+}
+
+/**********************************************************
+ *                                                        *
+ *  ONLINE ACCOUNT ORIGINATION                            *
+ *                                                        *
+ **********************************************************/
+/**********************************************************
+ *  OAO WORKSPACE                                         *
+ **********************************************************/
+
+div.oaoInstructionsContainer
+{
+}
+
+.oaoPageBodyContainer
+{
+	width: 485px;
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+
+.oaoPageBody
+{
+}
+
+.oaoPageBody a,
+.oaoPageBody a:link,
+.oaoPageBody a:active,
+.oaoPageBody a:visited
+{
+	padding: 0px 4px 0px 4px;
+	color: #333333; 
+	text-decoration: none;
+}
+
+.oaoPageBody a:hover
+{
+	color: #00667c; 
+	text-decoration: underline;
+}
+
+.oaoPageBodyHeader
+{
+	width: 475px;
+	margin-left: 10px;
+	margin-bottom: 15px;
+}
+
+.navBorder 
+{
+	background:#A12830 none repeat scroll 0%;
+	border-bottom:1px solid #922128;
+	height:2px;
+	width:770px;
+}
+
+.copy_darkblue {
+	FONT-WEIGHT: bold; COLOR: #204d79
+}

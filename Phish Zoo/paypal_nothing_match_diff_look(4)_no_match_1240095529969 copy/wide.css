@@ -1,0 +1,6 @@
+/* Site Redesign Header and Footer Styles */
+
+#header.srd {width:100% !important;}
+#rosetta {left:73%;}
+div#navPrimary, div#navPrimary.srd {width:100% !important;}
+div#navPrimary ul.srd li.expanded ul {width:100% !important;}

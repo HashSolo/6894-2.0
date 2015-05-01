@@ -1,0 +1,1461 @@
+
+
+/* ----- Make all elements inactive----- */
+#obertka {
+  width: 100%; height: 100%;
+	position: absolute; z-index: 500;
+  background: dimgray;
+  top: 0; left: 0;
+}
+/* ------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*:focus {
+  outline: none;
+}
+html {
+  background: #fff;
+  color: #4B4242;
+  font: 13px Tahoma, Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  background: #fff url(http://err.agava.ru/vh/i/main_bg.gif) repeat-x top;
+  min-width: 774px;
+  z-index:1; position:relative;
+}
+
+a {
+  color: #00A2FF;
+}
+a:visited {}
+a:hover {}
+a:active {}
+
+
+
+
+p
+{
+	margin: 0 0 1em 0;
+}
+
+.no-block { display: inline !important; }
+
+pre {
+  background: #ECECEC;
+  border: 1px solid #CCCCCC;
+  color: #000;
+  padding: 3px;
+}
+
+
+
+.not_exist_link {color: #00A2FF; text-decoration: underline; }
+
+
+h1{
+	margin: 0 0 12px 0;
+	font-size: 20px;
+	font-weight: normal;
+	color: #2B2D28;
+}
+h1 sup{
+  color: #A0D300;
+  /*font-size: .7em;*/
+  font-size: 11px;
+}
+h2
+{
+	margin: 0 0 12px 0;
+	/*font-size:1.6em;*/
+	font-size: 18px;
+	font-weight: normal;
+	color: #2B2D28;
+}
+
+h2 sup{
+  color: #A0D300;
+  /*font-size: .7em;*/
+  font-size: 12px;
+}
+
+h3
+{
+	margin:.7em 0 0 0;
+	/*font-size:1.6em;*/
+	font-size: 18px;
+	font-weight: normal;
+	color: #92C100;
+}
+h3 sup{
+  color: #A0D300;
+  /*font-size: .7em;*/
+  font-size: 11px;
+}
+h4
+{
+	margin:0 0 1em 0;
+	/*font-size:1.6em;*/
+	font-size: 13px;
+	/*font-weight: normal;*/
+	color: #000000;
+}
+
+h4 sup {
+  color: #A0D300;
+  /*font-size: .7em;*/
+  font-size: 11px;
+}
+
+h5{
+	font-size: 14px;
+	margin-bottom: 16px;
+}
+
+h6{
+	font-size: 14px;
+	margin-bottom: 16px;
+}
+
+.relative { position: relative; display: block; }
+.nobr { white-space: nowrap; }
+strong { font-weight:bold; }
+.bold { font-weight:bold; }
+em { font-style:italic; }
+
+
+.hidden { display: none; }
+.show { display: block!important; }
+
+.no-margin { margin: 0!important; }
+.no-margin-r { margin-right: 0px !important; }
+.no-margin-b { margin-bottom: 0px !important; }
+
+.no-padding { padding: 0!important; }
+.no-padding_t { padding-top: 0!important; }
+.no-bg { background: none!important; }
+.no-border, img { border: none!important; }
+
+.img-repl {
+  text-indent: -9999px;
+  overflow: hidden;
+  display: block;
+}
+
+.left      { float:left;  clear: left;  }
+.right     { float:right; clear: right; }
+.left_     { float:left; }
+.right_    { float:right;}
+.clearAll  { clear:both; }
+.clearLeft { clear:left; }
+.clearRight{ clear:right;}
+
+.no_font-size { font-size: 0; }
+
+.hand { cursor: pointer; }
+.text_red { color: red; }
+
+ul.type_none { margin-left: 10px !important;}
+ul.type_none li { list-style-type: none; }
+
+.not_recover { overflow: hidden; }
+/* -------------------------------------------------------------------------- */
+.first{
+  width: 48%;
+  border: 1px solid #fff;
+}
+.first_spacer{
+  width: 1px;
+  height: 310px;
+}
+.personal {
+  position: absolute;
+  right: 35px;
+  top: 17px;
+  float: right;
+  color: #fff;
+  /*width: 110px;*/
+  height: 21px;
+  margin-top: -5px;
+  z-index: 2;
+  font-size: 12px;
+}
+.personal div{
+  float: left;
+}
+
+.personal .l, .personal .r { width: 11px;  height: 21px; }
+
+.personal .l { background: url(http://err.agava.ru/vh/i/personal_l.png) no-repeat top left; }
+.personal .r { background: url(http://err.agava.ru/vh/i/personal_r.png) no-repeat top left; }
+
+.personal div{
+  text-align: center;
+  white-space: nowrap;
+  height: 21px;
+  /*width: 88px;*/
+  line-height: 1.4em;
+  background: #6ECAFF url(http://err.agava.ru/vh/i/personal_c.png) repeat-x top;
+  text-transform: lowercase;
+}
+.personal a{
+  color: #fff;
+  position: relative;
+}
+
+.top_line {
+  position: relative;
+  clear:both;
+  border-top:1px solid #000;
+  margin-bottom: 57px;
+  width:100%;
+}
+
+.top_line .right { padding-right:30px; }
+.top_line .right a { color:#A0D300; margin-left:17px; }
+
+.top_line_text{
+  background: #000;
+  padding: 4px 0px 6px 0px; /* 5px 0*/
+  color: #fff;
+  margin: 0;
+  height: 12px;
+  position: absolute; z-index: 1;
+  top: 0px; left: 0px;
+  width: 100%;
+  border-bottom: 1px solid #000;
+  font-size: 11px;
+}
+.top_line_text div { padding-left: 30px; }
+.top_line_text span{
+  color: #A0D300;
+}
+
+/* -------------------------------------------------------------------------- */
+.content{
+  /*margin: 0px 30px 30px 30px;*/
+  margin: 0px 30px 40px 30px;
+  padding: 5px 0px;
+/*  overflow: hidden; */
+  border: 0px solid red;
+}
+
+.topic{
+  margin-right: 265px; /*255px;*/
+  text-align: justify;
+  padding: 1px;
+}
+
+.news span{
+  color: #C9C8BD;
+}
+
+.infoNew { background:#e1e1e1 url(http://err.agava.ru/vh/i/icl.png) left top repeat-y; margin-right:-30px; font-size:18px; margin-bottom:23px; }
+.infoNew1 { background:transparent url(http://err.agava.ru/vh/i/itl.png) left top no-repeat; }
+.infoNewTop { height:3px; background-color:#d4d5d4; margin-left:28px; font-size:0px; }
+.infoNew2 { background:transparent url(http://err.agava.ru/vh/i/itb.png) left bottom no-repeat; }
+.infoNew p { margin:5px 8px 5px 8px; background:transparent url(http://err.agava.ru/vh/i/iv.png) left center no-repeat; padding:10px 0px 11px 50px; }
+.infoNewBot { background:transparent url(http://err.agava.ru/vh/i/itbg.png) left top repeat-x; height:4px; margin-left:28px; font-size:0px; }
+
+.infopanel{
+  margin: -2px 0 0 0 !important;
+  background: #EBECEB; /*#F5F5F5;*/
+  color: #92C100;
+  padding: 5px 30px;
+  font-size: 0px;
+}
+
+.infopanel div{
+  margin-top: -10px; margin-bottom: -8px;
+  font-size: 18px;
+  border: 0px solid red;
+}
+.infopanel sup{
+  color: #A0D300;
+  /*font-size: .7em;*/
+  font-size: 11px;
+}
+
+.infopanel_t, .infopanel_t div, .infopanel_b, .infopanel_b div {height: 20px;}
+
+.infopanel_t{
+  background: #EBECEB url(http://err.agava.ru/vh/i/infopanel_tl.gif) no-repeat top left;
+  clear: right;
+}
+.infopanel_t div{
+  background: url(http://err.agava.ru/vh/i/infopanel_tr.gif) no-repeat top right;
+}
+.infopanel_b{
+  background: #EBECEB url(http://err.agava.ru/vh/i/infopanel_bl.gif) no-repeat bottom left;
+  margin-bottom: 23px;
+}
+.infopanel_b div{
+  background: url(http://err.agava.ru/vh/i/infopanel_br.gif) no-repeat bottom right;
+}
+
+.infopanel2 { background: #e4e4e4 !important; }
+.infopanel_t2 { background: #e4e4e4 url(http://err.agava.ru/vh/i/infopanel_tl.png) no-repeat top left !important; }
+.infopanel_t2 div { background: url(http://err.agava.ru/vh/i/infopanel_tr.png) no-repeat top right !important; }
+.infopanel_b2 { background: #e4e4e4 url(http://err.agava.ru/vh/i/infopanel_bl.png) no-repeat bottom left !important; }
+.infopanel_b2 div { background: url(http://err.agava.ru/vh/i/infopanel_br.png) no-repeat bottom right; }
+
+.tarif_b{
+  background: url(http://err.agava.ru/vh/i/tarif_bl.gif) no-repeat top left;
+  width: 242px;
+  height: 31px;
+}
+.tarif_b div{
+  background: url(http://err.agava.ru/vh/i/tarif_br.gif) no-repeat top right;
+}
+.tarif_b div div{
+  background: url(http://err.agava.ru/vh/i/tarif_b.gif) repeat-x top;
+  margin: 0px 9px;
+  height: 31px;
+  margin-bottom: 1.5em;
+}
+
+.tarif_description{
+  color: #eee;
+  background: #3F413C;
+  padding: 11px 14px 0px 14px;
+  width: 214px;
+
+}
+.tarif{
+  width: 33%;
+  margin-top: 20px;
+  float: right;
+}
+.tarif_img{
+  height: 35px;
+  text-align: right;
+  padding: 145px 10px 0px 0px;
+  /*font-size: 1.5em;*/
+  font-size: 23px;
+  width: 232px;
+}
+
+.tarif_descr{
+	background: url(http://err.agava.ru/vh/i/tarif_new_b.gif) repeat-x bottom;
+	height: 93px;
+	position: absolute; bottom:0; left:0;
+	width:100%;
+	font-size: 11px;
+}
+.tarif_descr div{
+	background: url(http://err.agava.ru/vh/i/tarif_new_bl.gif) no-repeat bottom left;
+	height: 93px;
+
+}
+.tarif_descr div div{
+	background: url(http://err.agava.ru/vh/i/tarif_new_br.gif) no-repeat bottom right;
+	height: 84px;
+	color: #eee;
+	padding: 9px 14px 0px 14px;
+}
+
+
+#servises, #servicesIndex{
+  overflow: hidden;
+  ../*margin: 4px 0 0 0;*/
+  margin: 0;
+}
+
+#tarif_main {
+  overflow: hidden;
+  margin: 0 auto;
+  /*width: 100%;*/
+}
+
+.tarif_old, .tarif_new, .tarif_new_{
+	width: 31%;
+	min-width: 226px;
+	max-width: 442px;
+	margin-bottom: 20px;
+  margin-right: 27px;
+  position: relative; z-index: 1;
+}
+.tarif_new {	float: left; min-height: 233px; height: 233px; }
+.tarif_old { min-height: 233px; height: 233px; }
+.tarif_new_ { float: left; height: 273px; }
+
+.tarif_content{
+  /*height: 168px;*/
+  height: 132px;
+  padding: 10px 0 0 13px;
+  position: relative;
+}
+
+.tarif_new_ .tarif_content { height: 168px !important; padding-top: 12px !important; }
+
+.tarif_top{
+	background: url(http://err.agava.ru/vh/i/tarif_new_tl.png) no-repeat top left !important;
+	height: 7px;
+	width: 7px;
+	float: left;
+}
+.tarif_top_r {
+	background: url(http://err.agava.ru/vh/i/tarif_new_tr.png) no-repeat top right !important;
+	height: 7px;
+	width: 7px;
+	float: right;
+}
+
+.cell_top,  .cell_bottom {
+	background-repeat: no-repeat; background-position: top left;
+	height: 7px;
+  position: relative;
+}
+.cell_top { background-image: url(http://err.agava.ru/vh/i/tarif_new_tl.png); }
+.cell_bottom { background-image: url(http://err.agava.ru/vh/i/tarif_new_bl.png); }
+
+.cell_top_r, .cell_bottom_r {
+  position: absolute; top: 0; right: 0;
+	background-repeat: no-repeat; background-position: top right;
+	height: 7px;
+	width: 7px;
+}
+.cell_top_r { background-image: url(http://err.agava.ru/vh/i/tarif_new_tr.png); }
+.cell_bottom_r { background-image: url(http://err.agava.ru/vh/i/tarif_new_br.png); }
+
+.cell_content { position: relative; height: 20px; padding: 0 5px; }
+
+.content_h_24 .cell_content { height: 24px; }
+.content_h_30 .cell_content { height: 30px; }
+.content_h_45 .cell_content { height: 45px; }
+.content_h_55 .cell_content { height: 55px; }
+.content_h_60 .cell_content { height: 60px; }
+.content_h_70 .cell_content { height: 70px; }
+.content_h_80 .cell_content { height: 80px; }
+.content_h_85 .cell_content { height: 85px; }
+.content_h_95 .cell_content { height: 95px; }
+.content_h_105 .cell_content { height: 105px; }
+.content_h_110 .cell_content { height: 110px; }
+.content_h_120 .cell_content { height: 120px; }
+.content_h_135 .cell_content { height: 135px; }
+.content_h_150 .cell_content { height: 150px; }
+.content_h_160 .cell_content { height: 165px; }
+.content_h_175 .cell_content { height: 175px; }
+.content_h_192 .cell_content { height: 192px; }
+.content_h_235 .cell_content { height: 235px; }
+
+.tarif_bot{
+	background: url(http://err.agava.ru/vh/i/tarif_new_bl.png) no-repeat top left !important;
+	height: 7px;
+	width: 7px;
+	float: left;
+}
+.tarif_bot_r {
+	background: url(http://err.agava.ru/vh/i/tarif_new_br.png) no-repeat top right !important;
+	height: 7px;
+	width: 7px;
+	float: right;
+}
+.tarif_content div{
+	/*font-size: 1.5em;*/
+	font-size: 18px;
+	position: absolute; z-index: 2;
+	bottom: 12px;
+}
+.tarif_links_l .tarif_content div { left: 17px; }
+.tarif_links_r .tarif_content div { right: 17px; }
+
+.tarif_space { bottom: 0px !important; right: 0px !important; z-index: 3;  font-size: 24px/*1.9em*/ !important; }
+.tarif_link { left: 17px; }
+
+.block1_text, .block2_text, .block3_text,
+.hosting_block1_text, .hosting_block2_text, .hosting_block3_text,
+.tarif_block1_text, .tarif_block2_text, .tarif_block3_text, .tarif_block4_text, .tarif_block5_text, .tarif_block6_text,
+.tarif_basic_text, .ip_adress_text, .as_text, .lir_text, .lir_stat_text, .lir_adspace_text, .tarif_optimal_text, .tarif_maximum_text, .tarif_site_text, .tarif_project_text, .tarif_portal_text, .tarif_pro_text, .tarif_start_text, .service_exoert_text, .service_standart_text, .hosting_block7_text, .hosting_block8_text, .hosting_block9_text, .hosting_block10_text, .rt1_tarif_plane, .rt2_tarif_plane, .tarif_one_text {
+  display: block;
+  height: 76px;
+  text-indent: -9999px;
+}
+
+.block1   { background: url(http://err.agava.ru/vh/i/bg_block1.jpg) no-repeat top left; }
+.block1 .tarif_content a { color: #FFFFFF; }
+.block1_text { background: url(http://err.agava.ru/vh/i/service_reg_domens.png) no-repeat top left; }
+
+.block2   { background: url(http://err.agava.ru/vh/i/bg_block2.jpg) no-repeat top left; }
+.block2 .tarif_content a { color: #FFD9F0; }
+.block2_text{ background: url(http://err.agava.ru/vh/i/service_hosting_120.png) no-repeat top left; }
+
+.block3   { background: url(http://err.agava.ru/vh/i/bg_block3.jpg) no-repeat top left; }
+.block3 .tarif_content a { color: #96E7FE; }
+.block3_text{
+  background: url(http://err.agava.ru/vh/i/service_2490.png) no-repeat top left;
+  background-position: -1px 0;
+}
+
+.tarif_descr a, .tarif_descr a:active, .tarif_descr a:hover, .tarif_descr a:visited { color: #eee; }
+
+.hosting_block1   { background: url(http://err.agava.ru/vh/i/bg_block_green.jpg) no-repeat top center; }
+.hosting_block1 .tarif_content a { color: #F0FFC4; }
+.hosting_block1_text { background: url(http://err.agava.ru/vh/i/service_unix_120.png) no-repeat top left; }
+.hosting_block7_text { background: url(http://err.agava.ru/vh/i/service_blog3.png) no-repeat left top; }
+.hosting_block8_text { background: url(http://err.agava.ru/vh/i/manag_service.png) no-repeat left top; }
+.hosting_block9_text { background: url(http://err.agava.ru/vh/i/service_wind_960.png) no-repeat left top; height:80px !important; }
+.hosting_block10_text { background: url(http://err.agava.ru/vh/i/social_text.png) no-repeat left top; }
+
+.hosting_block2   { background: url(http://err.agava.ru/vh/i/bg_block_pink.jpg) no-repeat top center; }
+.hosting_block2 .tarif_content a { color: #FFD9F0; }
+.hosting_block2_text{ background: url(http://err.agava.ru/vh/i/service_virt_120.png) no-repeat top left; }
+
+.hosting_block3   { background: url(http://err.agava.ru/vh/i/bg_block_blue.jpg) no-repeat top center; }
+.hosting_block3 .tarif_content a { color: #DDF7FE; }
+.hosting_block3_text{
+  background: url(http://err.agava.ru/vh/i/service_virt_559.png) no-repeat top left;
+  background-position: -1px 0;
+}
+
+.tarif_block1   { background: url(http://err.agava.ru/vh/i/bg_block_green.jpg) no-repeat top left; }
+.tarif_block1 .tarif_content, .tarif_block1 .tarif_content a { color: #F0FFC4; }
+.tarif_block1_text{ background: url(http://err.agava.ru/vh/i/service_lite_120.png) no-repeat top left; }
+
+.tarif_block2   { background: url(http://err.agava.ru/vh/i/bg_block_pink.jpg) no-repeat top left; }
+.tarif_block2 .tarif_content, .tarif_block2 .tarif_content a { color: #FFD9F0; }
+.tarif_block2_text{ background: url(http://err.agava.ru/vh/i/service_normal_240.png) no-repeat top left; }
+
+.tarif_block3   { background: url(http://err.agava.ru/vh/i/bg_block_blue.jpg) no-repeat top left; }
+.tarif_block3 .tarif_content, .tarif_block3 .tarif_content a { color: #DDF7FE; }
+.tarif_block3_text{
+  background: url(http://err.agava.ru/vh/i/service_profy_400.png) no-repeat top left;
+  background-position: -1px 0;
+}
+.tarif_block4   { background: url(http://err.agava.ru/vh/i/bg_block_grey.jpg) no-repeat top left; }
+.tarif_block4 .tarif_content, .tarif_block4 .tarif_content a { color: #F4F4F4; }
+.tarif_block4_text{ background: url(http://err.agava.ru/vh/i/seo_tarif_bg.png) no-repeat top left; }
+
+.tarif_block5   { background: url(http://err.agava.ru/vh/i/bg_block_yellow.jpg) no-repeat top left; }
+.tarif_block5 .tarif_content, .tarif_block5 .tarif_content a { color: #FFF8DD; }
+.tarif_block5_text{ background: url(http://err.agava.ru/vh/i/service_se.png) no-repeat top left; }
+
+.tarif_block6   { background: url(http://err.agava.ru/vh/i/bg_block_red.jpg) no-repeat top left; }
+.tarif_block6 .tarif_content, .tarif_block6 .tarif_content a { color: #FFE8E8; }
+.tarif_block6_text{
+  background: url(http://err.agava.ru/vh/i/service_se_normal.png) no-repeat top left;
+  background-position: -1px 0;
+}
+
+.tarif_basic_text { background: url(http://err.agava.ru/vh/i/service_basic_599.png) no-repeat top left; }
+.tarif_one_text {background: url(http://err.agava.ru/vh/i/service_one_39.png) no-repeat top left;}
+.ip_adress_text { background: url(http://err.agava.ru/vh/i/ip-adresses.png) no-repeat top left; }
+.as_text { background: url(http://err.agava.ru/vh/i/as.png) no-repeat top left; }
+.lir_text { background: url(http://err.agava.ru/vh/i/lir_stat.png) no-repeat top left; }
+.lir_stat_text { background: url(http://err.agava.ru/vh/i/lir_stat.png) no-repeat top left; }
+.lir_adspace_text { background: url(http://err.agava.ru/vh/i/adress_space.png) no-repeat top left; }
+.tarif_optimal_text { background: url(http://err.agava.ru/vh/i/service_optimal_999.png) no-repeat top left; }
+.tarif_maximum_text { background: url(../i../service_maximum_1840.png) no-repeat top left; }
+.tarif_start_text { background: url(http://err.agava.ru/vh/i/service_basic_960.png) no-repeat top left; }
+.service_exoert_text { background: url(http://err.agava.ru/vh/i/service_exoert_text.png) no-repeat top left; }
+.service_standart_text { background: url(http://err.agava.ru/vh/i/service_standart_text.png) no-repeat top left; }
+.rt1_tarif_plane { background: url(http://err.agava.ru/vh/i/rt1_tarif_plane.png) no-repeat top left; }
+.rt2_tarif_plane { background: url(http://err.agava.ru/vh/i/rt2_tarif_plane.png) no-repeat top left; }
+
+.tarif_site_text { background: url(http://err.agava.ru/vh/i/service_site_120.png) no-repeat top left; }
+.tarif_project_text { background: url(http://err.agava.ru/vh/i/service_project_240.png) no-repeat top left; }
+.tarif_portal_text { background: url(http://err.agava.ru/vh/i/service_portal_444.png) no-repeat top left; }
+
+.tarif_pro_text { background: url(http://err.agava.ru/vh/i/service_pro_600.png) no-repeat top left; }
+
+.copyright_t{
+  background: url(http://err.agava.ru/vh/i/copyright_tl.gif) no-repeat bottom left;
+  clear: right;
+}
+.copyright_t div{
+  background: url(http://err.agava.ru/vh/i/copyright_tr.gif) no-repeat bottom right;
+  height: 11px;
+}
+.copyright_t div div{
+  background: url(http://err.agava.ru/vh/i/copyright_t.gif) repeat-x bottom;
+  height: 11px;
+  margin: 0px 11px;
+}
+
+.copyright_b{
+  background: #363833 url(http://err.agava.ru/vh/i/copyright_bl.gif) no-repeat top left;
+
+}
+.copyright_b div{
+  background: url(http://err.agava.ru/vh/i/copyright_br.gif) no-repeat top right;
+  height: 31px;
+}
+.copyright_b div div{
+  background: url(http://err.agava.ru/vh/i/copyright_b.gif) repeat-x top;
+  height: 31px;
+  margin: 0px 11px;
+}
+
+.copyright{
+  background: url(http://err.agava.ru/vh/i/copyright.gif) repeat-x top;
+  height: 29px;
+  color: #fff;
+  padding: 3px 19px 5px 19px;
+}
+
+.copyright a{color: #A0D300;}
+
+.tel_margin{
+  margin-left: 59px;
+}
+
+.big {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #ccc;
+  opacity: 0.5;
+  z-index: 10;
+}
+
+
+
+._bottom { height: 7px; font-size: 0px; }
+
+/* --------------------------------- */
+
+.content ul, .content ol { margin: -8px 0px 10px 40px; }
+
+.content ul { list-style-type: disc; }
+
+.content ul ul {
+  margin: 5px 0px 5px 25px;
+  list-style-type: circle;
+}
+.content li { padding: 2px 0px; }
+
+.content li li { padding: 1px 0px; }
+
+.control_panel {
+  margin-top: -8px !important;
+  list-style-image: url(http://err.agava.ru/vh/i/dash.gif);
+}
+.control_panel li {
+  padding: 1px 0px;
+}
+
+.text_left { text-align: left !important; }
+.text_center { text-align: center; width:100%; }
+.text_right { text-align: right !important; }
+
+/* ------------------------------ FOOTER ------------------------------------ */
+
+html, body {
+/*  width:100%;*/
+  height: 99%;
+}
+
+#main_part {
+  min-height: 77%;
+  margin-bottom: 59px; /*61px;*/
+  margin-top: 124px;
+  overflow: hidden;
+  border: 0px solid blue;
+}
+* html #main_part { height: 80%; }
+
+#footer {
+  position: relative;
+  margin-left: 30px; margin-right: 30px;
+  margin-top: -91px;
+  height: 91px;
+  font-size: 12px;
+}
+
+
+/* ------------------------------ HEADER ------------------------------------ */
+.header_wrapper {
+  position: absolute; top:58px; left:0; z-index: 340;
+  width: 99.99%;
+  height: 58px;
+}
+@media all and (width) { .header_wrapper { border-left: 1px solid #fff; } } /* hack for Opera 9*/
+
+.header {
+  position: relative; z-index: 350; /*90*/
+  height: 58px;
+  margin: 0 30px;
+}
+
+.logo {
+  float: left;
+  margin-top: -1px;
+  padding-right: 20px;
+}
+
+/* ========================================================================== */
+/*                              Menu                                          */
+/* ========================================================================== */
+#topMenu {
+    position:absolute; top:0; right:0; z-index: 401; /*91*/
+    list-style: none;
+    display: block;
+    margin: 0; padding: 0;
+    background: url(http://err.agava.ru/vh/i/nav_m.gif) repeat-x;
+    font-size: 12px;
+}
+
+#topMenu li {
+    position: relative;
+    display: block;
+    float: left;
+    height: 58px;
+    color: white;
+}
+
+#topMenu li:hover .item {
+    display: block;
+}
+
+.itemFirst {
+    background: url(http://err.agava.ru/vh/i/nav_l.gif) no-repeat top left;
+    padding-left: 11px;
+}
+.itemLast {
+    background: url(http://err.agava.ru/vh/i/nav_r.gif) no-repeat top right;
+    padding-right: 11px;
+}
+
+.menu_block {
+  display: block;
+  padding: 0 9px;
+  height: 58px; line-height: 30px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.selected {
+  background: url(http://err.agava.ru/vh/i/nav_m_sel.gif) repeat-x !important;
+}
+
+.item {
+    display: none;
+    position: absolute; top: 34px; left: 0; z-index:400; /*100*/
+    margin: 0; padding: 0;
+    background: url(http://err.agava.ru/vh/i/n.gif) repeat;
+}
+
+
+.a_menu {
+    display: block;
+    background: none;
+    vertical-align: middle;
+    /*width: 100%;*/
+    color: white;
+    white-space: nowrap;
+}
+.a_menu:hover .menu_block {
+  background: url(http://err.agava.ru/vh/i/nav_m_sel.gif) repeat-x top ;
+  cursor: pointer;
+}
+
+
+.subMenu {
+    position: relative;
+    display: block;
+    background: url(http://err.agava.ru/vh/i/menu_item.gif) no-repeat;
+    margin-top: 3px;
+    color: white;
+    white-space: nowrap;
+    height: 21px;
+    line-height: 18px;
+    vertical-align: middle;
+    padding: 0 5px 0 10px;
+}
+a.subMenu:hover {
+  background: url(http://err.agava.ru/vh/i/menu_item_sel.gif) no-repeat !important;
+  color: #A0D300 !important;
+  cursor: pointer;
+}
+
+.selected_item {
+  background: url(http://err.agava.ru/vh/i/menu_item_sel.gif) no-repeat !important;
+  color: #A0D300 !important;
+}
+.selected_item img { background: url(http://err.agava.ru/vh/i/menu_item_r_sel.gif) no-repeat !important; }
+
+.subMenu img {
+    position: absolute; top: 0; right: -5px;
+    width: 5px; height: 21px;
+    background: url(http://err.agava.ru/vh/i/menu_item_r.gif) no-repeat;
+}
+a.subMenu:hover img { background: url(http://err.agava.ru/vh/i/menu_item_r_sel.gif) no-repeat !important; }
+
+#submenu_support { margin-left: -95px; }
+
+/* ============================ END MENU ==================================== */
+.width_33 { width: 33%; }
+.width_45 { width: 45%; }
+/*.width_50 { width: 50%; min-width: 528px; }*/
+.width_50_ {width: 50%; }
+.width_60 { width: 60%; }
+.width_66 { width: 66%; }
+.width_70 { width: 70%; min-width: 700px;  }
+
+.note { font-size: 11px; }
+
+.mark_note { color: #BB1219; }
+
+.otstup-r { margin-right:18px; }
+.otstup-r_30 { margin-right: 30px }
+.otstup-l { margin-left:15px; }
+.otstup-b_17 { margin-bottom:17px !important; }
+
+.otstup_t-5 { margin-top: -5px; }
+.otstup_t-3 { margin-top: -3px !important; }
+.otstup_inner-t-3 { margin-top: 3px !important; }
+
+.otstup-innrer_10 { padding-left:10px; }
+
+.otstup-l li { margin-left:15px; }
+.otstup-b li { margin-bottom:15px; }
+.otstup_option-l5 option { padding-left:15px; }
+
+.underline { text-decoration: underline; }
+.grey { color: grey; }
+
+.justify { text-align: justify; }
+.center  { text-align: center; }
+
+.wo_marker { list-style: none !important; }
+
+.font_normal_ { font-weight: normal !important; }
+.font_normal { font-size: /*0.9em*/11px !important; font-weight: normal !important; }
+
+.font_11, .font_11 * { font-size: 11px !important; }
+.font_12, .font_12 * { font-size: 12px !important; }
+.font_13, .font_13 * { font-size: 13px !important; }
+.font_15, .font_15 * { font-size: 15px !important; }
+
+.top_otstup_10 { margin-top: 10px !important; }
+
+a.header_table, a.header_table:visited, a.header_table:hover, a.header_table:active {
+  color: white;
+}
+
+ol ul { list-style-type: circle !important; margin-top: 0px !important;  }
+
+/* ========================================================================== */
+/*                              Form                                          */
+/* ========================================================================== */
+ul.navigate {
+	margin: 0px 10px 40px 0px !important;
+	color: grey;
+	text-align: left !important;
+}
+
+ul.navigate li {
+	display: inline;
+	list-style-type: none;
+	list-style-image: url('http://err.agava.ru/vh/i/arrow.gif');
+	background: url(/i/arrow.gif) no-repeat bottom left;
+	padding: 3px 3px 0px 25px;
+}
+
+ul.navigate a { text-decoration: underline; }
+
+ul.navigate .li_first { background: none; padding-left: 0; }
+ul.navigate .li_selected { color: #00A2FF; }
+
+.service_block { clear:both; }
+
+.welcome_block {
+	float: right;
+	width: 204px;
+	padding-right: 30px;
+  padding-top: 20px;
+}
+
+.wb_m {
+	background: #F7F7ED;
+	padding: 12px 0px 12px 20px;
+	min-height: 30px;
+}
+
+.wb_m a, .wb_m a:visited, .wb_m a:hover, .wb_m a:active {
+	color: #A0D300 !important;
+}
+
+.choose_service_block {
+	padding-right: 300px;
+}
+
+.definition_term {
+	height: 31px;
+	background: url(http://err.agava.ru/vh/i/def_r.gif) no-repeat bottom right;
+	margin-bottom: 10px;
+}
+
+.definition_term div {
+	background: url(http://err.agava.ru/vh/i/def_l.gif) no-repeat bottom left;
+	height: 31px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.definition_term div div {
+	background: url(http://err.agava.ru/vh/i/def_m.gif) repeat-x bottom left;
+	height: 31px;
+	color: white;
+	font-size: /*1.25em*/14px;
+}
+
+.definition_term div div span {
+	display: block;
+	padding-top: 5px;
+}
+
+.definition_description { margin-bottom: 10px; }
+
+.dd_tb, .dd_error_tb { height: 7px; }
+.dd_tb { background: #F7F7ED; }
+.dd_error_tb { background: #FFE5E5; }
+
+
+.dd_m, .dd_m_sel, .dd_m_ {
+	background: #F7F7ED;
+	padding-top: 10px;
+	padding-bottom: 8px;
+
+}
+
+.dd_error_m {
+	background: #FFE5E5;
+  padding: 10px 17px;
+}
+
+.dd_m {
+  min-height: 34px;
+}
+.dd_m_sel {
+  min-height: 92px;
+	padding-bottom: 36px;
+}
+
+.dd_m_sel form {
+	margin-top:8px;
+	margin-bottom:8px;
+}
+
+.dd_l {
+	padding-left: 17px;
+	padding-right: 17px;/*140px;*/
+}
+
+.dd_l_ {
+	padding-left: 34px;
+}
+
+.otstup-r_140 { padding-right: 140px !important; }
+.otstup-r_200 { padding-right: 221px !important; } /*236*/
+.otstup-r_55 { margin: 0px 55px 5px 0px; }
+
+.dd_r {
+	float: right;
+	/*width: 140px;*/
+	padding-right: 21px;
+	text-align: right;
+	margin-left: 10px;
+}
+
+
+
+
+
+.term_sale {
+	display: block;
+	text-align: left !important;
+	margin-bottom: -4px;
+}
+
+.arrow_l {
+  float: left;
+	background: url(http://err.agava.ru/vh/i/arrow_blue_l.gif) no-repeat center left;
+	padding-left: 47px;
+}
+
+.arrow_r {
+  float: right;
+	background: url(http://err.agava.ru/vh/i/arrow_blue_r.gif) no-repeat center right;
+	padding-right: 47px;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                             Chooser                                        */
+/* -------------------------------------------------------------------------- */
+
+.main_block_choose {
+	text-align: left;
+	height: 21px;
+  /*margin-bottom: 8px;*/
+}
+
+.block_choose  {
+  position: relative; z-index: 50;
+  width: 205px;
+}
+
+.block_choose a, .block_selector a {
+    display: block;
+    height: 21px;
+    line-height: 18px;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 0 5px 0 10px;
+    color: #fff;
+}
+
+.block_choose a { background: url(http://err.agava.ru/vh/i/button_choose_l.gif) no-repeat; }
+.block_choose a div {
+    position: absolute; z-index: 51;
+    top: 0; right: -16px;
+    width: 16px; height: 21px;
+    background: url(http://err.agava.ru/vh/i/button_choose_r_w_arrow.gif) no-repeat;
+}
+
+@media all and (width) { .block_choose a { padding-top: 2px; } } /* hack for Opera 9*/
+
+.block_selector {
+  	position: absolute; z-index: 200;
+    top: 0px; left: 0;
+    width: 400px;
+}
+.block_selector a {
+    position: relative; z-index: 201;
+    background: url(http://err.agava.ru/vh/i/button_choose_l.gif) no-repeat top left;
+  	margin-bottom: 6px;
+    margin-right: 5px;
+}
+.block_selector a, .block_selector a:visited, .block_selector a:active { color: #fff; }
+
+.block_selector a div {
+    position: absolute; z-index: 202;
+    top: 0; right: -10px;
+    width: 10px; height: 21px;
+    background: url(http://err.agava.ru/vh/i/button_choose_r.gif) no-repeat;
+}
+
+.block_selector a:hover {
+  	color: #A0D300;
+  	background: url(http://err.agava.ru/vh/i/button_choose_a_l.gif) no-repeat;
+}
+.block_selector a:hover div { background: url(http://err.agava.ru/vh/i/button_choose_a_r.gif) no-repeat; }
+
+.selected_item_choose {
+  background: url(http://err.agava.ru/vh/i/button_choose_sel_l.gif) no-repeat !important;
+  color: #fff !important;
+}
+.selected_item_choose div { background: url(http://err.agava.ru/vh/i/button_choose_sel_r.gif) no-repeat !important; }
+
+
+/* --------------------------------- */
+.button_choose, .button_registr, .button_next, .button_add_domen, .button_choose2, .button_change, .button_send_question, .button_back, .button_next_guru {
+  border: none;
+  height: 21px;
+  cursor: pointer !important;
+}
+
+.button_choose    { width: 93px; background: url(http://err.agava.ru/vh/i/button_choose.gif) repeat-x; margin-top: 11px; }
+.button_registr   { width: 93px; background: url(http://err.agava.ru/vh/i/button_registr.gif) repeat-x; }
+.button_next      { width: 93px; background: url(http://err.agava.ru/vh/i/button_next.gif) repeat-x; }
+.button_add_domen { width: 201px; background:  url(http://err.agava.ru/vh/i/button_add_domen.gif) repeat-x; float: right; }
+.button_choose2   { width: 94px; background: url(http://err.agava.ru/vh/i/button_choose2.gif) repeat-x; position: absolute; top: -1px; left:15px; display:block; }
+.button_change    { width: 94px; background: url(http://err.agava.ru/vh/i/button_change.gif) repeat-x;  position: absolute; top: -1px; left:15px; display:block; }
+.button_send_question { width: 132px; background: url(http://err.agava.ru/vh/i/button_send_question.gif) repeat-x; }
+
+/* -------------------------------------------------------------------- */
+.choose_domen {
+  display: block;
+  height: 55px;
+  background: url(http://err.agava.ru/vh/i/choose_domen_m.gif) repeat-x top;
+  position: relative; z-index: 4;
+}
+
+.choose_domen .l, .choose_domen .r { height: 55px; }
+.choose_domen .l { float: left; width: 19px; background: url(http://err.agava.ru/vh/i/choose_domen_l.gif) no-repeat top left; }
+.choose_domen .r { float: right; width: ../*87*/102px; background: url(http://err.agava.ru/vh/i/choose_domen_r.gif) no-repeat top left; }
+
+.choose_domen .mm {
+  margin-left: 19px; margin-right: 102px; padding-top: 7px;
+}
+
+.choose_domen .m {
+  position: absolute; z-index: 5;
+  top: 7px; left: 20px;
+  height: 40px; width: 90%;
+}
+
+.choose_domen .m .ll { margin-right: 90px; margin-left: 0px; }
+
+.choose_domen_input {
+  font-size: 18px;
+  color: #fff;
+  background: none;
+  border: 0;
+  width: 100%;
+}
+
+.whois{
+  float: right;
+  width: 235px;
+  position: relative;
+  z-index: 299; /*50*/
+}
+
+#whois_but{
+  border: none;
+  background: url(http://err.agava.ru/vh/i/whois_but.gif) no-repeat top left;
+  width: 30px; height: 40px;
+  cursor: pointer;
+}
+
+.choose_domen #whois_but { position: absolute; top:0px; right:-30px; }
+
+.noscript_whois {
+  position: absolute; z-index: 50;
+  bottom: 19px;
+}
+.noscript_whois { right: 10px; }
+
+.noscript_domain {
+  position: absolute; z-index: 50;
+  top:12px; left:15px;
+}
+
+.noscript_whois select, .noscript_domain select {
+  width: 76px;
+  height: 16px;
+  font-size: 11px;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                         Domain Chooser                                     */
+/* -------------------------------------------------------------------------- */
+
+.block_domain  {
+  position: absolute; z-index: 300;
+}
+.block_domain { top: 12px; right: 23px; }
+
+/* ------------------------------- */
+
+.block_choose_domain  {
+  position: relative;
+  width: 60px;
+}
+
+.block_choose_domain a, .block_selector_domain a {
+    display: block;
+    height: 15px;
+    line-height: 15px;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 0 0px 0 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.block_choose_domain a { background: url(/i/button_main_domain_l.gif) no-repeat; color: #141513; }
+.block_choose_domain a div {
+    position: absolute; top: 0; right: -12px;
+    width: 12px; height: 15px;
+    background: url(/i/button_main_domain_r.gif) no-repeat;
+}
+
+.block_selector_domain {
+    border: 0px solid red;
+  	position: absolute;
+  	z-index: 300;
+    top: 30px; right: -15px; /*-6*/
+    color: #fff;
+    margin-left: -130px;
+    background: url(/i/n.gif) repeat;
+}
+
+.tranparent { background: url(/i/n.gif) repeat; }
+
+.a_choose_selected { display: block; }
+
+#a_choose_selected_whois, #a_choose_selected_domain { display: block; width: 55px; overflow: hidden; }
+
+.block_selector_domain a {
+    position: relative; z-index: 301;
+  	background: url(/i/button_domain_l.gif) no-repeat top left;
+  	margin-bottom: 5px;
+  	/*min-width: 48px;*/
+  	display :  block;
+    cursor: pointer;
+}
+
+.block_selector_domain a, .block_selector_domain a:visited, .block_selector_domain a:active { color: #fff; }
+
+.block_selector_domain a div {
+    position: absolute; top: 0; right: -9px;
+    z-index: 302;
+    width: 10px; height: 21px;
+    background: url(/i/button_domain_r.gif) no-repeat;
+}
+
+.block_selector_domain a:hover {
+  	color: #A0D300;
+  	background: url(/i/button_domain_a_l.gif) no-repeat;
+}
+.block_selector_domain a:hover div { background: url(/i/button_domain_a_r.gif) no-repeat; }
+
+.selected_item_choose_domain {
+  background: url(/i/button_domain_sel_l.gif) no-repeat !important;
+  color: #fff !important;
+}
+.selected_item_choose_domain div { background: url(/i/button_domain_sel_r.gif) no-repeat !important; }
+
+#antibot { font-size: x-large; width: 150px; height: 38px; text-align: center; vertical-align: middle; }
+
+dd { padding-left: 20px; }
+
+#scheme_info { margin-left: 340px; height: 630px; }
+#googledesc { color: #0000FF; text-align:left; }
+
+.par_margin { text-indent:27px; }
+
+
+/* -------------------------------------------------------------------------- */
+
+.table_registr td {
+  vertical-align: top;
+  padding-top: 3px;
+  border: 0px solid green;
+}
+.table_registr .last { padding-right: 10px; }
+.tr_otstup-b_17 td { padding-bottom: 17px; }
+
+.table_registr select {
+  border: 1px solid #555752;
+  font-size: 12px;
+  width: 100%;
+}
+
+.input_reg, .textarea_reg, .file_reg {
+  display: block;
+  border: 1px solid #555752;
+  font-size: 11px;
+  height: 16px;
+  padding: 2px 0 0 5px;
+  width: 100%;
+}
+
+.file_reg { height: 21px; }
+.input_reg { height: 16px; }
+.textarea_reg { height: 70px; }
+
+
+.not_null, .not_null_ {
+  color: red;
+  text-align: right;
+  padding-right: 3px;
+}
+.not_null_ {
+  padding-left: 3px;
+  padding-top: 3px;
+}
+
+.td_error {
+  padding-left: 16px; padding-bottom: 0 !important;
+  color: red;
+  font-weight: bold;
+}
+
+.td_comment {
+  padding-left: 16px;
+  color: #5F615C;
+}
+
+.block_comment  {
+  padding-bottom: 10px;
+  color: #5F615C;
+}
+
+.otstup-r_7  { margin-right: -7px; }
+
+#capture { margin-left:10px; margin-top: -7px }
+
+.button_order {
+  border: none;
+  height: 27px;
+  cursor: pointer !important;
+  width: 93px; background: url(/i/button_order.gif) repeat-x;
+}
+.send_request {
+  border: none;
+  height: 29px;
+  cursor: pointer !important;
+  width: 163px !important; background: url(/i/send_request.gif) repeat-x;
+}
+.send_request_ {
+  border: none;
+  height: 30px;
+  cursor: pointer !important;
+  width: 163px !important; background: url(/i/send_request.gif) repeat-x;
+}
+.li_order {
+  position: absolute; top:-3px; left: 200px;
+}
+.li_order_otstup {left: 250px;}
+select
+{
+  position: relative;
+  z-index:1;
+  zoom:1;
+  border:1px solid green;
+}
+
+.mail { margin-bottom: -2px; }
+
+#block_buttons { width: 100%; overflow: hidden; }
+.block_button {
+  padding: 50px 50px 70px 50px;
+}
+.block_button img {  margin-bottom: 20px; width: 88px; height: 31px }
+.block_button a { display: block;}
+
+.block_counter_top { position: absolute; z-index:-1; }
+.block_counter_bottom { overflow: hidden; padding-bottom: 15px; }
+.block_counter_bottom a { padding-left: 5px; }
+
+.middle, .middle2, .middle22 { display: block; position: absolute; left:0; width: 100%; } /* !!! works only for 1 row !!! */
+.middle  { bottom: 45%; } /* 45% */
+.middle2 { bottom: 20%; } /* for double cell with 1 row */
+.middle22 { top:0; margin-top:-7px; } /* for double cell with 2 row */
+
+#header_tarif { z-index: 1; margin-top: -5px; }
+
+.middle222 { position:absolute; top:0; left:0; margin-top:-7px; width:100%; }
+
+.foto_dc {
+  float: right;
+  margin-left: 17px;
+  padding-top: 35px;
+  width: 170px;
+}
+
+.td_more_green {
+  color: #027E34;
+}
+
+.violet { background: url(/i/bg_block_violet.jpg) no-repeat top left !important; }
+
+.border_black { border: 1px solid black !important; }
+
+.choose_hosting { display:none; }
+#second { margin-top: 30px; }
+
+.mPayVar { overflow:hidden; margin-top:20px; font-size:12px; }
+.mPayVar .varRight { float:right; width:50%; }
+.mPayVar ul { list-style-type:none; margin-left:17px; }
+.mPayBlock { overflow:hidden; font-size:11px; height:auto !important; }
+.mPayBlock ol { margin:0px 0px 0px 18px; }
+.varWhite a { color:#ffffff; font-weight:bold; }
+
+/* -------------------------------------------------------------------------- */
+/*                         Guru style                                         */
+/* -------------------------------------------------------------------------- */
+
+.radio_tree { padding: 0px 0px 5px 20px; }
+.radio_tree label { padding-left: 3px; }
+.radio_tree input { margin-top: -2px; }
+.tree_guru { font-size: 11px !important; }
+.otstup-l_100 {padding-left: 100px;}
+.otstup-l_10 {padding-left: 10px;}
+.recomendation_guru { float: right; width: 235px; }
+.wb_m_duru { background: #F7F7ED; padding: 12px 0px 12px 20px; min-height: 30px; }
+.wb_m_duru a, .wb_m_duru a:visited, .wb_m_duru a:hover, .wb_m_duru a:active { color: #00A2FF !important; }
+.button_back { width: 93px; background: url(/i/button_back.gif) repeat-x; margin-top: 11px; }
+.button_next_guru { width: 93px; background: url(/i/button_next.gif) repeat-x; margin-top: 11px; }
+.otstup-t_50 { margin-top: -50px; }
+.otstup-b_70 { margin-bottom: 70px; }
+
+/*-----------------------table------------------------*/
+.table_max { margin:0px auto; max-width:860px; }
+.table_max_600 { margin:0px auto; max-width:600px; }
+.table_hosting { margin:0 auto; width:100%; }
+/*@media all and (min-width:0) { .table_hosting { width:100%; } }*/
+.table_max { width: expression((w = (document.documentElement.clientWidth || document.body.clientWidth) - 20) > 900 ?  '860px': '100%' ); }
+.table_hosting table { background-image:url(http://hosting.agava.ru/i/bg_head_.jpg); background-repeat:no-repeat; }
+.table_hosting table td { color:#FAFDFE; font-size:14px; vertical-align:middle; }
+.td_top { font-size:0px; height:7px; background-image:url(http://hosting.agava.ru/i/tarif_new_tl.png); background-position:left top; background-repeat:no-repeat; }
+.td_top div { font-size:0px; height:7px; background-image:url(http://hosting.agava.ru/i/tarif_new_tr.png); background-position:right top; background-repeat:no-repeat; width:7px; float:right; }
+.td_bot { font-size:0px; height:7px; background-image:url(http://hosting.agava.ru/i/tarif_new_bl.png); background-position:left top; background-repeat:no-repeat; }
+.td_bot div { font-size:0px; height:7px; background-image:url(http://hosting.agava.ru/i/tarif_new_br.png); background-position:right top; background-repeat:no-repeat; width:7px; float:right; }
+.line_td { background-color:#EEEEE8 !important; }
+.gspace { height:10px !important; font-size:0px; }
+.vspace { width:10px !important; background-color:#ffffff; font-size:0px; }
+.line { background-color:#EEEEE8; }
+.line_light { background-color:#F7F7ED; }
+.line_dark { background-color:#DFE4E4; }
+.line_caption { background-color:#7F7F7F; color: #ffffff; font-weight: bold; }
+.line_dark .td_price { font-size:12px; font-weight:bold; }
+.th_height { height:60px; }
+*:first-child+html .th_height { height:62px; }
+.td_domain { padding:0px 5px; text-align:center; vertical-align:middle; font-weight:bold; }
+.td_price { font-family:Georgia; font-size:16px; font-weight:bold; vertical-align:middle; }
+.td_cont { font-size:11px; padding:0px 10px 0px 10px; text-align:left; }
+.td_cont_bold { font-size:11px; padding:0px 10px 0px 10px; text-align:left; font-weight:bold; }
+.td_cont_norm { padding:0px 10px 0px 10px; text-align:left; }
+.no_decoration a, .no_decoration { text-decoration: none; }
+*html .td_top {  background-image: none !important; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://hosting.agava.ru/i/tarif_new_tl.png",sizingMethod="crop"); }
+*html .td_top div {  background-image: none !important; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://hosting.agava.ru/i/tarif_new_tr.png",sizingMethod="crop"); }
+*html .td_bot {  background-image: none !important; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://hosting.agava.ru/i/tarif_new_bl.png",sizingMethod="crop"); }
+*html .td_bot div {  background-image: none !important; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://hosting.agava.ru/i/tarif_new_br.png",sizingMethod="crop"); }
+.table_max_600 { width: expression((w = (document.documentElement.clientWidth || document.body.clientWidth) - 20) > 900 ?  '600px': '100%' ); }
+.table_hosting .td_price span { font-family:Tahoma,Arial,Helvetica,sans-serif; font-size:12px; font-weight:normal; }
+.normal_font { font-size:12px !important; }
+.nal { color:#027E34; vertical-align:middle; }
+.th_height_28 { height:28px; }
+.th_height_35 { height: 35px; }
+.th_height_42 { height: 42px; }
+.val_top { vertical-align:top !important; }
+.val_mid { vertical-align:middle !important; }
+.al_center { text-align:center !important; }
+.table_hosting ul { margin:0px 0px 0px 15px; }
+.table_hosting .td_minus { vertical-align:middle; color:#C10000; }
+.nomarginbot { margin-bottom:0px; }
+.table_hosting .code { font-size:100%; }
+.table_hosting .td_green { color:#A0D300; font-size:14px; vertical-align:middle; }
+.table_hosting .td_plus { color:#A0D300; font-size:19px; }
+.table_hosting sup { color:#A0D300; font-size:11px; }
+.table_hosting .td_minus { color:#C10000; font-size:19px; }
+.table_hosting .nobg { background-color:#ffffff; }
+.table_hosting em { font-style:normal; color:#BB1219; }
+
+.button_try {
+  border: none;
+  height: 29px;
+  cursor: pointer !important;
+  width: 163px; background: url(/i/try.gif) repeat-x;
+}
+
+.zIndexLi { z-index:400; }
+
+.clear_both { clear: both;}
+.width_165 { width: 165px; }
+.width_110 { width: 110px }
+.display_inline { display: inline; }
+
+.sublist ol { counter-reset: item }
+.sublist ol li { display: block }
+.sublist ol li:before { content: counters(item, ".") ". "; counter-increment: item; }
+
+.center_tarif_blok_left { width: 17%; float: left; }
+.center_tarif_blok_right { width: 14%; float: left; height: 253px; }
+
+.QIWI { background-color:f0f4f6; }
+.QIWI img { margin-right:10px; }
+
+.v_alig_bottom {vertical-align:bottom;}

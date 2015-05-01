@@ -1,0 +1,9 @@
+/* 
+	Title: de_DE/country.css
+	Author Name: Cynthia Chu
+	Author Date: 2007-07-23
+	Description: Exclusive and redefined rules for de_DE for SRD.
+*/
+.legalnotes {padding-top:.5em; font-size:.9em; color:#333;}
+
+.shop #content .main .zone p {margin:14px}

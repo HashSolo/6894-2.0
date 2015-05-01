@@ -1,0 +1,405 @@
+@charset "utf-8";
+/* CSS Document */
+
+#sidebarWrapper{
+	float:right;
+	width: 243px;
+}
+
+#RHNContainer {
+	width:243px;
+	background-color:#0099CC;
+	text-align:left;
+	margin:0;
+	padding:0;
+	line-height:23px;
+}
+
+#RHNContainer H3 {
+	width:243px;
+    height: 40px;
+	text-indent: -9999em;
+	margin:0px;
+	padding:0px;
+}
+
+#RHNContainer a {
+	cursor: pointer;
+	color: white;
+}
+
+#RHNContainer ul {
+	margin:0px;
+	padding:0px;
+	padding-bottom:20px;
+}
+
+#accordion ul {
+	padding-bottom:0px;
+}
+
+#RHNContainer li {
+	list-style-image: url('/common/rightbar/img/list/arrow_RHN.gif');
+	margin-left:40px;
+	margin-right:10px;
+	line-height:16px;
+	padding-top:0px;
+	padding-bottom:4px;
+	color: #99d6eb;
+}
+
+#RHNContainer ul.RHNGreenSection {
+	background-color:#29AA12
+}
+
+#RHNContainer ul.RHNGreenSection li {
+	list-style-image:url(/common/rightbar/img/list/arrowGreen_RHN.gif)
+}
+
+#RHNContainer ul li a {
+	color: white;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 87%;
+	text-decoration: none;
+}
+
+#RHNContainer ul li a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+#RHNContainer ul li a:visited {
+	color: white;
+}
+
+#RHNContainer span, #RHNContainer p {
+	color: white;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 87%;
+}
+
+#RHNContainer p {
+	margin: 0 10px 0 27px;
+	padding-bottom: 6px;
+	line-height:150%;
+}
+
+#RHNContainer p.RHNlastpara {
+	padding-bottom: 8px;
+}
+
+#RHNContainer p a:hover {
+	color: #FFFFFF;
+}
+
+#loginbox {
+	width:243px;
+	background:#0194FC url('/common/rightbar/img/login/background_gradient.jpg') repeat-x;
+	text-align:left;
+	margin:0;
+	/*height: 138px;*/
+	padding:5px 0px 2px 0px;
+}
+
+#loginbox h4 {
+	position:relative;
+	left:-9999px;
+	font-size:0em;
+	margin:0;
+}
+
+
+#loginbox a {
+	color: #005095;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 87%;
+	text-decoration: none;
+	margin:0;
+	padding:0;
+}
+
+#loginbox a:hover {
+	color: #005095;
+	text-decoration: underline;
+}
+#loginbox ul {
+	list-style:none;
+	margin:0pt 0pt 0pt 18px;
+	padding:0;
+}
+#loginbox ul li {
+	line-height:14px;
+}
+#loginbox ul.footerlinks li {
+	line-height:1.3em;
+}
+#loginbuttons
+{
+	margin-bottom:10px;
+	padding-top:7px;
+}
+#loginbox input {
+	height:9pt;
+}
+.GenericLoginBox
+{
+	width: 237px;
+	height: 131px;
+	background:#0194FC url('/common/rightbar/img/login/background_image.gif') top left no-repeat;
+	margin-left:5px;
+	/*padding:5px 0pt 0pt 0pt;*/
+}
+.warningimage {
+	background:transparent url('/common/rightbar/img/login/Corporate_Situationals_03_03.gif') no-repeat center;
+	width:12px;
+	height:11px;
+	margin-left:10px;
+	/*position:relative;
+	left:15px;
+	top:3px;*/
+}
+#logonlinks {
+	margin-left:-20px;
+	padding-top:10px;
+	/*padding-top: 1.3em;*/
+}
+#logonlinkscorp
+{
+	margin-left: -17px;
+	padding-top: 1.2em;
+}
+
+
+ul.footerlinks li
+{
+	display: inline;
+	background:url('/common/img/arrows/arrow_5e.gif') center left no-repeat;
+	list-style-image: none;
+	padding-left:13px;
+	margin: 0pt 2px 0pt 4px;
+	float:left;
+}
+
+ul.footerlinkscorp li
+{
+	display: inline;
+	background:url('/common/img/arrows/arrow_5e.gif') center left no-repeat;
+	list-style-image: none;
+	padding-left:13px;
+	margin: 0pt 0pt 0pt 0pt;
+	float:left;
+}
+
+ul.footerlinkspi li
+{
+	display: inline;
+	background:url('/common/img/arrows/arrow_5e.gif') center left no-repeat;
+	padding-left:12px;
+	margin: 9px 0pt 0pt 0pt;
+	float:left;
+}
+
+/* Style for logon links with no background image */
+#loginbox li.logonlistnoimage {
+	list-style-type: none;
+	list-style-image: none;
+	margin-left:6px;
+	margin-top:5px;
+}
+
+/* Style for the Internet Banking logon link - these styles must be added for each new logon link */
+.logonInternetBanking {
+	width:231px;
+	height:29px;
+	background-image: url('/common/rightbar/img/login/IBLogon_Button.gif');
+	background-repeat: no-repeat;
+	text-indent: -9999em;
+	float:left;
+	margin-top:5px;
+	margin-bottom:3px;
+}
+
+.logonInternetBanking:hover {
+	background-position:bottom; 
+}
+
+#loginbox li.logonlistInternetBanking {
+	list-style-type: none;
+	list-style-image: none;
+	margin-left:6px;
+}
+
+/* Style for the eTrade logon link - these styles must be added for each new logon link */
+.logonANZETRADE {
+	width:231px;
+	height:29px;
+	background-image: url('/common/rightbar/img/login/ETradeLogon_Button.gif');
+	background-repeat: no-repeat;
+	text-indent: -9999em;
+	float:left;
+	margin-top:5px;
+	margin-bottom:3px;
+}
+
+.logonANZETRADE:hover {
+	background-position:bottom; 
+}
+
+#loginbox li.logonlistANZETRADE {
+	list-style-type: none;
+	list-style-image: none;
+	margin-left:6px;
+}
+
+/* Style for the generic logon link - these styles must be added for each new logon link */
+.logonGeneric {
+	/*margin:10px 0pt 0pt 25px;*/
+	margin:0 0 0 25px;
+	padding:0pt;
+	font-size:0px;
+}
+.logonGenericCorp {
+	margin:10px 0pt 0pt 8px;
+	padding:0pt;
+}
+
+.logonGeneric:hover {
+	background-position:bottom; 
+}
+
+.logonGenericpi {
+	margin:3px 0pt 0pt 25px;
+	padding:0pt;
+	font-size:0px;
+}
+
+
+#loginbox li.logonlistGeneric {
+	list-style-type: none;
+	list-style-image: none;
+	margin-left:6px;
+}
+
+.loginOption {
+	margin-left:12px;
+}
+
+.logonOptionText {
+	color: white;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 87%;
+	padding-left:6px;
+	position:relative;
+	top:-2px;
+	line-height:17px;
+}
+
+.logonForm {
+	padding-top:2px;
+	padding-bottom:0px;
+	margin-bottom:0px;
+}
+
+/* Corporate styles */
+
+.OnlineServicesHeader {
+	width:93px;
+	height:12px;
+	background-image:url('/common/rightbar/img/login/hdr_OnlineServices.gif');
+	background-repeat: no-repeat;
+}
+
+.MarketsOnlineHeader  {
+	width:93px;
+	height:12px;
+	background-image:url('/common/rightbar/img/login/hdr_MarketsOnline.gif');
+	background-repeat: no-repeat;
+}
+
+.OnlineServicesHeaderBox {
+	float:left;
+	padding-top:8px;
+	padding-bottom:4px;
+	padding-left:6px;
+}
+
+#ANZOnlineServices {
+	width:220px;
+	font-size: 11px;
+}
+
+#MarketsOnline {
+	width:220px;
+	font-size: 11px;
+}
+
+.OnlineServicesForm {
+	margin-left:7pt;
+	/*margin-top:17pt;*/
+	padding-top:17pt;
+	padding-bottom:5pt;
+}
+
+/* Share price styles */
+.SharepriceBox
+{
+	width: 237px;
+	height: 131px;
+	background:#0194FC url('/common/rightbar/img/login/background_image.gif') top left no-repeat;
+	margin-left:5px;
+}
+.SharepriceHeaderBox {
+	float:left;
+	padding-top:43px;
+	padding-bottom:10px;
+	padding-left:35px;
+}
+.SharepriceText
+{
+	color: #000;
+	margin-left:5px;
+	width:180px;
+	height:12px;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+.SharepriceFooter {
+	color: #626262;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 87%;
+	padding:0;
+	padding-left:5px;
+	padding-right:5px;
+}
+.SharepriceHeader
+{
+	font-weight:bold;
+}
+.rhnImage{
+	height:120px;
+}
+
+.corporateIBOptions {
+	float:left;
+	width:125px;
+}
+
+.corporateDemoOptions {
+	float:left;
+	width:115px;
+}
+
+.corporateIBOptions ul, .corporateDemoOptions ul {
+	display: inline;
+	list-style-image: none;
+	padding-left: 10px;
+	margin: 15px 0pt 0pt 0pt;
+	float:left;
+}
+
+/* Added by Francis For Corporate section RHN changes */
+
+.onlineservicesGenericCorp
+{
+	padding: 30px 0px 0px 0px;
+	margin: 0px 0px 18px 0px;
+}	

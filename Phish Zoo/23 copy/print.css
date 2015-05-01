@@ -1,0 +1,22 @@
+#sidebar {display:none;}
+
+#masthead {display:none;}
+
+#footer {display:none;}
+#wrapper #main #secondary {display: none;}
+
+#subnav_bottomBorder {display:none;}
+#subsectionnav .inner ul {display:none;}
+ul#printcontact {display:none;}
+
+#main #primary {float:left;        width:510px;margin-right:0px!important;}
+
+*html #main #primary {float:left;width:300px;margin-right:1px!important;}
+
+/**html #main #secondary {position:relative;right:80px!important; width:180px;margin-left:2px!important;}*/
+/**html #main #secondary {display:none;}*/
+*html #main #primary table.extPwsTable2 {padding:0px;margin:0px;width:400px;}
+*html #primaryCat {padding:0px;width:250px!important;}
+
+/*#secondary {margin-right:0px; margin-left:0px!important;}*/
+.sa_l1_crw_sectionRightImage {width:177px;}

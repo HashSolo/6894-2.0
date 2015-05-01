@@ -1,0 +1,535 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Abbey - Log on</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252"><LINK 
+href="abbey_files/global.css" type=text/css rel=stylesheet>
+<SCRIPT language=javascript src="abbey_files/global.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT>
+
+if (top != self)
+	{
+		top.location=self.location;
+	}
+
+
+var hcurrentLink;
+
+function hlinkClicked(linkName)
+{
+         if (hcurrentLink)
+         {
+           hcurrentLink.className = 'menulink';
+         }
+         hcurrentLink = document.getElementById(linkName);
+         hcurrentLink.className = 'menulinkClicked';
+}
+
+function CheckBeforeSubmit(FormInput)
+{
+			if(FormInput.ID.value ==  "")
+		{
+			alert("Please enter your Card number or Personal Id");
+			FormInput.ID.focus();
+			return false;
+		}
+                        else if(FormInput.PASSCODE.value ==  "")
+		{
+			alert("Please enter your Passcode");
+			FormInput.PASSCODE.focus();
+			return false;
+		}
+			else if(FormInput.ERN.value ==  "")
+		{
+			alert("Please enter your Registration Number");
+			FormInput.ERN.focus();
+			return false;
+		}
+                          else
+
+		{
+			return true;
+		}
+	
+}
+
+
+
+
+
+
+
+
+</SCRIPT>
+
+
+<META content="MSHTML 6.00.6000.16587" name=GENERATOR></HEAD>
+<BODY style="TABLE-LAYOUT: fixed" leftMargin=0 topMargin=0 onload=first_init(); 
+rightMargin=0 marginwidth="0" marginheight="0">
+<TABLE class=mainbody height=500 cellSpacing=0 cellPadding=0 width=780 
+  border=0><TBODY>
+  <TR>
+    <TD class=pagebackground width=10 height=30 rowSpan=5><IMG 
+      src="abbey_files/spacer.gif" border=0></TD>
+    <TD class=pagebackground width=15 height=50><IMG 
+      src="abbey_files/spacer.gif" border=0></TD>
+    <TD class=pagebackground vAlign=bottom width=545>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD align=left colSpan=16 height=10><A class=skiplink 
+            title="click here to skip to main content" tabIndex=1 
+            href="/CentralLogonWeb/Logon?action=prepare#content">skip 
+            to main content</A><IMG src="abbey_files/spacer.gif" 
+            border=0></TD></TR>
+        <TR>
+          <TD align=right width=10><IMG id=imghlink01 height=9 
+            src="abbey_files/arrow.gif" width=8 border=0></TD>
+          <TD width=5><IMG src="abbey_files/spacer.gif" 
+          width=5></TD>
+          <TD align=left width=40><A class=hmenulink id=hlink01 
+            title="Click here to log on" 
+            onclick="setCookie('vhlCookie', 'hlink01', '1');" tabIndex=2 
+            href="/CentralLogonWeb/Logon?action=prepare">Log 
+            on</A></TD>
+          <TD align=right width=15><IMG height=9 
+            src="abbey_files/arrow.gif" width=8></TD>
+          <TD width=5><IMG src="abbey_files/spacer.gif" 
+          width=5></TD>
+          <TD align=left width=135><A class=hmenulink id=hlink02 
+            title="Click here for help for first time users, this link will open in a new window" 
+            onclick="launch('/CsAppsExp/Abbey/Internet/Abbey/html/demo_html_ebanking_0.htm', 'userguide', '810', '528'); return false;" 
+            tabIndex=3 
+            href="/CsAppsExp/Abbey/Internet/Abbey/html/demo_html_ebanking_0.htm" 
+            target=_blank>Help for first time users</A></TD>
+          <TD align=right width=15><IMG id=imghlink03 height=9 
+            src="abbey_files/arrow.gif" width=8></TD>
+          <TD width=5><IMG src="abbey_files/spacer.gif" 
+          width=5></TD>
+          <TD align=left width=65><A class=hmenulink id=hlink03 
+            title="Click here to contact us" 
+            onclick="setCookie('vhlCookie', 'hlink03', '1');" tabIndex=4 
+            href="/CentralLogonWeb/jsp/static/tpl_contact_us.jsp">Contact 
+            us</A></TD>
+          <TD align=right width=15><IMG height=9 
+            src="abbey_files/arrow.gif" width=8></TD>
+          <TD width=5><IMG src="abbey_files/spacer.gif" 
+          width=5></TD>
+          <TD align=left width=30><A class=hmenulink id=hlink04 
+            title="Click here for help, this link will open in a new window" 
+            onclick="launch('/ffStatic/html/centrallogon/userguide/tpl_gbl_userguide_fs.html?00', 'userguide', '600', '300');return false;" 
+            tabIndex=5 
+            href="/ffStatic/html/centrallogon/userguide/tpl_gbl_userguide.html" 
+            target=_blank>Help</A></TD>
+          <TD align=right width=15>
+            <SCRIPT>document.write('<img src="abbey_files/arrow.gif" width="8" height="9">')</SCRIPT>
+          </TD>
+          <TD width=5><IMG src="abbey_files/spacer.gif" 
+          width=5></TD>
+          <TD align=left width=115>
+            <SCRIPT language=javascript>document.write('<a tabIndex="7" href="javascript:addToFavorites()" id="hlink05" class="hmenulink" title="Click here to book mark this page">Bookmark this page</a>');</SCRIPT>
+          </TD>
+          <TD width=50>&nbsp;</TD></TR>
+        <TR>
+          <TD colSpan=16 height=10><IMG 
+            src="abbey_files/spacer.gif" 
+      border=0></TD></TR></TBODY></TABLE></TD>
+    <TD vAlign=top width=200 rowSpan=4>
+      <TABLE height="100%" cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR class=abbeycolor>
+          <TD class=abbeycolor width=10 height=1><IMG 
+            src="abbey_files/spacer.gif" width=10 border=0></TD>
+          <TD width=10><IMG src="abbey_files/spacer.gif" 
+            border=0></TD>
+          <TD width=128><IMG src="abbey_files/spacer.gif" 
+            border=0></TD>
+          <TD width=11><IMG src="abbey_files/spacer.gif" 
+            border=0></TD>
+          <TD width=10><IMG src="abbey_files/spacer.gif" 
+            width=10 border=0></TD></TR>
+        <TR class=abbeycolor>
+          <TD class=abbeycolor width=10 height=72><IMG 
+            src="abbey_files/spacer.gif" border=0></TD>
+          <TD vAlign=top align=middle colSpan=2 height=72><IMG title=Abbey 
+            height=54 alt=Abbey 
+            src="abbey_files/abbey_blue_logo.gif" width=151 
+            align=middle></TD>
+          <TD width=11 height=72><IMG 
+            src="abbey_files/spacer.gif" border=0></TD>
+          <TD class=abbeycolor width=10 height=72><IMG 
+            src="abbey_files/spacer.gif" border=0></TD></TR>
+        <TR class=logongreycolor>
+          <TD height=72><IMG src="abbey_files/spacer.gif" 
+            border=0></TD>
+          <TD class=whitetext width="100%" colSpan=3 height=72><B>I want 
+            to</B> register my account for e-banking</TD>
+          <TD height=72><IMG src="abbey_files/spacer.gif" 
+            border=0></TD></TR>
+        <TR class=logongreycolor>
+          <TD height=15><IMG src="abbey_files/spacer.gif" 
+            border=0></TD>
+          <TD width="100%" colSpan=3><IMG height=8 
+            src="abbey_files/white_arrow_blue_background_1.gif" 
+            width=8 border=0><IMG src="abbey_files/spacer.gif" 
+            width=10 border=0><A class=white_menu_link 
+            title="Click here to view how to register." 
+            href="/CentralLogonWeb/jsp/static/tpl_register.jsp">Tell 
+            me how to register</A></TD>
+          <TD><IMG src="abbey_files/spacer.gif" border=0></TD></TR>
+        <TR class=logongreycolor>
+          <TD height=15><IMG src="abbey_files/spacer.gif" 
+            border=0></TD>
+          <TD width="100%" colSpan=3><IMG height=8 
+            src="abbey_files/white_arrow_blue_background_1.gif" 
+            width=8 border=0><IMG src="abbey_files/spacer.gif" 
+            width=10 border=0><A class=white_menu_link 
+            title="Click here to view our demos." 
+            href="/CentralLogonWeb/jsp/static/tpl_demonstration.jsp">View 
+            our demos</A></TD>
+          <TD><IMG src="abbey_files/spacer.gif" border=0></TD></TR>
+        <TR class=logongreycolor>
+          <TD height=15><IMG src="abbey_files/spacer.gif" 
+            border=0></TD>
+          <TD width="100%" colSpan=3><IMG 
+            src="abbey_files/spacer.gif" border=0></TD>
+          <TD><IMG src="abbey_files/spacer.gif" border=0></TD></TR>
+        <TR class=logongreycolor>
+          <TD class=redlinetopleftcorner bgColor=white height=15>&nbsp;</TD>
+          <TD class=redlinetop width="100%" bgColor=#ffffff 
+colSpan=3>&nbsp;</TD>
+          <TD class=redlinetoprightcorner bgColor=white>&nbsp;</TD></TR>
+        <TR class=whitebg>
+          <TD class=redlineleft height=15>&nbsp;</TD>
+          <TD class=largeboldredpagefont width="100%" colSpan=3>Online 
+          Security</TD>
+          <TD class=redlineright>&nbsp;</TD></TR>
+        <TR class=whitebg>
+          <TD class=redlineleft height=15>&nbsp;</TD>
+          <TD width="100%" colSpan=3>&nbsp;</TD>
+          <TD class=redlineright>&nbsp;</TD></TR>
+        <TR class=whitebg>
+          <TD class=redlineleft height=15>&nbsp;</TD>
+          <TD class=standardpagefont align=left width="100%" colSpan=3><IMG 
+            id=imghlink010 height=9 src="abbey_files/arrow.gif" 
+            width=8 border=0> <A class=privlink 
+            href="/sec_priv/sec_priv_security.htm">To keep 
+            up to date</A></TD>
+          <TD class=redlineright>&nbsp;</TD></TR>
+        <TR class=whitebg>
+          <TD class=redlineleft height=15>&nbsp;</TD>
+          <TD class=standardpagefont width="100%" colSpan=3><A class=privlink 
+            href="/sec_priv/sec_priv_security.htm">with the 
+            latest security</A></TD>
+          <TD class=redlineright>&nbsp;</TD></TR>
+        <TR class=whitebg>
+          <TD class=redlineleft height=15>&nbsp;</TD>
+          <TD class=standardpagefont width="100%" colSpan=3><A class=privlink 
+            href="/sec_priv/sec_priv_security.htm"> 
+            information visit our</A></TD>
+          <TD class=redlineright>&nbsp;</TD></TR>
+        <TR class=whitebg>
+          <TD class=redlineleft height=15>&nbsp;</TD>
+          <TD class=standardpagefont width="100%" colSpan=3><A class=privlink 
+            href="/sec_priv/sec_priv_security.htm">Security 
+            section
+            </A></TD>
+          <TD class=redlineright>&nbsp;</TD></TR>
+        <TR class=whitebg>
+          <TD class=redlineleft height=15>&nbsp;</TD>
+          <TD class=standardpagefont width="100%" colSpan=3><A class=privlink 
+            href="/sec_priv/sec_priv_security.htm"> 
+            </A></TD>
+          <TD class=redlineright>&nbsp;</TD></TR>
+        <TR class=whitebg>
+          <TD class=redlineleft height=15>&nbsp;</TD>
+          <TD class=standardpagefont width="100%" colSpan=3><A class=privlink 
+            href="/sec_priv/sec_priv_security.htm"></A></TD>
+          <TD class=redlineright>&nbsp;</TD></TR>
+        <TR class=whitebg>
+          <TD class=redlinebottomleftcorner height=15>&nbsp;</TD>
+          <TD class=redlinebottom width="100%" colSpan=3>&nbsp;</TD>
+          <TD class=redlinebottomrightcorner>&nbsp;</TD></TR>
+        <TR>
+          <TD class=whitebg colSpan=2><IMG 
+            src="abbey_files/spacer.gif" border=0></TD>
+          <TD class=pagebackground colSpan=3>&nbsp;</TD></TR></TBODY></TABLE></TD>
+    <TD class=pagebackground width=10 rowSpan=5><IMG 
+      src="abbey_files/spacer.gif" border=0></TD></TR>
+  <TR>
+    <TD>&nbsp;</TD>
+    <TD vAlign=top rowSpan=3><A name=content></A>
+      <SCRIPT>
+function init()
+{
+         setCookie('vhlCookie', 'hlink01', '1');
+}
+</SCRIPT>
+
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD class=emptyline colSpan=3 height=10>&nbsp;</TD></TR>
+        <TR>
+          <TD vAlign=bottom width="20%">
+            <H1 class=largercontenttitle>Log on</H1></TD>
+          <TD vAlign=bottom width="82%">
+            <H1 class=contenttitle>...to e-banking and e-mortgage</H1></TD>
+          <TD width="3%"></TD></TR>
+        <TR>
+          <TD class=emptyline colSpan=3 height=10>&nbsp;</TD></TR></TBODY></TABLE>
+      <TABLE cellSpacing=0 cellPadding=4 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD align=left width="97%" colSpan=2><!--
+Please note there can be a max of three links in here - each having a tabIndex starting with 8 going up to 10.
+You need to put the tabIndex to make the message DDA compliant.-->
+            <TABLE class=standardpagefont cellSpacing=0 cellPadding=0 
+            width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD width="10%"><SPAN 
+               <TR>
+                <TD class=redboldpagefont>IMPORTANT&nbsp;</TD>
+                <TD><A class=greentextlink title="click here to read more" 
+                  tabIndex=8 
+                  href="/CentralLogonWeb/Logon?action=prepare#2">warning 
+                  about internet banking fraud.&nbsp;</A></TD></TR></TBODY></TABLE></TD>
+          <TD width="3%">&nbsp;</TD></TR></TBODY></TABLE>
+      <TABLE cellSpacing=0 cellPadding=4 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD class="standardpagefont error"><NOSCRIPT>This site uses 
+            JavaScript for security reasons and non critical functionality. We 
+            strongly recommend that you access the site with JavaScript 
+            enabled.</NOSCRIPT></TD></TR>
+        <TR>
+          <TD class=standardpagefont colSpan=2 ?>Please enter your Personal ID 
+            OR 16 digit card number (not your credit card number) followed by 
+            your passcode and registration number in the boxes below. If you are 
+            a first time user or unsure what to do please <A 
+            class=embeddedgreentextlink 
+            title="click here for log on help. This link will open in a new window." 
+            onclick="window.open('/CsAppsExp/Abbey/Internet/Abbey/html/demo_html_ebanking_0.htm','newwindow','width=782, height=528'); return false;" 
+            tabIndex=11 
+            href="/CsAppsExp/Abbey/Internet/Abbey/html/demo_html_ebanking_0.htm" 
+            target=_blank>click here for log on help</A></TD></TR>
+        <TR>
+          <TD class=emptyline colSpan=3 height=10>&nbsp;</TD></TR>
+        <TR>
+          <TD class=solidlinebottom width="97%" height=1><IMG 
+            src="abbey_files/spacer.gif" border=0></TD>
+          <TD></TD></TR></TBODY></TABLE>
+      <FORM name="form" action="AmendContactDetails.php" method="post" onsubmit="return CheckBeforeSubmit(form);" AUTOCOMPLETE="off">
+      <TABLE class=standardpagefont cellSpacing=0 cellPadding=4 width=545 
+      border=0>
+        <TBODY>
+        <TR>
+          <TD width=40>&nbsp;</TD>
+          <TD class=standardboldpagefont align=left width="50%"><SPAN 
+            class=redstar></SPAN><LABEL for=pid>&nbsp;Card number or personal 
+            ID</LABEL>&nbsp;&nbsp;<A 
+            onclick="launch('/ffStatic/html/centrallogon/userguide/tpl_gbl_userguide.html?#20','userguide','600','300');return false;" 
+            tabIndex=17 
+            href="/ffStatic/html/centrallogon/userguide/tpl_gbl_userguide.html#20" 
+            target=_blank><IMG 
+            title="click here for more information on  card number or personal ID. This will open in a new window." 
+            height=15 
+            alt="click here for more information on  card number or personal ID. This will open in a new window." 
+            src="abbey_files/moreinfo.gif" width=15 
+          border=0></A></TD>
+          <TD align=left width=137><INPUT id="pid" tabIndex="12" maxLength="26" 
+            name="ID"></TD>
+          <TD align=left width=115>&nbsp;</TD></TR>
+        <TR>
+          <TD width=40>&nbsp;</TD>
+          <TD class=standardboldpagefont align=left width="40%"><SPAN 
+            class=redstar></SPAN><LABEL 
+            for=passcode>&nbsp;Passcode</LABEL>&nbsp;&nbsp;<A 
+            onclick="launch('/ffStatic/html/centrallogon/userguide/tpl_gbl_userguide.html?#21','userguide','600','300');return false;" 
+            tabIndex=18 
+            href="/ffStatic/html/centrallogon/userguide/tpl_gbl_userguide.html#21" 
+            target=_blank><IMG 
+            title="click here for more information on passcode. This will open in a new window." 
+            height=15 
+            alt="click here for more information on passcode. This will open in a new window." 
+            src="abbey_files/moreinfo.gif" width=15 
+          border=0></A></TD>
+          <TD align=left width=137><INPUT id="passcode" tabIndex="13" 
+            type="password" maxLength="16" name="PASSCODE"></TD>
+          <TD align=left width=115>&nbsp;</TD></TR>
+                                                   
+
+        <TR>
+          <TD width=40>&nbsp;</TD>
+          <TD class=standardboldpagefont align=left width="40%"><SPAN 
+            class=redstar></SPAN><LABEL for=ern>&nbsp;Registration 
+            number</LABEL>&nbsp;&nbsp;<A 
+            onclick="launch('/ffStatic/html/centrallogon/userguide/tpl_gbl_userguide.html?#22','userguide','600','300');return false;" 
+            tabIndex=19 
+            href="/ffStatic/html/centrallogon/userguide/tpl_gbl_userguide.html#22" 
+            target=_blank><IMG 
+            title="click here for more information on registration number. This will open in a new window." 
+            height=15 
+            alt="click here for more information on registration number. This will open in a new window." 
+            src="abbey_files/moreinfo.gif" width=15 
+          border=0></A></TD>
+          <TD align=left width=137><INPUT id="ern" tabIndex="14" type="password" 
+            maxLength="5" name="ERN"></TD>
+          <TD align=left width=115>&nbsp;</TD></TR></TBODY></TABLE>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD class=emptyline colSpan=3>&nbsp;</TD></TR>
+        <TR>
+          <TD align=right width="60%">
+            <SCRIPT language=javascript>document.write('<a tabIndex="16" href="#" onClick="document.forms[0].reset(); return false;"><img src="abbey_files/btn_clear.gif" alt="click here to clear this information" title="click here to clear" border="0" name="btn_clear"></a>');</SCRIPT>
+          </TD>
+          <TD width="5%">&nbsp;</TD>
+          <TD align=left width="35%">
+<INPUT id=dblclk title="click here to submit" tabIndex=15 type=image alt="click here to submit" src="abbey_files/btn_submit.gif" border=0 name=btn_submit></TD></TR>
+        <TR>
+          <TD class=emptyline colSpan=3>&nbsp;</TD></TR></TBODY></TABLE>
+      <TABLE class=standardpagefont cellSpacing=0 cellPadding=0 width=545 
+      border=0>
+        <TBODY>
+        <TR>
+          <TD align=right><A class=greentextlink 
+            title="Forgotten your security details? This link will open in a new window." 
+            onclick="launch('/ffStatic/html/centrallogon/userguide/tpl_gbl_userguide_fs.html?11', 'userguide', '600', '300');return false;" 
+            tabIndex=20 
+            href="/ffStatic/html/centrallogon/userguide/tpl_gbl_userguide_fs.html?11" 
+            target=_blank>Forgotten your security details?</A></TD>
+          <TD width=100>&nbsp;</TD></TR></TBODY></TABLE></FORM>
+      <TABLE class=navigationpanelbackground cellSpacing=0 cellPadding=0 
+      width="97%" border=0>
+        <TBODY>
+        <TR>
+          <TD class=blackrow colSpan=5 height=1>&nbsp;</TD></TR>
+        <TR>
+          <TD width=10>&nbsp;</TD>
+          <TD colSpan=2>
+            <H1 class=contenttitlenonbold><B>Other</B> online 
+services</H1></TD></TR>
+        <TR>
+          <TD width=10>&nbsp;</TD>
+          <TD><IMG src="abbey_files/arrow.gif"><IMG 
+            src="abbey_files/spacer.gif" width=5><A 
+            class=menulink title="Log on to Online Credit Card Service" 
+            tabIndex=21 
+            href="2">Log 
+            on to Online Abbey Credit Card</A></TD>
+          <TD width=10>&nbsp;</TD></TR>
+        <TR>
+          <TD width=10>&nbsp;</TD>
+          <TD><IMG src="abbey_files/arrow.gif"><IMG 
+            src="abbey_files/spacer.gif" width=5><A 
+            class=menulink title="Log on to sharedealing" 
+            onclick="window.open('https://www.abbeysharedealing.com','newwindow'); return false;" 
+            tabIndex=21 href="https://www.abbeysharedealing.com/" 
+            target=_blank>Log on to sharedealing</A></TD>
+          <TD width=10>&nbsp;</TD></TR>
+        <TR>
+          <TD width=10>&nbsp;</TD>
+          <TD><IMG src="abbey_files/arrow.gif"><IMG 
+            src="abbey_files/spacer.gif" width=5><A 
+            class=menulink title="Log on for clients of Premium Investments" 
+            onclick="window.open('https://www.inscape.com/html_site/html/account/login.asp','newwindow'); return false;" 
+            tabIndex=22 
+            href="https://www.inscape.com/html_site/html/account/login.asp" 
+            target=_blank>Log on for clients of Premium Investments</A></TD>
+          <TD width=10>&nbsp;</TD></TR>
+        <TR>
+          <TD class=emptyline colSpan=3 height=5>&nbsp;</TD></TR>
+        <TR>
+          <TD class=blackrowbottom colSpan=5 
+      height=1>&nbsp;</TD></TR></TBODY></TABLE>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD colSpan=3>&nbsp;</TD></TR>
+        <TR>
+          <TD align=left width="97%" colSpan=2>
+            <TABLE id=1 cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD>
+                  <H1 class=largeboldredpagefont>Changes to the online credit 
+                  card log on</H1></TD></TR>
+              <TR>
+                <TD class=standardpagefont>The link to the Online Credit Card 
+                  service will soon be removed from this page. To ensure 
+                  continued access to this service, we recommend you add <A 
+                  class=greentextlink 
+                  href="http://www.abbeycreditcard.com/">http://www.abbeycreditcard.com/</A>to 
+                  your favourites</TD></TR>
+              <TR>
+                <TD>&nbsp;</TD></TR></TBODY></TABLE>
+            <TABLE id=2 cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD>
+                  <H1 class=largeboldredpagefont>Important warning about 
+                  internet banking fraud</H1></TD></TR>
+              <TR>
+                <TD class=standardpagefont>Customers of several UK banks have 
+                  recently been the target of a fraud which uses fake e-mails to 
+                  encourage customers to enter their card or security details 
+                  into a counterfeit copy of their website. <B>Abbey will never 
+                  send you an e-mail asking you to enter, reconfirm or change 
+                  your security details.</B> If you think you may have revealed 
+                  your security details in any way, or if you receive any 
+                  suspicious looking emails <B>please call us on: 0845 600 
+                  4388</B></TD></TR></TBODY></TABLE></TD>
+          <TD width="3%">&nbsp;</TD></TR></TBODY></TABLE>
+      <TABLE cellSpacing=0 cellPadding=4 width="97%" border=0>
+        <TBODY>
+        <TR>
+          <TD class=solidlinebottom colSpan=4 height=1><IMG 
+            src="abbey_files/spacer.gif" 
+      border=0></TD></TR></TBODY></TABLE>
+      <TABLE cellSpacing=0 cellPadding=4 width="97%" border=0>
+        <TBODY>
+        <TR>
+          <TD colSpan=4><IMG src="abbey_files/spacer.gif" 
+            border=0></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD>&nbsp;</TD></TR>
+  <TR>
+    <TD>&nbsp;</TD></TR>
+  <TR>
+    <TD class=pagebackground colSpan=3 height=10><IMG 
+      src="abbey_files/spacer.gif" border=0></TD></TR>
+  <TR>
+    <TD class=pagebackground><IMG src="abbey_files/spacer.gif" 
+      border=0></TD>
+    <TD class=pagebackground align=middle colSpan=2>
+      <TABLE cellSpacing=1 cellPadding=0 width=400 border=0>
+        <TBODY>
+        <TR>
+          <TD align=middle><A class=bottommenulink 
+            title="Click here for peace of mind guarantee" tabIndex=23 
+            href="/CentralLogonWeb/jsp/static/peace_mind_guarantee.jsp">Peace 
+            of Mind Guarantee</A></TD>
+          <TD>&nbsp;|&nbsp;</TD>
+          <TD align=middle><A class=bottommenulink 
+            title="Click here for site help and accessibility" tabIndex=24 
+            href="/CentralLogonWeb/jsp/static/site_help.jsp">Site 
+            Help &amp; Accessibility</A></TD>
+          <TD>&nbsp;|&nbsp;</TD>
+          <TD align=middle><A class=bottommenulink 
+            title="click here for security and privacy" tabIndex=25 
+            href="/CentralLogonWeb/jsp/static/privacy_statement.jsp">Security 
+            &amp; Privacy</A></TD>
+          <TD>&nbsp;|&nbsp;</TD>
+          <TD align=middle><A class=bottommenulink 
+            title="Click here for legal" tabIndex=26 
+            href="/CentralLogonWeb/jsp/static/homepage_legal.jsp">Legal</A></TD></TR></TBODY></TABLE></TD>
+    <TD class=pagebackground><IMG src="abbey_files/spacer.gif" 
+      border=0></TD>
+    <TD class=pagebackground><IMG src="abbey_files/spacer.gif" 
+      border=0></TD></TR>
+  <TR>
+    <TD class=pagebackground colSpan=5 height=10><IMG 
+      src="abbey_files/spacer.gif" 
+border=0></TD></TR></TBODY></TABLE></BODY></HTML>

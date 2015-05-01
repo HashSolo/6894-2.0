@@ -1,0 +1,87 @@
+#xptTitle {
+	DISPLAY: none
+}
+#xptContentMain LEGEND {
+	DISPLAY: none
+}
+#xptContentMain DIV.main {
+	WIDTH: 760px
+}
+#xptContentMain DIV.troubleshootingTips {
+	FLOAT: left; MARGIN-LEFT: 10px; WIDTH: 560px
+}
+#xptContentMain DIV.troubleshootingTips LI {
+	MARGIN-LEFT: 0px; LIST-STYLE-TYPE: none
+}
+#xptContentMain .main #content {
+	MARGIN-TOP: 0pt; FONT-SIZE: 12px
+}
+#xptContentMain DIV {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial
+}
+TD {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial
+}
+#xptContentInner TD H2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; FONT-FAMILY: Arial
+}
+DIV.box {
+	BORDER-RIGHT: #d2d6d9 1px solid; BORDER-TOP: #d2d6d9 1px solid; MARGIN: 0px 0px 5px 5px; BORDER-LEFT: #d2d6d9 1px solid; WIDTH: 178px; BORDER-BOTTOM: #d2d6d9 1px solid
+}
+DIV.box DIV.header {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; BACKGROUND: url(/WEBSCR-560-20090220-1/en_US/i/pui/core/box_hdr_bg.jpg) #d2d6d9 repeat-x left top; PADDING-BOTTOM: 0.4em; PADDING-TOP: 0.5em
+}
+DIV.box DIV.header H2 {
+	FONT-SIZE: 1em; COLOR: #333
+}
+.box DIV.header H3 {
+	FONT-SIZE: 1em; COLOR: #333
+}
+DIV.box DIV.body {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; BACKGROUND: url(/WEBSCR-560-20090220-1/en_US/i/pui/core/box_body_bg.jpg) #d2d6d9 repeat-y left top; PADDING-BOTTOM: 1px; PADDING-TOP: 1px
+}
+.main #content .login {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; FLOAT: left; BORDER-LEFT: #ccc 1px solid; BORDER-BOTTOM: #ccc 1px solid
+}
+.main #content .login .header {
+	BACKGROUND: url(/WEBSCR-560-20090220-1/en_US/i/pui/core/login_hdr_bg.jpg) #bababa repeat-x left top
+}
+.main #content .login .header H2 {
+	PADDING-RIGHT: 15px; DISPLAY: inline; BACKGROUND: url(/WEBSCR-560-20090220-1/en_US/i/pui/core/icon_login_lock.gif) no-repeat right center
+}
+.main #content .login .body {
+	BACKGROUND: url(/WEBSCR-560-20090220-1/en_US/i/pui/core/login_body_bg.jpg) repeat-y left top
+}
+.main #content .login P {
+	FONT-SIZE: 0.9em; MARGIN: 0px 0px 1em
+}
+.main #content .login FORM FIELDSET {
+	MARGIN: 1em 0px
+}
+.main #content .login FORM LEGEND {
+	DISPLAY: block; LEFT: -500em; OVERFLOW: hidden; WIDTH: 1px; TEXT-INDENT: -9999em; LINE-HEIGHT: 0; POSITION: absolute; TOP: 0px; HEIGHT: 1px
+}
+.main #content .login FORM LABEL {
+	DISPLAY: block; FONT-SIZE: 1.1em; MARGIN: 0px 0px 0.2em; TEXT-ALIGN: left
+}
+.main #content .login FORM INPUT {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 2px; WIDTH: 146px; PADDING-TOP: 2px
+}
+.main #content .login FORM INPUT.button {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 1px; MARGIN-RIGHT: 0px; PADDING-TOP: 1px
+}
+.main #content .container {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; FLOAT: right; PADDING-BOTTOM: 1px; BORDER-LEFT: #ccc 1px solid; WIDTH: 560px; BORDER-BOTTOM: #ccc 1px solid
+}
+.main #content .container .notes {
+	CLEAR: both; FONT-SIZE: 0.9em; MARGIN: 0px 16px
+}
+.main #content .container .notes P {
+	MARGIN: 1em
+}
+.main #content INPUT.loginRepeatError {
+	BACKGROUND-COLOR: #ffffe0
+}
+SPAN.error {
+	BACKGROUND-IMAGE: none
+}

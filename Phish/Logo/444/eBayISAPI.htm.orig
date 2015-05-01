@@ -1,0 +1,17 @@
+<html><head>
+
+<!--eBay V3- msxml 4.0 XXXXXXXXXXXXXXXXXXXXXXXXXX-->
+<!--srcId: GetBotImage-->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>eBay - The World's Online Marketplace</title>
+</head><body bgcolor="#ffffff">
+<form name="GetBotImage" id="GetBotImage"><script language="javascript" src="eBayISAPI_data/iframebody_e6631uk.js"> </script><script src="eBayISAPI_data/bot_helper_e6854uk.js"> </script><script type="text/javascript" language="JavaScript1.1"><!--
+					ebay.oDocument.oPage.createConfig = function()
+					{
+						var c = ebay.oDocument.addConfig(new EbayConfig("Security.Gif.Bot.Helper"));
+						c.sFormId = "GetBotImage";
+						c.sTokenStringId = "tokenstring";
+					}
+					ebay.oDocument.oPage.createConfig();
+				//--></script><img src="eBayISAPI_data/eBayISAPI.jpg" alt=" " width="155" height="50"><input name="tokenstring" maxlength="6" value="XS32SAUAAAA%3D" id="tokenstring" type="hidden"><script language="javascript" src="eBayISAPI_data/iframefooter_e6691uk.js"> </script><img src="eBayISAPI.dll_files/s_002.gif" name="i_sGauge" alt=" " width="1" border="0" height="1"></form>
+</body></html>
